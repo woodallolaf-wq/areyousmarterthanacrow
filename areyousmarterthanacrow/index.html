@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smarter Than A Crow</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app">
+
+    <!-- SCREEN: INTRO -->
+    <section id="screen-intro" class="screen" hidden>
+      <button id="intro-start" class="btn btn-big">Are you smarter than a crow?</button>
+    </section>
+
+    <!-- SCREEN: HOME -->
+    <section id="screen-home" class="screen" hidden>
+      <div class="top-bar">
+        <button id="home-rewards" class="btn btn-small">Streaks &amp; Trophies</button>
+      </div>
+      <div class="center">
+        <button id="home-test" class="btn btn-big">Take Test</button>
+      </div>
+    </section>
+
+    <!-- SCREEN: OPPONENTS -->
+    <section id="screen-opponents" class="screen" hidden>
+      <div class="top-bar">
+        <button class="btn btn-small" data-nav="home">&larr; Back</button>
+      </div>
+      <h1 class="title">Choose your opponent</h1>
+      <ul id="opponents-list" class="list"></ul>
+    </section>
+
+    <!-- SCREEN: TEST -->
+    <section id="screen-test" class="screen" hidden>
+      <div class="test-header">
+        <span id="test-opponent" class="muted"></span>
+        <span id="test-progress" class="muted"></span>
+      </div>
+      <h2 id="test-question" class="question"></h2>
+      <div id="test-choices" class="choices"></div>
+    </section>
+
+    <!-- SCREEN: RESULT -->
+    <section id="screen-result" class="screen" hidden>
+      <h1 id="result-headline" class="title"></h1>
+      <p id="result-score" class="big-score"></p>
+      <p id="result-verdict" class="verdict"></p>
+      <p id="result-streak" class="muted"></p>
+      <div id="result-trophy" class="trophy-banner" hidden></div>
+      <button class="btn btn-big" data-nav="home">Back to start</button>
+    </section>
+
+    <!-- SCREEN: REWARDS -->
+    <section id="screen-rewards" class="screen" hidden>
+      <div class="top-bar">
+        <button class="btn btn-small" data-nav="home">&larr; Back</button>
+      </div>
+      <h1 class="title">Streaks &amp; Trophies</h1>
+      <h2 class="subtitle">Streaks</h2>
+      <ul id="rewards-streaks" class="list"></ul>
+      <h2 class="subtitle">Trophies</h2>
+      <ul id="rewards-trophies" class="list"></ul>
+    </section>
+
+    <!-- SCREEN: ERROR -->
+    <section id="screen-error" class="screen" hidden>
+      <h1 class="title">Something went wrong</h1>
+      <p id="error-message" class="muted">Could not load today's questions.</p>
+      <button id="error-retry" class="btn btn-big">Try again</button>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

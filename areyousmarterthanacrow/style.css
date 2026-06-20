@@ -1,0 +1,291 @@
+/* Smarter Than A Crow — black/white, deadpan, minimal. */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #000;
+  --fg: #fff;
+  --muted: #888;
+  --dim: #333;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.4;
+}
+
+#app {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* --- Screens --- */
+.screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.screen[hidden] {
+  display: none;
+}
+
+/* --- Typography --- */
+.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 28px 0 12px;
+  align-self: flex-start;
+}
+
+.question {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 32px 0;
+  min-height: 3em;
+  display: flex;
+  align-items: center;
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.big-score {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 16px 0;
+  letter-spacing: -0.03em;
+}
+
+.verdict {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* --- Buttons --- */
+.btn {
+  background: var(--fg);
+  color: var(--bg);
+  border: 2px solid var(--fg);
+  font-family: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 14px 24px;
+  font-size: 1rem;
+  transition: opacity 0.12s ease;
+}
+
+.btn:hover {
+  opacity: 0.82;
+}
+
+.btn:active {
+  opacity: 0.65;
+}
+
+.btn:disabled {
+  background: var(--bg);
+  color: var(--dim);
+  border-color: var(--dim);
+  cursor: default;
+}
+
+.btn-big {
+  font-size: 1.3rem;
+  padding: 20px 32px;
+  max-width: 480px;
+  width: 100%;
+}
+
+.btn-small {
+  font-size: 0.85rem;
+  padding: 8px 14px;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.btn-small:hover {
+  background: var(--fg);
+  color: var(--bg);
+  opacity: 1;
+}
+
+/* --- Layout helpers --- */
+.top-bar {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* --- Lists --- */
+.list {
+  list-style: none;
+  width: 100%;
+}
+
+.list li {
+  border: 2px solid var(--fg);
+  margin-bottom: 12px;
+}
+
+/* Opponent rows */
+.opponent-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: var(--bg);
+  color: var(--fg);
+  border: none;
+  font-family: inherit;
+  padding: 18px 20px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.opponent-row:hover:not(:disabled) {
+  background: var(--fg);
+  color: var(--bg);
+}
+
+.opponent-row:disabled {
+  color: var(--dim);
+  cursor: default;
+}
+
+.opponent-row .op-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.opponent-row .op-meta {
+  text-align: right;
+  font-size: 0.85rem;
+}
+
+.opponent-row .op-locked {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Static info rows (streaks / trophies) */
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+}
+
+.info-row .label {
+  font-weight: 700;
+}
+
+.empty-note {
+  color: var(--muted);
+  padding: 8px 0;
+  align-self: flex-start;
+}
+
+/* --- Test choices --- */
+.test-header {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 480px;
+}
+
+.choice {
+  background: var(--bg);
+  color: var(--fg);
+  border: 2px solid var(--fg);
+  font-family: inherit;
+  font-size: 1.05rem;
+  font-weight: 600;
+  padding: 16px 20px;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.12s ease, color 0.12s ease;
+}
+
+.choice:hover {
+  background: var(--fg);
+  color: var(--bg);
+}
+
+/* --- Trophy banner --- */
+.trophy-banner {
+  border: 2px solid var(--fg);
+  padding: 16px 20px;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 480px;
+}
+
+.trophy-banner[hidden] {
+  display: none;
+}
+
+.trophy-banner .trophy-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  color: var(--muted);
+}
+
+.trophy-banner .trophy-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+}

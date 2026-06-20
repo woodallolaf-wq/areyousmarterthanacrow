@@ -1,0 +1,90 @@
+{
+  "date": "2026-06-20",
+  "opponents": [
+    {
+      "id": "crow",
+      "name": "Crow",
+      "iq": 90,
+      "questions": [
+        { "q": "What is the square root of 144?", "choices": ["12", "14", "24", "72"], "answer": 0 },
+        { "q": "Who wrote Romeo and Juliet?", "choices": ["Dickens", "Shakespeare", "Tolstoy", "Homer"], "answer": 1 },
+        { "q": "What is the chemical symbol for gold?", "choices": ["Gd", "Go", "Au", "Ag"], "answer": 2 },
+        { "q": "How many bones are in the adult human body?", "choices": ["198", "206", "212", "180"], "answer": 1 },
+        { "q": "What is the largest planet in our solar system?", "choices": ["Saturn", "Neptune", "Earth", "Jupiter"], "answer": 3 },
+        { "q": "In what year did World War II end?", "choices": ["1945", "1939", "1918", "1950"], "answer": 0 },
+        { "q": "What is often called the powerhouse of the cell?", "choices": ["Nucleus", "Mitochondria", "Ribosome", "Membrane"], "answer": 1 },
+        { "q": "What is 15% of 200?", "choices": ["15", "20", "30", "45"], "answer": 2 },
+        { "q": "Which element has the atomic number 1?", "choices": ["Helium", "Oxygen", "Carbon", "Hydrogen"], "answer": 3 },
+        { "q": "What is the freezing point of water in Fahrenheit?", "choices": ["32", "0", "100", "212"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "timmy",
+      "name": "Timmy",
+      "iq": 70,
+      "questions": [
+        { "q": "What color is the sky on a clear day?", "choices": ["Green", "Blue", "Red", "Purple"], "answer": 1 },
+        { "q": "How many legs does a dog have?", "choices": ["2", "6", "4", "8"], "answer": 2 },
+        { "q": "What is 2 + 2?", "choices": ["3", "5", "22", "4"], "answer": 3 },
+        { "q": "Which animal says \"moo\"?", "choices": ["Cow", "Cat", "Duck", "Pig"], "answer": 0 },
+        { "q": "What do bees make?", "choices": ["Milk", "Honey", "Bread", "Web"], "answer": 1 },
+        { "q": "How many days are in a week?", "choices": ["5", "10", "7", "12"], "answer": 2 },
+        { "q": "What is the opposite of hot?", "choices": ["Warm", "Wet", "Big", "Cold"], "answer": 3 },
+        { "q": "Which is bigger, an elephant or a mouse?", "choices": ["Elephant", "Mouse", "Same size", "Neither"], "answer": 0 },
+        { "q": "What do you use to see?", "choices": ["Ears", "Eyes", "Nose", "Feet"], "answer": 1 },
+        { "q": "What is frozen water called?", "choices": ["Steam", "Rain", "Ice", "Mud"], "answer": 2 }
+      ]
+    },
+    {
+      "id": "parrot",
+      "name": "Parrot",
+      "iq": 80,
+      "questions": [
+        { "q": "How many continents are there?", "choices": ["5", "6", "7", "8"], "answer": 2 },
+        { "q": "What is the capital of France?", "choices": ["Berlin", "Paris", "Rome", "Madrid"], "answer": 1 },
+        { "q": "What gas do plants take in for photosynthesis?", "choices": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"], "answer": 2 },
+        { "q": "How many sides does a triangle have?", "choices": ["3", "4", "5", "6"], "answer": 0 },
+        { "q": "What planet do we live on?", "choices": ["Mars", "Venus", "Jupiter", "Earth"], "answer": 3 },
+        { "q": "What is H2O commonly known as?", "choices": ["Salt", "Water", "Air", "Sugar"], "answer": 1 },
+        { "q": "Which is the largest ocean?", "choices": ["Atlantic", "Indian", "Pacific", "Arctic"], "answer": 2 },
+        { "q": "How many minutes are in an hour?", "choices": ["30", "45", "90", "60"], "answer": 3 },
+        { "q": "What is the tallest land animal?", "choices": ["Giraffe", "Elephant", "Horse", "Camel"], "answer": 0 },
+        { "q": "What color do you get mixing blue and yellow?", "choices": ["Purple", "Green", "Orange", "Brown"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "bob",
+      "name": "Bob",
+      "iq": 100,
+      "questions": [
+        { "q": "What is the derivative of x squared?", "choices": ["x", "2x", "x cubed", "2"], "answer": 1 },
+        { "q": "Who painted the Mona Lisa?", "choices": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello"], "answer": 1 },
+        { "q": "The speed of light is approximately how many km/s?", "choices": ["3,000", "30,000", "300,000", "3,000,000"], "answer": 2 },
+        { "q": "What is the capital of Australia?", "choices": ["Sydney", "Melbourne", "Canberra", "Perth"], "answer": 2 },
+        { "q": "How many chambers does the human heart have?", "choices": ["2", "3", "4", "5"], "answer": 2 },
+        { "q": "What is the smallest prime number?", "choices": ["0", "1", "2", "3"], "answer": 2 },
+        { "q": "What is the currency of Japan?", "choices": ["Won", "Yuan", "Yen", "Ringgit"], "answer": 2 },
+        { "q": "What is the longest river in the world?", "choices": ["Amazon", "Nile", "Yangtze", "Mississippi"], "answer": 1 },
+        { "q": "What is the value of pi to two decimal places?", "choices": ["3.12", "3.14", "3.16", "3.41"], "answer": 1 },
+        { "q": "Which planet is known as the Red Planet?", "choices": ["Venus", "Mars", "Mercury", "Saturn"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "einstein",
+      "name": "Einstein",
+      "iq": 180,
+      "questions": [
+        { "q": "What is the value of e (Euler's number) to two decimals?", "choices": ["2.62", "2.72", "3.14", "1.62"], "answer": 1 },
+        { "q": "Heisenberg's uncertainty principle relates which pair?", "choices": ["Mass and charge", "Position and momentum", "Time and temperature", "Force and area"], "answer": 1 },
+        { "q": "What is the integral of 1/x with respect to x?", "choices": ["x ln x + C", "1/x^2 + C", "ln|x| + C", "-1/x^2 + C"], "answer": 2 },
+        { "q": "The Schwarzschild radius is associated with what?", "choices": ["Black holes", "Neutron stars", "Comets", "Quasiparticles"], "answer": 0 },
+        { "q": "What is the most abundant element in the universe?", "choices": ["Oxygen", "Carbon", "Helium", "Hydrogen"], "answer": 3 },
+        { "q": "The Riemann hypothesis concerns the zeros of which function?", "choices": ["Gamma function", "Zeta function", "Beta function", "Error function"], "answer": 1 },
+        { "q": "What is the time complexity of binary search?", "choices": ["O(n)", "O(n log n)", "O(log n)", "O(1)"], "answer": 2 },
+        { "q": "In E = mc squared, what does c represent?", "choices": ["A constant of friction", "Charge", "Speed of light", "Specific heat"], "answer": 2 },
+        { "q": "What is the chemical formula for benzene?", "choices": ["C6H6", "CH4", "C2H6", "C6H12O6"], "answer": 0 },
+        { "q": "What is the 7th prime number?", "choices": ["13", "15", "17", "19"], "answer": 2 }
+      ]
+    }
+  ]
+}
