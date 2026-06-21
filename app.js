@@ -11,7 +11,7 @@
   var WIN_SCORE = 10; // beating = perfect. Anything less = did not beat.
   // Known opponent ids. Used only as a fallback so state is well-formed even
   // before questions.json loads. The source of truth for play is questions.json.
-  var KNOWN_IDS = ["crow", "timmy", "parrot", "bob", "einstein"];
+  var KNOWN_IDS = ["crow", "timmy", "parrot", "bob", "einstein", "claude"];
 
   // Human-readable labels for trophy ids. Unknown ids fall back to the raw id
   // so new trophies can be added in data without touching this file.
@@ -21,6 +21,7 @@
     beat_parrot: "Smarter than a parrot",
     beat_bob: "Smarter than Bob",
     beat_einstein: "Smarter than Einstein",
+    beat_claude: "Smarter than Claude",
     lost_to_timmy: "Dumber than Timmy"
   };
 

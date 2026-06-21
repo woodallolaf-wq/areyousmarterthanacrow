@@ -85,6 +85,23 @@
         { "q": "What is the value of the golden ratio to two decimals?", "choices": ["1.41", "1.62", "2.72", "3.14"], "answer": 1 },
         { "q": "What is the chemical symbol for potassium?", "choices": ["P", "Po", "K", "Pt"], "answer": 2 }
       ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "iq": 1000,
+      "questions": [
+        { "q": "How many times does the letter \"r\" appear in the word \"strawberry\"?", "choices": ["2", "3", "4", "1"], "answer": 1 },
+        { "q": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10", "$0.05", "$1.00", "$0.15"], "answer": 1 },
+        { "q": "How many words are in this question?", "choices": ["6", "7", "8", "9"], "answer": 1 },
+        { "q": "In the Monty Hall problem, after the host opens a door revealing a goat, should you switch doors to maximize your chance of winning?", "choices": ["No, it makes no difference", "Yes, switching wins about two-thirds of the time", "No, switching lowers your odds", "Only if a fourth door is added"], "answer": 1 },
+        { "q": "Which of these numbers is prime?", "choices": ["51", "87", "91", "97"], "answer": 3 },
+        { "q": "What is 17 x 23?", "choices": ["371", "381", "391", "401"], "answer": 2 },
+        { "q": "Who proved Fermat's Last Theorem?", "choices": ["Pierre de Fermat", "Leonhard Euler", "Andrew Wiles", "Kurt Godel"], "answer": 2 },
+        { "q": "If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops definitely Lazzies?", "choices": ["Yes", "No", "Not enough information", "Only some of them"], "answer": 0 },
+        { "q": "How many seconds are in a single day?", "choices": ["3,600", "86,400", "84,600", "1,440"], "answer": 1 },
+        { "q": "The transformer architecture behind modern language models relies primarily on what mechanism?", "choices": ["Recurrence", "Convolution", "Attention", "Decision trees"], "answer": 2 }
+      ]
     }
   ]
 }
