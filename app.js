@@ -433,14 +433,28 @@
   // ---------------------------------------------------------------------------
   // Boot
   // ---------------------------------------------------------------------------
+  // Has the user ever used the site before? Any recorded attempt, any streak,
+  // or any trophy counts as prior use. Robust to which opponent was played
+  // first and to future opponents — not tied specifically to the crow.
+  function hasPlayedBefore(state) {
+    var anyPlayed = Object.keys(state.lastPlayed).some(function (id) {
+      return state.lastPlayed[id] !== null;
+    });
+    var anyStreak = Object.keys(state.streaks).some(function (id) {
+      return state.streaks[id] > 0;
+    });
+    return anyPlayed || anyStreak || state.trophies.length > 0;
+  }
+
   function decideEntryScreen() {
     var state = loadState();
-    // Intro only if the crow has literally never been attempted AND not locked
-    // today (a fresh player). The intro test IS the first crow attempt.
-    if (state.lastPlayed.crow === null && !isLocked(state, "crow")) {
-      show("intro");
-    } else {
+    // The intro IS the first crow attempt, so only a brand-new visitor sees it.
+    // Anyone who has already used the site lands straight on Home (the screen
+    // you reach after that first crow test).
+    if (hasPlayedBefore(state)) {
       goHome();
+    } else {
+      show("intro");
     }
   }
 
