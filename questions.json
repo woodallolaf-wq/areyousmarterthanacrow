@@ -1,21 +1,21 @@
 {
-  "date": "2026-06-24",
+  "date": "2026-06-25",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the chemical symbol for gold?", "choices": ["Au", "Go", "Gd", "Gl"], "answer": 0 },
-        { "q": "How many centimeters are in one meter?", "choices": ["10", "100", "1000", "10000"], "answer": 1 },
-        { "q": "What is the capital of Australia?", "choices": ["Sydney", "Melbourne", "Canberra", "Brisbane"], "answer": 2 },
-        { "q": "What is 15 × 8?", "choices": ["100", "110", "130", "120"], "answer": 3 },
-        { "q": "Who painted the ceiling of the Sistine Chapel?", "choices": ["Da Vinci", "Michelangelo", "Raphael", "Rembrandt"], "answer": 1 },
-        { "q": "What is the freezing point of water in Fahrenheit?", "choices": ["32°F", "16°F", "0°F", "48°F"], "answer": 0 },
-        { "q": "What is the largest ocean on Earth?", "choices": ["Indian", "Atlantic", "Arctic", "Pacific"], "answer": 3 },
-        { "q": "In which year did Columbus first arrive in the Americas?", "choices": ["1392", "1492", "1592", "1692"], "answer": 1 },
-        { "q": "In which year did the Wright brothers make their first powered airplane flight?", "choices": ["1898", "1908", "1893", "1903"], "answer": 3 },
-        { "q": "How many bones does the adult human body have?", "choices": ["196", "216", "206", "226"], "answer": 2 }
+        { "q": "What is the capital of Canada?", "choices": ["Toronto", "Ottawa", "Vancouver", "Montreal"], "answer": 1 },
+        { "q": "What is 17 × 6?", "choices": ["102", "96", "108", "114"], "answer": 0 },
+        { "q": "What is the chemical symbol for sodium?", "choices": ["So", "Sd", "Na", "Sn"], "answer": 2 },
+        { "q": "How many players does each side have on the field in soccer?", "choices": ["9", "10", "12", "11"], "answer": 3 },
+        { "q": "What is the most abundant gas in Earth's atmosphere?", "choices": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"], "answer": 1 },
+        { "q": "What is a baby swan called?", "choices": ["Gosling", "Chick", "Cygnet", "Duckling"], "answer": 2 },
+        { "q": "How many sides does a hexagon have?", "choices": ["6", "5", "7", "8"], "answer": 0 },
+        { "q": "What is the boiling point of water in Celsius?", "choices": ["80°C", "100°C", "90°C", "120°C"], "answer": 1 },
+        { "q": "What is the square root of 144?", "choices": ["10", "11", "12", "14"], "answer": 2 },
+        { "q": "On which planet is Olympus Mons, the solar system's tallest volcano?", "choices": ["Venus", "Jupiter", "Mercury", "Mars"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is snow?", "choices": ["White", "Blue", "Green", "Pink"], "answer": 0 },
-        { "q": "How many legs does a dog have?", "choices": ["3", "4", "5", "2"], "answer": 1 },
-        { "q": "What do bees make?", "choices": ["Honey", "Milk", "Butter", "Jam"], "answer": 0 },
-        { "q": "What number comes just before 3?", "choices": ["4", "5", "2", "1"], "answer": 2 },
-        { "q": "What do birds use to fly?", "choices": ["Fins", "Wings", "Legs", "Tails"], "answer": 1 },
-        { "q": "What shape is a pizza?", "choices": ["Square", "Triangle", "Round", "Rectangle"], "answer": 2 },
-        { "q": "Which of these can you eat?", "choices": ["A rock", "Sand", "An apple", "A brick"], "answer": 2 },
-        { "q": "What is 2 + 2?", "choices": ["3", "5", "6", "4"], "answer": 3 },
-        { "q": "Where do you go when you feel sick?", "choices": ["Library", "Doctor", "Shop", "Park"], "answer": 1 },
-        { "q": "Which animal gives us wool?", "choices": ["Pig", "Chicken", "Sheep", "Horse"], "answer": 2 }
+        { "q": "What color is the sky on a sunny day?", "choices": ["Red", "Green", "Blue", "Purple"], "answer": 2 },
+        { "q": "How many fingers are on one hand?", "choices": ["5", "3", "4", "6"], "answer": 0 },
+        { "q": "What do you call a baby cat?", "choices": ["Kitten", "Puppy", "Calf", "Chick"], "answer": 0 },
+        { "q": "What is 5 minus 3?", "choices": ["1", "3", "2", "4"], "answer": 2 },
+        { "q": "Which animal says 'meow'?", "choices": ["Dog", "Frog", "Bird", "Cat"], "answer": 3 },
+        { "q": "What do you wear on your feet?", "choices": ["Shoes", "Hat", "Gloves", "Scarf"], "answer": 0 },
+        { "q": "What season has the most snow?", "choices": ["Spring", "Summer", "Autumn", "Winter"], "answer": 3 },
+        { "q": "How many wheels does a bicycle have?", "choices": ["1", "2", "3", "4"], "answer": 1 },
+        { "q": "What do you use to write on paper?", "choices": ["Banana", "Pencil", "Sock", "Rock"], "answer": 1 },
+        { "q": "Which of these is a vegetable?", "choices": ["Candy", "Cake", "Carrot", "Cookie"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the chemical formula for water?", "choices": ["H2O", "HO", "H3O", "OH2"], "answer": 0 },
-        { "q": "How many amendments does the US Constitution have?", "choices": ["20", "27", "22", "25"], "answer": 1 },
-        { "q": "What is the currency of Japan?", "choices": ["Won", "Yuan", "Yen", "Rupee"], "answer": 2 },
-        { "q": "In which year did World War I begin?", "choices": ["1910", "1912", "1918", "1914"], "answer": 3 },
-        { "q": "What element has the chemical symbol Pb?", "choices": ["Platinum", "Lead", "Phosphorus", "Potassium"], "answer": 1 },
-        { "q": "What is the largest planet in our solar system?", "choices": ["Saturn", "Neptune", "Jupiter", "Uranus"], "answer": 2 },
-        { "q": "What is the approximate speed of light in a vacuum?", "choices": ["3 × 10⁸ m/s", "3 × 10⁶ m/s", "3 × 10¹⁰ m/s", "3 × 10⁵ m/s"], "answer": 0 },
-        { "q": "What is the capital of Egypt?", "choices": ["Luxor", "Cairo", "Giza", "Alexandria"], "answer": 1 },
-        { "q": "Who composed 'The Four Seasons'?", "choices": ["Mozart", "Bach", "Vivaldi", "Handel"], "answer": 2 },
-        { "q": "What is the capital of Peru?", "choices": ["Bogotá", "Quito", "Santiago", "Lima"], "answer": 3 }
+        { "q": "Who wrote 'Pride and Prejudice'?", "choices": ["George Eliot", "Virginia Woolf", "Charlotte Brontë", "Jane Austen"], "answer": 3 },
+        { "q": "What is the boiling point of water in Kelvin?", "choices": ["100 K", "273 K", "373 K", "500 K"], "answer": 2 },
+        { "q": "In what year was the Eiffel Tower completed?", "choices": ["1879", "1889", "1899", "1909"], "answer": 1 },
+        { "q": "What is the largest country by land area?", "choices": ["China", "USA", "Canada", "Russia"], "answer": 3 },
+        { "q": "What gas do plants primarily absorb during photosynthesis?", "choices": ["Oxygen", "Carbon dioxide", "Nitrogen", "Methane"], "answer": 1 },
+        { "q": "Who was the first President of the United States?", "choices": ["John Adams", "Thomas Jefferson", "George Washington", "Benjamin Franklin"], "answer": 2 },
+        { "q": "How many time zones does Russia span?", "choices": ["11", "9", "7", "13"], "answer": 0 },
+        { "q": "What does the Richter scale measure?", "choices": ["Wind speed", "Earthquake magnitude", "Ocean depth", "Volcanic temperature"], "answer": 1 },
+        { "q": "What is the capital of Nigeria?", "choices": ["Kano", "Lagos", "Ibadan", "Abuja"], "answer": 3 },
+        { "q": "In what year did the Titanic sink?", "choices": ["1912", "1909", "1915", "1918"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the derivative of ln(x) with respect to x?", "choices": ["1/x", "ln(x)/x", "1/x²", "x"], "answer": 0 },
-        { "q": "Which expression correctly states the Heisenberg uncertainty principle?", "choices": ["ΔE·Δt ≥ ℏ/2", "Δx·Δp ≥ ℏ/2", "ΔE·Δx ≥ ℏ/2", "Δx·Δp ≤ ℏ/2"], "answer": 1 },
-        { "q": "Which sorting algorithm guarantees O(n log n) worst-case time complexity?", "choices": ["Quicksort", "Bubble sort", "Merge sort", "Insertion sort"], "answer": 2 },
-        { "q": "On the surface of a sphere, the interior angles of a triangle sum to:", "choices": ["Less than 180°", "Always 360°", "Exactly 180°", "Greater than 180°"], "answer": 3 },
-        { "q": "What is i⁴, where i = √(−1)?", "choices": ["−i", "−1", "1", "i"], "answer": 2 },
-        { "q": "The Nernst equation describes the:", "choices": ["Rate of enzyme reactions", "Entropy of an ideal gas expansion", "Gibbs energy of a phase change", "Equilibrium potential of an electrochemical cell"], "answer": 3 },
-        { "q": "What is the order (number of elements) of the cyclic group Z₆?", "choices": ["6", "4", "12", "3"], "answer": 0 },
-        { "q": "What is the molecular formula of benzene?", "choices": ["C₂H₂", "C₆H₆", "C₄H₄", "C₈H₈"], "answer": 1 },
-        { "q": "The P vs NP problem asks whether:", "choices": ["Exponential-time problems can always be solved in polynomial time", "Deterministic algorithms can simulate probabilistic ones", "Problems whose solutions can be quickly verified can also be quickly solved", "Parallel computing eliminates all computational hardness"], "answer": 2 },
-        { "q": "The Maclaurin series for e^x equals:", "choices": ["Σ (−1)ⁿxⁿ/n!", "Σ xⁿ/(2n)!", "Σ nxⁿ", "Σ xⁿ/n!"], "answer": 3 }
+        { "q": "What is ∫₀^∞ e^(−x²) dx?", "choices": ["1", "√π/2", "√π", "π/2"], "answer": 1 },
+        { "q": "Which of these is NOT a Fermat prime?", "choices": ["11", "5", "17", "3"], "answer": 0 },
+        { "q": "What is the time complexity of insertion into a balanced binary search tree?", "choices": ["O(1)", "O(log n)", "O(n)", "O(n log n)"], "answer": 1 },
+        { "q": "What is the ground-state electron configuration of iron (Fe, Z = 26)?", "choices": ["[Ar] 3d⁶ 4s²", "[Ar] 3d⁵ 4s²", "[Ne] 3d⁸ 4s²", "[Ar] 3d⁸"], "answer": 0 },
+        { "q": "What is the Shannon entropy of a fair coin flip, in bits?", "choices": ["0 bits", "0.5 bits", "1 bit", "2 bits"], "answer": 2 },
+        { "q": "For any real matrix A, the matrix AᵀA is always:", "choices": ["Invertible", "Positive definite", "Positive semi-definite", "Skew-symmetric"], "answer": 2 },
+        { "q": "Which statistical distribution underlies the derivation of the classical ideal gas law (PV = NkT)?", "choices": ["Maxwell-Boltzmann", "Fermi-Dirac", "Bose-Einstein", "Planck"], "answer": 0 },
+        { "q": "What is the Euler characteristic (χ = V − E + F) of a torus?", "choices": ["−2", "1", "0", "2"], "answer": 2 },
+        { "q": "What is the remainder when 3^100 is divided by 7?", "choices": ["1", "2", "3", "4"], "answer": 3 },
+        { "q": "In Hamiltonian mechanics, ∂H/∂p equals:", "choices": ["−ṗ", "ṗ", "−q̇", "q̇"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many months of the year have at least 28 days?", "choices": ["1", "2", "7", "12"], "answer": 3 },
-        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep are left alive?", "choices": ["8", "9", "0", "17"], "answer": 1 },
-        { "q": "In a race, you overtake the runner in 2nd place. What position are you in now?", "choices": ["1st", "2nd", "3rd", "Last"], "answer": 1 },
-        { "q": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10", "$0.05", "$1.00", "$0.15"], "answer": 1 },
-        { "q": "Which weighs more: a pound of feathers or a pound of bricks?", "choices": ["The bricks", "The feathers", "They weigh exactly the same", "Neither has any weight"], "answer": 2 },
-        { "q": "How many animals of each kind did Moses bring onto the ark?", "choices": ["Two", "Seven", "One", "None — it was Noah, not Moses"], "answer": 3 },
-        { "q": "A doctor gives you 3 pills and says to take one every half hour. How long do the pills last in total?", "choices": ["1.5 hours", "1 hour", "2 hours", "30 minutes"], "answer": 1 },
-        { "q": "How many times does the letter \"r\" appear in the word \"strawberry\"?", "choices": ["2", "3", "4", "1"], "answer": 1 },
-        { "q": "Spelled out in English, which of these numbers has all its letters in alphabetical order?", "choices": ["One", "Eight", "Forty", "Zero"], "answer": 2 },
-        { "q": "A butcher is 5 feet 10 inches tall and wears size 11 shoes. What does he weigh?", "choices": ["About 200 pounds", "Meat", "It cannot be determined", "Around 90 kilograms"], "answer": 1 }
+        { "q": "What is the next letter in the sequence: O, T, T, F, F, S, S, E, N, ___?", "choices": ["E", "N", "O", "T"], "answer": 3 },
+        { "q": "How many times can you subtract 10 from 100?", "choices": ["Once", "10", "9", "Infinitely many"], "answer": 0 },
+        { "q": "You have two US coins that together make 30 cents. One of them is not a nickel. What are the two coins?", "choices": ["Two dimes", "Three dimes", "A quarter and a nickel", "A dime and two nickels"], "answer": 2 },
+        { "q": "A hen and a half lays an egg and a half in a day and a half. How many eggs do 6 hens lay in 6 days?", "choices": ["6", "24", "36", "9"], "answer": 1 },
+        { "q": "An electric train is heading north at 100 mph. The wind blows from the south at 50 mph. Which way does the smoke blow?", "choices": ["Electric trains produce no smoke", "South", "North", "Northeast"], "answer": 0 },
+        { "q": "In a dark room you have a match, a kerosene lamp, a candle, and a fireplace. What do you light first?", "choices": ["The lamp", "The candle", "The fireplace", "The match"], "answer": 3 },
+        { "q": "How many F's are in: 'FINISHED FILES ARE THE RESULT OF YEARS OF SCIENTIFIC STUDY'?", "choices": ["3", "4", "5", "6"], "answer": 2 },
+        { "q": "At a party, 5 people each shake hands with every other person exactly once. How many handshakes occur?", "choices": ["5", "10", "20", "4"], "answer": 1 },
+        { "q": "A snail climbs 3 feet up a 10-foot wall each day but slides back 2 feet each night. How many days to reach the top?", "choices": ["8", "10", "7", "9"], "answer": 0 },
+        { "q": "The 22nd and 24th US Presidents were the same man. Who was he?", "choices": ["Benjamin Harrison", "Chester Arthur", "Grover Cleveland", "Rutherford Hayes"], "answer": 2 }
       ]
     }
   ]
