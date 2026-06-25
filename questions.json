@@ -36,23 +36,6 @@
       ]
     },
     {
-      "id": "parrot",
-      "name": "Parrot",
-      "iq": 80,
-      "questions": [
-        { "q": "What is the capital of France?", "choices": ["Madrid", "Paris", "London", "Rome"], "answer": 1 },
-        { "q": "How many days are in a week?", "choices": ["5", "7", "6", "8"], "answer": 1 },
-        { "q": "What is our planet called?", "choices": ["Venus", "Mars", "Jupiter", "Earth"], "answer": 3 },
-        { "q": "Which animal has black and white stripes?", "choices": ["Leopard", "Tiger", "Zebra", "Giraffe"], "answer": 2 },
-        { "q": "What is 6 × 6?", "choices": ["34", "30", "36", "42"], "answer": 2 },
-        { "q": "Which instrument has black and white keys?", "choices": ["Drums", "Violin", "Guitar", "Piano"], "answer": 3 },
-        { "q": "How many continents are there on Earth?", "choices": ["7", "5", "6", "8"], "answer": 0 },
-        { "q": "Which ocean borders the west coast of the United States?", "choices": ["Arctic", "Atlantic", "Pacific", "Indian"], "answer": 2 },
-        { "q": "What color do you get by mixing blue and yellow paint?", "choices": ["Orange", "Green", "Purple", "Brown"], "answer": 1 },
-        { "q": "Who painted the Mona Lisa?", "choices": ["Da Vinci", "Michelangelo", "Raphael", "Picasso"], "answer": 0 }
-      ]
-    },
-    {
       "id": "bob",
       "name": "Bob",
       "iq": 100,
@@ -91,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many times does the letter 'e' appear in the word 'sentence'?", "choices": ["2", "5", "4", "3"], "answer": 3 },
-        { "q": "A clock shows 3:15. What is the angle between the hour and minute hands?", "choices": ["0°", "7.5°", "15°", "22.5°"], "answer": 1 },
-        { "q": "You are in a race and overtake the person in 2nd place. What place are you in now?", "choices": ["2nd", "1st", "3rd", "4th"], "answer": 0 },
-        { "q": "What is the first whole number that, when spelled out in English, contains the letter 'a'?", "choices": ["100", "10,000", "1,000", "1,000,000"], "answer": 2 },
-        { "q": "A woman shoots her husband, then holds him underwater for 5 minutes. An hour later they dine together. How?", "choices": ["He wore body armor", "She is a photographer — she shot a photo and developed it in a darkroom", "He survived the wound", "She only pretended"], "answer": 1 },
-        { "q": "Which of these numbers is prime?", "choices": ["39", "45", "51", "47"], "answer": 3 },
-        { "q": "What is 19 × 21?", "choices": ["399", "389", "395", "401"], "answer": 0 },
-        { "q": "I am always ahead of you, yet can never be seen. What am I?", "choices": ["Your shadow", "Your breath", "The future", "Your reflection"], "answer": 2 },
-        { "q": "Rearrange all the letters in 'new door' to spell a two-word English phrase.", "choices": ["Won Redo", "No Word", "Door Won", "One Word"], "answer": 3 },
-        { "q": "Two fathers and two sons sit down to eat, yet only three people are at the table. How is this possible?", "choices": ["One person is a ghost", "They are a grandfather, a father, and a son", "One of them is imaginary", "Two of them are twins"], "answer": 1 }
+        { "q": "How many months of the year have at least 28 days?", "choices": ["1", "2", "7", "12"], "answer": 3 },
+        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep are left alive?", "choices": ["8", "9", "0", "17"], "answer": 1 },
+        { "q": "In a race, you overtake the runner in 2nd place. What position are you in now?", "choices": ["1st", "2nd", "3rd", "Last"], "answer": 1 },
+        { "q": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10", "$0.05", "$1.00", "$0.15"], "answer": 1 },
+        { "q": "Which weighs more: a pound of feathers or a pound of bricks?", "choices": ["The bricks", "The feathers", "They weigh exactly the same", "Neither has any weight"], "answer": 2 },
+        { "q": "How many animals of each kind did Moses bring onto the ark?", "choices": ["Two", "Seven", "One", "None — it was Noah, not Moses"], "answer": 3 },
+        { "q": "A doctor gives you 3 pills and says to take one every half hour. How long do the pills last in total?", "choices": ["1.5 hours", "1 hour", "2 hours", "30 minutes"], "answer": 1 },
+        { "q": "How many times does the letter \"r\" appear in the word \"strawberry\"?", "choices": ["2", "3", "4", "1"], "answer": 1 },
+        { "q": "Spelled out in English, which of these numbers has all its letters in alphabetical order?", "choices": ["One", "Eight", "Forty", "Zero"], "answer": 2 },
+        { "q": "A butcher is 5 feet 10 inches tall and wears size 11 shoes. What does he weigh?", "choices": ["About 200 pounds", "Meat", "It cannot be determined", "Around 90 kilograms"], "answer": 1 }
       ]
     }
   ]

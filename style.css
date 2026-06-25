@@ -311,6 +311,33 @@ body {
   color: var(--bg);
 }
 
+/* The currently selected answer stays inverted until the user picks another
+   or navigates away, so a revisited question clearly shows the prior choice. */
+.choice.selected {
+  background: var(--fg);
+  color: var(--bg);
+}
+
+/* --- Test navigation (Back / Next-Submit) --- */
+.test-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 480px;
+  margin-top: clamp(20px, 5vh, 32px);
+}
+
+/* When Back is hidden, keep Next pinned to the right. */
+.test-nav #test-back[hidden] {
+  display: none;
+}
+
+.test-nav #test-next {
+  margin-left: auto;
+}
+
 /* --- Trophy banner --- */
 .trophy-banner {
   border: 2px solid var(--fg);

@@ -11,14 +11,13 @@
   var WIN_SCORE = 10; // beating = perfect. Anything less = did not beat.
   // Known opponent ids. Used only as a fallback so state is well-formed even
   // before questions.json loads. The source of truth for play is questions.json.
-  var KNOWN_IDS = ["crow", "timmy", "parrot", "bob", "einstein", "claude"];
+  var KNOWN_IDS = ["crow", "timmy", "bob", "einstein", "claude"];
 
   // Human-readable labels for trophy ids. Unknown ids fall back to the raw id
   // so new trophies can be added in data without touching this file.
   var TROPHY_LABELS = {
     beat_crow: "Smarter than a crow",
     beat_timmy: "Smarter than Timmy",
-    beat_parrot: "Smarter than a parrot",
     beat_bob: "Smarter than Bob",
     beat_einstein: "Smarter than Einstein",
     beat_claude: "Smarter than Claude",
@@ -238,8 +237,12 @@
       name: op.name,
       questions: op.questions,
       index: 0,
-      correct: 0,
-      responses: [] // { index, chosen, correct } per answered question
+      // One slot per question. null = not yet answered; -1 = malformed/skipped.
+      // The user can revisit any question and change its selection before submit.
+      answers: op.questions.map(function () {
+        return null;
+      }),
+      responses: [] // { index, chosen, correct } — built at submit time
     };
 
     $("test-opponent").textContent = "vs " + op.name;
@@ -248,11 +251,11 @@
   }
 
   function renderQuestion() {
-    var q = session.questions[session.index];
+    var idx = session.index;
+    var q = session.questions[idx];
     var total = session.questions.length;
 
-    $("test-progress").textContent =
-      "Question " + (session.index + 1) + " / " + total;
+    $("test-progress").textContent = "Question " + (idx + 1) + " / " + total;
 
     // Guard against malformed question objects.
     var text = q && typeof q.q === "string" ? q.q : "(question unavailable)";
@@ -264,46 +267,83 @@
     box.innerHTML = "";
 
     if (!choices.length) {
-      // Malformed question — let the user skip it as incorrect.
+      // Malformed question — let the user mark it skipped (counts as incorrect).
       var skip = document.createElement("button");
-      skip.className = "choice";
+      skip.className = "choice" + (session.answers[idx] === -1 ? " selected" : "");
       skip.textContent = "Skip (no answer available)";
       skip.addEventListener("click", function () {
-        answer(-1);
+        selectChoice(-1);
       });
       box.appendChild(skip);
-      return;
+    } else {
+      choices.forEach(function (choice, i) {
+        var btn = document.createElement("button");
+        // Highlight the user's current pick so a revisited question shows it.
+        btn.className = "choice" + (session.answers[idx] === i ? " selected" : "");
+        btn.textContent = choice;
+        btn.addEventListener("click", function () {
+          selectChoice(i);
+        });
+        box.appendChild(btn);
+      });
     }
 
-    choices.forEach(function (choice, i) {
-      var btn = document.createElement("button");
-      btn.className = "choice";
-      btn.textContent = choice;
-      btn.addEventListener("click", function () {
-        answer(i);
-      });
-      box.appendChild(btn);
-    });
+    renderNav();
   }
 
-  function answer(choiceIndex) {
-    var q = session.questions[session.index];
-    var correct = !!(q && choiceIndex === q.answer);
-    if (correct) {
-      session.correct += 1;
-    }
-    session.responses.push({
-      index: session.index,
-      chosen: choiceIndex,
-      correct: correct
-    });
-    session.index += 1;
+  // Update the Back / Next-Submit controls for the current question.
+  function renderNav() {
+    var idx = session.index;
+    var isLast = idx === session.questions.length - 1;
+    var answered = session.answers[idx] !== null && session.answers[idx] !== undefined;
 
-    if (session.index >= session.questions.length) {
-      finishTest(session.id, session.correct);
+    var back = $("test-back");
+    back.hidden = idx === 0;
+
+    var next = $("test-next");
+    next.innerHTML = isLast ? "Submit" : "Next &rarr;";
+    // Require a selection before moving on, so nothing is silently left blank.
+    next.disabled = !answered;
+  }
+
+  // Record (or change) the pick for the current question. Stays on the question
+  // so the user can keep adjusting; advancing is an explicit Next/Submit.
+  function selectChoice(choiceIndex) {
+    session.answers[session.index] = choiceIndex;
+    renderQuestion();
+  }
+
+  function goBack() {
+    if (!session || session.index === 0) return;
+    session.index -= 1;
+    renderQuestion();
+  }
+
+  function goNext() {
+    if (!session) return;
+    var idx = session.index;
+    // Guard: Next/Submit is disabled until answered, but double-check.
+    if (session.answers[idx] === null || session.answers[idx] === undefined) return;
+
+    if (idx >= session.questions.length - 1) {
+      submitTest();
     } else {
+      session.index += 1;
       renderQuestion();
     }
+  }
+
+  // Grade every question from the saved selections, then finish.
+  function submitTest() {
+    var correct = 0;
+    session.responses = session.questions.map(function (q, i) {
+      var chosen = session.answers[i];
+      if (chosen === null || chosen === undefined) chosen = -1;
+      var isCorrect = !!(q && chosen === q.answer);
+      if (isCorrect) correct += 1;
+      return { index: i, chosen: chosen, correct: isCorrect };
+    });
+    finishTest(session.id, correct);
   }
 
   function finishTest(id, correctCount) {
@@ -582,6 +622,9 @@
     });
 
     $("home-rewards").addEventListener("click", renderRewards);
+
+    $("test-back").addEventListener("click", goBack);
+    $("test-next").addEventListener("click", goNext);
 
     $("error-retry").addEventListener("click", boot);
 
