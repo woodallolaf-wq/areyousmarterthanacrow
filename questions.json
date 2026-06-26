@@ -1,21 +1,21 @@
 {
-  "date": "2026-06-25",
+  "date": "2026-06-26",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Canada?", "choices": ["Toronto", "Ottawa", "Vancouver", "Montreal"], "answer": 1 },
-        { "q": "What is 17 × 6?", "choices": ["102", "96", "108", "114"], "answer": 0 },
-        { "q": "What is the chemical symbol for sodium?", "choices": ["So", "Sd", "Na", "Sn"], "answer": 2 },
-        { "q": "How many players does each side have on the field in soccer?", "choices": ["9", "10", "12", "11"], "answer": 3 },
-        { "q": "What is the most abundant gas in Earth's atmosphere?", "choices": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"], "answer": 1 },
-        { "q": "What is a baby swan called?", "choices": ["Gosling", "Chick", "Cygnet", "Duckling"], "answer": 2 },
-        { "q": "How many sides does a hexagon have?", "choices": ["6", "5", "7", "8"], "answer": 0 },
-        { "q": "What is the boiling point of water in Celsius?", "choices": ["80°C", "100°C", "90°C", "120°C"], "answer": 1 },
-        { "q": "What is the square root of 144?", "choices": ["10", "11", "12", "14"], "answer": 2 },
-        { "q": "On which planet is Olympus Mons, the solar system's tallest volcano?", "choices": ["Venus", "Jupiter", "Mercury", "Mars"], "answer": 3 }
+        { "q": "What is the capital of Japan?", "choices": ["Beijing", "Seoul", "Tokyo", "Osaka"], "answer": 2 },
+        { "q": "How many seconds are in one minute?", "choices": ["30", "60", "100", "120"], "answer": 1 },
+        { "q": "What is 24 ÷ 6?", "choices": ["3", "6", "5", "4"], "answer": 3 },
+        { "q": "Which is the largest continent by area?", "choices": ["Africa", "Europe", "Asia", "North America"], "answer": 2 },
+        { "q": "What is the chemical symbol for oxygen?", "choices": ["O", "Ox", "Og", "On"], "answer": 0 },
+        { "q": "Which planet is closest to the Sun?", "choices": ["Venus", "Mercury", "Earth", "Mars"], "answer": 1 },
+        { "q": "How many letters are in the English alphabet?", "choices": ["24", "28", "25", "26"], "answer": 3 },
+        { "q": "What is the tallest mountain on Earth?", "choices": ["Everest", "K2", "Mont Blanc", "Kilimanjaro"], "answer": 0 },
+        { "q": "How many sides does a pentagon have?", "choices": ["4", "6", "5", "7"], "answer": 2 },
+        { "q": "What is 9 × 9?", "choices": ["72", "78", "90", "81"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is the sky on a sunny day?", "choices": ["Red", "Green", "Blue", "Purple"], "answer": 2 },
-        { "q": "How many fingers are on one hand?", "choices": ["5", "3", "4", "6"], "answer": 0 },
-        { "q": "What do you call a baby cat?", "choices": ["Kitten", "Puppy", "Calf", "Chick"], "answer": 0 },
-        { "q": "What is 5 minus 3?", "choices": ["1", "3", "2", "4"], "answer": 2 },
-        { "q": "Which animal says 'meow'?", "choices": ["Dog", "Frog", "Bird", "Cat"], "answer": 3 },
-        { "q": "What do you wear on your feet?", "choices": ["Shoes", "Hat", "Gloves", "Scarf"], "answer": 0 },
-        { "q": "What season has the most snow?", "choices": ["Spring", "Summer", "Autumn", "Winter"], "answer": 3 },
-        { "q": "How many wheels does a bicycle have?", "choices": ["1", "2", "3", "4"], "answer": 1 },
-        { "q": "What do you use to write on paper?", "choices": ["Banana", "Pencil", "Sock", "Rock"], "answer": 1 },
-        { "q": "Which of these is a vegetable?", "choices": ["Candy", "Cake", "Carrot", "Cookie"], "answer": 2 }
+        { "q": "What color is a ripe tomato?", "choices": ["Red", "Blue", "Yellow", "White"], "answer": 0 },
+        { "q": "How many eyes do most people have?", "choices": ["3", "4", "2", "1"], "answer": 2 },
+        { "q": "What do you call a baby dog?", "choices": ["Kitten", "Puppy", "Calf", "Foal"], "answer": 1 },
+        { "q": "What is 3 + 1?", "choices": ["3", "5", "6", "4"], "answer": 3 },
+        { "q": "Which animal lives in the water?", "choices": ["Camel", "Lion", "Elephant", "Fish"], "answer": 3 },
+        { "q": "What glows in the night sky?", "choices": ["Sun", "Cloud", "Moon", "River"], "answer": 2 },
+        { "q": "What do you use to eat soup?", "choices": ["Fork", "Knife", "Chopsticks", "Spoon"], "answer": 3 },
+        { "q": "How many toes does a person have?", "choices": ["20", "10", "15", "5"], "answer": 1 },
+        { "q": "What sound does a duck make?", "choices": ["Quack", "Moo", "Woof", "Cluck"], "answer": 0 },
+        { "q": "How many sides does a triangle have?", "choices": ["4", "5", "3", "6"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Who wrote 'Pride and Prejudice'?", "choices": ["George Eliot", "Virginia Woolf", "Charlotte Brontë", "Jane Austen"], "answer": 3 },
-        { "q": "What is the boiling point of water in Kelvin?", "choices": ["100 K", "273 K", "373 K", "500 K"], "answer": 2 },
-        { "q": "In what year was the Eiffel Tower completed?", "choices": ["1879", "1889", "1899", "1909"], "answer": 1 },
-        { "q": "What is the largest country by land area?", "choices": ["China", "USA", "Canada", "Russia"], "answer": 3 },
-        { "q": "What gas do plants primarily absorb during photosynthesis?", "choices": ["Oxygen", "Carbon dioxide", "Nitrogen", "Methane"], "answer": 1 },
-        { "q": "Who was the first President of the United States?", "choices": ["John Adams", "Thomas Jefferson", "George Washington", "Benjamin Franklin"], "answer": 2 },
-        { "q": "How many time zones does Russia span?", "choices": ["11", "9", "7", "13"], "answer": 0 },
-        { "q": "What does the Richter scale measure?", "choices": ["Wind speed", "Earthquake magnitude", "Ocean depth", "Volcanic temperature"], "answer": 1 },
-        { "q": "What is the capital of Nigeria?", "choices": ["Kano", "Lagos", "Ibadan", "Abuja"], "answer": 3 },
-        { "q": "In what year did the Titanic sink?", "choices": ["1912", "1909", "1915", "1918"], "answer": 0 }
+        { "q": "What is the currency of Brazil?", "choices": ["Peso", "Real", "Dollar", "Euro"], "answer": 1 },
+        { "q": "In which city were the 2000 Summer Olympics held?", "choices": ["Athens", "Barcelona", "Sydney", "Atlanta"], "answer": 2 },
+        { "q": "Who was the 16th President of the United States?", "choices": ["James Buchanan", "Andrew Johnson", "Ulysses Grant", "Abraham Lincoln"], "answer": 3 },
+        { "q": "What is the chemical formula for table salt?", "choices": ["NaCl", "KCl", "NaHCO₃", "MgCl₂"], "answer": 0 },
+        { "q": "Who wrote the novel '1984'?", "choices": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "Ernest Hemingway"], "answer": 1 },
+        { "q": "What is the square root of 169?", "choices": ["11", "14", "13", "15"], "answer": 2 },
+        { "q": "Which element has atomic number 1?", "choices": ["Helium", "Lithium", "Carbon", "Hydrogen"], "answer": 3 },
+        { "q": "In what year did the French Revolution begin?", "choices": ["1775", "1776", "1789", "1799"], "answer": 2 },
+        { "q": "Which blood type is known as the universal donor?", "choices": ["AB", "A", "B", "O"], "answer": 3 },
+        { "q": "How many planets are in our solar system?", "choices": ["8", "7", "9", "10"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is ∫₀^∞ e^(−x²) dx?", "choices": ["1", "√π/2", "√π", "π/2"], "answer": 1 },
-        { "q": "Which of these is NOT a Fermat prime?", "choices": ["11", "5", "17", "3"], "answer": 0 },
-        { "q": "What is the time complexity of insertion into a balanced binary search tree?", "choices": ["O(1)", "O(log n)", "O(n)", "O(n log n)"], "answer": 1 },
-        { "q": "What is the ground-state electron configuration of iron (Fe, Z = 26)?", "choices": ["[Ar] 3d⁶ 4s²", "[Ar] 3d⁵ 4s²", "[Ne] 3d⁸ 4s²", "[Ar] 3d⁸"], "answer": 0 },
-        { "q": "What is the Shannon entropy of a fair coin flip, in bits?", "choices": ["0 bits", "0.5 bits", "1 bit", "2 bits"], "answer": 2 },
-        { "q": "For any real matrix A, the matrix AᵀA is always:", "choices": ["Invertible", "Positive definite", "Positive semi-definite", "Skew-symmetric"], "answer": 2 },
-        { "q": "Which statistical distribution underlies the derivation of the classical ideal gas law (PV = NkT)?", "choices": ["Maxwell-Boltzmann", "Fermi-Dirac", "Bose-Einstein", "Planck"], "answer": 0 },
-        { "q": "What is the Euler characteristic (χ = V − E + F) of a torus?", "choices": ["−2", "1", "0", "2"], "answer": 2 },
-        { "q": "What is the remainder when 3^100 is divided by 7?", "choices": ["1", "2", "3", "4"], "answer": 3 },
-        { "q": "In Hamiltonian mechanics, ∂H/∂p equals:", "choices": ["−ṗ", "ṗ", "−q̇", "q̇"], "answer": 3 }
+        { "q": "What is the derivative of xˣ with respect to x?", "choices": ["x · x^(x−1)", "xˣ · ln x", "xˣ (1 + ln x)", "eˣ · ln x"], "answer": 2 },
+        { "q": "What is the order of the symmetric group S₄?", "choices": ["12", "24", "48", "16"], "answer": 1 },
+        { "q": "What is the ground state energy of a hydrogen atom?", "choices": ["−13.6 eV", "−3.4 eV", "−27.2 eV", "−1.51 eV"], "answer": 0 },
+        { "q": "Which computational problem is in NP but not known to be in P or NP-complete?", "choices": ["Boolean satisfiability (SAT)", "Subset sum", "Graph isomorphism", "Vertex cover"], "answer": 2 },
+        { "q": "According to VSEPR theory, what is the molecular geometry of SF₆?", "choices": ["Trigonal bipyramidal", "Square pyramidal", "Tetrahedral", "Octahedral"], "answer": 3 },
+        { "q": "What is the curl of the gradient of any scalar field?", "choices": ["A non-zero vector field", "The scalar field itself", "Always zero", "The Laplacian of the field"], "answer": 2 },
+        { "q": "What is the Laplace transform of f(t) = t²?", "choices": ["2/s³", "1/s²", "2/s²", "6/s⁴"], "answer": 0 },
+        { "q": "What is Avogadro's number to three significant figures?", "choices": ["3.01 × 10²³", "1.38 × 10²³", "6.63 × 10²³", "6.02 × 10²³"], "answer": 3 },
+        { "q": "If v = 0.6c, what is the Lorentz factor γ = 1/√(1 − v²/c²)?", "choices": ["2.0", "1.25", "1.5", "1.8"], "answer": 1 },
+        { "q": "What is the period of f(x) = sin(3x)?", "choices": ["2π/3", "π", "3π", "6π"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "What is the next letter in the sequence: O, T, T, F, F, S, S, E, N, ___?", "choices": ["E", "N", "O", "T"], "answer": 3 },
-        { "q": "How many times can you subtract 10 from 100?", "choices": ["Once", "10", "9", "Infinitely many"], "answer": 0 },
-        { "q": "You have two US coins that together make 30 cents. One of them is not a nickel. What are the two coins?", "choices": ["Two dimes", "Three dimes", "A quarter and a nickel", "A dime and two nickels"], "answer": 2 },
-        { "q": "A hen and a half lays an egg and a half in a day and a half. How many eggs do 6 hens lay in 6 days?", "choices": ["6", "24", "36", "9"], "answer": 1 },
-        { "q": "An electric train is heading north at 100 mph. The wind blows from the south at 50 mph. Which way does the smoke blow?", "choices": ["Electric trains produce no smoke", "South", "North", "Northeast"], "answer": 0 },
-        { "q": "In a dark room you have a match, a kerosene lamp, a candle, and a fireplace. What do you light first?", "choices": ["The lamp", "The candle", "The fireplace", "The match"], "answer": 3 },
-        { "q": "How many F's are in: 'FINISHED FILES ARE THE RESULT OF YEARS OF SCIENTIFIC STUDY'?", "choices": ["3", "4", "5", "6"], "answer": 2 },
-        { "q": "At a party, 5 people each shake hands with every other person exactly once. How many handshakes occur?", "choices": ["5", "10", "20", "4"], "answer": 1 },
-        { "q": "A snail climbs 3 feet up a 10-foot wall each day but slides back 2 feet each night. How many days to reach the top?", "choices": ["8", "10", "7", "9"], "answer": 0 },
-        { "q": "The 22nd and 24th US Presidents were the same man. Who was he?", "choices": ["Benjamin Harrison", "Chester Arthur", "Grover Cleveland", "Rutherford Hayes"], "answer": 2 }
+        { "q": "How many letters are in 'the alphabet'?", "choices": ["11", "26", "24", "13"], "answer": 0 },
+        { "q": "A fair coin lands heads 10 times in a row. What is the probability the next flip is tails?", "choices": ["More than 50% — it's 'due'", "50%", "Less than 50% — heads has momentum", "It cannot be determined"], "answer": 1 },
+        { "q": "Which is heavier: a cubic foot of gold or a cubic foot of feathers?", "choices": ["They weigh exactly the same", "Feathers — gold is measured in lighter troy ounces", "Gold — it is far denser", "It depends on how the feathers are packed"], "answer": 2 },
+        { "q": "A woman has 7 daughters, and each daughter has exactly 1 brother. How many children does the woman have?", "choices": ["7", "14", "15", "8"], "answer": 3 },
+        { "q": "A frog at the bottom of a 20-foot well climbs 4 feet each day and slides back 3 feet each night. How many days to escape?", "choices": ["17", "16", "20", "18"], "answer": 0 },
+        { "q": "In the English alphabet, what letter comes immediately before the letter that immediately follows M?", "choices": ["N", "M", "L", "O"], "answer": 1 },
+        { "q": "A rock and a feather are dropped simultaneously from the same height on the airless Moon. Which hits the ground first?", "choices": ["The rock — it's heavier", "The feather — it's lighter", "They land at the same time", "The feather — the Moon has weaker gravity"], "answer": 2 },
+        { "q": "There are 30 people in a room. Approximately what is the probability that at least two share a birthday?", "choices": ["About 8%", "About 30%", "About 50%", "About 70%"], "answer": 3 },
+        { "q": "What is 8% of 200 added to 200% of 8?", "choices": ["32", "16", "40", "24"], "answer": 0 },
+        { "q": "Two boys are born on the same day, in the same year, to the same parents, but are not twins. How?", "choices": ["It is impossible", "They are part of a set of triplets or more", "One was born by C-section", "The question is a trick — they must be twins"], "answer": 1 }
       ]
     }
   ]
