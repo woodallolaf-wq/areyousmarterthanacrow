@@ -1,21 +1,21 @@
 {
-  "date": "2026-06-26",
+  "date": "2026-06-27",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Japan?", "choices": ["Beijing", "Seoul", "Tokyo", "Osaka"], "answer": 2 },
-        { "q": "How many seconds are in one minute?", "choices": ["30", "60", "100", "120"], "answer": 1 },
-        { "q": "What is 24 ÷ 6?", "choices": ["3", "6", "5", "4"], "answer": 3 },
-        { "q": "Which is the largest continent by area?", "choices": ["Africa", "Europe", "Asia", "North America"], "answer": 2 },
-        { "q": "What is the chemical symbol for oxygen?", "choices": ["O", "Ox", "Og", "On"], "answer": 0 },
-        { "q": "Which planet is closest to the Sun?", "choices": ["Venus", "Mercury", "Earth", "Mars"], "answer": 1 },
-        { "q": "How many letters are in the English alphabet?", "choices": ["24", "28", "25", "26"], "answer": 3 },
-        { "q": "What is the tallest mountain on Earth?", "choices": ["Everest", "K2", "Mont Blanc", "Kilimanjaro"], "answer": 0 },
-        { "q": "How many sides does a pentagon have?", "choices": ["4", "6", "5", "7"], "answer": 2 },
-        { "q": "What is 9 × 9?", "choices": ["72", "78", "90", "81"], "answer": 3 }
+        { "q": "What is the capital of Germany?", "choices": ["Munich", "Hamburg", "Berlin", "Frankfurt"], "answer": 2 },
+        { "q": "What is 13 × 7?", "choices": ["84", "91", "95", "88"], "answer": 1 },
+        { "q": "Which planet is most famous for its distinctive rings?", "choices": ["Jupiter", "Uranus", "Neptune", "Saturn"], "answer": 3 },
+        { "q": "What is the smallest prime number?", "choices": ["2", "1", "0", "3"], "answer": 0 },
+        { "q": "What is the chemical symbol for iron?", "choices": ["Ir", "Fe", "In", "Fi"], "answer": 1 },
+        { "q": "In which country is the Great Wall located?", "choices": ["Japan", "India", "China", "Korea"], "answer": 2 },
+        { "q": "What is 8² (8 squared)?", "choices": ["56", "72", "60", "64"], "answer": 3 },
+        { "q": "What is the capital of Spain?", "choices": ["Madrid", "Barcelona", "Seville", "Valencia"], "answer": 0 },
+        { "q": "How many days are in a leap year?", "choices": ["364", "366", "365", "367"], "answer": 1 },
+        { "q": "How many degrees are in a right angle?", "choices": ["45", "270", "180", "90"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is a ripe tomato?", "choices": ["Red", "Blue", "Yellow", "White"], "answer": 0 },
-        { "q": "How many eyes do most people have?", "choices": ["3", "4", "2", "1"], "answer": 2 },
-        { "q": "What do you call a baby dog?", "choices": ["Kitten", "Puppy", "Calf", "Foal"], "answer": 1 },
-        { "q": "What is 3 + 1?", "choices": ["3", "5", "6", "4"], "answer": 3 },
-        { "q": "Which animal lives in the water?", "choices": ["Camel", "Lion", "Elephant", "Fish"], "answer": 3 },
-        { "q": "What glows in the night sky?", "choices": ["Sun", "Cloud", "Moon", "River"], "answer": 2 },
-        { "q": "What do you use to eat soup?", "choices": ["Fork", "Knife", "Chopsticks", "Spoon"], "answer": 3 },
-        { "q": "How many toes does a person have?", "choices": ["20", "10", "15", "5"], "answer": 1 },
-        { "q": "What sound does a duck make?", "choices": ["Quack", "Moo", "Woof", "Cluck"], "answer": 0 },
-        { "q": "How many sides does a triangle have?", "choices": ["4", "5", "3", "6"], "answer": 2 }
+        { "q": "What color is grass?", "choices": ["Pink", "Green", "Black", "Orange"], "answer": 1 },
+        { "q": "How many legs does a cat have?", "choices": ["2", "6", "4", "8"], "answer": 2 },
+        { "q": "What do you call a baby cow?", "choices": ["Calf", "Cub", "Foal", "Lamb"], "answer": 0 },
+        { "q": "What is 1 + 1?", "choices": ["0", "4", "3", "2"], "answer": 3 },
+        { "q": "Which animal has the longest neck?", "choices": ["Giraffe", "Elephant", "Bear", "Fox"], "answer": 0 },
+        { "q": "What do you spread on bread to make a sandwich?", "choices": ["Paint", "Water", "Butter", "Soap"], "answer": 2 },
+        { "q": "What color is the sun?", "choices": ["Blue", "Purple", "Black", "Yellow"], "answer": 3 },
+        { "q": "How many months are in a year?", "choices": ["10", "12", "13", "7"], "answer": 1 },
+        { "q": "Which animal barks?", "choices": ["Cat", "Fish", "Dog", "Bird"], "answer": 2 },
+        { "q": "What shape is a ball?", "choices": ["Square", "Triangle", "Flat", "Round"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the currency of Brazil?", "choices": ["Peso", "Real", "Dollar", "Euro"], "answer": 1 },
-        { "q": "In which city were the 2000 Summer Olympics held?", "choices": ["Athens", "Barcelona", "Sydney", "Atlanta"], "answer": 2 },
-        { "q": "Who was the 16th President of the United States?", "choices": ["James Buchanan", "Andrew Johnson", "Ulysses Grant", "Abraham Lincoln"], "answer": 3 },
-        { "q": "What is the chemical formula for table salt?", "choices": ["NaCl", "KCl", "NaHCO₃", "MgCl₂"], "answer": 0 },
-        { "q": "Who wrote the novel '1984'?", "choices": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "Ernest Hemingway"], "answer": 1 },
-        { "q": "What is the square root of 169?", "choices": ["11", "14", "13", "15"], "answer": 2 },
-        { "q": "Which element has atomic number 1?", "choices": ["Helium", "Lithium", "Carbon", "Hydrogen"], "answer": 3 },
-        { "q": "In what year did the French Revolution begin?", "choices": ["1775", "1776", "1789", "1799"], "answer": 2 },
-        { "q": "Which blood type is known as the universal donor?", "choices": ["AB", "A", "B", "O"], "answer": 3 },
-        { "q": "How many planets are in our solar system?", "choices": ["8", "7", "9", "10"], "answer": 0 }
+        { "q": "What is the capital of Argentina?", "choices": ["Buenos Aires", "Montevideo", "Santiago", "Lima"], "answer": 0 },
+        { "q": "Who wrote 'Romeo and Juliet'?", "choices": ["Charles Dickens", "William Shakespeare", "Geoffrey Chaucer", "Christopher Marlowe"], "answer": 1 },
+        { "q": "What is the hardest natural substance on Earth?", "choices": ["Quartz", "Topaz", "Diamond", "Corundum"], "answer": 2 },
+        { "q": "In which country is the Colosseum located?", "choices": ["France", "Greece", "Spain", "Italy"], "answer": 3 },
+        { "q": "What is the atomic number of carbon?", "choices": ["12", "6", "8", "14"], "answer": 1 },
+        { "q": "Which ocean contains the Bermuda Triangle?", "choices": ["Pacific", "Indian", "Arctic", "Atlantic"], "answer": 3 },
+        { "q": "How many chambers does the human heart have?", "choices": ["2", "3", "4", "5"], "answer": 2 },
+        { "q": "Who is credited with inventing the telephone?", "choices": ["Nikola Tesla", "Thomas Edison", "Benjamin Franklin", "Alexander Graham Bell"], "answer": 3 },
+        { "q": "In what year did Neil Armstrong first walk on the Moon?", "choices": ["1967", "1969", "1971", "1968"], "answer": 1 },
+        { "q": "What is the capital of South Korea?", "choices": ["Busan", "Incheon", "Seoul", "Daejeon"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the derivative of xˣ with respect to x?", "choices": ["x · x^(x−1)", "xˣ · ln x", "xˣ (1 + ln x)", "eˣ · ln x"], "answer": 2 },
-        { "q": "What is the order of the symmetric group S₄?", "choices": ["12", "24", "48", "16"], "answer": 1 },
-        { "q": "What is the ground state energy of a hydrogen atom?", "choices": ["−13.6 eV", "−3.4 eV", "−27.2 eV", "−1.51 eV"], "answer": 0 },
-        { "q": "Which computational problem is in NP but not known to be in P or NP-complete?", "choices": ["Boolean satisfiability (SAT)", "Subset sum", "Graph isomorphism", "Vertex cover"], "answer": 2 },
-        { "q": "According to VSEPR theory, what is the molecular geometry of SF₆?", "choices": ["Trigonal bipyramidal", "Square pyramidal", "Tetrahedral", "Octahedral"], "answer": 3 },
-        { "q": "What is the curl of the gradient of any scalar field?", "choices": ["A non-zero vector field", "The scalar field itself", "Always zero", "The Laplacian of the field"], "answer": 2 },
-        { "q": "What is the Laplace transform of f(t) = t²?", "choices": ["2/s³", "1/s²", "2/s²", "6/s⁴"], "answer": 0 },
-        { "q": "What is Avogadro's number to three significant figures?", "choices": ["3.01 × 10²³", "1.38 × 10²³", "6.63 × 10²³", "6.02 × 10²³"], "answer": 3 },
-        { "q": "If v = 0.6c, what is the Lorentz factor γ = 1/√(1 − v²/c²)?", "choices": ["2.0", "1.25", "1.5", "1.8"], "answer": 1 },
-        { "q": "What is the period of f(x) = sin(3x)?", "choices": ["2π/3", "π", "3π", "6π"], "answer": 0 }
+        { "q": "What is lim_{x→0} (sin x) / x?", "choices": ["0", "∞", "1", "Undefined"], "answer": 2 },
+        { "q": "What is the chromatic polynomial of the complete graph K₃?", "choices": ["k(k−1)(k−2)", "k³", "k(k−1)", "k!"], "answer": 0 },
+        { "q": "A Carnot engine operates between 500 K and 250 K. What is its maximum efficiency?", "choices": ["25%", "75%", "100%", "50%"], "answer": 3 },
+        { "q": "What is the Fourier transform of the Dirac delta function δ(t)?", "choices": ["δ(ω)", "e^(−iω)", "1", "0"], "answer": 2 },
+        { "q": "How many prime numbers lie strictly between 50 and 70?", "choices": ["3", "4", "2", "5"], "answer": 1 },
+        { "q": "What is the IUPAC name for CH₃CH₂OH?", "choices": ["Ethanol", "Methanol", "Propanol", "Isopropanol"], "answer": 0 },
+        { "q": "The Riemann hypothesis asserts that all non-trivial zeros of ζ(s) lie on:", "choices": ["On the imaginary axis", "On the line Re(s) = 1/2", "At positive integers", "On the unit circle"], "answer": 1 },
+        { "q": "A matrix A has eigenvalues 2 and 3. What is det(A)?", "choices": ["5", "1", "8", "6"], "answer": 3 },
+        { "q": "What is the time complexity of the naive recursive Fibonacci algorithm fib(n) = fib(n−1) + fib(n−2)?", "choices": ["O(n²)", "O(2ⁿ)", "O(n log n)", "O(n)"], "answer": 1 },
+        { "q": "When pressure is increased at constant temperature on a system at chemical equilibrium, Le Chatelier's principle predicts:", "choices": ["No shift in equilibrium", "A shift toward more moles of gas", "A shift toward fewer moles of gas", "A shift to release heat"], "answer": 2 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many letters are in 'the alphabet'?", "choices": ["11", "26", "24", "13"], "answer": 0 },
-        { "q": "A fair coin lands heads 10 times in a row. What is the probability the next flip is tails?", "choices": ["More than 50% — it's 'due'", "50%", "Less than 50% — heads has momentum", "It cannot be determined"], "answer": 1 },
-        { "q": "Which is heavier: a cubic foot of gold or a cubic foot of feathers?", "choices": ["They weigh exactly the same", "Feathers — gold is measured in lighter troy ounces", "Gold — it is far denser", "It depends on how the feathers are packed"], "answer": 2 },
-        { "q": "A woman has 7 daughters, and each daughter has exactly 1 brother. How many children does the woman have?", "choices": ["7", "14", "15", "8"], "answer": 3 },
-        { "q": "A frog at the bottom of a 20-foot well climbs 4 feet each day and slides back 3 feet each night. How many days to escape?", "choices": ["17", "16", "20", "18"], "answer": 0 },
-        { "q": "In the English alphabet, what letter comes immediately before the letter that immediately follows M?", "choices": ["N", "M", "L", "O"], "answer": 1 },
-        { "q": "A rock and a feather are dropped simultaneously from the same height on the airless Moon. Which hits the ground first?", "choices": ["The rock — it's heavier", "The feather — it's lighter", "They land at the same time", "The feather — the Moon has weaker gravity"], "answer": 2 },
-        { "q": "There are 30 people in a room. Approximately what is the probability that at least two share a birthday?", "choices": ["About 8%", "About 30%", "About 50%", "About 70%"], "answer": 3 },
-        { "q": "What is 8% of 200 added to 200% of 8?", "choices": ["32", "16", "40", "24"], "answer": 0 },
-        { "q": "Two boys are born on the same day, in the same year, to the same parents, but are not twins. How?", "choices": ["It is impossible", "They are part of a set of triplets or more", "One was born by C-section", "The question is a trick — they must be twins"], "answer": 1 }
+        { "q": "How many times does the digit '1' appear if you write out all integers from 1 to 20?", "choices": ["11", "10", "12", "13"], "answer": 2 },
+        { "q": "A rope ladder hangs over the side of a ship. Rungs are 12 inches apart and the lowest rung just touches the water. The tide rises 1 foot per hour. How long until the water reaches the 5th rung?", "choices": ["The ship rises with the tide — the 5th rung is never covered", "4 hours", "5 hours", "6 hours"], "answer": 0 },
+        { "q": "Paulie is Paul's son, but Paul is not Paulie's father. How is this possible?", "choices": ["Paulie was adopted", "Paul is Paulie's stepfather", "Paul is Paulie's uncle", "Paul is Paulie's mother"], "answer": 3 },
+        { "q": "If 5 machines take 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?", "choices": ["100 minutes", "5 minutes", "50 minutes", "20 minutes"], "answer": 1 },
+        { "q": "What comes once in a minute, twice in a moment, but never in a thousand years?", "choices": ["The letter M", "Silence", "Time itself", "A heartbeat"], "answer": 0 },
+        { "q": "Which of these numbers, when spelled out in English, has its letters in descending alphabetical order?", "choices": ["Two", "One", "Eight", "Zero"], "answer": 1 },
+        { "q": "A clock that loses exactly 1 minute every hour is set correctly at 12:00 noon. What time does it display when the actual time is midnight?", "choices": ["12:12 AM", "11:50 PM", "11:48 PM", "12:00 AM"], "answer": 2 },
+        { "q": "How many times does the letter 'R' appear in the word FEBRUARY?", "choices": ["0", "1", "3", "2"], "answer": 3 },
+        { "q": "A man walks into a bar and asks for a glass of water. The bartender pulls out a gun and points it at him. The man says 'Thank you' and walks out. Why?", "choices": ["The man had hiccups; the sudden scare cured them", "The man is an undercover police officer", "The gun was actually a water pistol", "The man and bartender were rehearsing a play"], "answer": 0 },
+        { "q": "If a rooster lays an egg on top of a peaked roof, which way does the egg roll?", "choices": ["Toward the east", "Toward the west", "Roosters do not lay eggs", "Straight down the ridge"], "answer": 2 }
       ]
     }
   ]
