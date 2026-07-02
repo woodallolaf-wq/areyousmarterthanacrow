@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-01",
+  "date": "2026-07-02",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Canada?", "choices": ["Ottawa", "Toronto", "Vancouver", "Montreal"], "answer": 0 },
-        { "q": "What is 12 × 9?", "choices": ["96", "108", "112", "116"], "answer": 1 },
-        { "q": "What is the chemical symbol for potassium?", "choices": ["Po", "Pt", "K", "Ks"], "answer": 2 },
-        { "q": "Which planet has the most known moons?", "choices": ["Mars", "Jupiter", "Neptune", "Saturn"], "answer": 3 },
-        { "q": "What sport is played at Wimbledon?", "choices": ["Tennis", "Cricket", "Squash", "Rugby"], "answer": 0 },
-        { "q": "How many sides does a hexagon have?", "choices": ["5", "6", "7", "8"], "answer": 1 },
-        { "q": "In which country is the Eiffel Tower?", "choices": ["Belgium", "Italy", "France", "Spain"], "answer": 2 },
-        { "q": "What is 144 ÷ 12?", "choices": ["10", "11", "13", "12"], "answer": 3 },
-        { "q": "What is the chemical symbol for sodium?", "choices": ["Na", "So", "Sd", "S"], "answer": 0 },
-        { "q": "What is the official language of Brazil?", "choices": ["Spanish", "Portuguese", "French", "Italian"], "answer": 1 }
+        { "q": "What is the capital of Spain?", "choices": ["Valencia", "Madrid", "Barcelona", "Seville"], "answer": 1 },
+        { "q": "What is 17 × 5?", "choices": ["75", "80", "85", "90"], "answer": 2 },
+        { "q": "Which planet is closest to the Sun?", "choices": ["Venus", "Earth", "Mars", "Mercury"], "answer": 3 },
+        { "q": "What is the chemical symbol for iron?", "choices": ["Fe", "In", "Ir", "Fi"], "answer": 0 },
+        { "q": "How many planets are in our solar system?", "choices": ["7", "8", "9", "10"], "answer": 1 },
+        { "q": "What is 9² (9 squared)?", "choices": ["72", "78", "81", "84"], "answer": 2 },
+        { "q": "On which continent is Egypt located?", "choices": ["Asia", "Europe", "South America", "Africa"], "answer": 3 },
+        { "q": "What is the hardest natural substance on Earth?", "choices": ["Diamond", "Granite", "Steel", "Quartz"], "answer": 0 },
+        { "q": "Who was the first President of the United States?", "choices": ["Thomas Jefferson", "George Washington", "Benjamin Franklin", "John Adams"], "answer": 1 },
+        { "q": "What is the chemical symbol for nitrogen?", "choices": ["Ni", "Ng", "N", "Ne"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What do you call a baby dog?", "choices": ["Puppy", "Kitten", "Foal", "Piglet"], "answer": 0 },
-        { "q": "What color is an orange?", "choices": ["Yellow", "Orange", "Purple", "Green"], "answer": 1 },
-        { "q": "How many fingers are on one hand?", "choices": ["3", "4", "5", "6"], "answer": 2 },
-        { "q": "What do you wear on your feet?", "choices": ["Hat", "Gloves", "Belt", "Shoes"], "answer": 3 },
-        { "q": "What is 3 - 1?", "choices": ["2", "3", "4", "5"], "answer": 0 },
-        { "q": "Which animal says 'meow'?", "choices": ["Dog", "Cat", "Bird", "Cow"], "answer": 1 },
-        { "q": "What is the opposite of hot?", "choices": ["Wet", "Soft", "Cold", "Loud"], "answer": 2 },
-        { "q": "What do birds use to fly?", "choices": ["Fins", "Paws", "Legs", "Wings"], "answer": 3 },
-        { "q": "What do you use to write on paper?", "choices": ["Pencil", "Fork", "Spoon", "Hammer"], "answer": 0 },
-        { "q": "What is 7 - 3?", "choices": ["1", "4", "6", "5"], "answer": 1 }
+        { "q": "What color is the sky on a sunny day?", "choices": ["Blue", "Green", "Red", "Yellow"], "answer": 0 },
+        { "q": "Which animal gives us milk?", "choices": ["Hen", "Cow", "Dog", "Horse"], "answer": 1 },
+        { "q": "What shape is a full moon?", "choices": ["Triangle", "Square", "Circle", "Star"], "answer": 2 },
+        { "q": "What falls from the sky when it rains?", "choices": ["Sand", "Hail", "Sunshine", "Rain"], "answer": 3 },
+        { "q": "What is 1 + 1?", "choices": ["2", "3", "4", "1"], "answer": 0 },
+        { "q": "How many legs does a cat have?", "choices": ["Two", "Four", "Six", "Eight"], "answer": 1 },
+        { "q": "What do you eat soup with?", "choices": ["Fork", "Knife", "Spoon", "Cup"], "answer": 2 },
+        { "q": "What do we call the meal eaten in the morning?", "choices": ["Lunch", "Dinner", "Supper", "Breakfast"], "answer": 3 },
+        { "q": "Which of these is a fruit?", "choices": ["Apple", "Potato", "Carrot", "Broccoli"], "answer": 0 },
+        { "q": "Which animal has a very long neck?", "choices": ["Elephant", "Dog", "Giraffe", "Bear"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "In which year did World War II begin?", "choices": ["1939", "1940", "1941", "1942"], "answer": 0 },
-        { "q": "What is the capital of Russia?", "choices": ["St. Petersburg", "Moscow", "Kiev", "Minsk"], "answer": 1 },
-        { "q": "What is the chemical formula for table salt?", "choices": ["KCl", "CaCO₃", "NaCl", "MgCl₂"], "answer": 2 },
-        { "q": "Who developed the theory of general relativity?", "choices": ["Isaac Newton", "Niels Bohr", "Max Planck", "Albert Einstein"], "answer": 3 },
-        { "q": "What is the largest country by land area?", "choices": ["Russia", "China", "Canada", "USA"], "answer": 0 },
-        { "q": "How many events are in a decathlon?", "choices": ["8", "10", "12", "15"], "answer": 1 },
-        { "q": "Which gas makes up most of Earth's atmosphere?", "choices": ["Oxygen", "Carbon dioxide", "Nitrogen", "Argon"], "answer": 2 },
-        { "q": "Which ocean is the smallest by area?", "choices": ["Pacific", "Atlantic", "Indian", "Arctic"], "answer": 3 },
-        { "q": "Who wrote 'Pride and Prejudice'?", "choices": ["Jane Austen", "Charlotte Brontë", "Virginia Woolf", "George Eliot"], "answer": 0 },
-        { "q": "What gas do plants primarily use in photosynthesis?", "choices": ["Oxygen", "Carbon dioxide", "Nitrogen", "Methane"], "answer": 1 }
+        { "q": "What is the capital of Argentina?", "choices": ["Montevideo", "Lima", "Buenos Aires", "Santiago"], "answer": 2 },
+        { "q": "What is the square root of 225?", "choices": ["12", "13", "14", "15"], "answer": 3 },
+        { "q": "Who wrote 'Romeo and Juliet'?", "choices": ["William Shakespeare", "Charles Dickens", "Victor Hugo", "Geoffrey Chaucer"], "answer": 0 },
+        { "q": "In which year did the United States declare independence?", "choices": ["1775", "1776", "1777", "1778"], "answer": 1 },
+        { "q": "What is the largest internal organ in the human body?", "choices": ["Heart", "Lungs", "Liver", "Kidneys"], "answer": 2 },
+        { "q": "On which continent is the Sahara Desert found?", "choices": ["Asia", "South America", "Europe", "Africa"], "answer": 3 },
+        { "q": "How many degrees do the interior angles of a triangle add up to?", "choices": ["180", "90", "360", "270"], "answer": 0 },
+        { "q": "What is the capital of Japan?", "choices": ["Beijing", "Tokyo", "Seoul", "Taipei"], "answer": 1 },
+        { "q": "Which element has the chemical symbol 'O'?", "choices": ["Osmium", "Oganesson", "Oxygen", "Ozone"], "answer": 2 },
+        { "q": "What is the main language spoken in Argentina?", "choices": ["Portuguese", "Italian", "English", "Spanish"], "answer": 3 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "In the analytic continuation of the Riemann zeta function, what is the value of ζ(−1)?", "choices": ["−1/12", "−1/6", "∞", "0"], "answer": 0 },
-        { "q": "What is the Gibbs free energy condition for a spontaneous reaction at constant T and P?", "choices": ["ΔG > 0", "ΔG < 0", "ΔG = 0", "ΔG = ΔH"], "answer": 1 },
-        { "q": "How many elements does the dihedral group D₄ — the symmetry group of a square — have?", "choices": ["4", "6", "8", "12"], "answer": 2 },
-        { "q": "What is the ground state energy of a particle in a 1D infinite square well of width L?", "choices": ["ħ²π²/mL²", "ħ²π²/(4mL²)", "2ħ²π²/mL²", "ħ²π²/(2mL²)"], "answer": 3 },
-        { "q": "What is the Laplace transform of f(t) = t·e^(at)?", "choices": ["1/(s−a)²", "1/(s−a)", "s/(s−a)²", "a/(s−a)²"], "answer": 0 },
-        { "q": "In how many distinct ways can 5 different books be arranged on a shelf?", "choices": ["60", "120", "240", "720"], "answer": 1 },
-        { "q": "What is always true of the entropy of mixing of two distinct ideal gases at constant T and P?", "choices": ["It is always zero", "It depends on molecular weights", "It is always positive", "It equals the enthalpy of mixing"], "answer": 2 },
-        { "q": "How many edges does a tree with n vertices have?", "choices": ["n", "n+1", "n+2", "n−1"], "answer": 3 },
-        { "q": "What is the curvature κ of a circle of radius r?", "choices": ["1/r", "r", "2πr", "r²"], "answer": 0 },
-        { "q": "In the Standard Model, which particle mediates the electromagnetic force?", "choices": ["Gluon", "Photon", "W boson", "Z boson"], "answer": 1 }
+        { "q": "What is the value of the Gaussian integral ∫₋∞^∞ e^(−x²) dx?", "choices": ["π", "1", "2", "√π"], "answer": 3 },
+        { "q": "What is the rank of the matrix [[1,2,3],[2,4,6],[1,2,3]]?", "choices": ["1", "2", "3", "0"], "answer": 0 },
+        { "q": "The Heisenberg uncertainty principle gives ΔxΔp ≥ ___.", "choices": ["ħ", "ħ/2", "ħ²", "2ħ"], "answer": 1 },
+        { "q": "The Boltzmann constant kB is approximately:", "choices": ["1.38 × 10⁻²⁰ J/K", "1.38 × 10⁻²⁶ J/K", "1.38 × 10⁻²³ J/K", "1.38 × 10⁻¹⁹ J/K"], "answer": 2 },
+        { "q": "What is the time complexity of merge sort for n elements?", "choices": ["O(n)", "O(n log² n)", "O(n²)", "O(n log n)"], "answer": 3 },
+        { "q": "What is the value of e^(iπ) + 1?", "choices": ["0", "2", "2i", "−2"], "answer": 0 },
+        { "q": "What does Le Chatelier's principle state?", "choices": ["Reactions always proceed to completion", "A system at equilibrium shifts to oppose any applied change", "Entropy of an isolated system always increases", "Reaction rate doubles every 10°C"], "answer": 1 },
+        { "q": "What is the electric field inside a uniformly charged hollow spherical shell?", "choices": ["kQ/r² directed outward", "Depends on position inside the shell", "Zero at all interior points", "Equal to the field at the surface"], "answer": 2 },
+        { "q": "What is the sum of the infinite geometric series 1 + 1/3 + 1/9 + 1/27 + …?", "choices": ["1", "2", "4/3", "3/2"], "answer": 3 },
+        { "q": "The Pauli Exclusion Principle states that no two identical fermions in a system can share the same ___.", "choices": ["Quantum state", "Energy level", "Orbital", "Spin direction"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "What is the next letter in the sequence: O, T, T, F, F, S, S, E, N, ___?", "choices": ["T", "O", "E", "F"], "answer": 0 },
-        { "q": "You enter a dark room containing a candle, an oil lamp, and a wood stove. You have exactly one match. What do you light first?", "choices": ["The candle", "The match", "The oil lamp", "The wood stove"], "answer": 1 },
-        { "q": "Two fathers and two sons sit down to eat eggs. There are exactly 3 eggs, and each person eats exactly one whole egg. How?", "choices": ["One egg was imaginary", "One person ate two portions", "There are only 3 people: grandfather, father, and son", "Two people shared one egg"], "answer": 2 },
-        { "q": "Which is heavier: a ton of gold or a ton of feathers?", "choices": ["Gold — it is far denser", "Feathers — more volume is needed", "Gold — precious metals use heavier units of measure", "They weigh exactly the same"], "answer": 3 },
-        { "q": "What is the minimum number of socks you must take (without looking) from a drawer of 10 red and 10 blue socks to guarantee a matching pair?", "choices": ["3", "2", "11", "10"], "answer": 0 },
-        { "q": "I have no mouth yet I speak; I have no ears yet I hear. What am I?", "choices": ["A shadow", "An echo", "Thunder", "A telephone"], "answer": 1 },
-        { "q": "A cowboy rides into town on Friday, stays exactly 3 days, and leaves on Friday. How is this possible?", "choices": ["He misremembers which days he stayed", "He travelled across time zones", "His horse is named Friday", "There is a holiday called Friday in his country"], "answer": 2 },
-        { "q": "What is the next number in the sequence: 1, 11, 21, 1211, 111221?", "choices": ["211312", "1321", "221131", "312211"], "answer": 3 },
-        { "q": "I buy a painting for $70 and sell it for $80. I then buy it back for $90 and sell it again for $100. What is my total profit?", "choices": ["$20", "$10", "$30", "$40"], "answer": 0 },
-        { "q": "Rearrange the letters N, E, W, D, O, O, R to make one word.", "choices": ["Woodnore", "One Word", "Norewood", "Rewood"], "answer": 1 }
+        { "q": "How many animals of each kind did Moses take on the Ark?", "choices": ["Two", "None — it was Noah, not Moses", "Seven pairs of clean animals", "One of each"], "answer": 1 },
+        { "q": "If you overtake the person in second place in a race, what place are you in?", "choices": ["First", "Third", "Second", "Fourth"], "answer": 2 },
+        { "q": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10", "$0.25", "$0.50", "$0.05"], "answer": 3 },
+        { "q": "How many months in the year have 28 days?", "choices": ["All 12", "Only February", "2", "4"], "answer": 0 },
+        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep are left?", "choices": ["8", "9", "17", "0"], "answer": 1 },
+        { "q": "An electric train is traveling northeast. Which direction does the smoke from the engine blow?", "choices": ["Northeast", "Southwest", "Electric trains produce no smoke", "Southeast"], "answer": 2 },
+        { "q": "How many birthdays does the average person have in their lifetime?", "choices": ["One per year", "Depends on their age", "About 75 total", "Exactly one"], "answer": 3 },
+        { "q": "A rooster is standing on a barn roof and lays an egg. Which way does the egg roll?", "choices": ["Roosters don't lay eggs", "Down the north side", "Down the south side", "It falls straight off the peak"], "answer": 0 },
+        { "q": "What word in the English language is always spelled incorrectly?", "choices": ["Wrongly", "Incorrectly", "Misspelled", "Error"], "answer": 1 },
+        { "q": "I have two coins totaling 30 cents. One of them is not a nickel. What are the two coins?", "choices": ["Two dimes", "A dime and two nickels", "A quarter and a nickel", "Three dimes"], "answer": 2 }
       ]
     }
   ]
