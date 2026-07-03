@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-02",
+  "date": "2026-07-03",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Spain?", "choices": ["Valencia", "Madrid", "Barcelona", "Seville"], "answer": 1 },
-        { "q": "What is 17 × 5?", "choices": ["75", "80", "85", "90"], "answer": 2 },
-        { "q": "Which planet is closest to the Sun?", "choices": ["Venus", "Earth", "Mars", "Mercury"], "answer": 3 },
-        { "q": "What is the chemical symbol for iron?", "choices": ["Fe", "In", "Ir", "Fi"], "answer": 0 },
-        { "q": "How many planets are in our solar system?", "choices": ["7", "8", "9", "10"], "answer": 1 },
-        { "q": "What is 9² (9 squared)?", "choices": ["72", "78", "81", "84"], "answer": 2 },
-        { "q": "On which continent is Egypt located?", "choices": ["Asia", "Europe", "South America", "Africa"], "answer": 3 },
-        { "q": "What is the hardest natural substance on Earth?", "choices": ["Diamond", "Granite", "Steel", "Quartz"], "answer": 0 },
-        { "q": "Who was the first President of the United States?", "choices": ["Thomas Jefferson", "George Washington", "Benjamin Franklin", "John Adams"], "answer": 1 },
-        { "q": "What is the chemical symbol for nitrogen?", "choices": ["Ni", "Ng", "N", "Ne"], "answer": 2 }
+        { "q": "What is the boiling point of water in Celsius?", "choices": ["100°C", "90°C", "110°C", "80°C"], "answer": 0 },
+        { "q": "What is the chemical symbol for gold?", "choices": ["Go", "Au", "Ag", "Gd"], "answer": 1 },
+        { "q": "What is the capital of Australia?", "choices": ["Sydney", "Melbourne", "Canberra", "Brisbane"], "answer": 2 },
+        { "q": "How many days are in a leap year?", "choices": ["363", "364", "365", "366"], "answer": 3 },
+        { "q": "What is 8 × 7?", "choices": ["56", "54", "63", "48"], "answer": 0 },
+        { "q": "Which continent is Brazil on?", "choices": ["Africa", "South America", "North America", "Europe"], "answer": 1 },
+        { "q": "Who painted the Mona Lisa?", "choices": ["Michelangelo", "Raphael", "Leonardo da Vinci", "Pablo Picasso"], "answer": 2 },
+        { "q": "What is the smallest prime number?", "choices": ["1", "3", "4", "2"], "answer": 3 },
+        { "q": "What is the currency of Japan?", "choices": ["Yen", "Yuan", "Won", "Baht"], "answer": 0 },
+        { "q": "What is 15² (15 squared)?", "choices": ["200", "225", "250", "210"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is the sky on a sunny day?", "choices": ["Blue", "Green", "Red", "Yellow"], "answer": 0 },
-        { "q": "Which animal gives us milk?", "choices": ["Hen", "Cow", "Dog", "Horse"], "answer": 1 },
-        { "q": "What shape is a full moon?", "choices": ["Triangle", "Square", "Circle", "Star"], "answer": 2 },
-        { "q": "What falls from the sky when it rains?", "choices": ["Sand", "Hail", "Sunshine", "Rain"], "answer": 3 },
-        { "q": "What is 1 + 1?", "choices": ["2", "3", "4", "1"], "answer": 0 },
-        { "q": "How many legs does a cat have?", "choices": ["Two", "Four", "Six", "Eight"], "answer": 1 },
-        { "q": "What do you eat soup with?", "choices": ["Fork", "Knife", "Spoon", "Cup"], "answer": 2 },
-        { "q": "What do we call the meal eaten in the morning?", "choices": ["Lunch", "Dinner", "Supper", "Breakfast"], "answer": 3 },
-        { "q": "Which of these is a fruit?", "choices": ["Apple", "Potato", "Carrot", "Broccoli"], "answer": 0 },
-        { "q": "Which animal has a very long neck?", "choices": ["Elephant", "Dog", "Giraffe", "Bear"], "answer": 2 }
+        { "q": "What color is a banana?", "choices": ["Green", "Yellow", "Red", "Purple"], "answer": 1 },
+        { "q": "What sound does a cow make?", "choices": ["Moo", "Woof", "Quack", "Oink"], "answer": 0 },
+        { "q": "How many wheels does a tricycle have?", "choices": ["One", "Two", "Three", "Four"], "answer": 2 },
+        { "q": "What do you wear on your head?", "choices": ["Sock", "Glove", "Boot", "Hat"], "answer": 3 },
+        { "q": "What is 2 + 2?", "choices": ["4", "3", "5", "6"], "answer": 0 },
+        { "q": "Which animal barks?", "choices": ["Cat", "Dog", "Cow", "Sheep"], "answer": 1 },
+        { "q": "What shape has four equal sides?", "choices": ["Triangle", "Circle", "Square", "Oval"], "answer": 2 },
+        { "q": "Where do you sleep at night?", "choices": ["Chair", "Table", "Couch", "Bed"], "answer": 3 },
+        { "q": "What is 5 - 2?", "choices": ["3", "2", "1", "4"], "answer": 0 },
+        { "q": "What do bees make?", "choices": ["Milk", "Honey", "Bread", "Juice"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the capital of Argentina?", "choices": ["Montevideo", "Lima", "Buenos Aires", "Santiago"], "answer": 2 },
-        { "q": "What is the square root of 225?", "choices": ["12", "13", "14", "15"], "answer": 3 },
-        { "q": "Who wrote 'Romeo and Juliet'?", "choices": ["William Shakespeare", "Charles Dickens", "Victor Hugo", "Geoffrey Chaucer"], "answer": 0 },
-        { "q": "In which year did the United States declare independence?", "choices": ["1775", "1776", "1777", "1778"], "answer": 1 },
-        { "q": "What is the largest internal organ in the human body?", "choices": ["Heart", "Lungs", "Liver", "Kidneys"], "answer": 2 },
-        { "q": "On which continent is the Sahara Desert found?", "choices": ["Asia", "South America", "Europe", "Africa"], "answer": 3 },
-        { "q": "How many degrees do the interior angles of a triangle add up to?", "choices": ["180", "90", "360", "270"], "answer": 0 },
-        { "q": "What is the capital of Japan?", "choices": ["Beijing", "Tokyo", "Seoul", "Taipei"], "answer": 1 },
-        { "q": "Which element has the chemical symbol 'O'?", "choices": ["Osmium", "Oganesson", "Oxygen", "Ozone"], "answer": 2 },
-        { "q": "What is the main language spoken in Argentina?", "choices": ["Portuguese", "Italian", "English", "Spanish"], "answer": 3 }
+        { "q": "In which year did the Berlin Wall fall?", "choices": ["1985", "1988", "1989", "1990"], "answer": 2 },
+        { "q": "What is the capital of South Korea?", "choices": ["Busan", "Pyongyang", "Incheon", "Seoul"], "answer": 3 },
+        { "q": "How many bones are in the adult human body?", "choices": ["206", "208", "210", "198"], "answer": 0 },
+        { "q": "Which element has the chemical symbol 'K'?", "choices": ["Krypton", "Potassium", "Calcium", "Cobalt"], "answer": 1 },
+        { "q": "What is the approximate speed of light in a vacuum?", "choices": ["150,000 km/s", "200,000 km/s", "299,792 km/s", "399,792 km/s"], "answer": 2 },
+        { "q": "Who composed the opera 'The Magic Flute'?", "choices": ["Beethoven", "Bach", "Handel", "Mozart"], "answer": 3 },
+        { "q": "What is the deepest ocean trench on Earth?", "choices": ["Mariana Trench", "Puerto Rico Trench", "Java Trench", "Tonga Trench"], "answer": 0 },
+        { "q": "In which year did Neil Armstrong first walk on the Moon?", "choices": ["1967", "1969", "1971", "1973"], "answer": 1 },
+        { "q": "What is the chemical symbol for silver?", "choices": ["Si", "Sr", "Ag", "Sv"], "answer": 2 },
+        { "q": "Which planet takes the longest to orbit the Sun?", "choices": ["Saturn", "Uranus", "Jupiter", "Neptune"], "answer": 3 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the value of the Gaussian integral ∫₋∞^∞ e^(−x²) dx?", "choices": ["π", "1", "2", "√π"], "answer": 3 },
-        { "q": "What is the rank of the matrix [[1,2,3],[2,4,6],[1,2,3]]?", "choices": ["1", "2", "3", "0"], "answer": 0 },
-        { "q": "The Heisenberg uncertainty principle gives ΔxΔp ≥ ___.", "choices": ["ħ", "ħ/2", "ħ²", "2ħ"], "answer": 1 },
-        { "q": "The Boltzmann constant kB is approximately:", "choices": ["1.38 × 10⁻²⁰ J/K", "1.38 × 10⁻²⁶ J/K", "1.38 × 10⁻²³ J/K", "1.38 × 10⁻¹⁹ J/K"], "answer": 2 },
-        { "q": "What is the time complexity of merge sort for n elements?", "choices": ["O(n)", "O(n log² n)", "O(n²)", "O(n log n)"], "answer": 3 },
-        { "q": "What is the value of e^(iπ) + 1?", "choices": ["0", "2", "2i", "−2"], "answer": 0 },
-        { "q": "What does Le Chatelier's principle state?", "choices": ["Reactions always proceed to completion", "A system at equilibrium shifts to oppose any applied change", "Entropy of an isolated system always increases", "Reaction rate doubles every 10°C"], "answer": 1 },
-        { "q": "What is the electric field inside a uniformly charged hollow spherical shell?", "choices": ["kQ/r² directed outward", "Depends on position inside the shell", "Zero at all interior points", "Equal to the field at the surface"], "answer": 2 },
-        { "q": "What is the sum of the infinite geometric series 1 + 1/3 + 1/9 + 1/27 + …?", "choices": ["1", "2", "4/3", "3/2"], "answer": 3 },
-        { "q": "The Pauli Exclusion Principle states that no two identical fermions in a system can share the same ___.", "choices": ["Quantum state", "Energy level", "Orbital", "Spin direction"], "answer": 0 }
+        { "q": "What is the value of lim_{n→∞} (1 + 1/n)^n?", "choices": ["e", "1", "π", "∞"], "answer": 0 },
+        { "q": "What is the dimension of the null space of a 4×5 matrix of rank 3?", "choices": ["1", "2", "3", "4"], "answer": 1 },
+        { "q": "In special relativity, the Lorentz factor γ equals:", "choices": ["√(1−v²/c²)", "1/(1−v²/c²)", "1/√(1−v²/c²)", "√(1+v²/c²)"], "answer": 2 },
+        { "q": "What is ∫ sec²(x) dx?", "choices": ["sin(x) + C", "cos(x) + C", "−cot(x) + C", "tan(x) + C"], "answer": 3 },
+        { "q": "The Clausius inequality states that for any thermodynamic cycle ∮ dQ/T is ___.", "choices": ["≤ 0", "= 0", "≥ 0", "> 0"], "answer": 0 },
+        { "q": "What is the characteristic polynomial of the matrix [[0,1],[1,0]]?", "choices": ["λ²+1", "λ²−1", "λ²+λ+1", "λ²−λ+1"], "answer": 1 },
+        { "q": "Fermat's Last Theorem (proved 1995) states that for integer n > 2, the equation aⁿ + bⁿ = cⁿ has ___ in positive integers.", "choices": ["Infinitely many solutions", "Exactly one solution", "No solutions", "Finitely many solutions"], "answer": 2 },
+        { "q": "What is the commutator [x̂, p̂] of the position and momentum operators?", "choices": ["0", "ħ", "−iħ", "iħ"], "answer": 3 },
+        { "q": "The Fourier transform of f(x) = e^(−ax²) is proportional to:", "choices": ["e^(−ω²/(4a))", "e^(aω²)", "e^(−aω)", "cos(aω)"], "answer": 0 },
+        { "q": "If f'(c) = 0 and f''(c) = 0, what can you definitively conclude about f at x = c?", "choices": ["It is a local minimum", "Nothing — the second derivative test is inconclusive", "It is a local maximum", "It is an inflection point"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many animals of each kind did Moses take on the Ark?", "choices": ["Two", "None — it was Noah, not Moses", "Seven pairs of clean animals", "One of each"], "answer": 1 },
-        { "q": "If you overtake the person in second place in a race, what place are you in?", "choices": ["First", "Third", "Second", "Fourth"], "answer": 2 },
-        { "q": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10", "$0.25", "$0.50", "$0.05"], "answer": 3 },
-        { "q": "How many months in the year have 28 days?", "choices": ["All 12", "Only February", "2", "4"], "answer": 0 },
-        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep are left?", "choices": ["8", "9", "17", "0"], "answer": 1 },
-        { "q": "An electric train is traveling northeast. Which direction does the smoke from the engine blow?", "choices": ["Northeast", "Southwest", "Electric trains produce no smoke", "Southeast"], "answer": 2 },
-        { "q": "How many birthdays does the average person have in their lifetime?", "choices": ["One per year", "Depends on their age", "About 75 total", "Exactly one"], "answer": 3 },
-        { "q": "A rooster is standing on a barn roof and lays an egg. Which way does the egg roll?", "choices": ["Roosters don't lay eggs", "Down the north side", "Down the south side", "It falls straight off the peak"], "answer": 0 },
-        { "q": "What word in the English language is always spelled incorrectly?", "choices": ["Wrongly", "Incorrectly", "Misspelled", "Error"], "answer": 1 },
-        { "q": "I have two coins totaling 30 cents. One of them is not a nickel. What are the two coins?", "choices": ["Two dimes", "A dime and two nickels", "A quarter and a nickel", "Three dimes"], "answer": 2 }
+        { "q": "How many 'r's are in the word 'strawberry'?", "choices": ["1", "2", "3", "4"], "answer": 2 },
+        { "q": "A 60-foot rope is cut into 1-foot pieces one cut at a time. How many cuts are needed?", "choices": ["55", "58", "60", "59"], "answer": 3 },
+        { "q": "A plane crashes exactly on the US–Canada border. Where do you bury the survivors?", "choices": ["On the Canadian side", "You don't bury survivors", "At the crash site", "On the US side"], "answer": 1 },
+        { "q": "How many times can you subtract 5 from 25?", "choices": ["Five times", "Once", "Twenty-five times", "Infinite times"], "answer": 1 },
+        { "q": "Which of these four words is spelled correctly?", "choices": ["Misspell", "Absense", "Publically", "Recieve"], "answer": 0 },
+        { "q": "How many times does the digit 9 appear when you write all integers from 1 to 100?", "choices": ["9", "10", "19", "20"], "answer": 3 },
+        { "q": "A doctor gives you 3 pills and says to take one every half hour. How many minutes until all pills are taken?", "choices": ["30 minutes", "90 minutes", "60 minutes", "120 minutes"], "answer": 2 },
+        { "q": "If 5 machines make 5 widgets in 5 minutes, how long do 100 machines take to make 100 widgets?", "choices": ["5 minutes", "50 minutes", "100 minutes", "20 minutes"], "answer": 0 },
+        { "q": "What is the minimum number of river crossings needed to solve the classic fox, chicken, and grain puzzle?", "choices": ["5", "7", "9", "11"], "answer": 1 },
+        { "q": "Counting in English, at what number do you first use the letter 'A'?", "choices": ["Four", "Forty", "One Hundred", "One Thousand"], "answer": 3 }
       ]
     }
   ]
