@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-04",
+  "date": "2026-07-05",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the chemical symbol for copper?", "choices": ["Cu", "Co", "Cr", "Cp"], "answer": 0 },
-        { "q": "What is the official language of Portugal?", "choices": ["Spanish", "Portuguese", "French", "Italian"], "answer": 1 },
-        { "q": "Who wrote 'Don Quixote'?", "choices": ["Dante Alighieri", "Homer", "Miguel de Cervantes", "Lope de Vega"], "answer": 2 },
-        { "q": "What is 13 × 6?", "choices": ["68", "74", "76", "78"], "answer": 3 },
-        { "q": "What is the capital of the United Kingdom?", "choices": ["London", "Edinburgh", "Birmingham", "Manchester"], "answer": 0 },
-        { "q": "How many sides does a pentagon have?", "choices": ["4", "5", "7", "6"], "answer": 1 },
-        { "q": "What is the capital of the United Arab Emirates?", "choices": ["Dubai", "Sharjah", "Abu Dhabi", "Ajman"], "answer": 2 },
-        { "q": "On which continent is Kenya located?", "choices": ["Asia", "South America", "Europe", "Africa"], "answer": 3 },
-        { "q": "Who wrote the Harry Potter series?", "choices": ["J.K. Rowling", "C.S. Lewis", "Roald Dahl", "J.R.R. Tolkien"], "answer": 0 },
-        { "q": "What is 120 ÷ 8?", "choices": ["12", "15", "14", "13"], "answer": 1 }
+        { "q": "Who wrote 'Romeo and Juliet'?", "choices": ["Shakespeare", "Dickens", "Chaucer", "Milton"], "answer": 0 },
+        { "q": "What is the capital of France?", "choices": ["Lyon", "Paris", "Marseille", "Nice"], "answer": 1 },
+        { "q": "How many sides does a hexagon have?", "choices": ["5", "7", "6", "8"], "answer": 2 },
+        { "q": "What is the largest ocean on Earth?", "choices": ["Atlantic", "Indian", "Arctic", "Pacific"], "answer": 3 },
+        { "q": "In which year did World War II end?", "choices": ["1945", "1944", "1946", "1943"], "answer": 0 },
+        { "q": "What is the chemical symbol for silver?", "choices": ["Si", "Ag", "Sr", "Sv"], "answer": 1 },
+        { "q": "What is 9 × 8?", "choices": ["63", "70", "72", "81"], "answer": 2 },
+        { "q": "Which planet is closest to the Sun?", "choices": ["Earth", "Venus", "Mars", "Mercury"], "answer": 3 },
+        { "q": "What is the capital of Canada?", "choices": ["Toronto", "Ottawa", "Montreal", "Vancouver"], "answer": 1 },
+        { "q": "How many centimeters are in a meter?", "choices": ["10", "1000", "100", "10000"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What is 4 - 3?", "choices": ["1", "2", "3", "4"], "answer": 0 },
-        { "q": "What color is an apple?", "choices": ["Blue", "Red", "Purple", "Yellow"], "answer": 1 },
-        { "q": "What do you drink when you are thirsty?", "choices": ["Sand", "Rocks", "Water", "Glue"], "answer": 2 },
-        { "q": "What is 1 + 2?", "choices": ["1", "2", "4", "3"], "answer": 3 },
-        { "q": "What sound does a duck make?", "choices": ["Quack", "Moo", "Roar", "Bark"], "answer": 0 },
-        { "q": "How many eyes do you have?", "choices": ["One", "Two", "Three", "Four"], "answer": 1 },
-        { "q": "What do you call a baby cat?", "choices": ["Cub", "Piglet", "Kitten", "Foal"], "answer": 2 },
-        { "q": "How many wheels does a bicycle have?", "choices": ["One", "Three", "Four", "Two"], "answer": 3 },
-        { "q": "What is 6 - 4?", "choices": ["2", "3", "4", "5"], "answer": 0 },
-        { "q": "What comes after Tuesday?", "choices": ["Friday", "Wednesday", "Monday", "Thursday"], "answer": 1 }
+        { "q": "What color is the sky?", "choices": ["Blue", "Green", "Red", "Yellow"], "answer": 0 },
+        { "q": "What is 2 + 2?", "choices": ["3", "4", "5", "6"], "answer": 1 },
+        { "q": "How many legs does a dog have?", "choices": ["Two", "Three", "Four", "Five"], "answer": 2 },
+        { "q": "What do you call a baby dog?", "choices": ["Calf", "Lamb", "Foal", "Puppy"], "answer": 3 },
+        { "q": "What comes after Sunday?", "choices": ["Monday", "Tuesday", "Friday", "Saturday"], "answer": 0 },
+        { "q": "What shape is a ball?", "choices": ["Flat", "Round", "Square", "Pointy"], "answer": 1 },
+        { "q": "Which animal says 'Moo'?", "choices": ["Dog", "Pig", "Cow", "Cat"], "answer": 2 },
+        { "q": "How many toes does a person have on one foot?", "choices": ["Four", "Six", "Eight", "Five"], "answer": 3 },
+        { "q": "What do you use to write on paper?", "choices": ["Spoon", "Fork", "Pencil", "Cup"], "answer": 2 },
+        { "q": "What is 5 - 3?", "choices": ["1", "3", "4", "2"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "In which year did the French Revolution begin?", "choices": ["1776", "1785", "1789", "1799"], "answer": 2 },
-        { "q": "Which country hosted the 2016 Summer Olympics?", "choices": ["China", "Brazil", "Japan", "UK"], "answer": 1 },
-        { "q": "How many protons does a carbon atom have?", "choices": ["4", "2", "8", "6"], "answer": 3 },
-        { "q": "Who wrote the novel '1984'?", "choices": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Philip K. Dick"], "answer": 0 },
-        { "q": "What is the tallest mountain in the world?", "choices": ["K2", "Mount Everest", "Kangchenjunga", "Makalu"], "answer": 1 },
-        { "q": "What is known as the 'powerhouse of the cell'?", "choices": ["Nucleus", "Ribosome", "Mitochondria", "Golgi apparatus"], "answer": 2 },
-        { "q": "In what year did the Titanic sink?", "choices": ["1908", "1910", "1914", "1912"], "answer": 3 },
-        { "q": "Which element has atomic number 1?", "choices": ["Hydrogen", "Carbon", "Oxygen", "Helium"], "answer": 0 },
-        { "q": "What is the longest river in South America?", "choices": ["Orinoco", "Amazon", "Río de la Plata", "Paraguay"], "answer": 1 },
-        { "q": "Which blood type is considered the universal donor?", "choices": ["A positive", "AB positive", "O negative", "B negative"], "answer": 2 }
+        { "q": "In which country is the Colosseum located?", "choices": ["Italy", "Greece", "Spain", "France"], "answer": 0 },
+        { "q": "What is the largest planet in our solar system?", "choices": ["Saturn", "Jupiter", "Neptune", "Uranus"], "answer": 1 },
+        { "q": "What is the chemical formula for table salt?", "choices": ["HCl", "H₂O", "NaCl", "KCl"], "answer": 2 },
+        { "q": "Who was the first President of the United States?", "choices": ["John Adams", "Thomas Jefferson", "Benjamin Franklin", "George Washington"], "answer": 3 },
+        { "q": "Which organ in the human body produces insulin?", "choices": ["Pancreas", "Liver", "Spleen", "Kidney"], "answer": 0 },
+        { "q": "What is the approximate speed of light?", "choices": ["30,000 km/s", "300,000 km/s", "150,000 km/s", "3,000,000 km/s"], "answer": 1 },
+        { "q": "The Great Wall of China primarily defended against invasions from the ___.", "choices": ["west", "south", "north", "east"], "answer": 2 },
+        { "q": "How many bones are in the adult human body?", "choices": ["183", "198", "212", "206"], "answer": 3 },
+        { "q": "Which element has the chemical symbol 'Fe'?", "choices": ["Iron", "Fluorine", "Tin", "Francium"], "answer": 0 },
+        { "q": "On which continent is the Sahara Desert?", "choices": ["Asia", "Australia", "Africa", "South America"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is ∫₀¹ x·ln(x) dx?", "choices": ["−1/4", "−1/2", "1/4", "−1"], "answer": 0 },
-        { "q": "For a real symmetric n×n matrix, its eigenvalues are always ___.", "choices": ["positive", "real", "non-negative", "integers"], "answer": 1 },
-        { "q": "The Helmholtz free energy A is defined as:", "choices": ["A = U + TS", "A = H − TS", "A = U − TS", "A = G − PV"], "answer": 2 },
-        { "q": "What is the chromatic number of the Petersen graph?", "choices": ["2", "4", "5", "3"], "answer": 3 },
-        { "q": "For an idempotent matrix (A² = A), each eigenvalue λ must satisfy ___.", "choices": ["λ ∈ {0, 1}", "λ = 1", "λ = 0", "|λ| = 1"], "answer": 0 },
-        { "q": "In special relativity, the energy-momentum relation gives E² = ___.", "choices": ["(pc + mc²)²", "(pc)² + (mc²)²", "p²c² + mc²", "pc · mc²"], "answer": 1 },
-        { "q": "The ground state energy of a hydrogen atom is approximately ___.", "choices": ["−3.4 eV", "−6.8 eV", "−13.6 eV", "−27.2 eV"], "answer": 2 },
-        { "q": "The symmetry group of an equilateral triangle is isomorphic to ___.", "choices": ["Z₆", "Z₃", "A₃", "S₃"], "answer": 3 },
-        { "q": "What is the general solution to dy/dx = ky (k ≠ 0)?", "choices": ["y = Ce^(kx)", "y = Ce^(k/x)", "y = kx + C", "y = C·sin(kx)"], "answer": 0 },
-        { "q": "How many prime numbers are less than 50?", "choices": ["12", "15", "17", "18"], "answer": 1 }
+        { "q": "What is d/dx[arctan(x)]?", "choices": ["1/(1+x²)", "1/(1-x²)", "1/√(1-x²)", "arctan(x)/x"], "answer": 0 },
+        { "q": "The Basel problem: ∑_{n=1}^∞ 1/n² = ?", "choices": ["π/6", "π²/6", "π²/12", "ln 2"], "answer": 1 },
+        { "q": "What is lim_{x→0} (sin x − x) / x³?", "choices": ["0", "1/6", "−1/6", "−1/3"], "answer": 2 },
+        { "q": "A 2×2 matrix has eigenvalues 3 and 5. Its determinant is:", "choices": ["8", "4", "25", "15"], "answer": 3 },
+        { "q": "For X ~ N(0, 1), what is E[X⁴]?", "choices": ["1", "6", "3", "2"], "answer": 2 },
+        { "q": "Gibbs free energy G is defined as:", "choices": ["U − TS", "H − TS", "H + TS", "U + TS"], "answer": 1 },
+        { "q": "∮_{|z|=1} (1/z) dz (counterclockwise) = ?", "choices": ["2πi", "πi", "0", "2π"], "answer": 0 },
+        { "q": "Gödel's first incompleteness theorem: any consistent formal system capable of basic arithmetic ___.", "choices": ["proves all its true statements", "is inconsistent", "is undecidable for all propositions", "contains true but unprovable statements"], "answer": 3 },
+        { "q": "∫ 1/(1+x²) dx = ?", "choices": ["arcsin(x) + C", "arctan(x) + C", "ln(1+x²)/2 + C", "x/(1+x²) + C"], "answer": 1 },
+        { "q": "The Heisenberg uncertainty principle states Δx · Δp ≥ ?", "choices": ["h", "ℏ", "ℏ/2", "2ℏ"], "answer": 2 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many letter 'l's are in the word 'parallel'?", "choices": ["3", "2", "4", "1"], "answer": 0 },
-        { "q": "How many letters are in 'the alphabet'?", "choices": ["26", "11", "24", "25"], "answer": 1 },
-        { "q": "How much dirt is in a hole that is 3 feet wide, 4 feet long, and 2 feet deep?", "choices": ["24 cubic feet", "14 cubic feet", "None — a hole contains no dirt", "9 cubic feet"], "answer": 2 },
-        { "q": "Divide 30 by one-half, then add 10. What is the result?", "choices": ["25", "40", "35", "70"], "answer": 3 },
-        { "q": "Add up: 1000 + 40 + 1000 + 30 + 1000 + 20 + 1000 + 10. What is the total?", "choices": ["4100", "5000", "4500", "4010"], "answer": 0 },
-        { "q": "Three mislabeled boxes: 'Apples,' 'Oranges,' 'Apples & Oranges' (all labels are wrong). Pick ONE fruit from ONE box to correctly relabel all three. Which box must you pick from?", "choices": ["The 'Apples' box", "The 'Apples & Oranges' box", "The 'Oranges' box", "It doesn't matter — any box works"], "answer": 1 },
-        { "q": "A lily pad doubles in size each day and fully covers a pond after 48 days. On which day was the pond exactly HALF covered?", "choices": ["Day 24", "Day 36", "Day 47", "Day 44"], "answer": 2 },
-        { "q": "You flip a fair coin 10 times and get heads every single time. What is the probability the 11th flip is tails?", "choices": ["Nearly 100% — it's overdue", "Just above 50%", "Just below 50%", "Exactly 50%"], "answer": 3 },
-        { "q": "If a red house is made of red bricks and a yellow house of yellow bricks, what is a greenhouse made of?", "choices": ["Glass", "Green bricks", "Green plastic", "Green concrete"], "answer": 0 },
-        { "q": "My daughter is twice my son's age. Five years ago she was three times his age. How old is my daughter now?", "choices": ["15", "20", "18", "25"], "answer": 1 }
+        { "q": "A rooster lays an egg on the peak of a roof. Which side does it roll down?", "choices": ["The left side", "The right side", "It stays balanced at the peak", "Roosters don't lay eggs"], "answer": 3 },
+        { "q": "How many birthdays does the average person have in their lifetime?", "choices": ["One for each year they live", "As many as their age in years", "One", "It depends on their birth country"], "answer": 2 },
+        { "q": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10", "$0.05", "$0.15", "$0.20"], "answer": 1 },
+        { "q": "You are in a race. You pass the runner in 2nd place. What place are you now in?", "choices": ["2nd", "1st", "3rd", "It depends on the total number of runners"], "answer": 0 },
+        { "q": "A plane crashes on the US–Canada border. Where do the authorities bury the survivors?", "choices": ["In the US — federal jurisdiction applies", "In Canada — on their national territory", "Split by survivor nationality", "Survivors are not buried"], "answer": 3 },
+        { "q": "How many animals of each kind did Moses take on the ark?", "choices": ["Two of every kind", "Seven of clean, two of unclean", "None — it was Noah's ark, not Moses'", "One pair of each"], "answer": 2 },
+        { "q": "A clock reads 3:15. What is the exact angle between the hour and minute hands?", "choices": ["90°", "7.5°", "0°", "15°"], "answer": 1 },
+        { "q": "How many times can you subtract 5 from 25?", "choices": ["Once — after that it's no longer 25", "5 times", "Infinitely", "25 times"], "answer": 0 },
+        { "q": "Is it legal for a man to marry his widow's sister?", "choices": ["Yes, with proper legal documentation", "No, it is illegal in all states", "No — a man with a widow is already dead", "Yes, in most jurisdictions"], "answer": 2 },
+        { "q": "How many months of the year have 28 days?", "choices": ["1", "12", "2", "3"], "answer": 1 }
       ]
     }
   ]
