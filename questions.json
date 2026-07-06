@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-05",
+  "date": "2026-07-06",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Who wrote 'Romeo and Juliet'?", "choices": ["Shakespeare", "Dickens", "Chaucer", "Milton"], "answer": 0 },
-        { "q": "What is the capital of France?", "choices": ["Lyon", "Paris", "Marseille", "Nice"], "answer": 1 },
-        { "q": "How many sides does a hexagon have?", "choices": ["5", "7", "6", "8"], "answer": 2 },
-        { "q": "What is the largest ocean on Earth?", "choices": ["Atlantic", "Indian", "Arctic", "Pacific"], "answer": 3 },
-        { "q": "In which year did World War II end?", "choices": ["1945", "1944", "1946", "1943"], "answer": 0 },
-        { "q": "What is the chemical symbol for silver?", "choices": ["Si", "Ag", "Sr", "Sv"], "answer": 1 },
-        { "q": "What is 9 × 8?", "choices": ["63", "70", "72", "81"], "answer": 2 },
-        { "q": "Which planet is closest to the Sun?", "choices": ["Earth", "Venus", "Mars", "Mercury"], "answer": 3 },
-        { "q": "What is the capital of Canada?", "choices": ["Toronto", "Ottawa", "Montreal", "Vancouver"], "answer": 1 },
-        { "q": "How many centimeters are in a meter?", "choices": ["10", "1000", "100", "10000"], "answer": 2 }
+        { "q": "What is the capital of Spain?", "choices": ["Madrid", "Barcelona", "Seville", "Valencia"], "answer": 0 },
+        { "q": "Which is the largest continent by area?", "choices": ["Africa", "Asia", "Europe", "North America"], "answer": 1 },
+        { "q": "Who painted the ceiling of the Sistine Chapel?", "choices": ["Raphael", "Donatello", "Michelangelo", "Leonardo da Vinci"], "answer": 2 },
+        { "q": "What is the currency of the United Kingdom?", "choices": ["Euro", "Dollar", "Franc", "Pound"], "answer": 3 },
+        { "q": "What is 7 × 9?", "choices": ["63", "56", "81", "72"], "answer": 0 },
+        { "q": "Which country has the longest coastline in the world?", "choices": ["Russia", "Canada", "Australia", "Norway"], "answer": 1 },
+        { "q": "What is the boiling point of water in Fahrenheit?", "choices": ["180°F", "200°F", "210°F", "212°F"], "answer": 3 },
+        { "q": "Who invented the telephone?", "choices": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"], "answer": 2 },
+        { "q": "How many sides does an octagon have?", "choices": ["8", "6", "7", "9"], "answer": 0 },
+        { "q": "What is 144 ÷ 12?", "choices": ["10", "11", "13", "12"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is the sky?", "choices": ["Blue", "Green", "Red", "Yellow"], "answer": 0 },
-        { "q": "What is 2 + 2?", "choices": ["3", "4", "5", "6"], "answer": 1 },
-        { "q": "How many legs does a dog have?", "choices": ["Two", "Three", "Four", "Five"], "answer": 2 },
-        { "q": "What do you call a baby dog?", "choices": ["Calf", "Lamb", "Foal", "Puppy"], "answer": 3 },
-        { "q": "What comes after Sunday?", "choices": ["Monday", "Tuesday", "Friday", "Saturday"], "answer": 0 },
-        { "q": "What shape is a ball?", "choices": ["Flat", "Round", "Square", "Pointy"], "answer": 1 },
-        { "q": "Which animal says 'Moo'?", "choices": ["Dog", "Pig", "Cow", "Cat"], "answer": 2 },
-        { "q": "How many toes does a person have on one foot?", "choices": ["Four", "Six", "Eight", "Five"], "answer": 3 },
-        { "q": "What do you use to write on paper?", "choices": ["Spoon", "Fork", "Pencil", "Cup"], "answer": 2 },
-        { "q": "What is 5 - 3?", "choices": ["1", "3", "4", "2"], "answer": 3 }
+        { "q": "What color is grass?", "choices": ["Orange", "Purple", "Green", "Black"], "answer": 2 },
+        { "q": "How many fingers are on one hand?", "choices": ["Two", "Three", "Four", "Five"], "answer": 3 },
+        { "q": "Which animal hops and says ribbit?", "choices": ["Duck", "Frog", "Cat", "Bear"], "answer": 1 },
+        { "q": "What is 1 + 1?", "choices": ["3", "4", "1", "2"], "answer": 3 },
+        { "q": "What do you put on your feet?", "choices": ["Shirt", "Hat", "Shoes", "Gloves"], "answer": 2 },
+        { "q": "What do stars do at night?", "choices": ["Sing", "Shine", "Sleep", "Swim"], "answer": 1 },
+        { "q": "What color is the sun?", "choices": ["Blue", "Green", "Purple", "Yellow"], "answer": 3 },
+        { "q": "What sound does a pig make?", "choices": ["Oink", "Moo", "Bark", "Cluck"], "answer": 0 },
+        { "q": "Which animal has a long trunk?", "choices": ["Giraffe", "Elephant", "Lion", "Horse"], "answer": 1 },
+        { "q": "What is 3 + 3?", "choices": ["4", "7", "6", "5"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "In which country is the Colosseum located?", "choices": ["Italy", "Greece", "Spain", "France"], "answer": 0 },
-        { "q": "What is the largest planet in our solar system?", "choices": ["Saturn", "Jupiter", "Neptune", "Uranus"], "answer": 1 },
-        { "q": "What is the chemical formula for table salt?", "choices": ["HCl", "H₂O", "NaCl", "KCl"], "answer": 2 },
-        { "q": "Who was the first President of the United States?", "choices": ["John Adams", "Thomas Jefferson", "Benjamin Franklin", "George Washington"], "answer": 3 },
-        { "q": "Which organ in the human body produces insulin?", "choices": ["Pancreas", "Liver", "Spleen", "Kidney"], "answer": 0 },
-        { "q": "What is the approximate speed of light?", "choices": ["30,000 km/s", "300,000 km/s", "150,000 km/s", "3,000,000 km/s"], "answer": 1 },
-        { "q": "The Great Wall of China primarily defended against invasions from the ___.", "choices": ["west", "south", "north", "east"], "answer": 2 },
-        { "q": "How many bones are in the adult human body?", "choices": ["183", "198", "212", "206"], "answer": 3 },
-        { "q": "Which element has the chemical symbol 'Fe'?", "choices": ["Iron", "Fluorine", "Tin", "Francium"], "answer": 0 },
-        { "q": "On which continent is the Sahara Desert?", "choices": ["Asia", "Australia", "Africa", "South America"], "answer": 2 }
+        { "q": "In which year was the Eiffel Tower completed?", "choices": ["1889", "1895", "1901", "1876"], "answer": 0 },
+        { "q": "What is the capital of Brazil?", "choices": ["São Paulo", "Rio de Janeiro", "Salvador", "Brasília"], "answer": 3 },
+        { "q": "Which planet currently has the most known moons?", "choices": ["Jupiter", "Saturn", "Neptune", "Uranus"], "answer": 1 },
+        { "q": "Who was the first human to travel to space?", "choices": ["Buzz Aldrin", "John Glenn", "Yuri Gagarin", "Alan Shepard"], "answer": 2 },
+        { "q": "What is the smallest bone in the human body?", "choices": ["Stapes (in the ear)", "Femur", "Patella", "Fibula"], "answer": 0 },
+        { "q": "What is the longest river in the world?", "choices": ["Congo", "Yangtze", "Mississippi", "Nile"], "answer": 3 },
+        { "q": "What gas do plants absorb during photosynthesis?", "choices": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"], "answer": 1 },
+        { "q": "In which year did the United States declare independence?", "choices": ["1775", "1777", "1776", "1778"], "answer": 2 },
+        { "q": "Which element has the highest melting point?", "choices": ["Iron", "Platinum", "Gold", "Tungsten"], "answer": 3 },
+        { "q": "How many chromosomes do humans typically have?", "choices": ["46", "44", "48", "42"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is d/dx[arctan(x)]?", "choices": ["1/(1+x²)", "1/(1-x²)", "1/√(1-x²)", "arctan(x)/x"], "answer": 0 },
-        { "q": "The Basel problem: ∑_{n=1}^∞ 1/n² = ?", "choices": ["π/6", "π²/6", "π²/12", "ln 2"], "answer": 1 },
-        { "q": "What is lim_{x→0} (sin x − x) / x³?", "choices": ["0", "1/6", "−1/6", "−1/3"], "answer": 2 },
-        { "q": "A 2×2 matrix has eigenvalues 3 and 5. Its determinant is:", "choices": ["8", "4", "25", "15"], "answer": 3 },
-        { "q": "For X ~ N(0, 1), what is E[X⁴]?", "choices": ["1", "6", "3", "2"], "answer": 2 },
-        { "q": "Gibbs free energy G is defined as:", "choices": ["U − TS", "H − TS", "H + TS", "U + TS"], "answer": 1 },
-        { "q": "∮_{|z|=1} (1/z) dz (counterclockwise) = ?", "choices": ["2πi", "πi", "0", "2π"], "answer": 0 },
-        { "q": "Gödel's first incompleteness theorem: any consistent formal system capable of basic arithmetic ___.", "choices": ["proves all its true statements", "is inconsistent", "is undecidable for all propositions", "contains true but unprovable statements"], "answer": 3 },
-        { "q": "∫ 1/(1+x²) dx = ?", "choices": ["arcsin(x) + C", "arctan(x) + C", "ln(1+x²)/2 + C", "x/(1+x²) + C"], "answer": 1 },
-        { "q": "The Heisenberg uncertainty principle states Δx · Δp ≥ ?", "choices": ["h", "ℏ", "ℏ/2", "2ℏ"], "answer": 2 }
+        { "q": "∫ x·eˣ dx = ?", "choices": ["eˣ·x + C", "eˣ(x−1) + C", "eˣ(x+1) + C", "xeˣ/2 + C"], "answer": 1 },
+        { "q": "Dijkstra's algorithm with a binary heap has time complexity:", "choices": ["O((V+E) log V)", "O(V²)", "O(E log E)", "O(V log V + E)"], "answer": 0 },
+        { "q": "Which probability identity is ALWAYS true?", "choices": ["P(A|B) = P(B|A)", "P(A∪B) = P(A)·P(B)", "P(A∩B) = P(A)+P(B)", "P(A∪B) = P(A)+P(B)−P(A∩B)"], "answer": 3 },
+        { "q": "For a convex polyhedron, V − E + F = ?", "choices": ["0", "1", "2", "−2"], "answer": 2 },
+        { "q": "For f(x) = x, the nth Fourier cosine coefficient aₙ (n ≥ 1) over [−π, π] equals:", "choices": ["2/(nπ)", "0", "(−1)ⁿ/n", "1/(nπ)"], "answer": 1 },
+        { "q": "For a linear map T: Rⁿ → Rᵐ, the rank-nullity theorem states:", "choices": ["rank(T) + nullity(T) = n", "rank(T) + nullity(T) = m", "rank(T) = nullity(T)", "rank(T) · nullity(T) = nm"], "answer": 0 },
+        { "q": "The variance of a Binomial(n, p) random variable is:", "choices": ["p(1−p)", "np", "np²(1−p)", "np(1−p)"], "answer": 3 },
+        { "q": "The curl of the gradient of any twice-differentiable scalar field φ is:", "choices": ["φ itself", "∇φ", "zero", "∇²φ"], "answer": 2 },
+        { "q": "The Maxwell relation derived from Gibbs free energy G is:", "choices": ["(∂S/∂P)_T = −(∂V/∂T)_P", "(∂S/∂V)_T = (∂P/∂T)_V", "(∂T/∂P)_S = −(∂V/∂S)_P", "(∂T/∂V)_S = −(∂P/∂S)_V"], "answer": 0 },
+        { "q": "A tree with n vertices has how many edges?", "choices": ["n", "n−1", "n+1", "n(n−1)/2"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A rooster lays an egg on the peak of a roof. Which side does it roll down?", "choices": ["The left side", "The right side", "It stays balanced at the peak", "Roosters don't lay eggs"], "answer": 3 },
-        { "q": "How many birthdays does the average person have in their lifetime?", "choices": ["One for each year they live", "As many as their age in years", "One", "It depends on their birth country"], "answer": 2 },
-        { "q": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10", "$0.05", "$0.15", "$0.20"], "answer": 1 },
-        { "q": "You are in a race. You pass the runner in 2nd place. What place are you now in?", "choices": ["2nd", "1st", "3rd", "It depends on the total number of runners"], "answer": 0 },
-        { "q": "A plane crashes on the US–Canada border. Where do the authorities bury the survivors?", "choices": ["In the US — federal jurisdiction applies", "In Canada — on their national territory", "Split by survivor nationality", "Survivors are not buried"], "answer": 3 },
-        { "q": "How many animals of each kind did Moses take on the ark?", "choices": ["Two of every kind", "Seven of clean, two of unclean", "None — it was Noah's ark, not Moses'", "One pair of each"], "answer": 2 },
-        { "q": "A clock reads 3:15. What is the exact angle between the hour and minute hands?", "choices": ["90°", "7.5°", "0°", "15°"], "answer": 1 },
-        { "q": "How many times can you subtract 5 from 25?", "choices": ["Once — after that it's no longer 25", "5 times", "Infinitely", "25 times"], "answer": 0 },
-        { "q": "Is it legal for a man to marry his widow's sister?", "choices": ["Yes, with proper legal documentation", "No, it is illegal in all states", "No — a man with a widow is already dead", "Yes, in most jurisdictions"], "answer": 2 },
-        { "q": "How many months of the year have 28 days?", "choices": ["1", "12", "2", "3"], "answer": 1 }
+        { "q": "How many times does the letter 'f' appear in: 'Finished files are the result of years of scientific study combined with the experience of years'?", "choices": ["3", "4", "5", "6"], "answer": 3 },
+        { "q": "A man is born in 2000 and dies in 1998. How is this possible?", "choices": ["He was born in 2000 BC and died in 1998 BC — two years after his birth", "Impossible — he cannot die before being born", "A time zone quirk at a New Year's crossing", "His death certificate had a typo"], "answer": 0 },
+        { "q": "There are 3 apples on the table. You take 2. How many apples do YOU have?", "choices": ["0", "2", "1", "3"], "answer": 1 },
+        { "q": "What is the exact middle letter of the English alphabet?", "choices": ["M", "N", "No single middle letter — 26 letters means M and N share the middle", "O"], "answer": 2 },
+        { "q": "Two U.S. coins total 30 cents. One of the coins is not a nickel. What are the two coins?", "choices": ["Two dimes and a penny", "Two dimes", "Three dimes minus one", "A quarter and a nickel"], "answer": 3 },
+        { "q": "What occurs once in a minute, twice in a moment, but never in a thousand years?", "choices": ["The letter M", "The number 1", "A millisecond", "The letter T"], "answer": 0 },
+        { "q": "How many times do the minute and hour hands of a clock overlap in a 24-hour period?", "choices": ["24", "22", "20", "12"], "answer": 1 },
+        { "q": "Using a 3-gallon jug and a 5-gallon jug, what is the minimum number of steps to measure exactly 4 gallons?", "choices": ["4", "5", "6", "8"], "answer": 2 },
+        { "q": "What is special about the number 8,549,176,320?", "choices": ["It is divisible by all its digits", "It is a perfect square", "It contains every digit 0–9 exactly twice", "Its digits list 0–9 in alphabetical order by English name"], "answer": 3 },
+        { "q": "How many squares of ANY size exist on a standard 8×8 chessboard?", "choices": ["204", "64", "128", "256"], "answer": 0 }
       ]
     }
   ]
