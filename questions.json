@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-06",
+  "date": "2026-07-07",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Spain?", "choices": ["Madrid", "Barcelona", "Seville", "Valencia"], "answer": 0 },
-        { "q": "Which is the largest continent by area?", "choices": ["Africa", "Asia", "Europe", "North America"], "answer": 1 },
-        { "q": "Who painted the ceiling of the Sistine Chapel?", "choices": ["Raphael", "Donatello", "Michelangelo", "Leonardo da Vinci"], "answer": 2 },
-        { "q": "What is the currency of the United Kingdom?", "choices": ["Euro", "Dollar", "Franc", "Pound"], "answer": 3 },
-        { "q": "What is 7 × 9?", "choices": ["63", "56", "81", "72"], "answer": 0 },
-        { "q": "Which country has the longest coastline in the world?", "choices": ["Russia", "Canada", "Australia", "Norway"], "answer": 1 },
-        { "q": "What is the boiling point of water in Fahrenheit?", "choices": ["180°F", "200°F", "210°F", "212°F"], "answer": 3 },
-        { "q": "Who invented the telephone?", "choices": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"], "answer": 2 },
-        { "q": "How many sides does an octagon have?", "choices": ["8", "6", "7", "9"], "answer": 0 },
-        { "q": "What is 144 ÷ 12?", "choices": ["10", "11", "13", "12"], "answer": 3 }
+        { "q": "What is the capital of Japan?", "choices": ["Tokyo", "Osaka", "Kyoto", "Hiroshima"], "answer": 0 },
+        { "q": "Which element has the chemical symbol 'Au'?", "choices": ["Aluminum", "Gold", "Silver", "Copper"], "answer": 1 },
+        { "q": "How many degrees are in a right angle?", "choices": ["45", "60", "90", "180"], "answer": 2 },
+        { "q": "Which country is home to the kangaroo?", "choices": ["New Zealand", "South Africa", "India", "Australia"], "answer": 3 },
+        { "q": "What is the Roman numeral for 50?", "choices": ["L", "V", "X", "C"], "answer": 0 },
+        { "q": "On which continent is Egypt located?", "choices": ["Asia", "Africa", "Europe", "South America"], "answer": 1 },
+        { "q": "What is the square root of 81?", "choices": ["7", "8", "9", "10"], "answer": 2 },
+        { "q": "Which scientist is credited with formulating the law of universal gravitation?", "choices": ["Einstein", "Galileo", "Faraday", "Newton"], "answer": 3 },
+        { "q": "What is the fastest land animal?", "choices": ["Cheetah", "Lion", "Horse", "Greyhound"], "answer": 0 },
+        { "q": "How many strings does a standard guitar have?", "choices": ["4", "6", "5", "7"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is grass?", "choices": ["Orange", "Purple", "Green", "Black"], "answer": 2 },
-        { "q": "How many fingers are on one hand?", "choices": ["Two", "Three", "Four", "Five"], "answer": 3 },
-        { "q": "Which animal hops and says ribbit?", "choices": ["Duck", "Frog", "Cat", "Bear"], "answer": 1 },
-        { "q": "What is 1 + 1?", "choices": ["3", "4", "1", "2"], "answer": 3 },
-        { "q": "What do you put on your feet?", "choices": ["Shirt", "Hat", "Shoes", "Gloves"], "answer": 2 },
-        { "q": "What do stars do at night?", "choices": ["Sing", "Shine", "Sleep", "Swim"], "answer": 1 },
-        { "q": "What color is the sun?", "choices": ["Blue", "Green", "Purple", "Yellow"], "answer": 3 },
-        { "q": "What sound does a pig make?", "choices": ["Oink", "Moo", "Bark", "Cluck"], "answer": 0 },
-        { "q": "Which animal has a long trunk?", "choices": ["Giraffe", "Elephant", "Lion", "Horse"], "answer": 1 },
-        { "q": "What is 3 + 3?", "choices": ["4", "7", "6", "5"], "answer": 2 }
+        { "q": "What color is snow?", "choices": ["White", "Pink", "Green", "Blue"], "answer": 0 },
+        { "q": "What sound does a cat make?", "choices": ["Bark", "Meow", "Quack", "Moo"], "answer": 1 },
+        { "q": "How many wheels does a car have?", "choices": ["Two", "Three", "Four", "Five"], "answer": 2 },
+        { "q": "Where do fish live?", "choices": ["Trees", "Sand", "Air", "Water"], "answer": 3 },
+        { "q": "What color is a banana?", "choices": ["Yellow", "Red", "Purple", "Black"], "answer": 0 },
+        { "q": "What day comes before Monday?", "choices": ["Friday", "Sunday", "Tuesday", "Wednesday"], "answer": 1 },
+        { "q": "What is 2 + 3?", "choices": ["4", "6", "5", "7"], "answer": 2 },
+        { "q": "Which animal has a mane and roars?", "choices": ["Elephant", "Zebra", "Giraffe", "Lion"], "answer": 3 },
+        { "q": "What is the opposite of hot?", "choices": ["Cold", "Warm", "Cool", "Soft"], "answer": 0 },
+        { "q": "What is 6 - 2?", "choices": ["3", "4", "5", "6"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "In which year was the Eiffel Tower completed?", "choices": ["1889", "1895", "1901", "1876"], "answer": 0 },
-        { "q": "What is the capital of Brazil?", "choices": ["São Paulo", "Rio de Janeiro", "Salvador", "Brasília"], "answer": 3 },
-        { "q": "Which planet currently has the most known moons?", "choices": ["Jupiter", "Saturn", "Neptune", "Uranus"], "answer": 1 },
-        { "q": "Who was the first human to travel to space?", "choices": ["Buzz Aldrin", "John Glenn", "Yuri Gagarin", "Alan Shepard"], "answer": 2 },
-        { "q": "What is the smallest bone in the human body?", "choices": ["Stapes (in the ear)", "Femur", "Patella", "Fibula"], "answer": 0 },
-        { "q": "What is the longest river in the world?", "choices": ["Congo", "Yangtze", "Mississippi", "Nile"], "answer": 3 },
-        { "q": "What gas do plants absorb during photosynthesis?", "choices": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"], "answer": 1 },
-        { "q": "In which year did the United States declare independence?", "choices": ["1775", "1777", "1776", "1778"], "answer": 2 },
-        { "q": "Which element has the highest melting point?", "choices": ["Iron", "Platinum", "Gold", "Tungsten"], "answer": 3 },
-        { "q": "How many chromosomes do humans typically have?", "choices": ["46", "44", "48", "42"], "answer": 0 }
+        { "q": "What is the largest organ in the human body?", "choices": ["Skin", "Liver", "Brain", "Heart"], "answer": 0 },
+        { "q": "Which country has the largest land area in the world?", "choices": ["USA", "Russia", "Canada", "China"], "answer": 1 },
+        { "q": "In which ocean is the island of Madagascar located?", "choices": ["Atlantic", "Pacific", "Indian", "Arctic"], "answer": 2 },
+        { "q": "Who is credited with writing 'The Odyssey'?", "choices": ["Virgil", "Ovid", "Sophocles", "Homer"], "answer": 3 },
+        { "q": "What is the atomic number of gold (Au)?", "choices": ["79", "47", "78", "80"], "answer": 0 },
+        { "q": "Which war was ended by the Treaty of Versailles in 1919?", "choices": ["World War II", "World War I", "Korean War", "Crimean War"], "answer": 1 },
+        { "q": "What is the hardest natural substance on Earth?", "choices": ["Quartz", "Titanium", "Diamond", "Graphene"], "answer": 2 },
+        { "q": "What is the currency of Japan?", "choices": ["Won", "Yuan", "Baht", "Yen"], "answer": 3 },
+        { "q": "How many chambers does the human heart have?", "choices": ["Four", "Two", "Three", "Six"], "answer": 0 },
+        { "q": "In which country is the majority of the Amazon rainforest located?", "choices": ["Colombia", "Brazil", "Peru", "Venezuela"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "∫ x·eˣ dx = ?", "choices": ["eˣ·x + C", "eˣ(x−1) + C", "eˣ(x+1) + C", "xeˣ/2 + C"], "answer": 1 },
-        { "q": "Dijkstra's algorithm with a binary heap has time complexity:", "choices": ["O((V+E) log V)", "O(V²)", "O(E log E)", "O(V log V + E)"], "answer": 0 },
-        { "q": "Which probability identity is ALWAYS true?", "choices": ["P(A|B) = P(B|A)", "P(A∪B) = P(A)·P(B)", "P(A∩B) = P(A)+P(B)", "P(A∪B) = P(A)+P(B)−P(A∩B)"], "answer": 3 },
-        { "q": "For a convex polyhedron, V − E + F = ?", "choices": ["0", "1", "2", "−2"], "answer": 2 },
-        { "q": "For f(x) = x, the nth Fourier cosine coefficient aₙ (n ≥ 1) over [−π, π] equals:", "choices": ["2/(nπ)", "0", "(−1)ⁿ/n", "1/(nπ)"], "answer": 1 },
-        { "q": "For a linear map T: Rⁿ → Rᵐ, the rank-nullity theorem states:", "choices": ["rank(T) + nullity(T) = n", "rank(T) + nullity(T) = m", "rank(T) = nullity(T)", "rank(T) · nullity(T) = nm"], "answer": 0 },
-        { "q": "The variance of a Binomial(n, p) random variable is:", "choices": ["p(1−p)", "np", "np²(1−p)", "np(1−p)"], "answer": 3 },
-        { "q": "The curl of the gradient of any twice-differentiable scalar field φ is:", "choices": ["φ itself", "∇φ", "zero", "∇²φ"], "answer": 2 },
-        { "q": "The Maxwell relation derived from Gibbs free energy G is:", "choices": ["(∂S/∂P)_T = −(∂V/∂T)_P", "(∂S/∂V)_T = (∂P/∂T)_V", "(∂T/∂P)_S = −(∂V/∂S)_P", "(∂T/∂V)_S = −(∂P/∂S)_V"], "answer": 0 },
-        { "q": "A tree with n vertices has how many edges?", "choices": ["n", "n−1", "n+1", "n(n−1)/2"], "answer": 1 }
+        { "q": "The eigenvalues of the Pauli matrix σₓ = [[0,1],[1,0]] are:", "choices": ["{+1, −1}", "{+i, −i}", "{0, 1}", "{0, −1}"], "answer": 0 },
+        { "q": "Fermat's little theorem: if p is prime and gcd(a,p)=1, then aᵖ ≡ ___ (mod p).", "choices": ["1", "a", "0", "p−1"], "answer": 1 },
+        { "q": "The determinant of any orthogonal matrix must equal:", "choices": ["0", "1", "±1", "any non-zero real"], "answer": 2 },
+        { "q": "The moment generating function of a standard normal X ~ N(0,1) is M_X(t) = ___.", "choices": ["eᵗ", "e^(t²)", "1/(1−t)", "e^(t²/2)"], "answer": 3 },
+        { "q": "The number of distinct binary trees with 3 nodes is:", "choices": ["5", "3", "4", "6"], "answer": 0 },
+        { "q": "∫₀^π sin²(x) dx = ?", "choices": ["π/4", "π/2", "π", "2π"], "answer": 1 },
+        { "q": "A function is holomorphic if and only if it satisfies the ___ equations.", "choices": ["Hamilton-Jacobi", "Navier-Stokes", "Cauchy-Riemann", "Euler-Lagrange"], "answer": 2 },
+        { "q": "By Cayley's formula, the number of labeled spanning trees of the complete graph K₅ is:", "choices": ["25", "50", "100", "125"], "answer": 3 },
+        { "q": "At constant temperature and volume, a system at equilibrium minimizes:", "choices": ["Helmholtz free energy (A)", "Gibbs free energy (G)", "Enthalpy (H)", "Internal energy (U)"], "answer": 0 },
+        { "q": "The period of a simple pendulum of length L in gravitational field g (small angle) is:", "choices": ["2π√(g/L)", "2π√(L/g)", "π√(L/g)", "√(L/g)"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many times does the letter 'f' appear in: 'Finished files are the result of years of scientific study combined with the experience of years'?", "choices": ["3", "4", "5", "6"], "answer": 3 },
-        { "q": "A man is born in 2000 and dies in 1998. How is this possible?", "choices": ["He was born in 2000 BC and died in 1998 BC — two years after his birth", "Impossible — he cannot die before being born", "A time zone quirk at a New Year's crossing", "His death certificate had a typo"], "answer": 0 },
-        { "q": "There are 3 apples on the table. You take 2. How many apples do YOU have?", "choices": ["0", "2", "1", "3"], "answer": 1 },
-        { "q": "What is the exact middle letter of the English alphabet?", "choices": ["M", "N", "No single middle letter — 26 letters means M and N share the middle", "O"], "answer": 2 },
-        { "q": "Two U.S. coins total 30 cents. One of the coins is not a nickel. What are the two coins?", "choices": ["Two dimes and a penny", "Two dimes", "Three dimes minus one", "A quarter and a nickel"], "answer": 3 },
-        { "q": "What occurs once in a minute, twice in a moment, but never in a thousand years?", "choices": ["The letter M", "The number 1", "A millisecond", "The letter T"], "answer": 0 },
-        { "q": "How many times do the minute and hour hands of a clock overlap in a 24-hour period?", "choices": ["24", "22", "20", "12"], "answer": 1 },
-        { "q": "Using a 3-gallon jug and a 5-gallon jug, what is the minimum number of steps to measure exactly 4 gallons?", "choices": ["4", "5", "6", "8"], "answer": 2 },
-        { "q": "What is special about the number 8,549,176,320?", "choices": ["It is divisible by all its digits", "It is a perfect square", "It contains every digit 0–9 exactly twice", "Its digits list 0–9 in alphabetical order by English name"], "answer": 3 },
-        { "q": "How many squares of ANY size exist on a standard 8×8 chessboard?", "choices": ["204", "64", "128", "256"], "answer": 0 }
+        { "q": "Which is heavier: a ton of gold or a ton of feathers?", "choices": ["They weigh the same", "A ton of gold — gold is denser", "A ton of feathers — gold uses troy weight", "It depends on their density"], "answer": 0 },
+        { "q": "A doctor gives you 3 pills and tells you to take one every half-hour. How long until all the pills are taken?", "choices": ["1 hour 30 minutes", "1 hour", "30 minutes", "2 hours"], "answer": 1 },
+        { "q": "What is the next number in this sequence: 1, 11, 21, 1211, 111221, ___?", "choices": ["222331", "123211", "312211", "112123"], "answer": 2 },
+        { "q": "Counting out loud starting from zero, what is the first number whose English name contains the letter 'a'?", "choices": ["eight", "eighteen", "one hundred", "one thousand"], "answer": 3 },
+        { "q": "Sally's father has four daughters: Nana, Nene, Nini, and ___.", "choices": ["Sally", "Nono", "Nunu", "Nene"], "answer": 0 },
+        { "q": "Which is the only even prime number?", "choices": ["1", "2", "4", "6"], "answer": 1 },
+        { "q": "A snail at the bottom of a 10-foot well climbs 3 feet each day but slides back 2 feet each night. How many days to escape?", "choices": ["10 days", "7 days", "8 days", "9 days"], "answer": 2 },
+        { "q": "How many times does the digit '9' appear when you list all integers from 1 to 100?", "choices": ["9", "10", "11", "20"], "answer": 3 },
+        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep remain?", "choices": ["9", "8", "0", "17"], "answer": 0 },
+        { "q": "An electric train is travelling north at 60 mph. In which direction does the smoke blow?", "choices": ["North, carried forward by momentum", "Electric trains produce no smoke", "South, blown back by wind resistance", "Whichever way the wind blows"], "answer": 1 }
       ]
     }
   ]
