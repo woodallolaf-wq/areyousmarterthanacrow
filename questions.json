@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-08",
+  "date": "2026-07-09",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Germany?", "choices": ["Berlin", "Munich", "Hamburg", "Frankfurt"], "answer": 0 },
-        { "q": "How many players does each team have on the field in soccer?", "choices": ["9", "11", "10", "12"], "answer": 1 },
-        { "q": "Which gas makes up the majority of Earth's atmosphere?", "choices": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"], "answer": 2 },
-        { "q": "Who was the first person to walk on the Moon?", "choices": ["Buzz Aldrin", "Yuri Gagarin", "John Glenn", "Neil Armstrong"], "answer": 3 },
-        { "q": "What is the capital city of Australia?", "choices": ["Canberra", "Sydney", "Melbourne", "Brisbane"], "answer": 0 },
-        { "q": "Which is the smallest of the world's oceans?", "choices": ["Pacific", "Atlantic", "Indian", "Arctic"], "answer": 3 },
-        { "q": "How many continents are there on Earth?", "choices": ["5", "6", "7", "8"], "answer": 2 },
-        { "q": "Who wrote 'Pride and Prejudice'?", "choices": ["Charlotte Brontë", "George Eliot", "Mary Shelley", "Jane Austen"], "answer": 3 },
-        { "q": "What is 15 × 4?", "choices": ["60", "50", "55", "70"], "answer": 0 },
-        { "q": "Which planet's rings are most easily seen from Earth through a small telescope?", "choices": ["Jupiter", "Saturn", "Uranus", "Neptune"], "answer": 1 }
+        { "q": "What is the capital of Egypt?", "choices": ["Alexandria", "Cairo", "Luxor", "Aswan"], "answer": 1 },
+        { "q": "How many strings does a standard violin have?", "choices": ["3", "6", "4", "5"], "answer": 2 },
+        { "q": "What is 6 × 9?", "choices": ["54", "52", "56", "48"], "answer": 0 },
+        { "q": "Which is the largest mammal on Earth?", "choices": ["Giraffe", "Sperm whale", "Blue whale", "African elephant"], "answer": 2 },
+        { "q": "Who painted 'The Starry Night'?", "choices": ["Monet", "Picasso", "Rembrandt", "Van Gogh"], "answer": 3 },
+        { "q": "On which continent is Mexico located?", "choices": ["South America", "North America", "Central America", "Europe"], "answer": 1 },
+        { "q": "How many players are on each team in volleyball?", "choices": ["8", "7", "5", "6"], "answer": 3 },
+        { "q": "Which ocean borders the west coast of the United States?", "choices": ["Arctic", "Indian", "Atlantic", "Pacific"], "answer": 3 },
+        { "q": "What is the capital of India?", "choices": ["Mumbai", "New Delhi", "Chennai", "Kolkata"], "answer": 1 },
+        { "q": "What does 'WWW' stand for in a web address?", "choices": ["World Wide Web", "World Wireless Web", "Wide World Web", "World Web Wire"], "answer": 0 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is a strawberry?", "choices": ["Red", "Blue", "Purple", "Green"], "answer": 0 },
-        { "q": "What do cows give us to drink?", "choices": ["Juice", "Milk", "Water", "Tea"], "answer": 1 },
-        { "q": "How many sides does a triangle have?", "choices": ["Two", "Four", "Three", "Five"], "answer": 2 },
-        { "q": "What do you wear on your head?", "choices": ["Boots", "Gloves", "Belt", "Hat"], "answer": 3 },
-        { "q": "What season comes after summer?", "choices": ["Autumn", "Spring", "Winter", "Summer"], "answer": 0 },
-        { "q": "What is 4 + 4?", "choices": ["6", "8", "7", "9"], "answer": 1 },
-        { "q": "What is 3 × 2?", "choices": ["4", "7", "6", "8"], "answer": 2 },
-        { "q": "Where do birds make their homes?", "choices": ["Underground", "In the water", "On the ground", "In nests or trees"], "answer": 3 },
-        { "q": "What color is a pumpkin?", "choices": ["Orange", "Blue", "Green", "White"], "answer": 0 },
-        { "q": "How many days are in a week?", "choices": ["5", "7", "6", "8"], "answer": 1 }
+        { "q": "What color is a frog?", "choices": ["Red", "Green", "Blue", "Purple"], "answer": 1 },
+        { "q": "What noise does a dog make?", "choices": ["Woof", "Moo", "Quack", "Oink"], "answer": 0 },
+        { "q": "What do you use to cut paper?", "choices": ["Spoon", "Ruler", "Scissors", "Pen"], "answer": 2 },
+        { "q": "What is 5 + 1?", "choices": ["4", "5", "7", "6"], "answer": 3 },
+        { "q": "Which fruit is yellow and curved?", "choices": ["Apple", "Banana", "Orange", "Grape"], "answer": 1 },
+        { "q": "What falls from the sky in winter?", "choices": ["Snow", "Sand", "Leaves", "Rain"], "answer": 0 },
+        { "q": "How many legs does a spider have?", "choices": ["4", "2", "6", "8"], "answer": 3 },
+        { "q": "What do you use to open a door?", "choices": ["Fork", "Brush", "Key", "Hammer"], "answer": 2 },
+        { "q": "What is 10 - 3?", "choices": ["7", "5", "6", "8"], "answer": 0 },
+        { "q": "Which animal gives us wool?", "choices": ["Cow", "Pig", "Horse", "Sheep"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the capital of Argentina?", "choices": ["Buenos Aires", "Santiago", "Lima", "Bogotá"], "answer": 0 },
-        { "q": "Which of the Seven Wonders of the Ancient World is still standing today?", "choices": ["Colossus of Rhodes", "Great Pyramid of Giza", "Lighthouse of Alexandria", "Hanging Gardens of Babylon"], "answer": 1 },
-        { "q": "What does DNA stand for?", "choices": ["Dioxyribose Nucleic Acid", "Dual Nucleic Acid", "Deoxyribonucleic Acid", "Dynamic Nuclear Array"], "answer": 2 },
-        { "q": "In which U.S. state is the Grand Canyon located?", "choices": ["Utah", "Colorado", "Nevada", "Arizona"], "answer": 3 },
-        { "q": "Who wrote 'Hamlet'?", "choices": ["William Shakespeare", "Christopher Marlowe", "Ben Jonson", "John Milton"], "answer": 0 },
-        { "q": "In which museum is the Mona Lisa displayed?", "choices": ["British Museum", "Uffizi Gallery", "Prado", "The Louvre"], "answer": 3 },
-        { "q": "Approximately how far is the Moon from Earth?", "choices": ["38,000 km", "150,000 km", "384,000 km", "1,000,000 km"], "answer": 2 },
-        { "q": "Which African country has the largest population?", "choices": ["Nigeria", "Egypt", "South Africa", "Kenya"], "answer": 0 },
-        { "q": "Which element has the chemical symbol 'K'?", "choices": ["Krypton", "Potassium", "Calcium", "Cobalt"], "answer": 1 },
-        { "q": "What is the pH of pure water at 25°C?", "choices": ["5", "6", "7", "8"], "answer": 2 }
+        { "q": "What is the longest bone in the human body?", "choices": ["Femur", "Spine", "Tibia", "Fibula"], "answer": 0 },
+        { "q": "In which year did World War I begin?", "choices": ["1914", "1912", "1918", "1916"], "answer": 0 },
+        { "q": "Who discovered penicillin?", "choices": ["Louis Pasteur", "Marie Curie", "Robert Koch", "Alexander Fleming"], "answer": 3 },
+        { "q": "What is the capital of Turkey?", "choices": ["Istanbul", "Ankara", "Izmir", "Bursa"], "answer": 1 },
+        { "q": "What is the smallest country in the world by area?", "choices": ["Monaco", "San Marino", "Liechtenstein", "Vatican City"], "answer": 3 },
+        { "q": "How many teeth does a healthy adult human typically have?", "choices": ["28", "32", "30", "34"], "answer": 1 },
+        { "q": "Which planet has the highest average surface temperature?", "choices": ["Mercury", "Mars", "Jupiter", "Venus"], "answer": 3 },
+        { "q": "Who is credited with inventing the printing press?", "choices": ["Leonardo da Vinci", "Benjamin Franklin", "Johannes Gutenberg", "Isaac Newton"], "answer": 2 },
+        { "q": "What is the square root of 144?", "choices": ["11", "13", "12", "14"], "answer": 2 },
+        { "q": "What does 'NASA' stand for?", "choices": ["National Aeronautics and Space Administration", "National Air and Space Administration", "North American Space Agency", "National Aerospace and Science Administration"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the Laplace transform of f(t) = t²?", "choices": ["s/2", "1/s³", "2/s²", "2/s³"], "answer": 3 },
-        { "q": "Every problem solvable in polynomial time (class P) is also in NP. This statement is:", "choices": ["False — P and NP are disjoint", "True", "Unknown — this is the open P vs NP question", "Only true for NP-complete problems"], "answer": 1 },
-        { "q": "The gradient ∇f at (1, 2) for f(x, y) = x²y + y³ is:", "choices": ["(4, 13)", "(2, 7)", "(4, 7)", "(2, 13)"], "answer": 0 },
-        { "q": "The eigenvalues of the matrix [[1, 2], [0, 3]] are:", "choices": ["1 and 2", "2 and 3", "1 and 3", "0 and 3"], "answer": 2 },
-        { "q": "For large n, which statement about n! and 2ⁿ is correct?", "choices": ["They grow at the same asymptotic rate", "2ⁿ grows faster than n!", "Growth depends on the specific value of n", "n! grows faster than 2ⁿ"], "answer": 3 },
-        { "q": "For f(z) = eᶻ/(z² + 1), the residue at z = i is:", "choices": ["eⁱ/(2i)", "e⁻ⁱ/(2i)", "eⁱ/(−2i)", "1/(2i)"], "answer": 0 },
-        { "q": "By the Central Limit Theorem, for large n the sample mean X̄ of n i.i.d. samples (mean μ, variance σ²) is approximately:", "choices": ["N(μ, σ²)", "N(0, σ²/n)", "N(μ, σ²/n)", "N(μ, σ/√n)"], "answer": 2 },
-        { "q": "The time complexity of the naive algorithm for multiplying two n×n matrices is:", "choices": ["O(n log n)", "O(n³)", "O(n² log n)", "O(n⁴)"], "answer": 1 },
-        { "q": "For a Poisson-distributed random variable X with mean λ, E[X(X − 1)] equals:", "choices": ["λ²", "λ", "λ + λ²", "λ(λ + 1)"], "answer": 0 },
-        { "q": "The Shannon entropy of a fair coin flip, measured in bits, is:", "choices": ["0 bits", "1 bit", "2 bits", "log₂(2) ≈ 0.693 bits"], "answer": 1 }
+        { "q": "For any square matrix A, det(eᴬ) equals:", "choices": ["e^tr(A)", "tr(eᴬ)", "e^det(A)", "det(A)·e"], "answer": 0 },
+        { "q": "What is lim_{x→0} (1 − cos x) / x²?", "choices": ["0", "1/2", "1", "∞"], "answer": 1 },
+        { "q": "The inverse Laplace transform of 1/(s² + ω²) is:", "choices": ["cos(ωt)", "cos(ωt)/ω", "sin(ωt)/ω", "e^(ωt)/ω"], "answer": 2 },
+        { "q": "In how many distinct ways can n distinct objects be arranged in a circle (rotations considered identical)?", "choices": ["n!", "2^n", "n!/2", "(n−1)!"], "answer": 3 },
+        { "q": "A standard normal variable falls within 2 standard deviations of the mean with probability approximately:", "choices": ["95.4%", "68.3%", "99.7%", "86.6%"], "answer": 0 },
+        { "q": "The Cayley-Hamilton theorem states that every square matrix A:", "choices": ["has Aⁿ = I for some n", "satisfies its own characteristic polynomial", "has Aⁿ = 0 for some n", "must have det(A) = 0"], "answer": 1 },
+        { "q": "The security of RSA encryption relies on the computational hardness of:", "choices": ["solving systems of linear equations", "computing discrete logarithms", "factoring large integers into primes", "inverting SHA-256"], "answer": 2 },
+        { "q": "What is lim_{x→0⁺} x^x?", "choices": ["0", "∞", "undefined", "1"], "answer": 3 },
+        { "q": "Stirling's approximation gives ln(n!) ≈", "choices": ["n·ln(n) − n", "n·ln(n)", "n·ln(n) + n", "n²·ln(n)"], "answer": 0 },
+        { "q": "For a finite Markov chain with transition matrix P, the stationary distribution π satisfies:", "choices": ["Pπ = π", "πP = π", "π = P^∞", "π²P = I"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "I have exactly two coins that together total 15 cents, and one of the coins is not a dime. What are the two coins?", "choices": ["A dime and a nickel", "Two nickels", "A nickel and a penny", "There is no valid answer"], "answer": 0 },
-        { "q": "What is 1/2 of 2/3 of 3/4 of 4/5 of 5/6 of 6/7 of 7/8 of 8/9 of 9/10 of 10?", "choices": ["1/10", "1/2", "10", "1"], "answer": 3 },
-        { "q": "Divide 30 by one half, then add ten. What is the result?", "choices": ["70", "40", "55", "25"], "answer": 0 },
-        { "q": "A barrel of water weighs 60 pounds. What must you put into it to make it weigh 30 pounds?", "choices": ["30 pounds of air", "30 pounds of feathers", "A hole", "Nothing — you must remove weight, not add it"], "answer": 2 },
-        { "q": "A man must cross a river with a fox, a chicken, and grain. His boat holds only himself and one other. The fox eats the chicken; the chicken eats the grain if left alone together. What is the minimum number of one-way crossings to get everything across safely?", "choices": ["5", "7", "9", "11"], "answer": 1 },
-        { "q": "How many times does the digit 1 appear when you write out every integer from 1 to 1,000 inclusive?", "choices": ["111", "201", "301", "400"], "answer": 2 },
-        { "q": "A man walks 1 mile due south, 1 mile due east, and 1 mile due north — and ends up exactly where he started. Where did he begin?", "choices": ["The equator", "Nowhere — this is geometrically impossible", "The South Pole", "The North Pole"], "answer": 3 },
-        { "q": "A man leaves home, turns left three times running, and arrives home to find two people wearing masks waiting for him. Who are they?", "choices": ["The catcher and the home-plate umpire", "Burglars", "Police officers", "His children trick-or-treating"], "answer": 0 },
-        { "q": "What is the next number in the sequence: 1, 2, 6, 24, 120, ___?", "choices": ["240", "480", "360", "720"], "answer": 3 },
-        { "q": "A lily pad doubles in area every day and covers an entire lake in exactly 48 days. How many days did it take to cover exactly half the lake?", "choices": ["24 days", "47 days", "36 days", "Cannot be determined without knowing the lake's size"], "answer": 1 }
+        { "q": "Before Mount Everest was discovered, what was the highest mountain on Earth?", "choices": ["Mount Everest", "K2", "Kangchenjunga", "Mauna Kea"], "answer": 0 },
+        { "q": "A woman shoots her husband, then holds him underwater for five minutes. Afterward they go out to dinner together. What happened?", "choices": ["The husband survived the shooting", "She is a photographer — she shot his photo and developed it in a darkroom (underwater)", "She is a trained nurse who resuscitated him", "There were two different men"], "answer": 1 },
+        { "q": "You live in a one-story house where everything is painted pink — walls, floors, furniture. What color are the stairs?", "choices": ["Pink", "Red", "There are no stairs in a one-story house", "Gray"], "answer": 2 },
+        { "q": "Johnny's mother has three children. The first is named April. The second is named May. What is the third child's name?", "choices": ["June", "July", "March", "Johnny"], "answer": 3 },
+        { "q": "If 1.5 hens lay 1.5 eggs in 1.5 days, how many eggs do 6 hens lay in 6 days?", "choices": ["24", "6", "36", "12"], "answer": 0 },
+        { "q": "Which English number, when spelled out, has all its letters in perfect alphabetical order?", "choices": ["EIGHT", "FORTY", "SIXTY", "EIGHTY"], "answer": 1 },
+        { "q": "A woman has 7 daughters. Each daughter has exactly one brother. How many children does the woman have in total?", "choices": ["7", "14", "8", "15"], "answer": 2 },
+        { "q": "100 lockers are closed. Person 1 opens every locker; person 2 closes every 2nd; person 3 toggles every 3rd; and so on through person 100. How many lockers are open at the end?", "choices": ["50", "25", "1", "10"], "answer": 3 },
+        { "q": "You are a bus driver. At stop 1, eight passengers board; at stop 2, five board and three exit; at stop 3, two board and six exit. What color are the bus driver's eyes?", "choices": ["Your own eye color — you are the bus driver", "Blue", "Brown", "Impossible to determine"], "answer": 0 },
+        { "q": "At a party, every person shakes hands with every other person exactly once. There are exactly 45 handshakes total. How many people are at the party?", "choices": ["22", "10", "9", "45"], "answer": 1 }
       ]
     }
   ]
