@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-11",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Italy?", "choices": ["Venice", "Rome", "Milan", "Naples"], "answer": 1 },
-        { "q": "How many sides does a pentagon have?", "choices": ["4", "3", "5", "6"], "answer": 2 },
-        { "q": "What is 8 × 7?", "choices": ["48", "56", "54", "64"], "answer": 1 },
-        { "q": "Who wrote the 'Harry Potter' series?", "choices": ["C.S. Lewis", "Roald Dahl", "Philip Pullman", "J.K. Rowling"], "answer": 3 },
-        { "q": "Which planet is known as the Red Planet?", "choices": ["Mars", "Venus", "Saturn", "Jupiter"], "answer": 0 },
-        { "q": "What is the freezing point of water in Celsius?", "choices": ["-10°C", "10°C", "0°C", "100°C"], "answer": 2 },
-        { "q": "In which sport do players use a racket and a shuttlecock?", "choices": ["Tennis", "Badminton", "Squash", "Table tennis"], "answer": 1 },
-        { "q": "How many days are in February in a non-leap year?", "choices": ["29", "27", "30", "28"], "answer": 3 },
-        { "q": "What is the chemical symbol for the element oxygen?", "choices": ["Ox", "Om", "O", "O2"], "answer": 2 },
-        { "q": "Which country currently has the world's largest population?", "choices": ["USA", "India", "China", "Russia"], "answer": 1 }
+        { "q": "What is the capital of France?", "choices": ["Lyon", "Paris", "Marseille", "Bordeaux"], "answer": 1 },
+        { "q": "How many sides does a hexagon have?", "choices": ["Six", "Five", "Seven", "Eight"], "answer": 0 },
+        { "q": "What is 9 × 6?", "choices": ["52", "48", "56", "54"], "answer": 3 },
+        { "q": "Who wrote 'Romeo and Juliet'?", "choices": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Homer"], "answer": 1 },
+        { "q": "What is the boiling point of water in Celsius?", "choices": ["80°C", "90°C", "100°C", "120°C"], "answer": 2 },
+        { "q": "On which continent is Brazil located?", "choices": ["Africa", "Asia", "North America", "South America"], "answer": 3 },
+        { "q": "What is the chemical symbol for gold?", "choices": ["Go", "Gd", "Au", "Ag"], "answer": 2 },
+        { "q": "How many hours are in a day?", "choices": ["12", "24", "48", "36"], "answer": 1 },
+        { "q": "What is 100 ÷ 4?", "choices": ["20", "30", "40", "25"], "answer": 3 },
+        { "q": "Which ocean is the largest in the world?", "choices": ["Atlantic", "Indian", "Pacific", "Arctic"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is a tomato?", "choices": ["Blue", "Green", "Red", "Yellow"], "answer": 2 },
-        { "q": "What sound does a duck make?", "choices": ["Moo", "Quack", "Bark", "Meow"], "answer": 1 },
-        { "q": "How many eyes do you have?", "choices": ["One", "Two", "Three", "Four"], "answer": 1 },
-        { "q": "What is 7 + 2?", "choices": ["8", "11", "10", "9"], "answer": 3 },
-        { "q": "What do you wear when it rains?", "choices": ["Shorts", "Swimsuit", "Raincoat", "Sandals"], "answer": 2 },
-        { "q": "Which animal says 'Neigh'?", "choices": ["Cow", "Horse", "Sheep", "Pig"], "answer": 1 },
-        { "q": "What is 8 - 4?", "choices": ["5", "3", "4", "6"], "answer": 2 },
-        { "q": "What do you call a baby cat?", "choices": ["Puppy", "Kitten", "Cub", "Lamb"], "answer": 1 },
-        { "q": "What color is a carrot?", "choices": ["Purple", "Green", "Blue", "Orange"], "answer": 3 },
-        { "q": "What do you use to eat soup?", "choices": ["Spoon", "Fork", "Knife", "Brush"], "answer": 0 }
+        { "q": "What color is the sky on a clear day?", "choices": ["Orange", "Blue", "Green", "Pink"], "answer": 1 },
+        { "q": "How many fingers are on one hand?", "choices": ["Three", "Four", "Five", "Six"], "answer": 2 },
+        { "q": "What sound does a cat make?", "choices": ["Woof", "Oink", "Meow", "Moo"], "answer": 2 },
+        { "q": "What is 2 + 2?", "choices": ["3", "5", "2", "4"], "answer": 3 },
+        { "q": "What color is grass?", "choices": ["Green", "Yellow", "Purple", "Brown"], "answer": 0 },
+        { "q": "What do you wear on your feet?", "choices": ["Hat", "Gloves", "Scarf", "Socks"], "answer": 3 },
+        { "q": "What is 6 - 3?", "choices": ["2", "3", "1", "4"], "answer": 1 },
+        { "q": "Where do fish live?", "choices": ["Trees", "Sand", "Water", "Air"], "answer": 2 },
+        { "q": "Which animal has the longest neck?", "choices": ["Elephant", "Giraffe", "Lion", "Zebra"], "answer": 1 },
+        { "q": "How many legs does a dog have?", "choices": ["Four", "Two", "Three", "Six"], "answer": 0 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the powerhouse of the cell?", "choices": ["Ribosome", "Golgi apparatus", "Nucleus", "Mitochondria"], "answer": 3 },
-        { "q": "Which U.S. state is known as the 'Sunshine State'?", "choices": ["Florida", "California", "Texas", "Arizona"], "answer": 0 },
-        { "q": "In which year did the Berlin Wall fall?", "choices": ["1991", "1989", "1993", "1987"], "answer": 1 },
-        { "q": "In which year did humans first land on the Moon?", "choices": ["1965", "1967", "1971", "1969"], "answer": 3 },
-        { "q": "What is the capital of South Korea?", "choices": ["Busan", "Incheon", "Seoul", "Daegu"], "answer": 2 },
-        { "q": "Which element is represented by the chemical symbol 'Na'?", "choices": ["Nitrogen", "Neon", "Nickel", "Sodium"], "answer": 3 },
-        { "q": "How many years are in a millennium?", "choices": ["100", "1,000", "10,000", "500"], "answer": 1 },
-        { "q": "Which scientist developed the theory of general relativity?", "choices": ["Isaac Newton", "Niels Bohr", "Albert Einstein", "Max Planck"], "answer": 2 },
-        { "q": "What is the world's largest rainforest?", "choices": ["Congo", "Amazon", "Daintree", "Tongass"], "answer": 1 },
-        { "q": "In which country did the Renaissance primarily begin?", "choices": ["Italy", "France", "Spain", "Germany"], "answer": 0 }
+        { "q": "What is the largest planet in our solar system?", "choices": ["Saturn", "Jupiter", "Uranus", "Neptune"], "answer": 1 },
+        { "q": "In which year did World War II end?", "choices": ["1943", "1944", "1945", "1946"], "answer": 2 },
+        { "q": "Who painted the Mona Lisa?", "choices": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"], "answer": 0 },
+        { "q": "What is the capital of Canada?", "choices": ["Vancouver", "Ottawa", "Toronto", "Montreal"], "answer": 1 },
+        { "q": "How many bones are in the adult human body?", "choices": ["196", "212", "206", "200"], "answer": 2 },
+        { "q": "What is the chemical symbol for iron?", "choices": ["Ir", "In", "Io", "Fe"], "answer": 3 },
+        { "q": "Which Shakespeare play features the villain Iago?", "choices": ["King Lear", "Othello", "Hamlet", "Macbeth"], "answer": 1 },
+        { "q": "Approximately how fast does light travel?", "choices": ["300,000 km/s", "3,000 km/s", "30,000 km/s", "3,000,000 km/s"], "answer": 0 },
+        { "q": "What is the capital of Brazil?", "choices": ["Rio de Janeiro", "São Paulo", "Brasília", "Buenos Aires"], "answer": 2 },
+        { "q": "What is the scientific study of earthquakes called?", "choices": ["Geology", "Meteorology", "Volcanology", "Seismology"], "answer": 3 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "∫₀^∞ e^(−x²) dx =", "choices": ["√π/2", "π", "1/2", "√π"], "answer": 0 },
-        { "q": "The number of derangements of 4 elements (permutations with no fixed point) is:", "choices": ["8", "9", "10", "12"], "answer": 1 },
-        { "q": "The Riemann hypothesis states all non-trivial zeros of ζ(s) have real part equal to:", "choices": ["0", "1", "1/2", "−1/2"], "answer": 2 },
-        { "q": "The group of rotational symmetries of a regular tetrahedron is isomorphic to:", "choices": ["Z₁₂", "D₆", "S₄", "A₄"], "answer": 3 },
-        { "q": "By the prime number theorem, π(n) (number of primes ≤ n) is asymptotically:", "choices": ["n/ln(n)", "ln(n)", "√n", "n/ln²(n)"], "answer": 0 },
-        { "q": "The order of the multiplicative group (Z/pZ)* for a prime p is:", "choices": ["p+1", "p−1", "p", "p(p−1)/2"], "answer": 1 },
-        { "q": "If X and Y are independent random variables, the MGF of X+Y equals:", "choices": ["M_X(t) + M_Y(t)", "M_X(t)/M_Y(t)", "M_X(t) · M_Y(t)", "M_X(t)^(M_Y(t))"], "answer": 2 },
-        { "q": "The Cauchy-Hadamard formula gives 1/R for the power series ∑aₙxⁿ as:", "choices": ["lim |aₙ₊₁/aₙ|", "lim |aₙ|", "lim |aₙ|^n", "lim sup |aₙ|^(1/n)"], "answer": 3 },
-        { "q": "The generating function G(x) = ∑_{n≥0} Fₙxⁿ for Fibonacci (F₀=0, F₁=1) equals:", "choices": ["x/(1−x−x²)", "1/(1−x−x²)", "x/(1+x−x²)", "x/(1−2x+x²)"], "answer": 0 },
-        { "q": "The average-case time complexity of randomized quicksort on n elements is:", "choices": ["O(n²)", "O(n log n)", "O(n log² n)", "O(n√n)"], "answer": 1 }
+        { "q": "What is d/dx [arctan(x)]?", "choices": ["−1/(1+x²)", "cos(x)/(1+sin²x)", "1/(1+x²)", "1/(1+x)"], "answer": 2 },
+        { "q": "By Fermat's Little Theorem, if p is prime and gcd(a, p) = 1, then aᵖ⁻¹ ≡ ___ (mod p):", "choices": ["a", "p−1", "0", "1"], "answer": 3 },
+        { "q": "For independent random variables X and Y, Var(X + Y) equals:", "choices": ["Var(X) · Var(Y)", "√(Var²(X) + Var²(Y))", "Var(X) + Var(Y) + 2Cov(X,Y)", "Var(X) + Var(Y)"], "answer": 3 },
+        { "q": "What is the Fourier transform of the Dirac delta function δ(t)?", "choices": ["2πδ(ω)", "e^(−iωt)", "0", "1"], "answer": 3 },
+        { "q": "How many edges does the complete graph K₅ have?", "choices": ["10", "8", "12", "6"], "answer": 0 },
+        { "q": "The Master Theorem: if T(n) = aT(n/b) + Θ(n^(log_b a)), then T(n) =", "choices": ["Θ(n^(log_b a + 1))", "Θ(n^(log_b a) · log n)", "Θ(n^(log_b a))", "Θ(log n · f(n))"], "answer": 1 },
+        { "q": "In the SVD A = UΣVᵀ, the diagonal entries of Σ are:", "choices": ["eigenvalues of A", "eigenvalues of AᵀA", "singular values (√eigenvalues of AᵀA)", "absolute values of eigenvalues of A"], "answer": 2 },
+        { "q": "Which of these functions grows fastest as n → ∞?", "choices": ["n^100", "n!", "n^n", "2ⁿ"], "answer": 2 },
+        { "q": "The number of ways to choose k items from n types with repetition allowed (stars and bars) is:", "choices": ["C(n, k)", "C(n+k−1, k)", "nᵏ", "C(n+k, k−1)"], "answer": 1 },
+        { "q": "The second-derivative test says a critical point x₀ of f is a local minimum when:", "choices": ["f′(x₀) = 0 and f″(x₀) > 0", "f′(x₀) > 0", "f″(x₀) = 0", "f′(x₀) = 0 and f″(x₀) < 0"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many months of the year have 28 days?", "choices": ["1", "3", "7", "12"], "answer": 3 },
-        { "q": "What word in the English language is always spelled incorrectly?", "choices": ["'incorrectly'", "'misspelling'", "'wrong'", "There is no such word"], "answer": 0 },
-        { "q": "You drive from A to B at 60 mph and return at 40 mph. What is your average speed for the entire round trip?", "choices": ["50 mph", "48 mph", "52 mph", "45 mph"], "answer": 1 },
-        { "q": "You enter a dark room with a candle, an oil lamp, and a fireplace. You have one match. What do you light first?", "choices": ["The oil lamp", "The fireplace", "The candle", "The match"], "answer": 3 },
-        { "q": "A is the father of B, but B is not A's son. How is this possible?", "choices": ["B was adopted", "It is impossible", "B is A's daughter", "A has two children with the same name"], "answer": 2 },
-        { "q": "O, T, T, F, F, S, S, E, N are the first letters of the numbers 1 through 9. What is the next letter?", "choices": ["O", "N", "E", "T"], "answer": 3 },
-        { "q": "'The yolk of an egg is white.' Is this statement correct?", "choices": ["Yes — 'is' is grammatically correct", "No — the yolk is yellow, not white", "No — it should be 'the yolks are white'", "Yes — both 'is' and 'are' are accepted"], "answer": 1 },
-        { "q": "Is it legal in the USA for a man to marry his widow's sister?", "choices": ["No — it violates incest laws", "Only in certain states", "No — a man who has a widow is dead", "Yes, it is legal"], "answer": 2 },
-        { "q": "What two things can you never eat for breakfast?", "choices": ["Cereal and eggs", "Lunch and dinner", "Hot food", "Yesterday's leftovers"], "answer": 1 },
-        { "q": "A woman gives birth to two sons on the same day of the same year, but they are not twins. How is this possible?", "choices": ["They are triplets (or higher-order multiples)", "One birth was premature", "They have different biological fathers", "This is biologically impossible"], "answer": 0 }
+        { "q": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10", "$0.15", "$0.20", "$0.05"], "answer": 3 },
+        { "q": "How many animals of each kind did Moses take on the ark?", "choices": ["Two", "Seven of clean, two of unclean", "Moses didn't have an ark — it was Noah", "One"], "answer": 2 },
+        { "q": "If 5 machines take 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?", "choices": ["100 minutes", "5 minutes", "10 minutes", "50 minutes"], "answer": 1 },
+        { "q": "You're racing and you overtake the person in 2nd place. What place are you in now?", "choices": ["1st", "2nd", "3rd", "It depends on the race rules"], "answer": 1 },
+        { "q": "Which is heavier: a kilogram of gold or a kilogram of feathers?", "choices": ["Gold", "Feathers", "They weigh the same", "Gold, because gold is denser"], "answer": 2 },
+        { "q": "What five-letter English word becomes shorter when you add two letters to it?", "choices": ["SHORT", "BRIEF", "HASTE", "WATCH"], "answer": 0 },
+        { "q": "How long did the Hundred Years' War actually last?", "choices": ["116 years", "100 years", "99 years", "86 years"], "answer": 0 },
+        { "q": "What is the area of a circle with diameter d (not radius)?", "choices": ["πd", "πd²/4", "πd²", "2πd"], "answer": 1 },
+        { "q": "A snail is 10 feet below the rim of a well. Each day it climbs 3 feet; each night it slides back 2 feet. On which day does it first reach the rim?", "choices": ["Day 10", "Day 7", "Day 9", "Day 8"], "answer": 3 },
+        { "q": "A butcher is exactly 6 feet tall. What does he weigh?", "choices": ["185 lbs", "200 lbs", "It cannot be determined", "Meat"], "answer": 3 }
       ]
     }
   ]
