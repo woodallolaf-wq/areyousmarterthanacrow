@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-12",
+  "date": "2026-07-13",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Japan?", "choices": ["Osaka", "Kyoto", "Beijing", "Tokyo"], "answer": 3 },
-        { "q": "How many planets are in our solar system?", "choices": ["7", "8", "9", "10"], "answer": 1 },
-        { "q": "What is 7 × 8?", "choices": ["54", "56", "52", "58"], "answer": 1 },
-        { "q": "Which sport is played at Wimbledon?", "choices": ["Football", "Golf", "Tennis", "Cricket"], "answer": 2 },
-        { "q": "What is the chemical symbol for water?", "choices": ["W", "H2", "H2O", "HO"], "answer": 2 },
-        { "q": "How many continents are there on Earth?", "choices": ["5", "6", "8", "7"], "answer": 3 },
-        { "q": "Who is credited with inventing the telephone?", "choices": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Guglielmo Marconi"], "answer": 1 },
-        { "q": "What is 15 × 4?", "choices": ["55", "70", "60", "65"], "answer": 2 },
-        { "q": "Which country is home to the Eiffel Tower?", "choices": ["Italy", "Germany", "Spain", "France"], "answer": 3 },
-        { "q": "How many days are in a year?", "choices": ["360", "365", "355", "370"], "answer": 1 }
+        { "q": "What is the capital of Spain?", "choices": ["Barcelona", "Madrid", "Seville", "Valencia"], "answer": 1 },
+        { "q": "How many sides does an octagon have?", "choices": ["6", "7", "9", "8"], "answer": 3 },
+        { "q": "What is 12 × 12?", "choices": ["148", "144", "154", "132"], "answer": 1 },
+        { "q": "Which planet is closest to the Sun?", "choices": ["Venus", "Mars", "Mercury", "Earth"], "answer": 2 },
+        { "q": "In which country is the Amazon rainforest mainly found?", "choices": ["Colombia", "Brazil", "Peru", "Venezuela"], "answer": 1 },
+        { "q": "What is the capital of Germany?", "choices": ["Hamburg", "Munich", "Frankfurt", "Berlin"], "answer": 3 },
+        { "q": "What gas do plants absorb from the air during photosynthesis?", "choices": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"], "answer": 0 },
+        { "q": "Who is credited with writing 'The Odyssey'?", "choices": ["Virgil", "Plato", "Homer", "Aristotle"], "answer": 2 },
+        { "q": "How many minutes are in an hour?", "choices": ["60", "30", "45", "90"], "answer": 0 },
+        { "q": "What is the largest organ in the human body?", "choices": ["Brain", "Liver", "Heart", "Skin"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is the sun?", "choices": ["Blue", "Green", "Yellow", "Black"], "answer": 2 },
-        { "q": "How many toes are on two feet?", "choices": ["5", "20", "15", "10"], "answer": 3 },
-        { "q": "What sound does a cow make?", "choices": ["Oink", "Moo", "Bark", "Tweet"], "answer": 1 },
-        { "q": "What is 1 + 1?", "choices": ["3", "4", "1", "2"], "answer": 3 },
-        { "q": "What shape is a ball?", "choices": ["Square", "Flat", "Triangle", "Round"], "answer": 3 },
-        { "q": "Which animal has a trunk?", "choices": ["Tiger", "Elephant", "Crocodile", "Zebra"], "answer": 1 },
-        { "q": "What is 9 - 5?", "choices": ["3", "5", "6", "4"], "answer": 3 },
-        { "q": "What do you use to write?", "choices": ["Pencil", "Spoon", "Shoe", "Brush"], "answer": 0 },
-        { "q": "What color is a banana?", "choices": ["Red", "Yellow", "Purple", "Green"], "answer": 1 },
-        { "q": "Where does a bird make its nest?", "choices": ["Underground", "Underwater", "In a tree", "In a river"], "answer": 2 }
+        { "q": "What color is an apple?", "choices": ["Blue", "Red", "White", "Black"], "answer": 1 },
+        { "q": "How many wheels does a bicycle have?", "choices": ["3", "1", "4", "2"], "answer": 3 },
+        { "q": "What sound does a pig make?", "choices": ["Oink", "Moo", "Bark", "Quack"], "answer": 0 },
+        { "q": "What is 3 + 3?", "choices": ["5", "6", "7", "8"], "answer": 1 },
+        { "q": "What do you wear on your head?", "choices": ["Gloves", "Scarf", "Hat", "Socks"], "answer": 2 },
+        { "q": "How many ears do you have?", "choices": ["1", "3", "4", "2"], "answer": 3 },
+        { "q": "What do you use to drink?", "choices": ["Cup", "Fork", "Spoon", "Plate"], "answer": 0 },
+        { "q": "What is 4 + 1?", "choices": ["6", "4", "5", "3"], "answer": 2 },
+        { "q": "What sound does a lion make?", "choices": ["Bark", "Moo", "Quack", "Roar"], "answer": 3 },
+        { "q": "What color is snow?", "choices": ["White", "Yellow", "Blue", "Green"], "answer": 0 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the capital of Australia?", "choices": ["Sydney", "Canberra", "Melbourne", "Brisbane"], "answer": 1 },
-        { "q": "Which blood type is the universal donor?", "choices": ["AB+", "A+", "B-", "O-"], "answer": 3 },
-        { "q": "What is the square root of 169?", "choices": ["13", "12", "14", "11"], "answer": 0 },
-        { "q": "How many symphonies did Beethoven compose?", "choices": ["10", "12", "9", "7"], "answer": 2 },
-        { "q": "What element has atomic number 6?", "choices": ["Oxygen", "Carbon", "Nitrogen", "Silicon"], "answer": 1 },
-        { "q": "In which year did the Titanic sink?", "choices": ["1912", "1908", "1910", "1914"], "answer": 0 },
-        { "q": "What is the currency of Japan?", "choices": ["Yen", "Won", "Yuan", "Ringgit"], "answer": 0 },
-        { "q": "Which organ in the human body produces insulin?", "choices": ["Liver", "Stomach", "Kidney", "Pancreas"], "answer": 3 },
-        { "q": "Which ocean separates Europe from North America?", "choices": ["Pacific", "Indian", "Atlantic", "Arctic"], "answer": 2 },
-        { "q": "Who wrote 'Don Quixote'?", "choices": ["Leo Tolstoy", "Gustave Flaubert", "Fyodor Dostoevsky", "Miguel de Cervantes"], "answer": 3 }
+        { "q": "How many stripes are on the American flag?", "choices": ["50", "12", "52", "13"], "answer": 3 },
+        { "q": "What is the capital of Argentina?", "choices": ["Montevideo", "Buenos Aires", "Lima", "Bogotá"], "answer": 1 },
+        { "q": "Which scientist formulated the three laws of motion?", "choices": ["Isaac Newton", "Galileo Galilei", "Johannes Kepler", "Charles Darwin"], "answer": 0 },
+        { "q": "What is the chemical formula for table salt?", "choices": ["KCl", "NaOH", "NaCl", "CaCl₂"], "answer": 2 },
+        { "q": "In which year was the U.S. Declaration of Independence signed?", "choices": ["1774", "1775", "1778", "1776"], "answer": 3 },
+        { "q": "What is the pH of pure water at 25°C?", "choices": ["5", "7", "6", "8"], "answer": 1 },
+        { "q": "Who wrote 'To Kill a Mockingbird'?", "choices": ["John Steinbeck", "F. Scott Fitzgerald", "Ernest Hemingway", "Harper Lee"], "answer": 3 },
+        { "q": "What is the largest country in the world by area?", "choices": ["China", "Canada", "Russia", "USA"], "answer": 2 },
+        { "q": "In which year did Christopher Columbus first reach the Americas?", "choices": ["1492", "1498", "1500", "1506"], "answer": 0 },
+        { "q": "Approximately how fast does sound travel in air at room temperature?", "choices": ["150 m/s", "500 m/s", "1000 m/s", "343 m/s"], "answer": 3 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "The Euler characteristic of a torus is:", "choices": ["0", "1", "2", "-2"], "answer": 0 },
-        { "q": "What is ∑_{n=1}^∞ 1/n² (the Basel problem)?", "choices": ["π/6", "π²/6", "e/2", "ln(2)"], "answer": 1 },
-        { "q": "For a Poisson distribution with parameter λ, both the mean and variance equal:", "choices": ["λ²", "1/λ", "√λ", "λ"], "answer": 3 },
-        { "q": "The Gram–Schmidt process converts a linearly independent set into an ___ basis:", "choices": ["orthonormal", "diagonal", "reduced row echelon", "eigenvalue-sorted"], "answer": 0 },
-        { "q": "What is the time complexity of multiplying two n×n matrices using the naive algorithm?", "choices": ["O(n²)", "O(n² log n)", "O(n^2.5)", "O(n³)"], "answer": 3 },
-        { "q": "By Bayes' theorem, P(A|B) equals:", "choices": ["P(B|A)·P(A)/P(B)", "P(A)·P(B)", "P(A∩B)/P(A)", "P(B|A)/P(A)"], "answer": 0 },
-        { "q": "What is d/dx [xˣ] for x > 0?", "choices": ["x·xˣ⁻¹", "xˣ(ln x + 1)", "xˣ·ln x", "x^(x−1)·(ln x + 1)"], "answer": 1 },
-        { "q": "Green's theorem requires the boundary curve C to be:", "choices": ["Any closed curve", "A straight line", "A closed curve traversed counterclockwise", "An ellipse only"], "answer": 2 },
-        { "q": "The P vs NP problem asks whether every problem whose solution can be ___ in polynomial time can also be ___ in polynomial time:", "choices": ["solved; verified", "found; approximated", "verified; solved", "approximated; verified"], "answer": 2 },
-        { "q": "What is the order of the symmetric group S₄?", "choices": ["12", "16", "8", "24"], "answer": 3 }
+        { "q": "Cayley's formula gives the number of labeled spanning trees on Kₙ as:", "choices": ["n!", "n(n-1)/2", "n^(n-2)", "(n-1)!"], "answer": 2 },
+        { "q": "The Cauchy integral formula states f(a) = ___ for analytic f inside closed curve C:", "choices": ["(1/2πi)∮f(z)/(z−a)dz", "∮f(z)dz", "(1/πi)∮f(z)(z−a)dz", "(1/2πi)∮f(z)(z−a)dz"], "answer": 0 },
+        { "q": "By the Rank-Nullity Theorem, for an m×n matrix A, rank(A) + nullity(A) =", "choices": ["m", "n", "m+n", "m−n"], "answer": 1 },
+        { "q": "Turing's proof of the Halting Problem shows that:", "choices": ["Certain problems are NP-hard", "P ≠ NP", "Every recursive function is computable", "No algorithm can decide in general whether an arbitrary program halts"], "answer": 3 },
+        { "q": "The Fast Fourier Transform computes the DFT of n points in time:", "choices": ["O(n log n)", "O(n²)", "O(n log² n)", "O(n√n)"], "answer": 0 },
+        { "q": "Fermat's Last Theorem states there are no positive integer solutions to xⁿ + yⁿ = zⁿ for:", "choices": ["n ≥ 1", "n ≥ 2", "n ≥ 3", "n ≥ 4"], "answer": 2 },
+        { "q": "The Schwarz-Christoffel mapping conformally maps the upper half-plane onto:", "choices": ["a torus", "a Riemann sphere", "a cylinder", "a polygon"], "answer": 3 },
+        { "q": "In Shannon's information theory, the entropy of an experiment with n equally-likely outcomes is:", "choices": ["n·log₂(n)", "log₂(n)", "1/n", "n/log₂(n)"], "answer": 1 },
+        { "q": "Gödel's First Incompleteness Theorem states that any consistent formal system capable of basic arithmetic:", "choices": ["can prove or disprove every statement", "is inconsistent", "is complete but unsound", "contains true statements it cannot prove"], "answer": 3 },
+        { "q": "The Weierstrass M-test guarantees uniform convergence of ∑fₙ(x) when:", "choices": ["each fₙ is differentiable", "the series converges pointwise", "∑Mₙ converges and |fₙ(x)| ≤ Mₙ for all x", "each fₙ is continuous"], "answer": 2 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Count the letter 'f' in: 'Finished files are the result of years of scientific study combined with the experience of years'", "choices": ["3", "4", "5", "6"], "answer": 3 },
-        { "q": "A doctor gives you 3 pills and says to take one every half hour. How long will the pills last?", "choices": ["1.5 hours", "2 hours", "1 hour", "45 minutes"], "answer": 2 },
-        { "q": "In a dozen, how many two-cent stamps are there?", "choices": ["12", "6", "24", "8"], "answer": 0 },
-        { "q": "Two coins total 30 cents; one of them is not a nickel. What are the two coins?", "choices": ["Two dimes", "A quarter and a nickel", "A dime and two nickels", "Two quarters"], "answer": 1 },
-        { "q": "How many times can you subtract 10 from 100?", "choices": ["Once", "10", "9", "Infinitely many"], "answer": 0 },
-        { "q": "How far can a dog run into the woods?", "choices": ["As far as it wants", "Halfway", "It depends on the dog's speed", "A few miles"], "answer": 1 },
-        { "q": "A rooster is sitting on a roof peak and lays an egg. Which way does the egg roll?", "choices": ["Left side", "Right side", "Straight down", "Roosters don't lay eggs"], "answer": 3 },
-        { "q": "What is the next number in the Look-and-Say sequence: 1, 11, 21, 1211, 111221, ___?", "choices": ["222111", "312211", "123321", "211231"], "answer": 1 },
-        { "q": "I'm the beginning of eternity, the end of time and space, the beginning of every end and the end of every place. What am I?", "choices": ["Time", "Space", "The letter E", "Zero"], "answer": 2 },
-        { "q": "A man is found dead in a room with 53 Bicycles. What most likely happened?", "choices": ["He was cheating at cards — 53 is one too many in a Bicycle card deck", "A bicycle fell on him", "He was a bicycle mechanic", "He fell off a bicycle"], "answer": 0 }
+        { "q": "If you count from 1 to 100, how many times does the digit '7' appear?", "choices": ["10", "20", "15", "11"], "answer": 1 },
+        { "q": "Before Mount Everest was discovered and measured, what was the tallest mountain on Earth?", "choices": ["Mount Everest", "K2", "Kangchenjunga", "Mont Blanc"], "answer": 0 },
+        { "q": "A man buys a horse for $60, sells it for $70, buys it back for $80, then sells it for $90. What is his total profit?", "choices": ["$10", "$30", "$20", "$0"], "answer": 2 },
+        { "q": "Ten birds sit on a fence. A farmer shoots one. How many birds remain on the fence?", "choices": ["9", "10", "8", "0 — the rest fly away from the gunshot"], "answer": 3 },
+        { "q": "Johnny's mother has three children. The first is named April, the second is named May. What is the third child's name?", "choices": ["June", "Johnny", "March", "July"], "answer": 1 },
+        { "q": "A clock takes 5 seconds to strike 6 o'clock. How long does it take to strike 12 o'clock?", "choices": ["10 seconds", "12 seconds", "11 seconds", "6 seconds"], "answer": 2 },
+        { "q": "You walk exactly 1 mile south, 1 mile east, then 1 mile north and arrive back at your start. A bear walks past. What colour is it?", "choices": ["Brown", "Black", "Grey", "White"], "answer": 3 },
+        { "q": "The number 8,549,176,320 uses each digit 0–9 exactly once. What is remarkable about the ORDER of its digits?", "choices": ["They are in alphabetical order when each digit is spelled out in English", "They spell out the digits of π in order", "They alternate strictly between even and odd", "They form an arithmetic sequence mod 10"], "answer": 0 },
+        { "q": "I have 10 fish in a tank. 3 drown, 4 swim away, and 3 die. How many fish are left in the tank?", "choices": ["0", "4", "3", "10"], "answer": 3 },
+        { "q": "You cut a 9-foot rope exactly in half, then cut one of those halves exactly in half. How many pieces of rope do you have?", "choices": ["4", "2", "3", "6"], "answer": 2 }
       ]
     }
   ]
