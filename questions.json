@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-16",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of France?", "choices": ["Rome", "London", "Paris", "Berlin"], "answer": 2 },
-        { "q": "What is 9 × 7?", "choices": ["54", "63", "56", "72"], "answer": 1 },
-        { "q": "Which is the largest ocean on Earth?", "choices": ["Pacific", "Indian", "Atlantic", "Arctic"], "answer": 0 },
-        { "q": "Who wrote 'Romeo and Juliet'?", "choices": ["Homer", "Jane Austen", "C.S. Lewis", "William Shakespeare"], "answer": 3 },
-        { "q": "At what temperature does water boil at sea level?", "choices": ["80°C", "100°C", "90°C", "110°C"], "answer": 1 },
-        { "q": "How many sides does a hexagon have?", "choices": ["6", "5", "7", "8"], "answer": 0 },
-        { "q": "What is the chemical symbol for gold?", "choices": ["Gd", "Go", "Au", "Gl"], "answer": 2 },
-        { "q": "What is the tallest mountain in the world?", "choices": ["K2", "Kilimanjaro", "Mont Blanc", "Mount Everest"], "answer": 3 },
-        { "q": "Who wrote the Harry Potter series?", "choices": ["C.S. Lewis", "J.K. Rowling", "Roald Dahl", "J.R.R. Tolkien"], "answer": 1 },
-        { "q": "What is 25% of 200?", "choices": ["75", "25", "50", "100"], "answer": 2 }
+        { "q": "What is the capital of Italy?", "choices": ["Athens", "Vienna", "Lisbon", "Rome"], "answer": 3 },
+        { "q": "How many degrees are in a right angle?", "choices": ["90", "45", "180", "360"], "answer": 0 },
+        { "q": "Which planet is known as the Red Planet?", "choices": ["Jupiter", "Venus", "Mars", "Saturn"], "answer": 2 },
+        { "q": "Who wrote 'The Adventures of Tom Sawyer'?", "choices": ["Charles Dickens", "Mark Twain", "Ernest Hemingway", "John Steinbeck"], "answer": 1 },
+        { "q": "What is the chemical symbol for sodium?", "choices": ["So", "Sn", "Sd", "Na"], "answer": 3 },
+        { "q": "How many strings does a standard guitar have?", "choices": ["4", "5", "6", "7"], "answer": 2 },
+        { "q": "On which continent is Brazil located?", "choices": ["South America", "Africa", "Europe", "North America"], "answer": 0 },
+        { "q": "What is 3³ (three cubed)?", "choices": ["9", "27", "18", "30"], "answer": 1 },
+        { "q": "Which gas makes up the majority of Earth's atmosphere?", "choices": ["Oxygen", "Carbon dioxide", "Nitrogen", "Argon"], "answer": 2 },
+        { "q": "Who wrote 'Pride and Prejudice'?", "choices": ["Charlotte Brontë", "Emily Brontë", "George Eliot", "Jane Austen"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is the sky?", "choices": ["Blue", "Red", "Green", "Yellow"], "answer": 0 },
-        { "q": "How many fingers are on one hand?", "choices": ["3", "4", "5", "6"], "answer": 2 },
-        { "q": "What sound does a cat make?", "choices": ["Bark", "Oink", "Meow", "Moo"], "answer": 2 },
-        { "q": "What is 2 + 2?", "choices": ["5", "3", "6", "4"], "answer": 3 },
-        { "q": "What do fish live in?", "choices": ["Sky", "Water", "Sand", "Grass"], "answer": 1 },
-        { "q": "What color is grass?", "choices": ["Pink", "Green", "Orange", "Brown"], "answer": 1 },
-        { "q": "How many eyes do most people have?", "choices": ["1", "4", "3", "2"], "answer": 3 },
-        { "q": "What is 7 - 4?", "choices": ["4", "2", "3", "5"], "answer": 2 },
-        { "q": "What do you put on your feet?", "choices": ["Gloves", "Shoes", "Hat", "Belt"], "answer": 1 },
-        { "q": "Which animal hops?", "choices": ["Rabbit", "Fish", "Elephant", "Giraffe"], "answer": 0 }
+        { "q": "What color is a fire truck?", "choices": ["Blue", "Red", "Green", "Yellow"], "answer": 1 },
+        { "q": "How many legs does a dog have?", "choices": ["2", "6", "4", "8"], "answer": 2 },
+        { "q": "What does a bee make?", "choices": ["Honey", "Milk", "Butter", "Cheese"], "answer": 0 },
+        { "q": "What sound does a duck make?", "choices": ["Moo", "Bark", "Oink", "Quack"], "answer": 3 },
+        { "q": "What is 6 + 2?", "choices": ["6", "8", "9", "10"], "answer": 1 },
+        { "q": "What color is chocolate?", "choices": ["White", "Yellow", "Brown", "Purple"], "answer": 2 },
+        { "q": "Which animal lives in water and has fins?", "choices": ["Cat", "Dog", "Bird", "Fish"], "answer": 3 },
+        { "q": "What do you use to cut your food?", "choices": ["Knife", "Fork", "Spoon", "Plate"], "answer": 0 },
+        { "q": "What is 10 - 7?", "choices": ["2", "4", "3", "5"], "answer": 2 },
+        { "q": "Which animal has black and white stripes?", "choices": ["Tiger", "Zebra", "Elephant", "Giraffe"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Which planet has the most confirmed moons?", "choices": ["Saturn", "Jupiter", "Uranus", "Neptune"], "answer": 0 },
-        { "q": "What is the capital of Canada?", "choices": ["Vancouver", "Ottawa", "Montreal", "Toronto"], "answer": 1 },
-        { "q": "Who painted the Mona Lisa?", "choices": ["Raphael", "Michelangelo", "Leonardo da Vinci", "Caravaggio"], "answer": 2 },
-        { "q": "What is often called 'the powerhouse of the cell'?", "choices": ["Nucleus", "Ribosome", "Golgi apparatus", "Mitochondrion"], "answer": 3 },
-        { "q": "In what year did the Berlin Wall fall?", "choices": ["1989", "1985", "1991", "1987"], "answer": 0 },
-        { "q": "The chemical symbol 'Fe' stands for which element?", "choices": ["Fluorine", "Iron", "Francium", "Fermium"], "answer": 1 },
-        { "q": "What is the sum of the interior angles of any triangle?", "choices": ["360°", "270°", "180°", "90°"], "answer": 2 },
-        { "q": "Who developed the theory of general relativity?", "choices": ["Max Planck", "Niels Bohr", "Isaac Newton", "Albert Einstein"], "answer": 3 },
-        { "q": "How many bones are in the adult human body?", "choices": ["206", "200", "212", "196"], "answer": 0 },
-        { "q": "On which continent is the Sahara Desert located?", "choices": ["Asia", "Africa", "South America", "Europe"], "answer": 1 }
+        { "q": "Who painted the Sistine Chapel ceiling?", "choices": ["Raphael", "Michelangelo", "Botticelli", "Caravaggio"], "answer": 1 },
+        { "q": "What is the capital of Brazil?", "choices": ["São Paulo", "Rio de Janeiro", "Salvador", "Brasília"], "answer": 3 },
+        { "q": "In which year did World War II end?", "choices": ["1945", "1943", "1944", "1947"], "answer": 0 },
+        { "q": "What does DNA stand for?", "choices": ["Dynamo Nucleic Acid", "Deoxyribonucleic acid", "Directional Nucleotide Array", "Double Nucleic Assembly"], "answer": 1 },
+        { "q": "How many moons does Mars have?", "choices": ["0", "1", "2", "4"], "answer": 2 },
+        { "q": "Approximately how fast does light travel in a vacuum?", "choices": ["30,000 km/s", "3,000,000 km/s", "3,000 km/s", "300,000 km/s"], "answer": 3 },
+        { "q": "Which element is most abundant by mass in Earth's crust?", "choices": ["Silicon", "Iron", "Oxygen", "Aluminum"], "answer": 2 },
+        { "q": "Who was the first President of the United States?", "choices": ["George Washington", "Thomas Jefferson", "John Adams", "Benjamin Franklin"], "answer": 0 },
+        { "q": "Which country hosted the 2016 Summer Olympics?", "choices": ["China", "Brazil", "United Kingdom", "Japan"], "answer": 1 },
+        { "q": "What is the longest bone in the human body?", "choices": ["Tibia", "Humerus", "Radius", "Femur"], "answer": 3 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "For a normal distribution, approximately 68% of values fall within ± ___ of the mean:", "choices": ["1 standard deviation", "2 standard deviations", "3 standard deviations", "the mean itself"], "answer": 0 },
-        { "q": "By the Fundamental Theorem of Calculus, d/dx[∫₀ˣ f(t) dt] =", "choices": ["F(x) − F(0)", "f(x)", "f(0)", "∫f(x) dx"], "answer": 1 },
-        { "q": "The determinant of the 2×2 matrix [[a, b], [c, d]] equals:", "choices": ["ab − cd", "ac + bd", "ad − bc", "ad + bc"], "answer": 2 },
-        { "q": "For two independent events A and B, P(A ∩ B) equals:", "choices": ["P(A) + P(B)", "P(A|B)", "P(A∪B) − P(A)·P(B)", "P(A) · P(B)"], "answer": 3 },
-        { "q": "Dijkstra's shortest-path algorithm produces incorrect results when the graph contains:", "choices": ["negative-weight edges", "directed cycles", "non-integer weights", "more than one path between nodes"], "answer": 0 },
-        { "q": "lim_{n→∞} (1 + 1/n)ⁿ =", "choices": ["1", "e", "π", "∞"], "answer": 1 },
-        { "q": "The Prime Number Theorem states the count of primes ≤ n is asymptotically:", "choices": ["ln(n)", "√n", "n / ln(n)", "n²"], "answer": 2 },
-        { "q": "The alternating group A₅ (even permutations of 5 elements) has order:", "choices": ["24", "30", "120", "60"], "answer": 3 },
-        { "q": "The eigenvalues of any real symmetric matrix are always:", "choices": ["purely imaginary", "all positive", "real", "complex in conjugate pairs"], "answer": 2 },
-        { "q": "The spectral radius ρ(A) of a square matrix A is defined as:", "choices": ["the Frobenius norm of A", "the largest singular value of A", "the trace of A", "max |λ| over all eigenvalues λ of A"], "answer": 3 }
+        { "q": "What is the order (number of elements) of the symmetric group S₆?", "choices": ["720", "120", "5040", "360"], "answer": 0 },
+        { "q": "Stirling's approximation gives n! ≈ ___", "choices": ["nⁿ·e^(−n)", "(n/e)ⁿ·√n", "nⁿ/√(2πn)", "√(2πn)·(n/e)ⁿ"], "answer": 3 },
+        { "q": "The Cauchy-Schwarz inequality in an inner-product space states |⟨u, v⟩| ≤ ___", "choices": ["‖u‖ + ‖v‖", "‖u − v‖", "‖u‖ · ‖v‖", "‖u‖² + ‖v‖²"], "answer": 2 },
+        { "q": "Euler's totient function φ(pᵏ) for prime p and integer k ≥ 1 equals:", "choices": ["pᵏ", "pᵏ⁻¹(p − 1)", "pᵏ − 1", "k(p − 1)"], "answer": 1 },
+        { "q": "In quantum mechanics, the canonical commutation relation [x̂, p̂] equals:", "choices": ["0", "ℏ", "−iℏ", "iℏ"], "answer": 3 },
+        { "q": "The entropy change of the universe in a perfectly reversible process is:", "choices": ["0", "positive", "negative", "T · ΔH"], "answer": 0 },
+        { "q": "Lagrange's theorem states the order of any subgroup H of a finite group G must:", "choices": ["equal |G|/2", "be prime", "divide |G|", "equal |G| − 1"], "answer": 2 },
+        { "q": "The maximum number of regions into which n straight lines can divide a plane is:", "choices": ["n²", "n(n+1)/2 + 1", "2ⁿ", "n!"], "answer": 1 },
+        { "q": "The ordinary generating function for the Fibonacci sequence (F₀=0, F₁=1) is:", "choices": ["1/(1 − x − x²)", "x/(1 + x − x²)", "x/(1 − x − x²)", "x²/(1 − x − x²)"], "answer": 2 },
+        { "q": "By special relativity, a rod of rest length L₀ moving at speed v is measured to have length:", "choices": ["L₀ · γ", "L₀ · (1 − v²/c²)", "L₀/γ²", "L₀ · √(1 − v²/c²)"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "You are running a race. You overtake the person in 2nd place. What place are you now in?", "choices": ["1st", "2nd", "3rd", "You can't tell without knowing the total runners"], "answer": 1 },
-        { "q": "What is the next letter in the sequence: O, T, T, F, F, S, S, E, N, ___?", "choices": ["E", "O", "T", "N"], "answer": 2 },
-        { "q": "A snail is at the bottom of a 10-foot well. Each day it climbs 3 feet; each night it slides back 2 feet. How many days to reach the top?", "choices": ["10 days", "7 days", "8 days", "9 days"], "answer": 2 },
-        { "q": "A is the father of B. But B is not the son of A. How is this possible?", "choices": ["B is A's daughter", "This is impossible", "B was adopted", "They are twins"], "answer": 0 },
-        { "q": "How many calendar years include both Christmas Day (December 25) and New Year's Day (January 1)?", "choices": ["No years — they are always in separate calendar years", "Every year — both always occur within the same calendar year", "Only in leap years", "Only every other year"], "answer": 1 },
-        { "q": "What is the only whole number that, when spelled out in English, has its letters in strict alphabetical order?", "choices": ["Forty", "One", "Eight", "Three"], "answer": 0 },
-        { "q": "Two trains start 900 miles apart and travel toward each other. When they meet, which train is closer to New York?", "choices": ["The train that started closer to New York", "The train that started farther from New York", "It depends on their speeds", "Both trains are at the exact same point"], "answer": 3 },
-        { "q": "How many squares of all sizes are on a standard 8×8 chessboard?", "choices": ["64", "204", "128", "256"], "answer": 1 },
-        { "q": "A man lives on the 30th floor. Every morning he takes the elevator down to the lobby. Each evening he takes the elevator only to the 10th floor and walks up 20 flights. Why?", "choices": ["He needs the exercise", "He is afraid of heights above floor 10", "He is too short to reach the button for floor 30", "He prefers stairs for the top half"], "answer": 2 },
-        { "q": "An electric train is travelling south. Which direction does the smoke from the engine blow?", "choices": ["Southward", "Northward", "Whichever way the wind blows", "Electric trains produce no smoke"], "answer": 3 }
+        { "q": "If 5 machines take 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?", "choices": ["100 minutes", "5 minutes", "10 minutes", "50 minutes"], "answer": 1 },
+        { "q": "How many animals did Moses take on the ark?", "choices": ["2 of every kind", "One breeding pair of each", "7 of each clean animal", "None — it was Noah, not Moses"], "answer": 3 },
+        { "q": "A lily pad doubles in size every day. On day 48 it covers the entire lake. On which day was the lake exactly half-covered?", "choices": ["24", "36", "47", "46"], "answer": 2 },
+        { "q": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.05", "$0.10", "$0.15", "$0.20"], "answer": 0 },
+        { "q": "Which of these four numbers is the only prime: 143, 147, 149, 161?", "choices": ["143", "147", "161", "149"], "answer": 3 },
+        { "q": "A rooster lays an egg at the very peak of a roof. Which way does the egg roll?", "choices": ["To the left", "Straight down the slope", "Roosters don't lay eggs", "To the right"], "answer": 2 },
+        { "q": "In the English alphabet, how many letters come before the letter that comes after M?", "choices": ["12", "13", "14", "15"], "answer": 1 },
+        { "q": "A store discounts an item 20%, then you apply a coupon for 20% off the new sale price. Original price: $100. What do you pay?", "choices": ["$60", "$68", "$70", "$64"], "answer": 3 },
+        { "q": "You enter a dark room with a candle, a kerosene lamp, and a fireplace. You have one match. What do you light first?", "choices": ["The match", "The candle", "The kerosene lamp", "The fireplace"], "answer": 0 },
+        { "q": "A cyclist rides 1 mile uphill at 15 mph. How fast must they ride the 1-mile downhill to average 30 mph for the full 2-mile trip?", "choices": ["45 mph", "60 mph", "It is impossible — no speed is fast enough", "90 mph"], "answer": 2 }
       ]
     }
   ]
