@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-16",
+  "date": "2026-07-17",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Italy?", "choices": ["Athens", "Vienna", "Lisbon", "Rome"], "answer": 3 },
-        { "q": "How many degrees are in a right angle?", "choices": ["90", "45", "180", "360"], "answer": 0 },
-        { "q": "Which planet is known as the Red Planet?", "choices": ["Jupiter", "Venus", "Mars", "Saturn"], "answer": 2 },
-        { "q": "Who wrote 'The Adventures of Tom Sawyer'?", "choices": ["Charles Dickens", "Mark Twain", "Ernest Hemingway", "John Steinbeck"], "answer": 1 },
-        { "q": "What is the chemical symbol for sodium?", "choices": ["So", "Sn", "Sd", "Na"], "answer": 3 },
-        { "q": "How many strings does a standard guitar have?", "choices": ["4", "5", "6", "7"], "answer": 2 },
-        { "q": "On which continent is Brazil located?", "choices": ["South America", "Africa", "Europe", "North America"], "answer": 0 },
-        { "q": "What is 3³ (three cubed)?", "choices": ["9", "27", "18", "30"], "answer": 1 },
-        { "q": "Which gas makes up the majority of Earth's atmosphere?", "choices": ["Oxygen", "Carbon dioxide", "Nitrogen", "Argon"], "answer": 2 },
-        { "q": "Who wrote 'Pride and Prejudice'?", "choices": ["Charlotte Brontë", "Emily Brontë", "George Eliot", "Jane Austen"], "answer": 3 }
+        { "q": "What is the capital of Japan?", "choices": ["Tokyo", "Osaka", "Kyoto", "Hiroshima"], "answer": 0 },
+        { "q": "How many days are in a leap year?", "choices": ["364", "366", "365", "367"], "answer": 1 },
+        { "q": "What is the chemical symbol for iron?", "choices": ["Ir", "In", "Fe", "I"], "answer": 2 },
+        { "q": "Who painted the Mona Lisa?", "choices": ["Van Gogh", "Picasso", "Raphael", "Leonardo da Vinci"], "answer": 3 },
+        { "q": "How many centimeters are in a meter?", "choices": ["100", "10", "1000", "50"], "answer": 0 },
+        { "q": "Which planet is the largest in our solar system?", "choices": ["Saturn", "Jupiter", "Uranus", "Neptune"], "answer": 1 },
+        { "q": "What is 12 × 8?", "choices": ["84", "90", "96", "88"], "answer": 2 },
+        { "q": "What animal is known as 'man's best friend'?", "choices": ["Cat", "Parrot", "Rabbit", "Dog"], "answer": 3 },
+        { "q": "What is the currency of Japan?", "choices": ["Yen", "Yuan", "Won", "Ringgit"], "answer": 0 },
+        { "q": "How many players are on a standard soccer team?", "choices": ["9", "11", "10", "12"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is a fire truck?", "choices": ["Blue", "Red", "Green", "Yellow"], "answer": 1 },
-        { "q": "How many legs does a dog have?", "choices": ["2", "6", "4", "8"], "answer": 2 },
-        { "q": "What does a bee make?", "choices": ["Honey", "Milk", "Butter", "Cheese"], "answer": 0 },
-        { "q": "What sound does a duck make?", "choices": ["Moo", "Bark", "Oink", "Quack"], "answer": 3 },
-        { "q": "What is 6 + 2?", "choices": ["6", "8", "9", "10"], "answer": 1 },
-        { "q": "What color is chocolate?", "choices": ["White", "Yellow", "Brown", "Purple"], "answer": 2 },
-        { "q": "Which animal lives in water and has fins?", "choices": ["Cat", "Dog", "Bird", "Fish"], "answer": 3 },
-        { "q": "What do you use to cut your food?", "choices": ["Knife", "Fork", "Spoon", "Plate"], "answer": 0 },
-        { "q": "What is 10 - 7?", "choices": ["2", "4", "3", "5"], "answer": 2 },
-        { "q": "Which animal has black and white stripes?", "choices": ["Tiger", "Zebra", "Elephant", "Giraffe"], "answer": 1 }
+        { "q": "What color is grass?", "choices": ["Green", "Pink", "Blue", "Yellow"], "answer": 0 },
+        { "q": "What sound does a cat make?", "choices": ["Bark", "Meow", "Moo", "Oink"], "answer": 1 },
+        { "q": "How many fingers are on one hand?", "choices": ["4", "6", "5", "3"], "answer": 2 },
+        { "q": "What do you wear on your feet?", "choices": ["Hat", "Gloves", "Scarf", "Shoes"], "answer": 3 },
+        { "q": "What is 2 + 2?", "choices": ["4", "3", "5", "6"], "answer": 0 },
+        { "q": "What color is the sky on a sunny day?", "choices": ["Red", "Blue", "Green", "Orange"], "answer": 1 },
+        { "q": "Which animal says 'moo'?", "choices": ["Pig", "Sheep", "Cow", "Horse"], "answer": 2 },
+        { "q": "How many wheels does a bicycle have?", "choices": ["4", "3", "1", "2"], "answer": 3 },
+        { "q": "What do you use to write on paper?", "choices": ["Pencil", "Fork", "Spoon", "Cup"], "answer": 0 },
+        { "q": "What shape has 3 sides?", "choices": ["Square", "Triangle", "Circle", "Rectangle"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Who painted the Sistine Chapel ceiling?", "choices": ["Raphael", "Michelangelo", "Botticelli", "Caravaggio"], "answer": 1 },
-        { "q": "What is the capital of Brazil?", "choices": ["São Paulo", "Rio de Janeiro", "Salvador", "Brasília"], "answer": 3 },
-        { "q": "In which year did World War II end?", "choices": ["1945", "1943", "1944", "1947"], "answer": 0 },
-        { "q": "What does DNA stand for?", "choices": ["Dynamo Nucleic Acid", "Deoxyribonucleic acid", "Directional Nucleotide Array", "Double Nucleic Assembly"], "answer": 1 },
-        { "q": "How many moons does Mars have?", "choices": ["0", "1", "2", "4"], "answer": 2 },
-        { "q": "Approximately how fast does light travel in a vacuum?", "choices": ["30,000 km/s", "3,000,000 km/s", "3,000 km/s", "300,000 km/s"], "answer": 3 },
-        { "q": "Which element is most abundant by mass in Earth's crust?", "choices": ["Silicon", "Iron", "Oxygen", "Aluminum"], "answer": 2 },
-        { "q": "Who was the first President of the United States?", "choices": ["George Washington", "Thomas Jefferson", "John Adams", "Benjamin Franklin"], "answer": 0 },
-        { "q": "Which country hosted the 2016 Summer Olympics?", "choices": ["China", "Brazil", "United Kingdom", "Japan"], "answer": 1 },
-        { "q": "What is the longest bone in the human body?", "choices": ["Tibia", "Humerus", "Radius", "Femur"], "answer": 3 }
+        { "q": "In which country is the Great Wall located?", "choices": ["China", "Japan", "Mongolia", "South Korea"], "answer": 0 },
+        { "q": "What is the square root of 144?", "choices": ["10", "12", "14", "11"], "answer": 1 },
+        { "q": "What is the chemical formula for water?", "choices": ["H₂O₂", "HO", "H₂O", "H₃O"], "answer": 2 },
+        { "q": "Who wrote 'Hamlet'?", "choices": ["Charles Dickens", "Victor Hugo", "Leo Tolstoy", "William Shakespeare"], "answer": 3 },
+        { "q": "What is the powerhouse of the cell?", "choices": ["Mitochondria", "Nucleus", "Ribosome", "Golgi apparatus"], "answer": 0 },
+        { "q": "How many continents are on Earth?", "choices": ["5", "7", "6", "8"], "answer": 1 },
+        { "q": "Which element has atomic number 79?", "choices": ["Platinum", "Silver", "Gold", "Copper"], "answer": 2 },
+        { "q": "Which is the smallest ocean?", "choices": ["Atlantic", "Indian", "Southern", "Arctic"], "answer": 3 },
+        { "q": "Who was the first woman to win a Nobel Prize?", "choices": ["Marie Curie", "Rosalind Franklin", "Dorothy Hodgkin", "Lise Meitner"], "answer": 0 },
+        { "q": "In which year did the Berlin Wall fall?", "choices": ["1985", "1989", "1991", "1993"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the order (number of elements) of the symmetric group S₆?", "choices": ["720", "120", "5040", "360"], "answer": 0 },
-        { "q": "Stirling's approximation gives n! ≈ ___", "choices": ["nⁿ·e^(−n)", "(n/e)ⁿ·√n", "nⁿ/√(2πn)", "√(2πn)·(n/e)ⁿ"], "answer": 3 },
-        { "q": "The Cauchy-Schwarz inequality in an inner-product space states |⟨u, v⟩| ≤ ___", "choices": ["‖u‖ + ‖v‖", "‖u − v‖", "‖u‖ · ‖v‖", "‖u‖² + ‖v‖²"], "answer": 2 },
-        { "q": "Euler's totient function φ(pᵏ) for prime p and integer k ≥ 1 equals:", "choices": ["pᵏ", "pᵏ⁻¹(p − 1)", "pᵏ − 1", "k(p − 1)"], "answer": 1 },
-        { "q": "In quantum mechanics, the canonical commutation relation [x̂, p̂] equals:", "choices": ["0", "ℏ", "−iℏ", "iℏ"], "answer": 3 },
-        { "q": "The entropy change of the universe in a perfectly reversible process is:", "choices": ["0", "positive", "negative", "T · ΔH"], "answer": 0 },
-        { "q": "Lagrange's theorem states the order of any subgroup H of a finite group G must:", "choices": ["equal |G|/2", "be prime", "divide |G|", "equal |G| − 1"], "answer": 2 },
-        { "q": "The maximum number of regions into which n straight lines can divide a plane is:", "choices": ["n²", "n(n+1)/2 + 1", "2ⁿ", "n!"], "answer": 1 },
-        { "q": "The ordinary generating function for the Fibonacci sequence (F₀=0, F₁=1) is:", "choices": ["1/(1 − x − x²)", "x/(1 + x − x²)", "x/(1 − x − x²)", "x²/(1 − x − x²)"], "answer": 2 },
-        { "q": "By special relativity, a rod of rest length L₀ moving at speed v is measured to have length:", "choices": ["L₀ · γ", "L₀ · (1 − v²/c²)", "L₀/γ²", "L₀ · √(1 − v²/c²)"], "answer": 3 }
+        { "q": "The non-trivial zeros of the Riemann zeta function ζ(s) are conjectured to lie on the line Re(s) = ___", "choices": ["1/2", "1/4", "1", "0"], "answer": 0 },
+        { "q": "The derivative of f(x) = xˣ with respect to x is:", "choices": ["x · xˣ⁻¹", "xˣ(ln x + 1)", "xˣ · ln x", "x · ln x"], "answer": 1 },
+        { "q": "The Lorentz factor γ for a particle traveling at v = 0.6c equals:", "choices": ["1.00", "1.10", "1.25", "1.50"], "answer": 2 },
+        { "q": "For an orientable surface with g handles (genus g), the Euler characteristic χ equals:", "choices": ["g", "2g", "g − 2", "2 − 2g"], "answer": 3 },
+        { "q": "The time complexity of the Fast Fourier Transform (FFT) for n points is:", "choices": ["O(n log n)", "O(n²)", "O(n)", "O(n² log n)"], "answer": 0 },
+        { "q": "Cauchy's integral formula gives f(a) for analytic f inside contour C as:", "choices": ["2πi ∮_C f(z)/(z−a) dz", "(1/2πi) ∮_C f(z)/(z−a) dz", "(1/2π) ∮_C f(z)/(z−a) dz", "∮_C f(z)/(z+a) dz"], "answer": 1 },
+        { "q": "The curl of any gradient field ∇f (where f is a smooth scalar field) equals:", "choices": ["∇²f", "f", "the zero vector", "∇f × ∇f"], "answer": 2 },
+        { "q": "The eigenvalues of the Pauli matrix σ_z = [[1, 0], [0, −1]] are:", "choices": ["0 and 2", "0 and 1", "i and −i", "+1 and −1"], "answer": 3 },
+        { "q": "The power series ln(1+x) = x − x²/2 + x³/3 − ⋯ converges for x in:", "choices": ["(−1, 1]", "(−1, 1)", "[−1, 1]", "(−∞, ∞)"], "answer": 0 },
+        { "q": "In Boltzmann's entropy formula S = k_B ln Ω, what does Ω represent?", "choices": ["Work done by the system", "Number of accessible microstates", "Volume of phase space", "Canonical partition function"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "If 5 machines take 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?", "choices": ["100 minutes", "5 minutes", "10 minutes", "50 minutes"], "answer": 1 },
-        { "q": "How many animals did Moses take on the ark?", "choices": ["2 of every kind", "One breeding pair of each", "7 of each clean animal", "None — it was Noah, not Moses"], "answer": 3 },
-        { "q": "A lily pad doubles in size every day. On day 48 it covers the entire lake. On which day was the lake exactly half-covered?", "choices": ["24", "36", "47", "46"], "answer": 2 },
-        { "q": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.05", "$0.10", "$0.15", "$0.20"], "answer": 0 },
-        { "q": "Which of these four numbers is the only prime: 143, 147, 149, 161?", "choices": ["143", "147", "161", "149"], "answer": 3 },
-        { "q": "A rooster lays an egg at the very peak of a roof. Which way does the egg roll?", "choices": ["To the left", "Straight down the slope", "Roosters don't lay eggs", "To the right"], "answer": 2 },
-        { "q": "In the English alphabet, how many letters come before the letter that comes after M?", "choices": ["12", "13", "14", "15"], "answer": 1 },
-        { "q": "A store discounts an item 20%, then you apply a coupon for 20% off the new sale price. Original price: $100. What do you pay?", "choices": ["$60", "$68", "$70", "$64"], "answer": 3 },
-        { "q": "You enter a dark room with a candle, a kerosene lamp, and a fireplace. You have one match. What do you light first?", "choices": ["The match", "The candle", "The kerosene lamp", "The fireplace"], "answer": 0 },
-        { "q": "A cyclist rides 1 mile uphill at 15 mph. How fast must they ride the 1-mile downhill to average 30 mph for the full 2-mile trip?", "choices": ["45 mph", "60 mph", "It is impossible — no speed is fast enough", "90 mph"], "answer": 2 }
+        { "q": "How many months have 28 days?", "choices": ["12", "1", "2", "6"], "answer": 0 },
+        { "q": "You're in a race and you overtake the person in 2nd place. What position are you now in?", "choices": ["1st", "2nd", "3rd", "2nd... no wait, 1st"], "answer": 1 },
+        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep are left?", "choices": ["8", "17", "9", "0"], "answer": 2 },
+        { "q": "I have two coins that total 30 cents. One of them is not a quarter. What are the two coins?", "choices": ["Two dimes and a nickel", "Three dimes", "A dime and two nickels", "A quarter and a nickel"], "answer": 3 },
+        { "q": "How many times does the letter 'r' appear in the word 'strawberry'?", "choices": ["3", "1", "2", "4"], "answer": 0 },
+        { "q": "A plane crashes exactly on the border of the US and Canada. Where do you bury the survivors?", "choices": ["In the nearest cemetery", "You don't bury survivors", "On the Canadian side", "On the American side"], "answer": 1 },
+        { "q": "Which weighs more: a pound of gold or a pound of feathers?", "choices": ["Gold — it's denser", "Feathers — they take up more volume", "They weigh the same", "Can't be determined without volume"], "answer": 2 },
+        { "q": "How many times can you subtract 10 from 100?", "choices": ["10 times", "9 times", "Infinite times", "Once — after that you're subtracting from 90"], "answer": 3 },
+        { "q": "What word is spelled incorrectly in every single dictionary ever printed?", "choices": ["Incorrectly", "Misspelled", "Wrong", "Dictionary"], "answer": 0 },
+        { "q": "An electric train is travelling northeast. The wind is blowing southwest. In which direction does the smoke from the train blow?", "choices": ["Southwest, with the wind", "Electric trains produce no smoke", "Northeast, opposite the wind", "It swirls in all directions"], "answer": 1 }
       ]
     }
   ]
