@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Japan?", "choices": ["Tokyo", "Osaka", "Kyoto", "Hiroshima"], "answer": 0 },
-        { "q": "How many days are in a leap year?", "choices": ["364", "366", "365", "367"], "answer": 1 },
-        { "q": "What is the chemical symbol for iron?", "choices": ["Ir", "In", "Fe", "I"], "answer": 2 },
-        { "q": "Who painted the Mona Lisa?", "choices": ["Van Gogh", "Picasso", "Raphael", "Leonardo da Vinci"], "answer": 3 },
-        { "q": "How many centimeters are in a meter?", "choices": ["100", "10", "1000", "50"], "answer": 0 },
-        { "q": "Which planet is the largest in our solar system?", "choices": ["Saturn", "Jupiter", "Uranus", "Neptune"], "answer": 1 },
-        { "q": "What is 12 × 8?", "choices": ["84", "90", "96", "88"], "answer": 2 },
-        { "q": "What animal is known as 'man's best friend'?", "choices": ["Cat", "Parrot", "Rabbit", "Dog"], "answer": 3 },
-        { "q": "What is the currency of Japan?", "choices": ["Yen", "Yuan", "Won", "Ringgit"], "answer": 0 },
-        { "q": "How many players are on a standard soccer team?", "choices": ["9", "11", "10", "12"], "answer": 1 }
+        { "q": "What is the capital of Australia?", "choices": ["Sydney", "Canberra", "Melbourne", "Brisbane"], "answer": 1 },
+        { "q": "How many sides does an octagon have?", "choices": ["8", "6", "7", "5"], "answer": 0 },
+        { "q": "What is 15 × 6?", "choices": ["80", "90", "85", "95"], "answer": 1 },
+        { "q": "Which ocean borders the east coast of the United States?", "choices": ["Pacific", "Indian", "Atlantic", "Arctic"], "answer": 2 },
+        { "q": "Who is credited with inventing the telephone?", "choices": ["Thomas Edison", "Nikola Tesla", "Albert Einstein", "Alexander Graham Bell"], "answer": 3 },
+        { "q": "What is the capital of Germany?", "choices": ["Berlin", "Munich", "Hamburg", "Frankfurt"], "answer": 0 },
+        { "q": "How many days are in February in a non-leap year?", "choices": ["30", "28", "29", "31"], "answer": 1 },
+        { "q": "What is the chemical symbol for oxygen?", "choices": ["Ox", "On", "O", "Oz"], "answer": 2 },
+        { "q": "Which sport uses a shuttlecock?", "choices": ["Tennis", "Squash", "Table Tennis", "Badminton"], "answer": 3 },
+        { "q": "At what temperature does water freeze in Celsius?", "choices": ["-4°C", "4°C", "0°C", "-10°C"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is grass?", "choices": ["Green", "Pink", "Blue", "Yellow"], "answer": 0 },
-        { "q": "What sound does a cat make?", "choices": ["Bark", "Meow", "Moo", "Oink"], "answer": 1 },
-        { "q": "How many fingers are on one hand?", "choices": ["4", "6", "5", "3"], "answer": 2 },
-        { "q": "What do you wear on your feet?", "choices": ["Hat", "Gloves", "Scarf", "Shoes"], "answer": 3 },
-        { "q": "What is 2 + 2?", "choices": ["4", "3", "5", "6"], "answer": 0 },
-        { "q": "What color is the sky on a sunny day?", "choices": ["Red", "Blue", "Green", "Orange"], "answer": 1 },
-        { "q": "Which animal says 'moo'?", "choices": ["Pig", "Sheep", "Cow", "Horse"], "answer": 2 },
-        { "q": "How many wheels does a bicycle have?", "choices": ["4", "3", "1", "2"], "answer": 3 },
-        { "q": "What do you use to write on paper?", "choices": ["Pencil", "Fork", "Spoon", "Cup"], "answer": 0 },
-        { "q": "What shape has 3 sides?", "choices": ["Square", "Triangle", "Circle", "Rectangle"], "answer": 1 }
+        { "q": "What color is a ripe banana?", "choices": ["Green", "Yellow", "Red", "Brown"], "answer": 1 },
+        { "q": "What does a dog do when it is happy?", "choices": ["Hisses", "Meows", "Wags its tail", "Roars"], "answer": 2 },
+        { "q": "How many legs does a cat have?", "choices": ["6", "2", "8", "4"], "answer": 3 },
+        { "q": "What is 1 + 1?", "choices": ["2", "3", "1", "4"], "answer": 0 },
+        { "q": "Which one is a fruit?", "choices": ["Carrot", "Apple", "Potato", "Broccoli"], "answer": 1 },
+        { "q": "What color is a stop sign?", "choices": ["Blue", "Yellow", "Red", "Green"], "answer": 2 },
+        { "q": "What do you use to brush your teeth?", "choices": ["Fork", "Spoon", "Comb", "Toothbrush"], "answer": 3 },
+        { "q": "What do you sleep on at night?", "choices": ["A bed", "A chair", "A table", "The floor"], "answer": 0 },
+        { "q": "What is a baby dog called?", "choices": ["Kitten", "Puppy", "Cub", "Foal"], "answer": 1 },
+        { "q": "What number comes after 9?", "choices": ["7", "8", "10", "11"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "In which country is the Great Wall located?", "choices": ["China", "Japan", "Mongolia", "South Korea"], "answer": 0 },
-        { "q": "What is the square root of 144?", "choices": ["10", "12", "14", "11"], "answer": 1 },
-        { "q": "What is the chemical formula for water?", "choices": ["H₂O₂", "HO", "H₂O", "H₃O"], "answer": 2 },
-        { "q": "Who wrote 'Hamlet'?", "choices": ["Charles Dickens", "Victor Hugo", "Leo Tolstoy", "William Shakespeare"], "answer": 3 },
-        { "q": "What is the powerhouse of the cell?", "choices": ["Mitochondria", "Nucleus", "Ribosome", "Golgi apparatus"], "answer": 0 },
-        { "q": "How many continents are on Earth?", "choices": ["5", "7", "6", "8"], "answer": 1 },
-        { "q": "Which element has atomic number 79?", "choices": ["Platinum", "Silver", "Gold", "Copper"], "answer": 2 },
-        { "q": "Which is the smallest ocean?", "choices": ["Atlantic", "Indian", "Southern", "Arctic"], "answer": 3 },
-        { "q": "Who was the first woman to win a Nobel Prize?", "choices": ["Marie Curie", "Rosalind Franklin", "Dorothy Hodgkin", "Lise Meitner"], "answer": 0 },
-        { "q": "In which year did the Berlin Wall fall?", "choices": ["1985", "1989", "1991", "1993"], "answer": 1 }
+        { "q": "What is the approximate speed of sound in air at room temperature?", "choices": ["300 m/s", "3,000 m/s", "340 m/s", "1,500 m/s"], "answer": 2 },
+        { "q": "How many chambers does the human heart have?", "choices": ["2", "4", "3", "6"], "answer": 1 },
+        { "q": "What element does the chemical symbol 'Pb' represent?", "choices": ["Lead", "Phosphorus", "Platinum", "Palladium"], "answer": 0 },
+        { "q": "Who wrote the novel '1984'?", "choices": ["Aldous Huxley", "Ray Bradbury", "Arthur Koestler", "George Orwell"], "answer": 3 },
+        { "q": "How many teeth does a healthy adult human typically have (including wisdom teeth)?", "choices": ["28", "36", "32", "24"], "answer": 2 },
+        { "q": "The Great Barrier Reef is located off the coast of which country?", "choices": ["Indonesia", "Australia", "New Zealand", "South Africa"], "answer": 1 },
+        { "q": "What is the smallest planet in the solar system?", "choices": ["Venus", "Mars", "Pluto", "Mercury"], "answer": 3 },
+        { "q": "Who painted 'The Starry Night'?", "choices": ["Vincent van Gogh", "Pablo Picasso", "Claude Monet", "Salvador Dalí"], "answer": 0 },
+        { "q": "How many pairs of chromosomes do humans typically have?", "choices": ["21", "23", "46", "48"], "answer": 1 },
+        { "q": "Which country is the largest in the world by land area?", "choices": ["Canada", "China", "Russia", "United States"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "The non-trivial zeros of the Riemann zeta function ζ(s) are conjectured to lie on the line Re(s) = ___", "choices": ["1/2", "1/4", "1", "0"], "answer": 0 },
-        { "q": "The derivative of f(x) = xˣ with respect to x is:", "choices": ["x · xˣ⁻¹", "xˣ(ln x + 1)", "xˣ · ln x", "x · ln x"], "answer": 1 },
-        { "q": "The Lorentz factor γ for a particle traveling at v = 0.6c equals:", "choices": ["1.00", "1.10", "1.25", "1.50"], "answer": 2 },
-        { "q": "For an orientable surface with g handles (genus g), the Euler characteristic χ equals:", "choices": ["g", "2g", "g − 2", "2 − 2g"], "answer": 3 },
-        { "q": "The time complexity of the Fast Fourier Transform (FFT) for n points is:", "choices": ["O(n log n)", "O(n²)", "O(n)", "O(n² log n)"], "answer": 0 },
-        { "q": "Cauchy's integral formula gives f(a) for analytic f inside contour C as:", "choices": ["2πi ∮_C f(z)/(z−a) dz", "(1/2πi) ∮_C f(z)/(z−a) dz", "(1/2π) ∮_C f(z)/(z−a) dz", "∮_C f(z)/(z+a) dz"], "answer": 1 },
-        { "q": "The curl of any gradient field ∇f (where f is a smooth scalar field) equals:", "choices": ["∇²f", "f", "the zero vector", "∇f × ∇f"], "answer": 2 },
-        { "q": "The eigenvalues of the Pauli matrix σ_z = [[1, 0], [0, −1]] are:", "choices": ["0 and 2", "0 and 1", "i and −i", "+1 and −1"], "answer": 3 },
-        { "q": "The power series ln(1+x) = x − x²/2 + x³/3 − ⋯ converges for x in:", "choices": ["(−1, 1]", "(−1, 1)", "[−1, 1]", "(−∞, ∞)"], "answer": 0 },
-        { "q": "In Boltzmann's entropy formula S = k_B ln Ω, what does Ω represent?", "choices": ["Work done by the system", "Number of accessible microstates", "Volume of phase space", "Canonical partition function"], "answer": 1 }
+        { "q": "The Gauss-Bonnet theorem states that for a closed orientable surface M, ∫∫_M K dA equals:", "choices": ["πχ(M)", "2πχ(M)", "4πχ(M)", "χ(M)/2π"], "answer": 1 },
+        { "q": "The ground-state energy of a quantum harmonic oscillator with angular frequency ω is:", "choices": ["0", "ℏω/4", "ℏω/2", "ℏω"], "answer": 2 },
+        { "q": "The generating function ∑_{n≥0} p(n)xⁿ for the partition numbers p(n) equals:", "choices": ["∏_{k≥1} 1/(1 − xᵏ)", "∑_{k≥1} xᵏ/(1−xᵏ)", "∏_{k≥1} (1 − xᵏ)", "∑_{k≥0} p(k)xᵏ/k!"], "answer": 0 },
+        { "q": "The Shannon entropy of a fair n-sided die (in bits) is:", "choices": ["n bits", "1/n bits", "n/log₂ n bits", "log₂ n bits"], "answer": 3 },
+        { "q": "The Cayley-Hamilton theorem states that every square matrix A:", "choices": ["satisfies det(A) = trace(A)", "satisfies its own characteristic polynomial", "satisfies Aⁿ = I", "has a minimal polynomial equal to its characteristic polynomial always"], "answer": 1 },
+        { "q": "The divergence of the curl of any smooth vector field F is always:", "choices": ["∇·F", "∇²F", "a nonzero constant", "zero"], "answer": 3 },
+        { "q": "Green's theorem states ∮_C (P dx + Q dy) equals:", "choices": ["∫∫_D (∂P/∂y − ∂Q/∂x) dA", "∫∫_D (∂P/∂x + ∂Q/∂y) dA", "∫∫_D (∂Q/∂x − ∂P/∂y) dA", "∫∫_D (∂Q/∂y − ∂P/∂x) dA"], "answer": 2 },
+        { "q": "The time-independent Schrödinger equation for a particle of mass m in potential V is:", "choices": ["iℏ ∂ψ/∂t = Hψ", "ℏ ∂ψ/∂x = Eψ", "−(ℏ²/2m)∇²ψ + Vψ = Eψ", "−(ℏ²/2m)∇²ψ = Eψ"], "answer": 2 },
+        { "q": "The P vs NP question asks: can every problem in NP be solved in polynomial time by:", "choices": ["a deterministic Turing machine", "a quantum computer", "a nondeterministic machine only", "a parallel processor"], "answer": 0 },
+        { "q": "The Gibbs phase rule is F = C − P + 2. For pure water at its triple point (C=1, P=3), F =:", "choices": ["1", "0", "2", "3"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many months have 28 days?", "choices": ["12", "1", "2", "6"], "answer": 0 },
-        { "q": "You're in a race and you overtake the person in 2nd place. What position are you now in?", "choices": ["1st", "2nd", "3rd", "2nd... no wait, 1st"], "answer": 1 },
-        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep are left?", "choices": ["8", "17", "9", "0"], "answer": 2 },
-        { "q": "I have two coins that total 30 cents. One of them is not a quarter. What are the two coins?", "choices": ["Two dimes and a nickel", "Three dimes", "A dime and two nickels", "A quarter and a nickel"], "answer": 3 },
-        { "q": "How many times does the letter 'r' appear in the word 'strawberry'?", "choices": ["3", "1", "2", "4"], "answer": 0 },
-        { "q": "A plane crashes exactly on the border of the US and Canada. Where do you bury the survivors?", "choices": ["In the nearest cemetery", "You don't bury survivors", "On the Canadian side", "On the American side"], "answer": 1 },
-        { "q": "Which weighs more: a pound of gold or a pound of feathers?", "choices": ["Gold — it's denser", "Feathers — they take up more volume", "They weigh the same", "Can't be determined without volume"], "answer": 2 },
-        { "q": "How many times can you subtract 10 from 100?", "choices": ["10 times", "9 times", "Infinite times", "Once — after that you're subtracting from 90"], "answer": 3 },
-        { "q": "What word is spelled incorrectly in every single dictionary ever printed?", "choices": ["Incorrectly", "Misspelled", "Wrong", "Dictionary"], "answer": 0 },
-        { "q": "An electric train is travelling northeast. The wind is blowing southwest. In which direction does the smoke from the train blow?", "choices": ["Southwest, with the wind", "Electric trains produce no smoke", "Northeast, opposite the wind", "It swirls in all directions"], "answer": 1 }
+        { "q": "How many birthdays does the average person have?", "choices": ["One", "As many as their age in years", "Twelve (one per month)", "365"], "answer": 0 },
+        { "q": "Count the letter 'f' in: 'Finished files are the result of years of scientific study combined with the experience of years.'", "choices": ["3", "6", "4", "5"], "answer": 1 },
+        { "q": "Rearrange the letters in NEWDOOR to make one word.", "choices": ["RONDOWE", "WOODNER", "ONE WORD", "DOWRONE"], "answer": 2 },
+        { "q": "On an analog clock showing 3:15, what is the exact angle between the hour and minute hands?", "choices": ["15°", "22.5°", "0° — both hands point to the 3", "7.5°"], "answer": 3 },
+        { "q": "You drive a bus from New York with 22 passengers. At each of 4 stops, 3 exit and 5 board. What is the bus driver's name?", "choices": ["You — the question says you drive the bus", "Cannot be determined — not enough information", "Smith (most common surname)", "The first name mentioned in the problem"], "answer": 0 },
+        { "q": "In a room of 23 randomly chosen people, what is the probability that at least two share the same birthday?", "choices": ["About 6%", "Greater than 50%", "About 25%", "Less than 1%"], "answer": 1 },
+        { "q": "What is the next term in the sequence: 1, 11, 21, 1211, 111221?", "choices": ["1112221", "123211", "312211", "223321"], "answer": 2 },
+        { "q": "A woman shoots her husband, then holds him underwater for 5 minutes. An hour later they go out to dinner. How?", "choices": ["He wore body armor and can hold his breath a long time", "He was shot with a tranquilizer that wore off quickly", "He has a rare condition preventing drowning", "She is a photographer; she shot his photo and developed it in liquid chemicals"], "answer": 3 },
+        { "q": "I think of a number, double it, add 10, halve the result, then subtract my original number. What is the answer?", "choices": ["0", "5", "10", "It depends on the original number"], "answer": 1 },
+        { "q": "A butcher is 5'10\", wears size 11 shoes, and has brown hair. What does he weigh?", "choices": ["It cannot be determined from the given information", "About 170–190 lbs", "Meat — that is a butcher's job", "185 lbs based on his height"], "answer": 2 }
       ]
     }
   ]
