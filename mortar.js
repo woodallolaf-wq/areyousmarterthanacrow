@@ -4,8 +4,10 @@
  *
  * Physics: point mass + quadratic drag, RK4 at dt = 2 ms. Vacuum kinematics
  * are off ~8x at these Reynolds numbers and are not used anywhere. Solutions
- * are solved on the high (mortar) branch only, where range decreases
- * monotonically with angle, so distance->angle inversion is unique. */
+ * are solved on the descending branch (range peak → 87°), where range
+ * decreases monotonically with angle, so distance->angle inversion is unique.
+ * Distances beyond the mortar envelope get a low-arc angle rather than a
+ * rejection; only physically unreachable distances are refused. */
 
 (function () {
   "use strict";
@@ -25,8 +27,10 @@
   var FPS_TO_MS = 0.3048;
   var DEG = Math.PI / 180;
 
-  // Lookup-table bounds. High branch only: 46°–89.5°.
-  var ANGLE_MIN = 46;
+  // Lookup-table bounds. 25°–89.5° — wide enough to reach below the range
+  // peak (~30.5°); the solver only uses the descending branch from the peak
+  // upward, so low-arc solutions are available without inversion ambiguity.
+  var ANGLE_MIN = 25;
   var ANGLE_MAX = 89.5;
   var ANGLE_STEP = 0.25;
   var VEL_MIN = 250; // fps
@@ -34,7 +38,8 @@
   var VEL_STEP = 5;
   var AIM_CAP = 87; // UI hard cap — ≥88° is effectively straight up
   var DANGER_DEG = 88;
-  var GREEN_TOL = 1.0; // deg
+  var LOW_ARC_DEG = 46; // below this the solution is flagged as low arc
+  var GREEN_TOL = 0.2; // deg — tight; the fine-trim readout guides the rest
   var DEFAULT_VEL = 265; // fps
   var FIT_ANGLE = 65.0; // held angle for the velocity back-fit
 
@@ -145,12 +150,22 @@
       return colAt(c0, angle, "t") * (1 - w) + colAt(c1, angle, "t") * w;
     }
 
-    var maxR = rangeAt(ANGLE_MIN);
+    // Locate the range peak — inversion is unique only from the peak upward.
+    var peakA = ANGLE_MIN;
+    var peakR = -1;
+    for (var a = ANGLE_MIN; a <= AIM_CAP + 1e-9; a += ANGLE_STEP) {
+      var r = rangeAt(a);
+      if (r > peakR) {
+        peakR = r;
+        peakA = a;
+      }
+    }
+
     var minR = rangeAt(AIM_CAP);
-    if (dist > maxR) return { err: "far", max: maxR };
+    if (dist > peakR) return { err: "far", max: peakR };
     if (dist < minR) return { err: "near", min: minR };
 
-    var lo = ANGLE_MIN;
+    var lo = peakA;
     var hi = AIM_CAP;
     for (var i = 0; i < 40; i++) {
       var mid = (lo + hi) / 2;
@@ -159,7 +174,7 @@
     }
     var angle = (lo + hi) / 2;
 
-    var aLo = Math.max(ANGLE_MIN, angle - 0.5);
+    var aLo = Math.max(peakA, angle - 0.5);
     var aHi = Math.min(AIM_CAP, angle + 0.5);
     var sens = (rangeAt(aLo) - rangeAt(aHi)) / (aHi - aLo); // m per degree
 
@@ -246,7 +261,7 @@
   // Pitch from the gravity vector via devicemotion — NOT DeviceOrientation
   // Euler angles: beta is unstable near vertical and this feature lives at
   // 65–85°. Gravity-vector pitch is stable through 90°. Portrait-axis mount.
-  var ALPHA = 0.15; // exponential smoothing
+  var ALPHA = 0.08; // exponential smoothing — heavy, so the readout holds still
   var sensor = {
     running: false,
     granted: false,
@@ -261,7 +276,9 @@
     if (!g || typeof g.y !== "number" || typeof g.z !== "number") return;
     sensor.gy = ALPHA * g.y + (1 - ALPHA) * sensor.gy;
     sensor.gz = ALPHA * g.z + (1 - ALPHA) * sensor.gz;
-    var pitch = (Math.atan2(sensor.gy, -sensor.gz) * 180) / Math.PI; // flat=0, vertical=90
+    // Sign flipped from the original spec formula: on-device testing showed
+    // the axis inverted (barrel up read -90°). flat=0, muzzle up=+90.
+    var pitch = (Math.atan2(-sensor.gy, -sensor.gz) * 180) / Math.PI;
     sensor.pitch = pitch;
 
     var now = Date.now();
@@ -706,8 +723,9 @@
   function doSolve(dist, label, pos) {
     var res = solve(dist, cal.velFps);
     if (res.err === "far") {
+      // Physically unreachable at any angle — nothing to aim.
       solution = null;
-      showAimErr("OUT OF MORTAR RANGE — MAX " + res.max.toFixed(0) + " m");
+      showAimErr("BEYOND MAX RANGE — MAX " + res.max.toFixed(0) + " m");
     } else if (res.err === "near") {
       solution = null;
       showAimErr(
@@ -750,7 +768,8 @@
     els.solMeta.textContent =
       "TOF " + solution.tof.toFixed(1) + " s · " +
       solution.sens.toFixed(1) + " m/° · " +
-      Math.round(cal.velFps) + " fps";
+      Math.round(cal.velFps) + " fps" +
+      (solution.angle < LOW_ARC_DEG ? " · LOW ARC — flat trajectory" : "");
   }
 
   function renderTiles() {
@@ -823,7 +842,11 @@
       var d = solution.angle - displayed;
       if (Math.abs(d) <= GREEN_TOL) {
         zone = true;
-        arrowText = "ON — FIRE VOLLEY";
+        // Keep the fine delta visible so the shooter can trim to perfect.
+        arrowText =
+          Math.abs(d) < 0.05
+            ? "ON — DEAD ON"
+            : "ON — " + (d > 0 ? "▲ " : "▼ ") + Math.abs(d).toFixed(1) + "°";
       } else if (d > 0) {
         arrowText = "▲ RAISE " + d.toFixed(1) + "°";
       } else {
