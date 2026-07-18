@@ -1,0 +1,373 @@
+/* Mortar Mode — scoped .mm- styles. Dark, high contrast, glove-sized touch
+   targets. Lives entirely inside #mortar-root; never leaks into the quiz. */
+
+#mortar-root {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: #000;
+  color: #fff;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+#mortar-root[hidden] {
+  display: none;
+}
+
+/* Whole-screen state cues — visible from arm's length. */
+#mortar-root.mm-green {
+  background: #00c853;
+  color: #000;
+}
+
+#mortar-root.mm-danger {
+  background: #d50000;
+  color: #fff;
+}
+
+.mm-wrap {
+  max-width: 640px;
+  min-height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 16px;
+  padding-top: max(16px, env(safe-area-inset-top));
+  padding-bottom: max(24px, env(safe-area-inset-bottom));
+  padding-left: max(16px, env(safe-area-inset-left));
+  padding-right: max(16px, env(safe-area-inset-right));
+}
+
+.mm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mm-title {
+  font-weight: 800;
+  font-size: 1.1rem;
+  letter-spacing: 0.14em;
+}
+
+.mm-x {
+  background: transparent;
+  color: inherit;
+  border: 2px solid currentColor;
+  min-width: 48px;
+  min-height: 48px;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.mm-view {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.mm-view[hidden] {
+  display: none;
+}
+
+/* --- Buttons --- */
+.mm-btn {
+  background: #fff;
+  color: #000;
+  border: 2px solid #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 14px 20px;
+  min-height: 52px;
+  cursor: pointer;
+  touch-action: manipulation;
+  overflow-wrap: break-word;
+}
+
+.mm-btn:active {
+  opacity: 0.65;
+}
+
+.mm-btn-big {
+  font-size: 1.25rem;
+  padding: 20px;
+}
+
+.mm-btn-small {
+  background: transparent;
+  color: inherit;
+  border-color: currentColor;
+  font-size: 0.85rem;
+  padding: 10px 14px;
+  min-height: 44px;
+}
+
+.mm-back {
+  align-self: flex-start;
+}
+
+/* --- Text --- */
+.mm-note {
+  color: #888;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+#mortar-root.mm-green .mm-note {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.mm-hint {
+  color: #888;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.mm-h {
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 10px;
+}
+
+/* --- Inputs --- */
+#mortar-root input {
+  background: transparent;
+  color: inherit;
+  border: 2px solid currentColor;
+  border-radius: 0;
+  font-family: inherit;
+  font-size: 1rem; /* ≥16px so iOS doesn't zoom the page on focus */
+  padding: 12px;
+  min-height: 48px;
+  width: 100%;
+}
+
+#mortar-root input::placeholder {
+  color: #666;
+}
+
+.mm-row {
+  display: flex;
+  gap: 10px;
+}
+
+.mm-row input {
+  flex: 1;
+  min-width: 0;
+}
+
+.mm-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* --- Aim: live readout --- */
+.mm-live {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+
+.mm-live[hidden] {
+  display: none;
+}
+
+.mm-angle-now {
+  font-size: clamp(5rem, 30vw, 9rem); /* the "120 pt" eyes-up readout */
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+}
+
+.mm-target-line {
+  font-size: 1.2rem;
+  font-weight: 700;
+  min-height: 1.4em;
+}
+
+.mm-arrow {
+  font-size: 1.3rem;
+  font-weight: 800;
+  min-height: 1.6em;
+}
+
+.mm-steady {
+  background: #d50000;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  padding: 8px;
+}
+
+.mm-steady[hidden] {
+  display: none;
+}
+
+.mm-live-btns {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* --- Aim: solution + errors --- */
+.mm-err {
+  border: 2px solid #d50000;
+  color: #ff5252;
+  font-weight: 800;
+  padding: 12px;
+  text-align: center;
+}
+
+.mm-err[hidden] {
+  display: none;
+}
+
+.mm-denied {
+  border: 2px solid #ff9800;
+  color: #ffb74d;
+  font-size: 0.9rem;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+.mm-denied[hidden] {
+  display: none;
+}
+
+.mm-solution {
+  border: 2px solid currentColor;
+  padding: 12px;
+  text-align: center;
+}
+
+.mm-solution[hidden] {
+  display: none;
+}
+
+.mm-sol-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #bbb;
+}
+
+#mortar-root.mm-green .mm-sol-name {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.mm-sol-angle {
+  font-size: 2.4rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.mm-sol-meta {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+#mortar-root.mm-green .mm-sol-meta {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* --- Aim: target tiles --- */
+.mm-tiles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.mm-tile {
+  background: transparent;
+  color: inherit;
+  border: 2px solid currentColor;
+  font-family: inherit;
+  text-align: left;
+  padding: 12px;
+  min-height: 76px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.mm-tile.selected {
+  background: #fff;
+  color: #000;
+}
+
+#mortar-root.mm-green .mm-tile.selected {
+  background: #000;
+  color: #fff;
+}
+
+.mm-tile-name {
+  font-weight: 800;
+  font-size: 1rem;
+  overflow-wrap: break-word;
+}
+
+.mm-tile-dist {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.mm-tile-pos {
+  font-size: 0.75rem;
+  opacity: 0.65;
+}
+
+/* --- Target registry list --- */
+.mm-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mm-trow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid currentColor;
+  padding: 12px;
+  text-align: left;
+}
+
+.mm-trow-info {
+  font-weight: 700;
+  overflow-wrap: break-word;
+  min-width: 0;
+}
+
+/* --- Calibration --- */
+.mm-cal-live {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.mm-cal-live[hidden] {
+  display: none;
+}
+
+.mm-cal-pitch {
+  font-size: 1.6rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}

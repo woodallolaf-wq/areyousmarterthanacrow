@@ -476,6 +476,29 @@
   }
 
   // ---------------------------------------------------------------------------
+  // Hidden entry: Mortar Mode
+  // ---------------------------------------------------------------------------
+  // 5 taps within 3 s on the crow streak row (Android developer-options
+  // pattern) so no casual user stumbles into it. Logic lives in mortar.js.
+  var MORTAR_TAPS_REQUIRED = 5;
+  var MORTAR_TAP_WINDOW_MS = 3000;
+  var crowTaps = [];
+
+  function attachCrowGate(el) {
+    el.addEventListener("click", function () {
+      var now = Date.now();
+      crowTaps = crowTaps.filter(function (t) {
+        return now - t < MORTAR_TAP_WINDOW_MS;
+      });
+      crowTaps.push(now);
+      if (crowTaps.length >= MORTAR_TAPS_REQUIRED) {
+        crowTaps = [];
+        if (window.MortarMode) window.MortarMode.open();
+      }
+    });
+  }
+
+  // ---------------------------------------------------------------------------
   // SCREEN: Rewards
   // ---------------------------------------------------------------------------
   function renderRewards() {
@@ -498,6 +521,7 @@
         row.appendChild(label);
         row.appendChild(val);
         li.appendChild(row);
+        if (op.id === "crow") attachCrowGate(row);
         streaksList.appendChild(li);
       });
     } else {
