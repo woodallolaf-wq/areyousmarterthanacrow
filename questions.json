@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-19",
+  "date": "2026-07-20",
   "opponents": [
     {
       "id": "crow",
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "On which continent is Egypt located?", "choices": ["Europe", "Asia", "Africa", "South America"], "answer": 2 },
-        { "q": "What is 14 × 7?", "choices": ["98", "84", "91", "96"], "answer": 0 },
-        { "q": "What is the capital of Spain?", "choices": ["Lisbon", "Madrid", "Seville", "Barcelona"], "answer": 1 },
-        { "q": "Approximately how many kilometres are in one mile?", "choices": ["1.0", "1.2", "1.4", "1.6"], "answer": 3 },
-        { "q": "Who is credited with writing 'The Odyssey'?", "choices": ["Plato", "Sophocles", "Homer", "Aristotle"], "answer": 2 },
-        { "q": "What is the chemical symbol for silver?", "choices": ["Si", "Ag", "Sv", "Sr"], "answer": 1 },
-        { "q": "How many sides does a heptagon have?", "choices": ["7", "8", "6", "5"], "answer": 0 },
-        { "q": "In which country is the Colosseum located?", "choices": ["Greece", "France", "Spain", "Italy"], "answer": 3 },
-        { "q": "At what temperature (in Fahrenheit) does water boil at sea level?", "choices": ["200°F", "212°F", "220°F", "230°F"], "answer": 1 },
-        { "q": "What is 20% of 150?", "choices": ["20", "25", "30", "35"], "answer": 2 }
+        { "q": "What is the capital of Japan?", "choices": ["Osaka", "Tokyo", "Kyoto", "Hiroshima"], "answer": 1 },
+        { "q": "How many days are in a leap year?", "choices": ["363", "364", "366", "365"], "answer": 2 },
+        { "q": "What is the largest ocean on Earth?", "choices": ["Atlantic", "Indian", "Arctic", "Pacific"], "answer": 3 },
+        { "q": "Who painted the Mona Lisa?", "choices": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Rembrandt"], "answer": 0 },
+        { "q": "How many planets are in our solar system?", "choices": ["7", "8", "9", "10"], "answer": 1 },
+        { "q": "What is the chemical symbol for gold?", "choices": ["Gd", "Gl", "Go", "Au"], "answer": 3 },
+        { "q": "In which country is the Eiffel Tower located?", "choices": ["France", "Belgium", "Switzerland", "Italy"], "answer": 0 },
+        { "q": "What is 7 × 9?", "choices": ["54", "56", "63", "72"], "answer": 2 },
+        { "q": "Which ocean borders the east coast of the United States?", "choices": ["Pacific", "Indian", "Atlantic", "Arctic"], "answer": 2 },
+        { "q": "How many seconds are in one minute?", "choices": ["60", "90", "100", "120"], "answer": 0 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is snow?", "choices": ["White", "Blue", "Grey", "Yellow"], "answer": 0 },
-        { "q": "How many toes do most people have?", "choices": ["8", "10", "12", "6"], "answer": 1 },
-        { "q": "What do you wear on your head when it is cold outside?", "choices": ["Gloves", "Scarf", "Hat", "Boots"], "answer": 2 },
-        { "q": "Which animal says 'oink'?", "choices": ["Duck", "Cow", "Horse", "Pig"], "answer": 3 },
-        { "q": "What is 3 + 3?", "choices": ["6", "5", "4", "7"], "answer": 0 },
-        { "q": "What color is a lemon?", "choices": ["Orange", "Yellow", "Green", "Red"], "answer": 1 },
-        { "q": "What do birds use to fly?", "choices": ["Legs", "Tails", "Wings", "Fins"], "answer": 2 },
-        { "q": "Where do fish live?", "choices": ["In trees", "In the dirt", "On mountains", "In water"], "answer": 3 },
-        { "q": "How many wheels does a car have?", "choices": ["4", "3", "2", "5"], "answer": 0 },
-        { "q": "What do you use to eat soup?", "choices": ["Fork", "Knife", "Spoon", "Chopsticks"], "answer": 2 }
+        { "q": "What color is grass?", "choices": ["Green", "Purple", "Blue", "Orange"], "answer": 0 },
+        { "q": "Which animal barks?", "choices": ["Cat", "Dog", "Bird", "Fish"], "answer": 1 },
+        { "q": "How many fingers are on one hand?", "choices": ["3", "4", "5", "6"], "answer": 2 },
+        { "q": "What do you drink when you are thirsty?", "choices": ["Sand", "Rocks", "Mud", "Water"], "answer": 3 },
+        { "q": "What shape is a ball?", "choices": ["Round", "Square", "Triangle", "Rectangle"], "answer": 0 },
+        { "q": "What number comes after 2?", "choices": ["1", "4", "3", "5"], "answer": 2 },
+        { "q": "What does a cat say?", "choices": ["Moo", "Woof", "Oink", "Meow"], "answer": 3 },
+        { "q": "Which is bigger, the Sun or the Moon?", "choices": ["The Moon", "They are the same", "The Sun", "No one knows"], "answer": 2 },
+        { "q": "What do you sleep in at night?", "choices": ["Chair", "Bathtub", "Table", "Bed"], "answer": 3 },
+        { "q": "What do bees make?", "choices": ["Butter", "Honey", "Milk", "Juice"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Who discovered penicillin?", "choices": ["Alexander Fleming", "Louis Pasteur", "Jonas Salk", "Edward Jenner"], "answer": 0 },
-        { "q": "What is the capital of Argentina?", "choices": ["Santiago", "Buenos Aires", "Montevideo", "Lima"], "answer": 1 },
-        { "q": "How many elements are on the standard periodic table?", "choices": ["109", "110", "118", "120"], "answer": 2 },
-        { "q": "What is the chemical formula for table salt?", "choices": ["KCl", "MgCl₂", "CaSO₄", "NaCl"], "answer": 3 },
-        { "q": "In which country did the Industrial Revolution begin?", "choices": ["United Kingdom", "France", "Germany", "United States"], "answer": 0 },
-        { "q": "What type of star is the Sun?", "choices": ["White dwarf", "Yellow dwarf", "Red giant", "Blue supergiant"], "answer": 1 },
-        { "q": "How many official time zones does China use?", "choices": ["5", "4", "3", "1"], "answer": 3 },
-        { "q": "Who was the first human to walk on the Moon?", "choices": ["Michael Collins", "Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin"], "answer": 2 },
-        { "q": "What is the approximate average distance from Earth to the Moon?", "choices": ["38,000 km", "384,000 km", "3,840,000 km", "1,200,000 km"], "answer": 1 },
-        { "q": "Who wrote 'Don Quixote'?", "choices": ["Miguel de Cervantes", "Gabriel García Márquez", "Pablo Neruda", "Jorge Luis Borges"], "answer": 0 }
+        { "q": "What is the capital of Canada?", "choices": ["Toronto", "Ottawa", "Vancouver", "Montreal"], "answer": 1 },
+        { "q": "Which blood type is known as the universal donor?", "choices": ["AB+", "O−", "A+", "B−"], "answer": 1 },
+        { "q": "In which year did World War II end?", "choices": ["1943", "1944", "1945", "1946"], "answer": 2 },
+        { "q": "What is the largest planet in our solar system?", "choices": ["Saturn", "Uranus", "Neptune", "Jupiter"], "answer": 3 },
+        { "q": "Who wrote 'Romeo and Juliet'?", "choices": ["William Shakespeare", "Christopher Marlowe", "Ben Jonson", "John Donne"], "answer": 0 },
+        { "q": "Approximately how fast does light travel in a vacuum?", "choices": ["200,000 km/s", "300,000 km/s", "400,000 km/s", "150,000 km/s"], "answer": 1 },
+        { "q": "The Great Wall of China was primarily built to guard against invasions from which direction?", "choices": ["South", "East", "West", "North"], "answer": 3 },
+        { "q": "What does DNA stand for?", "choices": ["Deoxyribonucleic Acid", "Dioxyribose Nucleic Acid", "Dextrose Nucleic Acid", "Dibasic Nucleic Acid"], "answer": 0 },
+        { "q": "Which currency is used in Japan?", "choices": ["Won", "Yuan", "Yen", "Baht"], "answer": 2 },
+        { "q": "How many bones are in an adult human body?", "choices": ["196", "198", "206", "212"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "The Fundamental Theorem of Algebra states that a degree-n polynomial with complex coefficients has exactly ___ roots in ℂ (counting multiplicity):", "choices": ["n", "at most n", "2n", "n or more"], "answer": 0 },
-        { "q": "The Helmholtz free energy A = U − TS satisfies dA = −SdT − PdV. Which pair of variables are 'natural' for A?", "choices": ["T and P", "T and V", "S and V", "P and V"], "answer": 1 },
-        { "q": "What is the residue of f(z) = 1/sin(z) at the pole z = 0?", "choices": ["0", "−1", "1", "π"], "answer": 2 },
-        { "q": "The Abel–Ruffini theorem states there is no general radical solution for polynomial equations of degree:", "choices": ["≥ 2", "≥ 3", "≥ 4", "≥ 5"], "answer": 3 },
-        { "q": "The Stefan–Boltzmann law gives radiated power per unit area of a blackbody at temperature T as:", "choices": ["σT⁴", "σT³", "σT²", "σT⁵"], "answer": 0 },
-        { "q": "The rank–nullity theorem for a linear map T: V → W states that dim(V) equals:", "choices": ["rank(T) × nullity(T)", "rank(T) + nullity(T)", "dim(W) + nullity(T)", "dim(W) − rank(T)"], "answer": 1 },
-        { "q": "How many prime numbers are less than or equal to 20 (i.e., what is π(20))?", "choices": ["6", "7", "8", "9"], "answer": 2 },
-        { "q": "The Rayleigh–Ritz variational principle: for any normalised state |ψ⟩ and ground-state energy E₀, ⟨ψ|Ĥ|ψ⟩ is:", "choices": ["always < E₀", "always = E₀", "< E₀ when ψ ≠ ψ₀", "≥ E₀"], "answer": 3 },
-        { "q": "Using convention F(k) = ∫e^{−ikx}f(x)dx, the Fourier transform of f(x) = e^{−ax²} (a > 0) is:", "choices": ["√(π/a) · e^{−k²/(4a)}", "√(π/a) · e^{−k²}", "e^{−k²/(4a)}", "√π · e^{−k²/a}"], "answer": 0 },
-        { "q": "The Church–Turing thesis asserts that any effectively computable function can be computed by:", "choices": ["a quantum computer", "a Turing machine", "a finite automaton", "a pushdown automaton"], "answer": 1 }
+        { "q": "The divergence theorem (Gauss's theorem) equates the flux of a vector field through a closed surface to:", "choices": ["the curl of the field along the boundary", "the volume integral of its divergence over the enclosed region", "the line integral around the boundary curve", "the gradient magnitude integrated over the surface"], "answer": 1 },
+        { "q": "What is the theoretical lower bound on time complexity for comparison-based sorting of n elements?", "choices": ["O(n²)", "O(n)", "O(n log² n)", "O(n log n)"], "answer": 3 },
+        { "q": "Which statement correctly expresses the Pauli exclusion principle?", "choices": ["No two identical fermions can occupy the same quantum state simultaneously", "Two fermions can share all quantum numbers if they have opposite spin", "Bosons obey the same exclusion rule as fermions", "Two identical particles cannot be in the same spatial orbital"], "answer": 0 },
+        { "q": "What is ∮_C e^z dz where C is any closed contour in ℂ?", "choices": ["2πi", "πi", "0", "e"], "answer": 2 },
+        { "q": "Who proved Fermat's Last Theorem in 1995?", "choices": ["Andrew Wiles", "Grigori Perelman", "Paul Erdős", "Terence Tao"], "answer": 0 },
+        { "q": "The Halting Problem — deciding whether an arbitrary program halts on a given input — is:", "choices": ["solvable in O(n²) time", "NP-complete", "PSPACE-complete", "undecidable — no algorithm can solve it in general"], "answer": 3 },
+        { "q": "The time-independent Schrödinger equation is written as:", "choices": ["Ĥψ = Eψ", "iℏ ∂ψ/∂t = Ĥψ", "ΔE · Δt ≥ ℏ/2", "p̂²/2m = Ĥ"], "answer": 0 },
+        { "q": "What does the canonical commutator [x̂, p̂x] equal in quantum mechanics?", "choices": ["0", "iℏ", "ℏ", "−iℏ"], "answer": 1 },
+        { "q": "As n → ∞, the Central Limit Theorem states the standardised sum of n i.i.d. random variables (finite mean and variance) converges in distribution to:", "choices": ["a Poisson distribution", "a uniform distribution", "a Cauchy distribution", "a standard normal distribution N(0,1)"], "answer": 3 },
+        { "q": "For a convex polyhedron with V vertices, E edges, and F faces, Euler's formula gives:", "choices": ["V − E + F = 0", "V − E + F = 1", "V − E + F = 2", "V − E + F = 3"], "answer": 2 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Sally's father has four children: January, February, March, and ___?", "choices": ["April", "May", "June", "Sally"], "answer": 3 },
-        { "q": "How many letters are in 'the alphabet'?", "choices": ["26", "11", "23", "24"], "answer": 1 },
-        { "q": "You have 6 apples. You take away 4. How many apples do YOU have?", "choices": ["4", "2", "6", "0"], "answer": 0 },
-        { "q": "Two fathers and two sons went fishing. Each caught exactly one fish, yet only 3 fish were caught in total. How?", "choices": ["One fish was thrown back", "It's impossible", "There were only 3 people: a grandfather, his son, and his grandson", "One man caught none"], "answer": 2 },
-        { "q": "Can a man legally marry his widow's sister?", "choices": ["No — if she is his widow, he must be dead", "Yes, since 1907 in England", "Yes, with a special licence", "No — sibling marriage is illegal"], "answer": 0 },
-        { "q": "Divide 30 by half, then add 10. What is the result?", "choices": ["25", "20", "70", "40"], "answer": 2 },
-        { "q": "A rabbit runs into the woods. How far in does it run?", "choices": ["Until it finds shelter", "Halfway — after that it runs OUT of the woods", "As far as it likes", "Rabbits don't run in woods"], "answer": 1 },
-        { "q": "How many 3-cent stamps are in a dozen?", "choices": ["4", "3", "6", "12"], "answer": 3 },
-        { "q": "The more you take, the more you leave behind. What is it?", "choices": ["Shadows", "Money", "Footsteps", "Time"], "answer": 2 },
-        { "q": "A clock strikes 6 times in 5 seconds. How many seconds does it take to strike 12?", "choices": ["11", "10", "12", "6"], "answer": 0 }
+        { "q": "You are in a race. You overtake the person in 2nd place. What position are you now in?", "choices": ["2nd place", "1st place", "3rd place", "It depends on total runners"], "answer": 0 },
+        { "q": "How many months have at least 28 days?", "choices": ["1 (February only)", "12", "7", "11"], "answer": 1 },
+        { "q": "A rooster sits on a peaked roof and lays an egg. Which side does the egg roll down?", "choices": ["The north side", "The south side", "Roosters don't lay eggs", "Whichever side the wind blows"], "answer": 2 },
+        { "q": "A doctor gives you 3 pills and tells you to take one every half hour. How long before all pills are gone?", "choices": ["1.5 hours", "2 hours", "45 minutes", "1 hour"], "answer": 3 },
+        { "q": "You build a square house with all four walls facing south. A bear walks past. What colour is it?", "choices": ["White", "Brown", "Black", "A house can't have all four walls facing south"], "answer": 0 },
+        { "q": "A piece of paper is 0.1 mm thick. How many times must you fold it in half to exceed the height of the Eiffel Tower (324 m)?", "choices": ["About 100 times", "22 times", "About 50 times", "Over 500 times"], "answer": 1 },
+        { "q": "You drive to a shop at 30 mph and return the same route at 60 mph. What is your average speed for the whole round trip?", "choices": ["45 mph", "50 mph", "40 mph", "48 mph"], "answer": 2 },
+        { "q": "A bat and a ball cost $1.10 together. The bat costs exactly $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.15", "$0.20", "$0.10", "$0.05"], "answer": 3 },
+        { "q": "How many times does the digit 1 appear when you write all integers from 1 to 100?", "choices": ["21", "20", "19", "11"], "answer": 0 },
+        { "q": "Think of any number. Double it. Add 10. Halve the result. Subtract your original number. What do you always get?", "choices": ["Your original number", "5", "10", "It depends on the number you chose"], "answer": 1 }
       ]
     }
   ]
