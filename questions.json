@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What sound does a cow make?", "choices": ["Oink", "Moo", "Quack", "Woof"], "answer": 1 },
-        { "q": "What colour is the sky on a sunny day?", "choices": ["Red", "Green", "Blue", "Yellow"], "answer": 2 },
-        { "q": "How many eyes do you have?", "choices": ["1", "2", "3", "4"], "answer": 1 },
-        { "q": "What do you use to cut paper?", "choices": ["Hammer", "Fork", "Scissors", "Spoon"], "answer": 2 },
-        { "q": "Which fruit is red?", "choices": ["Banana", "Apple", "Blueberry", "Lime"], "answer": 1 },
-        { "q": "What number comes before 5?", "choices": ["3", "6", "7", "4"], "answer": 3 },
-        { "q": "Where do fish live?", "choices": ["In trees", "In water", "Underground", "In the sky"], "answer": 1 },
-        { "q": "What do you wear on your feet?", "choices": ["Hat", "Gloves", "Scarf", "Shoes"], "answer": 3 },
-        { "q": "How many legs does a dog have?", "choices": ["2", "3", "4", "6"], "answer": 2 },
-        { "q": "What colour is snow?", "choices": ["White", "Blue", "Pink", "Black"], "answer": 0 }
+        { "q": "What color is grass?", "choices": ["Red", "Purple", "Green", "Orange"], "answer": 2 },
+        { "q": "How many fingers are on one hand?", "choices": ["5", "3", "4", "6"], "answer": 0 },
+        { "q": "What sound does a dog make?", "choices": ["Moo", "Woof", "Quack", "Oink"], "answer": 1 },
+        { "q": "What shape is the Moon?", "choices": ["Square", "Flat", "Triangle", "Round"], "answer": 3 },
+        { "q": "What do you drink when you are thirsty?", "choices": ["Water", "Bread", "Rocks", "Shoes"], "answer": 0 },
+        { "q": "How many legs does a cat have?", "choices": ["2", "6", "4", "8"], "answer": 2 },
+        { "q": "What number comes after 3?", "choices": ["5", "4", "2", "6"], "answer": 1 },
+        { "q": "What color is a banana?", "choices": ["Blue", "Red", "Green", "Yellow"], "answer": 3 },
+        { "q": "What do birds use to fly?", "choices": ["Fins", "Legs", "Wings", "Tails"], "answer": 2 },
+        { "q": "Where does the sun rise?", "choices": ["In the west", "In the east", "Underground", "At night"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Who was the first person to walk on the Moon?", "choices": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"], "answer": 0 },
-        { "q": "What is the capital of Australia?", "choices": ["Sydney", "Melbourne", "Brisbane", "Canberra"], "answer": 3 },
-        { "q": "What is 12 × 12?", "choices": ["124", "144", "132", "148"], "answer": 1 },
-        { "q": "Which gas do plants absorb during photosynthesis?", "choices": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"], "answer": 2 },
-        { "q": "How many sides does a hexagon have?", "choices": ["6", "5", "7", "8"], "answer": 0 },
-        { "q": "Who wrote the Harry Potter series?", "choices": ["Roald Dahl", "C.S. Lewis", "J.R.R. Tolkien", "J.K. Rowling"], "answer": 3 },
-        { "q": "At what temperature does water boil at sea level (in Celsius)?", "choices": ["90°C", "100°C", "80°C", "95°C"], "answer": 1 },
-        { "q": "What is the chemical symbol for sodium?", "choices": ["So", "Sa", "Na", "No"], "answer": 2 },
-        { "q": "In which country is the Amazon River primarily located?", "choices": ["Colombia", "Peru", "Argentina", "Brazil"], "answer": 3 },
-        { "q": "What is 15% of 200?", "choices": ["30", "25", "20", "35"], "answer": 0 }
+        { "q": "What is the capital of France?", "choices": ["Paris", "London", "Madrid", "Rome"], "answer": 0 },
+        { "q": "How many days are in September?", "choices": ["28", "31", "29", "30"], "answer": 3 },
+        { "q": "What is the square root of 81?", "choices": ["7", "9", "8", "6"], "answer": 1 },
+        { "q": "Which is the largest planet in our solar system?", "choices": ["Saturn", "Neptune", "Jupiter", "Uranus"], "answer": 2 },
+        { "q": "Who wrote Romeo and Juliet?", "choices": ["Charles Dickens", "William Shakespeare", "Homer", "Jane Austen"], "answer": 1 },
+        { "q": "What is the chemical formula for water?", "choices": ["HO", "OH₂", "H₂", "H₂O"], "answer": 3 },
+        { "q": "Which continent is Brazil located in?", "choices": ["Africa", "Europe", "South America", "Asia"], "answer": 2 },
+        { "q": "What is 25% of 80?", "choices": ["20", "25", "30", "15"], "answer": 0 },
+        { "q": "How many strings does a standard guitar have?", "choices": ["5", "4", "6", "7"], "answer": 2 },
+        { "q": "At what temperature does water freeze (in Celsius)?", "choices": ["-5°C", "5°C", "-10°C", "0°C"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the smallest country in the world by area?", "choices": ["Monaco", "San Marino", "Vatican City", "Liechtenstein"], "answer": 2 },
-        { "q": "What is often called 'the powerhouse of the cell'?", "choices": ["Mitochondria", "Nucleus", "Ribosome", "Golgi apparatus"], "answer": 0 },
-        { "q": "Which element has atomic number 6?", "choices": ["Nitrogen", "Boron", "Oxygen", "Carbon"], "answer": 3 },
-        { "q": "Who painted the ceiling of the Sistine Chapel?", "choices": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Botticelli"], "answer": 1 },
-        { "q": "Approximately how fast does sound travel in air at sea level?", "choices": ["200 m/s", "700 m/s", "343 m/s", "1,000 m/s"], "answer": 2 },
-        { "q": "In what year did the Berlin Wall fall?", "choices": ["1989", "1991", "1987", "1990"], "answer": 0 },
-        { "q": "What is the longest river in the world?", "choices": ["Congo", "Amazon", "Yangtze", "Nile"], "answer": 3 },
-        { "q": "What is the hardest naturally occurring substance on Earth?", "choices": ["Quartz", "Diamond", "Titanium", "Sapphire"], "answer": 1 },
-        { "q": "Which country has the most natural lakes?", "choices": ["Canada", "Russia", "United States", "Brazil"], "answer": 0 },
-        { "q": "What is the chemical symbol for iron?", "choices": ["Ir", "In", "Fe", "Ie"], "answer": 2 }
+        { "q": "What is the capital of Canada?", "choices": ["Ottawa", "Vancouver", "Toronto", "Montreal"], "answer": 0 },
+        { "q": "How many bones are in the adult human body?", "choices": ["196", "206", "216", "226"], "answer": 1 },
+        { "q": "Which planet is known as the Red Planet?", "choices": ["Venus", "Mercury", "Mars", "Jupiter"], "answer": 2 },
+        { "q": "In which year did World War II end?", "choices": ["1944", "1946", "1943", "1945"], "answer": 3 },
+        { "q": "Who developed the theory of general relativity?", "choices": ["Albert Einstein", "Isaac Newton", "Niels Bohr", "Max Planck"], "answer": 0 },
+        { "q": "What is the atomic number of hydrogen?", "choices": ["2", "1", "3", "4"], "answer": 1 },
+        { "q": "How many continents are there on Earth?", "choices": ["5", "6", "7", "8"], "answer": 2 },
+        { "q": "What is the approximate speed of light (in km/s)?", "choices": ["100,000", "200,000", "400,000", "300,000"], "answer": 3 },
+        { "q": "Which Shakespeare play features the character Hamlet?", "choices": ["Hamlet", "Macbeth", "Othello", "King Lear"], "answer": 0 },
+        { "q": "What is the most abundant gas in Earth's atmosphere?", "choices": ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "The Riemann hypothesis conjectures that all non-trivial zeros of the Riemann zeta function lie on:", "choices": ["the positive real axis", "the imaginary axis", "the critical strip 0 < Re(s) < 1 but off the centre line", "the critical line Re(s) = 1/2"], "answer": 3 },
-        { "q": "A particle moves at 0.8c relative to an observer. By what factor is its rest length contracted (i.e. what is 1/γ)?", "choices": ["0.5", "0.6", "0.75", "0.8"], "answer": 1 },
-        { "q": "In abstract algebra, a group G is called solvable if:", "choices": ["it has a subnormal series whose factor groups are all abelian", "every subgroup of G is normal", "it contains no subgroups of prime index", "every element has finite order"], "answer": 0 },
-        { "q": "In the Nernst equation E = E° − (RT/nF)ln(Q), what does Q represent?", "choices": ["the Faraday constant", "the standard electrode potential", "the reaction quotient", "the equilibrium constant K"], "answer": 2 },
-        { "q": "What is the time complexity of the Floyd–Warshall all-pairs shortest-path algorithm on a graph with V vertices?", "choices": ["O(V log V)", "O(V²)", "O(V² log V)", "O(V³)"], "answer": 3 },
-        { "q": "Gibbs free energy G is defined thermodynamically as:", "choices": ["G = H − TS", "G = U + PV", "G = H + TS", "G = U − TS"], "answer": 0 },
-        { "q": "The Fourier transform of the Gaussian function f(x) = e^(−x²) is:", "choices": ["a Lorentzian function", "another Gaussian", "a sinc function", "an exponential decay"], "answer": 1 },
-        { "q": "The statistical-mechanics formula S = k_B ln(Ω) is inscribed on the tomb of:", "choices": ["Maxwell", "Clausius", "Boltzmann", "Gibbs"], "answer": 2 },
-        { "q": "Which inequality correctly states the Cauchy–Schwarz theorem for vectors in an inner product space?", "choices": ["|⟨u,v⟩| ≤ ‖u‖·‖v‖", "|⟨u,v⟩| ≥ ‖u‖+‖v‖", "|⟨u,v⟩| = ‖u‖·‖v‖ always", "|⟨u,v⟩| ≤ ‖u‖+‖v‖"], "answer": 0 },
-        { "q": "Le Chatelier's principle states that when a stress is applied to a system at equilibrium, the equilibrium shifts to:", "choices": ["maximise entropy", "minimise enthalpy", "double the reaction rate", "partially counteract the applied stress"], "answer": 3 }
+        { "q": "Gödel's first incompleteness theorem states that in any consistent system sufficient for basic arithmetic there exist statements that are:", "choices": ["true but unprovable within that system", "false but provable within it", "always both true and provable", "undecidable by any formal system whatsoever"], "answer": 0 },
+        { "q": "What is the value of ∫₀^∞ x·e^(−x) dx?", "choices": ["e", "1", "∞", "1/2"], "answer": 1 },
+        { "q": "In quantum mechanics, the canonical commutation relation [x̂, p̂] equals:", "choices": ["0", "ℏ", "iℏ", "−iℏ"], "answer": 2 },
+        { "q": "The Navier-Stokes equations model the motion of:", "choices": ["ideal gases only", "quantum wave functions", "electromagnetic fields", "viscous fluids"], "answer": 3 },
+        { "q": "At 25°C, the ionic product of water Kw = [H⁺][OH⁻] equals:", "choices": ["10⁻¹⁴", "10⁻⁷", "10⁻¹⁰", "10⁻¹²"], "answer": 0 },
+        { "q": "For an ideal gas in a reversible adiabatic process, PV^γ = const. γ is defined as:", "choices": ["Cv/R", "Cp/Cv", "R/Cp", "Cv/Cp"], "answer": 1 },
+        { "q": "The proven information-theoretic lower bound for comparison-based sorting is:", "choices": ["O(n)", "O(n²)", "O(n log n)", "O(n log² n)"], "answer": 2 },
+        { "q": "The Heisenberg uncertainty principle requires that Δx · Δp ≥:", "choices": ["ℏ", "h", "ℏ²", "ℏ/2"], "answer": 3 },
+        { "q": "For the matrix M = [[3,1],[0,3]], the repeated eigenvalue λ = 3 has:", "choices": ["algebraic multiplicity 2, geometric multiplicity 1", "both multiplicities equal to 2", "algebraic multiplicity 1, geometric multiplicity 2", "algebraic multiplicity 2, geometric multiplicity 2"], "answer": 0 },
+        { "q": "Lagrange's theorem in group theory states that for finite group G with subgroup H:", "choices": ["|G| divides |H|", "|H| divides |G|", "|H| = |G|/2 always", "|H| and |G| are always coprime"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many animals of each kind did Moses take on the Ark?", "choices": ["2 of each kind", "None — it was Noah, not Moses", "7 of clean animals, 2 of unclean", "The Bible doesn't specify a number"], "answer": 1 },
-        { "q": "Is it legal in the United States to bury a man who is still alive?", "choices": ["No — you cannot bury a living person", "Yes, if the person consents", "Yes, in certain states with a court order", "Only if a death certificate is pre-issued"], "answer": 0 },
-        { "q": "A boy is rushed to hospital. The surgeon says 'I can't operate — this is my son.' The surgeon is not the boy's father. What is the surgeon?", "choices": ["The boy's uncle", "The boy's stepfather", "The boy's mother", "The boy's godfather"], "answer": 2 },
-        { "q": "Quick — add these up: 1000 + 40 + 1000 + 30 + 1000 + 20 + 1000 + 10. What is the total?", "choices": ["5,000", "4,110", "4,010", "4,100"], "answer": 3 },
-        { "q": "A plane crashes exactly on the US–Canada border. Where are the survivors buried?", "choices": ["On US soil", "Survivors are not buried", "On Canadian soil", "In their home country"], "answer": 1 },
-        { "q": "Evolutionarily speaking, which came first: the chicken or the egg?", "choices": ["The egg", "The chicken", "They evolved simultaneously", "Science cannot determine this"], "answer": 0 },
-        { "q": "How many 3-cent stamps are there in a dozen?", "choices": ["4", "36", "12", "6"], "answer": 2 },
-        { "q": "A snail is at the bottom of a 10-foot well. Each day it climbs 3 feet; each night it slides back 2 feet. How many days until it escapes?", "choices": ["10 days", "9 days", "7 days", "8 days"], "answer": 3 },
-        { "q": "Which is grammatically correct: '8 and 8 IS 15' or '8 and 8 ARE 15'?", "choices": ["'8 and 8 is 15' — singular verb", "Neither — 8 plus 8 equals 16, not 15", "'8 and 8 are 15' — plural verb", "Both are acceptable depending on context"], "answer": 1 },
-        { "q": "The more you take, the more you leave behind. What am I?", "choices": ["Footsteps", "Money", "Time", "Memories"], "answer": 0 }
+        { "q": "Mary's father has 4 daughters: Apple, Orange, and Mango. What is the name of the 4th daughter?", "choices": ["Mary", "Peach", "Grape", "Lemon"], "answer": 0 },
+        { "q": "In a race you overtake the runner in 2nd place. What position are you now in?", "choices": ["1st", "2nd", "3rd", "Last"], "answer": 1 },
+        { "q": "How many months of the year have at least 28 days?", "choices": ["1", "7", "12", "11"], "answer": 2 },
+        { "q": "Which word is spelled incorrectly in every dictionary?", "choices": ["Wrongly", "Erroneously", "Mistakenly", "Incorrectly"], "answer": 3 },
+        { "q": "An electric train heads south while the wind blows north. Which way does the smoke blow?", "choices": ["Electric trains produce no smoke", "North", "South", "East"], "answer": 0 },
+        { "q": "What gets wetter the more it dries?", "choices": ["A sponge", "Paper", "A towel", "Steam"], "answer": 2 },
+        { "q": "A doctor gives you 3 pills and says to take one every 30 minutes. How long until all pills are gone?", "choices": ["30 minutes", "60 minutes", "90 minutes", "120 minutes"], "answer": 1 },
+        { "q": "How many times does the letter 'e' appear in the word 'screeched'?", "choices": ["2", "4", "1", "3"], "answer": 3 },
+        { "q": "A rooster sits on top of a barn and lays an egg. Which side does it roll down?", "choices": ["Roosters don't lay eggs", "The left side", "The right side", "Depends on roof angle"], "answer": 0 },
+        { "q": "What is the next term in the sequence: 1, 11, 21, 1211, 111221, …?", "choices": ["13112221", "312211", "1112221", "123321"], "answer": 1 }
       ]
     }
   ]
