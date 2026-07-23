@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is grass?", "choices": ["Red", "Purple", "Green", "Orange"], "answer": 2 },
-        { "q": "How many fingers are on one hand?", "choices": ["5", "3", "4", "6"], "answer": 0 },
-        { "q": "What sound does a dog make?", "choices": ["Moo", "Woof", "Quack", "Oink"], "answer": 1 },
-        { "q": "What shape is the Moon?", "choices": ["Square", "Flat", "Triangle", "Round"], "answer": 3 },
-        { "q": "What do you drink when you are thirsty?", "choices": ["Water", "Bread", "Rocks", "Shoes"], "answer": 0 },
-        { "q": "How many legs does a cat have?", "choices": ["2", "6", "4", "8"], "answer": 2 },
-        { "q": "What number comes after 3?", "choices": ["5", "4", "2", "6"], "answer": 1 },
-        { "q": "What color is a banana?", "choices": ["Blue", "Red", "Green", "Yellow"], "answer": 3 },
-        { "q": "What do birds use to fly?", "choices": ["Fins", "Legs", "Wings", "Tails"], "answer": 2 },
-        { "q": "Where does the sun rise?", "choices": ["In the west", "In the east", "Underground", "At night"], "answer": 1 }
+        { "q": "What color is an apple?", "choices": ["Red", "Blue", "Purple", "Yellow"], "answer": 0 },
+        { "q": "How many ears do you have?", "choices": ["4", "2", "3", "1"], "answer": 1 },
+        { "q": "What do you put on bread?", "choices": ["Sand", "Rocks", "Butter", "Mud"], "answer": 2 },
+        { "q": "What is 2 + 2?", "choices": ["3", "5", "6", "4"], "answer": 3 },
+        { "q": "Which animal has a long trunk?", "choices": ["Elephant", "Giraffe", "Horse", "Tiger"], "answer": 0 },
+        { "q": "How many wheels does a bicycle have?", "choices": ["4", "2", "3", "5"], "answer": 1 },
+        { "q": "What shape is a wheel?", "choices": ["Square", "Rectangle", "Round", "Triangle"], "answer": 2 },
+        { "q": "Which season is the coldest?", "choices": ["Spring", "Summer", "Autumn", "Winter"], "answer": 3 },
+        { "q": "What do you use to write on paper?", "choices": ["Pencil", "Fork", "Shoe", "Bucket"], "answer": 0 },
+        { "q": "Which pet lives in a bowl of water?", "choices": ["Dog", "Fish", "Cat", "Bird"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of France?", "choices": ["Paris", "London", "Madrid", "Rome"], "answer": 0 },
-        { "q": "How many days are in September?", "choices": ["28", "31", "29", "30"], "answer": 3 },
-        { "q": "What is the square root of 81?", "choices": ["7", "9", "8", "6"], "answer": 1 },
-        { "q": "Which is the largest planet in our solar system?", "choices": ["Saturn", "Neptune", "Jupiter", "Uranus"], "answer": 2 },
-        { "q": "Who wrote Romeo and Juliet?", "choices": ["Charles Dickens", "William Shakespeare", "Homer", "Jane Austen"], "answer": 1 },
-        { "q": "What is the chemical formula for water?", "choices": ["HO", "OH₂", "H₂", "H₂O"], "answer": 3 },
-        { "q": "Which continent is Brazil located in?", "choices": ["Africa", "Europe", "South America", "Asia"], "answer": 2 },
-        { "q": "What is 25% of 80?", "choices": ["20", "25", "30", "15"], "answer": 0 },
-        { "q": "How many strings does a standard guitar have?", "choices": ["5", "4", "6", "7"], "answer": 2 },
-        { "q": "At what temperature does water freeze (in Celsius)?", "choices": ["-5°C", "5°C", "-10°C", "0°C"], "answer": 3 }
+        { "q": "What is the capital of Germany?", "choices": ["Munich", "Berlin", "Frankfurt", "Hamburg"], "answer": 1 },
+        { "q": "How many sides does an octagon have?", "choices": ["6", "7", "9", "8"], "answer": 3 },
+        { "q": "What is 13 × 7?", "choices": ["91", "84", "98", "77"], "answer": 0 },
+        { "q": "Which planet is closest to the Sun?", "choices": ["Venus", "Mercury", "Earth", "Mars"], "answer": 1 },
+        { "q": "Who wrote 'Oliver Twist'?", "choices": ["Charles Dickens", "Mark Twain", "Leo Tolstoy", "Victor Hugo"], "answer": 0 },
+        { "q": "What is the chemical symbol for potassium?", "choices": ["Po", "Pt", "K", "Pu"], "answer": 2 },
+        { "q": "Which country is home to the Great Barrier Reef?", "choices": ["New Zealand", "South Africa", "Papua New Guinea", "Australia"], "answer": 3 },
+        { "q": "What is the square root of 144?", "choices": ["11", "12", "13", "14"], "answer": 1 },
+        { "q": "In which country is the Taj Mahal located?", "choices": ["Pakistan", "Bangladesh", "India", "Nepal"], "answer": 2 },
+        { "q": "How many hours are in two days?", "choices": ["36", "42", "50", "48"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the capital of Canada?", "choices": ["Ottawa", "Vancouver", "Toronto", "Montreal"], "answer": 0 },
-        { "q": "How many bones are in the adult human body?", "choices": ["196", "206", "216", "226"], "answer": 1 },
-        { "q": "Which planet is known as the Red Planet?", "choices": ["Venus", "Mercury", "Mars", "Jupiter"], "answer": 2 },
-        { "q": "In which year did World War II end?", "choices": ["1944", "1946", "1943", "1945"], "answer": 3 },
-        { "q": "Who developed the theory of general relativity?", "choices": ["Albert Einstein", "Isaac Newton", "Niels Bohr", "Max Planck"], "answer": 0 },
-        { "q": "What is the atomic number of hydrogen?", "choices": ["2", "1", "3", "4"], "answer": 1 },
-        { "q": "How many continents are there on Earth?", "choices": ["5", "6", "7", "8"], "answer": 2 },
-        { "q": "What is the approximate speed of light (in km/s)?", "choices": ["100,000", "200,000", "400,000", "300,000"], "answer": 3 },
-        { "q": "Which Shakespeare play features the character Hamlet?", "choices": ["Hamlet", "Macbeth", "Othello", "King Lear"], "answer": 0 },
-        { "q": "What is the most abundant gas in Earth's atmosphere?", "choices": ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"], "answer": 1 }
+        { "q": "What is the largest organ in the human body?", "choices": ["Skin", "Heart", "Liver", "Lungs"], "answer": 0 },
+        { "q": "What is the chemical symbol for copper?", "choices": ["Co", "Cu", "Cr", "Cn"], "answer": 1 },
+        { "q": "In what year did the French Revolution begin?", "choices": ["1776", "1804", "1789", "1815"], "answer": 2 },
+        { "q": "From which city did the Titanic depart on its maiden voyage?", "choices": ["Liverpool", "London", "Belfast", "Southampton"], "answer": 3 },
+        { "q": "How many degrees are in all angles of a triangle combined?", "choices": ["180", "270", "90", "360"], "answer": 0 },
+        { "q": "Which organ in the human body produces insulin?", "choices": ["Liver", "Pancreas", "Kidney", "Spleen"], "answer": 1 },
+        { "q": "In what year did Christopher Columbus first arrive in the Americas?", "choices": ["1488", "1497", "1492", "1503"], "answer": 2 },
+        { "q": "How many players are on each side in a standard game of soccer?", "choices": ["9", "10", "12", "11"], "answer": 3 },
+        { "q": "Who painted 'The Starry Night'?", "choices": ["Vincent van Gogh", "Claude Monet", "Paul Cézanne", "Pablo Picasso"], "answer": 0 },
+        { "q": "What is the largest desert in the world by area?", "choices": ["Gobi", "Antarctica", "Sahara", "Arabian"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "Gödel's first incompleteness theorem states that in any consistent system sufficient for basic arithmetic there exist statements that are:", "choices": ["true but unprovable within that system", "false but provable within it", "always both true and provable", "undecidable by any formal system whatsoever"], "answer": 0 },
-        { "q": "What is the value of ∫₀^∞ x·e^(−x) dx?", "choices": ["e", "1", "∞", "1/2"], "answer": 1 },
-        { "q": "In quantum mechanics, the canonical commutation relation [x̂, p̂] equals:", "choices": ["0", "ℏ", "iℏ", "−iℏ"], "answer": 2 },
-        { "q": "The Navier-Stokes equations model the motion of:", "choices": ["ideal gases only", "quantum wave functions", "electromagnetic fields", "viscous fluids"], "answer": 3 },
-        { "q": "At 25°C, the ionic product of water Kw = [H⁺][OH⁻] equals:", "choices": ["10⁻¹⁴", "10⁻⁷", "10⁻¹⁰", "10⁻¹²"], "answer": 0 },
-        { "q": "For an ideal gas in a reversible adiabatic process, PV^γ = const. γ is defined as:", "choices": ["Cv/R", "Cp/Cv", "R/Cp", "Cv/Cp"], "answer": 1 },
-        { "q": "The proven information-theoretic lower bound for comparison-based sorting is:", "choices": ["O(n)", "O(n²)", "O(n log n)", "O(n log² n)"], "answer": 2 },
-        { "q": "The Heisenberg uncertainty principle requires that Δx · Δp ≥:", "choices": ["ℏ", "h", "ℏ²", "ℏ/2"], "answer": 3 },
-        { "q": "For the matrix M = [[3,1],[0,3]], the repeated eigenvalue λ = 3 has:", "choices": ["algebraic multiplicity 2, geometric multiplicity 1", "both multiplicities equal to 2", "algebraic multiplicity 1, geometric multiplicity 2", "algebraic multiplicity 2, geometric multiplicity 2"], "answer": 0 },
-        { "q": "Lagrange's theorem in group theory states that for finite group G with subgroup H:", "choices": ["|G| divides |H|", "|H| divides |G|", "|H| = |G|/2 always", "|H| and |G| are always coprime"], "answer": 1 }
+        { "q": "Euler's identity e^(iπ) + 1 = 0 involves five fundamental constants. Which group is correct?", "choices": ["e, i, π, 0, 1", "e, i, φ, 0, 1", "e, i, π, 0, 2", "e, i, π, 1, 2"], "answer": 0 },
+        { "q": "The Gaussian integral ∫₋∞^∞ e^(−x²) dx evaluates to:", "choices": ["1", "√π", "π/2", "2π"], "answer": 1 },
+        { "q": "For a Carnot engine between hot reservoir T_H and cold reservoir T_C (Kelvin), the maximum efficiency η is:", "choices": ["T_H/T_C", "T_C/T_H", "1 − T_C/T_H", "1 − T_H/T_C"], "answer": 2 },
+        { "q": "The de Broglie wavelength of a particle with momentum p is:", "choices": ["λ = p/h", "λ = p·h", "λ = h²/p", "λ = h/p"], "answer": 3 },
+        { "q": "Burnside's lemma gives the number of distinct orbits of a finite group G acting on a set X as:", "choices": ["(1/|G|) × Σ_{g∈G} |Fix(g)|", "Σ_{g∈G} |Fix(g)|", "|G| × |X|", "|X| / |G|"], "answer": 0 },
+        { "q": "The weak force is mediated by W⁺, W⁻, and Z⁰. These particles are classified as:", "choices": ["scalar bosons (spin-0)", "vector bosons (spin-1)", "tensor bosons (spin-2)", "spin-1/2 fermions"], "answer": 1 },
+        { "q": "The Perron–Frobenius theorem guarantees that a matrix with all strictly positive real entries has:", "choices": ["no real eigenvalues", "all eigenvalues purely imaginary", "a unique real eigenvalue of largest modulus with a componentwise-positive eigenvector", "all eigenvalues equal and positive"], "answer": 2 },
+        { "q": "If the ordinary generating function of a sequence {a_n}_{n≥0} is 1/(1−x)², then a_n equals:", "choices": ["2^n", "n!", "n·(n−1)/2", "n + 1"], "answer": 3 },
+        { "q": "The Lorenz system of differential equations became famous for demonstrating:", "choices": ["chaos and sensitive dependence on initial conditions", "quantum entanglement", "the central limit theorem", "linear resonance in driven oscillators"], "answer": 0 },
+        { "q": "In special relativity, two events with spacelike separation can always be:", "choices": ["connected by a signal travelling at c", "made simultaneous by choosing an appropriate inertial frame", "assigned the same causal order by all inertial observers", "shown to occur at the same spatial location in some frame"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Mary's father has 4 daughters: Apple, Orange, and Mango. What is the name of the 4th daughter?", "choices": ["Mary", "Peach", "Grape", "Lemon"], "answer": 0 },
-        { "q": "In a race you overtake the runner in 2nd place. What position are you now in?", "choices": ["1st", "2nd", "3rd", "Last"], "answer": 1 },
-        { "q": "How many months of the year have at least 28 days?", "choices": ["1", "7", "12", "11"], "answer": 2 },
-        { "q": "Which word is spelled incorrectly in every dictionary?", "choices": ["Wrongly", "Erroneously", "Mistakenly", "Incorrectly"], "answer": 3 },
-        { "q": "An electric train heads south while the wind blows north. Which way does the smoke blow?", "choices": ["Electric trains produce no smoke", "North", "South", "East"], "answer": 0 },
-        { "q": "What gets wetter the more it dries?", "choices": ["A sponge", "Paper", "A towel", "Steam"], "answer": 2 },
-        { "q": "A doctor gives you 3 pills and says to take one every 30 minutes. How long until all pills are gone?", "choices": ["30 minutes", "60 minutes", "90 minutes", "120 minutes"], "answer": 1 },
-        { "q": "How many times does the letter 'e' appear in the word 'screeched'?", "choices": ["2", "4", "1", "3"], "answer": 3 },
-        { "q": "A rooster sits on top of a barn and lays an egg. Which side does it roll down?", "choices": ["Roosters don't lay eggs", "The left side", "The right side", "Depends on roof angle"], "answer": 0 },
-        { "q": "What is the next term in the sequence: 1, 11, 21, 1211, 111221, …?", "choices": ["13112221", "312211", "1112221", "123321"], "answer": 1 }
+        { "q": "I have two coins that together make 30 cents. One of them is not a nickel. What are the two coins?", "choices": ["A quarter and a nickel", "Two dimes and a penny", "Three dimes", "A dime and four nickels"], "answer": 0 },
+        { "q": "A man walks into a bar and asks for a glass of water. The bartender pulls out a gun and points it at him. The man says 'Thank you' and leaves. Why?", "choices": ["The man was a criminal", "The man had the hiccups", "The bartender owed him money", "The gun was a water pistol"], "answer": 1 },
+        { "q": "Count the letter F in: 'FINISHED FILES ARE THE RESULT OF YEARS OF SCIENTIFIC STUDY COMBINED WITH THE EXPERIENCE OF MANY YEARS'", "choices": ["3", "4", "6", "7"], "answer": 2 },
+        { "q": "A drawer has 10 red socks and 10 blue socks. Picking in the dark, how many socks must you grab to guarantee a matching pair?", "choices": ["10", "5", "4", "3"], "answer": 3 },
+        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep are left?", "choices": ["8", "17", "9", "0"], "answer": 2 },
+        { "q": "I am the beginning of the end, the end of everywhere, the beginning of eternity, and the end of time and space. What am I?", "choices": ["The letter E", "Zero", "Death", "Darkness"], "answer": 0 },
+        { "q": "A man bought a horse for $60, sold it for $70, bought it back for $80, and sold it for $90. What was his overall profit?", "choices": ["$0 — he broke even", "$10 profit", "$30 profit", "$20 profit"], "answer": 3 },
+        { "q": "A man takes a lift: down 3 floors, up 5 floors, then down 2 floors. He is now on the 4th floor. What floor did he start on?", "choices": ["6th", "4th", "7th", "2nd"], "answer": 1 },
+        { "q": "Paul is 6 feet tall, works in a butcher's shop, and wears size 9 shoes. What does he weigh?", "choices": ["About 80 kg", "About 70 kg", "About 90 kg", "Meat"], "answer": 3 },
+        { "q": "Before Mount Everest was discovered, what was the tallest mountain on Earth?", "choices": ["Mount Everest — it was always the tallest", "K2", "Kangchenjunga", "The tallest was unknown"], "answer": 0 }
       ]
     }
   ]
