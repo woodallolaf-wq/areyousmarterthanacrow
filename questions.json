@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-25",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What do you use to eat soup?", "choices": ["Spoon", "Fork", "Knife", "Straw"], "answer": 0 },
-        { "q": "What color is a stop sign?", "choices": ["Blue", "Red", "Green", "Yellow"], "answer": 1 },
-        { "q": "How many legs does a spider have?", "choices": ["4", "6", "8", "10"], "answer": 2 },
-        { "q": "What do you call a baby dog?", "choices": ["Kitten", "Cub", "Chick", "Puppy"], "answer": 3 },
-        { "q": "Which season is the hottest?", "choices": ["Summer", "Winter", "Spring", "Autumn"], "answer": 0 },
-        { "q": "What do you use to brush your teeth?", "choices": ["Comb", "Toothbrush", "Spoon", "Cloth"], "answer": 1 },
-        { "q": "Which of these is a fruit?", "choices": ["Carrot", "Onion", "Apple", "Potato"], "answer": 2 },
-        { "q": "What animal has black and white stripes?", "choices": ["Elephant", "Giraffe", "Tiger", "Zebra"], "answer": 3 },
-        { "q": "How many days are in one week?", "choices": ["6", "8", "7", "5"], "answer": 2 },
-        { "q": "What do you put on a birthday cake?", "choices": ["Candles", "Rocks", "Mud", "Sand"], "answer": 0 }
+        { "q": "What color is grass?", "choices": ["Pink", "Green", "Orange", "Purple"], "answer": 1 },
+        { "q": "How many fingers are on one hand?", "choices": ["5", "4", "6", "3"], "answer": 0 },
+        { "q": "Which animal says 'moo'?", "choices": ["Pig", "Sheep", "Dog", "Cow"], "answer": 3 },
+        { "q": "What do you wear on your feet?", "choices": ["Shoes", "Hat", "Gloves", "Scarf"], "answer": 0 },
+        { "q": "Which of these can you drink?", "choices": ["Sand", "Rocks", "Juice", "Mud"], "answer": 2 },
+        { "q": "What sound does a cat make?", "choices": ["Woof", "Moo", "Quack", "Meow"], "answer": 3 },
+        { "q": "What is 1 + 1?", "choices": ["3", "2", "4", "1"], "answer": 1 },
+        { "q": "Which season has snow?", "choices": ["Spring", "Summer", "Autumn", "Winter"], "answer": 3 },
+        { "q": "What do you call the bright ball in the sky during the day?", "choices": ["Moon", "Star", "Sun", "Cloud"], "answer": 2 },
+        { "q": "What do fish live in?", "choices": ["Trees", "Water", "Sand", "Air"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Who wrote 'Pride and Prejudice'?", "choices": ["Jane Austen", "Charlotte Brontë", "George Eliot", "Emily Brontë"], "answer": 0 },
-        { "q": "What is 17 × 4?", "choices": ["64", "68", "72", "76"], "answer": 1 },
-        { "q": "On which continent is India located?", "choices": ["Europe", "Africa", "Asia", "Australia"], "answer": 2 },
-        { "q": "Which is the tallest mountain in the world?", "choices": ["K2", "Kangchenjunga", "Lhotse", "Mount Everest"], "answer": 3 },
-        { "q": "How many sides does a pentagon have?", "choices": ["5", "4", "6", "7"], "answer": 0 },
-        { "q": "What is the capital of Italy?", "choices": ["Milan", "Venice", "Naples", "Rome"], "answer": 3 },
-        { "q": "What is 8 squared?", "choices": ["56", "64", "68", "72"], "answer": 1 },
-        { "q": "What is the capital of Brazil?", "choices": ["São Paulo", "Buenos Aires", "Brasília", "Rio de Janeiro"], "answer": 2 },
-        { "q": "Which is the fastest land animal?", "choices": ["Lion", "Greyhound", "Horse", "Cheetah"], "answer": 3 },
-        { "q": "What is the chemical symbol for oxygen?", "choices": ["Ox", "O", "Om", "Og"], "answer": 1 }
+        { "q": "What is the capital of Japan?", "choices": ["Beijing", "Seoul", "Tokyo", "Bangkok"], "answer": 2 },
+        { "q": "What is 9 × 9?", "choices": ["81", "72", "90", "83"], "answer": 0 },
+        { "q": "How many planets are in our solar system?", "choices": ["7", "8", "9", "10"], "answer": 1 },
+        { "q": "Who wrote 'Romeo and Juliet'?", "choices": ["Christopher Marlowe", "Ben Jonson", "Geoffrey Chaucer", "William Shakespeare"], "answer": 3 },
+        { "q": "What is the smallest prime number?", "choices": ["2", "1", "3", "0"], "answer": 0 },
+        { "q": "What is the capital of France?", "choices": ["London", "Paris", "Brussels", "Amsterdam"], "answer": 1 },
+        { "q": "What is the capital of Australia?", "choices": ["Sydney", "Melbourne", "Canberra", "Brisbane"], "answer": 2 },
+        { "q": "On which continent is Egypt?", "choices": ["Asia", "Europe", "South America", "Africa"], "answer": 3 },
+        { "q": "What is 15% of 200?", "choices": ["30", "25", "20", "35"], "answer": 0 },
+        { "q": "What gas do plants take in during photosynthesis?", "choices": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "In what year did World War I begin?", "choices": ["1914", "1912", "1916", "1918"], "answer": 0 },
-        { "q": "Who wrote 'A Tale of Two Cities'?", "choices": ["Victor Hugo", "Charles Dickens", "Leo Tolstoy", "Gustave Flaubert"], "answer": 1 },
-        { "q": "What is the capital of Argentina?", "choices": ["Santiago", "Lima", "Buenos Aires", "Montevideo"], "answer": 2 },
-        { "q": "What is the longest bone in the human body?", "choices": ["Spine", "Humerus", "Ribs", "Femur"], "answer": 3 },
-        { "q": "Which element is the most abundant in Earth's crust by mass?", "choices": ["Oxygen", "Silicon", "Iron", "Aluminum"], "answer": 0 },
-        { "q": "Who was the first President of the United States?", "choices": ["Thomas Jefferson", "George Washington", "John Adams", "Benjamin Franklin"], "answer": 1 },
-        { "q": "How many chambers does the human heart have?", "choices": ["2", "3", "4", "6"], "answer": 2 },
-        { "q": "In which year did the Soviet Union dissolve?", "choices": ["1989", "1990", "1993", "1991"], "answer": 3 },
-        { "q": "What is the chemical formula for table salt?", "choices": ["NaCl", "KCl", "NaOH", "CaCl₂"], "answer": 0 },
-        { "q": "Which planet currently has the most known moons?", "choices": ["Jupiter", "Saturn", "Uranus", "Neptune"], "answer": 1 }
+        { "q": "What is the approximate speed of light in a vacuum?", "choices": ["300,000 km/s", "3,000 km/s", "30,000 km/s", "3,000,000 km/s"], "answer": 0 },
+        { "q": "Who is credited with inventing the telephone?", "choices": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Guglielmo Marconi"], "answer": 1 },
+        { "q": "On which continent is the Amazon River?", "choices": ["Africa", "Asia", "South America", "North America"], "answer": 2 },
+        { "q": "Which planet is known as the Red Planet?", "choices": ["Jupiter", "Venus", "Saturn", "Mars"], "answer": 3 },
+        { "q": "Who painted the Mona Lisa?", "choices": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"], "answer": 0 },
+        { "q": "What is the currency of Japan?", "choices": ["Yuan", "Yen", "Won", "Baht"], "answer": 1 },
+        { "q": "How many bones are in the adult human body?", "choices": ["186", "202", "206", "214"], "answer": 2 },
+        { "q": "In which year did the Berlin Wall fall?", "choices": ["1987", "1990", "1991", "1989"], "answer": 3 },
+        { "q": "What does DNA stand for?", "choices": ["Deoxyribonucleic Acid", "Deoxyribose Nucleic Acid", "Deoxynucleic Acid", "Deoxyribonuclear Acid"], "answer": 0 },
+        { "q": "Which US state is nicknamed the 'Sunshine State'?", "choices": ["California", "Florida", "Texas", "Hawaii"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "The correspondence principle maps the classical Poisson bracket {f, g} to the quantum commutator as:", "choices": ["[f̂, ĝ]/(iℏ)", "[f̂, ĝ]/ℏ", "iℏ[f̂, ĝ]", "[f̂, ĝ]/i"], "answer": 0 },
-        { "q": "The residue of f(z) = e^z / z³ at z = 0 is:", "choices": ["0", "1", "1/2", "e"], "answer": 2 },
-        { "q": "The generalised Stokes' theorem on a manifold subsumes which theorems in classical vector calculus?", "choices": ["Gauss divergence theorem only", "Green's theorem only", "Neither — it is a different concept", "Both Green's theorem and the divergence theorem"], "answer": 3 },
-        { "q": "Perelman proved the Poincaré conjecture using:", "choices": ["Algebraic K-theory", "Ricci flow with surgery", "Geometric measure theory", "Morse theory with surgery"], "answer": 1 },
-        { "q": "The fugacity f of a gas relates to its chemical potential μ by:", "choices": ["μ = RT ln(f)", "μ = μ° + RT ln(f/f°)", "μ = μ° − RT ln(f/f°)", "μ = μ° + RT/f"], "answer": 1 },
-        { "q": "In Shannon's channel capacity formula C = B log₂(1 + S/N), B represents:", "choices": ["bandwidth in bits", "signal power in watts", "bandwidth in Hz", "noise power in watts"], "answer": 2 },
-        { "q": "The Atiyah–Singer index theorem equates the analytic index of an elliptic operator (dim ker D − dim coker D) to:", "choices": ["zero always, by ellipticity", "the L² norm of D", "the Euler characteristic of the manifold", "a topological index computed from characteristic classes"], "answer": 3 },
-        { "q": "A finite Markov chain is called ergodic if and only if it is:", "choices": ["aperiodic only", "irreducible and aperiodic", "irreducible only", "reversible and irreducible"], "answer": 1 },
-        { "q": "The Feynman propagator for a free scalar field of mass m (natural units) has momentum-space denominator:", "choices": ["p² + m²", "p² − m²", "p² + m² + iε", "p² − m² + iε"], "answer": 3 },
-        { "q": "By Noether's theorem, invariance under time translation implies conservation of:", "choices": ["energy", "linear momentum", "angular momentum", "electric charge"], "answer": 0 }
+        { "q": "The Euler-Lagrange equation for a Lagrangian L(q, q̇, t) is:", "choices": ["∂L/∂q − d/dt(∂L/∂q̇) = 0", "∂L/∂q + d/dt(∂L/∂q̇) = 0", "d(∂L/∂q̇)/dq = 0", "∂L/∂t = 0"], "answer": 0 },
+        { "q": "The Riemann Hypothesis conjectures that all non-trivial zeros of ζ(s) have real part:", "choices": ["0", "1/2", "1", "varies by zero"], "answer": 1 },
+        { "q": "Gödel's first incompleteness theorem states that any consistent formal system capable of basic arithmetic is:", "choices": ["both complete and consistent", "complete but not necessarily consistent", "incomplete — there exist true statements it cannot prove", "inconsistent — it proves its own contradiction"], "answer": 2 },
+        { "q": "Boltzmann's statistical definition of entropy is:", "choices": ["S = kT/V", "S = k × (E/T)", "S = k/ln(Ω)", "S = k ln(Ω)"], "answer": 3 },
+        { "q": "Cauchy's integral formula states that for an analytic function f inside contour C:", "choices": ["f(a) = (1/2πi) ∮_C f(z)/(z−a) dz", "f(a) = (1/πi) ∮_C f(z)/(z−a) dz", "f(a) = ∮_C f(z)(z−a) dz", "f(a) = 2πi ∮_C f(z)/(z−a) dz"], "answer": 0 },
+        { "q": "The Navier-Stokes equations describe the motion of:", "choices": ["electromagnetic waves in vacuum", "viscous fluid flow", "quantum probability amplitudes", "rigid body rotation"], "answer": 1 },
+        { "q": "The Church-Turing thesis identifies the class of computable functions as exactly those computable by:", "choices": ["a finite automaton", "a pushdown automaton", "a Turing machine", "a register machine with bounded memory"], "answer": 2 },
+        { "q": "The Cayley-Hamilton theorem states that every square matrix A satisfies:", "choices": ["A^n = I for some positive integer n", "A + A^T is always symmetric", "A² = A always", "its own characteristic polynomial"], "answer": 3 },
+        { "q": "The Taylor series of sin(x) centered at 0 begins:", "choices": ["x − x³/6 + x⁵/120 − …", "1 − x²/2 + x⁴/24 − …", "x + x³/6 + x⁵/120 + …", "x²/2 − x⁴/24 + …"], "answer": 0 },
+        { "q": "In quantum field theory, the technique of absorbing ultraviolet divergences by redefining bare parameters is called:", "choices": ["perturbation theory", "renormalization", "regularization only", "path integration"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many times can you subtract 5 from 25?", "choices": ["5 times", "Once — after that it's no longer 25", "25 times", "Infinitely many times"], "answer": 1 },
-        { "q": "Johnny's mother had three children: April, May, and ___. What was the third child's name?", "choices": ["June", "Johnny", "July", "August"], "answer": 1 },
-        { "q": "A is the father of B, but B is not A's son. What is B to A?", "choices": ["Daughter", "Nephew", "Stepchild", "Cousin"], "answer": 0 },
-        { "q": "There are 12 fish in a tank. Half of them drown. How many fish are left?", "choices": ["6", "0", "12", "9"], "answer": 2 },
-        { "q": "You are driving a bus. At stop 1: 3 on, 0 off. At stop 2: 5 on, 2 off. At stop 3: 4 off. How old is the bus driver?", "choices": ["6", "Your own age", "Unknown — not enough information", "34"], "answer": 1 },
-        { "q": "How many cubic feet of dirt are in a hole 2 feet wide, 3 feet long, and 4 feet deep?", "choices": ["24", "6", "12", "None — a hole contains no dirt"], "answer": 3 },
-        { "q": "If it takes 1 man 1 hour to dig 1 hole, how long does it take 2 men to dig half a hole?", "choices": ["There is no such thing as half a hole", "30 minutes", "15 minutes", "45 minutes"], "answer": 0 },
-        { "q": "How many times does the digit 9 appear when writing all integers from 1 to 100?", "choices": ["10", "9", "20", "19"], "answer": 2 },
-        { "q": "A woman shoots her husband, then they go out to dinner together. How is this possible?", "choices": ["He survived the wound", "She is a nurse", "It is a figure of speech", "She is a photographer who shot him with her camera"], "answer": 3 },
-        { "q": "How many people must be in a room for it to be more likely than not that two share the same birthday?", "choices": ["366", "184", "23", "183"], "answer": 2 }
+        { "q": "How many months of the year have at least 28 days?", "choices": ["12", "1", "4", "11"], "answer": 0 },
+        { "q": "A bat and ball cost $1.10 together. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10", "$0.05", "$0.15", "$0.50"], "answer": 1 },
+        { "q": "How many animals of each kind did Moses take on the ark?", "choices": ["2 of each", "7 of clean animals, 2 of unclean", "None — it was Noah, not Moses", "0 — Moses parted the sea, not the flood"], "answer": 2 },
+        { "q": "You overtake the person in 2nd place in a race. What place are you now in?", "choices": ["1st", "3rd", "2nd", "It depends on the total number of runners"], "answer": 2 },
+        { "q": "A surgeon looks at an injured boy and says 'This is my son.' The boy's father just died at the scene. How is this possible?", "choices": ["The surgeon is the boy's mother", "The surgeon is lying", "The boy has two biological fathers", "The boy is adopted"], "answer": 0 },
+        { "q": "Is 1 a prime number?", "choices": ["Yes — primes only need to be divisible by 1 and themselves", "No — primes must have exactly two distinct positive divisors", "Yes — it is the first and smallest prime", "It depends on the mathematician's convention"], "answer": 1 },
+        { "q": "You have one match. You enter a room with a candle, a newspaper, and a fireplace. What do you light first?", "choices": ["The candle", "The newspaper", "The match", "The fireplace"], "answer": 2 },
+        { "q": "What is 100 ÷ ½?", "choices": ["50", "25", "100", "200"], "answer": 3 },
+        { "q": "A rooster is sitting on the peak of a barn roof. It lays an egg. Which side does the egg roll down?", "choices": ["Roosters don't lay eggs", "The side facing the wind", "The steeper side", "The sunny side"], "answer": 0 },
+        { "q": "How many 3-cent stamps are there in a dozen?", "choices": ["3", "4", "36", "12"], "answer": 3 }
       ]
     }
   ]
