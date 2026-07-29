@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is a banana?", "choices": ["Yellow", "Blue", "Purple", "Black"], "answer": 0 },
-        { "q": "How many eyes do you have?", "choices": ["1", "2", "3", "4"], "answer": 1 },
-        { "q": "What sound does a dog make?", "choices": ["Meow", "Moo", "Woof", "Quack"], "answer": 2 },
-        { "q": "Which of these is something you eat?", "choices": ["Rock", "Sand", "Dirt", "Bread"], "answer": 3 },
-        { "q": "What is 2 + 2?", "choices": ["3", "4", "6", "5"], "answer": 1 },
-        { "q": "Which animal has a very long neck?", "choices": ["Elephant", "Hippo", "Giraffe", "Rhino"], "answer": 2 },
-        { "q": "What falls from the sky when it rains?", "choices": ["Sunshine", "Snow", "Sand", "Rain"], "answer": 3 },
-        { "q": "What color is a ripe orange?", "choices": ["Purple", "Green", "Orange", "Red"], "answer": 2 },
-        { "q": "How many wheels does a bicycle have?", "choices": ["1", "2", "3", "4"], "answer": 1 },
-        { "q": "What do you use to write?", "choices": ["Pencil", "Spoon", "Cup", "Sock"], "answer": 0 }
+        { "q": "What is 5 − 3?", "choices": ["1", "3", "2", "4"], "answer": 2 },
+        { "q": "What color is snow?", "choices": ["White", "Blue", "Yellow", "Green"], "answer": 0 },
+        { "q": "Which animal has a trunk?", "choices": ["Giraffe", "Lion", "Elephant", "Horse"], "answer": 2 },
+        { "q": "What do birds use to fly?", "choices": ["Fins", "Legs", "Wheels", "Wings"], "answer": 3 },
+        { "q": "How many months are in a year?", "choices": ["10", "12", "8", "14"], "answer": 1 },
+        { "q": "What do you call a baby cat?", "choices": ["Puppy", "Calf", "Kitten", "Piglet"], "answer": 2 },
+        { "q": "What do you sleep in at night?", "choices": ["Chair", "Table", "Bathtub", "Bed"], "answer": 3 },
+        { "q": "What color is chocolate?", "choices": ["Brown", "Red", "Blue", "Green"], "answer": 0 },
+        { "q": "Which of these can you ride?", "choices": ["A book", "A bicycle", "A pillow", "A hat"], "answer": 1 },
+        { "q": "How many legs does a horse have?", "choices": ["2", "6", "3", "4"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Germany?", "choices": ["Berlin", "Munich", "Hamburg", "Frankfurt"], "answer": 0 },
-        { "q": "What is 7 × 9?", "choices": ["54", "63", "56", "72"], "answer": 1 },
-        { "q": "What is the capital of India?", "choices": ["Mumbai", "Kolkata", "New Delhi", "Chennai"], "answer": 2 },
-        { "q": "Which planet is closest to the Sun?", "choices": ["Earth", "Venus", "Mars", "Mercury"], "answer": 3 },
-        { "q": "In which sport would you perform a slam dunk?", "choices": ["Basketball", "Soccer", "Baseball", "Tennis"], "answer": 0 },
-        { "q": "How many degrees are in a right angle?", "choices": ["45", "180", "360", "90"], "answer": 3 },
-        { "q": "Which ocean lies between Europe and North America?", "choices": ["Pacific", "Arctic", "Atlantic", "Indian"], "answer": 2 },
-        { "q": "What is the chemical symbol for iron?", "choices": ["Ir", "Fe", "In", "Fr"], "answer": 1 },
-        { "q": "What is 40% of 50?", "choices": ["10", "25", "15", "20"], "answer": 3 },
-        { "q": "Which is the largest planet in our solar system?", "choices": ["Saturn", "Jupiter", "Neptune", "Uranus"], "answer": 1 }
+        { "q": "What is the capital of Brazil?", "choices": ["Brasília", "São Paulo", "Rio de Janeiro", "Buenos Aires"], "answer": 0 },
+        { "q": "What is 8 × 7?", "choices": ["48", "54", "56", "64"], "answer": 2 },
+        { "q": "Which is the longest river in the world?", "choices": ["Nile", "Amazon", "Mississippi", "Yangtze"], "answer": 0 },
+        { "q": "What is the chemical symbol for sodium?", "choices": ["So", "Na", "Sd", "Sm"], "answer": 1 },
+        { "q": "How many sides does an octagon have?", "choices": ["6", "7", "10", "8"], "answer": 3 },
+        { "q": "What is 75% of 120?", "choices": ["75", "80", "90", "85"], "answer": 2 },
+        { "q": "In which country is the Taj Mahal located?", "choices": ["China", "Pakistan", "Bangladesh", "India"], "answer": 3 },
+        { "q": "Which is the smallest country in the world by area?", "choices": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"], "answer": 1 },
+        { "q": "What is 120 ÷ 8?", "choices": ["12", "15", "14", "16"], "answer": 1 },
+        { "q": "What is the chemical symbol for potassium?", "choices": ["P", "Pt", "K", "Po"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Who developed the theory of general relativity?", "choices": ["Isaac Newton", "Albert Einstein", "Max Planck", "Niels Bohr"], "answer": 1 },
-        { "q": "What is the capital of Mexico?", "choices": ["Guadalajara", "Tijuana", "Mexico City", "Monterrey"], "answer": 2 },
-        { "q": "In traditional painting colour theory, which of these is NOT a primary colour?", "choices": ["Green", "Red", "Blue", "Yellow"], "answer": 0 },
-        { "q": "In what year did the French Revolution begin?", "choices": ["1776", "1804", "1799", "1789"], "answer": 3 },
-        { "q": "What is the approximate speed of sound in air at sea level?", "choices": ["34 m/s", "3,400 m/s", "3,000,000 m/s", "340 m/s"], "answer": 3 },
-        { "q": "On which continent is the Sahara Desert located?", "choices": ["Asia", "South America", "Africa", "Australia"], "answer": 2 },
-        { "q": "What is the SI unit of electrical resistance?", "choices": ["Volt", "Ohm", "Ampere", "Watt"], "answer": 1 },
-        { "q": "Which composer wrote 'The Four Seasons'?", "choices": ["Johann Sebastian Bach", "Antonio Vivaldi", "Ludwig van Beethoven", "Wolfgang Amadeus Mozart"], "answer": 1 },
-        { "q": "How many official time zones does China currently use?", "choices": ["5", "3", "1", "7"], "answer": 2 },
-        { "q": "What is the atomic number of carbon?", "choices": ["6", "8", "12", "4"], "answer": 0 }
+        { "q": "What is the longest bone in the human body?", "choices": ["Tibia", "Femur", "Humerus", "Fibula"], "answer": 1 },
+        { "q": "What is the chemical formula for carbon dioxide?", "choices": ["CO₂", "CO", "C₂O", "C₂O₂"], "answer": 0 },
+        { "q": "In what year did World War II end?", "choices": ["1943", "1944", "1945", "1946"], "answer": 2 },
+        { "q": "What is the largest organ in the human body?", "choices": ["Heart", "Brain", "Liver", "Skin"], "answer": 3 },
+        { "q": "Who wrote 'Pride and Prejudice'?", "choices": ["Charlotte Brontë", "Jane Austen", "Emily Brontë", "Mary Shelley"], "answer": 1 },
+        { "q": "What is the capital of Russia?", "choices": ["Moscow", "St. Petersburg", "Kiev", "Minsk"], "answer": 0 },
+        { "q": "Which element is most abundant in Earth's atmosphere?", "choices": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"], "answer": 2 },
+        { "q": "In which US state is Yellowstone National Park primarily located?", "choices": ["Montana", "Idaho", "Colorado", "Wyoming"], "answer": 3 },
+        { "q": "What is the chemical formula for table salt?", "choices": ["KCl", "NaCl", "MgCl₂", "CaCl₂"], "answer": 1 },
+        { "q": "Approximately what is the boiling point of water at the summit of Mount Everest?", "choices": ["100°C", "85°C", "70°C", "50°C"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "The Fourier transform (∫f(x)e^{−2πixξ}dx) of f(x) = e^{−πx²} is:", "choices": ["e^{−πξ²}", "e^{−π²ξ²}", "e^{−πξ}", "e^{−ξ²/π}"], "answer": 0 },
-        { "q": "The fundamental group π₁(S¹) of the circle is isomorphic to:", "choices": ["Z₂", "ℤ", "the trivial group {e}", "ℚ"], "answer": 1 },
-        { "q": "In the Gibbs phase rule F = C − P + 2, the variable F represents:", "choices": ["Faraday's constant", "free energy per mole", "degrees of freedom", "oscillation frequency"], "answer": 2 },
-        { "q": "The complexity class BPP allows a probabilistic poly-time algorithm with error probability at most:", "choices": ["0 (no errors allowed)", "1/2 (majority vote)", "2/3 (supermajority)", "1/3 (bounded error)"], "answer": 3 },
-        { "q": "The Born rule gives the probability of measuring eigenvalue x given state |ψ⟩ as:", "choices": ["Re(⟨x|ψ⟩)", "⟨ψ|ψ⟩", "|⟨x|ψ⟩|²", "⟨x|ψ⟩²"], "answer": 2 },
-        { "q": "The leading-order Stirling approximation gives ln(n!) ≈", "choices": ["n ln(n)", "n ln(n) + n", "n ln(n)/2", "n ln(n) − n"], "answer": 3 },
-        { "q": "Noether's theorem establishes a deep connection between:", "choices": ["symmetries of a physical system and conservation laws", "entropy changes and free energy", "dual vector spaces and linear maps", "prime factorization and irreducibility"], "answer": 0 },
-        { "q": "The classical Runge-Kutta method (RK4) requires how many function evaluations per step?", "choices": ["2", "4", "6", "8"], "answer": 1 },
-        { "q": "In ring theory, a principal ideal domain (PID) is an integral domain where every ideal is:", "choices": ["prime or the zero ideal", "finitely generated but not necessarily principal", "generated by a single element", "generated by at most two elements"], "answer": 2 },
-        { "q": "For a massless particle, E² = p²c² + m²c⁴ reduces to:", "choices": ["E = mc²", "E = p²c²", "E = m²c⁴", "E = pc"], "answer": 3 }
+        { "q": "The Radon-Nikodym theorem guarantees density dμ/dν exists when:", "choices": ["μ is a finite measure", "μ and ν share the same support", "both μ and ν are probability measures", "ν is σ-finite and μ is absolutely continuous w.r.t. ν"], "answer": 3 },
+        { "q": "The energy eigenvalues of the quantum harmonic oscillator are E_n =", "choices": ["(n + ½)ℏω, n = 0,1,2,…", "nℏω, n = 1,2,3,…", "(n − ½)ℏω, n = 1,2,3,…", "n²ℏω, n = 0,1,2,…"], "answer": 0 },
+        { "q": "Faraday's law in differential (Maxwell) form states ∇ × E =", "choices": ["+∂B/∂t", "−∂B/∂t", "J + ∂D/∂t", "−∂D/∂t"], "answer": 1 },
+        { "q": "The residue theorem states ∮_C f(z) dz =", "choices": ["πi Σ Res(f, aₖ)", "2π Σ Res(f, aₖ)", "2πi Σ Res(f, aₖ)", "i Σ Res(f, aₖ)"], "answer": 2 },
+        { "q": "In category theory, F ⊣ G (F left adjoint to G) means there is a natural bijection:", "choices": ["F∘G ≅ id_B", "G∘F ≅ id_A", "Hom(A, FB) ≅ Hom(GA, B)", "Hom(FA, B) ≅ Hom(A, GB)"], "answer": 3 },
+        { "q": "The Mayer-Vietoris sequence computes the homology of X when X is expressed as:", "choices": ["a union of two open sets A and B", "a product A × B", "a fibration over base B", "two disjoint closed sets"], "answer": 0 },
+        { "q": "Liouville's theorem in Hamiltonian mechanics states that:", "choices": ["the total energy of any closed system is conserved", "phase-space volume is preserved under Hamiltonian flow", "the Poisson bracket {H, f} = 0 for every observable f", "Hamilton's equations require a conservative force field"], "answer": 1 },
+        { "q": "The Wigner-Eckart theorem states that matrix elements of irreducible tensor operators are proportional to:", "choices": ["eigenvalues of the Casimir operator", "the trace of the generator matrix", "Clebsch-Gordan coefficients", "Racah W-coefficients alone"], "answer": 2 },
+        { "q": "The Cramér-Rao lower bound states that for any unbiased estimator θ̂:", "choices": ["Var(θ̂) ≥ 1/I(θ)", "Var(θ̂) ≥ I(θ)", "Var(θ̂) = 1/I(θ) exactly for MLEs", "Var(θ̂) ≤ 1/I(θ)"], "answer": 0 },
+        { "q": "Which correctly states all four of Maxwell's equations in vacuum (SI units)?", "choices": ["∇·E = ρ/ε₀ and ∇×B = μ₀J only", "∇×E = ∂B/∂t and ∇×B = ε₀∂E/∂t only", "∇·B = ρ_m/ε₀ (nonzero magnetic charge)", "∇·E = ρ/ε₀, ∇·B = 0, ∇×E = −∂B/∂t, ∇×B = μ₀J + μ₀ε₀∂E/∂t"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Before Mount Everest was discovered, what was the tallest mountain on Earth?", "choices": ["K2", "Mont Blanc", "Kangchenjunga", "Mount Everest"], "answer": 3 },
-        { "q": "You have 6 apples. You take away 4. How many apples do YOU have?", "choices": ["2", "0", "4", "6"], "answer": 2 },
-        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep are left?", "choices": ["17", "9", "8", "0"], "answer": 1 },
-        { "q": "Johnny's mother has four children: April, May, and June. What is the fourth child's name?", "choices": ["Johnny", "July", "August", "September"], "answer": 0 },
-        { "q": "How far can a dog run into the woods?", "choices": ["As far as its energy allows", "Several miles, depending on the breed", "Halfway — after that it's running out", "There's no limit"], "answer": 2 },
-        { "q": "I have two coins totalling 30 cents. One of them is not a nickel. What are the two coins?", "choices": ["Two dimes", "One quarter and one nickel", "Two quarters", "Three dimes"], "answer": 1 },
-        { "q": "A man rode into town on Friday, stayed three days, and left on Friday. How is this possible?", "choices": ["He miscounted the days", "He travelled through time zones", "He returned on a different Friday", "His horse was named Friday"], "answer": 3 },
-        { "q": "What is 1+1+1+1+1+1+1+1+1+1+1+1×0+1?", "choices": ["12 — order of operations: multiply first", "0 — multiplying by zero nullifies everything", "13 — count all the ones as written", "1 — only the final +1 matters"], "answer": 0 },
-        { "q": "A plane crashes exactly on the US–Canada border. Where do the survivors get buried?", "choices": ["In the USA if the crash site is on the US side", "Split between both countries", "In Canada if the crash site is on the Canadian side", "Survivors are not buried — they're alive"], "answer": 3 },
-        { "q": "How many times can you subtract the number 5 from the number 25?", "choices": ["5 times — 25 ÷ 5 = 5", "Once — after that you subtract from 20, not 25", "As many times as you want", "25 times"], "answer": 1 }
+        { "q": "Which is heavier: a kilogram of steel or a kilogram of feathers?", "choices": ["Steel — it is denser", "Feathers — they trap air, adding extra mass", "They weigh the same", "Feathers — volume effects alter apparent weight"], "answer": 2 },
+        { "q": "If the Vice President of the United States dies, who becomes president?", "choices": ["The President — the VP's death does not change this", "The Speaker of the House", "The Secretary of State", "The Senate President Pro Tempore"], "answer": 0 },
+        { "q": "I'm looking at a photograph. I have no brothers or sisters. The person in the photo is my father's son. Who is in the photo?", "choices": ["My cousin", "My son", "My uncle", "Me"], "answer": 3 },
+        { "q": "A woman shoots her husband, then they enjoy a romantic dinner together. How is this possible?", "choices": ["She is a doctor who revived him", "She is a photographer — she took his portrait", "She missed intentionally", "He survived through sheer luck"], "answer": 1 },
+        { "q": "If 3 cats catch 3 mice in 3 minutes, how long does it take 100 cats to catch 100 mice?", "choices": ["100 minutes", "33 minutes", "3 minutes", "1 minute"], "answer": 2 },
+        { "q": "Rearrange the letters N, E, W, D, O, O, R to make one word.", "choices": ["WONDER", "REWDON", "DROWNED", "ONE WORD"], "answer": 3 },
+        { "q": "What gets wetter the more it dries?", "choices": ["A towel", "A sponge", "Wet paint left in rain", "Desert sand"], "answer": 0 },
+        { "q": "What appears once in a minute, twice in a moment, but never in a thousand years?", "choices": ["A solar eclipse", "The letter M", "A heartbeat", "A prime number gap"], "answer": 1 },
+        { "q": "What starts with 'e', ends with 'e', and contains only one letter?", "choices": ["The word 'eye'", "The word 'eve'", "An envelope", "The letter e itself"], "answer": 2 },
+        { "q": "A man leaves home, turns left three times, and arrives home to find two men in masks. What is happening?", "choices": ["He is being robbed", "He is lost and confused", "He is at a masquerade party", "He is playing baseball — they are the catcher and umpire"], "answer": 3 }
       ]
     }
   ]
