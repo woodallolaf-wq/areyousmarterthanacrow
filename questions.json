@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What is 5 − 3?", "choices": ["1", "3", "2", "4"], "answer": 2 },
-        { "q": "What color is snow?", "choices": ["White", "Blue", "Yellow", "Green"], "answer": 0 },
-        { "q": "Which animal has a trunk?", "choices": ["Giraffe", "Lion", "Elephant", "Horse"], "answer": 2 },
-        { "q": "What do birds use to fly?", "choices": ["Fins", "Legs", "Wheels", "Wings"], "answer": 3 },
-        { "q": "How many months are in a year?", "choices": ["10", "12", "8", "14"], "answer": 1 },
-        { "q": "What do you call a baby cat?", "choices": ["Puppy", "Calf", "Kitten", "Piglet"], "answer": 2 },
-        { "q": "What do you sleep in at night?", "choices": ["Chair", "Table", "Bathtub", "Bed"], "answer": 3 },
-        { "q": "What color is chocolate?", "choices": ["Brown", "Red", "Blue", "Green"], "answer": 0 },
-        { "q": "Which of these can you ride?", "choices": ["A book", "A bicycle", "A pillow", "A hat"], "answer": 1 },
-        { "q": "How many legs does a horse have?", "choices": ["2", "6", "3", "4"], "answer": 3 }
+        { "q": "What color is grass?", "choices": ["Purple", "Green", "Orange", "Black"], "answer": 1 },
+        { "q": "How many fingers are on one hand?", "choices": ["3", "4", "5", "6"], "answer": 2 },
+        { "q": "Where do fish live?", "choices": ["In trees", "In water", "In the sky", "Underground"], "answer": 1 },
+        { "q": "Which animal says 'moo'?", "choices": ["Pig", "Dog", "Cat", "Cow"], "answer": 3 },
+        { "q": "What is 1 + 1?", "choices": ["1", "3", "2", "4"], "answer": 2 },
+        { "q": "What season comes after summer?", "choices": ["Winter", "Spring", "Summer", "Fall"], "answer": 3 },
+        { "q": "What do you wear on your feet?", "choices": ["Shoes", "Hat", "Shirt", "Gloves"], "answer": 0 },
+        { "q": "How many days are in a week?", "choices": ["5", "7", "6", "8"], "answer": 1 },
+        { "q": "What color is the sky on a sunny day?", "choices": ["Blue", "Green", "Red", "Yellow"], "answer": 0 },
+        { "q": "Which of these is a fruit?", "choices": ["Carrot", "Potato", "Apple", "Broccoli"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Brazil?", "choices": ["Brasília", "São Paulo", "Rio de Janeiro", "Buenos Aires"], "answer": 0 },
-        { "q": "What is 8 × 7?", "choices": ["48", "54", "56", "64"], "answer": 2 },
-        { "q": "Which is the longest river in the world?", "choices": ["Nile", "Amazon", "Mississippi", "Yangtze"], "answer": 0 },
-        { "q": "What is the chemical symbol for sodium?", "choices": ["So", "Na", "Sd", "Sm"], "answer": 1 },
-        { "q": "How many sides does an octagon have?", "choices": ["6", "7", "10", "8"], "answer": 3 },
-        { "q": "What is 75% of 120?", "choices": ["75", "80", "90", "85"], "answer": 2 },
-        { "q": "In which country is the Taj Mahal located?", "choices": ["China", "Pakistan", "Bangladesh", "India"], "answer": 3 },
-        { "q": "Which is the smallest country in the world by area?", "choices": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"], "answer": 1 },
-        { "q": "What is 120 ÷ 8?", "choices": ["12", "15", "14", "16"], "answer": 1 },
-        { "q": "What is the chemical symbol for potassium?", "choices": ["P", "Pt", "K", "Po"], "answer": 2 }
+        { "q": "What is the capital of Australia?", "choices": ["Sydney", "Canberra", "Melbourne", "Perth"], "answer": 1 },
+        { "q": "How many sides does a hexagon have?", "choices": ["4", "5", "8", "6"], "answer": 3 },
+        { "q": "What is 9 × 6?", "choices": ["54", "48", "63", "56"], "answer": 0 },
+        { "q": "Which planet is known as the Red Planet?", "choices": ["Venus", "Jupiter", "Mars", "Saturn"], "answer": 2 },
+        { "q": "What is the chemical symbol for gold?", "choices": ["Gd", "Go", "Gl", "Au"], "answer": 3 },
+        { "q": "Which country contains the Great Wall?", "choices": ["China", "Korea", "Japan", "India"], "answer": 0 },
+        { "q": "What is 15% of 200?", "choices": ["25", "30", "35", "20"], "answer": 1 },
+        { "q": "How many bones does an adult human have?", "choices": ["196", "186", "206", "216"], "answer": 2 },
+        { "q": "Who is credited with inventing the telephone?", "choices": ["Nikola Tesla", "Thomas Edison", "Guglielmo Marconi", "Alexander Graham Bell"], "answer": 3 },
+        { "q": "Which is the largest ocean on Earth?", "choices": ["Atlantic", "Pacific", "Indian", "Arctic"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the longest bone in the human body?", "choices": ["Tibia", "Femur", "Humerus", "Fibula"], "answer": 1 },
-        { "q": "What is the chemical formula for carbon dioxide?", "choices": ["CO₂", "CO", "C₂O", "C₂O₂"], "answer": 0 },
-        { "q": "In what year did World War II end?", "choices": ["1943", "1944", "1945", "1946"], "answer": 2 },
-        { "q": "What is the largest organ in the human body?", "choices": ["Heart", "Brain", "Liver", "Skin"], "answer": 3 },
-        { "q": "Who wrote 'Pride and Prejudice'?", "choices": ["Charlotte Brontë", "Jane Austen", "Emily Brontë", "Mary Shelley"], "answer": 1 },
-        { "q": "What is the capital of Russia?", "choices": ["Moscow", "St. Petersburg", "Kiev", "Minsk"], "answer": 0 },
-        { "q": "Which element is most abundant in Earth's atmosphere?", "choices": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"], "answer": 2 },
-        { "q": "In which US state is Yellowstone National Park primarily located?", "choices": ["Montana", "Idaho", "Colorado", "Wyoming"], "answer": 3 },
-        { "q": "What is the chemical formula for table salt?", "choices": ["KCl", "NaCl", "MgCl₂", "CaCl₂"], "answer": 1 },
-        { "q": "Approximately what is the boiling point of water at the summit of Mount Everest?", "choices": ["100°C", "85°C", "70°C", "50°C"], "answer": 2 }
+        { "q": "How many strings does a standard guitar have?", "choices": ["5", "6", "4", "8"], "answer": 1 },
+        { "q": "Which organelle is known as 'the powerhouse of the cell'?", "choices": ["Mitochondria", "Nucleus", "Ribosome", "Chloroplast"], "answer": 0 },
+        { "q": "Who painted the Mona Lisa?", "choices": ["Raphael", "Donatello", "Michelangelo", "Leonardo da Vinci"], "answer": 3 },
+        { "q": "What is the currency of Japan?", "choices": ["Yuan", "Won", "Yen", "Baht"], "answer": 2 },
+        { "q": "How many chambers does the human heart have?", "choices": ["2", "4", "3", "5"], "answer": 1 },
+        { "q": "In which year did Neil Armstrong first walk on the Moon?", "choices": ["1961", "1967", "1972", "1969"], "answer": 3 },
+        { "q": "What is the approximate speed of light in a vacuum?", "choices": ["3×10⁵ km/s", "3×10⁴ km/s", "3×10⁶ km/s", "3×10⁷ km/s"], "answer": 0 },
+        { "q": "Who wrote 'The Great Gatsby'?", "choices": ["John Steinbeck", "Ernest Hemingway", "F. Scott Fitzgerald", "William Faulkner"], "answer": 2 },
+        { "q": "What is the square root of 169?", "choices": ["11", "14", "12", "13"], "answer": 3 },
+        { "q": "Which is the smallest planet in our solar system?", "choices": ["Mars", "Mercury", "Venus", "Pluto"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "The Radon-Nikodym theorem guarantees density dμ/dν exists when:", "choices": ["μ is a finite measure", "μ and ν share the same support", "both μ and ν are probability measures", "ν is σ-finite and μ is absolutely continuous w.r.t. ν"], "answer": 3 },
-        { "q": "The energy eigenvalues of the quantum harmonic oscillator are E_n =", "choices": ["(n + ½)ℏω, n = 0,1,2,…", "nℏω, n = 1,2,3,…", "(n − ½)ℏω, n = 1,2,3,…", "n²ℏω, n = 0,1,2,…"], "answer": 0 },
-        { "q": "Faraday's law in differential (Maxwell) form states ∇ × E =", "choices": ["+∂B/∂t", "−∂B/∂t", "J + ∂D/∂t", "−∂D/∂t"], "answer": 1 },
-        { "q": "The residue theorem states ∮_C f(z) dz =", "choices": ["πi Σ Res(f, aₖ)", "2π Σ Res(f, aₖ)", "2πi Σ Res(f, aₖ)", "i Σ Res(f, aₖ)"], "answer": 2 },
-        { "q": "In category theory, F ⊣ G (F left adjoint to G) means there is a natural bijection:", "choices": ["F∘G ≅ id_B", "G∘F ≅ id_A", "Hom(A, FB) ≅ Hom(GA, B)", "Hom(FA, B) ≅ Hom(A, GB)"], "answer": 3 },
-        { "q": "The Mayer-Vietoris sequence computes the homology of X when X is expressed as:", "choices": ["a union of two open sets A and B", "a product A × B", "a fibration over base B", "two disjoint closed sets"], "answer": 0 },
-        { "q": "Liouville's theorem in Hamiltonian mechanics states that:", "choices": ["the total energy of any closed system is conserved", "phase-space volume is preserved under Hamiltonian flow", "the Poisson bracket {H, f} = 0 for every observable f", "Hamilton's equations require a conservative force field"], "answer": 1 },
-        { "q": "The Wigner-Eckart theorem states that matrix elements of irreducible tensor operators are proportional to:", "choices": ["eigenvalues of the Casimir operator", "the trace of the generator matrix", "Clebsch-Gordan coefficients", "Racah W-coefficients alone"], "answer": 2 },
-        { "q": "The Cramér-Rao lower bound states that for any unbiased estimator θ̂:", "choices": ["Var(θ̂) ≥ 1/I(θ)", "Var(θ̂) ≥ I(θ)", "Var(θ̂) = 1/I(θ) exactly for MLEs", "Var(θ̂) ≤ 1/I(θ)"], "answer": 0 },
-        { "q": "Which correctly states all four of Maxwell's equations in vacuum (SI units)?", "choices": ["∇·E = ρ/ε₀ and ∇×B = μ₀J only", "∇×E = ∂B/∂t and ∇×B = ε₀∂E/∂t only", "∇·B = ρ_m/ε₀ (nonzero magnetic charge)", "∇·E = ρ/ε₀, ∇·B = 0, ∇×E = −∂B/∂t, ∇×B = μ₀J + μ₀ε₀∂E/∂t"], "answer": 3 }
+        { "q": "Gödel's first incompleteness theorem asserts that any consistent formal system strong enough to express basic arithmetic:", "choices": ["is necessarily inconsistent", "has a decidable axiom set", "contains no unprovable true statements", "contains true statements that cannot be proved within the system"], "answer": 3 },
+        { "q": "The Hamiltonian operator for a single particle in potential V(r) is:", "choices": ["-iℏ∇", "p²/2m only", "−(ℏ²/2m)∇² + V", "iℏ∂/∂t"], "answer": 2 },
+        { "q": "In Boltzmann's entropy formula S = k_B ln Ω, the quantity Ω represents:", "choices": ["the number of macroscopically equivalent microstates", "the angular frequency of molecular vibration", "the system's partition function", "the total energy divided by temperature"], "answer": 0 },
+        { "q": "Green's theorem states: ∮_C (M dx + N dy) =", "choices": ["∬_D (∂M/∂x + ∂N/∂y) dA", "∬_D (∂N/∂x − ∂M/∂y) dA", "∬_D (∂M/∂y − ∂N/∂x) dA", "∬_D (∂N/∂y + ∂M/∂x) dA"], "answer": 1 },
+        { "q": "For a normal distribution, approximately what percentage of values fall within 2 standard deviations of the mean?", "choices": ["68.3%", "99.7%", "95.4%", "100% exactly"], "answer": 2 },
+        { "q": "The spectral theorem for real symmetric matrices states they:", "choices": ["have all real eigenvalues and are orthogonally diagonalizable", "are always invertible", "have purely imaginary eigenvalues", "satisfy A = A⁻¹"], "answer": 0 },
+        { "q": "The P vs NP question asks whether every problem whose solution can be verified in polynomial time can also be:", "choices": ["expressed as a 2-SAT instance", "shown to be NP-complete", "reduced to integer linear programming", "solved in polynomial time"], "answer": 3 },
+        { "q": "The KL divergence D_KL(P ∥ Q) is defined (for discrete distributions) as:", "choices": ["−∑_x P(x) ln P(x)", "∑_x P(x) ln(P(x)/Q(x))", "∑_x Q(x) ln(Q(x)/P(x))", "∑_x (P(x)−Q(x))²"], "answer": 1 },
+        { "q": "The minimal polynomial of a linear operator T on ℂⁿ uses exponent mᵢ for each eigenvalue λᵢ, where mᵢ equals:", "choices": ["the algebraic multiplicity of λᵢ", "the trace of the λᵢ-Jordan block", "the geometric multiplicity of λᵢ", "the size of the largest Jordan block for λᵢ"], "answer": 3 },
+        { "q": "The divergence theorem states ∯_{∂V} F · dA =", "choices": ["∭_V curl(F) dV", "∭_V ∇·F dV", "∯_{∂V} ∇·F dA", "∭_V |F| dV"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Which is heavier: a kilogram of steel or a kilogram of feathers?", "choices": ["Steel — it is denser", "Feathers — they trap air, adding extra mass", "They weigh the same", "Feathers — volume effects alter apparent weight"], "answer": 2 },
-        { "q": "If the Vice President of the United States dies, who becomes president?", "choices": ["The President — the VP's death does not change this", "The Speaker of the House", "The Secretary of State", "The Senate President Pro Tempore"], "answer": 0 },
-        { "q": "I'm looking at a photograph. I have no brothers or sisters. The person in the photo is my father's son. Who is in the photo?", "choices": ["My cousin", "My son", "My uncle", "Me"], "answer": 3 },
-        { "q": "A woman shoots her husband, then they enjoy a romantic dinner together. How is this possible?", "choices": ["She is a doctor who revived him", "She is a photographer — she took his portrait", "She missed intentionally", "He survived through sheer luck"], "answer": 1 },
-        { "q": "If 3 cats catch 3 mice in 3 minutes, how long does it take 100 cats to catch 100 mice?", "choices": ["100 minutes", "33 minutes", "3 minutes", "1 minute"], "answer": 2 },
-        { "q": "Rearrange the letters N, E, W, D, O, O, R to make one word.", "choices": ["WONDER", "REWDON", "DROWNED", "ONE WORD"], "answer": 3 },
-        { "q": "What gets wetter the more it dries?", "choices": ["A towel", "A sponge", "Wet paint left in rain", "Desert sand"], "answer": 0 },
-        { "q": "What appears once in a minute, twice in a moment, but never in a thousand years?", "choices": ["A solar eclipse", "The letter M", "A heartbeat", "A prime number gap"], "answer": 1 },
-        { "q": "What starts with 'e', ends with 'e', and contains only one letter?", "choices": ["The word 'eye'", "The word 'eve'", "An envelope", "The letter e itself"], "answer": 2 },
-        { "q": "A man leaves home, turns left three times, and arrives home to find two men in masks. What is happening?", "choices": ["He is being robbed", "He is lost and confused", "He is at a masquerade party", "He is playing baseball — they are the catcher and umpire"], "answer": 3 }
+        { "q": "How many animals of each kind did Moses take on the ark?", "choices": ["2 of each clean, 7 of unclean", "The Bible doesn't specify a number", "None — it was Noah, not Moses", "7 of each kind"], "answer": 2 },
+        { "q": "You are running a race and overtake the person in 2nd place. What position are you now in?", "choices": ["1st place", "3rd place", "It depends on the total number of runners", "2nd place"], "answer": 3 },
+        { "q": "How many months have at least 28 days?", "choices": ["All 12 months", "Only February", "11 — all except February in non-leap years", "Just 1 or 2, depending on the year"], "answer": 0 },
+        { "q": "A rooster laid an egg on the peak of a barn roof. Which way did the egg roll?", "choices": ["Toward the lower side", "To whichever side the wind blows", "It depends on the slope angle", "Roosters don't lay eggs"], "answer": 3 },
+        { "q": "A doctor gives you 3 pills and says to take one every 30 minutes. How many minutes will they last?", "choices": ["90 minutes", "60 minutes", "120 minutes", "45 minutes"], "answer": 1 },
+        { "q": "What word is always spelled incorrectly?", "choices": ["Wrong", "Misspelled", "Incorrectly", "No such word exists"], "answer": 2 },
+        { "q": "What comes next in the sequence: O, T, T, F, F, S, S, E, N, ___?", "choices": ["T", "E", "O", "N"], "answer": 0 },
+        { "q": "If 5 machines make 5 widgets in 5 minutes, how long does it take 100 machines to make 100 widgets?", "choices": ["100 minutes", "20 minutes", "50 minutes", "5 minutes"], "answer": 3 },
+        { "q": "Is it legal in the US for a man to marry his widow's sister?", "choices": ["Yes, she is not a direct relative", "No — if he has a widow, he must be dead", "It depends on the state", "No, US law prohibits marrying a spouse's sibling"], "answer": 1 },
+        { "q": "You are asked to drive a bus. 3 people board at stop 1, then 7 board and 2 exit at stop 2, then 4 board and 5 exit at stop 3. How old is the bus driver?", "choices": ["7", "Unknown from the given facts", "Your age — you are the bus driver", "17"], "answer": 2 }
       ]
     }
   ]
