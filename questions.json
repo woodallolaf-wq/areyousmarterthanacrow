@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is grass?", "choices": ["Purple", "Green", "Orange", "Black"], "answer": 1 },
-        { "q": "How many fingers are on one hand?", "choices": ["3", "4", "5", "6"], "answer": 2 },
-        { "q": "Where do fish live?", "choices": ["In trees", "In water", "In the sky", "Underground"], "answer": 1 },
-        { "q": "Which animal says 'moo'?", "choices": ["Pig", "Dog", "Cat", "Cow"], "answer": 3 },
-        { "q": "What is 1 + 1?", "choices": ["1", "3", "2", "4"], "answer": 2 },
-        { "q": "What season comes after summer?", "choices": ["Winter", "Spring", "Summer", "Fall"], "answer": 3 },
-        { "q": "What do you wear on your feet?", "choices": ["Shoes", "Hat", "Shirt", "Gloves"], "answer": 0 },
-        { "q": "How many days are in a week?", "choices": ["5", "7", "6", "8"], "answer": 1 },
-        { "q": "What color is the sky on a sunny day?", "choices": ["Blue", "Green", "Red", "Yellow"], "answer": 0 },
-        { "q": "Which of these is a fruit?", "choices": ["Carrot", "Potato", "Apple", "Broccoli"], "answer": 2 }
+        { "q": "What shape is a ball?", "choices": ["Circle", "Square", "Triangle", "Rectangle"], "answer": 0 },
+        { "q": "What do you drink when you're thirsty?", "choices": ["Rock", "Sand", "Water", "Paper"], "answer": 2 },
+        { "q": "Which animal goes 'oink'?", "choices": ["Dog", "Cat", "Bird", "Pig"], "answer": 3 },
+        { "q": "How many toes do you have?", "choices": ["10", "5", "15", "20"], "answer": 0 },
+        { "q": "What do you use to eat soup?", "choices": ["Fork", "Spoon", "Knife", "Plate"], "answer": 1 },
+        { "q": "What color is the sun?", "choices": ["Blue", "Yellow", "Green", "Purple"], "answer": 1 },
+        { "q": "What is 3 + 2?", "choices": ["6", "4", "7", "5"], "answer": 3 },
+        { "q": "Which animal lives in the sea?", "choices": ["Elephant", "Fish", "Giraffe", "Rabbit"], "answer": 1 },
+        { "q": "How many legs does a spider have?", "choices": ["4", "6", "8", "10"], "answer": 2 },
+        { "q": "What do bees make?", "choices": ["Milk", "Juice", "Butter", "Honey"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Australia?", "choices": ["Sydney", "Canberra", "Melbourne", "Perth"], "answer": 1 },
-        { "q": "How many sides does a hexagon have?", "choices": ["4", "5", "8", "6"], "answer": 3 },
-        { "q": "What is 9 × 6?", "choices": ["54", "48", "63", "56"], "answer": 0 },
-        { "q": "Which planet is known as the Red Planet?", "choices": ["Venus", "Jupiter", "Mars", "Saturn"], "answer": 2 },
-        { "q": "What is the chemical symbol for gold?", "choices": ["Gd", "Go", "Gl", "Au"], "answer": 3 },
-        { "q": "Which country contains the Great Wall?", "choices": ["China", "Korea", "Japan", "India"], "answer": 0 },
-        { "q": "What is 15% of 200?", "choices": ["25", "30", "35", "20"], "answer": 1 },
-        { "q": "How many bones does an adult human have?", "choices": ["196", "186", "206", "216"], "answer": 2 },
-        { "q": "Who is credited with inventing the telephone?", "choices": ["Nikola Tesla", "Thomas Edison", "Guglielmo Marconi", "Alexander Graham Bell"], "answer": 3 },
-        { "q": "Which is the largest ocean on Earth?", "choices": ["Atlantic", "Pacific", "Indian", "Arctic"], "answer": 1 }
+        { "q": "What is the capital of France?", "choices": ["London", "Rome", "Paris", "Madrid"], "answer": 2 },
+        { "q": "What is 12 × 12?", "choices": ["144", "132", "148", "124"], "answer": 0 },
+        { "q": "On which continent is Egypt located?", "choices": ["Europe", "Asia", "South America", "Africa"], "answer": 3 },
+        { "q": "What is the chemical symbol for oxygen?", "choices": ["Ox", "O", "O2", "On"], "answer": 1 },
+        { "q": "Which is the tallest mountain in the world?", "choices": ["K2", "Kilimanjaro", "Mount Everest", "Denali"], "answer": 2 },
+        { "q": "What is 25% of 80?", "choices": ["40", "25", "15", "20"], "answer": 3 },
+        { "q": "How many players are on a standard soccer team?", "choices": ["11", "12", "9", "10"], "answer": 0 },
+        { "q": "What is the boiling point of water in Celsius?", "choices": ["80", "100", "90", "110"], "answer": 1 },
+        { "q": "Which planet is known for its prominent rings?", "choices": ["Jupiter", "Neptune", "Uranus", "Saturn"], "answer": 3 },
+        { "q": "Who wrote 'Romeo and Juliet'?", "choices": ["Charles Dickens", "Jane Austen", "William Shakespeare", "Geoffrey Chaucer"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "How many strings does a standard guitar have?", "choices": ["5", "6", "4", "8"], "answer": 1 },
-        { "q": "Which organelle is known as 'the powerhouse of the cell'?", "choices": ["Mitochondria", "Nucleus", "Ribosome", "Chloroplast"], "answer": 0 },
-        { "q": "Who painted the Mona Lisa?", "choices": ["Raphael", "Donatello", "Michelangelo", "Leonardo da Vinci"], "answer": 3 },
-        { "q": "What is the currency of Japan?", "choices": ["Yuan", "Won", "Yen", "Baht"], "answer": 2 },
-        { "q": "How many chambers does the human heart have?", "choices": ["2", "4", "3", "5"], "answer": 1 },
-        { "q": "In which year did Neil Armstrong first walk on the Moon?", "choices": ["1961", "1967", "1972", "1969"], "answer": 3 },
-        { "q": "What is the approximate speed of light in a vacuum?", "choices": ["3×10⁵ km/s", "3×10⁴ km/s", "3×10⁶ km/s", "3×10⁷ km/s"], "answer": 0 },
-        { "q": "Who wrote 'The Great Gatsby'?", "choices": ["John Steinbeck", "Ernest Hemingway", "F. Scott Fitzgerald", "William Faulkner"], "answer": 2 },
-        { "q": "What is the square root of 169?", "choices": ["11", "14", "12", "13"], "answer": 3 },
-        { "q": "Which is the smallest planet in our solar system?", "choices": ["Mars", "Mercury", "Venus", "Pluto"], "answer": 1 }
+        { "q": "What is the currency of the United Kingdom?", "choices": ["Euro", "Dollar", "Pound Sterling", "Franc"], "answer": 2 },
+        { "q": "In which year did the Berlin Wall fall?", "choices": ["1985", "1989", "1987", "1993"], "answer": 1 },
+        { "q": "Who painted 'The Starry Night'?", "choices": ["Claude Monet", "Paul Gauguin", "Pablo Picasso", "Vincent van Gogh"], "answer": 3 },
+        { "q": "What gas do plants primarily absorb during photosynthesis?", "choices": ["Oxygen", "Carbon Dioxide", "Hydrogen", "Nitrogen"], "answer": 1 },
+        { "q": "What is the capital of Canada?", "choices": ["Toronto", "Vancouver", "Ottawa", "Montreal"], "answer": 2 },
+        { "q": "Who invented the World Wide Web?", "choices": ["Tim Berners-Lee", "Bill Gates", "Steve Jobs", "Linus Torvalds"], "answer": 0 },
+        { "q": "What is the chemical formula for water?", "choices": ["HO", "H₂O₂", "H₃O", "H₂O"], "answer": 3 },
+        { "q": "In which country was Beethoven born?", "choices": ["Austria", "France", "Germany", "Switzerland"], "answer": 2 },
+        { "q": "How many continents are there on Earth?", "choices": ["7", "5", "6", "8"], "answer": 0 },
+        { "q": "What is the atomic number of gold (Au)?", "choices": ["47", "79", "29", "197"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "Gödel's first incompleteness theorem asserts that any consistent formal system strong enough to express basic arithmetic:", "choices": ["is necessarily inconsistent", "has a decidable axiom set", "contains no unprovable true statements", "contains true statements that cannot be proved within the system"], "answer": 3 },
-        { "q": "The Hamiltonian operator for a single particle in potential V(r) is:", "choices": ["-iℏ∇", "p²/2m only", "−(ℏ²/2m)∇² + V", "iℏ∂/∂t"], "answer": 2 },
-        { "q": "In Boltzmann's entropy formula S = k_B ln Ω, the quantity Ω represents:", "choices": ["the number of macroscopically equivalent microstates", "the angular frequency of molecular vibration", "the system's partition function", "the total energy divided by temperature"], "answer": 0 },
-        { "q": "Green's theorem states: ∮_C (M dx + N dy) =", "choices": ["∬_D (∂M/∂x + ∂N/∂y) dA", "∬_D (∂N/∂x − ∂M/∂y) dA", "∬_D (∂M/∂y − ∂N/∂x) dA", "∬_D (∂N/∂y + ∂M/∂x) dA"], "answer": 1 },
-        { "q": "For a normal distribution, approximately what percentage of values fall within 2 standard deviations of the mean?", "choices": ["68.3%", "99.7%", "95.4%", "100% exactly"], "answer": 2 },
-        { "q": "The spectral theorem for real symmetric matrices states they:", "choices": ["have all real eigenvalues and are orthogonally diagonalizable", "are always invertible", "have purely imaginary eigenvalues", "satisfy A = A⁻¹"], "answer": 0 },
-        { "q": "The P vs NP question asks whether every problem whose solution can be verified in polynomial time can also be:", "choices": ["expressed as a 2-SAT instance", "shown to be NP-complete", "reduced to integer linear programming", "solved in polynomial time"], "answer": 3 },
-        { "q": "The KL divergence D_KL(P ∥ Q) is defined (for discrete distributions) as:", "choices": ["−∑_x P(x) ln P(x)", "∑_x P(x) ln(P(x)/Q(x))", "∑_x Q(x) ln(Q(x)/P(x))", "∑_x (P(x)−Q(x))²"], "answer": 1 },
-        { "q": "The minimal polynomial of a linear operator T on ℂⁿ uses exponent mᵢ for each eigenvalue λᵢ, where mᵢ equals:", "choices": ["the algebraic multiplicity of λᵢ", "the trace of the λᵢ-Jordan block", "the geometric multiplicity of λᵢ", "the size of the largest Jordan block for λᵢ"], "answer": 3 },
-        { "q": "The divergence theorem states ∯_{∂V} F · dA =", "choices": ["∭_V curl(F) dV", "∭_V ∇·F dV", "∯_{∂V} ∇·F dA", "∭_V |F| dV"], "answer": 1 }
+        { "q": "The Cauchy-Schwarz inequality states that for vectors u and v in an inner product space:", "choices": ["|⟨u,v⟩| ≥ ‖u‖·‖v‖", "|⟨u,v⟩| = ‖u‖·‖v‖", "|⟨u,v⟩| ≤ ‖u‖ + ‖v‖", "|⟨u,v⟩| ≤ ‖u‖·‖v‖"], "answer": 3 },
+        { "q": "Euler's formula states that for real θ, e^(iθ) =", "choices": ["cos θ + i sin θ", "cos θ − i sin θ", "i cos θ + sin θ", "i(cos θ − sin θ)"], "answer": 0 },
+        { "q": "In RSA, for distinct primes p and q with n = pq, Euler's totient φ(n) equals:", "choices": ["pq − 1", "pq", "(p−1)(q−1)", "p + q − 2"], "answer": 2 },
+        { "q": "The time-dependent Schrödinger equation is:", "choices": ["Ĥψ = Eψ", "iℏ ∂ψ/∂t = Ĥψ", "−iℏ ∂ψ/∂t = Ĥψ", "ℏ² ∂²ψ/∂t² = Ĥψ"], "answer": 1 },
+        { "q": "Shannon entropy H = −∑ pᵢ log₂ pᵢ reaches its maximum of log₂(n) when:", "choices": ["one outcome has probability 1", "H takes a negative value", "the events are statistically independent", "all n outcomes are equally likely"], "answer": 3 },
+        { "q": "The generalized Stokes' theorem states ∫_{∂Ω} ω =", "choices": ["∫_Ω dω", "∫_Ω ∇·ω dΩ", "∮_{∂Ω} |ω| dΩ", "∫_Ω ω²"], "answer": 0 },
+        { "q": "Fermat's Last Theorem, proved by Andrew Wiles in 1995, states:", "choices": ["every even integer > 2 is a sum of two primes", "every integer > 1 has a unique prime factorization", "aⁿ + bⁿ = cⁿ has no positive integer solutions for n > 2", "every polynomial over ℂ has at least one root"], "answer": 2 },
+        { "q": "The Riemann Hypothesis asserts all non-trivial zeros of ζ(s) have real part equal to:", "choices": ["0", "1/2", "1", "π"], "answer": 1 },
+        { "q": "In the Navier-Stokes equations for viscous flow, the term μ∇²v represents:", "choices": ["viscous diffusion of momentum", "the pressure-gradient force", "buoyancy from density differences", "inertial acceleration"], "answer": 0 },
+        { "q": "For a square matrix A, the sum of its eigenvalues (counted with algebraic multiplicity) equals:", "choices": ["the determinant of A", "zero", "the rank of A", "the trace of A"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many animals of each kind did Moses take on the ark?", "choices": ["2 of each clean, 7 of unclean", "The Bible doesn't specify a number", "None — it was Noah, not Moses", "7 of each kind"], "answer": 2 },
-        { "q": "You are running a race and overtake the person in 2nd place. What position are you now in?", "choices": ["1st place", "3rd place", "It depends on the total number of runners", "2nd place"], "answer": 3 },
-        { "q": "How many months have at least 28 days?", "choices": ["All 12 months", "Only February", "11 — all except February in non-leap years", "Just 1 or 2, depending on the year"], "answer": 0 },
-        { "q": "A rooster laid an egg on the peak of a barn roof. Which way did the egg roll?", "choices": ["Toward the lower side", "To whichever side the wind blows", "It depends on the slope angle", "Roosters don't lay eggs"], "answer": 3 },
-        { "q": "A doctor gives you 3 pills and says to take one every 30 minutes. How many minutes will they last?", "choices": ["90 minutes", "60 minutes", "120 minutes", "45 minutes"], "answer": 1 },
-        { "q": "What word is always spelled incorrectly?", "choices": ["Wrong", "Misspelled", "Incorrectly", "No such word exists"], "answer": 2 },
-        { "q": "What comes next in the sequence: O, T, T, F, F, S, S, E, N, ___?", "choices": ["T", "E", "O", "N"], "answer": 0 },
-        { "q": "If 5 machines make 5 widgets in 5 minutes, how long does it take 100 machines to make 100 widgets?", "choices": ["100 minutes", "20 minutes", "50 minutes", "5 minutes"], "answer": 3 },
-        { "q": "Is it legal in the US for a man to marry his widow's sister?", "choices": ["Yes, she is not a direct relative", "No — if he has a widow, he must be dead", "It depends on the state", "No, US law prohibits marrying a spouse's sibling"], "answer": 1 },
-        { "q": "You are asked to drive a bus. 3 people board at stop 1, then 7 board and 2 exit at stop 2, then 4 board and 5 exit at stop 3. How old is the bus driver?", "choices": ["7", "Unknown from the given facts", "Your age — you are the bus driver", "17"], "answer": 2 }
+        { "q": "A bat and ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.20", "$0.01", "$0.10", "$0.05"], "answer": 3 },
+        { "q": "The Russian 'October Revolution' of 1917 occurred in which month in the Gregorian calendar?", "choices": ["October", "September", "November", "December"], "answer": 2 },
+        { "q": "8 workers dig 8 ditches in 8 days. How many days does it take 1 worker to dig 1 ditch?", "choices": ["1 day", "64 days", "4 days", "8 days"], "answer": 3 },
+        { "q": "How many times does the letter 'R' appear in the word STRAWBERRY?", "choices": ["3", "2", "1", "4"], "answer": 0 },
+        { "q": "What is the only even prime number?", "choices": ["4", "2", "0", "There is none"], "answer": 1 },
+        { "q": "Counting from 1 to 100, how many times does the digit '9' appear in total?", "choices": ["10", "11", "19", "20"], "answer": 3 },
+        { "q": "'This sentence contains five words.' Is this sentence true or false?", "choices": ["False — sentences cannot be self-referential", "False — it actually contains six words", "True", "False — 'five' doesn't describe the sentence"], "answer": 2 },
+        { "q": "What is the next term in the sequence: 1, 11, 21, 1211, 111221, ___?", "choices": ["312211", "11221122", "1111222111", "221211"], "answer": 0 },
+        { "q": "On a standard clock, what is the exact angle between the hour and minute hands at 3:15?", "choices": ["0° — the hands overlap at 3:15", "7.5°", "15°", "90°"], "answer": 1 },
+        { "q": "How many squares of any size exist on a standard 8×8 chessboard?", "choices": ["64", "128", "204", "256"], "answer": 2 }
       ]
     }
   ]
