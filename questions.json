@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-01",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What shape is a ball?", "choices": ["Circle", "Square", "Triangle", "Rectangle"], "answer": 0 },
-        { "q": "What do you drink when you're thirsty?", "choices": ["Rock", "Sand", "Water", "Paper"], "answer": 2 },
-        { "q": "Which animal goes 'oink'?", "choices": ["Dog", "Cat", "Bird", "Pig"], "answer": 3 },
-        { "q": "How many toes do you have?", "choices": ["10", "5", "15", "20"], "answer": 0 },
-        { "q": "What do you use to eat soup?", "choices": ["Fork", "Spoon", "Knife", "Plate"], "answer": 1 },
-        { "q": "What color is the sun?", "choices": ["Blue", "Yellow", "Green", "Purple"], "answer": 1 },
-        { "q": "What is 3 + 2?", "choices": ["6", "4", "7", "5"], "answer": 3 },
-        { "q": "Which animal lives in the sea?", "choices": ["Elephant", "Fish", "Giraffe", "Rabbit"], "answer": 1 },
-        { "q": "How many legs does a spider have?", "choices": ["4", "6", "8", "10"], "answer": 2 },
-        { "q": "What do bees make?", "choices": ["Milk", "Juice", "Butter", "Honey"], "answer": 3 }
+        { "q": "What color is a fire truck?", "choices": ["Blue", "Green", "Red", "Yellow"], "answer": 2 },
+        { "q": "How many legs does a cat have?", "choices": ["2", "3", "5", "4"], "answer": 3 },
+        { "q": "What do you call a baby dog?", "choices": ["Kitten", "Calf", "Puppy", "Foal"], "answer": 2 },
+        { "q": "What comes after the number 9?", "choices": ["10", "8", "11", "7"], "answer": 0 },
+        { "q": "What do you use to cut paper?", "choices": ["Fork", "Scissors", "Spoon", "Pen"], "answer": 1 },
+        { "q": "What do you wear on your head?", "choices": ["Gloves", "Socks", "Shoes", "Hat"], "answer": 3 },
+        { "q": "What sound does a cat make?", "choices": ["Woof", "Meow", "Moo", "Oink"], "answer": 1 },
+        { "q": "Which of these is a vegetable?", "choices": ["Apple", "Banana", "Carrot", "Orange"], "answer": 2 },
+        { "q": "What is 2 + 3?", "choices": ["4", "6", "3", "5"], "answer": 3 },
+        { "q": "What shape is a wheel?", "choices": ["Square", "Round", "Triangle", "Star"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of France?", "choices": ["London", "Rome", "Paris", "Madrid"], "answer": 2 },
-        { "q": "What is 12 × 12?", "choices": ["144", "132", "148", "124"], "answer": 0 },
-        { "q": "On which continent is Egypt located?", "choices": ["Europe", "Asia", "South America", "Africa"], "answer": 3 },
-        { "q": "What is the chemical symbol for oxygen?", "choices": ["Ox", "O", "O2", "On"], "answer": 1 },
-        { "q": "Which is the tallest mountain in the world?", "choices": ["K2", "Kilimanjaro", "Mount Everest", "Denali"], "answer": 2 },
-        { "q": "What is 25% of 80?", "choices": ["40", "25", "15", "20"], "answer": 3 },
-        { "q": "How many players are on a standard soccer team?", "choices": ["11", "12", "9", "10"], "answer": 0 },
-        { "q": "What is the boiling point of water in Celsius?", "choices": ["80", "100", "90", "110"], "answer": 1 },
-        { "q": "Which planet is known for its prominent rings?", "choices": ["Jupiter", "Neptune", "Uranus", "Saturn"], "answer": 3 },
-        { "q": "Who wrote 'Romeo and Juliet'?", "choices": ["Charles Dickens", "Jane Austen", "William Shakespeare", "Geoffrey Chaucer"], "answer": 2 }
+        { "q": "What is the capital of Japan?", "choices": ["Seoul", "Tokyo", "Beijing", "Osaka"], "answer": 1 },
+        { "q": "How many letters are in the English alphabet?", "choices": ["24", "28", "26", "22"], "answer": 2 },
+        { "q": "What is 7 × 8?", "choices": ["54", "48", "63", "56"], "answer": 3 },
+        { "q": "Which is the largest continent on Earth?", "choices": ["Asia", "Africa", "North America", "Europe"], "answer": 0 },
+        { "q": "What is the chemical symbol for silver?", "choices": ["Si", "Al", "Sv", "Ag"], "answer": 3 },
+        { "q": "What is 30% of 90?", "choices": ["25", "20", "27", "30"], "answer": 2 },
+        { "q": "How many planets are in our solar system?", "choices": ["8", "7", "9", "10"], "answer": 0 },
+        { "q": "In which country is the Eiffel Tower located?", "choices": ["Italy", "Germany", "Spain", "France"], "answer": 3 },
+        { "q": "What is the square root of 144?", "choices": ["10", "12", "11", "13"], "answer": 1 },
+        { "q": "Which sport uses a shuttlecock?", "choices": ["Badminton", "Tennis", "Squash", "Racquetball"], "answer": 0 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the currency of the United Kingdom?", "choices": ["Euro", "Dollar", "Pound Sterling", "Franc"], "answer": 2 },
-        { "q": "In which year did the Berlin Wall fall?", "choices": ["1985", "1989", "1987", "1993"], "answer": 1 },
-        { "q": "Who painted 'The Starry Night'?", "choices": ["Claude Monet", "Paul Gauguin", "Pablo Picasso", "Vincent van Gogh"], "answer": 3 },
-        { "q": "What gas do plants primarily absorb during photosynthesis?", "choices": ["Oxygen", "Carbon Dioxide", "Hydrogen", "Nitrogen"], "answer": 1 },
-        { "q": "What is the capital of Canada?", "choices": ["Toronto", "Vancouver", "Ottawa", "Montreal"], "answer": 2 },
-        { "q": "Who invented the World Wide Web?", "choices": ["Tim Berners-Lee", "Bill Gates", "Steve Jobs", "Linus Torvalds"], "answer": 0 },
-        { "q": "What is the chemical formula for water?", "choices": ["HO", "H₂O₂", "H₃O", "H₂O"], "answer": 3 },
-        { "q": "In which country was Beethoven born?", "choices": ["Austria", "France", "Germany", "Switzerland"], "answer": 2 },
-        { "q": "How many continents are there on Earth?", "choices": ["7", "5", "6", "8"], "answer": 0 },
-        { "q": "What is the atomic number of gold (Au)?", "choices": ["47", "79", "29", "197"], "answer": 1 }
+        { "q": "What is the hardest natural substance on Earth?", "choices": ["Granite", "Diamond", "Corundum", "Quartz"], "answer": 1 },
+        { "q": "In which year did the Titanic sink?", "choices": ["1910", "1916", "1912", "1914"], "answer": 2 },
+        { "q": "Who wrote 'Hamlet'?", "choices": ["Christopher Marlowe", "Ben Jonson", "John Milton", "William Shakespeare"], "answer": 3 },
+        { "q": "What is the capital city of Argentina?", "choices": ["Buenos Aires", "Lima", "Santiago", "Montevideo"], "answer": 0 },
+        { "q": "Who painted the ceiling of the Sistine Chapel?", "choices": ["Raphael", "Michelangelo", "Leonardo da Vinci", "Donatello"], "answer": 1 },
+        { "q": "In which year did the First World War begin?", "choices": ["1912", "1916", "1914", "1918"], "answer": 2 },
+        { "q": "Which blood type is known as the universal donor?", "choices": ["A+", "AB+", "B−", "O−"], "answer": 3 },
+        { "q": "Which planet in our solar system has the fastest rotation?", "choices": ["Jupiter", "Saturn", "Mars", "Neptune"], "answer": 0 },
+        { "q": "Who wrote the novel '1984'?", "choices": ["Aldous Huxley", "George Orwell", "H.G. Wells", "Ray Bradbury"], "answer": 1 },
+        { "q": "What is the SI unit of frequency?", "choices": ["Pascal", "Watt", "Hertz", "Joule"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "The Cauchy-Schwarz inequality states that for vectors u and v in an inner product space:", "choices": ["|⟨u,v⟩| ≥ ‖u‖·‖v‖", "|⟨u,v⟩| = ‖u‖·‖v‖", "|⟨u,v⟩| ≤ ‖u‖ + ‖v‖", "|⟨u,v⟩| ≤ ‖u‖·‖v‖"], "answer": 3 },
-        { "q": "Euler's formula states that for real θ, e^(iθ) =", "choices": ["cos θ + i sin θ", "cos θ − i sin θ", "i cos θ + sin θ", "i(cos θ − sin θ)"], "answer": 0 },
-        { "q": "In RSA, for distinct primes p and q with n = pq, Euler's totient φ(n) equals:", "choices": ["pq − 1", "pq", "(p−1)(q−1)", "p + q − 2"], "answer": 2 },
-        { "q": "The time-dependent Schrödinger equation is:", "choices": ["Ĥψ = Eψ", "iℏ ∂ψ/∂t = Ĥψ", "−iℏ ∂ψ/∂t = Ĥψ", "ℏ² ∂²ψ/∂t² = Ĥψ"], "answer": 1 },
-        { "q": "Shannon entropy H = −∑ pᵢ log₂ pᵢ reaches its maximum of log₂(n) when:", "choices": ["one outcome has probability 1", "H takes a negative value", "the events are statistically independent", "all n outcomes are equally likely"], "answer": 3 },
-        { "q": "The generalized Stokes' theorem states ∫_{∂Ω} ω =", "choices": ["∫_Ω dω", "∫_Ω ∇·ω dΩ", "∮_{∂Ω} |ω| dΩ", "∫_Ω ω²"], "answer": 0 },
-        { "q": "Fermat's Last Theorem, proved by Andrew Wiles in 1995, states:", "choices": ["every even integer > 2 is a sum of two primes", "every integer > 1 has a unique prime factorization", "aⁿ + bⁿ = cⁿ has no positive integer solutions for n > 2", "every polynomial over ℂ has at least one root"], "answer": 2 },
-        { "q": "The Riemann Hypothesis asserts all non-trivial zeros of ζ(s) have real part equal to:", "choices": ["0", "1/2", "1", "π"], "answer": 1 },
-        { "q": "In the Navier-Stokes equations for viscous flow, the term μ∇²v represents:", "choices": ["viscous diffusion of momentum", "the pressure-gradient force", "buoyancy from density differences", "inertial acceleration"], "answer": 0 },
-        { "q": "For a square matrix A, the sum of its eigenvalues (counted with algebraic multiplicity) equals:", "choices": ["the determinant of A", "zero", "the rank of A", "the trace of A"], "answer": 3 }
+        { "q": "The Fundamental Theorem of Calculus (Part 2) states that d/dx ∫_a^x f(t) dt =", "choices": ["F(x) − F(a)", "f(a)", "F(x) (where F is an antiderivative of f)", "f(x)"], "answer": 3 },
+        { "q": "The Lorentz factor γ in special relativity is defined as:", "choices": ["1/√(1 − v²/c²)", "√(1 − v²/c²)", "c/v", "1 − v²/c²"], "answer": 0 },
+        { "q": "The Stefan–Boltzmann law: power radiated per unit area of a black body is proportional to T^n. What is n?", "choices": ["2", "4", "3", "5"], "answer": 1 },
+        { "q": "The rank-nullity theorem states that for a linear map T: V → W, rank(T) + nullity(T) equals:", "choices": ["dim(W)", "dim(W) − rank(T)", "dim(V)", "dim(V) + dim(W)"], "answer": 2 },
+        { "q": "The Biot–Savart law for the magnetic field contribution from current element I d𝐥 is:", "choices": ["d𝐁 = (ε₀/4π) I d𝐥 × r̂/r²", "d𝐁 = (μ₀/4π) I d𝐥 · r̂/r²", "d𝐁 = (μ₀/4π) I d𝐥 × r̂/r³", "d𝐁 = (μ₀/4π) I d𝐥 × r̂/r²"], "answer": 3 },
+        { "q": "Lagrange's theorem in group theory: for a finite group G with subgroup H, |H| must:", "choices": ["divide |G|", "equal |G|/2", "divide |G| − 1", "be a prime number"], "answer": 0 },
+        { "q": "In the Euler–Lagrange equations, the Lagrangian L for a classical system is:", "choices": ["T + V (total energy)", "T − V (kinetic minus potential)", "V − T (potential minus kinetic)", "∂T/∂q̇ (generalised momentum)"], "answer": 1 },
+        { "q": "The Travelling Salesman Problem (optimization version) is:", "choices": ["solvable in polynomial time by Dijkstra's algorithm", "equivalent to 2-SAT and hence in P", "NP-hard", "undecidable by any Turing machine"], "answer": 2 },
+        { "q": "The Berry (geometric) phase for a quantum state adiabatically transported around a closed loop in parameter space is:", "choices": ["always zero for a smooth Hamiltonian", "identical to the dynamic phase for that evolution", "always real and strictly positive", "a real phase factor determined purely by the geometry of the loop"], "answer": 3 },
+        { "q": "A finite group G is solvable if and only if its derived series G⁽⁰⁾ ⊇ G⁽¹⁾ ⊇ … eventually reaches:", "choices": ["{e} (the trivial group)", "a cyclic subgroup", "a subgroup of prime order", "G itself"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A bat and ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.20", "$0.01", "$0.10", "$0.05"], "answer": 3 },
-        { "q": "The Russian 'October Revolution' of 1917 occurred in which month in the Gregorian calendar?", "choices": ["October", "September", "November", "December"], "answer": 2 },
-        { "q": "8 workers dig 8 ditches in 8 days. How many days does it take 1 worker to dig 1 ditch?", "choices": ["1 day", "64 days", "4 days", "8 days"], "answer": 3 },
-        { "q": "How many times does the letter 'R' appear in the word STRAWBERRY?", "choices": ["3", "2", "1", "4"], "answer": 0 },
-        { "q": "What is the only even prime number?", "choices": ["4", "2", "0", "There is none"], "answer": 1 },
-        { "q": "Counting from 1 to 100, how many times does the digit '9' appear in total?", "choices": ["10", "11", "19", "20"], "answer": 3 },
-        { "q": "'This sentence contains five words.' Is this sentence true or false?", "choices": ["False — sentences cannot be self-referential", "False — it actually contains six words", "True", "False — 'five' doesn't describe the sentence"], "answer": 2 },
-        { "q": "What is the next term in the sequence: 1, 11, 21, 1211, 111221, ___?", "choices": ["312211", "11221122", "1111222111", "221211"], "answer": 0 },
-        { "q": "On a standard clock, what is the exact angle between the hour and minute hands at 3:15?", "choices": ["0° — the hands overlap at 3:15", "7.5°", "15°", "90°"], "answer": 1 },
-        { "q": "How many squares of any size exist on a standard 8×8 chessboard?", "choices": ["64", "128", "204", "256"], "answer": 2 }
+        { "q": "Count every 'f' in: 'Finished files are the result of years of scientific study combined with the experience of years.'", "choices": ["3", "4", "5", "6"], "answer": 3 },
+        { "q": "Which US state contains both the easternmost AND westernmost geographic points of the entire United States?", "choices": ["Alaska", "Maine", "Washington", "Hawaii"], "answer": 0 },
+        { "q": "A car travels from A to B at 60 mph and returns at 90 mph. What is the average speed for the entire round trip?", "choices": ["75 mph", "72 mph", "80 mph", "70 mph"], "answer": 1 },
+        { "q": "A snail at the bottom of a 10-metre well climbs 3 m each day and slides back 2 m each night. How many days to escape?", "choices": ["7 days", "10 days", "8 days", "9 days"], "answer": 2 },
+        { "q": "My brother has as many sisters as brothers. My sister has twice as many brothers as sisters. How many children are in the family total?", "choices": ["4", "5", "6", "7"], "answer": 3 },
+        { "q": "A fair die has just rolled a six three times in a row. What is the probability it rolls a six on the very next throw?", "choices": ["1/6 — each roll is independent", "Less than 1/6 — it's overdue for another number", "More than 1/6 — it's on a hot streak", "1/216 — three sixes make a fourth less likely"], "answer": 0 },
+        { "q": "How many birthdays does the average person have?", "choices": ["Their age in years", "One", "365 or 366, depending on the year", "It depends on how long they live"], "answer": 1 },
+        { "q": "What is 1000 + 40 + 1000 + 30 + 1000 + 20 + 1000 + 10?", "choices": ["5000", "4000", "4100", "4500"], "answer": 2 },
+        { "q": "What is the next prime number after 89?", "choices": ["91", "93", "95", "97"], "answer": 3 },
+        { "q": "What is the exact mathematical value of 0.999… (the digit 9 repeating infinitely)?", "choices": ["1", "Less than 1 but infinitely close to it", "A number strictly between 0.9 and 1.0", "0.9 repeating is undefined in standard mathematics"], "answer": 0 }
       ]
     }
   ]
