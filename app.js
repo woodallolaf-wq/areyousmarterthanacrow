@@ -671,6 +671,12 @@
 
     $("home-rewards").addEventListener("click", renderRewards);
 
+    // Visible entry to the Nostia Pivot preview. Always starts the walkthrough,
+    // unlike the hidden tap gesture, which only shows it on a first visit.
+    $("home-pivot").addEventListener("click", function () {
+      if (window.NostiaPivot) window.NostiaPivot.open({ tour: true });
+    });
+
     $("test-back").addEventListener("click", goBack);
     $("test-next").addEventListener("click", goNext);
 

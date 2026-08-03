@@ -173,6 +173,19 @@ body {
   }
 }
 
+/* Secondary entry sitting under the main call to action — present, but never
+   competing with "Take Test". */
+.home-aside {
+  margin-top: clamp(28px, 7vh, 52px);
+  max-width: 480px;
+}
+
+.home-aside-note {
+  font-size: 0.8rem;
+  margin-top: 8px;
+  max-width: 480px;
+}
+
 /* --- Layout helpers --- */
 .top-bar,
 .test-header {

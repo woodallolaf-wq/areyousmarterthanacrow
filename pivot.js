@@ -13,7 +13,21 @@
  * finds the gesture must know immediately that nothing here is real.
  *
  * Zero dependencies, ES5, single IIFE exposing window.NostiaPivot — matching
- * mortar.js so the site stays buildless. */
+ * mortar.js so the site stays buildless.
+ *
+ * LAYOUT: three fixed parts. The preview strip and top bar pin to the top, the
+ * tab bar (plus an optional sticky action bar) pins to the bottom, and only the
+ * middle scrolls. A view returns { title, sub, back, body, action } and never
+ * builds its own chrome.
+ *
+ * LANGUAGE: no view renders a spec term. "geofence", "dwell", "preflight",
+ * "corroboration", "small-n" and the raw run-state names all resolve through
+ * MODE_COPY / friendlyFail / the status writer into ordinary English. If you
+ * add a screen, add the words too — the vocabulary is the feature here.
+ *
+ * DEMO CONTROLS: anything that only exists because this is a fake — position
+ * teleports, the forced judge verdict, tier and subscription switches, data
+ * reset — lives inside demoDrawer(). Nothing fake sits loose in the flow. */
 
 (function () {
   "use strict";
@@ -317,13 +331,9 @@
   };
 
   var DIFFICULTY_POINTS = { easy: 25, medium: 50, advanced: 100 };
+  // The canonical wire values. Everything an admin actually reads comes from
+  // MODE_COPY further down — these names never reach the screen.
   var MODES = ["geo", "photo", "geo_and_photo", "geo_or_photo"];
-  var MODE_LABELS = {
-    geo: "Geofence only",
-    photo: "Photo only",
-    geo_and_photo: "Geofence + photo",
-    geo_or_photo: "Geofence or photo"
-  };
 
   function requiresPhoto(mode) { return mode === "photo" || mode === "geo_and_photo" || mode === "geo_or_photo"; }
   function requiresGeo(mode) { return mode === "geo" || mode === "geo_and_photo" || mode === "geo_or_photo"; }
@@ -940,93 +950,239 @@
   };
 
   // ===========================================================================
+  // Plain-language layer
+  // ===========================================================================
+  // The spec's vocabulary (geofence, dwell, preflight, corroboration, small-n)
+  // is precise and unreadable. Every string an evaluator sees is written in
+  // ordinary words here; the technical term appears once, as an aside, where
+  // knowing it actually helps.
+
+  var MODE_COPY = {
+    geo: {
+      chip: "Be there",
+      title: "Just be there",
+      sub: "Their phone has to sit inside the circle for the whole timer. No photo."
+    },
+    photo: {
+      chip: "Photo only",
+      title: "Just a photo",
+      sub: "Anywhere. The photo has to match your example. Use this when the place has no reliable signal."
+    },
+    geo_and_photo: {
+      chip: "Be there + photo",
+      title: "Be there and take a photo",
+      sub: "Strictest. They must stand there for the timer, then the photo has to match. This is the default."
+    },
+    geo_or_photo: {
+      chip: "Be there or photo",
+      title: "Be there or take a photo",
+      sub: "Either one counts. Forgiving — good for stops where GPS is patchy."
+    }
+  };
+
+  var TIER_BLURB = {
+    trial: "One live adventure, five stops. Enough to prove the idea.",
+    standard: "Five live adventures, fifteen stops each, plus invite codes and QR.",
+    institutional: "No caps, multiple admins, and CSV export of the aggregates."
+  };
+
+  var ICONS = {
+    back:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>',
+    close: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>',
+    help:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.2 9.3a2.8 2.8 0 015.4 1c0 1.9-2.6 2.2-2.6 4"/><path d="M12 17.6h.01"/></svg>',
+    chev:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>',
+    map:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3L3 5.6v15L9 18l6 3 6-2.6v-15L15 6 9 3z"/><path d="M9 3v15M15 6v15"/></svg>',
+    chart: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>',
+    ticket:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M9 5v14"/><path d="M13 9.5h4M13 14.5h4"/></svg>',
+    card:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M2.5 10h19"/><path d="M6.5 15h4"/></svg>',
+    pin:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.1 7-11a7 7 0 10-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>',
+    walk:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="13" cy="4" r="2"/><path d="M11 21l1.5-6L9 12.5 10 8l4 1.5 2.5 2.5"/><path d="M9 21l1.2-4"/><path d="M14.5 15.5L17 21"/></svg>',
+    eye:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"/><circle cx="12" cy="12" r="2.8"/></svg>',
+    caret: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>',
+    warn:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4l9.5 16H2.5L12 4z"/><path d="M12 10v4M12 17.5h.01"/></svg>'
+  };
+
+  // ===========================================================================
   // Shell / router
   // ===========================================================================
 
   var root = null;
+  var scrollNode = null;
   var route = { name: "list", params: {} };
-  var sheet = null;    // open sheet descriptor, or null
-  var runSim = null;   // runner simulation state
+  var sheet = null;      // open sheet descriptor, or null
+  var runSim = null;     // runner simulation state
   var simTimer = null;
+  var drawerOpen = false;
+  var guideIndex = 0;
+  var listScope = "all";
+  var lastRouteKey = null;
+  var escHandler = null;
+
+  var GUIDE_KEY = "np_preview_guide_seen_v1";
+
+  function guideSeen() {
+    try { return localStorage.getItem(GUIDE_KEY) === "1"; } catch (e) { return false; }
+  }
+  function markGuideSeen() {
+    try { localStorage.setItem(GUIDE_KEY, "1"); } catch (e) { /* private mode */ }
+  }
 
   function go(name, params) {
     if (name !== "run") stopSim();
+    if (name !== "stop") stopDraftKey = null;
     route = { name: name, params: params || {} };
     sheet = null;
     render();
   }
 
-  function toast(msg) {
-    var t = el("div", { class: "np-toast", text: msg });
+  function toast(msg, bad) {
+    if (!root) return;
+    var t = el("div", { class: "np-toast" + (bad ? " bad" : ""), text: msg, role: "status" });
     root.appendChild(t);
-    setTimeout(function () { if (t.parentNode) t.parentNode.removeChild(t); }, 2300);
+    setTimeout(function () { if (t.parentNode) t.parentNode.removeChild(t); }, 2400);
   }
 
-  function header(title, sub, backTo) {
-    return el("div", { class: "np-header" }, [
-      backTo ? el("button", {
-        class: "np-btn np-btn-ghost np-btn-sm", text: "←",
-        "aria-label": "Back",
-        on: { click: function () { go(backTo.name, backTo.params); } }
-      }) : null,
-      el("div", { class: "np-title" }, [
-        document.createTextNode(title),
-        sub ? el("div", { class: "np-sub", text: sub }) : null
-      ]),
-      el("button", {
-        class: "np-btn np-btn-ghost np-btn-sm", text: "Close",
-        on: { click: close_ }
-      })
-    ]);
+  function iconBtn(name, label, onClick, extraClass) {
+    return el("button", {
+      class: "np-iconbtn" + (extraClass ? " " + extraClass : ""),
+      html: ICONS[name],
+      "aria-label": label,
+      title: label,
+      on: { click: onClick }
+    });
+  }
+
+  function topbar(cfg) {
+    var bar = el("div", { class: "np-topbar" });
+    if (cfg.back) {
+      bar.appendChild(iconBtn("back", "Back", function () { go(cfg.back.name, cfg.back.params); }));
+    }
+    bar.appendChild(el("div", { class: "np-topbar-title" }, [
+      el("strong", { text: cfg.title }),
+      cfg.sub ? el("span", { text: cfg.sub }) : null
+    ]));
+    bar.appendChild(iconBtn("help", "How this works", function () { openGuide(); }));
+    bar.appendChild(iconBtn("close", "Close preview", close_));
+    return bar;
   }
 
   function tabs() {
     var items = [
-      { id: "list", ico: "▦", label: "Adventures" },
-      { id: "analytics", ico: "◧", label: "Analytics" },
-      { id: "invites", ico: "⌗", label: "Invites" },
-      { id: "billing", ico: "◎", label: "Billing" }
+      { id: "list", ico: "map", label: "Adventures" },
+      { id: "analytics", ico: "chart", label: "Insights" },
+      { id: "invites", ico: "ticket", label: "Invites" },
+      { id: "billing", ico: "card", label: "Plan" }
     ];
     var active = route.name;
     if (active === "editor" || active === "stop" || active === "run") active = "list";
-    return el("div", { class: "np-tabs" }, items.map(function (it) {
+    return el("nav", { class: "np-tabs", "aria-label": "Sections" }, items.map(function (it) {
+      var on = active === it.id;
       return el("button", {
-        class: active === it.id ? "on" : "",
+        class: on ? "on" : "",
+        "aria-current": on ? "page" : null,
         on: { click: function () { go(it.id); } }
       }, [
-        el("span", { class: "np-tab-ico", text: it.ico }),
+        el("span", { html: ICONS[it.ico] }),
         document.createTextNode(it.label)
       ]);
     }));
   }
 
-  function statusPill(status) {
-    return el("span", { class: "np-pill np-pill-" + status, text: status });
-  }
-
-  function field(labelText, control, hint) {
-    return el("div", { class: "np-field" }, [
-      el("label", { class: "np-label", text: labelText }),
-      control,
-      hint ? el("div", { class: "np-hint", text: hint }) : null
+  function sectionHead(title, aside) {
+    return el("div", { class: "np-section" }, [
+      el("h2", { class: "np-section-title", text: title }),
+      aside ? el("span", { class: "np-section-aside", text: aside }) : null
     ]);
   }
 
-  function row(label, value) {
+  function statusPill(status) {
+    var map = { draft: ["np-pill-warn", "In progress"], published: ["np-pill-ok", "Live"], archived: ["", "Retired"] };
+    var m = map[status] || ["", status];
+    return el("span", { class: "np-pill " + m[0], text: m[1] });
+  }
+
+  function field(labelText, control, hint, counterNode) {
+    return el("div", { class: "np-field" }, [
+      el("label", { class: "np-label" }, [
+        document.createTextNode(labelText),
+        counterNode || null
+      ]),
+      hint ? el("div", { class: "np-label-hint", text: hint }) : null,
+      control
+    ]);
+  }
+
+  function row(label, value, sub) {
     return el("div", { class: "np-row" }, [
-      el("span", { class: "np-row-label", text: label }),
+      el("span", { class: "np-row-label" }, [
+        document.createTextNode(label),
+        sub ? el("span", { class: "np-row-sub", text: sub }) : null
+      ]),
       el("span", { class: "np-row-value", text: value })
     ]);
   }
 
   function segmented(options, current, onPick) {
-    return el("div", { class: "np-seg" }, options.map(function (o) {
+    return el("div", { class: "np-seg", role: "tablist" }, options.map(function (o) {
+      var on = o.value === current;
       return el("button", {
-        class: o.value === current ? "on" : "",
+        class: on ? "on" : "",
         text: o.label,
+        role: "tab",
+        "aria-selected": on ? "true" : "false",
         on: { click: function () { onPick(o.value); } }
       });
     }));
+  }
+
+  function toggle(offLabel, onLabel, isOn, onPick) {
+    return el("div", { class: "np-toggle" }, [
+      el("button", { class: isOn ? "" : "on", text: offLabel, on: { click: function () { onPick(false); } } }),
+      el("button", { class: isOn ? "on" : "", text: onLabel, on: { click: function () { onPick(true); } } })
+    ]);
+  }
+
+  function choiceCard(title, sub, on, onPick) {
+    return el("button", {
+      class: "np-choice" + (on ? " on" : ""),
+      role: "radio",
+      "aria-checked": on ? "true" : "false",
+      on: { click: onPick }
+    }, [
+      el("span", { class: "np-choice-dot" }),
+      el("span", { class: "np-choice-body" }, [
+        el("span", { class: "np-choice-title", text: title }),
+        el("span", { class: "np-choice-sub", text: sub })
+      ])
+    ]);
+  }
+
+  /* A collapsible home for every control that only exists because this is a
+     fake. Keeping them out of the flow is the difference between "a product"
+     and "a debug console". */
+  function demoDrawer(note, controls) {
+    var body = el("div", { class: "np-drawer-body" });
+    var head = el("button", {
+      class: "np-drawer-head" + (drawerOpen ? " open" : ""),
+      "aria-expanded": drawerOpen ? "true" : "false",
+      on: {
+        click: function () {
+          drawerOpen = !drawerOpen;
+          render();
+        }
+      }
+    }, [
+      el("span", { html: ICONS.caret }),
+      document.createTextNode("Demo controls")
+    ]);
+
+    var wrap = el("div", { class: "np-drawer" }, [head]);
+    if (drawerOpen) {
+      body.appendChild(el("div", { class: "np-drawer-note", text: note }));
+      controls.forEach(function (c) { if (c) body.appendChild(c); });
+      wrap.appendChild(body);
+    }
+    return wrap;
   }
 
   // ---------------------------------------------------------------------------
@@ -1038,8 +1194,12 @@
   var MAP_SPAN = 0.010; // degrees of latitude across the box
 
   function mapBox(opts) {
-    var box = el("div", { class: "np-map" });
-    var w = 0, h = 170;
+    var box = el("div", {
+      class: "np-map",
+      role: opts.onPick ? "application" : "img",
+      "aria-label": opts.note || "Schematic map"
+    });
+    var w = 0, h = 190;
     var centerLat = opts.centerLat, centerLng = opts.centerLng;
 
     function project(lat, lng) {
@@ -1057,11 +1217,10 @@
       };
     }
 
-    box.appendChild(el("div", { class: "np-map-note", text: opts.note || "Schematic — not a real map" }));
+    box.appendChild(el("div", { class: "np-map-note", text: opts.note || "Sketch, not a real map — tap to move the pin" }));
 
     function paint() {
       w = box.clientWidth || 320;
-      // Remove previously painted markers but keep the note.
       var olds = box.querySelectorAll(".np-map-pin, .np-map-fence, .np-map-me");
       for (var i = 0; i < olds.length; i++) olds[i].parentNode.removeChild(olds[i]);
 
@@ -1078,8 +1237,8 @@
           }));
         }
         box.appendChild(el("div", {
-          class: "np-map-pin",
-          style: "left:" + pt.x + "px;top:" + pt.y + "px" + (p.dim ? ";opacity:.45" : "")
+          class: "np-map-pin" + (p.done ? " done" : ""),
+          style: "left:" + pt.x + "px;top:" + pt.y + "px" + (p.dim ? ";opacity:.4" : "")
         }));
       });
 
@@ -1105,216 +1264,504 @@
   }
 
   // ===========================================================================
-  // VIEW: OrgAdventureListView
+  // Publish checklist — the old UI dumped raw preflight strings into a red box
+  // and only ever showed what was WRONG. This shows the whole list, ticked and
+  // unticked, so an admin can see how close they are.
   // ===========================================================================
 
-  var listFilter = "";
+  function friendlyFail(text) {
+    if (text.indexOf("not approved") !== -1) return "needs your sign-off";
+    if (text.indexOf("missing reference") !== -1) return "needs an example photo";
+    if (text.indexOf("missing coordinate") !== -1) return "needs a spot on the map";
+    if (text.indexOf("radius out of bounds") !== -1) return "circle size is out of range";
+    if (text.indexOf("dwell out of bounds") !== -1) return "time on the spot is out of range";
+    return text;
+  }
+
+  function friendlyGeneral(text) {
+    if (text.indexOf("Subscription is") !== -1) {
+      return { text: "Sort out billing", sub: "Your plan is " + S.subscription.status.replace("_", " ") + ". You can keep editing, but publishing is paused." };
+    }
+    if (text.indexOf("Too many stops") !== -1) {
+      return { text: "Too many stops for this plan", sub: text };
+    }
+    if (text.indexOf("limit reached") !== -1) {
+      return { text: "No room for another live adventure", sub: "Retire one, or move up a plan." };
+    }
+    if (text.indexOf("Already") !== -1) {
+      return { text: "This one is already live", sub: null };
+    }
+    return { text: text, sub: null };
+  }
+
+  /* Returns { items, blocking }. `blocking` is api.preflight()'s own count, so
+     the Publish button can never disagree with what api.publish() will do. */
+  function buildChecklist(adv) {
+    var fails = api.preflight(adv.id);
+    var steps = api.listSteps(adv.id);
+    var byStep = {}, general = [];
+
+    fails.forEach(function (f) {
+      if (f.stepId) (byStep[f.stepId] = byStep[f.stepId] || []).push(f.text);
+      else if (f.text.indexOf("Add at least one stop") === -1) general.push(f.text);
+    });
+
+    var items = [];
+    items.push({
+      done: steps.length > 0,
+      text: "Add at least one stop",
+      sub: steps.length ? steps.length + (steps.length === 1 ? " stop added" : " stops added") : "A tour needs somewhere to go."
+    });
+
+    steps.forEach(function (s) {
+      var probs = byStep[s.id] || [];
+      items.push({
+        done: probs.length === 0,
+        text: "Stop " + s.ord + " · " + (s.title || "Untitled"),
+        sub: probs.length
+          ? probs.map(friendlyFail).join(" · ")
+          : "Ready to go",
+        stepId: s.id
+      });
+    });
+
+    general.forEach(function (t) {
+      var g = friendlyGeneral(t);
+      items.push({ done: false, text: g.text, sub: g.sub });
+    });
+
+    return { items: items, blocking: fails.length };
+  }
+
+  function checklistCard(adv, chk) {
+    var left = 0;
+    chk.items.forEach(function (i) { if (!i.done) left++; });
+    var ready = chk.blocking === 0;
+
+    var card = el("div", { class: "np-checklist" + (ready ? " ready" : "") });
+    card.appendChild(el("div", { class: "np-checklist-head" }, [
+      el("strong", { text: ready ? "Ready to publish" : left + (left === 1 ? " thing left" : " things left") }),
+      el("span", {
+        class: "np-pill " + (ready ? "np-pill-ok" : "np-pill-warn"),
+        text: (chk.items.length - left) + " / " + chk.items.length
+      })
+    ]));
+
+    chk.items.forEach(function (it) {
+      card.appendChild(el("div", { class: "np-check " + (it.done ? "done" : "todo") }, [
+        el("span", { class: "np-check-mark", text: it.done ? "✓" : "", "aria-hidden": "true" }),
+        el("span", { class: "np-check-body" }, [
+          document.createTextNode(it.text),
+          it.sub ? el("span", { class: "np-check-sub", text: it.sub }) : null
+        ]),
+        (!it.done && it.stepId) ? el("button", {
+          class: "np-btn np-btn-ghost np-btn-sm", text: "Open",
+          on: { click: function () { go("stop", { advId: adv.id, stepId: it.stepId }); } }
+        }) : null
+      ]));
+    });
+
+    return card;
+  }
+
+  // ===========================================================================
+  // GUIDE — first-run orientation. The single biggest gap in the old preview:
+  // it opened straight into a list of "adventures" with a tier card and no
+  // explanation of what any of it was.
+  // ===========================================================================
+
+  var GUIDE = [
+    {
+      art: "map",
+      h: "Sponsored Adventures",
+      p: [
+        "An organisation — a museum, a town, a school — builds a walking tour of real places.",
+        "People follow it on their phone, one stop at a time. This screen is the organisation's side of it."
+      ]
+    },
+    {
+      art: "pin",
+      h: "The app proves they actually went",
+      p: [
+        "At each stop the phone checks two things: that it is inside a small circle you drew on the map, and that it stayed there for a moment rather than driving past.",
+        "You can also ask for a photo. It gets compared against an example picture you upload, so a screenshot from the internet will not pass."
+      ]
+    },
+    {
+      art: "chart",
+      h: "You find out where people give up",
+      p: [
+        "The numbers come back as counts and rates — how many started, how many finished, and which stop people stop at.",
+        "Never a name, never a route, never one person's movements. If too few people have walked it, the figure is withheld rather than shown."
+      ]
+    },
+    {
+      art: "eye",
+      h: "This is a preview",
+      p: [
+        "Everything here is invented and lives only in this browser. There is no server, no payment, and nothing is ever sent anywhere.",
+        "Anything that only exists because this is a demo is tucked under a “Demo controls” heading, so the rest reads as the real thing would."
+      ]
+    }
+  ];
+
+  function openGuide() {
+    guideIndex = 0;
+    go("guide");
+  }
+
+  function viewGuide() {
+    var page = GUIDE[guideIndex];
+    var wrap = el("div", { class: "np-guide" });
+
+    wrap.appendChild(el("div", { class: "np-guide-art" }, [el("span", { html: ICONS[page.art] })]));
+    wrap.appendChild(el("h2", { text: page.h }));
+    page.p.forEach(function (t) { wrap.appendChild(el("p", { text: t })); });
+
+    wrap.appendChild(el("div", { class: "np-guide-dots", "aria-hidden": "true" },
+      GUIDE.map(function (_, i) { return el("i", { class: i === guideIndex ? "on" : "" }); })));
+
+    var last = guideIndex === GUIDE.length - 1;
+    var actions = el("div", { class: "np-btn-row" }, [
+      guideIndex > 0 ? el("button", {
+        class: "np-btn np-btn-ghost", text: "Back",
+        on: { click: function () { guideIndex--; render(); } }
+      }) : null,
+      el("button", {
+        class: "np-btn", text: last ? "Start exploring" : "Next",
+        on: {
+          click: function () {
+            if (last) { markGuideSeen(); go("list"); }
+            else { guideIndex++; render(); }
+          }
+        }
+      })
+    ]);
+    wrap.appendChild(actions);
+
+    if (!last) {
+      wrap.appendChild(el("button", {
+        class: "np-btn np-btn-ghost np-btn-block", text: "Skip",
+        style: "margin-top:8px",
+        on: { click: function () { markGuideSeen(); go("list"); } }
+      }));
+    }
+
+    return { chrome: false, body: wrap };
+  }
+
+  // ===========================================================================
+  // VIEW: adventure list — now an orienting home rather than a bare list.
+  // ===========================================================================
+
+  function adventureCard(adv) {
+    var steps = api.listSteps(adv.id);
+    var meta, badge = null;
+
+    if (adv.status === "draft") {
+      var chk = buildChecklist(adv);
+      var left = 0;
+      chk.items.forEach(function (i) { if (!i.done) left++; });
+      meta = steps.length + (steps.length === 1 ? " stop" : " stops") + " · " +
+        (left ? left + (left === 1 ? " thing left" : " things left") : "ready to publish");
+      badge = el("span", {
+        class: "np-pill " + (left ? "np-pill-warn" : "np-pill-ok"),
+        text: left ? "In progress" : "Ready"
+      });
+    } else {
+      meta = steps.length + (steps.length === 1 ? " stop" : " stops") + " · " +
+        adv.estimated_minutes + " min · " + adv.points_award + " points" +
+        (adv.status === "published" ? " · version " + adv.version : "");
+      badge = statusPill(adv.status);
+    }
+
+    return el("button", {
+      class: "np-card np-card-tap",
+      on: { click: function () { go("editor", { id: adv.id }); } }
+    }, [
+      el("div", { class: "np-card-head" }, [
+        el("div", { style: "min-width:0" }, [
+          el("div", { class: "np-card-title", text: adv.title }),
+          el("div", { class: "np-card-meta", text: meta })
+        ]),
+        badge
+      ])
+    ]);
+  }
 
   function viewList() {
     var wrap = el("div", { class: "np-wrap" });
-    wrap.appendChild(header(S.org.name, "Sponsored adventures"));
-
     var limits = api.tier();
     var used = api.publishedCount();
-    wrap.appendChild(el("div", { class: "np-card" }, [
-      el("div", { class: "np-card-head" }, [
-        el("div", {}, [
-          el("div", { class: "np-card-title", text: limits.label + " plan" }),
-          el("div", {
-            class: "np-card-meta",
-            text: used + " of " + (limits.adventures === null ? "unlimited" : limits.adventures) +
-              " published · up to " + (limits.stops === null ? "unlimited" : limits.stops) + " stops each"
-          })
-        ]),
-        el("span", {
-          class: "np-pill " + (S.subscription.status === "active" ? "np-pill-ok" : "np-pill-bad"),
-          text: S.subscription.status
+
+    // --- Hero: says what this is, every time, without being a wall of text.
+    wrap.appendChild(el("div", { class: "np-hero" }, [
+      el("div", { class: "np-hero-eyebrow", text: "Sponsored adventures" }),
+      el("p", { text: "Build a walking tour of real places. People follow it on their phone, the app checks they actually turned up, and you see where they drop off." }),
+      el("div", { class: "np-btn-row" }, [
+        el("button", {
+          class: "np-btn np-btn-ghost np-btn-sm", text: "How it works",
+          on: { click: openGuide }
         })
       ])
     ]));
 
-    wrap.appendChild(segmented([
-      { value: "", label: "All" },
-      { value: "draft", label: "Draft" },
-      { value: "published", label: "Live" },
-      { value: "archived", label: "Archived" }
-    ], listFilter, function (v) { listFilter = v; render(); }));
-
-    var list = api.listAdventures(listFilter);
-    if (!list.length) {
-      wrap.appendChild(el("div", { class: "np-empty", text: "Nothing here yet." }));
-    }
-    list.forEach(function (adv) {
-      var steps = api.listSteps(adv.id);
-      var approved = steps.filter(function (s) { return !!s.approved_at; }).length;
-      wrap.appendChild(el("button", { class: "np-card np-card-tap", on: { click: function () { go("editor", { id: adv.id }); } } }, [
-        el("div", { class: "np-card-head" }, [
-          el("div", {}, [
-            el("div", { class: "np-card-title", text: adv.title }),
-            el("div", {
-              class: "np-card-meta",
-              text: steps.length + " stops · " + approved + " approved · " +
-                adv.difficulty + " · " + adv.points_award + " pts" +
-                (adv.status === "published" ? " · v" + adv.version : "")
-            })
-          ]),
-          statusPill(adv.status)
-        ])
-      ]));
+    var drafts = [], live = [], retired = [];
+    S.adventures.forEach(function (a) {
+      if (a.status === "draft") drafts.push(a);
+      else if (a.status === "published") live.push(a);
+      else retired.push(a);
     });
 
-    wrap.appendChild(el("button", {
-      class: "np-btn np-btn-block", text: "New adventure",
-      on: { click: function () { openCreateSheet(); } }
-    }));
+    if (!S.adventures.length) {
+      wrap.appendChild(el("div", { class: "np-empty", text: "No adventures yet. Start with the button below." }));
+    }
 
-    wrap.appendChild(el("div", { class: "np-note", text: "Everything in this preview is mock data held in your browser. Nothing is sent anywhere." }));
-    wrap.appendChild(el("button", {
-      class: "np-btn np-btn-ghost np-btn-sm", text: "Reset preview data",
-      on: { click: function () { resetData(); go("list"); toast("Preview data reset"); } }
-    }));
+    if (drafts.length) {
+      wrap.appendChild(sectionHead("Still being built", drafts.length + " draft" + (drafts.length === 1 ? "" : "s")));
+      drafts.forEach(function (a) { wrap.appendChild(adventureCard(a)); });
+    }
 
-    return wrap;
+    if (live.length) {
+      wrap.appendChild(sectionHead("Live now", used + " of " +
+        (limits.adventures === null ? "unlimited" : limits.adventures) + " allowed"));
+      live.forEach(function (a) { wrap.appendChild(adventureCard(a)); });
+    }
+
+    if (retired.length) {
+      wrap.appendChild(sectionHead("Retired"));
+      retired.forEach(function (a) { wrap.appendChild(adventureCard(a)); });
+    }
+
+    // --- Plan summary, demoted to a quiet row now that it is not the headline.
+    wrap.appendChild(sectionHead("Your plan"));
+    wrap.appendChild(el("div", { class: "np-rows" }, [
+      row("Plan", limits.label, TIER_BLURB[S.subscription.tier]),
+      row("Live adventures", used + " of " + (limits.adventures === null ? "∞" : limits.adventures)),
+      row("Stops allowed", limits.stops === null ? "No limit" : "Up to " + limits.stops)
+    ]));
+
+    if (S.subscription.status !== "active") {
+      wrap.appendChild(el("div", { class: "np-note" }, [
+        el("strong", { text: "Billing needs attention. " }),
+        document.createTextNode("You can still edit and people can still walk what is already live — nothing goes dark because a card failed. New publishing is paused until it is sorted.")
+      ]));
+    }
+
+    wrap.appendChild(demoDrawer(
+      "None of this exists in the real product. It is here so you can push the preview into states that would otherwise take weeks to reach.",
+      [
+        el("button", {
+          class: "np-btn np-btn-ghost np-btn-block", text: "Reset preview data",
+          on: { click: function () { resetData(); go("list"); toast("Preview data reset"); } }
+        }),
+        el("button", {
+          class: "np-btn np-btn-ghost np-btn-block", text: "Replay the intro",
+          style: "margin-top:8px",
+          on: { click: openGuide }
+        })
+      ]
+    ));
+
+    return {
+      title: S.org.name,
+      sub: "Adventure builder",
+      body: wrap,
+      action: el("button", {
+        class: "np-btn np-btn-block", text: "New adventure",
+        on: { click: openCreateSheet }
+      })
+    };
   }
 
   function openCreateSheet() {
     var titleIn = el("input", { class: "np-input", placeholder: "Riverside history walk", maxlength: 80 });
-    var descIn = el("textarea", { class: "np-textarea", placeholder: "One or two lines for the runner." });
+    var descIn = el("textarea", { class: "np-textarea", placeholder: "One or two lines a walker will read before they set off." });
     var diff = "easy";
-    var diffSeg = el("div");
+    var diffHolder = el("div");
+
     function paintDiff() {
-      clear(diffSeg);
-      diffSeg.appendChild(segmented([
-        { value: "easy", label: "Easy 25" },
-        { value: "medium", label: "Medium 50" },
-        { value: "advanced", label: "Advanced 100" }
-      ], diff, function (v) { diff = v; paintDiff(); }));
+      clear(diffHolder);
+      diffHolder.appendChild(el("div", { class: "np-choices", role: "radiogroup" }, [
+        choiceCard("Easy · 25 points", "A short stroll. Two or three stops.", diff === "easy",
+          function () { diff = "easy"; paintDiff(); }),
+        choiceCard("Medium · 50 points", "Half an hour or so of walking.", diff === "medium",
+          function () { diff = "medium"; paintDiff(); }),
+        choiceCard("Hard · 100 points", "A proper outing. Worth the most.", diff === "advanced",
+          function () { diff = "advanced"; paintDiff(); })
+      ]));
     }
     paintDiff();
 
     sheet = {
       title: "New adventure",
+      sub: "You can change all of this later. Nothing goes live until you publish it.",
       body: [
-        field("Title", titleIn),
-        field("Description", descIn),
-        field("Difficulty", diffSeg, "Difficulty caps the points award (25 / 50 / 100)."),
+        field("What is it called?", titleIn),
+        field("Describe it", descIn, "Shown to people before they start."),
+        field("How much work is it?", diffHolder, "This sets the points. The app only ever awards 25, 50 or 100."),
         el("button", {
-          class: "np-btn np-btn-block", text: "Create draft",
+          class: "np-btn np-btn-block", text: "Create it",
+          style: "margin-top:4px",
           on: {
             click: function () {
               var t = titleIn.value.trim();
-              if (!t) { toast("Give it a title"); return; }
+              if (!t) { toast("Give it a name first", true); titleIn.focus(); return; }
               var res = api.createAdventure({
                 title: t, description: descIn.value.trim(),
                 difficulty: diff, points_award: DIFFICULTY_POINTS[diff]
               });
-              if (res.error) { toast(res.error); return; }
+              if (res.error) { toast(res.error, true); return; }
               go("editor", { id: res.adventure.id });
-              toast("Draft created");
+              toast("Created — now add some stops");
             }
           }
         })
       ]
     };
     render();
+    setTimeout(function () { titleIn.focus(); }, 60);
   }
 
   // ===========================================================================
-  // VIEW: OrgAdventureEditorView
+  // VIEW: adventure editor — the workflow is now stated up front instead of
+  // being discovered by hitting a wall of red text.
   // ===========================================================================
+
+  function phaseStrip(adv, steps, chk) {
+    var described = !!(adv.title && adv.description);
+    var hasStops = steps.length > 0;
+    var isLive = adv.status === "published";
+    var phases = [
+      { n: "Step 1", label: "Describe", done: described },
+      { n: "Step 2", label: "Add stops", done: hasStops },
+      { n: "Step 3", label: "Publish", done: isLive }
+    ];
+    var nowIdx = -1;
+    for (var i = 0; i < phases.length; i++) { if (!phases[i].done) { nowIdx = i; break; } }
+    if (isLive) nowIdx = -1;
+
+    return el("div", { class: "np-steps" }, phases.map(function (p, i) {
+      return el("div", {
+        class: "np-steps-item" + (p.done ? " done" : (i === nowIdx ? " now" : ""))
+      }, [
+        el("div", { class: "np-steps-n", text: p.done ? "Done" : p.n }),
+        el("div", { class: "np-steps-label", text: p.label })
+      ]);
+    }));
+  }
+
+  function stopRow(adv, s, isDraft) {
+    var needsPhoto = requiresPhoto(s.verification_mode);
+    var needsGeo = requiresGeo(s.verification_mode);
+    var dots = [];
+
+    if (needsGeo) {
+      var hasCoord = s.lat !== null && isFinite(s.lat);
+      dots.push(el("span", { class: "np-ready-dot " + (hasCoord ? "ok" : "no"), text: hasCoord ? "On the map" : "No location" }));
+    }
+    if (needsPhoto) {
+      dots.push(el("span", {
+        class: "np-ready-dot " + (s.reference_image_url ? "ok" : "no"),
+        text: s.reference_image_url ? "Example photo" : "No example photo"
+      }));
+    }
+    dots.push(el("span", {
+      class: "np-ready-dot " + (s.approved_at ? "ok" : "no"),
+      text: s.approved_at ? "Signed off" : "Not signed off"
+    }));
+
+    var meta = MODE_COPY[s.verification_mode].chip;
+    if (needsGeo && s.geofence_radius_m) meta += " · " + s.geofence_radius_m + " m circle";
+    meta += " · " + s.dwell_seconds + "s on the spot";
+
+    return el("button", {
+      class: "np-stop",
+      on: { click: function () { go("stop", { advId: adv.id, stepId: s.id }); } }
+    }, [
+      el("div", { class: "np-stop-ord " + (s.approved_at ? "done" : ""), text: s.approved_at ? "✓" : String(s.ord) }),
+      el("div", { class: "np-stop-body" }, [
+        el("div", { class: "np-stop-title", text: s.title || "Untitled stop" }),
+        el("div", { class: "np-stop-meta", text: meta }),
+        isDraft ? el("div", { class: "np-ready" }, dots) : null
+      ]),
+      el("span", { class: "np-stop-chev", html: ICONS.chev })
+    ]);
+  }
 
   function viewEditor() {
     var adv = api.getAdventure(route.params.id);
-    if (!adv) { go("list"); return el("div"); }
+    if (!adv) { go("list"); return { title: "", body: el("div") }; }
+
     var isDraft = adv.status === "draft";
     var steps = api.listSteps(adv.id);
-
+    var chk = isDraft ? buildChecklist(adv) : null;
     var wrap = el("div", { class: "np-wrap" });
-    wrap.appendChild(header(adv.title, adv.status + (adv.version ? " · v" + adv.version : ""), { name: "list" }));
 
-    // §11: preflight failures shown INLINE in the editor.
     if (isDraft) {
-      var fails = api.preflight(adv.id);
-      if (fails.length) {
-        wrap.appendChild(el("div", { class: "np-preflight" }, [
-          el("div", { class: "np-preflight-title", text: "Cannot publish yet — " + fails.length + " to fix" }),
-          el("ul", {}, fails.map(function (f) {
-            return el("li", {}, [
-              document.createTextNode("• " + f.text),
-              f.stepId ? el("button", {
-                class: "np-btn np-btn-ghost np-btn-sm", text: "Fix",
-                style: "margin-left:8px",
-                on: { click: function () { go("stop", { advId: adv.id, stepId: f.stepId }); } }
-              }) : null
-            ]);
-          }))
-        ]));
-      } else {
-        wrap.appendChild(el("div", { class: "np-card" }, [
-          el("span", { class: "np-pill np-pill-ok", text: "preflight clean" })
-        ]));
-      }
+      wrap.appendChild(phaseStrip(adv, steps, chk));
+      wrap.appendChild(checklistCard(adv, chk));
+    } else if (adv.status === "published") {
+      wrap.appendChild(el("div", { class: "np-note" }, [
+        el("strong", { text: "This one is live. " }),
+        document.createTextNode("Live adventures cannot be edited — someone may be halfway through one right now, and a printed QR code out in the world points at this version. Make a new draft instead; walkers already under way keep the version they started.")
+      ]));
     }
 
-    // --- Metadata
-    wrap.appendChild(el("div", { class: "np-section-title", text: "Details" }));
+    // --- Details
+    wrap.appendChild(sectionHead("The basics"));
+
     if (isDraft) {
       var titleIn = el("input", { class: "np-input", value: adv.title, maxlength: 80 });
       var descIn = el("textarea", { class: "np-textarea" });
       descIn.value = adv.description || "";
       var minsIn = el("input", { class: "np-input", type: "number", value: adv.estimated_minutes, min: 5, max: 600 });
 
+      wrap.appendChild(field("Name", titleIn));
+      wrap.appendChild(field("Description", descIn, "Shown to people before they start."));
+      wrap.appendChild(field("Roughly how long?", minsIn, "In minutes. A guide, not a limit."));
+
       var diffHolder = el("div");
       function paintDiff2() {
         clear(diffHolder);
-        diffHolder.appendChild(segmented([
-          { value: "easy", label: "Easy" },
-          { value: "medium", label: "Medium" },
-          { value: "advanced", label: "Advanced" }
-        ], adv.difficulty, function (v) {
-          api.updateAdventure(adv.id, { difficulty: v, points_award: DIFFICULTY_POINTS[v] });
-          render();
-        }));
+        diffHolder.appendChild(el("div", { class: "np-choices", role: "radiogroup" }, [
+          choiceCard("Easy · 25 points", "A short stroll.", adv.difficulty === "easy", function () { setDiff("easy"); }),
+          choiceCard("Medium · 50 points", "Half an hour or so.", adv.difficulty === "medium", function () { setDiff("medium"); }),
+          choiceCard("Hard · 100 points", "A proper outing.", adv.difficulty === "advanced", function () { setDiff("advanced"); })
+        ]));
+      }
+      function setDiff(v) {
+        api.updateAdventure(adv.id, { difficulty: v, points_award: DIFFICULTY_POINTS[v] });
+        render();
       }
       paintDiff2();
+      wrap.appendChild(field("How much work is it?", diffHolder, "Sets the points. Saved as soon as you pick."));
 
-      wrap.appendChild(field("Title", titleIn));
-      wrap.appendChild(field("Description", descIn));
-      wrap.appendChild(field("Difficulty", diffHolder,
-        "Points are clamped server-side to 25 / 50 / 100 — currently " + adv.points_award + "."));
-      wrap.appendChild(field("Estimated minutes", minsIn));
-
-      wrap.appendChild(el("div", { class: "np-card" }, [
+      wrap.appendChild(el("div", { class: "np-rows" }, [
         el("div", { class: "np-row" }, [
-          el("span", { class: "np-row-label", text: "Requires membership" }),
-          el("button", {
-            class: "np-btn np-btn-ghost np-btn-sm",
-            text: adv.requires_membership ? "Member-only" : "Open to anyone",
-            on: {
-              click: function () {
-                api.updateAdventure(adv.id, { requires_membership: adv.requires_membership ? 0 : 1 });
-                render();
-              }
-            }
+          el("span", { class: "np-row-label" }, [
+            document.createTextNode("Who can walk it"),
+            el("span", { class: "np-row-sub", text: adv.requires_membership ? "Members of your organisation only" : "Anyone who finds it" })
+          ]),
+          toggle("Anyone", "Members", !!adv.requires_membership, function (on) {
+            api.updateAdventure(adv.id, { requires_membership: on ? 1 : 0 });
+            render();
           })
         ]),
         el("div", { class: "np-row" }, [
-          el("span", { class: "np-row-label", text: "Stop order" }),
-          el("button", {
-            class: "np-btn np-btn-ghost np-btn-sm",
-            text: adv.unordered ? "Any order" : "In order",
-            on: {
-              click: function () {
-                api.updateAdventure(adv.id, { unordered: adv.unordered ? 0 : 1 });
-                render();
-              }
-            }
+          el("span", { class: "np-row-label" }, [
+            document.createTextNode("Stop order"),
+            el("span", { class: "np-row-sub", text: adv.unordered ? "Any stop, any time" : "Must be done front to back" })
+          ]),
+          toggle("In order", "Any order", !!adv.unordered, function (on) {
+            api.updateAdventure(adv.id, { unordered: on ? 1 : 0 });
+            render();
           })
         ])
       ]));
 
       wrap.appendChild(el("button", {
-        class: "np-btn np-btn-ghost np-btn-sm", text: "Save details",
+        class: "np-btn np-btn-ghost np-btn-block", text: "Save the basics",
         on: {
           click: function () {
             var res = api.updateAdventure(adv.id, {
@@ -1322,128 +1769,128 @@
               description: descIn.value.trim(),
               estimated_minutes: parseInt(minsIn.value, 10) || adv.estimated_minutes
             });
-            if (res.error) { toast(res.error); return; }
+            if (res.error) { toast(res.error, true); return; }
             render();
             toast("Saved");
           }
         }
       }));
     } else {
-      wrap.appendChild(el("div", { class: "np-card" }, [
-        row("Difficulty", adv.difficulty),
-        row("Points", String(adv.points_award)),
-        row("Access", adv.requires_membership ? "Member-only" : "Open"),
-        row("Order", adv.unordered ? "Any order" : "In order"),
+      wrap.appendChild(el("div", { class: "np-rows" }, [
+        row("Effort", adv.difficulty === "advanced" ? "Hard" : (adv.difficulty === "medium" ? "Medium" : "Easy"), adv.points_award + " points"),
+        row("Roughly", adv.estimated_minutes + " min"),
+        row("Who can walk it", adv.requires_membership ? "Members only" : "Anyone"),
+        row("Stop order", adv.unordered ? "Any order" : "In order"),
         row("Version", "v" + adv.version)
       ]));
-      wrap.appendChild(el("div", { class: "np-note", text: "A published adventure is immutable. Revise it to create a new draft version — in-flight runs keep the version they started on." }));
     }
 
     // --- Stops
-    wrap.appendChild(el("div", { class: "np-section-title", text: "Stops (" + steps.length + ")" }));
-    if (!steps.length) wrap.appendChild(el("div", { class: "np-empty", text: "No stops yet." }));
-
-    steps.forEach(function (s) {
-      var problems = [];
-      if (!s.approved_at) problems.push("unapproved");
-      if (requiresPhoto(s.verification_mode) && !s.reference_image_url) problems.push("no reference");
-      wrap.appendChild(el("button", {
-        class: "np-stop",
-        on: { click: function () { go("stop", { advId: adv.id, stepId: s.id }); } }
-      }, [
-        el("div", { class: "np-stop-ord " + (s.approved_at ? "done" : ""), text: String(s.ord) }),
-        el("div", { class: "np-stop-body" }, [
-          el("div", { class: "np-stop-title", text: s.title || "Untitled stop" }),
-          el("div", {
-            class: "np-stop-meta",
-            text: MODE_LABELS[s.verification_mode] +
-              (s.geofence_radius_m ? " · " + s.geofence_radius_m + " m" : "") +
-              " · " + s.dwell_seconds + " s" +
-              (s.draft_source !== "human" ? " · " + s.draft_source : "")
-          }),
-          problems.length
-            ? el("div", { style: "margin-top:6px" }, problems.map(function (p) {
-                return el("span", { class: "np-pill np-pill-bad", text: p, style: "margin-right:5px" });
-              }))
-            : el("div", { style: "margin-top:6px" }, [el("span", { class: "np-pill np-pill-ok", text: "approved" })])
-        ])
-      ]));
-    });
+    wrap.appendChild(sectionHead("Stops", steps.length ? steps.length + " on the route" : null));
+    if (!steps.length) {
+      wrap.appendChild(el("div", { class: "np-empty", text: "No stops yet. A stop is one place someone has to physically go." }));
+    }
+    steps.forEach(function (s) { wrap.appendChild(stopRow(adv, s, isDraft)); });
 
     if (isDraft) {
-      wrap.appendChild(el("div", { class: "np-btn-row" }, [
+      wrap.appendChild(el("div", { class: "np-btn-row", style: "margin-top:10px" }, [
         el("button", {
-          class: "np-btn np-btn-ghost", text: "Add stop",
+          class: "np-btn np-btn-ghost", text: "Add a stop",
           on: { click: function () { go("stop", { advId: adv.id, stepId: null }); } }
         }),
         el("button", {
-          class: "np-btn np-btn-ghost", text: "✦ Draft with assistant",
+          class: "np-btn np-btn-ghost", text: "✦ Draft some for me",
           on: { click: function () { openAssistSheet(adv.id); } }
         })
       ]));
     }
 
-    // --- Actions
-    wrap.appendChild(el("div", { class: "np-section-title", text: "Actions" }));
-    var actions = [];
-    if (isDraft) {
-      var clean = api.preflight(adv.id).length === 0;
-      actions.push(el("button", {
-        class: "np-btn np-btn-block", text: "Publish", disabled: !clean,
-        on: {
-          click: function () {
-            var res = api.publish(adv.id);
-            if (res.error) { toast(res.error); render(); return; }
-            render();
-            toast("Published as v" + res.adventure.version);
-          }
-        }
-      }));
-      if (!clean) actions.push(el("div", { class: "np-hint", text: "Publish unlocks when every item above is fixed." }));
-    }
+    // --- Secondary actions for a live adventure
     if (adv.status === "published") {
-      actions.push(el("button", {
-        class: "np-btn np-btn-block", text: "Preview as runner",
-        on: { click: function () { go("run", { id: adv.id }); } }
+      wrap.appendChild(sectionHead("What you can do"));
+      wrap.appendChild(el("button", {
+        class: "np-btn np-btn-ghost np-btn-block", text: "See the numbers",
+        style: "margin-bottom:8px",
+        on: { click: function () { go("analytics", { id: adv.id }); } }
       }));
-      actions.push(el("button", {
-        class: "np-btn np-btn-ghost np-btn-block", text: "Create revision",
+      wrap.appendChild(el("button", {
+        class: "np-btn np-btn-ghost np-btn-block", text: "Make a new draft from this",
+        style: "margin-bottom:8px",
         on: {
           click: function () {
             var res = api.revise(adv.id);
-            if (res.error) { toast(res.error); return; }
+            if (res.error) { toast(res.error, true); return; }
             go("editor", { id: res.adventure.id });
-            toast("New draft created — approvals cleared");
+            toast("New draft made — every stop needs signing off again");
           }
         }
       }));
-      actions.push(el("button", {
-        class: "np-btn np-btn-ghost np-btn-block", text: "View analytics",
-        on: { click: function () { go("analytics", { id: adv.id }); } }
+      wrap.appendChild(el("button", {
+        class: "np-btn np-btn-danger np-btn-block", text: "Retire it",
+        on: {
+          click: function () {
+            api.archive(adv.id);
+            render();
+            toast("Retired — anyone mid-walk can still finish");
+          }
+        }
       }));
-      actions.push(el("button", {
-        class: "np-btn np-btn-danger np-btn-block", text: "Archive",
-        on: { click: function () { api.archive(adv.id); render(); toast("Archived — in-flight runs continue"); } }
-      }));
+      wrap.appendChild(el("div", { class: "np-hint", text: "Retiring hides it from new walkers. It does not interrupt anyone already out there." }));
     }
-    actions.forEach(function (a) { wrap.appendChild(a); });
 
-    return wrap;
+    if (adv.status === "archived") {
+      wrap.appendChild(el("div", { class: "np-note", text: "This adventure is retired. It no longer appears to walkers." }));
+    }
+
+    // --- Sticky action
+    var action = null;
+    if (isDraft) {
+      var clean = chk.blocking === 0;
+      action = el("div", {}, [
+        el("button", {
+          class: "np-btn np-btn-block", text: "Publish it", disabled: !clean,
+          on: {
+            click: function () {
+              var res = api.publish(adv.id);
+              if (res.error) { toast(res.error, true); render(); return; }
+              render();
+              toast("Live now, as version " + res.adventure.version);
+            }
+          }
+        }),
+        !clean ? el("div", { class: "np-hint", text: "Publishing unlocks when the checklist at the top is clear." }) : null
+      ]);
+    } else if (adv.status === "published") {
+      action = el("button", {
+        class: "np-btn np-btn-block", text: "Try it as a walker",
+        on: { click: function () { go("run", { id: adv.id }); } }
+      });
+    }
+
+    return {
+      title: adv.title,
+      sub: isDraft ? "Draft" : (adv.status === "published" ? "Live · version " + adv.version : "Retired"),
+      back: { name: "list" },
+      body: wrap,
+      action: action
+    };
   }
 
   // ===========================================================================
-  // VIEW: OrgStopEditorView
+  // VIEW: stop editor
   // ===========================================================================
+  // The draft lives outside the render cycle so that typing survives a
+  // re-render. In the old version, hitting Approve rebuilt the view from the
+  // saved record and silently threw away whatever was in the fields.
 
-  function viewStopEditor() {
-    var advId = route.params.advId;
-    var adv = api.getAdventure(advId);
-    var existing = route.params.stepId ? api.getStep(route.params.stepId) : null;
-    if (!adv) { go("list"); return el("div"); }
+  var stopDraft = null;
+  var stopDraftKey = null;
 
-    // Working copy — nothing is written until Save, so the approval-clearing
-    // rule fires exactly once, on an actual edit.
-    var draft = existing ? {
+  function ensureStopDraft(advId, existing) {
+    var key = advId + ":" + (existing ? existing.id : "new");
+    if (stopDraftKey === key && stopDraft) return stopDraft;
+    stopDraftKey = key;
+    stopDraft = existing ? {
       title: existing.title, text: existing.text, verify_criterion: existing.verify_criterion,
       verification_mode: existing.verification_mode, lat: existing.lat, lng: existing.lng,
       geofence_radius_m: existing.geofence_radius_m || 60, dwell_seconds: existing.dwell_seconds
@@ -1451,188 +1898,207 @@
       title: "", text: "", verify_criterion: "", verification_mode: "geo_and_photo",
       lat: BASE_LAT, lng: BASE_LNG, geofence_radius_m: 60, dwell_seconds: 90
     };
+    return stopDraft;
+  }
 
+  function countedField(labelText, hint, value, maxChars, onInput) {
+    var counter = el("span", { class: "np-counter", text: value.length + "/" + maxChars });
+    var ta = el("textarea", { class: "np-textarea", maxlength: maxChars });
+    ta.value = value;
+    ta.addEventListener("input", function () {
+      counter.textContent = ta.value.length + "/" + maxChars;
+      onInput(ta.value);
+    });
+    return field(labelText, ta, hint, counter);
+  }
+
+  function viewStopEditor() {
+    var advId = route.params.advId;
+    var adv = api.getAdventure(advId);
+    if (!adv) { go("list"); return { title: "", body: el("div") }; }
+
+    var existing = route.params.stepId ? api.getStep(route.params.stepId) : null;
+    var draft = ensureStopDraft(advId, existing);
     var wrap = el("div", { class: "np-wrap" });
-    wrap.appendChild(header(existing ? "Stop " + existing.ord : "New stop",
-      adv.title, { name: "editor", params: { id: advId } }));
 
     if (existing && existing.approved_at) {
-      wrap.appendChild(el("div", { class: "np-card" }, [
-        el("span", { class: "np-pill np-pill-ok", text: "approved" }),
-        el("div", { class: "np-hint", text: "Saving any change here clears this approval. That is deliberate — approval is per-version of the text a human actually read." })
+      wrap.appendChild(el("div", { class: "np-note" }, [
+        el("strong", { text: "Signed off. " }),
+        document.createTextNode("Change anything here and the sign-off comes off again. That is on purpose — a sign-off means a person read this exact wording, so it cannot survive an edit.")
       ]));
     }
 
-    var titleIn = el("input", { class: "np-input", value: draft.title, maxlength: BOUNDS.titleChars });
-    wrap.appendChild(field("Stop name", titleIn));
+    // --- 1. What people do here
+    wrap.appendChild(sectionHead("1 · What people do here"));
 
-    var textIn = el("textarea", { class: "np-textarea", maxlength: BOUNDS.textChars });
-    textIn.value = draft.text;
-    var textCount = el("span", { class: "np-counter", text: draft.text.length + "/" + BOUNDS.textChars });
-    textIn.addEventListener("input", function () {
-      textCount.textContent = textIn.value.length + "/" + BOUNDS.textChars;
-    });
-    var textLabel = el("label", { class: "np-label" }, [document.createTextNode("Instruction"), textCount]);
-    wrap.appendChild(el("div", { class: "np-field" }, [textLabel, textIn]));
+    var titleIn = el("input", { class: "np-input", value: draft.title, maxlength: BOUNDS.titleChars, placeholder: "The old mill" });
+    titleIn.addEventListener("input", function () { draft.title = titleIn.value; });
+    wrap.appendChild(field("Name of this stop", titleIn));
 
-    var critIn = el("textarea", { class: "np-textarea", maxlength: BOUNDS.criterionChars });
-    critIn.value = draft.verify_criterion;
-    var critCount = el("span", { class: "np-counter", text: draft.verify_criterion.length + "/" + BOUNDS.criterionChars });
-    critIn.addEventListener("input", function () {
-      critCount.textContent = critIn.value.length + "/" + BOUNDS.criterionChars;
-    });
-    var critLabel = el("label", { class: "np-label" }, [document.createTextNode("Verify criterion"), critCount]);
-    wrap.appendChild(el("div", { class: "np-field" }, [
-      critLabel, critIn,
-      el("div", { class: "np-hint", text: "What a correct photo should visibly contain. Concrete and checkable beats subjective." })
-    ]));
+    wrap.appendChild(countedField(
+      "What should they do?",
+      "The instruction they read when they get near. Keep it to a sentence.",
+      draft.text, BOUNDS.textChars,
+      function (v) { draft.text = v; }
+    ));
 
-    // --- Verification mode
-    var modeHolder = el("div");
-    var mapHolder = el("div");
-    var radiusHolder = el("div");
+    // --- 2. How it gets proved
+    wrap.appendChild(sectionHead("2 · How you know they went"));
 
-    function paintMap() {
-      clear(mapHolder);
-      if (!requiresGeo(draft.verification_mode)) {
-        mapHolder.appendChild(el("div", { class: "np-note", text: "Photo-only stops need no coordinate." }));
-        return;
-      }
-      mapHolder.appendChild(el("label", { class: "np-label", text: "Location — tap to move the pin" }));
-      mapHolder.appendChild(mapBox({
-        centerLat: draft.lat || BASE_LAT, centerLng: draft.lng || BASE_LNG,
-        pins: [{ lat: draft.lat, lng: draft.lng, radius: draft.geofence_radius_m }],
-        onPick: function (lat, lng) { draft.lat = lat; draft.lng = lng; paintMap(); }
-      }));
-      mapHolder.appendChild(el("div", {
-        class: "np-hint np-mono",
-        text: draft.lat.toFixed(5) + ", " + draft.lng.toFixed(5)
-      }));
-    }
-
-    function paintRadius() {
-      clear(radiusHolder);
-      if (!requiresGeo(draft.verification_mode)) return;
-      var rIn = el("input", {
-        class: "np-range", type: "range",
-        min: BOUNDS.radiusMin, max: BOUNDS.radiusMax, value: draft.geofence_radius_m, step: 5
-      });
-      var rLab = el("div", { class: "np-hint", text: draft.geofence_radius_m + " m geofence" });
-      rIn.addEventListener("input", function () {
-        draft.geofence_radius_m = parseInt(rIn.value, 10);
-        rLab.textContent = draft.geofence_radius_m + " m geofence";
-        paintMap();
-      });
-      radiusHolder.appendChild(el("div", { class: "np-field" }, [
-        el("label", { class: "np-label", text: "Geofence radius" }), rIn, rLab
-      ]));
-
-      var dIn = el("input", {
-        class: "np-range", type: "range",
-        min: BOUNDS.dwellMin, max: 300, value: draft.dwell_seconds, step: 5
-      });
-      var dLab = el("div", { class: "np-hint", text: draft.dwell_seconds + " s continuous presence" });
-      dIn.addEventListener("input", function () {
-        draft.dwell_seconds = parseInt(dIn.value, 10);
-        dLab.textContent = draft.dwell_seconds + " s continuous presence";
-      });
-      radiusHolder.appendChild(el("div", { class: "np-field" }, [
-        el("label", { class: "np-label", text: "Dwell time" }), dIn, dLab
-      ]));
-    }
+    var modeHolder = el("div", { class: "np-field" });
+    var geoHolder = el("div");
+    var photoHolder = el("div");
 
     function paintMode() {
       clear(modeHolder);
-      modeHolder.appendChild(el("label", { class: "np-label", text: "Verification" }));
-      modeHolder.appendChild(segmented([
-        { value: "geo", label: "Geo" },
-        { value: "photo", label: "Photo" },
-        { value: "geo_and_photo", label: "Both" },
-        { value: "geo_or_photo", label: "Either" }
-      ], draft.verification_mode, function (v) {
-        draft.verification_mode = v;
-        paintMode(); paintMap(); paintRadius();
-      }));
-      modeHolder.appendChild(el("div", { class: "np-hint", text: MODE_LABELS[draft.verification_mode] }));
+      modeHolder.appendChild(el("div", { class: "np-label", text: "Proof required" }));
+      var group = el("div", { class: "np-choices", role: "radiogroup" });
+      ["geo_and_photo", "geo", "photo", "geo_or_photo"].forEach(function (m) {
+        var c = MODE_COPY[m];
+        group.appendChild(choiceCard(c.title, c.sub, draft.verification_mode === m, function () {
+          draft.verification_mode = m;
+          paintMode(); paintGeo(); paintPhoto();
+        }));
+      });
+      modeHolder.appendChild(group);
     }
 
-    paintMode(); paintMap(); paintRadius();
-    wrap.appendChild(modeHolder);
-    wrap.appendChild(mapHolder);
-    wrap.appendChild(radiusHolder);
+    function paintGeo() {
+      clear(geoHolder);
+      if (!requiresGeo(draft.verification_mode)) return;
 
-    // --- Reference image (§5)
-    if (existing) {
-      wrap.appendChild(el("div", { class: "np-section-title", text: "Reference photo" }));
-      var refCard = el("div", { class: "np-card" }, [
-        el("div", { class: "np-row" }, [
-          el("span", { class: "np-row-label", text: "Reference" }),
-          el("span", {
-            class: "np-pill " + (existing.reference_image_url ? "np-pill-ok" : "np-pill-bad"),
-            text: existing.reference_image_url ? "uploaded" : "missing"
-          })
+      geoHolder.appendChild(el("div", { class: "np-label", text: "Where is it?" }));
+      geoHolder.appendChild(el("div", { class: "np-label-hint", text: "Tap the sketch to drop the pin. The shaded circle is the area that counts as “here”." }));
+      geoHolder.appendChild(mapBox({
+        centerLat: draft.lat || BASE_LAT, centerLng: draft.lng || BASE_LNG,
+        pins: [{ lat: draft.lat, lng: draft.lng, radius: draft.geofence_radius_m }],
+        onPick: function (lat, lng) { draft.lat = lat; draft.lng = lng; paintGeo(); }
+      }));
+      geoHolder.appendChild(el("div", {
+        class: "np-hint np-mono",
+        text: draft.lat.toFixed(5) + ", " + draft.lng.toFixed(5)
+      }));
+
+      // Circle size
+      var rIn = el("input", {
+        class: "np-range", type: "range", "aria-label": "Circle size in metres",
+        min: BOUNDS.radiusMin, max: BOUNDS.radiusMax, value: draft.geofence_radius_m, step: 5
+      });
+      var rVal = el("span", { class: "np-rangeval", text: draft.geofence_radius_m + " m" });
+      rIn.addEventListener("input", function () {
+        draft.geofence_radius_m = parseInt(rIn.value, 10);
+        rVal.textContent = draft.geofence_radius_m + " m";
+        paintGeo();
+      });
+      geoHolder.appendChild(el("div", { class: "np-field", style: "margin-top:16px" }, [
+        el("div", { class: "np-rangerow" }, [
+          el("span", { class: "np-label", style: "margin:0", text: "How close do they have to be?" }), rVal
         ]),
-        el("div", { class: "np-hint", text: "The ground truth the judge compares against. Required when the mode includes a photo. Never served to the app — it exists server-side for the judge only." })
+        rIn,
+        el("div", { class: "np-hint", text: "Tighter is stronger proof, but a phone in a narrow street can be 30 m out. Under about 25 m people get stuck." })
+      ]));
+
+      // Dwell
+      var dIn = el("input", {
+        class: "np-range", type: "range", "aria-label": "Seconds they must stay",
+        min: BOUNDS.dwellMin, max: 300, value: draft.dwell_seconds, step: 5
+      });
+      var dVal = el("span", { class: "np-rangeval", text: draft.dwell_seconds + " s" });
+      dIn.addEventListener("input", function () {
+        draft.dwell_seconds = parseInt(dIn.value, 10);
+        dVal.textContent = draft.dwell_seconds + " s";
+      });
+      geoHolder.appendChild(el("div", { class: "np-field" }, [
+        el("div", { class: "np-rangerow" }, [
+          el("span", { class: "np-label", style: "margin:0", text: "How long do they have to stay?" }), dVal
+        ]),
+        dIn,
+        el("div", { class: "np-hint", text: "Stepping outside the circle resets it to zero. This is what stops someone driving past and collecting the stop." })
+      ]));
+    }
+
+    function paintPhoto() {
+      clear(photoHolder);
+      if (!requiresPhoto(draft.verification_mode)) return;
+
+      photoHolder.appendChild(countedField(
+        "What must the photo show?",
+        "Describe something concrete an outsider could check — “the carved crest above the door”, not “the atmosphere”.",
+        draft.verify_criterion, BOUNDS.criterionChars,
+        function (v) { draft.verify_criterion = v; }
+      ));
+
+      if (!existing) {
+        photoHolder.appendChild(el("div", { class: "np-note", text: "Save this stop first, then you can upload the example photo it gets compared against." }));
+        return;
+      }
+
+      var has = !!existing.reference_image_url;
+      var card = el("div", { class: "np-card" }, [
+        el("div", { class: "np-card-head" }, [
+          el("div", { style: "min-width:0" }, [
+            el("div", { class: "np-card-title", text: "Your example photo" }),
+            el("div", { class: "np-card-meta", text: has ? "Uploaded. This is what walkers' photos get checked against." : "Needed before this stop can be signed off." })
+          ]),
+          el("span", { class: "np-pill " + (has ? "np-pill-ok" : "np-pill-warn"), text: has ? "Uploaded" : "Missing" })
+        ])
       ]);
+
       var fileIn = el("input", { type: "file", accept: "image/*", style: "display:none" });
       fileIn.addEventListener("change", function () {
         var name = fileIn.files && fileIn.files[0] ? fileIn.files[0].name : "reference.jpg";
         // Nothing is uploaded or read — the preview records the filename only.
         var res = api.attachReference(existing.id, name);
         render();
-        toast(res.approvalCleared ? "Reference attached — approval cleared" : "Reference attached");
+        toast(res.approvalCleared ? "Added — sign-off cleared" : "Example photo added");
       });
-      refCard.appendChild(fileIn);
-      refCard.appendChild(el("button", {
-        class: "np-btn np-btn-ghost np-btn-sm",
-        text: existing.reference_image_url ? "Replace reference" : "Upload reference",
+      card.appendChild(fileIn);
+      card.appendChild(el("button", {
+        class: "np-btn np-btn-ghost np-btn-sm", text: has ? "Replace it" : "Upload one",
+        style: "margin-top:12px",
         on: { click: function () { fileIn.click(); } }
       }));
-      wrap.appendChild(refCard);
+      card.appendChild(el("div", { class: "np-hint", text: "It stays on the server and is never sent to anyone's phone — otherwise a walker could just re-submit your own picture." }));
+      photoHolder.appendChild(card);
     }
 
-    // --- Save / approve / delete
-    wrap.appendChild(el("div", { class: "np-section-title", text: "Actions" }));
+    paintMode(); paintGeo(); paintPhoto();
+    wrap.appendChild(modeHolder);
+    wrap.appendChild(geoHolder);
+    wrap.appendChild(photoHolder);
 
-    wrap.appendChild(el("button", {
-      class: "np-btn np-btn-block", text: existing ? "Save stop" : "Add stop",
-      on: {
-        click: function () {
-          draft.title = titleIn.value.trim();
-          draft.text = textIn.value.trim();
-          draft.verify_criterion = critIn.value.trim();
-          if (!requiresGeo(draft.verification_mode)) { draft.lat = null; draft.lng = null; }
-          var res = existing ? api.updateStep(existing.id, draft) : api.addStep(advId, draft);
-          if (res.error) { toast(res.error); return; }
-          if (existing) {
-            go("stop", { advId: advId, stepId: existing.id });
-            toast(res.approvalCleared ? "Saved — approval cleared" : "Saved");
-          } else {
-            go("editor", { id: advId });
-            toast("Stop added");
-          }
-        }
-      }
-    }));
-
+    // --- 3. Sign off
     if (existing) {
+      wrap.appendChild(sectionHead("3 · Sign it off"));
+      wrap.appendChild(el("div", { class: "np-card" }, [
+        el("div", { class: "np-card-head" }, [
+          el("div", { style: "min-width:0" }, [
+            el("div", { class: "np-card-title", text: existing.approved_at ? "Signed off" : "Not signed off yet" }),
+            el("div", { class: "np-card-meta", text: "Someone has to put their name to every stop before the adventure can go live. Save your changes first — signing off does not save them." })
+          ]),
+          el("span", { class: "np-pill " + (existing.approved_at ? "np-pill-ok" : "np-pill-warn"), text: existing.approved_at ? "Done" : "Waiting" })
+        ])
+      ]));
       wrap.appendChild(el("button", {
         class: "np-btn np-btn-ghost np-btn-block",
-        text: existing.approved_at ? "Re-approve stop" : "Approve stop",
+        text: existing.approved_at ? "Sign off again" : "Sign off on this stop",
         on: {
           click: function () {
             var res = api.approveStep(existing.id);
-            if (res.error) { toast(res.error); return; }
+            if (res.error) { toast(res.error, true); return; }
             render();
-            toast("Approved by you");
+            toast("Signed off");
           }
         }
       }));
+
+      wrap.appendChild(sectionHead("Danger zone"));
       wrap.appendChild(el("button", {
-        class: "np-btn np-btn-danger np-btn-block", text: "Delete stop",
+        class: "np-btn np-btn-danger np-btn-block", text: "Delete this stop",
         on: {
           click: function () {
             api.deleteStep(existing.id);
+            stopDraftKey = null;
             go("editor", { id: advId });
             toast("Stop deleted");
           }
@@ -1640,11 +2106,46 @@
       }));
     }
 
-    return wrap;
+    var action = el("button", {
+      class: "np-btn np-btn-block", text: existing ? "Save this stop" : "Add this stop",
+      on: {
+        click: function () {
+          var payload = {
+            title: (draft.title || "").trim(),
+            text: (draft.text || "").trim(),
+            verify_criterion: (draft.verify_criterion || "").trim(),
+            verification_mode: draft.verification_mode,
+            lat: draft.lat, lng: draft.lng,
+            geofence_radius_m: draft.geofence_radius_m,
+            dwell_seconds: draft.dwell_seconds
+          };
+          if (!requiresGeo(payload.verification_mode)) { payload.lat = null; payload.lng = null; }
+
+          var res = existing ? api.updateStep(existing.id, payload) : api.addStep(advId, payload);
+          if (res.error) { toast(res.error, true); return; }
+          stopDraftKey = null;
+          if (existing) {
+            go("stop", { advId: advId, stepId: existing.id });
+            toast(res.approvalCleared ? "Saved — sign-off cleared" : "Saved");
+          } else {
+            go("editor", { id: advId });
+            toast("Stop added");
+          }
+        }
+      }
+    });
+
+    return {
+      title: existing ? "Stop " + existing.ord : "New stop",
+      sub: adv.title,
+      back: { name: "editor", params: { id: advId } },
+      body: wrap,
+      action: action
+    };
   }
 
   // ===========================================================================
-  // VIEW: OrgAssistSheet (§4.1) — dummy model
+  // VIEW: authoring assistant sheet (§4.1) — dummy model
   // ===========================================================================
 
   function openAssistSheet(advId) {
@@ -1665,13 +2166,15 @@
     paintCount();
 
     var status = el("div", { class: "np-hint" });
-    var runBtn = el("button", { class: "np-btn np-btn-block", text: "Generate draft stops" });
+    var runBtn = el("button", { class: "np-btn np-btn-block", text: "Draft the stops" });
 
     runBtn.addEventListener("click", function () {
       runBtn.disabled = true;
-      status.textContent = "Drafting…";
+      runBtn.textContent = "Thinking…";
+      status.textContent = "";
       api.assist(briefIn.value.trim(), count, function (res) {
         runBtn.disabled = false;
+        runBtn.textContent = "Draft the stops";
         if (res.error) { status.textContent = res.error; return; }
         var added = 0;
         res.stops.forEach(function (st) {
@@ -1684,30 +2187,30 @@
           if (!r.error) added++;
         });
         go("editor", { id: advId });
-        toast(added + " draft stops added — all unapproved");
+        toast(added + " stops drafted — read each one, then sign it off");
       });
     });
 
     sheet = {
-      title: "Draft with assistant",
+      title: "Draft some stops for me",
+      sub: "A starting point, not a finished tour. You still read and sign off every stop.",
       body: [
-        el("div", { class: "np-note", text: "Preview: this returns a canned response. In the real feature the model may only pick from the POI layer already in the database — it never names a venue freely." }),
-        field("Describe the tour", briefIn),
-        field("Area", el("div", { class: "np-card", text: "Exeter, NH · 1.5 km radius" }),
-          "The candidate list is drawn from this area."),
-        field("Stops", countHolder),
+        field("Describe the walk you want", briefIn),
+        field("Where", el("div", { class: "np-rows" }, [row("Area", "Exeter, NH"), row("Within", "1.5 km")]),
+          "It can only choose from real places already on file for this area. It is not allowed to name a venue of its own invention."),
+        field("How many stops", countHolder),
         runBtn,
         status,
-        el("div", { class: "np-hint", text: "Everything it returns is a draft. A named human still has to approve every stop before publish." })
+        el("div", { class: "np-note", text: "In this preview the answer is canned and nothing leaves your browser." })
       ]
     };
     render();
   }
 
   // ===========================================================================
-  // VIEW: OrgAdventureRunView (§6 / §13.2 / §13.3)
+  // VIEW: walker preview (§6 / §13.2 / §13.3)
   // ===========================================================================
-  // The §13.2 state machine is real: outside -> dwelling -> arrived ->
+  // The state machine is the real one: outside -> dwelling -> arrived ->
   // capture_unlocked -> verified, with the ordering gate and an accuracy floor.
   // Only the POSITIONS are simulated. Dwell ticks at SIM_SPEED because sitting
   // through a real 90 s dwell per stop, repeatedly, is not a design review.
@@ -1764,14 +2267,10 @@
 
     var d = haversine(runSim.me.lat, runSim.me.lng, st.lat, st.lng);
     // §6 accuracy floor: a fix worse than the radius is not evidence at all.
-    if (runSim.accuracy > st.radius) {
-      st.state = "low_accuracy";
-      paintRun();
-      return;
-    }
+    if (runSim.accuracy > st.radius) { st.state = "low_accuracy"; paintRun(); return; }
 
     if (d > st.radius) {
-      // Leaving the fence clears the dwell — presence must be CONTINUOUS.
+      // Leaving the circle clears the timer — presence must be CONTINUOUS.
       st.state = "outside";
       st.dwellLeft = st.dwell;
       paintRun();
@@ -1785,7 +2284,6 @@
       return;
     }
 
-    // Dwell satisfied.
     if (!st.geoVerified) {
       st.geoVerified = true;
       if (st.mode === "geo" || st.mode === "geo_or_photo") {
@@ -1801,13 +2299,13 @@
 
   function maybeComplete() {
     var all = runSim.steps.every(function (s) { return s.verified; });
-    if (all) toast("Run complete — points awarded from the org pool");
+    if (all) toast("Finished — points added to their organisation total");
   }
 
   function submitPhoto() {
     var st = activeStep();
     if (!st || runSim.busy) return;
-    if (st.attempts >= BOUNDS.attemptsPerStep) { toast("Attempt limit reached"); return; }
+    if (st.attempts >= BOUNDS.attemptsPerStep) { toast("No attempts left on this stop", true); return; }
     runSim.busy = true;
     paintRun();
 
@@ -1818,13 +2316,13 @@
         st.lastReason = res.reason;
         st.state = "capture_unlocked";
         paintRun();
-        toast("Inconclusive — attempt refunded");
+        toast("Could not check it — that attempt did not count");
         return;
       }
       if (res.verdict === "unsafe") {
         st.lastReason = res.reason;
         paintRun();
-        toast("Photo rejected by the safety screen");
+        toast("Photo refused by the safety check", true);
         return;
       }
       st.attempts += 1;
@@ -1838,12 +2336,17 @@
         st.lastReason = res.reason;
         st.state = "capture_unlocked";
         paintRun();
-        toast("Attempt " + st.attempts + " of " + BOUNDS.attemptsPerStep);
+        toast("Not a match — " + (BOUNDS.attemptsPerStep - st.attempts) + " tries left");
       }
     });
   }
 
   var runBody = null;
+
+  var VERDICT_LABEL = {
+    pass: "a match", fail: "not a match",
+    inconclusive: "no answer (outage)", unsafe: "refused by safety check"
+  };
 
   function paintRun() {
     if (!runBody || !runSim) return;
@@ -1851,156 +2354,172 @@
     var adv = api.getAdventure(runSim.advId);
     var st = activeStep();
 
-    // --- Map
     runBody.appendChild(mapBox({
       centerLat: runSim.steps[0].lat, centerLng: runSim.steps[0].lng,
-      note: "Tap to move — simulated position",
+      note: "Blue dot is the walker — tap to move them",
       me: runSim.me,
       pins: runSim.steps.map(function (s) {
-        return { lat: s.lat, lng: s.lng, radius: s.radius, dim: s.verified || (st && s.id !== st.id) };
+        return { lat: s.lat, lng: s.lng, radius: s.radius, done: s.verified, dim: s.verified || (st && s.id !== st.id) };
       }),
       onPick: function (lat, lng) { runSim.me = { lat: lat, lng: lng }; tickSim(); paintRun(); }
     }));
 
-    // --- Current stop status
     if (!st) {
-      runBody.appendChild(el("div", { class: "np-card" }, [
-        el("div", { class: "np-card-title", text: "Adventure complete" }),
-        el("div", { class: "np-card-meta", text: "Every required stop verified. Completion fires server-side — there is no client-claimed finish." })
+      runBody.appendChild(el("div", { class: "np-status done", style: "margin-top:12px" }, [
+        el("div", { class: "np-status-head", text: "Finished" }),
+        el("div", { class: "np-status-sub", text: "Every stop proved. The server decides this, not the phone — there is no “I'm done” button a walker could press." })
       ]));
     } else {
       var d = Math.round(haversine(runSim.me.lat, runSim.me.lng, st.lat, st.lng));
-      var card = el("div", { class: "np-card" });
-      card.appendChild(el("div", { class: "np-card-head" }, [
-        el("div", {}, [
-          el("div", { class: "np-card-title", text: "Stop " + st.ord + " · " + (st.title || "Untitled") }),
-          el("div", { class: "np-card-meta", text: MODE_LABELS[st.mode] + " · " + st.radius + " m fence" })
-        ]),
-        el("span", { class: "np-pill np-pill-accent", text: st.state })
-      ]));
+      var tone = "away", head = null, big = null, sub = "";
 
       if (st.state === "dwelling") {
-        card.appendChild(el("div", { class: "np-dwell", text: st.dwellLeft + "s" }));
-        card.appendChild(el("div", { class: "np-dwell-sub", text: "Stay put — continuous presence required (simulated at " + SIM_SPEED + "×)" }));
+        tone = "hold";
+        big = st.dwellLeft + "s";
+        sub = "Inside the circle. Stay put — walking out sets this back to " + st.dwell + "s.";
       } else if (st.state === "outside") {
-        card.appendChild(el("div", { class: "np-dwell", text: d + "m" }));
-        card.appendChild(el("div", { class: "np-dwell-sub", text: "Walk to the stop to start the dwell" }));
+        tone = "away";
+        big = d + "m";
+        sub = "Too far. The timer starts once they are inside the " + st.radius + " m circle.";
       } else if (st.state === "low_accuracy") {
-        card.appendChild(el("div", { class: "np-dwell-sub", text: "GPS accuracy (" + runSim.accuracy + " m) is worse than the " + st.radius + " m fence — not counted as evidence." }));
+        tone = "warn";
+        head = "Signal too poor to count";
+        sub = "The phone only knows where it is to within " + runSim.accuracy + " m, which is wider than the " + st.radius + " m circle. That is not proof of anything, so it is ignored.";
       } else if (st.state === "capture_unlocked") {
-        card.appendChild(el("div", { class: "np-dwell-sub", text: "Arrived. Photo unlocked." + (st.hasRef ? " Compared against the org's reference." : "") }));
+        tone = "ready";
+        head = "They're here";
+        sub = requiresGeo(st.mode)
+          ? ("Stood still long enough. Now the photo." + (st.hasRef ? " It gets compared to your example." : ""))
+          : ("This stop just needs the photo." + (st.hasRef ? " It gets compared to your example." : ""));
       }
 
+      var card = el("div", { class: "np-status " + tone, style: "margin-top:12px" });
+      card.appendChild(el("div", { class: "np-status-where", text: "Stop " + st.ord + " · " + (st.title || "Untitled") }));
+      if (big) card.appendChild(el("div", { class: "np-status-big", text: big }));
+      if (head) card.appendChild(el("div", { class: "np-status-head", text: head }));
+      if (sub) card.appendChild(el("div", { class: "np-status-sub", text: sub }));
+
       if (st.lastReason) {
-        card.appendChild(el("div", { class: "np-note", text: st.lastReason }));
+        card.appendChild(el("div", { class: "np-status-judge", text: "What the checker said: " + st.lastReason }));
       }
       if (st.attempts) {
-        card.appendChild(el("div", { class: "np-hint", text: "Attempts used: " + st.attempts + " of " + BOUNDS.attemptsPerStep }));
+        card.appendChild(el("div", { class: "np-hint", text: (BOUNDS.attemptsPerStep - st.attempts) + " of " + BOUNDS.attemptsPerStep + " attempts left" }));
       }
       runBody.appendChild(card);
 
-      // Judge verdict picker — forces every downstream UI state on demand.
       if (st.state === "capture_unlocked") {
-        runBody.appendChild(el("div", { class: "np-section-title", text: "Dummy judge verdict" }));
-        runBody.appendChild(segmented([
-          { value: "pass", label: "pass" },
-          { value: "fail", label: "fail" },
-          { value: "inconclusive", label: "inconc." },
-          { value: "unsafe", label: "unsafe" }
-        ], runSim.verdict, function (v) { runSim.verdict = v; paintRun(); }));
         runBody.appendChild(el("button", {
           class: "np-btn np-btn-block",
-          text: runSim.busy ? "Judging…" : "Take photo",
+          text: runSim.busy ? "Checking…" : "Take the photo",
           disabled: runSim.busy,
           on: { click: submitPhoto }
         }));
+        runBody.appendChild(el("div", {
+          class: "np-hint",
+          style: "text-align:center",
+          text: "Demo: the checker will say “" + VERDICT_LABEL[runSim.verdict] + "”. Change that under Demo controls."
+        }));
       }
-
-      // Simulation shortcuts
-      runBody.appendChild(el("div", { class: "np-btn-row", style: "margin-top:10px" }, [
-        el("button", {
-          class: "np-btn np-btn-ghost np-btn-sm", text: "Teleport to stop",
-          on: {
-            click: function () {
-              runSim.me = { lat: st.lat, lng: st.lng };
-              tickSim(); paintRun();
-            }
-          }
-        }),
-        el("button", {
-          class: "np-btn np-btn-ghost np-btn-sm", text: "Walk away",
-          on: {
-            click: function () {
-              runSim.me = { lat: st.lat + 0.0022, lng: st.lng + 0.0022 };
-              tickSim(); paintRun();
-            }
-          }
-        }),
-        el("button", {
-          class: "np-btn np-btn-ghost np-btn-sm",
-          text: runSim.accuracy > 100 ? "Good GPS" : "Degrade GPS",
-          on: {
-            click: function () {
-              runSim.accuracy = runSim.accuracy > 100 ? 8 : 500;
-              tickSim(); paintRun();
-            }
-          }
-        })
-      ]));
     }
 
-    // --- Stop list
-    runBody.appendChild(el("div", { class: "np-section-title", text: "Stops" }));
+    runBody.appendChild(sectionHead("The route"));
     runSim.steps.forEach(function (s) {
-      var cls = s.verified ? "done" : (st && s.id === st.id ? "active" : "");
-      runBody.appendChild(el("div", { class: "np-stop" }, [
-        el("div", { class: "np-stop-ord " + cls, text: s.verified ? "✓" : String(s.ord) }),
+      var isActive = st && s.id === st.id;
+      var state = s.verified ? "Proved"
+        : (isActive ? "Working on this one"
+          : (adv.unordered ? "Can be done any time" : "Locked until the earlier stops are done"));
+      runBody.appendChild(el("div", { class: "np-stop static" + (isActive ? " active" : "") }, [
+        el("div", { class: "np-stop-ord " + (s.verified ? "done" : (isActive ? "active" : "")), text: s.verified ? "✓" : String(s.ord) }),
         el("div", { class: "np-stop-body" }, [
           el("div", { class: "np-stop-title", text: s.title || "Untitled" }),
-          el("div", {
-            class: "np-stop-meta",
-            text: s.verified ? "verified"
-              : (st && s.id === st.id ? s.state : (adv.unordered ? "available" : "locked until earlier stops verify"))
-          })
+          el("div", { class: "np-stop-meta", text: state })
         ])
       ]));
     });
+
+    // Everything that only exists because the walker is fake.
+    var stNow = st;
+    runBody.appendChild(demoDrawer(
+      "A real walker's phone reports its own position. Here you drive it by hand, and you choose what the photo checker will say so every outcome is reachable on demand.",
+      [
+        el("div", { class: "np-btn-row", style: "margin-bottom:12px" }, [
+          stNow ? el("button", {
+            class: "np-btn np-btn-ghost np-btn-sm", text: "Jump to the stop",
+            on: { click: function () { runSim.me = { lat: stNow.lat, lng: stNow.lng }; tickSim(); paintRun(); } }
+          }) : null,
+          stNow ? el("button", {
+            class: "np-btn np-btn-ghost np-btn-sm", text: "Walk away",
+            on: { click: function () { runSim.me = { lat: stNow.lat + 0.0022, lng: stNow.lng + 0.0022 }; tickSim(); paintRun(); } }
+          }) : null,
+          el("button", {
+            class: "np-btn np-btn-ghost np-btn-sm",
+            text: runSim.accuracy > 100 ? "Restore good signal" : "Wreck the GPS signal",
+            on: {
+              click: function () {
+                runSim.accuracy = runSim.accuracy > 100 ? 8 : 500;
+                tickSim(); paintRun();
+              }
+            }
+          })
+        ]),
+        el("div", { class: "np-label", text: "What the photo checker will say" }),
+        segmented([
+          { value: "pass", label: "Match" },
+          { value: "fail", label: "No match" },
+          { value: "inconclusive", label: "Outage" },
+          { value: "unsafe", label: "Unsafe" }
+        ], runSim.verdict, function (v) { runSim.verdict = v; paintRun(); }),
+        el("div", { class: "np-hint", text: "“Outage” is the one worth trying: when the checker cannot answer, the attempt is refunded rather than spent." }),
+        el("button", {
+          class: "np-btn np-btn-ghost np-btn-block", text: "Start the walk over",
+          style: "margin-top:12px",
+          on: { click: function () { startSim(runSim.advId); paintRun(); toast("Back to the beginning"); } }
+        })
+      ]
+    ));
   }
 
   function viewRun() {
     var adv = api.getAdventure(route.params.id);
-    if (!adv) { go("list"); return el("div"); }
+    if (!adv) { go("list"); return { title: "", body: el("div") }; }
     if (!runSim || runSim.advId !== adv.id) startSim(adv.id);
 
     var wrap = el("div", { class: "np-wrap" });
-    wrap.appendChild(header(adv.title, "Runner preview · v" + adv.version, { name: "editor", params: { id: adv.id } }));
-    wrap.appendChild(el("div", { class: "np-note", text: "Position is simulated. The dwell, ordering and accuracy rules are the real ones." }));
+    wrap.appendChild(el("div", { class: "np-note" }, [
+      el("strong", { text: "This is what a walker sees. " }),
+      document.createTextNode("Their position is faked so you can test it from a desk, and the timers run " + SIM_SPEED + "× faster. Everything else — the circle, the wait, the order, the signal check — behaves exactly as it would in the field.")
+    ]));
+
     runBody = el("div");
     wrap.appendChild(runBody);
     paintRun();
-    wrap.appendChild(el("button", {
-      class: "np-btn np-btn-ghost np-btn-block", text: "Restart run",
-      style: "margin-top:14px",
-      on: { click: function () { startSim(adv.id); paintRun(); toast("Run restarted"); } }
-    }));
-    return wrap;
+
+    return {
+      title: adv.title,
+      sub: "Walker's view · version " + adv.version,
+      back: { name: "editor", params: { id: adv.id } },
+      body: wrap
+    };
   }
 
   // ===========================================================================
-  // VIEW: OrgAnalyticsView (§8)
+  // VIEW: insights (§8)
   // ===========================================================================
 
-  function metricTile(label, value, denomText) {
+  function metricTile(label, value, denomText, help) {
     var valNode;
-    if (value && value.suppressed) {
-      valNode = el("div", { class: "np-metric-value suppressed", text: "too few runs" });
+    if (value === null || value === undefined) {
+      valNode = el("div", { class: "np-metric-value suppressed", text: "no data yet" });
+    } else if (value.suppressed) {
+      valNode = el("div", { class: "np-metric-value suppressed", text: "too few walkers to show" });
     } else {
-      valNode = el("div", { class: "np-metric-value", text: value });
+      valNode = el("div", { class: "np-metric-value", text: String(value) });
     }
     return el("div", { class: "np-metric" }, [
       el("div", { class: "np-metric-label", text: label }),
       valNode,
-      denomText ? el("div", { class: "np-metric-denom", text: denomText }) : null
+      denomText ? el("div", { class: "np-metric-denom", text: denomText }) : null,
+      (!denomText && help) ? el("div", { class: "np-metric-denom", text: help }) : null
     ]);
   }
 
@@ -2012,43 +2531,42 @@
 
   function viewAnalytics() {
     var wrap = el("div", { class: "np-wrap" });
-    wrap.appendChild(header("Analytics", S.org.name));
 
     var measurable = S.adventures.filter(function (a) { return a.status !== "draft"; });
     if (!measurable.length) {
-      wrap.appendChild(el("div", { class: "np-empty", text: "Publish an adventure to see analytics." }));
-      return wrap;
+      wrap.appendChild(el("div", { class: "np-empty", text: "Nothing to measure yet. Publish an adventure and the numbers start here." }));
+      return { title: "Insights", sub: S.org.name, body: wrap };
     }
 
     var chosenId = route.params.id || measurable[0].id;
     if (!api.getAdventure(chosenId)) chosenId = measurable[0].id;
 
     if (measurable.length > 1) {
-      wrap.appendChild(segmented(measurable.map(function (a) {
-        return { value: a.id, label: a.title.length > 14 ? a.title.slice(0, 13) + "…" : a.title };
-      }), chosenId, function (v) { go("analytics", { id: v }); }));
+      wrap.appendChild(el("div", { class: "np-seg-scroll", style: "margin-bottom:14px" }, [
+        segmented(measurable.map(function (a) {
+          return { value: a.id, label: a.title };
+        }), chosenId, function (v) { go("analytics", { id: v }); })
+      ]));
     }
 
     var a = api.analytics(chosenId);
-    wrap.appendChild(el("div", { class: "np-card" }, [
-      el("div", { class: "np-card-title", text: a.adventure.title }),
-      el("div", { class: "np-card-meta", text: "Version " + a.adventure.version + " — each version is its own measurement series." })
-    ]));
-
     var comp = a.completion;
+
+    wrap.appendChild(el("h1", { class: "np-h1", text: a.adventure.title }));
+    wrap.appendChild(el("p", { class: "np-lede", text: "Version " + a.adventure.version + ". Each version is counted separately — change the route and the old numbers stay with the old route." }));
+
+    wrap.appendChild(sectionHead("The walk overall"));
     wrap.appendChild(el("div", { class: "np-metrics" }, [
-      metricTile("Starts", a.starts, comp && !comp.suppressed ? "distinct users" : null),
-      metricTile("Views", a.views),
-      metricTile("Completion", pct(comp),
-        comp && !comp.suppressed ? comp.n + " of " + comp.denom + " runs" : null),
-      metricTile("Corroborated", a.corroborated,
-        !a.corroborated || a.corroborated.suppressed ? null : "runs with 2+ together"),
-      metricTile("Median rating", a.medianRating),
-      metricTile("Small-n floor", a.threshold, "cells below this are withheld")
+      metricTile("Looked at it", a.views, null, "distinct people"),
+      metricTile("Set off", a.starts, null, "distinct people"),
+      metricTile("Got to the end", pct(comp),
+        comp && !comp.suppressed ? comp.n + " of " + comp.denom + " walks" : null),
+      metricTile("Walked with someone", a.corroborated, null, "two or more phones together"),
+      metricTile("Typical rating", a.medianRating, null, "out of 5")
     ]));
 
-    wrap.appendChild(el("div", { class: "np-section-title", text: "Per-stop drop-off" }));
-    wrap.appendChild(el("div", { class: "np-note", text: "The most actionable figure here. A cliff between two stops names the broken stop." }));
+    wrap.appendChild(sectionHead("Where people give up"));
+    wrap.appendChild(el("p", { class: "np-lede", text: "The most useful thing on this page. A sharp fall between two stops names the stop that is broken." }));
 
     var maxReached = 0;
     a.perStop.forEach(function (s) { if (s.reachedRaw > maxReached) maxReached = s.reachedRaw; });
@@ -2058,15 +2576,15 @@
       if (s.reached && s.reached.suppressed) {
         reachedTxt = "withheld";
       } else {
-        reachedTxt = s.reached + " reached";
+        reachedTxt = s.reached + " got here";
         widthPct = maxReached ? (s.reachedRaw / maxReached) * 100 : 0;
       }
       if (s.dropOff && !s.dropOff.suppressed && s.dropOff.denom) {
         var keep = s.dropOff.n / s.dropOff.denom;
         if (keep < 0.75) isDrop = true;
-        reachedTxt += " · " + Math.round(keep * 100) + "% of previous";
+        reachedTxt += " · " + Math.round(keep * 100) + "% of the stop before";
       }
-      wrap.appendChild(el("div", { class: "np-bar-row" }, [
+      wrap.appendChild(el("div", { class: "np-bar-row" + (isDrop ? " drop" : "") }, [
         el("div", { class: "np-bar-head" }, [
           el("span", { class: "np-bar-name", text: s.ord + ". " + s.title }),
           el("span", { class: "np-bar-num", text: reachedTxt })
@@ -2075,96 +2593,118 @@
           el("div", { class: "np-bar-fill" + (isDrop ? " drop" : ""), style: "width:" + widthPct + "%" })
         ]),
         s.failRatio && !s.failRatio.suppressed && s.failRatio.n
-          ? el("div", { class: "np-hint", text: s.failRatio.n + " failed verification(s) here — check the criterion or the reference, not the users." })
+          ? el("div", { class: "np-bar-flag" }, [
+              el("span", { html: ICONS.warn, style: "flex:0 0 14px" }),
+              el("span", { text: s.failRatio.n + " photo" + (s.failRatio.n === 1 ? "" : "s") + " rejected here. Usually the wording or your example photo, not the walkers." })
+            ])
           : null
       ]));
     });
 
-    wrap.appendChild(el("div", { class: "np-note", text: "Aggregates only. No usernames, no per-user tracks, no raw coordinates — an org sees counts and rates, never an identifiable person's movement." }));
+    wrap.appendChild(sectionHead("What you cannot see"));
+    wrap.appendChild(el("div", { class: "np-note" }, [
+      el("strong", { text: "Counts and rates only. " }),
+      document.createTextNode("No names, no paths, no coordinates. Where fewer than " + a.threshold +
+        " people have walked a stop, the figure is withheld instead of shown — on a small campus a number that low identifies the person it came from.")
+    ]));
 
     if (api.tier().csv_export) {
-      wrap.appendChild(el("button", { class: "np-btn np-btn-ghost np-btn-block", text: "Export CSV (aggregates)", on: { click: function () { toast("Preview: export is mocked"); } } }));
+      wrap.appendChild(el("button", {
+        class: "np-btn np-btn-ghost np-btn-block", text: "Download as CSV",
+        on: { click: function () { toast("Preview only — no file is generated"); } }
+      }));
     } else {
-      wrap.appendChild(el("div", { class: "np-hint", text: "CSV export of aggregates requires the Institutional tier." }));
+      wrap.appendChild(el("div", { class: "np-hint", text: "Downloading these figures as a spreadsheet is an Institutional-plan feature." }));
     }
 
-    return wrap;
+    return { title: "Insights", sub: S.org.name, body: wrap };
   }
 
   // ===========================================================================
-  // VIEW: OrgInviteCodeView (§7)
+  // VIEW: invite codes (§7)
   // ===========================================================================
 
   function viewInvites() {
     var wrap = el("div", { class: "np-wrap" });
-    wrap.appendChild(header("Invite codes", S.org.name));
 
     if (!api.tier().invite_codes) {
       wrap.appendChild(el("div", { class: "np-card" }, [
-        el("div", { class: "np-card-title", text: "Not on this plan" }),
-        el("div", { class: "np-card-meta", text: "Invite codes and printable QR require a paid tier." })
+        el("div", { class: "np-card-title", text: "Not on your plan" }),
+        el("div", { class: "np-card-meta", text: "Codes and printable QR posters come with Standard and above. You are on " + api.tier().label + "." })
       ]));
-      return wrap;
+      wrap.appendChild(el("button", {
+        class: "np-btn np-btn-ghost np-btn-block", text: "See plans",
+        on: { click: function () { go("billing"); } }
+      }));
+      return { title: "Invites", sub: S.org.name, body: wrap };
     }
 
-    wrap.appendChild(el("div", { class: "np-note", text: "A code either grants org membership, or access to one adventure without membership. A tourism board will not accept forced membership to walk a trail; an admissions office will insist on it. Both ship." }));
+    wrap.appendChild(el("div", { class: "np-hero" }, [
+      el("div", { class: "np-hero-eyebrow", text: "Getting people in" }),
+      el("p", { text: "A code is how someone goes from a poster on a wall to walking your tour. Print the QR, stick it up, and a phone that has never heard of Nostia lands in the right place." })
+    ]));
+
+    wrap.appendChild(el("div", { class: "np-card" }, [
+      el("div", { class: "np-card-title", text: "Two kinds of code" }),
+      el("div", { class: "np-card-meta", text: "A membership code makes someone part of your organisation — an admissions office will want that. An adventure code unlocks one walk without joining anything — a tourist board would never accept forced sign-up. Both work." })
+    ]));
 
     var published = api.listAdventures("published");
     wrap.appendChild(el("div", { class: "np-btn-row" }, [
       el("button", {
-        class: "np-btn np-btn-sm", text: "Mint membership code",
+        class: "np-btn np-btn-sm", text: "New membership code",
         on: {
           click: function () {
             var res = api.mintCode(null, null);
-            if (res.error) { toast(res.error); return; }
-            render(); toast("Code minted");
+            if (res.error) { toast(res.error, true); return; }
+            render(); toast("Code created");
           }
         }
       }),
       published.length ? el("button", {
-        class: "np-btn np-btn-ghost np-btn-sm", text: "Mint adventure code",
+        class: "np-btn np-btn-ghost np-btn-sm", text: "New code for one adventure",
         on: {
           click: function () {
             var res = api.mintCode(published[0].id, 200);
-            if (res.error) { toast(res.error); return; }
-            render(); toast("Adventure code minted");
+            if (res.error) { toast(res.error, true); return; }
+            render(); toast("Code created");
           }
         }
       }) : null
     ]));
 
+    wrap.appendChild(sectionHead("Your codes", S.codes.length ? String(S.codes.length) : null));
     if (!S.codes.length) wrap.appendChild(el("div", { class: "np-empty", text: "No codes yet." }));
 
     S.codes.forEach(function (c) {
       var adv = c.org_adventure_id ? api.getAdventure(c.org_adventure_id) : null;
+      var uses = c.use_count + (c.max_uses ? " of " + c.max_uses + " uses" : (c.use_count === 1 ? " use" : " uses"));
       var card = el("div", { class: "np-card" });
       card.appendChild(el("div", { class: "np-card-head" }, [
-        el("div", {}, [
+        el("div", { style: "min-width:0" }, [
           el("div", { class: "np-card-title np-mono", text: c.code }),
           el("div", {
             class: "np-card-meta",
-            text: (adv ? "Adventure: " + adv.title : "Grants org membership") +
-              " · " + c.use_count + (c.max_uses ? " of " + c.max_uses : "") + " uses"
+            text: (adv ? "Unlocks “" + adv.title + "”" : "Joins your organisation") + " · " + uses
           })
         ]),
         el("span", {
           class: "np-pill " + (c.revoked_at ? "np-pill-bad" : "np-pill-ok"),
-          text: c.revoked_at ? "revoked" : "active"
+          text: c.revoked_at ? "Turned off" : "Working"
         })
       ]));
-      card.appendChild(el("div", { class: "np-hint np-mono", text: api.codeLink(c.code) }));
-      card.appendChild(el("div", { class: "np-btn-row", style: "margin-top:10px" }, [
+      card.appendChild(el("div", { class: "np-btn-row", style: "margin-top:12px" }, [
         el("button", {
-          class: "np-btn np-btn-ghost np-btn-sm", text: "Show QR",
+          class: "np-btn np-btn-ghost np-btn-sm", text: "Poster / QR",
           on: { click: function () { openQrSheet(c); } }
         }),
         !c.revoked_at ? el("button", {
-          class: "np-btn np-btn-danger np-btn-sm", text: "Revoke",
+          class: "np-btn np-btn-danger np-btn-sm", text: "Turn it off",
           on: {
             click: function () {
               api.revokeCode(c.id);
               render();
-              toast("Revoked — existing members keep their access");
+              toast("Turned off — anyone who already used it keeps their access");
             }
           }
         }) : null
@@ -2172,7 +2712,7 @@
       wrap.appendChild(card);
     });
 
-    return wrap;
+    return { title: "Invites", sub: S.org.name, body: wrap };
   }
 
   function openQrSheet(c) {
@@ -2180,156 +2720,224 @@
     var svg;
     try { svg = qrSvg(link); } catch (e) { svg = null; }
     sheet = {
-      title: "Printable QR",
+      title: "Print this",
+      sub: "Stick it on a wall, a plaque, or the bottom of a leaflet.",
       body: [
-        svg ? el("div", { class: "np-qr", html: svg }) : el("div", { class: "np-empty", text: "Could not render QR." }),
+        svg ? el("div", { class: "np-qr", html: svg }) : el("div", { class: "np-empty", text: "Could not draw the QR." }),
         el("div", { class: "np-code", text: c.code }),
-        el("div", { class: "np-hint np-mono", text: link }),
-        el("div", { class: "np-note", text: "The QR encodes the link, not the raw code, so a fresh install lands in the right place. This is the physical-signage channel — the actual pitch for a tourism buyer." }),
-        el("div", { class: "np-hint", text: "This is a real, scannable code generated in-browser. Point a phone at it to check." })
+        el("div", { class: "np-hint np-mono", style: "text-align:center", text: link }),
+        el("div", { class: "np-note", text: "The square holds the web address rather than the bare code, so a phone with no app installed still ends up in the right place instead of nowhere." }),
+        el("div", { class: "np-note", text: "This one is real and scannable — it was drawn here in the browser. Point a phone at it if you want to check." })
       ]
     };
     render();
   }
 
   // ===========================================================================
-  // VIEW: OrgBillingView (§9) — READ ONLY. Captures nothing, by design.
+  // VIEW: plan & billing (§9) — READ ONLY. Captures nothing, by design.
   // ===========================================================================
 
   function viewBilling() {
     var wrap = el("div", { class: "np-wrap" });
-    wrap.appendChild(header("Billing", S.org.name));
-
     var t = api.tier();
-    wrap.appendChild(el("div", { class: "np-card" }, [
+    var active = S.subscription.status === "active";
+
+    wrap.appendChild(el("div", { class: "np-hero" }, [
+      el("div", { class: "np-hero-eyebrow", text: "Current plan" }),
       el("div", { class: "np-card-head" }, [
-        el("div", {}, [
-          el("div", { class: "np-card-title", text: t.label }),
-          el("div", { class: "np-card-meta", text: "Renews " + String(S.subscription.current_period_end).slice(0, 10) })
+        el("div", { style: "min-width:0" }, [
+          el("div", { class: "np-h1", style: "margin-bottom:2px", text: t.label }),
+          el("div", { class: "np-card-meta", text: active ? "Renews " + String(S.subscription.current_period_end).slice(0, 10) : "Needs attention" })
         ]),
-        el("span", {
-          class: "np-pill " + (S.subscription.status === "active" ? "np-pill-ok" : "np-pill-bad"),
-          text: S.subscription.status
-        })
+        el("span", { class: "np-pill " + (active ? "np-pill-ok" : "np-pill-bad"), text: active ? "Active" : S.subscription.status.replace("_", " ") })
       ])
     ]));
 
-    wrap.appendChild(el("div", { class: "np-section-title", text: "What this plan includes" }));
-    wrap.appendChild(el("div", { class: "np-card" }, [
-      row("Published adventures", t.adventures === null ? "Unlimited" : String(t.adventures)),
-      row("Stops per adventure", t.stops === null ? "Unlimited" : String(t.stops)),
-      row("Analytics", t.analytics ? "Yes" : "No"),
-      row("Custom branding", t.custom_branding ? "Yes" : "No"),
-      row("Invite codes + QR", t.invite_codes ? "Yes" : "No"),
-      row("CSV export", t.csv_export ? "Yes" : "No"),
-      row("Assist calls / day", String(t.assist_calls_per_day))
+    wrap.appendChild(sectionHead("What you get"));
+    wrap.appendChild(el("div", { class: "np-rows" }, [
+      row("Live adventures", t.adventures === null ? "No limit" : String(t.adventures)),
+      row("Stops in each", t.stops === null ? "No limit" : "Up to " + t.stops),
+      row("Numbers and drop-off", t.analytics ? "Yes" : "No"),
+      row("Your logo and colour", t.custom_branding ? "Yes" : "No"),
+      row("Invite codes and QR", t.invite_codes ? "Yes" : "No"),
+      row("Spreadsheet export", t.csv_export ? "Yes" : "No"),
+      row("Assistant drafts a day", String(t.assist_calls_per_day))
     ]));
 
     // No price is shown anywhere. Price lives in Stripe and is read from config
     // so it can change without a deploy; the spec is explicit that the
     // mechanism ships and the number does not.
-    wrap.appendChild(el("div", { class: "np-note", text: "No price is shown because none is set yet. Price and billing interval live in Stripe and are read from config, so changing either needs no deploy." }));
+    wrap.appendChild(el("div", { class: "np-note" }, [
+      el("strong", { text: "There is no price here yet. " }),
+      document.createTextNode("Nobody has been asked to pay one. When there is a number it will live with the payment provider, not in the app, so it can change without shipping a new version.")
+    ]));
 
-    wrap.appendChild(el("div", { class: "np-section-title", text: "Switch tier (preview only)" }));
-    wrap.appendChild(segmented([
-      { value: "trial", label: "Trial" },
-      { value: "standard", label: "Standard" },
-      { value: "institutional", label: "Institutional" }
-    ], S.subscription.tier, function (v) {
-      S.subscription.tier = v;
-      save();
-      render();
-      toast("Tier set to " + TIERS[v].label + " — watch the gates change");
-    }));
-    wrap.appendChild(el("div", { class: "np-hint", text: "Flip tiers to see entitlement gates apply across the other screens (stop limits, invite codes, CSV export)." }));
+    wrap.appendChild(sectionHead("If a payment fails"));
+    wrap.appendChild(el("div", { class: "np-note", text: "Publishing something new stops. Nothing already live goes dark, and nobody mid-walk is interrupted. A QR code screwed to a wall outside a museum has to keep working even on the day a card expires." }));
 
-    wrap.appendChild(el("div", { class: "np-section-title", text: "Subscription status (preview only)" }));
-    wrap.appendChild(segmented([
-      { value: "active", label: "active" },
-      { value: "past_due", label: "past due" },
-      { value: "canceled", label: "canceled" }
-    ], S.subscription.status, function (v) {
-      S.subscription.status = v;
-      save();
-      render();
-      toast(v === "active" ? "Active" : "Writes blocked, reads still work — and nothing unpublishes");
-    }));
-    wrap.appendChild(el("div", { class: "np-hint", text: "A failed card blocks new publishes but never unpublishes live content — that would break a printed QR code in the physical world." }));
+    wrap.appendChild(el("div", { class: "np-note", text: "There is no card field anywhere in this preview and no way to pay from inside the app. Buying happens on the web." }));
 
-    wrap.appendChild(el("div", { class: "np-note", text: "There is deliberately no checkout here and no card field anywhere in this preview. Real purchase happens on the web, outside the app." }));
+    wrap.appendChild(demoDrawer(
+      "Switch these and watch the rest of the preview change — stop limits, the invites tab, spreadsheet export and the publish checklist all react.",
+      [
+        el("div", { class: "np-label", text: "Pretend we are on" }),
+        segmented([
+          { value: "trial", label: "Trial" },
+          { value: "standard", label: "Standard" },
+          { value: "institutional", label: "Institutional" }
+        ], S.subscription.tier, function (v) {
+          S.subscription.tier = v;
+          save(); render();
+          toast("Now on " + TIERS[v].label);
+        }),
+        el("div", { class: "np-hint", style: "margin-bottom:14px", text: TIER_BLURB[S.subscription.tier] }),
+        el("div", { class: "np-label", text: "Pretend the payment is" }),
+        segmented([
+          { value: "active", label: "Fine" },
+          { value: "past_due", label: "Past due" },
+          { value: "canceled", label: "Cancelled" }
+        ], S.subscription.status, function (v) {
+          S.subscription.status = v;
+          save(); render();
+          toast(v === "active" ? "Payment fine" : "Publishing paused — nothing went dark");
+        })
+      ]
+    ));
 
-    return wrap;
+    return { title: "Plan", sub: S.org.name, body: wrap };
   }
 
   // ===========================================================================
   // Render
   // ===========================================================================
 
-  function render() {
-    if (!root) return;
-    clear(root);
+  function routeKey() {
+    return route.name + ":" + (route.params.id || route.params.advId || "") + ":" + (route.params.stepId || "");
+  }
 
-    root.appendChild(el("div", {
-      class: "np-preview-strip",
-      text: "Preview · mock data · no backend · nothing is sent anywhere"
-    }));
-
-    var body;
-    switch (route.name) {
-      case "editor":    body = viewEditor(); break;
-      case "stop":      body = viewStopEditor(); break;
-      case "run":       body = viewRun(); break;
-      case "analytics": body = viewAnalytics(); break;
-      case "invites":   body = viewInvites(); break;
-      case "billing":   body = viewBilling(); break;
-      default:          body = viewList(); break;
-    }
-    root.appendChild(body);
-    root.appendChild(tabs());
-
-    if (sheet) {
-      var backdrop = el("div", { class: "np-sheet-backdrop" });
-      backdrop.addEventListener("click", function (ev) {
-        if (ev.target === backdrop) { sheet = null; render(); }
-      });
-      var panel = el("div", { class: "np-sheet" }, [
-        el("div", { class: "np-sheet-title", text: sheet.title })
-      ]);
-      sheet.body.forEach(function (n) { if (n) panel.appendChild(n); });
-      panel.appendChild(el("button", {
-        class: "np-btn np-btn-ghost np-btn-block", text: "Cancel",
-        style: "margin-top:10px",
-        on: { click: function () { sheet = null; render(); } }
-      }));
-      backdrop.appendChild(panel);
-      root.appendChild(backdrop);
+  function viewFor(name) {
+    switch (name) {
+      case "guide":     return viewGuide();
+      case "editor":    return viewEditor();
+      case "stop":      return viewStopEditor();
+      case "run":       return viewRun();
+      case "analytics": return viewAnalytics();
+      case "invites":   return viewInvites();
+      case "billing":   return viewBilling();
+      default:          return viewList();
     }
   }
+
+  function render() {
+    if (!root) return;
+
+    // Scrolling back to the top on every keystroke-triggered re-render made the
+    // old editor unusable. Keep the offset whenever the route has not changed.
+    var key = routeKey();
+    var keep = (key === lastRouteKey && scrollNode) ? scrollNode.scrollTop : 0;
+
+    clear(root);
+    root.appendChild(el("div", {
+      class: "np-preview-strip",
+      text: "Preview · made-up data · no server · nothing is sent anywhere"
+    }));
+
+    var view = viewFor(route.name);
+
+    scrollNode = el("div", { class: "np-scroll" }, [view.body]);
+
+    if (view.chrome === false) {
+      root.appendChild(scrollNode);
+    } else {
+      root.appendChild(topbar({ title: view.title, sub: view.sub, back: view.back }));
+      root.appendChild(scrollNode);
+      if (view.action) {
+        root.appendChild(el("div", { class: "np-actionbar" }, [
+          el("div", { class: "np-actionbar-inner" }, [view.action])
+        ]));
+      }
+      root.appendChild(tabs());
+    }
+
+    scrollNode.scrollTop = keep;
+    lastRouteKey = key;
+
+    if (sheet) renderSheet();
+  }
+
+  function renderSheet() {
+    var backdrop = el("div", { class: "np-sheet-backdrop" });
+    backdrop.addEventListener("click", function (ev) {
+      if (ev.target === backdrop) closeSheet();
+    });
+
+    var panel = el("div", {
+      class: "np-sheet", role: "dialog", "aria-modal": "true", "aria-label": sheet.title, tabindex: "-1"
+    }, [
+      el("div", { class: "np-sheet-grip", "aria-hidden": "true" }),
+      el("div", { class: "np-sheet-title", text: sheet.title }),
+      sheet.sub ? el("div", { class: "np-sheet-sub", text: sheet.sub }) : null
+    ]);
+
+    sheet.body.forEach(function (n) { if (n) panel.appendChild(n); });
+    // "Close", not "Cancel" — the invites screen already uses "cancel" to mean
+    // revoking a code, and one word must not mean two things on one screen.
+    panel.appendChild(el("button", {
+      class: "np-btn np-btn-ghost np-btn-block", text: sheet.dismiss || "Close",
+      style: "margin-top:12px",
+      on: { click: closeSheet }
+    }));
+
+    backdrop.appendChild(panel);
+    root.appendChild(backdrop);
+    setTimeout(function () { panel.focus(); }, 0);
+  }
+
+  function closeSheet() { sheet = null; render(); }
 
   // ===========================================================================
   // Open / close — same lifecycle as MortarMode
   // ===========================================================================
 
-  function open_() {
+  /* opts.tour forces the walkthrough even for someone who has already seen it.
+     The visible button on the host site passes it, because a button that says
+     "walkthrough" must always give you one. The hidden tap gesture passes
+     nothing and keeps the show-it-once behaviour. */
+  function open_(opts) {
     if (typeof document === "undefined") return;
     root = document.getElementById("pivot-root");
     if (!root) return;
     S = load();
-    route = { name: "list", params: {} };
+    drawerOpen = false;
+    lastRouteKey = null;
+    stopDraftKey = null;
     sheet = null;
     stopSim();
+
+    // First time in, explain the thing before showing a dashboard of it.
+    if (!(opts && opts.tour) && guideSeen()) route = { name: "list", params: {} };
+    else { guideIndex = 0; route = { name: "guide", params: {} }; }
+
     root.hidden = false;
     render();
-    root.scrollTop = 0;
+
+    escHandler = function (ev) {
+      if (ev.key !== "Escape" && ev.keyCode !== 27) return;
+      if (sheet) { closeSheet(); return; }
+      close_();
+    };
+    document.addEventListener("keydown", escHandler);
   }
 
   function close_() {
     stopSim();
     sheet = null;
+    if (escHandler) { document.removeEventListener("keydown", escHandler); escHandler = null; }
     if (root) {
       root.hidden = true;
       clear(root);
     }
+    scrollNode = null;
     // Quiz state untouched — the overlay just goes away.
   }
 
