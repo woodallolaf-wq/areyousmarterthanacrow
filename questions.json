@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is the sky on a sunny day?", "choices": ["Orange", "Blue", "Green", "Red"], "answer": 1 },
-        { "q": "What do cows give us to drink?", "choices": ["Juice", "Orange juice", "Milk", "Honey"], "answer": 2 },
-        { "q": "What is 3 + 3?", "choices": ["5", "4", "7", "6"], "answer": 3 },
-        { "q": "What sound does a cow make?", "choices": ["Moo", "Baa", "Cluck", "Oink"], "answer": 0 },
-        { "q": "How many legs does a spider have?", "choices": ["4", "6", "8", "12"], "answer": 2 },
-        { "q": "What do you use to eat soup?", "choices": ["Fork", "Knife", "Chopsticks", "Spoon"], "answer": 3 },
-        { "q": "Which animal has a very long neck?", "choices": ["Elephant", "Giraffe", "Hippo", "Bear"], "answer": 1 },
-        { "q": "What color is snow?", "choices": ["Yellow", "Pink", "Blue", "White"], "answer": 3 },
-        { "q": "How many eyes does a person have?", "choices": ["2", "1", "4", "3"], "answer": 0 },
-        { "q": "What do birds have instead of arms?", "choices": ["Fins", "Wings", "Claws", "Tails"], "answer": 1 }
+        { "q": "What color is a banana?", "choices": ["Yellow", "Red", "Purple", "Green"], "answer": 0 },
+        { "q": "What sound does a cat make?", "choices": ["Woof", "Oink", "Meow", "Moo"], "answer": 2 },
+        { "q": "What is 2 + 2?", "choices": ["3", "5", "6", "4"], "answer": 3 },
+        { "q": "How many tails does a dog have?", "choices": ["None", "1", "2", "3"], "answer": 1 },
+        { "q": "Which animal swims in the ocean?", "choices": ["Tiger", "Horse", "Dolphin", "Giraffe"], "answer": 2 },
+        { "q": "What do you use to write on paper?", "choices": ["Scissors", "Fork", "Plate", "Pencil"], "answer": 3 },
+        { "q": "What do you wear on your head to block the sun?", "choices": ["Hat", "Sock", "Glove", "Boot"], "answer": 0 },
+        { "q": "How many wheels does a bicycle have?", "choices": ["1", "4", "2", "3"], "answer": 2 },
+        { "q": "What is 5 − 2?", "choices": ["4", "2", "1", "3"], "answer": 3 },
+        { "q": "Which animal gives us wool?", "choices": ["Dog", "Sheep", "Cat", "Rabbit"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of France?", "choices": ["Brussels", "London", "Rome", "Paris"], "answer": 3 },
-        { "q": "How many legs does an insect have?", "choices": ["8", "4", "6", "10"], "answer": 2 },
-        { "q": "What is the largest planet in our solar system?", "choices": ["Jupiter", "Saturn", "Neptune", "Uranus"], "answer": 0 },
-        { "q": "What does H₂O stand for in chemistry?", "choices": ["Hydrogen Peroxide", "Hydrochloric Acid", "Carbon Dioxide", "Water"], "answer": 3 },
-        { "q": "Who painted the Mona Lisa?", "choices": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Rembrandt"], "answer": 1 },
-        { "q": "What is the square root of 144?", "choices": ["10", "14", "12", "11"], "answer": 2 },
-        { "q": "Which continent is Egypt in?", "choices": ["Asia", "Africa", "Europe", "Australia"], "answer": 1 },
-        { "q": "Which gas do plants absorb during photosynthesis?", "choices": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"], "answer": 0 },
-        { "q": "What is 8 × 7?", "choices": ["48", "54", "63", "56"], "answer": 3 },
-        { "q": "What is a word that means the opposite of another word called?", "choices": ["Synonym", "Homophone", "Antonym", "Pronoun"], "answer": 2 }
+        { "q": "What is the capital of Australia?", "choices": ["Canberra", "Sydney", "Melbourne", "Brisbane"], "answer": 0 },
+        { "q": "Which gas makes up the majority of Earth's atmosphere?", "choices": ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"], "answer": 1 },
+        { "q": "What is 15% of 200?", "choices": ["25", "29", "30", "35"], "answer": 2 },
+        { "q": "How many sides does a hexagon have?", "choices": ["4", "5", "7", "6"], "answer": 3 },
+        { "q": "How many strings does a standard guitar have?", "choices": ["5", "6", "7", "8"], "answer": 1 },
+        { "q": "What is the official currency of the United Kingdom?", "choices": ["Pound sterling", "Euro", "Dollar", "Franc"], "answer": 0 },
+        { "q": "Approximately how fast does light travel (in km/s)?", "choices": ["100,000", "200,000", "400,000", "300,000"], "answer": 3 },
+        { "q": "What does DNA stand for?", "choices": ["Diaminoribose Nucleic Acid", "Deoxyribose Nucleoprotein Assembly", "Deoxyribonucleic Acid", "Dibasic Nitrogen Arrangement"], "answer": 2 },
+        { "q": "Who wrote 'Pride and Prejudice'?", "choices": ["Jane Austen", "Charlotte Bronte", "George Eliot", "Virginia Woolf"], "answer": 0 },
+        { "q": "How many players does each team have on the field in soccer?", "choices": ["9", "11", "10", "13"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the chemical formula for common table salt?", "choices": ["NaCl", "NaOH", "KCl", "CaCl₂"], "answer": 0 },
-        { "q": "In which country is the Taj Mahal located?", "choices": ["Pakistan", "India", "Bangladesh", "Nepal"], "answer": 1 },
-        { "q": "Which organelle is known as the powerhouse of the cell?", "choices": ["Nucleus", "Ribosome", "Mitochondria", "Golgi apparatus"], "answer": 2 },
-        { "q": "In what year did World War I begin?", "choices": ["1912", "1916", "1918", "1914"], "answer": 3 },
-        { "q": "What is the smallest prime number?", "choices": ["2", "3", "1", "5"], "answer": 0 },
-        { "q": "How many bones are in the adult human body?", "choices": ["256", "206", "182", "350"], "answer": 1 },
-        { "q": "Who wrote the play 'Romeo and Juliet'?", "choices": ["Christopher Marlowe", "Ben Jonson", "William Shakespeare", "Geoffrey Chaucer"], "answer": 2 },
-        { "q": "What is the official currency of Japan?", "choices": ["Won", "Yuan", "Ringgit", "Yen"], "answer": 3 },
-        { "q": "What is the boiling point of water at sea level in Celsius?", "choices": ["100°C", "90°C", "80°C", "110°C"], "answer": 0 },
-        { "q": "Which planet is closest to the Sun?", "choices": ["Mars", "Mercury", "Venus", "Earth"], "answer": 1 }
+        { "q": "What is the largest ocean on Earth?", "choices": ["Atlantic", "Indian", "Pacific", "Arctic"], "answer": 2 },
+        { "q": "Who was the first person to walk on the Moon?", "choices": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "John Glenn"], "answer": 0 },
+        { "q": "How many continents are there on Earth?", "choices": ["5", "6", "8", "7"], "answer": 3 },
+        { "q": "What is the capital city of Canada?", "choices": ["Toronto", "Ottawa", "Montreal", "Vancouver"], "answer": 1 },
+        { "q": "In which country is Mount Fuji located?", "choices": ["China", "South Korea", "Japan", "Thailand"], "answer": 2 },
+        { "q": "What element has atomic number 1?", "choices": ["Hydrogen", "Helium", "Oxygen", "Carbon"], "answer": 0 },
+        { "q": "What is the capital city of Brazil?", "choices": ["Rio de Janeiro", "São Paulo", "Salvador", "Brasília"], "answer": 3 },
+        { "q": "How many chambers does the human heart have?", "choices": ["3", "4", "2", "6"], "answer": 1 },
+        { "q": "Who is credited with inventing the telephone?", "choices": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Samuel Morse"], "answer": 2 },
+        { "q": "In which year did the Berlin Wall fall?", "choices": ["1989", "1991", "1987", "1993"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "Which theorem proves that CPT symmetry holds in any local Lorentz-invariant quantum field theory?", "choices": ["Lüders–Pauli (CPT) theorem", "Bell's theorem", "Spin-statistics theorem", "Wigner's theorem"], "answer": 0 },
-        { "q": "The Riemann Hypothesis asserts that all non-trivial zeros of the Riemann zeta function have real part equal to:", "choices": ["0", "1/2", "2/3", "1/4"], "answer": 1 },
-        { "q": "The Schwarzschild radius for a mass M (G = gravitational constant, c = speed of light) is:", "choices": ["GM/c²", "4GM/c²", "2GM/c²", "GM/c"], "answer": 2 },
-        { "q": "Which of the following surfaces is non-orientable?", "choices": ["Torus", "Sphere", "Cylinder", "Klein bottle"], "answer": 3 },
-        { "q": "Wien's displacement law states that the peak emission wavelength of a blackbody is proportional to:", "choices": ["1/T", "T", "T²", "T⁴"], "answer": 0 },
-        { "q": "The Shannon entropy (in bits) of a fair n-sided die is:", "choices": ["n", "log₂(n)", "n log₂(n)", "1/n"], "answer": 1 },
-        { "q": "For any real θ, what is |e^(iθ)|?", "choices": ["|cos θ|", "e", "1", "√2"], "answer": 2 },
-        { "q": "Lagrange's theorem in group theory states that for a finite group G with subgroup H:", "choices": ["G/H is always abelian", "H is always normal in G", "|G| divides |H|", "|H| divides |G|"], "answer": 3 },
-        { "q": "The Navier–Stokes Millennium Prize Problem asks whether 3D solutions always:", "choices": ["exist globally and remain smooth", "become turbulent within finite time", "converge to zero entropy at long times", "reduce to Euler equations at high Reynolds number"], "answer": 0 },
-        { "q": "The half-life of Carbon-14, used in radiocarbon dating, is approximately:", "choices": ["730 years", "5,730 years", "57,300 years", "570,000 years"], "answer": 1 }
+        { "q": "The Fourier transform of f(x) = e^(−ax²) is:", "choices": ["A sinc function", "Another Gaussian", "A Lorentzian", "A delta function"], "answer": 1 },
+        { "q": "The Carnot efficiency of a heat engine between temperatures T_H and T_C (in Kelvin) is:", "choices": ["T_C/T_H", "T_H/T_C", "1 − T_H/T_C", "1 − T_C/T_H"], "answer": 3 },
+        { "q": "The general solution to the ODE d²x/dt² + ω²x = 0 is:", "choices": ["x = A cos(ωt) + B sin(ωt)", "x = Ae^(ωt) + Be^(−ωt)", "x = A cosh(ωt) + B sinh(ωt)", "x = At + B"], "answer": 0 },
+        { "q": "Gödel's First Incompleteness Theorem implies that in any consistent formal system powerful enough to express basic arithmetic:", "choices": ["Every statement is either provably true or provably false", "The system can decide any statement's provability", "There exist true statements unprovable within the system", "The system is necessarily complete"], "answer": 2 },
+        { "q": "The de Broglie wavelength of a particle with momentum p is:", "choices": ["p/h", "h/p", "h · p", "h²/p"], "answer": 1 },
+        { "q": "The relativistic kinetic energy of a particle with rest mass m₀ at speed v (where γ = 1/√(1−v²/c²)) is:", "choices": ["½m₀v²", "γm₀c²", "γm₀v²", "(γ−1)m₀c²"], "answer": 3 },
+        { "q": "If P = NP were proven true, the direct consequence would be:", "choices": ["Every NP problem could be solved in polynomial time", "NP problems would still be unsolvable in practice", "All NP problems would require exponential time", "P problems would become NP-hard"], "answer": 0 },
+        { "q": "The Heisenberg uncertainty principle for position x and momentum p states:", "choices": ["Δx · Δp = ℏ", "Δx · Δp ≥ ℏ", "Δx · Δp ≥ ℏ/2", "Δx · Δp = ℏ/2"], "answer": 2 },
+        { "q": "What is the value of ∫₋∞^∞ e^(−x²) dx?", "choices": ["1", "√π", "π", "π/2"], "answer": 1 },
+        { "q": "The quantum mechanical commutator [x̂, p̂] equals:", "choices": ["0", "ℏ", "−iℏ", "iℏ"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.50", "$0.10", "$1.00", "$0.05"], "answer": 3 },
-        { "q": "Count the letter 'f' in: 'Finished files are the result of years of scientific study combined with the experience of years'", "choices": ["6", "3", "4", "5"], "answer": 0 },
-        { "q": "A surgeon says 'I cannot operate on this boy — he is my son.' The surgeon is not the boy's father. How?", "choices": ["The surgeon is the boy's stepfather", "The surgeon is the boy's mother", "The surgeon is the boy's uncle", "The surgeon is lying"], "answer": 1 },
-        { "q": "Before Mount Everest was discovered, what was the tallest mountain on Earth?", "choices": ["K2", "Kangchenjunga", "Mount Everest", "Mont Blanc"], "answer": 2 },
-        { "q": "A rooster lays an egg on top of a pointed roof. Which side does the egg roll down?", "choices": ["Roosters don't lay eggs", "Left side", "Right side", "Straight down the center"], "answer": 0 },
-        { "q": "How far can a dog run into the woods?", "choices": ["As far as the woods extend", "It depends on the dog's speed", "As far as it can run without tiring", "Halfway — after that it's running out"], "answer": 3 },
-        { "q": "There are 3 apples on a table. You take away 2. How many apples do YOU have?", "choices": ["1", "2", "0", "3"], "answer": 1 },
-        { "q": "Which word is spelled incorrectly in every dictionary?", "choices": ["Frequently", "Dictionary", "Incorrectly", "Necessary"], "answer": 2 },
-        { "q": "You flip a fair coin 10 times and get heads every time. What is the probability the 11th flip is heads?", "choices": ["Less than 50% — tails is overdue", "About 1 in 1000", "More than 50%", "50%"], "answer": 3 },
-        { "q": "What is 1000 + 40 + 1000 + 30 + 1000 + 20 + 1000 + 10?", "choices": ["4100", "5000", "4000", "5100"], "answer": 0 }
+        { "q": "How many months have at least 28 days?", "choices": ["Only 1", "Only February", "All 12", "6"], "answer": 2 },
+        { "q": "You are in a race. You overtake the person in 2nd place. What place are you in now?", "choices": ["2nd place", "1st place", "3rd place", "You tied for 2nd"], "answer": 0 },
+        { "q": "How many animals of each kind did Moses take on the ark?", "choices": ["2 of each kind", "7 of clean and 2 of unclean", "Depends on the species", "None — it was Noah's ark"], "answer": 3 },
+        { "q": "A plane crashes exactly on the US–Canada border. Where do they bury the survivors?", "choices": ["The US side", "You don't bury survivors", "Canada side", "Both countries share responsibility"], "answer": 1 },
+        { "q": "How many times can you subtract 5 from 25?", "choices": ["Only once", "4 times", "5 times", "Infinitely many times"], "answer": 0 },
+        { "q": "I have two US coins totaling 30 cents. One of them is NOT a nickel. What are the two coins?", "choices": ["Two dimes", "A dime and a quarter", "A quarter and a nickel", "Three dimes"], "answer": 2 },
+        { "q": "An electric train is heading north. The wind blows east. Which way does the smoke blow?", "choices": ["North", "East", "Northeast", "Electric trains produce no smoke"], "answer": 3 },
+        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep does the farmer have left?", "choices": ["8", "9", "17", "0"], "answer": 1 },
+        { "q": "What comes next in the sequence: 1, 11, 21, 1211, 111221, …?", "choices": ["312211", "13112221", "1221112", "1112221"], "answer": 0 },
+        { "q": "How many times does the letter R appear in the word STRAWBERRY?", "choices": ["1", "2", "3", "4"], "answer": 2 }
       ]
     }
   ]
