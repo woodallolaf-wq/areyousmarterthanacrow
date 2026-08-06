@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is a tomato?", "choices": ["Red", "Blue", "Green", "Yellow"], "answer": 0 },
-        { "q": "What do fish live in?", "choices": ["Trees", "Water", "Sand", "Air"], "answer": 1 },
-        { "q": "How many legs does a horse have?", "choices": ["2", "6", "4", "8"], "answer": 2 },
-        { "q": "What is the first meal of the day called?", "choices": ["Dinner", "Lunch", "Supper", "Breakfast"], "answer": 3 },
-        { "q": "What color is the sun?", "choices": ["Yellow", "Purple", "Blue", "Green"], "answer": 0 },
-        { "q": "Which animal makes honey?", "choices": ["Ant", "Bee", "Fly", "Moth"], "answer": 1 },
-        { "q": "How many sides does a square have?", "choices": ["3", "5", "4", "6"], "answer": 2 },
-        { "q": "What do you call frozen water?", "choices": ["Sand", "Stone", "Steam", "Ice"], "answer": 3 },
-        { "q": "What shape is a ball?", "choices": ["Square", "Round", "Triangle", "Flat"], "answer": 1 },
-        { "q": "How many days are in a week?", "choices": ["7", "5", "10", "6"], "answer": 0 }
+        { "q": "What color is grass?", "choices": ["Green", "Purple", "Orange", "Red"], "answer": 0 },
+        { "q": "What sound does a dog make?", "choices": ["Moo", "Bark", "Baa", "Oink"], "answer": 1 },
+        { "q": "How many legs does a spider have?", "choices": ["4", "6", "8", "2"], "answer": 2 },
+        { "q": "Which fruit is round and orange?", "choices": ["Apple", "Orange", "Banana", "Grape"], "answer": 1 },
+        { "q": "What is 3 + 1?", "choices": ["3", "5", "2", "4"], "answer": 3 },
+        { "q": "What do you put on your feet?", "choices": ["Shoes", "Hat", "Gloves", "Scarf"], "answer": 0 },
+        { "q": "Which animal has the longest neck?", "choices": ["Dog", "Cat", "Pig", "Giraffe"], "answer": 3 },
+        { "q": "What do you breathe to stay alive?", "choices": ["Water", "Fire", "Sand", "Air"], "answer": 3 },
+        { "q": "How many fingers are on one hand?", "choices": ["3", "5", "4", "6"], "answer": 1 },
+        { "q": "What color is the sky on a sunny day?", "choices": ["Orange", "Green", "Blue", "Red"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "In which country is the Great Barrier Reef?", "choices": ["Australia", "Brazil", "Mexico", "India"], "answer": 0 },
-        { "q": "Who was the first woman to win a Nobel Prize?", "choices": ["Ada Lovelace", "Marie Curie", "Jane Goodall", "Dorothy Hodgkin"], "answer": 1 },
-        { "q": "How many sides does an octagon have?", "choices": ["6", "7", "8", "9"], "answer": 2 },
-        { "q": "In which year did World War II end?", "choices": ["1943", "1944", "1946", "1945"], "answer": 3 },
-        { "q": "What is the boiling point of water in Fahrenheit?", "choices": ["212°F", "100°F", "180°F", "150°F"], "answer": 0 },
-        { "q": "What is the capital of Germany?", "choices": ["Vienna", "Berlin", "Hamburg", "Munich"], "answer": 1 },
-        { "q": "What is the chemical symbol for iron?", "choices": ["Ir", "In", "Fe", "Io"], "answer": 2 },
-        { "q": "Which planet is farthest from the Sun?", "choices": ["Pluto", "Uranus", "Saturn", "Neptune"], "answer": 3 },
-        { "q": "What is 20% of 150?", "choices": ["30", "25", "35", "20"], "answer": 0 },
-        { "q": "How many keys does a standard piano have?", "choices": ["72", "88", "80", "76"], "answer": 1 }
+        { "q": "Which ocean is the largest?", "choices": ["Atlantic", "Pacific", "Indian", "Arctic"], "answer": 1 },
+        { "q": "What is the capital of Japan?", "choices": ["Beijing", "Seoul", "Tokyo", "Bangkok"], "answer": 2 },
+        { "q": "How many degrees are in a right angle?", "choices": ["180", "45", "60", "90"], "answer": 3 },
+        { "q": "Who wrote 'Romeo and Juliet'?", "choices": ["Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"], "answer": 1 },
+        { "q": "How many continents are there on Earth?", "choices": ["5", "6", "8", "7"], "answer": 3 },
+        { "q": "What is the longest river in the world?", "choices": ["Nile", "Amazon", "Mississippi", "Yangtze"], "answer": 0 },
+        { "q": "Which planet is known as the Red Planet?", "choices": ["Mercury", "Venus", "Mars", "Jupiter"], "answer": 2 },
+        { "q": "What element has the chemical symbol 'Au'?", "choices": ["Copper", "Gold", "Silver", "Tin"], "answer": 1 },
+        { "q": "The adult human body has how many bones?", "choices": ["206", "126", "286", "306"], "answer": 0 },
+        { "q": "What is 15% of 200?", "choices": ["20", "25", "30", "35"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the approximate speed of sound in air at sea level?", "choices": ["343 m/s", "200 m/s", "500 m/s", "1000 m/s"], "answer": 0 },
-        { "q": "Which US state is the largest by area?", "choices": ["Texas", "Alaska", "California", "Montana"], "answer": 1 },
-        { "q": "Who is credited with writing 'The Odyssey'?", "choices": ["Socrates", "Aristotle", "Homer", "Plato"], "answer": 2 },
-        { "q": "In which year did the French Revolution begin?", "choices": ["1765", "1792", "1800", "1789"], "answer": 3 },
-        { "q": "How many players are on the court for each team in basketball?", "choices": ["5", "6", "7", "4"], "answer": 0 },
-        { "q": "What is the capital of Russia?", "choices": ["Kiev", "Moscow", "St. Petersburg", "Minsk"], "answer": 1 },
-        { "q": "The symbol 'Pb' on the periodic table stands for which element?", "choices": ["Platinum", "Phosphorus", "Lead", "Polonium"], "answer": 2 },
-        { "q": "In which year did the United States declare independence?", "choices": ["1783", "1812", "1492", "1776"], "answer": 3 },
-        { "q": "What is the square root of 225?", "choices": ["15", "13", "12", "14"], "answer": 0 },
-        { "q": "Which instrument is used to measure atmospheric pressure?", "choices": ["Thermometer", "Barometer", "Hydrometer", "Anemometer"], "answer": 1 }
+        { "q": "What is the powerhouse of the cell?", "choices": ["Nucleus", "Ribosome", "Golgi apparatus", "Mitochondria"], "answer": 3 },
+        { "q": "How many bones are in the adult human skull?", "choices": ["8", "22", "14", "29"], "answer": 1 },
+        { "q": "Which country has the most natural lakes?", "choices": ["Russia", "USA", "Brazil", "Canada"], "answer": 3 },
+        { "q": "Which civilization is credited with inventing paper?", "choices": ["Egypt", "China", "India", "Mesopotamia"], "answer": 1 },
+        { "q": "Which planet has an axial tilt of about 98°, making it appear to rotate on its side?", "choices": ["Venus", "Saturn", "Uranus", "Neptune"], "answer": 2 },
+        { "q": "How many chambers does the human heart have?", "choices": ["2", "3", "5", "4"], "answer": 3 },
+        { "q": "The Great Wall of China was primarily built to defend against:", "choices": ["Mongol and nomadic northern tribes", "Japanese pirates", "Persian armies", "Indian kingdoms"], "answer": 0 },
+        { "q": "Who is credited with inventing the telephone?", "choices": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"], "answer": 2 },
+        { "q": "What is the capital of Australia?", "choices": ["Sydney", "Canberra", "Melbourne", "Brisbane"], "answer": 1 },
+        { "q": "Which element has atomic number 6?", "choices": ["Carbon", "Boron", "Nitrogen", "Oxygen"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "The divergence theorem relates the flux of a vector field F through a closed surface to:", "choices": ["The curl of F integrated over the volume", "The line integral of F around the boundary", "The divergence of F integrated over the enclosed volume", "The gradient of F at every surface point"], "answer": 2 },
-        { "q": "In representation theory, the number of irreducible representations of a finite group equals:", "choices": ["The order of the group", "The number of conjugacy classes", "The number of normal subgroups", "The number of generators"], "answer": 1 },
-        { "q": "Stokes' theorem states that the line integral of a vector field around a closed curve C equals:", "choices": ["The divergence of the field over the enclosed volume", "The gradient of the scalar potential along C", "The total flux through C", "The surface integral of the curl over any surface bounded by C"], "answer": 3 },
-        { "q": "The Maxwell relation derived from the Helmholtz free energy F = U − TS is:", "choices": ["(∂S/∂V)_T = (∂P/∂T)_V", "(∂T/∂V)_S = −(∂P/∂S)_V", "(∂S/∂P)_T = −(∂V/∂T)_P", "(∂T/∂P)_S = (∂V/∂S)_P"], "answer": 0 },
-        { "q": "For an ideal gas undergoing isothermal expansion from V₁ to V₂, the entropy change ΔS is:", "choices": ["nCᵥ ln(V₂/V₁)", "nR ln(V₁/V₂)", "nR ln(V₂/V₁)", "nCₚ ln(V₂/V₁)"], "answer": 2 },
-        { "q": "In special relativity, a rod of proper length L₀ moving parallel to its length at speed v is measured to have length:", "choices": ["L = γL₀", "L = L₀/γ, where γ = 1/√(1−v²/c²)", "L = L₀ − vt/c²", "L = L₀ (invariant)"], "answer": 1 },
-        { "q": "The residue of f(z) = e^z / z² at the pole z = 0 is:", "choices": ["0", "1/2", "e", "1"], "answer": 3 },
-        { "q": "In the RSA cryptosystem, for primes p and q with n = pq, Euler's totient φ(n) equals:", "choices": ["(p−1)(q−1)", "pq − 1", "p + q − 1", "(p+1)(q+1)"], "answer": 0 },
-        { "q": "The Maclaurin series of sin(x) is:", "choices": ["1 − x²/2! + x⁴/4! − ...", "x + x³/3! + x⁵/5! + ...", "x − x³/3! + x⁵/5! − ...", "1 + x − x²/2! + ..."], "answer": 2 },
-        { "q": "The Pauli exclusion principle is a direct consequence of:", "choices": ["Heisenberg's uncertainty principle", "The requirement that fermionic wave functions are antisymmetric under particle exchange", "Conservation of lepton number", "The correspondence principle"], "answer": 1 }
+        { "q": "The energy eigenvalues of a quantum harmonic oscillator H = p²/2m + mω²x²/2 are:", "choices": ["E_n = nℏω", "E_n = ℏω(n + 1/2)", "E_n = n²ℏω/2", "E_n = ℏω(n − 1/2)"], "answer": 1 },
+        { "q": "D'Alembert's general solution to the wave equation ∂²u/∂t² = c²∂²u/∂x² is:", "choices": ["e^(ikx−iωt)", "f(x)cos(ct) + g(x)sin(ct)", "f(x + ct) + g(x − ct)", "A sin(kx) cos(ωt)"], "answer": 2 },
+        { "q": "The Cauchy-Schwarz inequality for inner product spaces states:", "choices": ["|⟨u,v⟩|² ≤ ‖u‖² ‖v‖²", "|⟨u,v⟩| ≥ ‖u‖ ‖v‖", "|⟨u,v⟩| ≤ ‖u‖² + ‖v‖²", "|⟨u,v⟩|² ≤ ‖u‖ ‖v‖"], "answer": 0 },
+        { "q": "Kolmogorov complexity K(x) of a string x is defined as:", "choices": ["The Shannon entropy of x", "The number of distinct substrings of x", "The length of x divided by its entropy", "The length of the shortest program that outputs x"], "answer": 3 },
+        { "q": "In special relativity, the time-like component p⁰ of a particle's 4-momentum equals:", "choices": ["mv/c", "γmc", "γmv", "mc"], "answer": 1 },
+        { "q": "Fermat's Last Theorem asserts there are no positive integer solutions to:", "choices": ["aⁿ + bⁿ = cⁿ for integer n > 2", "a² + b² = c² for prime a, b, c", "a + b = c for coprime a, b, c", "aⁿ + bⁿ = cⁿ for any n ≥ 2"], "answer": 0 },
+        { "q": "The eigenvalues of the 2×2 rotation matrix for angle θ are:", "choices": ["1 and −1", "cos θ and sin θ", "cos θ ± sin θ", "e^(iθ) and e^(−iθ)"], "answer": 3 },
+        { "q": "The generating function for the Legendre polynomials P_n(x) is:", "choices": ["1/(1 − xt)", "e^(xt − t²/2)", "1/√(1 − 2xt + t²)", "(1 − x²)/(1 − xt)²"], "answer": 2 },
+        { "q": "According to Noether's theorem, conservation of angular momentum corresponds to symmetry under:", "choices": ["Time translation", "Gauge transformation", "Spatial translation", "Rotation"], "answer": 3 },
+        { "q": "The Gibbs free energy G is defined as:", "choices": ["G = U + PV", "G = H − TS", "G = U − TS", "G = H + TS"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many birthdays does the average person have?", "choices": ["One — you are born only once", "As many as their age in years", "One per year", "Depends on the person"], "answer": 0 },
-        { "q": "A man builds a square house where all four walls face south. A bear walks by. What color is the bear?", "choices": ["Brown", "White", "There is no bear", "Black"], "answer": 1 },
-        { "q": "I am the beginning of eternity, the end of time and space, the beginning of every end, and the end of every place. What am I?", "choices": ["The letter 'E'", "God", "Death", "Nothing"], "answer": 0 },
-        { "q": "In a class of 30 students, the probability that at least two share the same birthday is approximately:", "choices": ["Less than 10%", "About 30%", "More than 70%", "About 50%"], "answer": 2 },
-        { "q": "Which of the following words contains three consecutive letters of the alphabet?", "choices": ["ORANGE", "PLANET", "STUDENT", "MARBLE"], "answer": 2 },
-        { "q": "A man leaves home, turns left three times, and arrives back home where two masked men are waiting. Where is he?", "choices": ["A haunted house", "A baseball diamond — the masked men are the catcher and umpire", "His front door", "A robbery in progress"], "answer": 1 },
-        { "q": "What is 1/2 of 2/3 of 3/4 of 4/5 of 500?", "choices": ["200", "125", "150", "100"], "answer": 3 },
-        { "q": "Which statement about the English word FACETIOUS is true?", "choices": ["It contains all five vowels in alphabetical order", "It contains four of the five vowels", "It has more consonants than vowels", "Its letters are in alphabetical order"], "answer": 0 },
-        { "q": "How many total squares are on a standard 8×8 chessboard?", "choices": ["64", "128", "204", "256"], "answer": 2 },
-        { "q": "A 3×3×3 Rubik's cube is painted on all outer faces, then split into 27 unit cubes. How many unit cubes have exactly 2 painted faces?", "choices": ["6", "0", "8", "12"], "answer": 3 }
+        { "q": "A rooster lays an egg on top of a sloped roof. Which side does it roll off?", "choices": ["The left side", "The right side", "The steeper side", "Roosters don't lay eggs"], "answer": 3 },
+        { "q": "You have a bowl with six apples and take away four. How many apples do YOU have?", "choices": ["2", "6", "4", "0"], "answer": 2 },
+        { "q": "How many months in the year have 28 days?", "choices": ["1", "3", "6", "12"], "answer": 3 },
+        { "q": "You are running a race and overtake the runner in 2nd place. What place are you now in?", "choices": ["1st", "2nd", "3rd", "It depends on the race"], "answer": 1 },
+        { "q": "What comes next in the sequence: 1, 11, 21, 1211, 111221, ?", "choices": ["312211", "123121", "1112221", "12321"], "answer": 0 },
+        { "q": "How many animals of each kind did Moses take onto the Ark?", "choices": ["Two of each", "Seven of each clean, two of each unclean", "Moses didn't build the Ark — Noah did", "The Bible does not specify"], "answer": 2 },
+        { "q": "A doctor gives you 3 pills and tells you to take one every half hour. How long until you run out?", "choices": ["2 hours", "90 minutes", "45 minutes", "1 hour"], "answer": 3 },
+        { "q": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10", "$0.05", "$0.15", "$0.20"], "answer": 1 },
+        { "q": "Count the letter 'f' in: 'Finished files are the result of years of scientific study combined with the experience of years'.", "choices": ["6", "3", "5", "4"], "answer": 0 },
+        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep remain?", "choices": ["8", "0", "9", "17"], "answer": 2 }
       ]
     }
   ]
