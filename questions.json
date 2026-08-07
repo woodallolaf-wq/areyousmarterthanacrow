@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is grass?", "choices": ["Green", "Purple", "Orange", "Red"], "answer": 0 },
-        { "q": "What sound does a dog make?", "choices": ["Moo", "Bark", "Baa", "Oink"], "answer": 1 },
-        { "q": "How many legs does a spider have?", "choices": ["4", "6", "8", "2"], "answer": 2 },
-        { "q": "Which fruit is round and orange?", "choices": ["Apple", "Orange", "Banana", "Grape"], "answer": 1 },
-        { "q": "What is 3 + 1?", "choices": ["3", "5", "2", "4"], "answer": 3 },
-        { "q": "What do you put on your feet?", "choices": ["Shoes", "Hat", "Gloves", "Scarf"], "answer": 0 },
-        { "q": "Which animal has the longest neck?", "choices": ["Dog", "Cat", "Pig", "Giraffe"], "answer": 3 },
-        { "q": "What do you breathe to stay alive?", "choices": ["Water", "Fire", "Sand", "Air"], "answer": 3 },
-        { "q": "How many fingers are on one hand?", "choices": ["3", "5", "4", "6"], "answer": 1 },
-        { "q": "What color is the sky on a sunny day?", "choices": ["Orange", "Green", "Blue", "Red"], "answer": 2 }
+        { "q": "What color is an apple?", "choices": ["Red", "Blue", "Green", "Yellow"], "answer": 0 },
+        { "q": "What sound does a duck make?", "choices": ["Woof", "Quack", "Moo", "Baa"], "answer": 1 },
+        { "q": "How many toes are on one foot?", "choices": ["3", "4", "5", "6"], "answer": 2 },
+        { "q": "What do you drink when you are thirsty?", "choices": ["Sand", "Paint", "Mud", "Water"], "answer": 3 },
+        { "q": "Which animal has a big trunk?", "choices": ["Elephant", "Lion", "Bear", "Rabbit"], "answer": 0 },
+        { "q": "What number comes after 4?", "choices": ["3", "5", "7", "6"], "answer": 1 },
+        { "q": "Which animal lives in a pond and goes ribbit?", "choices": ["Dog", "Bird", "Frog", "Fish"], "answer": 2 },
+        { "q": "What meal is typically eaten in the evening?", "choices": ["Breakfast", "Snack", "Lunch", "Dinner"], "answer": 3 },
+        { "q": "What covers a bird's body?", "choices": ["Feathers", "Fur", "Scales", "Skin"], "answer": 0 },
+        { "q": "What color is a stop sign?", "choices": ["Blue", "Red", "Green", "Yellow"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which ocean is the largest?", "choices": ["Atlantic", "Pacific", "Indian", "Arctic"], "answer": 1 },
-        { "q": "What is the capital of Japan?", "choices": ["Beijing", "Seoul", "Tokyo", "Bangkok"], "answer": 2 },
-        { "q": "How many degrees are in a right angle?", "choices": ["180", "45", "60", "90"], "answer": 3 },
-        { "q": "Who wrote 'Romeo and Juliet'?", "choices": ["Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"], "answer": 1 },
-        { "q": "How many continents are there on Earth?", "choices": ["5", "6", "8", "7"], "answer": 3 },
-        { "q": "What is the longest river in the world?", "choices": ["Nile", "Amazon", "Mississippi", "Yangtze"], "answer": 0 },
-        { "q": "Which planet is known as the Red Planet?", "choices": ["Mercury", "Venus", "Mars", "Jupiter"], "answer": 2 },
-        { "q": "What element has the chemical symbol 'Au'?", "choices": ["Copper", "Gold", "Silver", "Tin"], "answer": 1 },
-        { "q": "The adult human body has how many bones?", "choices": ["206", "126", "286", "306"], "answer": 0 },
-        { "q": "What is 15% of 200?", "choices": ["20", "25", "30", "35"], "answer": 2 }
+        { "q": "Who is credited with inventing the light bulb?", "choices": ["Nikola Tesla", "Thomas Edison", "Alexander Bell", "Benjamin Franklin"], "answer": 1 },
+        { "q": "What is 9 × 9?", "choices": ["72", "90", "81", "99"], "answer": 2 },
+        { "q": "What is the main grain used in traditional Japanese sushi?", "choices": ["Noodles", "Bread", "Potatoes", "Rice"], "answer": 3 },
+        { "q": "What is the capital of Spain?", "choices": ["Madrid", "Lisbon", "Barcelona", "Seville"], "answer": 0 },
+        { "q": "What is the hardest natural substance on Earth?", "choices": ["Granite", "Iron", "Steel", "Diamond"], "answer": 3 },
+        { "q": "Which continent is the Amazon River in?", "choices": ["North America", "South America", "Africa", "Asia"], "answer": 1 },
+        { "q": "How many days are in a leap year?", "choices": ["364", "365", "366", "367"], "answer": 2 },
+        { "q": "What is the largest country in the world by land area?", "choices": ["Russia", "Canada", "USA", "China"], "answer": 0 },
+        { "q": "Which US state is nicknamed 'The Sunshine State'?", "choices": ["California", "Arizona", "Florida", "Hawaii"], "answer": 2 },
+        { "q": "What is 25% of 80?", "choices": ["15", "18", "22", "20"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the powerhouse of the cell?", "choices": ["Nucleus", "Ribosome", "Golgi apparatus", "Mitochondria"], "answer": 3 },
-        { "q": "How many bones are in the adult human skull?", "choices": ["8", "22", "14", "29"], "answer": 1 },
-        { "q": "Which country has the most natural lakes?", "choices": ["Russia", "USA", "Brazil", "Canada"], "answer": 3 },
-        { "q": "Which civilization is credited with inventing paper?", "choices": ["Egypt", "China", "India", "Mesopotamia"], "answer": 1 },
-        { "q": "Which planet has an axial tilt of about 98°, making it appear to rotate on its side?", "choices": ["Venus", "Saturn", "Uranus", "Neptune"], "answer": 2 },
-        { "q": "How many chambers does the human heart have?", "choices": ["2", "3", "5", "4"], "answer": 3 },
-        { "q": "The Great Wall of China was primarily built to defend against:", "choices": ["Mongol and nomadic northern tribes", "Japanese pirates", "Persian armies", "Indian kingdoms"], "answer": 0 },
-        { "q": "Who is credited with inventing the telephone?", "choices": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"], "answer": 2 },
-        { "q": "What is the capital of Australia?", "choices": ["Sydney", "Canberra", "Melbourne", "Brisbane"], "answer": 1 },
-        { "q": "Which element has atomic number 6?", "choices": ["Carbon", "Boron", "Nitrogen", "Oxygen"], "answer": 0 }
+        { "q": "Which organ produces insulin?", "choices": ["Pancreas", "Liver", "Kidney", "Spleen"], "answer": 0 },
+        { "q": "Who wrote 'A Brief History of Time'?", "choices": ["Carl Sagan", "Stephen Hawking", "Richard Feynman", "Neil deGrasse Tyson"], "answer": 1 },
+        { "q": "In which year did the Titanic sink?", "choices": ["1914", "1910", "1912", "1905"], "answer": 2 },
+        { "q": "What is the square root of 196?", "choices": ["12", "13", "16", "14"], "answer": 3 },
+        { "q": "What is the most abundant element in Earth's crust by mass?", "choices": ["Oxygen", "Silicon", "Iron", "Aluminum"], "answer": 0 },
+        { "q": "Which of the Seven Ancient Wonders of the World is still largely intact?", "choices": ["Lighthouse of Alexandria", "Great Pyramid of Giza", "Hanging Gardens of Babylon", "Colossus of Rhodes"], "answer": 1 },
+        { "q": "How many justices serve on the US Supreme Court?", "choices": ["7", "11", "9", "13"], "answer": 2 },
+        { "q": "What is the largest bone in the human body?", "choices": ["Tibia", "Humerus", "Radius", "Femur"], "answer": 3 },
+        { "q": "Which country was the first in the world to grant women the right to vote nationally?", "choices": ["New Zealand", "USA", "UK", "France"], "answer": 0 },
+        { "q": "In which year was the Battle of Waterloo fought?", "choices": ["1812", "1815", "1820", "1810"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "The energy eigenvalues of a quantum harmonic oscillator H = p²/2m + mω²x²/2 are:", "choices": ["E_n = nℏω", "E_n = ℏω(n + 1/2)", "E_n = n²ℏω/2", "E_n = ℏω(n − 1/2)"], "answer": 1 },
-        { "q": "D'Alembert's general solution to the wave equation ∂²u/∂t² = c²∂²u/∂x² is:", "choices": ["e^(ikx−iωt)", "f(x)cos(ct) + g(x)sin(ct)", "f(x + ct) + g(x − ct)", "A sin(kx) cos(ωt)"], "answer": 2 },
-        { "q": "The Cauchy-Schwarz inequality for inner product spaces states:", "choices": ["|⟨u,v⟩|² ≤ ‖u‖² ‖v‖²", "|⟨u,v⟩| ≥ ‖u‖ ‖v‖", "|⟨u,v⟩| ≤ ‖u‖² + ‖v‖²", "|⟨u,v⟩|² ≤ ‖u‖ ‖v‖"], "answer": 0 },
-        { "q": "Kolmogorov complexity K(x) of a string x is defined as:", "choices": ["The Shannon entropy of x", "The number of distinct substrings of x", "The length of x divided by its entropy", "The length of the shortest program that outputs x"], "answer": 3 },
-        { "q": "In special relativity, the time-like component p⁰ of a particle's 4-momentum equals:", "choices": ["mv/c", "γmc", "γmv", "mc"], "answer": 1 },
-        { "q": "Fermat's Last Theorem asserts there are no positive integer solutions to:", "choices": ["aⁿ + bⁿ = cⁿ for integer n > 2", "a² + b² = c² for prime a, b, c", "a + b = c for coprime a, b, c", "aⁿ + bⁿ = cⁿ for any n ≥ 2"], "answer": 0 },
-        { "q": "The eigenvalues of the 2×2 rotation matrix for angle θ are:", "choices": ["1 and −1", "cos θ and sin θ", "cos θ ± sin θ", "e^(iθ) and e^(−iθ)"], "answer": 3 },
-        { "q": "The generating function for the Legendre polynomials P_n(x) is:", "choices": ["1/(1 − xt)", "e^(xt − t²/2)", "1/√(1 − 2xt + t²)", "(1 − x²)/(1 − xt)²"], "answer": 2 },
-        { "q": "According to Noether's theorem, conservation of angular momentum corresponds to symmetry under:", "choices": ["Time translation", "Gauge transformation", "Spatial translation", "Rotation"], "answer": 3 },
-        { "q": "The Gibbs free energy G is defined as:", "choices": ["G = U + PV", "G = H − TS", "G = U − TS", "G = H + TS"], "answer": 1 }
+        { "q": "The Euler-Lagrange equation for the functional S[q] = ∫L(q, q̇, t) dt is:", "choices": ["d/dt(∂L/∂q̇) − ∂L/∂q = 0", "∂L/∂q − d/dt(∂L/∂q̇) = 0", "d/dt(∂L/∂q) − ∂L/∂q̇ = 0", "∂²L/∂q² = 0"], "answer": 0 },
+        { "q": "The Cauchy integral formula states that for f holomorphic inside closed curve C and point a inside C:", "choices": ["f(a) = (2πi) ∮_C f(z)/(z−a) dz", "f(a) = (1/2πi) ∮_C f(z)/(z−a) dz", "f(a) = (1/πi) ∮_C f(z)/(z+a) dz", "f(a) = ∮_C f(z)(z−a) dz"], "answer": 1 },
+        { "q": "Euler's formula for a convex polyhedron with V vertices, E edges, and F faces states:", "choices": ["V + E − F = 2", "V + E + F = 2", "V − E + F = 2", "V − E − F = 0"], "answer": 2 },
+        { "q": "The canonical partition function Z at inverse temperature β = 1/(k_BT) is:", "choices": ["Z = ∑ᵢ e^(Eᵢ/k_BT)", "Z = ln ∑ᵢ e^(βEᵢ)", "Z = ∑ᵢ Eᵢ e^(−βEᵢ)", "Z = ∑ᵢ e^(−βEᵢ)"], "answer": 3 },
+        { "q": "In Einstein's field equations G_μν + Λg_μν = (8πG/c⁴)T_μν, the tensor G_μν is called:", "choices": ["The Einstein tensor", "The Riemann tensor", "The Christoffel tensor", "The Ricci scalar"], "answer": 0 },
+        { "q": "Bloch's theorem states that in a periodic crystal potential, the electron wave function ψ(r) takes the form:", "choices": ["ψ(r) = e^(ik·r) alone", "ψ(r) = u_k(r)e^(ik·r) where u_k has the crystal's periodicity", "ψ(r) = A sin(k·r) + B cos(k·r)", "ψ(r) is necessarily zero at all lattice sites"], "answer": 1 },
+        { "q": "The Maclaurin series for e^x is:", "choices": ["e^x = x + x²/2! + x³/3! + ⋯", "e^x = 1 − x + x²/2! − x³/3! + ⋯", "e^x = 1 + x + x²/2! + x³/3! + ⋯", "e^x = 1 + x + x²/3! + x³/4! + ⋯"], "answer": 2 },
+        { "q": "Gauss's law for magnetism (one of Maxwell's equations in SI units) states:", "choices": ["∇·B = ρ_m/μ₀", "∇·B = ∂E/∂t", "∇×B = μ₀J + μ₀ε₀∂E/∂t", "∇·B = 0"], "answer": 3 },
+        { "q": "The Gaussian curvature K of a sphere of radius R equals:", "choices": ["K = 1/R²", "K = R²", "K = R", "K = 1/R"], "answer": 0 },
+        { "q": "The Hamiltonian H is obtained from the Lagrangian L via the Legendre transform:", "choices": ["H = L − ∑ᵢ pᵢq̇ᵢ", "H = ∑ᵢ pᵢq̇ᵢ − L", "H = L + ∑ᵢ pᵢq̇ᵢ", "H = ∂L/∂t"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A rooster lays an egg on top of a sloped roof. Which side does it roll off?", "choices": ["The left side", "The right side", "The steeper side", "Roosters don't lay eggs"], "answer": 3 },
-        { "q": "You have a bowl with six apples and take away four. How many apples do YOU have?", "choices": ["2", "6", "4", "0"], "answer": 2 },
-        { "q": "How many months in the year have 28 days?", "choices": ["1", "3", "6", "12"], "answer": 3 },
-        { "q": "You are running a race and overtake the runner in 2nd place. What place are you now in?", "choices": ["1st", "2nd", "3rd", "It depends on the race"], "answer": 1 },
-        { "q": "What comes next in the sequence: 1, 11, 21, 1211, 111221, ?", "choices": ["312211", "123121", "1112221", "12321"], "answer": 0 },
-        { "q": "How many animals of each kind did Moses take onto the Ark?", "choices": ["Two of each", "Seven of each clean, two of each unclean", "Moses didn't build the Ark — Noah did", "The Bible does not specify"], "answer": 2 },
-        { "q": "A doctor gives you 3 pills and tells you to take one every half hour. How long until you run out?", "choices": ["2 hours", "90 minutes", "45 minutes", "1 hour"], "answer": 3 },
-        { "q": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10", "$0.05", "$0.15", "$0.20"], "answer": 1 },
-        { "q": "Count the letter 'f' in: 'Finished files are the result of years of scientific study combined with the experience of years'.", "choices": ["6", "3", "5", "4"], "answer": 0 },
-        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep remain?", "choices": ["8", "0", "9", "17"], "answer": 2 }
+        { "q": "A clock shows exactly 3:15. What is the angle between the hour and minute hands?", "choices": ["7.5°", "0°", "15°", "22.5°"], "answer": 0 },
+        { "q": "An iron anchor sits on a floating boat in a small pool. The anchor is thrown overboard and sinks. What happens to the pool's water level?", "choices": ["Rises — the anchor now directly displaces water", "Drops — sunken iron displaces less water than when it rode on the boat", "Stays the same — total mass in the system is unchanged", "Depends on the anchor's shape"], "answer": 1 },
+        { "q": "Paul's mother has four children. The first three are named Monday, Tuesday, and Wednesday. What is the fourth child's name?", "choices": ["Thursday", "Friday", "Paul", "Sunday"], "answer": 2 },
+        { "q": "A snail is at the bottom of a 10-meter well. Each day it climbs 3 meters; each night it slides back 2 meters. How many days to escape?", "choices": ["10", "7", "9", "8"], "answer": 3 },
+        { "q": "How many prime numbers are there between 1 and 10 (inclusive)?", "choices": ["4", "5", "3", "6"], "answer": 0 },
+        { "q": "How many times does the digit 9 appear when you write all integers from 1 to 100?", "choices": ["10", "20", "19", "21"], "answer": 1 },
+        { "q": "A red house is made of red bricks, a blue house of blue bricks. What is a greenhouse made of?", "choices": ["Green bricks", "Green wood", "Glass", "Green paint"], "answer": 2 },
+        { "q": "You flip a fair coin 10 times and get heads every time. What is the probability of heads on the 11th flip?", "choices": ["Less than 1/2 — tails is statistically overdue", "More than 1/2 — 10 heads suggests a biased coin", "Exactly 1/1024, conditional on the streak", "1/2 — fair coin flips are always independent"], "answer": 3 },
+        { "q": "What word is spelled incorrectly in every English dictionary?", "choices": ["Incorrectly", "Wrong", "Error", "Mistaken"], "answer": 0 },
+        { "q": "A man looks at a photo: 'Brothers and sisters I have none, but this man's father is my father's son.' Who is in the photo?", "choices": ["Himself", "His son", "His father", "His uncle"], "answer": 1 }
       ]
     }
   ]
