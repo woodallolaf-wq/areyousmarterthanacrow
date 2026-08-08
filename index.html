@@ -7,7 +7,6 @@
   <title>Smarter Than A Crow</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="mortar.css" />
-  <link rel="stylesheet" href="pivot.css" />
 </head>
 <body>
   <main id="app">
@@ -25,10 +24,6 @@
       <div class="center">
         <button id="home-test" class="btn btn-big">Take Test</button>
       </div>
-      <!-- Visible entry to the Nostia Pivot preview. The 3-tap gesture on the
-           Claude streak row still works; this is the discoverable path. -->
-      <button id="home-pivot" class="btn btn-small home-aside">Nostia product walkthrough</button>
-      <p class="home-aside-note muted">A different thing I'm building. Two minutes, no sign-up.</p>
     </section>
 
     <!-- SCREEN: OPPONENTS -->
@@ -89,11 +84,7 @@
   <!-- Mortar Mode overlay — filled in by mortar.js, opened from app.js -->
   <div id="mortar-root" hidden></div>
 
-  <!-- Nostia Pivot preview overlay — filled in by pivot.js, opened from app.js -->
-  <div id="pivot-root" hidden></div>
-
   <script src="app.js"></script>
   <script src="mortar.js"></script>
-  <script src="pivot.js"></script>
 </body>
 </html>

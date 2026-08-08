@@ -499,29 +499,6 @@
   }
 
   // ---------------------------------------------------------------------------
-  // Hidden entry: Nostia Pivot preview
-  // ---------------------------------------------------------------------------
-  // Same tap-window mechanism as the crow gate above, on the Claude streak row
-  // instead — 3 taps within 3 s. Logic lives in pivot.js. Separate tap buffer so
-  // the two gates cannot interfere with each other.
-  var PIVOT_TAPS_REQUIRED = 3;
-  var claudeTaps = [];
-
-  function attachClaudeGate(el) {
-    el.addEventListener("click", function () {
-      var now = Date.now();
-      claudeTaps = claudeTaps.filter(function (t) {
-        return now - t < MORTAR_TAP_WINDOW_MS;
-      });
-      claudeTaps.push(now);
-      if (claudeTaps.length >= PIVOT_TAPS_REQUIRED) {
-        claudeTaps = [];
-        if (window.NostiaPivot) window.NostiaPivot.open();
-      }
-    });
-  }
-
-  // ---------------------------------------------------------------------------
   // SCREEN: Rewards
   // ---------------------------------------------------------------------------
   function renderRewards() {
@@ -545,7 +522,6 @@
         row.appendChild(val);
         li.appendChild(row);
         if (op.id === "crow") attachCrowGate(row);
-        if (op.id === "claude") attachClaudeGate(row);
         streaksList.appendChild(li);
       });
     } else {
@@ -670,12 +646,6 @@
     });
 
     $("home-rewards").addEventListener("click", renderRewards);
-
-    // Visible entry to the Nostia Pivot preview. Always starts the walkthrough,
-    // unlike the hidden tap gesture, which only shows it on a first visit.
-    $("home-pivot").addEventListener("click", function () {
-      if (window.NostiaPivot) window.NostiaPivot.open({ tour: true });
-    });
 
     $("test-back").addEventListener("click", goBack);
     $("test-next").addEventListener("click", goNext);
