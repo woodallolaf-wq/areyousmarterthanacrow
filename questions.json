@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-08",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is an apple?", "choices": ["Red", "Blue", "Green", "Yellow"], "answer": 0 },
-        { "q": "What sound does a duck make?", "choices": ["Woof", "Quack", "Moo", "Baa"], "answer": 1 },
-        { "q": "How many toes are on one foot?", "choices": ["3", "4", "5", "6"], "answer": 2 },
-        { "q": "What do you drink when you are thirsty?", "choices": ["Sand", "Paint", "Mud", "Water"], "answer": 3 },
-        { "q": "Which animal has a big trunk?", "choices": ["Elephant", "Lion", "Bear", "Rabbit"], "answer": 0 },
-        { "q": "What number comes after 4?", "choices": ["3", "5", "7", "6"], "answer": 1 },
-        { "q": "Which animal lives in a pond and goes ribbit?", "choices": ["Dog", "Bird", "Frog", "Fish"], "answer": 2 },
-        { "q": "What meal is typically eaten in the evening?", "choices": ["Breakfast", "Snack", "Lunch", "Dinner"], "answer": 3 },
-        { "q": "What covers a bird's body?", "choices": ["Feathers", "Fur", "Scales", "Skin"], "answer": 0 },
-        { "q": "What color is a stop sign?", "choices": ["Blue", "Red", "Green", "Yellow"], "answer": 1 }
+        { "q": "What color is a carrot?", "choices": ["Orange", "Blue", "Black", "Purple"], "answer": 0 },
+        { "q": "What do bees make?", "choices": ["Milk", "Honey", "Juice", "Butter"], "answer": 1 },
+        { "q": "How many legs does a cat have?", "choices": ["2", "6", "4", "8"], "answer": 2 },
+        { "q": "What do you use to cut paper?", "choices": ["Hammer", "Fork", "Brush", "Scissors"], "answer": 3 },
+        { "q": "What fruit is yellow and curved?", "choices": ["Banana", "Apple", "Grape", "Cherry"], "answer": 0 },
+        { "q": "Which animal says 'oink'?", "choices": ["Cow", "Pig", "Dog", "Cat"], "answer": 1 },
+        { "q": "What do you sleep in at night?", "choices": ["Chair", "Table", "Bed", "Floor"], "answer": 2 },
+        { "q": "What color is a lemon?", "choices": ["Red", "Blue", "Green", "Yellow"], "answer": 3 },
+        { "q": "What do you see in the sky at night that twinkle?", "choices": ["Stars", "Clouds", "Rain", "Birds"], "answer": 0 },
+        { "q": "Which animal has a bushy tail and collects nuts?", "choices": ["Cat", "Squirrel", "Bear", "Wolf"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Who is credited with inventing the light bulb?", "choices": ["Nikola Tesla", "Thomas Edison", "Alexander Bell", "Benjamin Franklin"], "answer": 1 },
-        { "q": "What is 9 × 9?", "choices": ["72", "90", "81", "99"], "answer": 2 },
-        { "q": "What is the main grain used in traditional Japanese sushi?", "choices": ["Noodles", "Bread", "Potatoes", "Rice"], "answer": 3 },
-        { "q": "What is the capital of Spain?", "choices": ["Madrid", "Lisbon", "Barcelona", "Seville"], "answer": 0 },
-        { "q": "What is the hardest natural substance on Earth?", "choices": ["Granite", "Iron", "Steel", "Diamond"], "answer": 3 },
-        { "q": "Which continent is the Amazon River in?", "choices": ["North America", "South America", "Africa", "Asia"], "answer": 1 },
-        { "q": "How many days are in a leap year?", "choices": ["364", "365", "366", "367"], "answer": 2 },
-        { "q": "What is the largest country in the world by land area?", "choices": ["Russia", "Canada", "USA", "China"], "answer": 0 },
-        { "q": "Which US state is nicknamed 'The Sunshine State'?", "choices": ["California", "Arizona", "Florida", "Hawaii"], "answer": 2 },
-        { "q": "What is 25% of 80?", "choices": ["15", "18", "22", "20"], "answer": 3 }
+        { "q": "What is the capital of Italy?", "choices": ["Rome", "Milan", "Venice", "Florence"], "answer": 0 },
+        { "q": "How many pieces does each player start with in chess?", "choices": ["12", "16", "20", "24"], "answer": 1 },
+        { "q": "In which year did the first Moon landing take place?", "choices": ["1959", "1967", "1969", "1972"], "answer": 2 },
+        { "q": "Which is the tallest mountain in the world?", "choices": ["K2", "Kilimanjaro", "Mont Blanc", "Everest"], "answer": 3 },
+        { "q": "In which sport do you use a shuttlecock?", "choices": ["Badminton", "Tennis", "Squash", "Volleyball"], "answer": 0 },
+        { "q": "What is 7 × 8?", "choices": ["48", "56", "63", "72"], "answer": 1 },
+        { "q": "On which continent is Egypt located?", "choices": ["Asia", "Europe", "Africa", "South America"], "answer": 2 },
+        { "q": "Which country is home to the Eiffel Tower?", "choices": ["Italy", "Germany", "Spain", "France"], "answer": 3 },
+        { "q": "What force keeps the planets in orbit around the Sun?", "choices": ["Gravity", "Magnetism", "Friction", "Electricity"], "answer": 0 },
+        { "q": "What is the most widely spoken language by number of native speakers?", "choices": ["English", "Mandarin Chinese", "Spanish", "Hindi"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Which organ produces insulin?", "choices": ["Pancreas", "Liver", "Kidney", "Spleen"], "answer": 0 },
-        { "q": "Who wrote 'A Brief History of Time'?", "choices": ["Carl Sagan", "Stephen Hawking", "Richard Feynman", "Neil deGrasse Tyson"], "answer": 1 },
-        { "q": "In which year did the Titanic sink?", "choices": ["1914", "1910", "1912", "1905"], "answer": 2 },
-        { "q": "What is the square root of 196?", "choices": ["12", "13", "16", "14"], "answer": 3 },
-        { "q": "What is the most abundant element in Earth's crust by mass?", "choices": ["Oxygen", "Silicon", "Iron", "Aluminum"], "answer": 0 },
-        { "q": "Which of the Seven Ancient Wonders of the World is still largely intact?", "choices": ["Lighthouse of Alexandria", "Great Pyramid of Giza", "Hanging Gardens of Babylon", "Colossus of Rhodes"], "answer": 1 },
-        { "q": "How many justices serve on the US Supreme Court?", "choices": ["7", "11", "9", "13"], "answer": 2 },
-        { "q": "What is the largest bone in the human body?", "choices": ["Tibia", "Humerus", "Radius", "Femur"], "answer": 3 },
-        { "q": "Which country was the first in the world to grant women the right to vote nationally?", "choices": ["New Zealand", "USA", "UK", "France"], "answer": 0 },
-        { "q": "In which year was the Battle of Waterloo fought?", "choices": ["1812", "1815", "1820", "1810"], "answer": 1 }
+        { "q": "What is the approximate speed of light in a vacuum?", "choices": ["3×10⁸ m/s", "3×10⁶ m/s", "3×10¹⁰ m/s", "3×10⁴ m/s"], "answer": 0 },
+        { "q": "Who painted the Mona Lisa?", "choices": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Caravaggio"], "answer": 1 },
+        { "q": "What is the SI unit of electric charge?", "choices": ["Volt", "Ampere", "Coulomb", "Farad"], "answer": 2 },
+        { "q": "In which ocean is the island of Madagascar located?", "choices": ["Atlantic", "Pacific", "Arctic", "Indian"], "answer": 3 },
+        { "q": "What is the chemical formula for table salt?", "choices": ["NaCl", "NaOH", "KCl", "CaCl₂"], "answer": 0 },
+        { "q": "Which US president delivered the Gettysburg Address?", "choices": ["Washington", "Lincoln", "Jefferson", "Roosevelt"], "answer": 1 },
+        { "q": "Which country gifted the Statue of Liberty to the United States?", "choices": ["UK", "Germany", "France", "Spain"], "answer": 2 },
+        { "q": "Which part of an atom carries a positive charge?", "choices": ["Electron", "Neutron", "Quark", "Proton"], "answer": 3 },
+        { "q": "On what date is US Independence Day celebrated?", "choices": ["July 4", "June 14", "September 17", "November 11"], "answer": 0 },
+        { "q": "What is the chemical symbol for silver?", "choices": ["Si", "Ag", "Sv", "Sr"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "The Euler-Lagrange equation for the functional S[q] = ∫L(q, q̇, t) dt is:", "choices": ["d/dt(∂L/∂q̇) − ∂L/∂q = 0", "∂L/∂q − d/dt(∂L/∂q̇) = 0", "d/dt(∂L/∂q) − ∂L/∂q̇ = 0", "∂²L/∂q² = 0"], "answer": 0 },
-        { "q": "The Cauchy integral formula states that for f holomorphic inside closed curve C and point a inside C:", "choices": ["f(a) = (2πi) ∮_C f(z)/(z−a) dz", "f(a) = (1/2πi) ∮_C f(z)/(z−a) dz", "f(a) = (1/πi) ∮_C f(z)/(z+a) dz", "f(a) = ∮_C f(z)(z−a) dz"], "answer": 1 },
-        { "q": "Euler's formula for a convex polyhedron with V vertices, E edges, and F faces states:", "choices": ["V + E − F = 2", "V + E + F = 2", "V − E + F = 2", "V − E − F = 0"], "answer": 2 },
-        { "q": "The canonical partition function Z at inverse temperature β = 1/(k_BT) is:", "choices": ["Z = ∑ᵢ e^(Eᵢ/k_BT)", "Z = ln ∑ᵢ e^(βEᵢ)", "Z = ∑ᵢ Eᵢ e^(−βEᵢ)", "Z = ∑ᵢ e^(−βEᵢ)"], "answer": 3 },
-        { "q": "In Einstein's field equations G_μν + Λg_μν = (8πG/c⁴)T_μν, the tensor G_μν is called:", "choices": ["The Einstein tensor", "The Riemann tensor", "The Christoffel tensor", "The Ricci scalar"], "answer": 0 },
-        { "q": "Bloch's theorem states that in a periodic crystal potential, the electron wave function ψ(r) takes the form:", "choices": ["ψ(r) = e^(ik·r) alone", "ψ(r) = u_k(r)e^(ik·r) where u_k has the crystal's periodicity", "ψ(r) = A sin(k·r) + B cos(k·r)", "ψ(r) is necessarily zero at all lattice sites"], "answer": 1 },
-        { "q": "The Maclaurin series for e^x is:", "choices": ["e^x = x + x²/2! + x³/3! + ⋯", "e^x = 1 − x + x²/2! − x³/3! + ⋯", "e^x = 1 + x + x²/2! + x³/3! + ⋯", "e^x = 1 + x + x²/3! + x³/4! + ⋯"], "answer": 2 },
-        { "q": "Gauss's law for magnetism (one of Maxwell's equations in SI units) states:", "choices": ["∇·B = ρ_m/μ₀", "∇·B = ∂E/∂t", "∇×B = μ₀J + μ₀ε₀∂E/∂t", "∇·B = 0"], "answer": 3 },
-        { "q": "The Gaussian curvature K of a sphere of radius R equals:", "choices": ["K = 1/R²", "K = R²", "K = R", "K = 1/R"], "answer": 0 },
-        { "q": "The Hamiltonian H is obtained from the Lagrangian L via the Legendre transform:", "choices": ["H = L − ∑ᵢ pᵢq̇ᵢ", "H = ∑ᵢ pᵢq̇ᵢ − L", "H = L + ∑ᵢ pᵢq̇ᵢ", "H = ∂L/∂t"], "answer": 1 }
+        { "q": "The Biot-Savart law for magnetic field dB due to current element I dℓ at distance r is:", "choices": ["dB = (μ₀I/4πr²)(dℓ × r̂)", "dB = (μ₀I/4πr)(dℓ · r̂)", "dB = (4πr²/μ₀I)(dℓ × r̂)", "dB = μ₀I(dℓ × r̂)/r"], "answer": 0 },
+        { "q": "Shannon's information entropy H for probability distribution {pᵢ} is:", "choices": ["H = Σ pᵢ log₂ pᵢ", "H = −Σ pᵢ log₂ pᵢ", "H = Σ pᵢ²", "H = 1 − Σ pᵢ²"], "answer": 1 },
+        { "q": "The Schwarzschild radius rₛ of a non-rotating black hole with mass M is:", "choices": ["rₛ = GM/c²", "rₛ = GM/(2c²)", "rₛ = 2GM/c²", "rₛ = 4πGM/c²"], "answer": 2 },
+        { "q": "Fermat's little theorem: for prime p and integer a with p ∤ a, then aᵖ⁻¹ ≡ _____ (mod p):", "choices": ["a", "p − 1", "p", "1"], "answer": 3 },
+        { "q": "The Poisson bracket {f, g} in canonical mechanics (coordinates qᵢ, pᵢ) equals:", "choices": ["{f,g} = Σᵢ (∂f/∂qᵢ ∂g/∂pᵢ − ∂f/∂pᵢ ∂g/∂qᵢ)", "{f,g} = Σᵢ (∂f/∂qᵢ ∂g/∂pᵢ + ∂f/∂pᵢ ∂g/∂qᵢ)", "{f,g} = ∂f/∂t · ∂g/∂t", "{f,g} = f · g − g · f"], "answer": 0 },
+        { "q": "The Fourier series coefficient bₙ for a 2π-periodic function f is:", "choices": ["(1/2π) ∫₋ππ f(x) sin(nx) dx", "(1/π) ∫₋ππ f(x) sin(nx) dx", "(2/π) ∫₋ππ f(x) sin(nx) dx", "π ∫₋ππ f(x) sin(nx) dx"], "answer": 1 },
+        { "q": "The time-dependent Schrödinger equation (Ĥ = Hamiltonian operator) is:", "choices": ["ℏ ∂ψ/∂t = Ĥψ", "−iℏ ∂ψ/∂t = Ĥψ", "iℏ ∂ψ/∂t = Ĥψ", "iℏ ∂²ψ/∂t² = Ĥψ"], "answer": 2 },
+        { "q": "Liouville's theorem states that the total time derivative of the phase-space distribution function f satisfies:", "choices": ["df/dt = H", "df/dt = −H", "df/dt = {H, f}", "df/dt = 0"], "answer": 3 },
+        { "q": "The Nyquist–Shannon sampling theorem requires sampling rate fₛ to satisfy:", "choices": ["fₛ ≥ 2 f_max", "fₛ ≥ f_max", "fₛ ≥ f_max / 2", "fₛ ≥ 4 f_max"], "answer": 0 },
+        { "q": "In quantum mechanics, the expectation value ⟨A⟩ of observable A in normalized state |ψ⟩ is:", "choices": ["⟨A⟩ = ⟨ψ|ψ⟩", "⟨A⟩ = ⟨ψ|Â|ψ⟩", "⟨A⟩ = Â|ψ⟩⟨ψ|", "⟨A⟩ = Tr(Â)"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A clock shows exactly 3:15. What is the angle between the hour and minute hands?", "choices": ["7.5°", "0°", "15°", "22.5°"], "answer": 0 },
-        { "q": "An iron anchor sits on a floating boat in a small pool. The anchor is thrown overboard and sinks. What happens to the pool's water level?", "choices": ["Rises — the anchor now directly displaces water", "Drops — sunken iron displaces less water than when it rode on the boat", "Stays the same — total mass in the system is unchanged", "Depends on the anchor's shape"], "answer": 1 },
-        { "q": "Paul's mother has four children. The first three are named Monday, Tuesday, and Wednesday. What is the fourth child's name?", "choices": ["Thursday", "Friday", "Paul", "Sunday"], "answer": 2 },
-        { "q": "A snail is at the bottom of a 10-meter well. Each day it climbs 3 meters; each night it slides back 2 meters. How many days to escape?", "choices": ["10", "7", "9", "8"], "answer": 3 },
-        { "q": "How many prime numbers are there between 1 and 10 (inclusive)?", "choices": ["4", "5", "3", "6"], "answer": 0 },
-        { "q": "How many times does the digit 9 appear when you write all integers from 1 to 100?", "choices": ["10", "20", "19", "21"], "answer": 1 },
-        { "q": "A red house is made of red bricks, a blue house of blue bricks. What is a greenhouse made of?", "choices": ["Green bricks", "Green wood", "Glass", "Green paint"], "answer": 2 },
-        { "q": "You flip a fair coin 10 times and get heads every time. What is the probability of heads on the 11th flip?", "choices": ["Less than 1/2 — tails is statistically overdue", "More than 1/2 — 10 heads suggests a biased coin", "Exactly 1/1024, conditional on the streak", "1/2 — fair coin flips are always independent"], "answer": 3 },
-        { "q": "What word is spelled incorrectly in every English dictionary?", "choices": ["Incorrectly", "Wrong", "Error", "Mistaken"], "answer": 0 },
-        { "q": "A man looks at a photo: 'Brothers and sisters I have none, but this man's father is my father's son.' Who is in the photo?", "choices": ["Himself", "His son", "His father", "His uncle"], "answer": 1 }
+        { "q": "What color are the 'black boxes' on commercial aircraft?", "choices": ["Black", "Red", "Blue", "Orange"], "answer": 3 },
+        { "q": "How many letters are in the phrase 'the alphabet'?", "choices": ["11", "26", "25", "24"], "answer": 0 },
+        { "q": "A man rode into town on Friday, stayed three days, and rode out on Friday. How?", "choices": ["He rode in on a different Friday and left the next one", "His horse is named Friday", "He traveled across multiple time zones", "He left at midnight on Thursday"], "answer": 1 },
+        { "q": "I have two children and at least one is a boy. What is the probability both are boys?", "choices": ["1/2", "3/4", "1/3", "2/3"], "answer": 2 },
+        { "q": "In a standard 52-card deck, the probability of drawing a red card OR a king is:", "choices": ["4/52 — only 4 kings", "15/26 — add 26 red plus 4 kings", "1/2 — half the deck is red", "7/13 — subtract the 2 red kings counted twice"], "answer": 3 },
+        { "q": "A woman shoots her husband, then holds him underwater for 5 minutes. An hour later they go out to dinner. How?", "choices": ["She's a photographer — she took his photo and developed it", "He had a near-death experience and survived", "She used a water-soluble sedative", "He held his breath using a technique"], "answer": 0 },
+        { "q": "What gets wetter the more it dries?", "choices": ["Sunshine", "A towel", "A fog machine", "Ice"], "answer": 1 },
+        { "q": "Monty Hall problem: you pick one of 3 doors; the host opens a losing door. Should you switch?", "choices": ["No — it's now 50/50 between the two closed doors", "No — your original pick has the higher probability after the reveal", "Yes — switching wins with probability 2/3", "Yes — but only if you don't know which door the host will open"], "answer": 2 },
+        { "q": "You throw it out when you need it, and take it back in when you don't. What is it?", "choices": ["A life jacket", "A buoy", "A lighthouse beam", "An anchor"], "answer": 3 },
+        { "q": "A Chicago train heads east and a New York train heads west. When they meet, which train is closer to Chicago?", "choices": ["Both are at the same spot — equidistant from Chicago", "The Chicago train — it traveled less distance", "The New York train — it traveled more ground", "Whichever train is faster"], "answer": 0 }
       ]
     }
   ]
