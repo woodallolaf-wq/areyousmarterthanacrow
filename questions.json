@@ -6,16 +6,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is snow?", "choices": ["White", "Pink", "Blue", "Green"], "answer": 0 },
-        { "q": "How many eyes does a person have?", "choices": ["One", "Two", "Three", "Four"], "answer": 1 },
-        { "q": "What do you use to eat soup?", "choices": ["Fork", "Knife", "Spoon", "Plate"], "answer": 2 },
-        { "q": "What noise does a cow make?", "choices": ["Oink", "Cluck", "Bark", "Moo"], "answer": 3 },
-        { "q": "Which shape has three sides?", "choices": ["Triangle", "Square", "Circle", "Rectangle"], "answer": 0 },
-        { "q": "What do you call a baby dog?", "choices": ["Kitten", "Puppy", "Chick", "Lamb"], "answer": 1 },
-        { "q": "What do you use to sweep the floor?", "choices": ["Mop", "Bucket", "Broom", "Sponge"], "answer": 2 },
-        { "q": "What color is a ripe pumpkin?", "choices": ["Purple", "Green", "Red", "Orange"], "answer": 3 },
-        { "q": "How many wheels does a car have?", "choices": ["4", "2", "6", "8"], "answer": 0 },
-        { "q": "What do you call the light that comes from the Sun?", "choices": ["Moonlight", "Sunlight", "Starlight", "Firelight"], "answer": 1 }
+        { "q": "Which animal has a long trunk?", "choices": ["Snake","Duck","Elephant","Rabbit"], "answer": 2 },
+        { "q": "Which one is a fruit?", "choices": ["Chair","Apple","Sock","Spoon"], "answer": 1 },
+        { "q": "What colour is a ripe tomato?", "choices": ["Red","Grey","Purple","Blue"], "answer": 0 },
+        { "q": "What is 2 + 2?", "choices": ["6","5","4","3"], "answer": 2 },
+        { "q": "Which one is round?", "choices": ["A brick","A book","A ball","A box"], "answer": 2 },
+        { "q": "What is the opposite of up?", "choices": ["Big","Fast","Left","Down"], "answer": 3 },
+        { "q": "Which is bigger?", "choices": ["An ant","A mouse","A bee","An elephant"], "answer": 3 },
+        { "q": "What do you use to write?", "choices": ["Plate","Pencil","Pillow","Pan"], "answer": 1 },
+        { "q": "What do you eat soup with?", "choices": ["A spoon","A shoe","A comb","A book"], "answer": 0 },
+        { "q": "What do bees make?", "choices": ["Soup","Bread","Cheese","Honey"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Brazil?", "choices": ["Brasília", "São Paulo", "Rio de Janeiro", "Buenos Aires"], "answer": 0 },
-        { "q": "How many strings does a standard guitar have?", "choices": ["4", "6", "5", "8"], "answer": 1 },
-        { "q": "What is 12 × 12?", "choices": ["120", "136", "144", "148"], "answer": 2 },
-        { "q": "Which planet is closest to the Sun?", "choices": ["Venus", "Earth", "Mars", "Mercury"], "answer": 3 },
-        { "q": "How many colors are in a rainbow?", "choices": ["7", "5", "6", "8"], "answer": 0 },
-        { "q": "In which country is the Taj Mahal located?", "choices": ["Pakistan", "Bangladesh", "India", "Nepal"], "answer": 2 },
-        { "q": "What does DNA stand for?", "choices": ["Dynamic Neural Array", "Deoxyribonucleic Acid", "Dual Nucleic Assembly", "Digital Nature Algorithm"], "answer": 1 },
-        { "q": "Which country's national flag features a maple leaf?", "choices": ["Australia", "New Zealand", "Ireland", "Canada"], "answer": 3 },
-        { "q": "What is the currency of Japan?", "choices": ["Won", "Baht", "Yen", "Ringgit"], "answer": 2 },
-        { "q": "Which organ pumps blood through the human body?", "choices": ["Lungs", "Liver", "Kidneys", "Heart"], "answer": 3 }
+        { "q": "Which word is closest in meaning to 'Elated'?", "choices": ["Jubilant","Composed","Fatigued","Wary"], "answer": 0 },
+        { "q": "What is 51² − 49²?", "choices": ["100","1,000","200","400"], "answer": 2 },
+        { "q": "Which does NOT belong? Cerulean, Cobalt, Ultramarine, Ochre.", "choices": ["Ochre","Cerulean","Cobalt","Ultramarine"], "answer": 0 },
+        { "q": "What is the greatest common divisor of 108 and 144?", "choices": ["24","18","48","36"], "answer": 3 },
+        { "q": "In J, 5, P, 3, T, 8, W — which letter immediately follows the largest digit?", "choices": ["J","P","W","T"], "answer": 2 },
+        { "q": "Choose the antonym of 'Archaic'.", "choices": ["Obscure","Antiquated","Ornate","Contemporary"], "answer": 3 },
+        { "q": "Sort CAT, DOG, BIRD, EMU, FOX alphabetically. Which word is now third?", "choices": ["CAT","EMU","DOG","BIRD"], "answer": 2 },
+        { "q": "A recipe needs 5 cups of flour for 18 cookies. How much is needed for 45 cookies?", "choices": ["12.5 cups","15 cups","11.5 cups","10 cups"], "answer": 0 },
+        { "q": "From 4, 9, 2, 7, 12, 5, 6 — how many values are divisible by 3?", "choices": ["2","5","4","3"], "answer": 3 },
+        { "q": "Seven identical items cost $17.50. What do twelve cost?", "choices": ["$24.00","$28.00","$30.00","$26.50"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the chemical formula for carbon dioxide?", "choices": ["CO₂", "H₂O", "O₂", "N₂"], "answer": 0 },
-        { "q": "Who wrote the novel 'Pride and Prejudice'?", "choices": ["Charlotte Brontë", "Jane Austen", "Emily Brontë", "Mary Shelley"], "answer": 1 },
-        { "q": "What is the nearest star to Earth after the Sun?", "choices": ["Sirius", "Betelgeuse", "Proxima Centauri", "Vega"], "answer": 2 },
-        { "q": "In which year did World War I begin?", "choices": ["1910", "1912", "1916", "1914"], "answer": 3 },
-        { "q": "What is the most abundant gas in Earth's atmosphere?", "choices": ["Nitrogen", "Oxygen", "Carbon Dioxide", "Argon"], "answer": 0 },
-        { "q": "Who composed the opera 'La Traviata'?", "choices": ["Puccini", "Verdi", "Beethoven", "Mozart"], "answer": 1 },
-        { "q": "Which is the largest planet in the solar system?", "choices": ["Mars", "Saturn", "Jupiter", "Neptune"], "answer": 2 },
-        { "q": "What is the capital city of Canada?", "choices": ["Toronto", "Montreal", "Vancouver", "Ottawa"], "answer": 3 },
-        { "q": "Who painted 'The Starry Night'?", "choices": ["Vincent van Gogh", "Pablo Picasso", "Claude Monet", "Paul Cézanne"], "answer": 0 },
-        { "q": "In physics, what quantity is measured in joules?", "choices": ["Force", "Energy", "Power", "Pressure"], "answer": 1 }
+        { "q": "Reverse 4, 7, 2, 9, 1, 8, 3 and take the middle value of the result.", "choices": ["2","1","9","8"], "answer": 2 },
+        { "q": "A price rises by 25%, then falls by 25%. What is the net change?", "choices": ["−12.5%","−6.25%","0%","−5%"], "answer": 1 },
+        { "q": "Simplify: (169 ÷ 13) × 4 − 3³", "choices": ["25","31","29","21"], "answer": 0 },
+        { "q": "No M are N. All N are O. Some O are P. Which is certainly true?", "choices": ["No M are N","Some M are O","Some N are P","All P are O"], "answer": 0 },
+        { "q": "Plethora is to Paucity as Turpitude is to ___.", "choices": ["Depravity","Probity","Lassitude","Abundance"], "answer": 1 },
+        { "q": "What is the next prime number after 113?", "choices": ["121","117","115","127"], "answer": 3 },
+        { "q": "From 14, 7, 22, 3, 19, 11, 8 — sum the values above 10.", "choices": ["47","55","66","70"], "answer": 2 },
+        { "q": "Liminal most nearly means:", "choices": ["Relating to a threshold or transition","Extremely limited in scope","Precisely defined","Belonging to the outer edge"], "answer": 0 },
+        { "q": "In a class of 50, 30 study French and 25 study German; 12 study both. How many study neither?", "choices": ["8","5","7","6"], "answer": 2 },
+        { "q": "Some A are B. No B are C. Therefore:", "choices": ["All A are C","Some A are not C","No A are C","Some C are A"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "The Heisenberg uncertainty principle for position x and momentum p states:", "choices": ["ΔxΔp ≥ ℏ/2", "ΔxΔp ≥ ℏ", "ΔxΔp ≥ 2ℏ", "ΔxΔp ≥ ℏ²/2"], "answer": 0 },
-        { "q": "The Riemann hypothesis conjectures that all non-trivial zeros of ζ(s) have real part equal to:", "choices": ["0", "1/2", "1", "2πn for integer n"], "answer": 1 },
-        { "q": "The Dirac delta satisfies: ∫_{−∞}^{∞} f(x)δ(x−a) dx =", "choices": ["0", "f(0)", "f(a)", "∞"], "answer": 2 },
-        { "q": "The order of the alternating group Aₙ (n ≥ 2) is:", "choices": ["n!", "(n−1)!", "n! + 1", "n!/2"], "answer": 3 },
-        { "q": "The Laplace transform of e^(at) (for s > a) is:", "choices": ["1/(s−a)", "1/(s+a)", "a/(s²+a²)", "s/(s²−a²)"], "answer": 0 },
-        { "q": "The Green's function G(x,x′) for operator L is defined by:", "choices": ["LG = 1", "LG(x,x′) = δ(x−x′)", "LG(x,x′) = G(x′,x)", "LG = 0 everywhere"], "answer": 1 },
-        { "q": "In Boltzmann's entropy formula S = k_B ln Ω, Ω represents:", "choices": ["The partition function", "The thermal de Broglie wavelength", "The number of microstates for the macrostate", "The Boltzmann constant itself"], "answer": 2 },
-        { "q": "The Baker–Campbell–Hausdorff formula to lowest non-trivial order gives e^A e^B =", "choices": ["e^(AB)", "e^(A+B)", "e^(A−B+[A,B])", "e^(A+B+[A,B]/2 + ...)"], "answer": 3 },
-        { "q": "The curl of the gradient of any scalar field φ equals:", "choices": ["Zero (the zero vector)", "∇²φ", "φ ∇φ", "The divergence of ∇φ"], "answer": 0 },
-        { "q": "The characteristic polynomial of the 2×2 matrix [[a,b],[c,d]] is:", "choices": ["λ² + (a+d)λ + (ad−bc) = 0", "λ² − (a+d)λ + (ad−bc) = 0", "λ² − (a−d)λ − (ad+bc) = 0", "λ² + (a−d)λ + (ad−bc) = 0"], "answer": 1 }
+        { "q": "Euler's identity states that e^(iπ) equals:", "choices": ["i","−1","1","0"], "answer": 1 },
+        { "q": "Gauss's law states that the flux ∮E·dA through a closed surface equals:", "choices": ["Q·ε₀","Q_enc/ε₀","Q_enc·ε₀/2","μ₀Q"], "answer": 1 },
+        { "q": "The de Broglie wavelength of a particle with momentum p is:", "choices": ["hp","h/p","h/p²","p/h"], "answer": 1 },
+        { "q": "The second derivative of sin(x) is:", "choices": ["−cos(x)","cos(x)","sin(x)","−sin(x)"], "answer": 3 },
+        { "q": "Faraday's law in differential form states that ∇ × E equals:", "choices": ["−∂B/∂t","∂B/∂t","μ₀J","ρ/ε₀"], "answer": 0 },
+        { "q": "The Lorentz factor γ for a body moving at speed v is:", "choices": ["1/(1 − v/c)","1 − v²/c²","1/√(1 − v²/c²)","√(1 − v²/c²)"], "answer": 2 },
+        { "q": "The Compton shift in wavelength when a photon scatters through angle θ is:", "choices": ["(h/mc)·sin θ","(h/mc)(1 − cos θ)","(h/mc)·cos θ","(mc/h)(1 − cos θ)"], "answer": 1 },
+        { "q": "The cardinality of the power set of an n-element set is:", "choices": ["n!","2ⁿ","2n","n²"], "answer": 1 },
+        { "q": "The derivative of ln(x) with respect to x is:", "choices": ["1/x","−1/x²","x ln x","ln x / x"], "answer": 0 },
+        { "q": "The number of edges in a complete graph Kₙ is:", "choices": ["n(n − 1)/2","n(n + 1)/2","2ⁿ⁻¹","n²"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Which is heavier: a kilogram of feathers or a kilogram of gold?", "choices": ["Gold — it uses heavier troy units", "Feathers — avoirdupois pounds outweigh troy", "They weigh exactly the same", "Gold — higher density concentrates the weight"], "answer": 2 },
-        { "q": "An electric train travels north at 80 mph. The wind blows south at 20 mph. In which direction does the smoke blow?", "choices": ["North — the train's speed dominates", "South — the wind pushes it back", "Straight up — wind and train forces cancel", "Electric trains produce no smoke"], "answer": 3 },
-        { "q": "In a race, you overtake the runner currently in last place. What place are you in now?", "choices": ["Last place — you took their spot", "Second to last — you moved up one", "The premise is impossible — no one is behind the last-place runner", "First — you passed everyone below you"], "answer": 2 },
-        { "q": "What is the product of all integers from 0 to 100?", "choices": ["100! (a number with 157 digits)", "5,050 — the same as their sum", "A number with exactly 24 trailing zeros", "0 — because the set includes zero"], "answer": 3 },
-        { "q": "A school has 100 students. Exactly 99% are NOT wearing hats. How many students are wearing hats?", "choices": ["1", "99", "0", "Cannot be determined"], "answer": 0 },
-        { "q": "How many times can you subtract 5 from 25?", "choices": ["5 times", "Once — after that it's no longer 25", "As many times as you like — it's pure math", "Never — 5 divides 25 with no remainder"], "answer": 1 },
-        { "q": "The more you take, the more you leave behind. What am I?", "choices": ["Footsteps", "Shadows", "Memories", "Time"], "answer": 0 },
-        { "q": "You have 8 identical-looking balls; one is slightly heavier. Using only a balance scale, what is the minimum number of weighings guaranteed to find it?", "choices": ["1", "2", "3", "4"], "answer": 1 },
-        { "q": "There are 5 birds sitting on a fence. A farmer shoots one. How many birds are left on the fence?", "choices": ["4 — one fell off", "5 — the shot missed", "0 — the gunshot startles the rest away", "2 — some stayed behind"], "answer": 2 },
-        { "q": "In Python, what does the expression `0.1 + 0.2 == 0.3` evaluate to?", "choices": ["True", "False — floating-point makes 0.1 + 0.2 slightly above 0.3", "It raises a ZeroDivisionError", "True only in Python 2"], "answer": 1 }
+        { "q": "Before Mount Everest was discovered, what was the tallest mountain on Earth?", "choices": ["Mount Everest","Kangchenjunga","K2","Mont Blanc"], "answer": 0 },
+        { "q": "If 5 machines take 5 minutes to make 5 widgets, how long do 100 machines take to make 100 widgets?", "choices": ["20 minutes","1 minute","100 minutes","5 minutes"], "answer": 3 },
+        { "q": "How many animals of each kind did Moses take onto the ark?", "choices": ["Seven","Two","One pair of each","None — it was Noah, not Moses"], "answer": 3 },
+        { "q": "A bat and a ball cost $1.10 together. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10","$0.55","$0.05","$1.00"], "answer": 2 },
+        { "q": "A lily patch doubles in size every day and covers the lake on day 48. On what day does it cover half the lake?", "choices": ["Day 24","Day 47","Day 32","Day 46"], "answer": 1 },
+        { "q": "A farmer has 17 sheep. All but 9 die. How many are left?", "choices": ["9","17","8","0"], "answer": 0 },
+        { "q": "You throw it out when you need it and take it back in when you don't. What is it?", "choices": ["A life jacket","An anchor","A lighthouse beam","A buoy"], "answer": 1 },
+        { "q": "If you are running a race and you pass the person in last place, what position are you in?", "choices": ["Second to last","Impossible — you cannot pass the last runner","First","Last"], "answer": 1 },
+        { "q": "Which is correct: 'the yolk of the egg is white' or 'the yolk of the egg are white'?", "choices": ["Is white","Are white","Neither — yolks are yellow","Both are acceptable"], "answer": 2 },
+        { "q": "A house has all four walls facing south, and a bear walks past. What colour is the bear?", "choices": ["White","Black","It cannot be determined","Brown"], "answer": 0 }
       ]
     }
   ]
