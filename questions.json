@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-08",
+  "date": "2026-08-09",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is a carrot?", "choices": ["Orange", "Blue", "Black", "Purple"], "answer": 0 },
-        { "q": "What do bees make?", "choices": ["Milk", "Honey", "Juice", "Butter"], "answer": 1 },
-        { "q": "How many legs does a cat have?", "choices": ["2", "6", "4", "8"], "answer": 2 },
-        { "q": "What do you use to cut paper?", "choices": ["Hammer", "Fork", "Brush", "Scissors"], "answer": 3 },
-        { "q": "What fruit is yellow and curved?", "choices": ["Banana", "Apple", "Grape", "Cherry"], "answer": 0 },
-        { "q": "Which animal says 'oink'?", "choices": ["Cow", "Pig", "Dog", "Cat"], "answer": 1 },
-        { "q": "What do you sleep in at night?", "choices": ["Chair", "Table", "Bed", "Floor"], "answer": 2 },
-        { "q": "What color is a lemon?", "choices": ["Red", "Blue", "Green", "Yellow"], "answer": 3 },
-        { "q": "What do you see in the sky at night that twinkle?", "choices": ["Stars", "Clouds", "Rain", "Birds"], "answer": 0 },
-        { "q": "Which animal has a bushy tail and collects nuts?", "choices": ["Cat", "Squirrel", "Bear", "Wolf"], "answer": 1 }
+        { "q": "What color is snow?", "choices": ["White", "Pink", "Blue", "Green"], "answer": 0 },
+        { "q": "How many eyes does a person have?", "choices": ["One", "Two", "Three", "Four"], "answer": 1 },
+        { "q": "What do you use to eat soup?", "choices": ["Fork", "Knife", "Spoon", "Plate"], "answer": 2 },
+        { "q": "What noise does a cow make?", "choices": ["Oink", "Cluck", "Bark", "Moo"], "answer": 3 },
+        { "q": "Which shape has three sides?", "choices": ["Triangle", "Square", "Circle", "Rectangle"], "answer": 0 },
+        { "q": "What do you call a baby dog?", "choices": ["Kitten", "Puppy", "Chick", "Lamb"], "answer": 1 },
+        { "q": "What do you use to sweep the floor?", "choices": ["Mop", "Bucket", "Broom", "Sponge"], "answer": 2 },
+        { "q": "What color is a ripe pumpkin?", "choices": ["Purple", "Green", "Red", "Orange"], "answer": 3 },
+        { "q": "How many wheels does a car have?", "choices": ["4", "2", "6", "8"], "answer": 0 },
+        { "q": "What do you call the light that comes from the Sun?", "choices": ["Moonlight", "Sunlight", "Starlight", "Firelight"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Italy?", "choices": ["Rome", "Milan", "Venice", "Florence"], "answer": 0 },
-        { "q": "How many pieces does each player start with in chess?", "choices": ["12", "16", "20", "24"], "answer": 1 },
-        { "q": "In which year did the first Moon landing take place?", "choices": ["1959", "1967", "1969", "1972"], "answer": 2 },
-        { "q": "Which is the tallest mountain in the world?", "choices": ["K2", "Kilimanjaro", "Mont Blanc", "Everest"], "answer": 3 },
-        { "q": "In which sport do you use a shuttlecock?", "choices": ["Badminton", "Tennis", "Squash", "Volleyball"], "answer": 0 },
-        { "q": "What is 7 × 8?", "choices": ["48", "56", "63", "72"], "answer": 1 },
-        { "q": "On which continent is Egypt located?", "choices": ["Asia", "Europe", "Africa", "South America"], "answer": 2 },
-        { "q": "Which country is home to the Eiffel Tower?", "choices": ["Italy", "Germany", "Spain", "France"], "answer": 3 },
-        { "q": "What force keeps the planets in orbit around the Sun?", "choices": ["Gravity", "Magnetism", "Friction", "Electricity"], "answer": 0 },
-        { "q": "What is the most widely spoken language by number of native speakers?", "choices": ["English", "Mandarin Chinese", "Spanish", "Hindi"], "answer": 1 }
+        { "q": "What is the capital of Brazil?", "choices": ["Brasília", "São Paulo", "Rio de Janeiro", "Buenos Aires"], "answer": 0 },
+        { "q": "How many strings does a standard guitar have?", "choices": ["4", "6", "5", "8"], "answer": 1 },
+        { "q": "What is 12 × 12?", "choices": ["120", "136", "144", "148"], "answer": 2 },
+        { "q": "Which planet is closest to the Sun?", "choices": ["Venus", "Earth", "Mars", "Mercury"], "answer": 3 },
+        { "q": "How many colors are in a rainbow?", "choices": ["7", "5", "6", "8"], "answer": 0 },
+        { "q": "In which country is the Taj Mahal located?", "choices": ["Pakistan", "Bangladesh", "India", "Nepal"], "answer": 2 },
+        { "q": "What does DNA stand for?", "choices": ["Dynamic Neural Array", "Deoxyribonucleic Acid", "Dual Nucleic Assembly", "Digital Nature Algorithm"], "answer": 1 },
+        { "q": "Which country's national flag features a maple leaf?", "choices": ["Australia", "New Zealand", "Ireland", "Canada"], "answer": 3 },
+        { "q": "What is the currency of Japan?", "choices": ["Won", "Baht", "Yen", "Ringgit"], "answer": 2 },
+        { "q": "Which organ pumps blood through the human body?", "choices": ["Lungs", "Liver", "Kidneys", "Heart"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "What is the approximate speed of light in a vacuum?", "choices": ["3×10⁸ m/s", "3×10⁶ m/s", "3×10¹⁰ m/s", "3×10⁴ m/s"], "answer": 0 },
-        { "q": "Who painted the Mona Lisa?", "choices": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Caravaggio"], "answer": 1 },
-        { "q": "What is the SI unit of electric charge?", "choices": ["Volt", "Ampere", "Coulomb", "Farad"], "answer": 2 },
-        { "q": "In which ocean is the island of Madagascar located?", "choices": ["Atlantic", "Pacific", "Arctic", "Indian"], "answer": 3 },
-        { "q": "What is the chemical formula for table salt?", "choices": ["NaCl", "NaOH", "KCl", "CaCl₂"], "answer": 0 },
-        { "q": "Which US president delivered the Gettysburg Address?", "choices": ["Washington", "Lincoln", "Jefferson", "Roosevelt"], "answer": 1 },
-        { "q": "Which country gifted the Statue of Liberty to the United States?", "choices": ["UK", "Germany", "France", "Spain"], "answer": 2 },
-        { "q": "Which part of an atom carries a positive charge?", "choices": ["Electron", "Neutron", "Quark", "Proton"], "answer": 3 },
-        { "q": "On what date is US Independence Day celebrated?", "choices": ["July 4", "June 14", "September 17", "November 11"], "answer": 0 },
-        { "q": "What is the chemical symbol for silver?", "choices": ["Si", "Ag", "Sv", "Sr"], "answer": 1 }
+        { "q": "What is the chemical formula for carbon dioxide?", "choices": ["CO₂", "H₂O", "O₂", "N₂"], "answer": 0 },
+        { "q": "Who wrote the novel 'Pride and Prejudice'?", "choices": ["Charlotte Brontë", "Jane Austen", "Emily Brontë", "Mary Shelley"], "answer": 1 },
+        { "q": "What is the nearest star to Earth after the Sun?", "choices": ["Sirius", "Betelgeuse", "Proxima Centauri", "Vega"], "answer": 2 },
+        { "q": "In which year did World War I begin?", "choices": ["1910", "1912", "1916", "1914"], "answer": 3 },
+        { "q": "What is the most abundant gas in Earth's atmosphere?", "choices": ["Nitrogen", "Oxygen", "Carbon Dioxide", "Argon"], "answer": 0 },
+        { "q": "Who composed the opera 'La Traviata'?", "choices": ["Puccini", "Verdi", "Beethoven", "Mozart"], "answer": 1 },
+        { "q": "Which is the largest planet in the solar system?", "choices": ["Mars", "Saturn", "Jupiter", "Neptune"], "answer": 2 },
+        { "q": "What is the capital city of Canada?", "choices": ["Toronto", "Montreal", "Vancouver", "Ottawa"], "answer": 3 },
+        { "q": "Who painted 'The Starry Night'?", "choices": ["Vincent van Gogh", "Pablo Picasso", "Claude Monet", "Paul Cézanne"], "answer": 0 },
+        { "q": "In physics, what quantity is measured in joules?", "choices": ["Force", "Energy", "Power", "Pressure"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "The Biot-Savart law for magnetic field dB due to current element I dℓ at distance r is:", "choices": ["dB = (μ₀I/4πr²)(dℓ × r̂)", "dB = (μ₀I/4πr)(dℓ · r̂)", "dB = (4πr²/μ₀I)(dℓ × r̂)", "dB = μ₀I(dℓ × r̂)/r"], "answer": 0 },
-        { "q": "Shannon's information entropy H for probability distribution {pᵢ} is:", "choices": ["H = Σ pᵢ log₂ pᵢ", "H = −Σ pᵢ log₂ pᵢ", "H = Σ pᵢ²", "H = 1 − Σ pᵢ²"], "answer": 1 },
-        { "q": "The Schwarzschild radius rₛ of a non-rotating black hole with mass M is:", "choices": ["rₛ = GM/c²", "rₛ = GM/(2c²)", "rₛ = 2GM/c²", "rₛ = 4πGM/c²"], "answer": 2 },
-        { "q": "Fermat's little theorem: for prime p and integer a with p ∤ a, then aᵖ⁻¹ ≡ _____ (mod p):", "choices": ["a", "p − 1", "p", "1"], "answer": 3 },
-        { "q": "The Poisson bracket {f, g} in canonical mechanics (coordinates qᵢ, pᵢ) equals:", "choices": ["{f,g} = Σᵢ (∂f/∂qᵢ ∂g/∂pᵢ − ∂f/∂pᵢ ∂g/∂qᵢ)", "{f,g} = Σᵢ (∂f/∂qᵢ ∂g/∂pᵢ + ∂f/∂pᵢ ∂g/∂qᵢ)", "{f,g} = ∂f/∂t · ∂g/∂t", "{f,g} = f · g − g · f"], "answer": 0 },
-        { "q": "The Fourier series coefficient bₙ for a 2π-periodic function f is:", "choices": ["(1/2π) ∫₋ππ f(x) sin(nx) dx", "(1/π) ∫₋ππ f(x) sin(nx) dx", "(2/π) ∫₋ππ f(x) sin(nx) dx", "π ∫₋ππ f(x) sin(nx) dx"], "answer": 1 },
-        { "q": "The time-dependent Schrödinger equation (Ĥ = Hamiltonian operator) is:", "choices": ["ℏ ∂ψ/∂t = Ĥψ", "−iℏ ∂ψ/∂t = Ĥψ", "iℏ ∂ψ/∂t = Ĥψ", "iℏ ∂²ψ/∂t² = Ĥψ"], "answer": 2 },
-        { "q": "Liouville's theorem states that the total time derivative of the phase-space distribution function f satisfies:", "choices": ["df/dt = H", "df/dt = −H", "df/dt = {H, f}", "df/dt = 0"], "answer": 3 },
-        { "q": "The Nyquist–Shannon sampling theorem requires sampling rate fₛ to satisfy:", "choices": ["fₛ ≥ 2 f_max", "fₛ ≥ f_max", "fₛ ≥ f_max / 2", "fₛ ≥ 4 f_max"], "answer": 0 },
-        { "q": "In quantum mechanics, the expectation value ⟨A⟩ of observable A in normalized state |ψ⟩ is:", "choices": ["⟨A⟩ = ⟨ψ|ψ⟩", "⟨A⟩ = ⟨ψ|Â|ψ⟩", "⟨A⟩ = Â|ψ⟩⟨ψ|", "⟨A⟩ = Tr(Â)"], "answer": 1 }
+        { "q": "The Heisenberg uncertainty principle for position x and momentum p states:", "choices": ["ΔxΔp ≥ ℏ/2", "ΔxΔp ≥ ℏ", "ΔxΔp ≥ 2ℏ", "ΔxΔp ≥ ℏ²/2"], "answer": 0 },
+        { "q": "The Riemann hypothesis conjectures that all non-trivial zeros of ζ(s) have real part equal to:", "choices": ["0", "1/2", "1", "2πn for integer n"], "answer": 1 },
+        { "q": "The Dirac delta satisfies: ∫_{−∞}^{∞} f(x)δ(x−a) dx =", "choices": ["0", "f(0)", "f(a)", "∞"], "answer": 2 },
+        { "q": "The order of the alternating group Aₙ (n ≥ 2) is:", "choices": ["n!", "(n−1)!", "n! + 1", "n!/2"], "answer": 3 },
+        { "q": "The Laplace transform of e^(at) (for s > a) is:", "choices": ["1/(s−a)", "1/(s+a)", "a/(s²+a²)", "s/(s²−a²)"], "answer": 0 },
+        { "q": "The Green's function G(x,x′) for operator L is defined by:", "choices": ["LG = 1", "LG(x,x′) = δ(x−x′)", "LG(x,x′) = G(x′,x)", "LG = 0 everywhere"], "answer": 1 },
+        { "q": "In Boltzmann's entropy formula S = k_B ln Ω, Ω represents:", "choices": ["The partition function", "The thermal de Broglie wavelength", "The number of microstates for the macrostate", "The Boltzmann constant itself"], "answer": 2 },
+        { "q": "The Baker–Campbell–Hausdorff formula to lowest non-trivial order gives e^A e^B =", "choices": ["e^(AB)", "e^(A+B)", "e^(A−B+[A,B])", "e^(A+B+[A,B]/2 + ...)"], "answer": 3 },
+        { "q": "The curl of the gradient of any scalar field φ equals:", "choices": ["Zero (the zero vector)", "∇²φ", "φ ∇φ", "The divergence of ∇φ"], "answer": 0 },
+        { "q": "The characteristic polynomial of the 2×2 matrix [[a,b],[c,d]] is:", "choices": ["λ² + (a+d)λ + (ad−bc) = 0", "λ² − (a+d)λ + (ad−bc) = 0", "λ² − (a−d)λ − (ad+bc) = 0", "λ² + (a−d)λ + (ad−bc) = 0"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "What color are the 'black boxes' on commercial aircraft?", "choices": ["Black", "Red", "Blue", "Orange"], "answer": 3 },
-        { "q": "How many letters are in the phrase 'the alphabet'?", "choices": ["11", "26", "25", "24"], "answer": 0 },
-        { "q": "A man rode into town on Friday, stayed three days, and rode out on Friday. How?", "choices": ["He rode in on a different Friday and left the next one", "His horse is named Friday", "He traveled across multiple time zones", "He left at midnight on Thursday"], "answer": 1 },
-        { "q": "I have two children and at least one is a boy. What is the probability both are boys?", "choices": ["1/2", "3/4", "1/3", "2/3"], "answer": 2 },
-        { "q": "In a standard 52-card deck, the probability of drawing a red card OR a king is:", "choices": ["4/52 — only 4 kings", "15/26 — add 26 red plus 4 kings", "1/2 — half the deck is red", "7/13 — subtract the 2 red kings counted twice"], "answer": 3 },
-        { "q": "A woman shoots her husband, then holds him underwater for 5 minutes. An hour later they go out to dinner. How?", "choices": ["She's a photographer — she took his photo and developed it", "He had a near-death experience and survived", "She used a water-soluble sedative", "He held his breath using a technique"], "answer": 0 },
-        { "q": "What gets wetter the more it dries?", "choices": ["Sunshine", "A towel", "A fog machine", "Ice"], "answer": 1 },
-        { "q": "Monty Hall problem: you pick one of 3 doors; the host opens a losing door. Should you switch?", "choices": ["No — it's now 50/50 between the two closed doors", "No — your original pick has the higher probability after the reveal", "Yes — switching wins with probability 2/3", "Yes — but only if you don't know which door the host will open"], "answer": 2 },
-        { "q": "You throw it out when you need it, and take it back in when you don't. What is it?", "choices": ["A life jacket", "A buoy", "A lighthouse beam", "An anchor"], "answer": 3 },
-        { "q": "A Chicago train heads east and a New York train heads west. When they meet, which train is closer to Chicago?", "choices": ["Both are at the same spot — equidistant from Chicago", "The Chicago train — it traveled less distance", "The New York train — it traveled more ground", "Whichever train is faster"], "answer": 0 }
+        { "q": "Which is heavier: a kilogram of feathers or a kilogram of gold?", "choices": ["Gold — it uses heavier troy units", "Feathers — avoirdupois pounds outweigh troy", "They weigh exactly the same", "Gold — higher density concentrates the weight"], "answer": 2 },
+        { "q": "An electric train travels north at 80 mph. The wind blows south at 20 mph. In which direction does the smoke blow?", "choices": ["North — the train's speed dominates", "South — the wind pushes it back", "Straight up — wind and train forces cancel", "Electric trains produce no smoke"], "answer": 3 },
+        { "q": "In a race, you overtake the runner currently in last place. What place are you in now?", "choices": ["Last place — you took their spot", "Second to last — you moved up one", "The premise is impossible — no one is behind the last-place runner", "First — you passed everyone below you"], "answer": 2 },
+        { "q": "What is the product of all integers from 0 to 100?", "choices": ["100! (a number with 157 digits)", "5,050 — the same as their sum", "A number with exactly 24 trailing zeros", "0 — because the set includes zero"], "answer": 3 },
+        { "q": "A school has 100 students. Exactly 99% are NOT wearing hats. How many students are wearing hats?", "choices": ["1", "99", "0", "Cannot be determined"], "answer": 0 },
+        { "q": "How many times can you subtract 5 from 25?", "choices": ["5 times", "Once — after that it's no longer 25", "As many times as you like — it's pure math", "Never — 5 divides 25 with no remainder"], "answer": 1 },
+        { "q": "The more you take, the more you leave behind. What am I?", "choices": ["Footsteps", "Shadows", "Memories", "Time"], "answer": 0 },
+        { "q": "You have 8 identical-looking balls; one is slightly heavier. Using only a balance scale, what is the minimum number of weighings guaranteed to find it?", "choices": ["1", "2", "3", "4"], "answer": 1 },
+        { "q": "There are 5 birds sitting on a fence. A farmer shoots one. How many birds are left on the fence?", "choices": ["4 — one fell off", "5 — the shot missed", "0 — the gunshot startles the rest away", "2 — some stayed behind"], "answer": 2 },
+        { "q": "In Python, what does the expression `0.1 + 0.2 == 0.3` evaluate to?", "choices": ["True", "False — floating-point makes 0.1 + 0.2 slightly above 0.3", "It raises a ZeroDivisionError", "True only in Python 2"], "answer": 1 }
       ]
     }
   ]
