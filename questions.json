@@ -6,16 +6,16 @@
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "Which animal has a long trunk?", "choices": ["Snake","Duck","Elephant","Rabbit"], "answer": 2 },
-        { "q": "Which one is a fruit?", "choices": ["Chair","Apple","Sock","Spoon"], "answer": 1 },
-        { "q": "What colour is a ripe tomato?", "choices": ["Red","Grey","Purple","Blue"], "answer": 0 },
-        { "q": "What is 2 + 2?", "choices": ["6","5","4","3"], "answer": 2 },
-        { "q": "Which one is round?", "choices": ["A brick","A book","A ball","A box"], "answer": 2 },
-        { "q": "What is the opposite of up?", "choices": ["Big","Fast","Left","Down"], "answer": 3 },
-        { "q": "Which is bigger?", "choices": ["An ant","A mouse","A bee","An elephant"], "answer": 3 },
-        { "q": "What do you use to write?", "choices": ["Plate","Pencil","Pillow","Pan"], "answer": 1 },
-        { "q": "What do you eat soup with?", "choices": ["A spoon","A shoe","A comb","A book"], "answer": 0 },
-        { "q": "What do bees make?", "choices": ["Soup","Bread","Cheese","Honey"], "answer": 3 }
+        { "q": "What do you use to hear?", "choices": ["Nose","Ears","Eyes","Mouth"], "answer": 1 },
+        { "q": "What do you call a baby cat?", "choices": ["Cub","Chick","Kitten","Puppy"], "answer": 2 },
+        { "q": "What colour is the sky on a clear day?", "choices": ["Red","Blue","Brown","Green"], "answer": 1 },
+        { "q": "What season comes after summer?", "choices": ["Winter","Summer","Autumn","Spring"], "answer": 2 },
+        { "q": "What is 10 minus 1?", "choices": ["11","10","8","9"], "answer": 3 },
+        { "q": "Which animal barks?", "choices": ["Dog","Fish","Bird","Cow"], "answer": 0 },
+        { "q": "What do you call baby dogs?", "choices": ["Cubs","Kittens","Puppies","Chicks"], "answer": 2 },
+        { "q": "What is 3 + 1?", "choices": ["2","4","3","5"], "answer": 1 },
+        { "q": "What do cats say?", "choices": ["Moo","Meow","Baa","Oink"], "answer": 1 },
+        { "q": "What do you use to see?", "choices": ["Nose","Hands","Ears","Eyes"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which word is closest in meaning to 'Elated'?", "choices": ["Jubilant","Composed","Fatigued","Wary"], "answer": 0 },
-        { "q": "What is 51² − 49²?", "choices": ["100","1,000","200","400"], "answer": 2 },
-        { "q": "Which does NOT belong? Cerulean, Cobalt, Ultramarine, Ochre.", "choices": ["Ochre","Cerulean","Cobalt","Ultramarine"], "answer": 0 },
-        { "q": "What is the greatest common divisor of 108 and 144?", "choices": ["24","18","48","36"], "answer": 3 },
-        { "q": "In J, 5, P, 3, T, 8, W — which letter immediately follows the largest digit?", "choices": ["J","P","W","T"], "answer": 2 },
-        { "q": "Choose the antonym of 'Archaic'.", "choices": ["Obscure","Antiquated","Ornate","Contemporary"], "answer": 3 },
-        { "q": "Sort CAT, DOG, BIRD, EMU, FOX alphabetically. Which word is now third?", "choices": ["CAT","EMU","DOG","BIRD"], "answer": 2 },
-        { "q": "A recipe needs 5 cups of flour for 18 cookies. How much is needed for 45 cookies?", "choices": ["12.5 cups","15 cups","11.5 cups","10 cups"], "answer": 0 },
-        { "q": "From 4, 9, 2, 7, 12, 5, 6 — how many values are divisible by 3?", "choices": ["2","5","4","3"], "answer": 3 },
-        { "q": "Seven identical items cost $17.50. What do twelve cost?", "choices": ["$24.00","$28.00","$30.00","$26.50"], "answer": 2 }
+        { "q": "Bird is to Flock as Crow is to ___.", "choices": ["Pod","Gaggle","Murder","School"], "answer": 2 },
+        { "q": "Reverse RED, GREEN, BLUE, YELLOW, then take the second item of the result.", "choices": ["YELLOW","RED","GREEN","BLUE"], "answer": 3 },
+        { "q": "What is the lowest common multiple of 14, 21 and 6?", "choices": ["126","42","21","84"], "answer": 1 },
+        { "q": "In T, 6, H, 2, B, 9, F, 4, Q — what is the sum of all the digits?", "choices": ["21","18","20","19"], "answer": 0 },
+        { "q": "In 3, 7, 5, 9, 2 — what is the sum of the values in odd-numbered positions?", "choices": ["9","16","10","12"], "answer": 2 },
+        { "q": "A shop sells 4 pens for $6. How many pens can be bought with $27?", "choices": ["16","15","18","17"], "answer": 2 },
+        { "q": "Which does NOT belong? Cello, Viola, Double bass, Trombone.", "choices": ["Trombone","Cello","Double bass","Viola"], "answer": 0 },
+        { "q": "If a³ = 1,331, what is a?", "choices": ["9","11","10","13"], "answer": 1 },
+        { "q": "Which does NOT belong? Tomato, Cucumber, Pumpkin, Rhubarb.", "choices": ["Cucumber","Rhubarb","Tomato","Pumpkin"], "answer": 1 },
+        { "q": "Which is the only true berry? Strawberry, Raspberry, Blackberry, Blueberry.", "choices": ["Blueberry","Strawberry","Blackberry","Raspberry"], "answer": 0 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Reverse 4, 7, 2, 9, 1, 8, 3 and take the middle value of the result.", "choices": ["2","1","9","8"], "answer": 2 },
-        { "q": "A price rises by 25%, then falls by 25%. What is the net change?", "choices": ["−12.5%","−6.25%","0%","−5%"], "answer": 1 },
-        { "q": "Simplify: (169 ÷ 13) × 4 − 3³", "choices": ["25","31","29","21"], "answer": 0 },
-        { "q": "No M are N. All N are O. Some O are P. Which is certainly true?", "choices": ["No M are N","Some M are O","Some N are P","All P are O"], "answer": 0 },
-        { "q": "Plethora is to Paucity as Turpitude is to ___.", "choices": ["Depravity","Probity","Lassitude","Abundance"], "answer": 1 },
-        { "q": "What is the next prime number after 113?", "choices": ["121","117","115","127"], "answer": 3 },
-        { "q": "From 14, 7, 22, 3, 19, 11, 8 — sum the values above 10.", "choices": ["47","55","66","70"], "answer": 2 },
-        { "q": "Liminal most nearly means:", "choices": ["Relating to a threshold or transition","Extremely limited in scope","Precisely defined","Belonging to the outer edge"], "answer": 0 },
-        { "q": "In a class of 50, 30 study French and 25 study German; 12 study both. How many study neither?", "choices": ["8","5","7","6"], "answer": 2 },
-        { "q": "Some A are B. No B are C. Therefore:", "choices": ["All A are C","Some A are not C","No A are C","Some C are A"], "answer": 1 }
+        { "q": "A tank fills in 9 hours with pipe A and 6 hours with pipe B. How long with both open?", "choices": ["4 h","3 h 36 m","3 h 20 m","3 h"], "answer": 1 },
+        { "q": "If x + y = 14 and xy = 40, what is x² + y²?", "choices": ["126","156","136","116"], "answer": 3 },
+        { "q": "In 3, 1, 4, 1, 5, 9, 2 — what is the sum of the values in even-numbered positions?", "choices": ["12","14","9","11"], "answer": 3 },
+        { "q": "From 7, 2, 9, 4, 6, 3, 5 — sum the odd values.", "choices": ["19","21","27","24"], "answer": 3 },
+        { "q": "In 3, 6, 9, 12, 15, 18, 21 — what is the product of the 2nd and 4th values divided by the 1st?", "choices": ["18","24","21","27"], "answer": 1 },
+        { "q": "Two fair dice are rolled. What is P(sum = 8)?", "choices": ["1/6","5/36","7/36","1/9"], "answer": 1 },
+        { "q": "Sort RED, BLUE, GREEN, YELLOW, PURPLE by word length, longest first (alphabetical for ties). Which is second?", "choices": ["GREEN","PURPLE","BLUE","YELLOW"], "answer": 3 },
+        { "q": "Reverse B, 4, G, 9, M, 2, X. What is the 3rd item of the result?", "choices": ["9","M","2","G"], "answer": 1 },
+        { "q": "Sort 9, 4, 15, 2, 11, 6 in descending order, then find the difference between the 2nd and 5th values of the result.", "choices": ["11","5","9","7"], "answer": 3 },
+        { "q": "Inveterate most nearly means:", "choices": ["Firmly established by habit","Easily reversed","Recently formed","Occurring only rarely"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "Euler's identity states that e^(iπ) equals:", "choices": ["i","−1","1","0"], "answer": 1 },
-        { "q": "Gauss's law states that the flux ∮E·dA through a closed surface equals:", "choices": ["Q·ε₀","Q_enc/ε₀","Q_enc·ε₀/2","μ₀Q"], "answer": 1 },
-        { "q": "The de Broglie wavelength of a particle with momentum p is:", "choices": ["hp","h/p","h/p²","p/h"], "answer": 1 },
-        { "q": "The second derivative of sin(x) is:", "choices": ["−cos(x)","cos(x)","sin(x)","−sin(x)"], "answer": 3 },
-        { "q": "Faraday's law in differential form states that ∇ × E equals:", "choices": ["−∂B/∂t","∂B/∂t","μ₀J","ρ/ε₀"], "answer": 0 },
-        { "q": "The Lorentz factor γ for a body moving at speed v is:", "choices": ["1/(1 − v/c)","1 − v²/c²","1/√(1 − v²/c²)","√(1 − v²/c²)"], "answer": 2 },
-        { "q": "The Compton shift in wavelength when a photon scatters through angle θ is:", "choices": ["(h/mc)·sin θ","(h/mc)(1 − cos θ)","(h/mc)·cos θ","(mc/h)(1 − cos θ)"], "answer": 1 },
-        { "q": "The cardinality of the power set of an n-element set is:", "choices": ["n!","2ⁿ","2n","n²"], "answer": 1 },
-        { "q": "The derivative of ln(x) with respect to x is:", "choices": ["1/x","−1/x²","x ln x","ln x / x"], "answer": 0 },
-        { "q": "The number of edges in a complete graph Kₙ is:", "choices": ["n(n − 1)/2","n(n + 1)/2","2ⁿ⁻¹","n²"], "answer": 0 }
+        { "q": "Wien's displacement law relates the peak wavelength of a blackbody to temperature as:", "choices": ["λ_max = b/T²","λ_max·T² = b","λ_max·T = b","λ_max = bT"], "answer": 2 },
+        { "q": "The Clausius definition of entropy change for a reversible process is dS =", "choices": ["δQ_rev/T","T·δQ_rev","δW/T","δQ·T"], "answer": 0 },
+        { "q": "The Taylor series of eˣ about 0 is:", "choices": ["Σ xⁿ/n","Σ (−1)ⁿxⁿ/n!","Σ n·xⁿ","Σ xⁿ/n!"], "answer": 3 },
+        { "q": "The Gaussian integral ∫₀^∞ e^(−x²) dx equals:", "choices": ["√π/2","π/2","2√π","√π"], "answer": 0 },
+        { "q": "The time complexity of the Fast Fourier Transform on n points is:", "choices": ["O(n log n)","O(log n)","O(n²)","O(n)"], "answer": 0 },
+        { "q": "A solution has hydrogen ion concentration [H⁺] = 1×10⁻⁵ mol/L. Its pH is:", "choices": ["10","9","4","5"], "answer": 3 },
+        { "q": "The relativistic energy–momentum relation is:", "choices": ["E = pc/√(1 − v²/c²)","E = mc² + pc","E² = (pc)² + (mc²)²","E² = (pc)² − (mc²)²"], "answer": 2 },
+        { "q": "The escape velocity from a spherical body of mass M and radius R is:", "choices": ["√(GM/R²)","√(2GM/R)","√(GM/R)","2GM/R²"], "answer": 1 },
+        { "q": "The integral ∫₁^e (1/x) dx equals:", "choices": ["1","e","0","e − 1"], "answer": 0 },
+        { "q": "The eigenvalue equation for a matrix A and eigenvector v is:", "choices": ["A = λv","Av = 0","vA = λ","Av = λv"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Before Mount Everest was discovered, what was the tallest mountain on Earth?", "choices": ["Mount Everest","Kangchenjunga","K2","Mont Blanc"], "answer": 0 },
-        { "q": "If 5 machines take 5 minutes to make 5 widgets, how long do 100 machines take to make 100 widgets?", "choices": ["20 minutes","1 minute","100 minutes","5 minutes"], "answer": 3 },
-        { "q": "How many animals of each kind did Moses take onto the ark?", "choices": ["Seven","Two","One pair of each","None — it was Noah, not Moses"], "answer": 3 },
-        { "q": "A bat and a ball cost $1.10 together. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10","$0.55","$0.05","$1.00"], "answer": 2 },
-        { "q": "A lily patch doubles in size every day and covers the lake on day 48. On what day does it cover half the lake?", "choices": ["Day 24","Day 47","Day 32","Day 46"], "answer": 1 },
-        { "q": "A farmer has 17 sheep. All but 9 die. How many are left?", "choices": ["9","17","8","0"], "answer": 0 },
-        { "q": "You throw it out when you need it and take it back in when you don't. What is it?", "choices": ["A life jacket","An anchor","A lighthouse beam","A buoy"], "answer": 1 },
-        { "q": "If you are running a race and you pass the person in last place, what position are you in?", "choices": ["Second to last","Impossible — you cannot pass the last runner","First","Last"], "answer": 1 },
-        { "q": "Which is correct: 'the yolk of the egg is white' or 'the yolk of the egg are white'?", "choices": ["Is white","Are white","Neither — yolks are yellow","Both are acceptable"], "answer": 2 },
-        { "q": "A house has all four walls facing south, and a bear walks past. What colour is the bear?", "choices": ["White","Black","It cannot be determined","Brown"], "answer": 0 }
+        { "q": "What gets wetter the more it dries?", "choices": ["A fan","Sunshine","A towel","Ice"], "answer": 2 },
+        { "q": "How many people must be in a room before the chance that two share a birthday exceeds 50%?", "choices": ["50","23","183","366"], "answer": 1 },
+        { "q": "How many letters are in the phrase 'the alphabet'?", "choices": ["12","11","26","25"], "answer": 1 },
+        { "q": "How many times can you subtract 5 from 25?", "choices": ["Infinitely many","Five times","Four times","Once — after that you are subtracting from 20"], "answer": 3 },
+        { "q": "A plane crashes exactly on the border between two countries. Where are the survivors buried?", "choices": ["Split between both countries","The nearer country","Nowhere — survivors are not buried","Whichever country they were citizens of"], "answer": 2 },
+        { "q": "What has to be broken before you can use it?", "choices": ["A code","A record","An egg","A promise"], "answer": 2 },
+        { "q": "How many times does the digit 9 appear in the integers from 1 to 100?", "choices": ["10","11","19","20"], "answer": 3 },
+        { "q": "A train leaves Chicago heading east and a train leaves New York heading west. When they meet, which is closer to Chicago?", "choices": ["The Chicago train","The New York train","The faster one","Both are the same distance — they are at the same point"], "answer": 3 },
+        { "q": "A family has two children and at least one is a boy. What is the probability that both are boys?", "choices": ["1/4","1/2","1/3","2/3"], "answer": 2 },
+        { "q": "Three guests pay $30 for a room ($10 each). The manager sends back $5 via the bellboy, who keeps $2 and gives $1 to each guest. Each guest paid $9 (total $27); add the bellboy's $2 and you get $29. Where is the missing dollar?", "choices": ["One guest was overcharged by a dollar","The bellboy actually kept $3, not $2","There is no missing dollar — the bellboy's $2 is already part of the $27 paid, not additional to it","The hotel manager kept an extra dollar by mistake"], "answer": 2 }
       ]
     }
   ]
