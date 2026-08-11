@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "How many wheels does a bicycle have?", "choices": ["Two","Three","One","Four"], "answer": 0 },
-        { "q": "What sound does a cow make?", "choices": ["Quack","Moo","Meow","Woof"], "answer": 1 },
-        { "q": "What is 1 + 1?", "choices": ["4","1","2","3"], "answer": 2 },
-        { "q": "What colour is snow?", "choices": ["White","Purple","Green","Black"], "answer": 0 },
-        { "q": "How many eyes do people have?", "choices": ["Three","Two","One","Four"], "answer": 1 },
-        { "q": "What colour is grass?", "choices": ["Black","Purple","Green","Orange"], "answer": 2 },
-        { "q": "How many legs does a spider have?", "choices": ["Six","Four","Eight","Ten"], "answer": 2 },
-        { "q": "What do you wear on your feet?", "choices": ["Gloves","Scarf","Hat","Shoes"], "answer": 3 },
-        { "q": "How many fingers are on one hand?", "choices": ["Five","Four","Six","Three"], "answer": 0 },
-        { "q": "How many days are in a week?", "choices": ["Seven","Six","Five","Eight"], "answer": 0 }
+        { "q": "What do you use to smell things?", "choices": ["Mouth","Ears","Nose","Eyes"], "answer": 2 },
+        { "q": "Which animal says 'oink'?", "choices": ["Duck","Cat","Pig","Dog"], "answer": 2 },
+        { "q": "How many wheels does a car have?", "choices": ["Two","Three","Six","Four"], "answer": 3 },
+        { "q": "Where do fish live?", "choices": ["Clouds","Trees","Caves","Water"], "answer": 3 },
+        { "q": "Which of these is hottest?", "choices": ["A fridge","The Sun","An ice cube","A snowball"], "answer": 1 },
+        { "q": "Which animal says 'moo'?", "choices": ["Dog","Cat","Cow","Duck"], "answer": 2 },
+        { "q": "What colour is a lemon?", "choices": ["Blue","Yellow","Green","Red"], "answer": 1 },
+        { "q": "What do you rest your head on in bed?", "choices": ["A lamp","A fork","A rock","A pillow"], "answer": 3 },
+        { "q": "Which one can fly?", "choices": ["Frog","Horse","Cat","Bird"], "answer": 3 },
+        { "q": "What colour is the sun?", "choices": ["Blue","Yellow","Black","Purple"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Goose is to gosling as swan is to ___.", "choices": ["Kit","Fawn","Signet","Cygnet"], "answer": 3 },
-        { "q": "Which does NOT belong? Salmon, Trout, Dolphin, Cod.", "choices": ["Dolphin","Trout","Salmon","Cod"], "answer": 0 },
-        { "q": "What comes next? 1, 8, 27, 64, ___", "choices": ["128","216","100","125"], "answer": 3 },
-        { "q": "Blueprint is to Building as Score is to ___.", "choices": ["Conductor","Orchestra","Violin","Symphony"], "answer": 3 },
-        { "q": "In 4, 7, 2, 9, 6 — what is the sum of the first, middle and last values?", "choices": ["14","12","11","13"], "answer": 1 },
-        { "q": "Colossal is to Minuscule as Rapid is to ___.", "choices": ["Fleeting","Sluggish","Hasty","Steady"], "answer": 1 },
-        { "q": "In 8, 3, 6, 1, 9, 4 — what is the product of the 2nd and 5th values?", "choices": ["27","24","21","18"], "answer": 0 },
-        { "q": "What is 19 × 21?", "choices": ["379","409","389","399"], "answer": 3 },
-        { "q": "Evanescent most nearly means:", "choices": ["Brightly coloured","Deeply rooted","Loudly expressed","Vanishing quickly"], "answer": 3 },
-        { "q": "A rectangle is 14 cm wide and 9 cm tall. What is its perimeter?", "choices": ["46 cm","42 cm","52 cm","48 cm"], "answer": 0 }
+        { "q": "What is 12.5% of 640?", "choices": ["76","84","72","80"], "answer": 3 },
+        { "q": "What is the capital of Japan?", "choices": ["Osaka","Tokyo","Seoul","Kyoto"], "answer": 1 },
+        { "q": "Which planet is known as the Red Planet?", "choices": ["Venus","Jupiter","Mars","Saturn"], "answer": 2 },
+        { "q": "How many of these are prime? 51, 57, 59, 61, 63, 67", "choices": ["3","4","5","2"], "answer": 0 },
+        { "q": "Hot is to Cold as Zenith is to ___.", "choices": ["Summit","Apex","Horizon","Nadir"], "answer": 3 },
+        { "q": "Chef is to Recipe as Architect is to ___.", "choices": ["Building","Blueprint","Cement","Hammer"], "answer": 1 },
+        { "q": "What is 35% of 240?", "choices": ["88","92","78","84"], "answer": 3 },
+        { "q": "A train covers 150 km in 1 hour 15 minutes. What is its average speed?", "choices": ["100 km/h","125 km/h","110 km/h","120 km/h"], "answer": 3 },
+        { "q": "Which does NOT belong? Sparrow, Robin, Eagle, Penguin.", "choices": ["Eagle","Robin","Penguin","Sparrow"], "answer": 2 },
+        { "q": "Which number is the largest?", "choices": ["0.7","0.71","0.702","0.68"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "All logicians are thinkers. Some thinkers are writers. Therefore:", "choices": ["All logicians are writers","Nothing about logicians and writers follows","No logicians are writers","Some logicians are writers"], "answer": 1 },
-        { "q": "Reverse 2, 5, 8, 1, 7, 4, 9, 3. What are the 3rd and 6th values of the result?", "choices": ["9 and 5","4 and 8","7 and 4","8 and 1"], "answer": 1 },
-        { "q": "Hubris is to Nemesis as Cause is to ___.", "choices": ["Fate","Origin","Blame","Effect"], "answer": 3 },
-        { "q": "If 5x − 9 = 3x + 17, what is x?", "choices": ["13","17","15","11"], "answer": 0 },
-        { "q": "A shirt priced $60 is marked up 20%, then discounted 20% in a sale. What is the final price?", "choices": ["$62.40","$55.20","$57.60","$60.00"], "answer": 2 },
-        { "q": "A bag has 5 red and 3 blue marbles. Two are drawn without replacement. What is P(one of each colour)?", "choices": ["1/2","5/28","3/28","15/28"], "answer": 3 },
-        { "q": "In 8, 6, 7, 5, 3, 0, 9 — what is the product of the 3rd and 7th values?", "choices": ["72","54","63","45"], "answer": 2 },
-        { "q": "Reverse 5, 3, 8, 1, 9, 2, then sum the values now in odd-numbered positions.", "choices": ["6","16","22","12"], "answer": 0 },
-        { "q": "All squares are rectangles. All rectangles are quadrilaterals. Therefore:", "choices": ["Some quadrilaterals are not squares","All quadrilaterals are squares","No squares are quadrilaterals","All squares are quadrilaterals"], "answer": 3 },
-        { "q": "All D are E. No E are F. Some G are F. Which is certainly true?", "choices": ["No D are F","All G are F","All F are G","Some D are G"], "answer": 0 }
+        { "q": "If 6 workers build a wall in 15 days, how many days do 10 workers need?", "choices": ["9 days","6 days","8 days","7.5 days"], "answer": 0 },
+        { "q": "Palimpsest most nearly means:", "choices": ["A circular argument","An ancient map","A manuscript reused over earlier writing","A kind of palindrome"], "answer": 2 },
+        { "q": "What is √(196 × 9)?", "choices": ["46","42","44","38"], "answer": 1 },
+        { "q": "A $200 item is marked up 40%, then discounted 30%. What is the final price?", "choices": ["$204","$188","$196","$182"], "answer": 2 },
+        { "q": "Perfidious most nearly means:", "choices": ["Unfailingly loyal","Deliberately treacherous","Excessively cautious","Chronically forgetful"], "answer": 1 },
+        { "q": "Garrulous most nearly means:", "choices": ["Openly hostile","Excessively talkative","Easily startled","Sternly silent"], "answer": 1 },
+        { "q": "Two trains 480 km apart approach each other at 95 km/h and 65 km/h. In how many hours do they meet?", "choices": ["3 h","2 h","5 h","4 h"], "answer": 0 },
+        { "q": "A store sells a $150 item at a 30% discount, then adds 8% sales tax. What is the final price?", "choices": ["$113.40","$105.00","$118.20","$109.50"], "answer": 0 },
+        { "q": "Sort 8, 19, 3, 14, 6, 25 in descending order, then find the sum of the 1st and 4th values of the result.", "choices": ["33","31","30","32"], "answer": 0 },
+        { "q": "From 5, 8, 3, 6, 2, 9, 4 — sum the values greater than 5.", "choices": ["23","28","17","20"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "The number of ways to choose an unordered committee of 3 from 10 people is:", "choices": ["720","210","100","120"], "answer": 3 },
-        { "q": "Dijkstra's algorithm with a binary heap runs in:", "choices": ["O(VE)","O((V + E) log V)","O(V²)","O(E log E + V)"], "answer": 1 },
-        { "q": "Bayes' theorem expresses P(A|B) as:", "choices": ["P(B|A)P(A)/P(B)","P(A)P(B)","P(A∩B)/P(A)","P(B|A)/P(A)"], "answer": 0 },
-        { "q": "For any scalar field φ, the curl of its gradient ∇ × (∇φ) equals:", "choices": ["0","∇φ","∇²φ","−∇²φ"], "answer": 0 },
-        { "q": "In propositional logic, (P → Q) is logically equivalent to:", "choices": ["¬P ∨ Q","P ∨ ¬Q","P ∧ ¬Q","¬P ∧ Q"], "answer": 0 },
-        { "q": "The Stefan–Boltzmann law gives radiated power per unit area as:", "choices": ["σT³","σT²","σT⁴","σT"], "answer": 2 },
-        { "q": "The fine-structure constant α is approximately:", "choices": ["1/273","1/100","1/1836","1/137"], "answer": 3 },
-        { "q": "The reduced mass μ of a two-body system with masses m₁ and m₂ is:", "choices": ["(m₁m₂)/(m₁ + m₂)","(m₁² + m₂²)/(m₁ + m₂)","m₁ + m₂","(m₁ + m₂)/2"], "answer": 0 },
-        { "q": "The eigenvalues of the Pauli matrix σz = [[1, 0], [0, −1]] are:", "choices": ["0 and 1","+1 and 0","±i","+1 and −1"], "answer": 3 },
-        { "q": "The worst-case time complexity of merge sort is:", "choices": ["O(log n)","O(n²)","O(n log n)","O(n)"], "answer": 2 }
+        { "q": "The derivative of xˣ with respect to x is:", "choices": ["xˣ ln x","xˣ / x","xˣ(ln x + 1)","x·xˣ⁻¹"], "answer": 2 },
+        { "q": "The Schwarzschild radius of a body of mass M is given by:", "choices": ["2GM/c²","GM/c²","2GM/c","GM/2c²"], "answer": 0 },
+        { "q": "The magnetic force on a charge q moving with velocity v is:", "choices": ["q(v × B)","qE","qv·B","q(v + B)"], "answer": 0 },
+        { "q": "The determinant of the 2×2 matrix [[a, b], [c, d]] is:", "choices": ["ac − bd","ab − cd","ad + bc","ad − bc"], "answer": 3 },
+        { "q": "The moment of inertia of a solid sphere of mass M and radius R about its diameter is:", "choices": ["(2/5)MR²","(1/2)MR²","(2/3)MR²","(7/5)MR²"], "answer": 0 },
+        { "q": "The value of the Riemann zeta function ζ(2) is:", "choices": ["π²/4","π²/6","π²/12","π²/3"], "answer": 1 },
+        { "q": "The halting problem is best described as:", "choices": ["Decidable but intractable","Undecidable","NP-complete","Solvable in exponential time"], "answer": 1 },
+        { "q": "Gödel's first incompleteness theorem states that any consistent, sufficiently expressive formal system:", "choices": ["Is necessarily inconsistent","Has a decidable set of theorems","Contains true statements it cannot prove","Can prove its own consistency"], "answer": 2 },
+        { "q": "For a normal distribution, the proportion of the population lying within two standard deviations of the mean is approximately:", "choices": ["99.7%","50%","68%","95%"], "answer": 3 },
+        { "q": "Building a binary min-heap from n unsorted elements (bottom-up heapify) runs in:", "choices": ["O(n²)","O(n)","O(log n)","O(n log n)"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many months of the year have at least 28 days?", "choices": ["11","1","2","12"], "answer": 3 },
-        { "q": "A rooster lays an egg on the exact peak of a barn roof. Which side does the egg roll down?", "choices": ["South","North","Neither — roosters don't lay eggs","Neither — it balances"], "answer": 2 },
-        { "q": "Two children share the same parents, were born on the same day of the same year, but are not twins. How?", "choices": ["They were adopted","They are two of a set of triplets","The record is mistaken","One was born just after midnight"], "answer": 1 },
-        { "q": "You are in a race and you overtake the person in second place. What position are you in?", "choices": ["Third","Second","First","It depends on the field size"], "answer": 1 },
-        { "q": "A man walks into a bar and asks the bartender for a glass of water. The bartender pulls out a gun and points it at him. The man says 'thank you' and calmly walks out. Why?", "choices": ["The bartender recognised him as a wanted criminal","The man was testing whether the gun was loaded","The man had hiccups, and the shock of the gun cured them","The bartender was joking with a water pistol"], "answer": 2 },
-        { "q": "What do you get if you divide 30 by one half and then add 10?", "choices": ["40","25","15","70"], "answer": 3 },
-        { "q": "What five-letter word becomes shorter when you add two letters to it?", "choices": ["Brief","Tiny","Short","Small"], "answer": 2 },
-        { "q": "A man looks at a photograph and says, 'Brothers and sisters I have none, but this man's father is my father's son.' Whose photograph is he looking at?", "choices": ["His father's","His own","His nephew's","His son's"], "answer": 3 },
-        { "q": "A father and his son are in a car crash. The father dies at the scene, and the son is rushed into surgery. The surgeon says, 'I can't operate on him — he's my son.' How is this possible?", "choices": ["The surgeon is the boy's mother","The boy has two fathers","It is a different boy with the same name","The surgeon is lying"], "answer": 0 },
-        { "q": "A woman shoots her husband, holds him underwater for five minutes, then they go out to dinner. How?", "choices": ["He survived a near-death experience","She used a sedative","He held his breath","She is a photographer — she shot and developed his photo"], "answer": 3 }
+        { "q": "Which weighs more: a pound of feathers or a pound of bricks?", "choices": ["It depends on the humidity","A pound of bricks","They weigh exactly the same","A pound of feathers"], "answer": 2 },
+        { "q": "The more you take of it, the more you leave behind. What is it?", "choices": ["Memories","Time","Footsteps","Money"], "answer": 2 },
+        { "q": "If a hen and a half lays an egg and a half in a day and a half, how many eggs does one hen lay in three days?", "choices": ["3","1.5","1","2"], "answer": 3 },
+        { "q": "A doctor gives you three pills and says to take one every half hour. How long until all three are taken?", "choices": ["2 hours","90 minutes","30 minutes","1 hour"], "answer": 3 },
+        { "q": "Rule: 'If a card has a vowel on one side, it has an even number on the other side.' You see four cards showing E, K, 4, 7. Which cards must you turn over to test the rule?", "choices": ["E only","K and 4","E and 4","E and 7"], "answer": 3 },
+        { "q": "Sally has 3 brothers, and each of her brothers has 2 sisters. How many sisters does Sally have?", "choices": ["3","2","1","6"], "answer": 2 },
+        { "q": "A red house is built from red bricks, a blue house from blue bricks, a black house from black bricks. What is a greenhouse built from?", "choices": ["Green bricks","Glass","Wood and paint","Green-tinted concrete"], "answer": 1 },
+        { "q": "A man buys a horse for $60, sells it for $70, buys it back for $80, then sells it again for $90. How much profit did he make overall?", "choices": ["$10","$30","$0","$20"], "answer": 3 },
+        { "q": "You flip a fair coin 20 times and it lands heads every single time. What is the probability the 21st flip is heads?", "choices": ["Very likely heads — it's on a hot streak","1/2","Cannot be determined without more flips","Very likely tails — it's due for a correction"], "answer": 1 },
+        { "q": "A snail at the bottom of a 30-foot well climbs 3 feet each day and slides back 2 feet each night. How many days until it reaches the top?", "choices": ["28 days","29 days","27 days","30 days"], "answer": 0 }
       ]
     }
   ]
