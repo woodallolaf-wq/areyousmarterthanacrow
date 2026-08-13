@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "Which animal says 'quack'?", "choices": ["Duck","Cow","Cat","Dog"], "answer": 0 },
-        { "q": "What colour is a banana?", "choices": ["Black","Blue","Purple","Yellow"], "answer": 3 },
-        { "q": "What colour is an orange (the fruit)?", "choices": ["Black","Purple","Blue","Orange"], "answer": 3 },
-        { "q": "How many legs does a duck have?", "choices": ["4","2","6","8"], "answer": 1 },
-        { "q": "What is 4 + 1?", "choices": ["4","6","3","5"], "answer": 3 },
-        { "q": "What do you use to cut paper?", "choices": ["Spoon","Scissors","Hammer","Fork"], "answer": 1 },
-        { "q": "What do you use to brush your teeth?", "choices": ["Comb","Spoon","Toothbrush","Fork"], "answer": 2 },
-        { "q": "What do you drink when you are thirsty?", "choices": ["Rocks","Paper","Sand","Water"], "answer": 3 },
-        { "q": "How many wings does a bird have?", "choices": ["2","0","6","4"], "answer": 0 },
-        { "q": "What is 5 minus 2?", "choices": ["1","4","2","3"], "answer": 3 }
+        { "q": "What do you use to comb your hair?", "choices": ["Toothbrush","Spoon","Comb","Fork"], "answer": 2 },
+        { "q": "What colour is a strawberry?", "choices": ["Purple","Red","Blue","Green"], "answer": 1 },
+        { "q": "Which animal says 'baa'?", "choices": ["Sheep","Cow","Dog","Cat"], "answer": 0 },
+        { "q": "How many legs does a dog have?", "choices": ["2","4","3","6"], "answer": 1 },
+        { "q": "What is 2 + 1?", "choices": ["5","3","2","4"], "answer": 1 },
+        { "q": "What season comes after summer?", "choices": ["Autumn","Summer","Winter","Spring"], "answer": 0 },
+        { "q": "What do bees make?", "choices": ["Soup","Bread","Cheese","Honey"], "answer": 3 },
+        { "q": "What do you use to hear?", "choices": ["Mouth","Nose","Eyes","Ears"], "answer": 3 },
+        { "q": "What do cats say?", "choices": ["Baa","Oink","Meow","Moo"], "answer": 2 },
+        { "q": "What is 10 minus 1?", "choices": ["10","9","8","11"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Reticent most nearly means:", "choices": ["Quick to anger","Physically frail","Unwilling to speak freely","Highly persuasive"], "answer": 2 },
-        { "q": "In 6, 2, 8, 5, 3 — what is (first + last) × middle?", "choices": ["63","72","54","45"], "answer": 1 },
-        { "q": "What is 23 × 17?", "choices": ["411","401","391","381"], "answer": 2 },
-        { "q": "A circle has radius 10. What is its circumference? (π ≈ 3.14)", "choices": ["125.6","31.4","62.8","314"], "answer": 2 },
-        { "q": "In 7, 2, 9, 4, 6 — what is the sum of the largest and smallest values?", "choices": ["9","11","15","13"], "answer": 1 },
-        { "q": "In 6, 9, 2, 8, 4 — what is the sum of the smallest and largest values?", "choices": ["13","11","10","12"], "answer": 1 },
-        { "q": "Reverse 5, 2, 8, 4, 1 and sum the first three values of the result.", "choices": ["13","15","11","17"], "answer": 0 },
-        { "q": "What is 1,728 ÷ 12?", "choices": ["168","144","132","156"], "answer": 1 },
-        { "q": "In W, 4, K, 9, R, 2, M — what is the position of the third letter?", "choices": ["4th","5th","7th","3rd"], "answer": 1 },
-        { "q": "What comes next? 2, 6, 12, 20, 30, ___", "choices": ["42","40","38","36"], "answer": 0 }
+        { "q": "What is 45 × 12?", "choices": ["560","480","540","520"], "answer": 2 },
+        { "q": "Which does NOT belong? Oak, Maple, Salmon, Birch.", "choices": ["Maple","Birch","Salmon","Oak"], "answer": 2 },
+        { "q": "Which does NOT belong? Simile, Metaphor, Personification, Onomatopoeia.", "choices": ["Metaphor","Personification","Onomatopoeia","Simile"], "answer": 2 },
+        { "q": "Which does NOT belong? Square, Triangle, Circle, Cube.", "choices": ["Square","Circle","Triangle","Cube"], "answer": 3 },
+        { "q": "What is the capital of Italy?", "choices": ["Rome","Milan","Venice","Naples"], "answer": 0 },
+        { "q": "Which does NOT belong? Whale, Shark, Dolphin, Seal", "choices": ["Dolphin","Shark","Seal","Whale"], "answer": 1 },
+        { "q": "What is 65% of 360?", "choices": ["228","216","225","234"], "answer": 3 },
+        { "q": "How many ways can 5 books be arranged in a row on a shelf?", "choices": ["60","120","25","240"], "answer": 1 },
+        { "q": "What is the capital of France?", "choices": ["Nice","Lyon","Marseille","Paris"], "answer": 3 },
+        { "q": "Reverse the sequence 3, 7, 2, then add the first and last values of the result.", "choices": ["9","12","10","5"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Ephemeral is to Enduring as Nascent is to ___.", "choices": ["Moribund","Fragile","Dormant","Emergent"], "answer": 0 },
-        { "q": "A 250 m train passes a pole in 10 seconds. How long does it take to pass a 450 m bridge?", "choices": ["28 s","32 s","18 s","25 s"], "answer": 0 },
-        { "q": "Laconic is to Verbose as Frugal is to ___.", "choices": ["Prodigal","Parsimonious","Destitute","Meticulous"], "answer": 0 },
-        { "q": "Abstruse most nearly means:", "choices": ["Recently discovered","Plainly stated","Deliberately rude","Difficult to comprehend"], "answer": 3 },
-        { "q": "Inimical most nearly means:", "choices": ["Harmful or hostile","Closely imitative","Entirely indifferent","Warmly friendly"], "answer": 0 },
-        { "q": "Pellucid most nearly means:", "choices": ["Deeply shadowed","Emotionally cold","Crystal clear","Slightly curved"], "answer": 2 },
-        { "q": "From 6, 11, 3, 8, 15, 2 — take the values above 7 and give their median.", "choices": ["8","11","15","12"], "answer": 1 },
-        { "q": "A bag has 4 red and 6 green balls. Two are drawn without replacement. What is P(both green)?", "choices": ["3/5","1/3","2/5","1/2"], "answer": 1 },
-        { "q": "In T, 6, H, 2, B, 9, F, 4, Q — what is the product of the digits?", "choices": ["648","432","384","216"], "answer": 1 },
-        { "q": "A geometric sequence starts 5, 15, 45 … What is the 7th term?", "choices": ["2,187","3,645","3,125","1,215"], "answer": 1 }
+        { "q": "A bag holds 6 red and 4 blue balls. Two are drawn without replacement. What is P(both red)?", "choices": ["1/3","5/18","3/10","9/25"], "answer": 0 },
+        { "q": "A bag has 7 red and 3 blue balls. Two are drawn without replacement. What is P(both red)?", "choices": ["3/5","7/10","7/15","1/2"], "answer": 2 },
+        { "q": "Ineffable most nearly means:", "choices": ["Eternal","Indescribable","Angry","Effective"], "answer": 1 },
+        { "q": "Reverse 7, 4, 2, 6, 1, 8. What is the difference between the first and last values of the result?", "choices": ["3","4","1","7"], "answer": 2 },
+        { "q": "Sort DELTA, ALPHA, GAMMA, BETA, OMEGA alphabetically. Which is 4th?", "choices": ["OMEGA","GAMMA","DELTA","BETA"], "answer": 1 },
+        { "q": "In 6, 13, 2, 8, 17, 5, 11 — what is the sum of the values in positions 2 and 5?", "choices": ["25","28","21","30"], "answer": 3 },
+        { "q": "Apocryphal most nearly means:", "choices": ["Widely accepted","Sacred","Prophetic","Of doubtful authenticity"], "answer": 3 },
+        { "q": "In 2, 3, 5, 7, 11, 13, 17 — what is the product of the 3rd and 5th values?", "choices": ["77","55","60","44"], "answer": 1 },
+        { "q": "A cyclist averages 24 km/h. How far does she travel in 50 minutes?", "choices": ["19.2 km","20 km","18 km","22 km"], "answer": 1 },
+        { "q": "Verisimilitude most nearly means:", "choices": ["Similarity of wording","The appearance of being true","Absolute truthfulness","Deliberate exaggeration"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "The derivative of tan(x) with respect to x is:", "choices": ["sec(x)tan(x)","sec²(x)","csc²(x)","−csc(x)cot(x)"], "answer": 1 },
-        { "q": "∫ x eˣ dx equals:", "choices": ["eˣ(x + 1) + C","xeˣ + C","eˣ(x − 1) + C","x²eˣ/2 + C"], "answer": 2 },
-        { "q": "The Rydberg formula for 1/λ of emitted light in a hydrogen transition from n2 to n1 (n2 > n1) is:", "choices": ["R(n2² − n1²)/(n1²n2²)","R(1/n2² − 1/n1²)","R(n1² − n2²)","R(1/n1² − 1/n2²)"], "answer": 3 },
-        { "q": "The number of surjective (onto) functions from a 4-element set to a 2-element set is:", "choices": ["8","12","16","14"], "answer": 3 },
-        { "q": "Binary search on a sorted array of n elements runs in:", "choices": ["O(1)","O(n)","O(log n)","O(n log n)"], "answer": 2 },
-        { "q": "The worst-case time complexity of quicksort is:", "choices": ["O(log n)","O(n²)","O(n)","O(n log n)"], "answer": 1 },
-        { "q": "For a first-order reaction, which plot gives a straight line?", "choices": ["ln[A] vs t","[A]² vs t","1/[A] vs t","[A] vs t"], "answer": 0 },
-        { "q": "The Heisenberg uncertainty principle for position and momentum states Δx·Δp ≥:", "choices": ["ℏ","2ℏ","h","ℏ/2"], "answer": 3 },
-        { "q": "The half-life of a first-order reaction with rate constant k is given by:", "choices": ["ln2 / k","1 / k","0.5 / k","k / ln2"], "answer": 0 },
-        { "q": "The Maclaurin series for cos(x) is:", "choices": ["1 − x²/2! + x⁴/4! − …","x − x³/3! + x⁵/5! − …","1 − x + x²/2! − …","1 + x + x²/2! + …"], "answer": 0 }
+        { "q": "For a zero-order reaction, which plot gives a straight line?", "choices": ["[A]² vs t","[A] vs t","ln[A] vs t","1/[A] vs t"], "answer": 1 },
+        { "q": "What is the sum of the interior angles of a convex decagon (10-gon)?", "choices": ["1440°","1800°","1620°","1080°"], "answer": 0 },
+        { "q": "The time complexity of building a balanced binary search tree from n sorted elements is:", "choices": ["O(log n)","O(n²)","O(n)","O(n log n)"], "answer": 2 },
+        { "q": "The derivative of arctan(x) with respect to x is:", "choices": ["x/(1+x²)","1/(1+x²)","−1/√(1−x²)","1/√(1−x²)"], "answer": 1 },
+        { "q": "The work function of a metal is 2.0 eV. What is the maximum kinetic energy of photoelectrons ejected by light of energy 3.5 eV?", "choices": ["1.0 eV","2.0 eV","1.5 eV","3.5 eV"], "answer": 2 },
+        { "q": "The relativistic energy–momentum relation is:", "choices": ["E = mc² + pc","E² = (pc)² + (mc²)²","E = pc/√(1 − v²/c²)","E² = (pc)² − (mc²)²"], "answer": 1 },
+        { "q": "The second derivative of sin(x) is:", "choices": ["−cos(x)","sin(x)","cos(x)","−sin(x)"], "answer": 3 },
+        { "q": "The time complexity of the Fast Fourier Transform on n points is:", "choices": ["O(n log n)","O(log n)","O(n²)","O(n)"], "answer": 0 },
+        { "q": "The escape velocity from a spherical body of mass M and radius R is:", "choices": ["√(GM/R)","2GM/R²","√(GM/R²)","√(2GM/R)"], "answer": 3 },
+        { "q": "The integral ∫₁^e (1/x) dx equals:", "choices": ["e","e − 1","1","0"], "answer": 2 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "You have two ropes; each takes exactly 1 hour to burn completely but burns at an uneven, unpredictable rate along its length. How do you measure exactly 45 minutes?", "choices": ["Light both ropes at both ends at the same time","Light one rope at both ends and the other at one end; when the first finishes, light the second rope's remaining end","Time it with a clock as each rope burns","Cut each rope exactly in half and burn the halves"], "answer": 1 },
-        { "q": "In the Monty Hall problem, after the host opens a losing door, should you switch?", "choices": ["Only if the host chose randomly","No — the first pick keeps its advantage","No — it is now 50/50","Yes — switching wins with probability 2/3"], "answer": 3 },
-        { "q": "You enter a dark room holding one match, and there is an oil lamp, a candle and a fireplace. What do you light first?", "choices": ["The fireplace","The oil lamp","The match","The candle"], "answer": 2 },
-        { "q": "If it takes 6 people 6 days to dig 6 holes, how many days does it take 3 people to dig 3 holes?", "choices": ["12 days","3 days","6 days","2 days"], "answer": 2 },
-        { "q": "A butcher's clerk is six feet tall and wears size 12 shoes. What does he weigh?", "choices": ["Depends on his build","About 200 pounds","It cannot be determined","Meat"], "answer": 3 },
-        { "q": "I have two US coins that total 30 cents. One of the coins is not a nickel. What are the two coins?", "choices": ["A dime and two nickels","It is impossible","A quarter and a nickel","Two dimes"], "answer": 2 },
-        { "q": "How much dirt is there in a hole that is 3 feet deep and 2 feet wide?", "choices": ["None — a hole has no dirt in it","12 cubic feet","6 cubic feet","18 cubic feet"], "answer": 0 },
-        { "q": "Two men play five games of checkers. Each man wins the same number of games, and there are no ties or draws. How is this possible?", "choices": ["The games were declared void","It is impossible","One man cheated","They weren't playing against each other"], "answer": 3 },
-        { "q": "A box has 3 coins: one two-headed, one two-tailed, one normal. You pick one at random and flip it — it lands heads. What is the probability the other side is also heads?", "choices": ["1/2","3/4","2/3","1/3"], "answer": 2 },
-        { "q": "Some months have 31 days. How many have 30?", "choices": ["7","5","4","11"], "answer": 3 }
+        { "q": "A man pushes his car and stops at a hotel. He shouts, 'I'm bankrupt!' What is happening?", "choices": ["He lost a bet with the hotel","His car ran out of fuel","The hotel overcharged him","He is playing Monopoly"], "answer": 3 },
+        { "q": "What number continues the sequence: 8, 5, 4, 9, 1, 7, 6, ?, 2", "choices": ["0","3","11","10"], "answer": 1 },
+        { "q": "A farmer must ferry a wolf, a goat, and a cabbage across a river one item at a time (plus himself). Left alone, the wolf eats the goat, and the goat eats the cabbage. What is the minimum number of river crossings required?", "choices": ["7","9","3","5"], "answer": 0 },
+        { "q": "If you have 3 apples and you take away 2, how many do you have?", "choices": ["0","3","1","2"], "answer": 3 },
+        { "q": "Two fathers and two sons went fishing together. Each caught exactly one fish, yet they brought home only three fish in total. How many people went fishing?", "choices": ["5","2","3","4"], "answer": 2 },
+        { "q": "Which is correct: 'the yolk of the egg is white' or 'the yolk of the egg are white'?", "choices": ["Is white","Are white","Neither — yolks are yellow","Both are acceptable"], "answer": 2 },
+        { "q": "How many times does the digit 9 appear in the integers from 1 to 100?", "choices": ["20","10","11","19"], "answer": 0 },
+        { "q": "If you are running a race and you pass the person in last place, what position are you in?", "choices": ["Impossible — you cannot pass the last runner","Second to last","First","Last"], "answer": 0 },
+        { "q": "How many people must be in a room before the chance that two share a birthday exceeds 50%?", "choices": ["183","23","366","50"], "answer": 1 },
+        { "q": "Before Mount Everest was discovered, what was the tallest mountain on Earth?", "choices": ["Mont Blanc","Kangchenjunga","K2","Mount Everest"], "answer": 3 }
       ]
     }
   ]
