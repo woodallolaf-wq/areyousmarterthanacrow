@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What shape is a ball?", "choices": ["Circle","Triangle","Star","Square"], "answer": 0 },
-        { "q": "Which animal says 'roar'?", "choices": ["Lion","Cat","Cow","Dog"], "answer": 0 },
-        { "q": "What is 3 + 2?", "choices": ["3","4","5","6"], "answer": 2 },
-        { "q": "What is the opposite of hot?", "choices": ["Big","Warm","Cold","Wet"], "answer": 2 },
-        { "q": "What colour is a frog?", "choices": ["Red","Blue","Purple","Green"], "answer": 3 },
-        { "q": "Which animal has a long trunk?", "choices": ["Rabbit","Snake","Duck","Elephant"], "answer": 3 },
-        { "q": "Which one is a fruit?", "choices": ["Spoon","Chair","Apple","Sock"], "answer": 2 },
-        { "q": "Which one is round?", "choices": ["A box","A book","A brick","A ball"], "answer": 3 },
-        { "q": "What do you use to see?", "choices": ["Eyes","Hands","Nose","Ears"], "answer": 0 },
-        { "q": "What is 2 + 2?", "choices": ["3","4","6","5"], "answer": 1 }
+        { "q": "Which season comes after winter?", "choices": ["Autumn","Winter","Spring","Summer"], "answer": 2 },
+        { "q": "What do you sleep in at night?", "choices": ["A car","A bed","A boat","A shoe"], "answer": 1 },
+        { "q": "What is 3 + 3?", "choices": ["5","8","7","6"], "answer": 3 },
+        { "q": "Which animal has a long neck?", "choices": ["Mouse","Frog","Pig","Giraffe"], "answer": 3 },
+        { "q": "How many months are in a year?", "choices": ["Twenty","Six","Twelve","Ten"], "answer": 2 },
+        { "q": "What is the opposite of up?", "choices": ["Fast","Big","Down","Left"], "answer": 2 },
+        { "q": "What colour is a ripe tomato?", "choices": ["Grey","Purple","Red","Blue"], "answer": 2 },
+        { "q": "What do you eat soup with?", "choices": ["A book","A spoon","A comb","A shoe"], "answer": 1 },
+        { "q": "What do you call baby dogs?", "choices": ["Cubs","Kittens","Puppies","Chicks"], "answer": 2 },
+        { "q": "What is 3 + 1?", "choices": ["3","2","4","5"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Painter is to Easel as Weaver is to ___.", "choices": ["Chisel","Thread","Loom","Kiln"], "answer": 2 },
-        { "q": "What is the capital of Germany?", "choices": ["Frankfurt","Munich","Hamburg","Berlin"], "answer": 3 },
-        { "q": "From 9, 4, 7, 2, 5, 6 — take only the even values and sum them.", "choices": ["14","12","16","10"], "answer": 1 },
-        { "q": "From 12, 5, 8, 21, 3, 16 — how many values are greater than 10?", "choices": ["5","2","3","4"], "answer": 2 },
-        { "q": "Sort LION, TIGER, BEAR, WOLF by word length (shortest first, alphabetical for ties). Which comes last?", "choices": ["WOLF","BEAR","LION","TIGER"], "answer": 3 },
-        { "q": "What is (96 ÷ 8) + (7 × 9) − 4²?", "choices": ["75","59","55","63"], "answer": 1 },
-        { "q": "Doctor is to Hospital as Teacher is to ___.", "choices": ["School","Farm","Court","Hospital"], "answer": 0 },
-        { "q": "Reverse the letters of METAL, then take the 2nd and 4th letters of the result.", "choices": ["T and M","A and E","E and A","L and T"], "answer": 1 },
-        { "q": "Which does NOT belong? Salmon, Trout, Dolphin, Tuna.", "choices": ["Dolphin","Tuna","Trout","Salmon"], "answer": 0 },
-        { "q": "What is 9² − 10?", "choices": ["81","91","71","61"], "answer": 2 }
+        { "q": "In 5, 8, 3, 12, 7 — what is the sum of the two largest values?", "choices": ["20","15","19","17"], "answer": 0 },
+        { "q": "Which is the largest ocean on Earth?", "choices": ["Arctic","Atlantic","Pacific","Indian"], "answer": 2 },
+        { "q": "Fish is to Gills as Human is to ___?", "choices": ["Bones","Heart","Lungs","Skin"], "answer": 2 },
+        { "q": "Which does NOT belong? Guitar, Violin, Harp, Flute.", "choices": ["Harp","Guitar","Violin","Flute"], "answer": 3 },
+        { "q": "What is 12 × 125?", "choices": ["1,200","1,450","1,500","1,250"], "answer": 2 },
+        { "q": "Puppy is to Dog as Kitten is to ___.", "choices": ["Foal","Cub","Puppy","Cat"], "answer": 3 },
+        { "q": "Which word is closest in meaning to 'candid'?", "choices": ["Honest","Lazy","Secretive","Anxious"], "answer": 0 },
+        { "q": "What is 27 × 34?", "choices": ["898","928","908","918"], "answer": 3 },
+        { "q": "What is the capital of Spain?", "choices": ["Lisbon","Rome","Madrid","Barcelona"], "answer": 2 },
+        { "q": "What is 15% of 200?", "choices": ["15","30","20","40"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Sort 17, 4, 23, 9, 31, 2 in ascending order, then multiply the 2nd and 5th values of the result.", "choices": ["92","85","78","99"], "answer": 0 },
-        { "q": "A sphere has volume 972π cm³. What is its radius?", "choices": ["9 cm","12 cm","8 cm","6 cm"], "answer": 0 },
-        { "q": "A $150 jacket is discounted 20%, then a further 10% off the reduced price. What is the final price?", "choices": ["$105","$112","$108","$110"], "answer": 2 },
-        { "q": "A $180 bicycle is discounted 25%, then a further $15 off. What is the final price?", "choices": ["$115","$120","$130","$125"], "answer": 1 },
-        { "q": "Obsequious is to Servile as Truculent is to ___.", "choices": ["Belligerent","Weary","Reserved","Trusting"], "answer": 0 },
-        { "q": "What is the sum of all integers from 1 to 200?", "choices": ["19,900","20,100","20,000","20,200"], "answer": 1 },
-        { "q": "All P are Q. Some Q are R. No R are S. Which is definitely true?", "choices": ["No P are S","Some Q are not S","Some P are not R","Some P are R"], "answer": 1 },
-        { "q": "Two taps fill a tank in 12 minutes and 18 minutes. How long together?", "choices": ["7 min 12 s","6 min","7 min","6 min 40 s"], "answer": 0 },
-        { "q": "Perfunctory most nearly means:", "choices": ["Highly enthusiastic","Done as a routine, with little effort or care","Done with genuine affection","Extremely thorough"], "answer": 1 },
-        { "q": "A drawer has 6 black socks and 4 white socks. Two socks are drawn without replacement. What is P(both black)?", "choices": ["2/5","1/3","3/5","1/2"], "answer": 1 }
+        { "q": "In A3, D7, G2, J5, M8 — what is the sum of the digits in positions 2 and 4?", "choices": ["9","11","12","10"], "answer": 2 },
+        { "q": "All pilots are trained. No trained people are careless. Therefore:", "choices": ["No pilots are careless","Some pilots are careless","All trained people are pilots","All careless people are pilots"], "answer": 0 },
+        { "q": "Mitigate most nearly means:", "choices": ["To copy","To worsen","To lessen","To ignore"], "answer": 2 },
+        { "q": "Ineluctable most nearly means:", "choices": ["Ambiguous","Reversible","Uncertain","Inevitable"], "answer": 3 },
+        { "q": "All poets are dreamers. All dreamers are idealists. Therefore:", "choices": ["All idealists are poets.","Some idealists are not poets.","All poets are idealists.","No poets are idealists."], "answer": 2 },
+        { "q": "Perspicuous most nearly means:", "choices": ["Reticent","Clear","Convoluted","Verbose"], "answer": 1 },
+        { "q": "Concomitant most nearly means:", "choices": ["Naturally accompanying","Mutually exclusive","Causally prior","Strongly opposed"], "answer": 0 },
+        { "q": "What is 37 × 43?", "choices": ["1,517","1,643","1,591","1,489"], "answer": 2 },
+        { "q": "Unctuous most nearly means:", "choices": ["Bluntly honest","Financially reckless","Physically rigid","Excessively ingratiating"], "answer": 3 },
+        { "q": "What is 3¹² ÷ 3⁸?", "choices": ["9","81","27","243"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the time complexity of building a binary heap from n unordered elements (heapify)?", "choices": ["O(log n)","O(n²)","O(n)","O(n log n)"], "answer": 2 },
-        { "q": "What is the pH of a solution with [H+] = 1×10⁻⁴ M?", "choices": ["10","14","3","4"], "answer": 3 },
-        { "q": "A photon has wavelength 500 nm. What is its energy in eV (approx)? Use E=hc/λ, hc≈1240 eV·nm.", "choices": ["0.50 eV","2.48 eV","4.96 eV","1.24 eV"], "answer": 1 },
-        { "q": "The derivative of ln(x²+1) with respect to x is:", "choices": ["2x/(x+1)","1/(x²+1)","x/(x²+1)","2x/(x²+1)"], "answer": 3 },
-        { "q": "In propositional logic, which of the following is logically equivalent to P → Q?", "choices": ["P ∧ ¬Q","P ∨ ¬Q","¬P ∧ Q","¬P ∨ Q"], "answer": 3 },
-        { "q": "The Compton shift in wavelength when a photon scatters through angle θ is:", "choices": ["(h/mc)·cos θ","(h/mc)(1 − cos θ)","(mc/h)(1 − cos θ)","(h/mc)·sin θ"], "answer": 1 },
-        { "q": "Wien's displacement law relates the peak wavelength of a blackbody to temperature as:", "choices": ["λ_max = bT","λ_max·T² = b","λ_max·T = b","λ_max = b/T²"], "answer": 2 },
-        { "q": "The number of edges in a complete graph Kₙ is:", "choices": ["n(n − 1)/2","n(n + 1)/2","n²","2ⁿ⁻¹"], "answer": 0 },
-        { "q": "The Taylor series of eˣ about 0 is:", "choices": ["Σ xⁿ/n!","Σ n·xⁿ","Σ (−1)ⁿxⁿ/n!","Σ xⁿ/n"], "answer": 0 },
-        { "q": "The Lorentz factor γ for a body moving at speed v is:", "choices": ["1/(1 − v/c)","1/√(1 − v²/c²)","1 − v²/c²","√(1 − v²/c²)"], "answer": 1 }
+        { "q": "What is the space complexity of an in-place quicksort (average case, including the recursion stack)?", "choices": ["O(1)","O(n log n)","O(log n)","O(n)"], "answer": 2 },
+        { "q": "A spring with spring constant k = 200 N/m is stretched 0.1 m from equilibrium. What elastic potential energy is stored?", "choices": ["2 J","10 J","0.5 J","1 J"], "answer": 3 },
+        { "q": "A solution is made by dissolving 0.5 mol of NaOH in enough water to make 2 L of solution. What is its molarity?", "choices": ["0.5 M","0.25 M","1 M","2 M"], "answer": 1 },
+        { "q": "Which of the following is the contrapositive of 'If P then Q'?", "choices": ["If Q then P","If not P then Q","If not P then not Q","If not Q then not P"], "answer": 3 },
+        { "q": "What is ∫₀^π sin(x) dx?", "choices": ["2","0","1","π"], "answer": 0 },
+        { "q": "The eigenvalue equation for a matrix A and eigenvector v is:", "choices": ["Av = λv","vA = λ","A = λv","Av = 0"], "answer": 0 },
+        { "q": "The derivative of ln(x) with respect to x is:", "choices": ["1/x","ln x / x","−1/x²","x ln x"], "answer": 0 },
+        { "q": "Faraday's law in differential form states that ∇ × E equals:", "choices": ["−∂B/∂t","∂B/∂t","ρ/ε₀","μ₀J"], "answer": 0 },
+        { "q": "The Gaussian integral ∫₀^∞ e^(−x²) dx equals:", "choices": ["2√π","π/2","√π/2","√π"], "answer": 2 },
+        { "q": "The Clausius definition of entropy change for a reversible process is dS =", "choices": ["δW/T","δQ·T","δQ_rev/T","T·δQ_rev"], "answer": 2 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Two trains are 150 miles apart, moving toward each other, each at 25 mph. A bird starts at one train and flies back and forth between them at 60 mph until they meet. How far does the bird fly in total?", "choices": ["150 miles","90 miles","300 miles","180 miles"], "answer": 3 },
-        { "q": "A car travels the first half of a journey's distance at 60 mph and the second half at 40 mph. What is the car's average speed for the whole trip?", "choices": ["45 mph","50 mph","48 mph","52 mph"], "answer": 2 },
-        { "q": "A stick is broken at two points chosen uniformly at random along its length. What is the probability the three resulting pieces can form a triangle?", "choices": ["1/4","1/3","1/8","1/2"], "answer": 0 },
-        { "q": "A disease affects 1% of a population. A test is 99% accurate for both true positives and true negatives. If a random person tests positive, what is the probability they actually have the disease?", "choices": ["1%","99%","50%","90%"], "answer": 2 },
-        { "q": "A man is found dead in a locked room with no windows, with only a puddle of water and a chair beneath a ceiling hook. How did he die?", "choices": ["He was poisoned by the water","He fell off the chair by accident","He hanged himself standing on a block of ice, which then melted","He was electrocuted by the hook"], "answer": 2 },
-        { "q": "You throw it out when you need it and take it back in when you don't. What is it?", "choices": ["A lighthouse beam","An anchor","A buoy","A life jacket"], "answer": 1 },
-        { "q": "A farmer has 17 sheep. All but 9 die. How many are left?", "choices": ["17","0","9","8"], "answer": 2 },
-        { "q": "A house has all four walls facing south, and a bear walks past. What colour is the bear?", "choices": ["Brown","Black","White","It cannot be determined"], "answer": 2 },
-        { "q": "What has to be broken before you can use it?", "choices": ["An egg","A code","A promise","A record"], "answer": 0 },
-        { "q": "A family has two children and at least one is a boy. What is the probability that both are boys?", "choices": ["1/3","1/2","2/3","1/4"], "answer": 0 }
+        { "q": "100 lbs of freshly picked potatoes are 99% water by weight. After being left out to dry, they are 98% water by weight. What is their new total weight?", "choices": ["99 lbs","98 lbs","50 lbs","1 lb"], "answer": 2 },
+        { "q": "Behind one of two doors is freedom, behind the other is death. One guard always tells the truth, the other always lies, but you don't know which is which. You may ask exactly one question, to one guard, to guarantee finding the door to freedom. What do you ask?", "choices": ["Ask each guard separately which door is safe, and go with the majority answer","Ask either guard what the other guard would say is the door to freedom, then pick the opposite door","It is impossible to determine the correct door with only one question","Ask a guard 'Are you the truth-teller?' and follow their answer"], "answer": 1 },
+        { "q": "In the St. Petersburg game, a fair coin is flipped until it lands tails; if the first tails occurs on flip n, the payout is $2ⁿ (so $2 if tails on flip 1, $4 on flip 2, and so on). What is this game's expected value?", "choices": ["$8","Infinite — the expected value diverges","$4","$2"], "answer": 1 },
+        { "q": "You flip a fair coin four times. Which is more likely: the coin landing on HHHH (four heads in a row), or on HTHT (heads, tails, heads, tails)?", "choices": ["HTHT is more likely","They are equally likely (each has probability 1/16)","HHHH is more likely","Neither is possible with a fair coin"], "answer": 1 },
+        { "q": "In 1995, David Justice had a higher batting average than Derek Jeter. In 1996, Justice again had a higher average than Jeter. Yet combining both years together, Jeter's overall average was higher than Justice's. Is this mathematically possible?", "choices": ["No — batting averages are strictly additive across years","This could only happen due to a scorekeeping error","No — if Justice led in both years he must lead overall","Yes — this is a real, documented case (Simpson's paradox)"], "answer": 3 },
+        { "q": "If 5 machines take 5 minutes to make 5 widgets, how long do 100 machines take to make 100 widgets?", "choices": ["20 minutes","1 minute","5 minutes","100 minutes"], "answer": 2 },
+        { "q": "Three guests pay $30 for a room ($10 each). The manager sends back $5 via the bellboy, who keeps $2 and gives $1 to each guest. Each guest paid $9 (total $27); add the bellboy's $2 and you get $29. Where is the missing dollar?", "choices": ["There is no missing dollar — the bellboy's $2 is already part of the $27 paid, not additional to it","The bellboy actually kept $3, not $2","The hotel manager kept an extra dollar by mistake","One guest was overcharged by a dollar"], "answer": 0 },
+        { "q": "What gets wetter the more it dries?", "choices": ["A fan","Ice","Sunshine","A towel"], "answer": 3 },
+        { "q": "A train leaves Chicago heading east and a train leaves New York heading west. When they meet, which is closer to Chicago?", "choices": ["The Chicago train","Both are the same distance — they are at the same point","The faster one","The New York train"], "answer": 1 },
+        { "q": "How many animals of each kind did Moses take onto the ark?", "choices": ["Two","One pair of each","Seven","None — it was Noah, not Moses"], "answer": 3 }
       ]
     }
   ]
