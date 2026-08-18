@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What colour is coal?", "choices": ["Pink","White","Yellow","Black"], "answer": 3 },
-        { "q": "What do you call a baby sheep?", "choices": ["Cub","Chick","Puppy","Lamb"], "answer": 3 },
-        { "q": "Where do birds build their homes?", "choices": ["Nests","Rivers","Caves","Cars"], "answer": 0 },
-        { "q": "What is 6 minus 3?", "choices": ["2","4","5","3"], "answer": 3 },
-        { "q": "Which one is a vegetable?", "choices": ["Carrot","Hat","Chair","Sock"], "answer": 0 },
-        { "q": "What is 1 + 1?", "choices": ["1","2","4","3"], "answer": 1 },
-        { "q": "How many eyes do people have?", "choices": ["Three","One","Four","Two"], "answer": 3 },
-        { "q": "What colour is grass?", "choices": ["Purple","Green","Black","Orange"], "answer": 1 },
-        { "q": "How many days are in a week?", "choices": ["Seven","Eight","Six","Five"], "answer": 0 },
-        { "q": "How many fingers are on one hand?", "choices": ["Six","Three","Four","Five"], "answer": 3 }
+        { "q": "What do you call a baby horse?", "choices": ["Joey","Foal","Cub","Kit"], "answer": 1 },
+        { "q": "What do you call a baby chicken?", "choices": ["Chick","Kitten","Puppy","Duckling"], "answer": 0 },
+        { "q": "What colour is a carrot?", "choices": ["Blue","Black","Orange","Purple"], "answer": 2 },
+        { "q": "What shape has four equal sides?", "choices": ["Square","Star","Triangle","Circle"], "answer": 0 },
+        { "q": "What is 4 + 2?", "choices": ["6","5","7","8"], "answer": 0 },
+        { "q": "What do you wear on your feet?", "choices": ["Shoes","Hat","Gloves","Scarf"], "answer": 0 },
+        { "q": "What sound does a cow make?", "choices": ["Meow","Woof","Quack","Moo"], "answer": 3 },
+        { "q": "How many wheels does a bicycle have?", "choices": ["One","Two","Four","Three"], "answer": 1 },
+        { "q": "What colour is snow?", "choices": ["Green","Purple","White","Black"], "answer": 2 },
+        { "q": "How many legs does a spider have?", "choices": ["Eight","Ten","Six","Four"], "answer": 0 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which number is missing? 3, 9, 27, ___, 243", "choices": ["108","54","81","72"], "answer": 2 },
-        { "q": "How many sides does a hexagon have?", "choices": ["8","5","6","7"], "answer": 2 },
-        { "q": "What is 17 + 26?", "choices": ["42","53","33","43"], "answer": 3 },
-        { "q": "What is the capital of Australia?", "choices": ["Sydney","Canberra","Melbourne","Perth"], "answer": 1 },
-        { "q": "In 5, 9, 3, 7, 1 — what is the sum of the two smallest values?", "choices": ["6","5","3","4"], "answer": 3 },
-        { "q": "Wing is to Bird as Fin is to ___?", "choices": ["Fish","Bird","Snake","Frog"], "answer": 0 },
-        { "q": "Bird is to Nest as Bee is to ___?", "choices": ["Web","Nest","Den","Hive"], "answer": 3 },
-        { "q": "Which does NOT belong? Square, Rectangle, Rhombus, Sphere.", "choices": ["Rectangle","Square","Rhombus","Sphere"], "answer": 3 },
-        { "q": "What is 15% of 300?", "choices": ["45","40","35","50"], "answer": 0 },
-        { "q": "What is 18 × 15?", "choices": ["290","260","280","270"], "answer": 3 }
+        { "q": "What is 8 × 7?", "choices": ["64","48","56","54"], "answer": 2 },
+        { "q": "What is 14 × 16?", "choices": ["224","214","210","234"], "answer": 0 },
+        { "q": "What is the capital of Canada?", "choices": ["Vancouver","Montreal","Ottawa","Toronto"], "answer": 2 },
+        { "q": "What is 13 × 13?", "choices": ["156","169","179","189"], "answer": 1 },
+        { "q": "Which number is NOT prime? 17, 21, 23, 29", "choices": ["23","21","17","29"], "answer": 1 },
+        { "q": "What is the capital of Egypt?", "choices": ["Luxor","Alexandria","Giza","Cairo"], "answer": 3 },
+        { "q": "Which does NOT belong? Lion, Tiger, Leopard, Wolf.", "choices": ["Leopard","Tiger","Lion","Wolf"], "answer": 3 },
+        { "q": "Which does NOT belong? Oak, Maple, Pine, Shark.", "choices": ["Pine","Shark","Oak","Maple"], "answer": 1 },
+        { "q": "Bee is to Hive as Ant is to ___?", "choices": ["Colony","Nest","Den","Web"], "answer": 0 },
+        { "q": "How many letter E's are in this string? EBEAKEEDNEFEGE", "choices": ["8","5","7","6"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "All squares are rectangles. No rectangles are triangles. Therefore:", "choices": ["All triangles are squares","All rectangles are squares","Some squares are triangles","No squares are triangles"], "answer": 3 },
-        { "q": "In 18, 4, 11, 7, 22, 3 — what is the range plus the median?", "choices": ["19","24","28","31"], "answer": 2 },
-        { "q": "A drone costs $300. It's marked up 30%, then discounted 15% off the new price. What is the final price?", "choices": ["$340.50","$331.50","$315.00","$325.00"], "answer": 1 },
-        { "q": "Taciturn most nearly means:", "choices": ["Reserved","Furious","Talkative","Organized"], "answer": 0 },
-        { "q": "Sycophant is to Flatter as Iconoclast is to ___.", "choices": ["Worship","Attack cherished beliefs","Create icons","Lead followers"], "answer": 1 },
-        { "q": "Cogent most nearly means:", "choices": ["Deliberately unclear","Hesitant in delivery","Powerfully convincing","Excessively lengthy"], "answer": 2 },
-        { "q": "All engineers are analytical. No analytical people are impulsive. Therefore:", "choices": ["All impulsive people are engineers.","No engineers are impulsive.","Some engineers are impulsive.","No valid conclusion follows."], "answer": 1 },
-        { "q": "Anodyne most nearly means:", "choices": ["Inoffensive and dull","Sharp and precise","Officially sanctioned","Secretly harmful"], "answer": 0 },
-        { "q": "Tendentious most nearly means:", "choices": ["Structurally unsound","Biased toward a cause","Gentle in manner","Overly cautious"], "answer": 1 },
-        { "q": "Ephemeral most nearly means:", "choices": ["Transparent","Eternal","Short-lived","Massive"], "answer": 2 }
+        { "q": "If log₃(x) = 4, what is x?", "choices": ["64","81","27","243"], "answer": 1 },
+        { "q": "Sagacious most nearly means:", "choices": ["Easily confused","Habitually secretive","Showing keen judgement","Outwardly charming"], "answer": 2 },
+        { "q": "A bag has 7 red and 3 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["7/15","7/10","7/9","21/50"], "answer": 0 },
+        { "q": "A bag has 6 red and 4 green marbles. Two are drawn without replacement. What is P(both green)?", "choices": ["2/15","4/25","1/5","3/10"], "answer": 0 },
+        { "q": "Solipsism is to external reality as scepticism is to ___.", "choices": ["Faith","Certainty","Knowledge","Doubt"], "answer": 2 },
+        { "q": "Perspicacious is to Obtuse as Munificent is to ___.", "choices": ["Niggardly","Prodigal","Magnanimous","Affluent"], "answer": 0 },
+        { "q": "What is the remainder when 3¹⁰¹ is divided by 7?", "choices": ["3","5","6","1"], "answer": 1 },
+        { "q": "A jacket costs $250. It's marked up 20%, then discounted 10% off the new price. What is the final price?", "choices": ["$265","$275","$260","$270"], "answer": 3 },
+        { "q": "A television costs $600. It is discounted 15%, then sales tax of 8% is added. What is the final price?", "choices": ["$561.60","$516.00","$550.80","$540.00"], "answer": 2 },
+        { "q": "What is 17.5% of 640?", "choices": ["104","112","96","128"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "Which of the following is logically equivalent to ¬(P ∧ Q)?", "choices": ["P ∧ ¬Q","P ∨ Q","¬P ∨ ¬Q","¬P ∧ ¬Q"], "answer": 2 },
-        { "q": "A ball is dropped from rest and falls for 3 seconds. Ignoring air resistance (g=9.8 m/s²), what is its velocity at t=3s?", "choices": ["44.1 m/s","19.6 m/s","9.8 m/s","29.4 m/s"], "answer": 3 },
-        { "q": "For the balanced equation 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O, how many moles of O₂ are needed to completely combust 2 moles of C₂H₆?", "choices": ["2 mol","14 mol","3.5 mol","7 mol"], "answer": 3 },
-        { "q": "What is the worst-case time complexity of searching for a key in a balanced binary search tree with n nodes?", "choices": ["O(log n)","O(1)","O(n log n)","O(n)"], "answer": 0 },
-        { "q": "What is the derivative of tan(x) with respect to x?", "choices": ["sec(x)tan(x)","sec²(x)","−csc²(x)","tan²(x)"], "answer": 1 },
-        { "q": "The reduced mass μ of a two-body system with masses m₁ and m₂ is:", "choices": ["(m₁m₂)/(m₁ + m₂)","(m₁ + m₂)/2","(m₁² + m₂²)/(m₁ + m₂)","m₁ + m₂"], "answer": 0 },
-        { "q": "The worst-case time complexity of merge sort is:", "choices": ["O(log n)","O(n log n)","O(n²)","O(n)"], "answer": 1 },
-        { "q": "For any scalar field φ, the curl of its gradient ∇ × (∇φ) equals:", "choices": ["∇²φ","−∇²φ","0","∇φ"], "answer": 2 },
-        { "q": "The number of ways to choose an unordered committee of 3 from 10 people is:", "choices": ["720","120","210","100"], "answer": 1 },
-        { "q": "Dijkstra's algorithm with a binary heap runs in:", "choices": ["O(E log E + V)","O(VE)","O(V²)","O((V + E) log V)"], "answer": 3 }
+        { "q": "What is the space complexity of standard merge sort on an array of n elements?", "choices": ["O(n log n)","O(n)","O(log n)","O(1)"], "answer": 1 },
+        { "q": "A simple pendulum has period T = 2π√(L/g). If its length L is quadrupled, the new period is:", "choices": ["√2× the original","4× the original","2× the original","The same as the original"], "answer": 2 },
+        { "q": "Which of the following is the converse of 'If P then Q'?", "choices": ["If Q then P.","If not P then not Q.","P if and only if Q.","If not Q then not P."], "answer": 0 },
+        { "q": "How many grams are in 2 moles of water, H₂O? (molar mass H₂O ≈ 18 g/mol)", "choices": ["36 g","9 g","72 g","18 g"], "answer": 0 },
+        { "q": "What is i^i (i raised to the power i), expressed as a real number in terms of e and π? (principal value)", "choices": ["e^(−π/2)","−1","e^(iπ/2)","e^(π/2)"], "answer": 0 },
+        { "q": "The Stefan–Boltzmann law gives radiated power per unit area as:", "choices": ["σT³","σT²","σT⁴","σT"], "answer": 2 },
+        { "q": "Bayes' theorem expresses P(A|B) as:", "choices": ["P(B|A)/P(A)","P(B|A)P(A)/P(B)","P(A)P(B)","P(A∩B)/P(A)"], "answer": 1 },
+        { "q": "The eigenvalues of the Pauli matrix σz = [[1, 0], [0, −1]] are:", "choices": ["±i","+1 and −1","+1 and 0","0 and 1"], "answer": 1 },
+        { "q": "In propositional logic, (P → Q) is logically equivalent to:", "choices": ["P ∨ ¬Q","¬P ∧ Q","¬P ∨ Q","P ∧ ¬Q"], "answer": 2 },
+        { "q": "The fine-structure constant α is approximately:", "choices": ["1/137","1/1836","1/100","1/273"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "How many animals of each kind did Moses take on the ark?", "choices": ["None — it was Noah, not Moses, who built the ark","One of each kind","Seven of each clean kind, two of each unclean kind","Two of each kind"], "answer": 0 },
-        { "q": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.15","$1.00","$0.10","$0.05"], "answer": 3 },
-        { "q": "A family has exactly two children, and each child is independently equally likely to be a boy or a girl. You are told that at least one of the children is a girl. What is the probability that both children are girls?", "choices": ["1/4","1/3","1/2","2/3"], "answer": 1 },
-        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep does he have left?", "choices": ["8","9","0","17"], "answer": 1 },
-        { "q": "You are running a race and you overtake the person in second place. What position are you in now?", "choices": ["First place","Third place","It depends on the length of the race","Second place"], "answer": 3 },
-        { "q": "A man looks at a photograph and says, 'Brothers and sisters I have none, but this man's father is my father's son.' Whose photograph is he looking at?", "choices": ["His own","His nephew's","His father's","His son's"], "answer": 3 },
-        { "q": "A man walks into a bar and asks the bartender for a glass of water. The bartender pulls out a gun and points it at him. The man says 'thank you' and calmly walks out. Why?", "choices": ["The bartender was joking with a water pistol","The man was testing whether the gun was loaded","The man had hiccups, and the shock of the gun cured them","The bartender recognised him as a wanted criminal"], "answer": 2 },
-        { "q": "You are in a race and you overtake the person in second place. What position are you in?", "choices": ["Second","First","It depends on the field size","Third"], "answer": 0 },
-        { "q": "A rooster lays an egg on the exact peak of a barn roof. Which side does the egg roll down?", "choices": ["Neither — roosters don't lay eggs","South","North","Neither — it balances"], "answer": 0 },
-        { "q": "A woman shoots her husband, holds him underwater for five minutes, then they go out to dinner. How?", "choices": ["She used a sedative","She is a photographer — she shot and developed his photo","He survived a near-death experience","He held his breath"], "answer": 1 }
+        { "q": "What is 8 − 2 × (3 − 1)?", "choices": ["1","12","4","2"], "answer": 2 },
+        { "q": "If it takes 8 people 10 hours to dig a hole, how long does it take 4 people to dig half a hole?", "choices": ["5 hours","A hole can't be halved — the task doesn't make sense","20 hours","10 hours"], "answer": 1 },
+        { "q": "There is independently a 50% chance of rain on Saturday and a 50% chance of rain on Sunday. What is the probability it rains on at least one of the two days?", "choices": ["75%","100%","50%","25%"], "answer": 0 },
+        { "q": "A fair European roulette wheel (18 red, 18 black, 1 green) has landed on red 8 times in a row. What is the probability the next spin lands on red?", "choices": ["Exactly 1/2","Greater than 18/37, since black is 'due'","18/37","Less than 18/37, since red is 'due' to stop"], "answer": 2 },
+        { "q": "A drawer has 10 black socks and 10 white socks, all unpaired and mixed together in the dark. What is the minimum number of socks you must pull out to guarantee a matching pair?", "choices": ["11","2","3","20"], "answer": 2 },
+        { "q": "How many months of the year have at least 28 days?", "choices": ["1","11","2","12"], "answer": 3 },
+        { "q": "A father and his son are in a car crash. The father dies at the scene, and the son is rushed into surgery. The surgeon says, 'I can't operate on him — he's my son.' How is this possible?", "choices": ["The surgeon is lying","It is a different boy with the same name","The surgeon is the boy's mother","The boy has two fathers"], "answer": 2 },
+        { "q": "What five-letter word becomes shorter when you add two letters to it?", "choices": ["Tiny","Short","Small","Brief"], "answer": 1 },
+        { "q": "Two children share the same parents, were born on the same day of the same year, but are not twins. How?", "choices": ["One was born just after midnight","They were adopted","The record is mistaken","They are two of a set of triplets"], "answer": 3 },
+        { "q": "What do you get if you divide 30 by one half and then add 10?", "choices": ["15","25","40","70"], "answer": 3 }
       ]
     }
   ]
