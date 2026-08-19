@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What do you call a baby horse?", "choices": ["Joey","Foal","Cub","Kit"], "answer": 1 },
-        { "q": "What do you call a baby chicken?", "choices": ["Chick","Kitten","Puppy","Duckling"], "answer": 0 },
-        { "q": "What colour is a carrot?", "choices": ["Blue","Black","Orange","Purple"], "answer": 2 },
-        { "q": "What shape has four equal sides?", "choices": ["Square","Star","Triangle","Circle"], "answer": 0 },
-        { "q": "What is 4 + 2?", "choices": ["6","5","7","8"], "answer": 0 },
-        { "q": "What do you wear on your feet?", "choices": ["Shoes","Hat","Gloves","Scarf"], "answer": 0 },
-        { "q": "What sound does a cow make?", "choices": ["Meow","Woof","Quack","Moo"], "answer": 3 },
-        { "q": "How many wheels does a bicycle have?", "choices": ["One","Two","Four","Three"], "answer": 1 },
-        { "q": "What colour is snow?", "choices": ["Green","Purple","White","Black"], "answer": 2 },
-        { "q": "How many legs does a spider have?", "choices": ["Eight","Ten","Six","Four"], "answer": 0 }
+        { "q": "What is 5 + 1?", "choices": ["4","6","7","5"], "answer": 1 },
+        { "q": "What do you use to unlock a door?", "choices": ["A spoon","A fork","A key","A hat"], "answer": 2 },
+        { "q": "How many legs does a chicken have?", "choices": ["Eight","Four","Six","Two"], "answer": 3 },
+        { "q": "Which animal says 'hoot'?", "choices": ["Cow","Duck","Pig","Owl"], "answer": 3 },
+        { "q": "What colour is the night sky?", "choices": ["Black","Green","Pink","White"], "answer": 0 },
+        { "q": "What do you rest your head on in bed?", "choices": ["A rock","A fork","A pillow","A lamp"], "answer": 2 },
+        { "q": "What do you use to smell things?", "choices": ["Ears","Mouth","Nose","Eyes"], "answer": 2 },
+        { "q": "Which animal says 'moo'?", "choices": ["Dog","Duck","Cat","Cow"], "answer": 3 },
+        { "q": "How many wheels does a car have?", "choices": ["Two","Four","Three","Six"], "answer": 1 },
+        { "q": "Which animal says 'oink'?", "choices": ["Dog","Cat","Duck","Pig"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is 8 × 7?", "choices": ["64","48","56","54"], "answer": 2 },
-        { "q": "What is 14 × 16?", "choices": ["224","214","210","234"], "answer": 0 },
-        { "q": "What is the capital of Canada?", "choices": ["Vancouver","Montreal","Ottawa","Toronto"], "answer": 2 },
-        { "q": "What is 13 × 13?", "choices": ["156","169","179","189"], "answer": 1 },
-        { "q": "Which number is NOT prime? 17, 21, 23, 29", "choices": ["23","21","17","29"], "answer": 1 },
-        { "q": "What is the capital of Egypt?", "choices": ["Luxor","Alexandria","Giza","Cairo"], "answer": 3 },
-        { "q": "Which does NOT belong? Lion, Tiger, Leopard, Wolf.", "choices": ["Leopard","Tiger","Lion","Wolf"], "answer": 3 },
-        { "q": "Which does NOT belong? Oak, Maple, Pine, Shark.", "choices": ["Pine","Shark","Oak","Maple"], "answer": 1 },
-        { "q": "Bee is to Hive as Ant is to ___?", "choices": ["Colony","Nest","Den","Web"], "answer": 0 },
-        { "q": "How many letter E's are in this string? EBEAKEEDNEFEGE", "choices": ["8","5","7","6"], "answer": 2 }
+        { "q": "Sun is to Day as Moon is to ___?", "choices": ["Cloud","Night","Star","Sky"], "answer": 1 },
+        { "q": "Which does NOT belong? Rose, Tulip, Daisy, Oak.", "choices": ["Daisy","Rose","Oak","Tulip"], "answer": 2 },
+        { "q": "What is 16 × 17?", "choices": ["292","272","282","262"], "answer": 1 },
+        { "q": "What is the capital of Russia?", "choices": ["Moscow","Kiev","St Petersburg","Minsk"], "answer": 0 },
+        { "q": "Which number IS prime? 21, 33, 41, 49", "choices": ["41","21","49","33"], "answer": 0 },
+        { "q": "Which does NOT belong? Tomato, Cucumber, Pumpkin, Rhubarb.", "choices": ["Rhubarb","Pumpkin","Tomato","Cucumber"], "answer": 0 },
+        { "q": "What is the greatest common divisor of 108 and 144?", "choices": ["48","18","36","24"], "answer": 2 },
+        { "q": "Which does NOT belong? Cerulean, Cobalt, Ultramarine, Ochre.", "choices": ["Cobalt","Ochre","Cerulean","Ultramarine"], "answer": 1 },
+        { "q": "If a³ = 1,331, what is a?", "choices": ["13","10","11","9"], "answer": 2 },
+        { "q": "Reverse RED, GREEN, BLUE, YELLOW, then take the second item of the result.", "choices": ["YELLOW","GREEN","RED","BLUE"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "If log₃(x) = 4, what is x?", "choices": ["64","81","27","243"], "answer": 1 },
-        { "q": "Sagacious most nearly means:", "choices": ["Easily confused","Habitually secretive","Showing keen judgement","Outwardly charming"], "answer": 2 },
-        { "q": "A bag has 7 red and 3 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["7/15","7/10","7/9","21/50"], "answer": 0 },
-        { "q": "A bag has 6 red and 4 green marbles. Two are drawn without replacement. What is P(both green)?", "choices": ["2/15","4/25","1/5","3/10"], "answer": 0 },
-        { "q": "Solipsism is to external reality as scepticism is to ___.", "choices": ["Faith","Certainty","Knowledge","Doubt"], "answer": 2 },
-        { "q": "Perspicacious is to Obtuse as Munificent is to ___.", "choices": ["Niggardly","Prodigal","Magnanimous","Affluent"], "answer": 0 },
-        { "q": "What is the remainder when 3¹⁰¹ is divided by 7?", "choices": ["3","5","6","1"], "answer": 1 },
-        { "q": "A jacket costs $250. It's marked up 20%, then discounted 10% off the new price. What is the final price?", "choices": ["$265","$275","$260","$270"], "answer": 3 },
-        { "q": "A television costs $600. It is discounted 15%, then sales tax of 8% is added. What is the final price?", "choices": ["$561.60","$516.00","$550.80","$540.00"], "answer": 2 },
-        { "q": "What is 17.5% of 640?", "choices": ["104","112","96","128"], "answer": 1 }
+        { "q": "How many distinct arrangements are there of the letters in LEVEL?", "choices": ["30","24","60","20"], "answer": 0 },
+        { "q": "A bag has 8 white and 2 black balls. Two are drawn without replacement. What is P(both white)?", "choices": ["14/45","7/10","28/45","4/5"], "answer": 2 },
+        { "q": "A list is 16, 4, 29, 11, 7, 20. Reverse it, then find the product of the 2nd and 4th values of the result.", "choices": ["203","189","196","210"], "answer": 0 },
+        { "q": "All squares are rhombi. No rhombi are circles. Therefore:", "choices": ["No valid conclusion follows.","No squares are circles.","Some squares are circles.","All circles are squares."], "answer": 1 },
+        { "q": "Sanguine is to Pessimistic as Phlegmatic is to ___.", "choices": ["Hostile","Excitable","Optimistic","Calm"], "answer": 1 },
+        { "q": "A bag has 9 red and 3 blue marbles. Two are drawn without replacement. What is P(both blue)?", "choices": ["1/22","1/4","3/12","1/11"], "answer": 0 },
+        { "q": "A tablet costs $400. It's marked up 25%, then discounted 20% off the new price. What is the final price?", "choices": ["$420","$380","$400","$440"], "answer": 2 },
+        { "q": "Sort F, M, T, B, Q, R alphabetically. Which letter is now 4th?", "choices": ["R","M","Q","B"], "answer": 2 },
+        { "q": "A list is 18, 7, 25, 3, 14, 9. Sort it ascending, then find the sum of the 2nd and 5th values of the result.", "choices": ["28","22","25","21"], "answer": 2 },
+        { "q": "Obfuscate most nearly means:", "choices": ["To simplify","To clarify","To make unclear","To celebrate"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the space complexity of standard merge sort on an array of n elements?", "choices": ["O(n log n)","O(n)","O(log n)","O(1)"], "answer": 1 },
-        { "q": "A simple pendulum has period T = 2π√(L/g). If its length L is quadrupled, the new period is:", "choices": ["√2× the original","4× the original","2× the original","The same as the original"], "answer": 2 },
-        { "q": "Which of the following is the converse of 'If P then Q'?", "choices": ["If Q then P.","If not P then not Q.","P if and only if Q.","If not Q then not P."], "answer": 0 },
-        { "q": "How many grams are in 2 moles of water, H₂O? (molar mass H₂O ≈ 18 g/mol)", "choices": ["36 g","9 g","72 g","18 g"], "answer": 0 },
-        { "q": "What is i^i (i raised to the power i), expressed as a real number in terms of e and π? (principal value)", "choices": ["e^(−π/2)","−1","e^(iπ/2)","e^(π/2)"], "answer": 0 },
-        { "q": "The Stefan–Boltzmann law gives radiated power per unit area as:", "choices": ["σT³","σT²","σT⁴","σT"], "answer": 2 },
-        { "q": "Bayes' theorem expresses P(A|B) as:", "choices": ["P(B|A)/P(A)","P(B|A)P(A)/P(B)","P(A)P(B)","P(A∩B)/P(A)"], "answer": 1 },
-        { "q": "The eigenvalues of the Pauli matrix σz = [[1, 0], [0, −1]] are:", "choices": ["±i","+1 and −1","+1 and 0","0 and 1"], "answer": 1 },
-        { "q": "In propositional logic, (P → Q) is logically equivalent to:", "choices": ["P ∨ ¬Q","¬P ∧ Q","¬P ∨ Q","P ∧ ¬Q"], "answer": 2 },
-        { "q": "The fine-structure constant α is approximately:", "choices": ["1/137","1/1836","1/100","1/273"], "answer": 0 }
+        { "q": "A 2 kg object moving at 3 m/s collides perfectly inelastically with a stationary 4 kg object. What is their common velocity after the collision?", "choices": ["0.5 m/s","1 m/s","1.5 m/s","2 m/s"], "answer": 1 },
+        { "q": "What is the derivative of x·ln(x) with respect to x?", "choices": ["ln(x) + 1","ln(x)","1 + x","ln(x) − 1"], "answer": 0 },
+        { "q": "What is the worst-case time complexity of selecting the median of an unsorted array of n elements using the median-of-medians (BFPRT) algorithm?", "choices": ["O(log n)","O(n log n)","O(n²)","O(n)"], "answer": 3 },
+        { "q": "Which of the following is a tautology (always true regardless of P and Q)?", "choices": ["P ∨ ¬P","P ∧ Q","P → Q","P ∧ ¬P"], "answer": 0 },
+        { "q": "What is the oxidation state of chromium in potassium dichromate, K₂Cr₂O₇?", "choices": ["+4","+6","+3","+7"], "answer": 1 },
+        { "q": "For a normal distribution, the proportion of the population lying within two standard deviations of the mean is approximately:", "choices": ["99.7%","50%","95%","68%"], "answer": 2 },
+        { "q": "Gödel's first incompleteness theorem states that any consistent, sufficiently expressive formal system:", "choices": ["Has a decidable set of theorems","Contains true statements it cannot prove","Is necessarily inconsistent","Can prove its own consistency"], "answer": 1 },
+        { "q": "The value of the Riemann zeta function ζ(2) is:", "choices": ["π²/4","π²/12","π²/6","π²/3"], "answer": 2 },
+        { "q": "The moment of inertia of a solid sphere of mass M and radius R about its diameter is:", "choices": ["(2/5)MR²","(7/5)MR²","(1/2)MR²","(2/3)MR²"], "answer": 0 },
+        { "q": "The determinant of the 2×2 matrix [[a, b], [c, d]] is:", "choices": ["ad − bc","ab − cd","ac − bd","ad + bc"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "What is 8 − 2 × (3 − 1)?", "choices": ["1","12","4","2"], "answer": 2 },
-        { "q": "If it takes 8 people 10 hours to dig a hole, how long does it take 4 people to dig half a hole?", "choices": ["5 hours","A hole can't be halved — the task doesn't make sense","20 hours","10 hours"], "answer": 1 },
-        { "q": "There is independently a 50% chance of rain on Saturday and a 50% chance of rain on Sunday. What is the probability it rains on at least one of the two days?", "choices": ["75%","100%","50%","25%"], "answer": 0 },
-        { "q": "A fair European roulette wheel (18 red, 18 black, 1 green) has landed on red 8 times in a row. What is the probability the next spin lands on red?", "choices": ["Exactly 1/2","Greater than 18/37, since black is 'due'","18/37","Less than 18/37, since red is 'due' to stop"], "answer": 2 },
-        { "q": "A drawer has 10 black socks and 10 white socks, all unpaired and mixed together in the dark. What is the minimum number of socks you must pull out to guarantee a matching pair?", "choices": ["11","2","3","20"], "answer": 2 },
-        { "q": "How many months of the year have at least 28 days?", "choices": ["1","11","2","12"], "answer": 3 },
-        { "q": "A father and his son are in a car crash. The father dies at the scene, and the son is rushed into surgery. The surgeon says, 'I can't operate on him — he's my son.' How is this possible?", "choices": ["The surgeon is lying","It is a different boy with the same name","The surgeon is the boy's mother","The boy has two fathers"], "answer": 2 },
-        { "q": "What five-letter word becomes shorter when you add two letters to it?", "choices": ["Tiny","Short","Small","Brief"], "answer": 1 },
-        { "q": "Two children share the same parents, were born on the same day of the same year, but are not twins. How?", "choices": ["One was born just after midnight","They were adopted","The record is mistaken","They are two of a set of triplets"], "answer": 3 },
-        { "q": "What do you get if you divide 30 by one half and then add 10?", "choices": ["15","25","40","70"], "answer": 3 }
+        { "q": "A coin is flipped 10 times and lands heads 7 times. Does this provide strong statistical evidence that the coin is biased?", "choices": ["Yes — 70% heads proves definitively the coin is unfair","No, because coins can never be biased","No — with only 10 flips, this is well within normal variation for a fair coin","Yes — any deviation from 50% is statistically significant"], "answer": 2 },
+        { "q": "A family has exactly two children. You are told that the elder child is a girl. What is the probability that both children are girls?", "choices": ["1/2","2/3","1/3","1/4"], "answer": 0 },
+        { "q": "Take any two-digit number, reverse its digits, and subtract the smaller result from the larger. The answer will always be:", "choices": ["A multiple of 9","A multiple of 11","Equal to the original number","A prime number"], "answer": 0 },
+        { "q": "A woman tells a census taker: 'The product of my three children's ages is 36, and the sum is the number on the door across the street.' He checks the door, returns, and says he still can't tell the ages. She adds, 'My eldest likes strawberry ice cream.' Now he knows. What are the ages?", "choices": ["9, 2, and 2","6, 6, and 1","1, 4, and 9","2, 3, and 6"], "answer": 0 },
+        { "q": "A man lives on the 10th floor. Every morning he takes the elevator to the ground floor. Every evening he rides back up but only to the 7th floor, walking the rest — except on rainy days, when he rides all the way to the 10th floor. Why?", "choices": ["The elevator breaks down above the 7th floor when it's dry","He enjoys the exercise except when it rains","He is too short to reach the 10th-floor button, but can reach it with his umbrella","He visits a friend on the 7th floor every dry evening"], "answer": 2 },
+        { "q": "If a hen and a half lays an egg and a half in a day and a half, how many eggs does one hen lay in three days?", "choices": ["1.5","3","1","2"], "answer": 3 },
+        { "q": "You flip a fair coin 20 times and it lands heads every single time. What is the probability the 21st flip is heads?", "choices": ["1/2","Very likely heads — it's on a hot streak","Cannot be determined without more flips","Very likely tails — it's due for a correction"], "answer": 0 },
+        { "q": "A man buys a horse for $60, sells it for $70, buys it back for $80, then sells it again for $90. How much profit did he make overall?", "choices": ["$30","$10","$0","$20"], "answer": 3 },
+        { "q": "A red house is built from red bricks, a blue house from blue bricks, a black house from black bricks. What is a greenhouse built from?", "choices": ["Green-tinted concrete","Glass","Wood and paint","Green bricks"], "answer": 1 },
+        { "q": "A doctor gives you three pills and says to take one every half hour. How long until all three are taken?", "choices": ["30 minutes","1 hour","90 minutes","2 hours"], "answer": 1 }
       ]
     }
   ]
