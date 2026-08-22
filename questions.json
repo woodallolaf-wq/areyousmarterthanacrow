@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "How many legs does a horse have?", "choices": ["8","6","4","2"], "answer": 2 },
-        { "q": "What do you wear on your head to keep warm?", "choices": ["Belt","Hat","Sock","Glove"], "answer": 1 },
-        { "q": "What is 8 minus 3?", "choices": ["3","6","5","4"], "answer": 2 },
-        { "q": "What do you call a baby frog?", "choices": ["Kit","Joey","Tadpole","Cub"], "answer": 2 },
-        { "q": "What colour is a lime?", "choices": ["Red","Purple","Green","Grey"], "answer": 2 },
-        { "q": "What colour is an orange (the fruit)?", "choices": ["Purple","Orange","Blue","Black"], "answer": 1 },
-        { "q": "What do you use to brush your teeth?", "choices": ["Comb","Toothbrush","Fork","Spoon"], "answer": 1 },
-        { "q": "Which animal says 'quack'?", "choices": ["Cow","Dog","Duck","Cat"], "answer": 2 },
-        { "q": "What colour is a banana?", "choices": ["Purple","Yellow","Black","Blue"], "answer": 1 },
-        { "q": "How many wings does a bird have?", "choices": ["0","4","2","6"], "answer": 2 }
+        { "q": "How many legs does an octopus have?", "choices": ["4","6","8","10"], "answer": 2 },
+        { "q": "What colour is a school bus?", "choices": ["Purple","Green","Blue","Yellow"], "answer": 3 },
+        { "q": "What do you call a baby duck?", "choices": ["Kit","Cub","Foal","Duckling"], "answer": 3 },
+        { "q": "Which animal says 'meow'?", "choices": ["Cow","Dog","Duck","Cat"], "answer": 3 },
+        { "q": "What is 6 + 1?", "choices": ["8","6","5","7"], "answer": 3 },
+        { "q": "How many legs does a duck have?", "choices": ["8","6","2","4"], "answer": 2 },
+        { "q": "What do you use to cut paper?", "choices": ["Hammer","Fork","Spoon","Scissors"], "answer": 3 },
+        { "q": "What is 5 minus 2?", "choices": ["4","3","2","1"], "answer": 1 },
+        { "q": "What is 4 + 1?", "choices": ["6","5","4","3"], "answer": 1 },
+        { "q": "What do you drink when you are thirsty?", "choices": ["Rocks","Water","Paper","Sand"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is 40% of 150?", "choices": ["50","60","65","55"], "answer": 1 },
-        { "q": "What is 16 × 24?", "choices": ["394","374","384","364"], "answer": 2 },
-        { "q": "Which planet is closest to the Sun?", "choices": ["Mercury","Mars","Venus","Earth"], "answer": 0 },
-        { "q": "Chef is to Kitchen as Pilot is to ___?", "choices": ["Sky","Airport","Runway","Cockpit"], "answer": 3 },
-        { "q": "Which does NOT belong? Maple, Oak, Birch, Trout.", "choices": ["Trout","Birch","Oak","Maple"], "answer": 0 },
-        { "q": "Seven identical items cost $17.50. What do twelve cost?", "choices": ["$30.00","$28.00","$24.00","$26.50"], "answer": 0 },
-        { "q": "Bird is to Flock as Crow is to ___.", "choices": ["Gaggle","Pod","School","Murder"], "answer": 3 },
-        { "q": "Which does NOT belong? Cello, Viola, Double bass, Trombone.", "choices": ["Viola","Double bass","Trombone","Cello"], "answer": 2 },
-        { "q": "From 4, 9, 2, 7, 12, 5, 6 — how many values are divisible by 3?", "choices": ["4","5","3","2"], "answer": 2 },
-        { "q": "Sort CAT, DOG, BIRD, EMU, FOX alphabetically. Which word is now third?", "choices": ["BIRD","CAT","EMU","DOG"], "answer": 3 }
+        { "q": "What is 65% of 180?", "choices": ["115","112","120","117"], "answer": 3 },
+        { "q": "What is 19 × 34?", "choices": ["646","636","626","656"], "answer": 0 },
+        { "q": "Sculptor is to Marble as Potter is to ___?", "choices": ["Glaze","Kiln","Wheel","Clay"], "answer": 3 },
+        { "q": "What is the capital of China?", "choices": ["Tokyo","Beijing","Hong Kong","Shanghai"], "answer": 1 },
+        { "q": "Which does NOT belong? Frog, Toad, Newt, Sparrow.", "choices": ["Frog","Newt","Toad","Sparrow"], "answer": 3 },
+        { "q": "A recipe needs 5 cups of flour for 18 cookies. How much is needed for 45 cookies?", "choices": ["12.5 cups","10 cups","15 cups","11.5 cups"], "answer": 0 },
+        { "q": "Which is the only true berry? Strawberry, Raspberry, Blackberry, Blueberry.", "choices": ["Strawberry","Raspberry","Blueberry","Blackberry"], "answer": 2 },
+        { "q": "Which word is closest in meaning to 'Elated'?", "choices": ["Wary","Composed","Fatigued","Jubilant"], "answer": 3 },
+        { "q": "What is 51² − 49²?", "choices": ["400","1,000","200","100"], "answer": 2 },
+        { "q": "Choose the antonym of 'Archaic'.", "choices": ["Contemporary","Obscure","Ornate","Antiquated"], "answer": 0 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Recalcitrant most nearly means:", "choices": ["Extremely generous","Highly skilled","Stubbornly resistant","Deeply sorrowful"], "answer": 2 },
-        { "q": "All botanists are researchers. No researchers are careless. Therefore:", "choices": ["Some botanists are careless.","All researchers are botanists.","No botanists are careless.","No valid conclusion follows."], "answer": 2 },
-        { "q": "A list is 11, 24, 6, 19, 2, 15. Sort it descending, then find the difference between the 1st and 4th values of the result.", "choices": ["13","12","14","15"], "answer": 0 },
-        { "q": "A pipe can fill a tank in 8 hours; a drain can empty it in 24 hours. If both are open at once, how long does it take to fill the tank?", "choices": ["12 hours","16 hours","10 hours","6 hours"], "answer": 0 },
-        { "q": "A bag has 5 blue and 5 red marbles. Two are drawn without replacement. What is P(both blue)?", "choices": ["1/4","2/9","5/18","1/3"], "answer": 1 },
-        { "q": "Diffident most nearly means:", "choices": ["Very generous","Lacking self-confidence","Highly aggressive","Extremely proud"], "answer": 1 },
-        { "q": "A list is 21, 4, 16, 9, 28, 2. Sort it descending, then find the product of the 2nd and 5th values of the result.", "choices": ["88","76","84","80"], "answer": 2 },
-        { "q": "In C, 8, F, 3, K, 7, P — what is the sum of the digits that come after the letter F?", "choices": ["10","7","3","8"], "answer": 0 },
-        { "q": "Enervate most nearly means:", "choices": ["Sap of vitality","Render obsolete","Provoke to anger","Invigorate"], "answer": 0 },
-        { "q": "Pejorative is to Laudatory as Mendacious is to ___.", "choices": ["Voracious","Duplicitous","Loquacious","Veracious"], "answer": 3 }
+        { "q": "Diaphanous most nearly means:", "choices": ["Opaque","Sturdy","Translucent","Colorful"], "answer": 2 },
+        { "q": "A list is 9, 22, 4, 17, 6, 13. Sort it descending, then find the sum of the 2nd and 5th values of the result.", "choices": ["23","19","25","21"], "answer": 0 },
+        { "q": "Sort 21, 8, 34, 15, 2, 27 in ascending order, then find the product of the 2nd and 5th values of the result.", "choices": ["200","224","210","216"], "answer": 3 },
+        { "q": "Punctilious most nearly means:", "choices": ["Financially generous","Prone to sudden anger","Extremely attentive to detail","Habitually late"], "answer": 2 },
+        { "q": "All chemists are scientists. No scientists are charlatans. Therefore:", "choices": ["No chemists are charlatans.","All charlatans are chemists.","Some chemists are charlatans.","No valid conclusion follows."], "answer": 0 },
+        { "q": "A bag has 5 red and 5 blue marbles. Two are drawn without replacement. What is P(different colours)?", "choices": ["1/2","5/18","4/9","5/9"], "answer": 3 },
+        { "q": "A sum of money triples in 16 years at simple interest. What is the annual rate?", "choices": ["12.5%","18.75%","15%","10%"], "answer": 0 },
+        { "q": "Vociferous most nearly means:", "choices": ["Graceful","Timid","Loud and forceful","Silent"], "answer": 2 },
+        { "q": "All pharmacists are trained. No trained people are reckless. Therefore:", "choices": ["All reckless people are pharmacists.","Some pharmacists are reckless.","No valid conclusion follows.","No pharmacists are reckless."], "answer": 3 },
+        { "q": "Effrontery most nearly means:", "choices": ["Sorrow","Generosity","Timidity","Insolence"], "answer": 3 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the time complexity of the Bellman–Ford shortest path algorithm on a graph with V vertices and E edges?", "choices": ["O(V log V)","O(VE)","O(E log V)","O(V²E)"], "answer": 1 },
-        { "q": "A 0.5 kg object moving at 4 m/s collides perfectly elastically head-on with an identical stationary 0.5 kg object. What is the velocity of the first object after the collision?", "choices": ["0 m/s","4 m/s","8 m/s","2 m/s"], "answer": 0 },
-        { "q": "What is the derivative of ln(sin(x)) with respect to x?", "choices": ["cot(x)","−cot(x)","sec(x)","tan(x)"], "answer": 0 },
-        { "q": "Which of the following is the negation of 'All swans are white'?", "choices": ["Some swans are not white","Some swans are white","All swans are not white","No swans are white"], "answer": 0 },
-        { "q": "What is the oxidation state of manganese in KMnO₄?", "choices": ["+4","+6","+2","+7"], "answer": 3 },
-        { "q": "Binary search on a sorted array of n elements runs in:", "choices": ["O(n)","O(log n)","O(1)","O(n log n)"], "answer": 1 },
-        { "q": "The Maclaurin series for cos(x) is:", "choices": ["1 − x²/2! + x⁴/4! − …","1 + x + x²/2! + …","x − x³/3! + x⁵/5! − …","1 − x + x²/2! − …"], "answer": 0 },
-        { "q": "For a first-order reaction, which plot gives a straight line?", "choices": ["1/[A] vs t","ln[A] vs t","[A] vs t","[A]² vs t"], "answer": 1 },
-        { "q": "The half-life of a first-order reaction with rate constant k is given by:", "choices": ["1 / k","k / ln2","ln2 / k","0.5 / k"], "answer": 2 },
-        { "q": "The Heisenberg uncertainty principle for position and momentum states Δx·Δp ≥:", "choices": ["2ℏ","ℏ/2","ℏ","h"], "answer": 1 }
+        { "q": "What is the time complexity of counting sort on n elements with range k?", "choices": ["O(k log n)","O(n + k)","O(n log n)","O(nk)"], "answer": 1 },
+        { "q": "What is the derivative of x² ln(x) with respect to x?", "choices": ["2x ln(x)","2x ln(x) + x","x ln(x) + 2x","x² ln(x) + x"], "answer": 1 },
+        { "q": "A 2 kg object moving at 5 m/s collides perfectly inelastically with a stationary 3 kg object. What is their common velocity after the collision?", "choices": ["3 m/s","1.5 m/s","2.5 m/s","2 m/s"], "answer": 3 },
+        { "q": "What is the value of the definite integral ∫₀¹ x² dx?", "choices": ["1/2","1/3","2/3","1/4"], "answer": 1 },
+        { "q": "What is the oxidation state of sulfur in sulfuric acid, H₂SO₄?", "choices": ["+4","+6","+8","+2"], "answer": 1 },
+        { "q": "The number of surjective (onto) functions from a 4-element set to a 2-element set is:", "choices": ["16","12","14","8"], "answer": 2 },
+        { "q": "∫ x eˣ dx equals:", "choices": ["xeˣ + C","eˣ(x + 1) + C","x²eˣ/2 + C","eˣ(x − 1) + C"], "answer": 3 },
+        { "q": "The Rydberg formula for 1/λ of emitted light in a hydrogen transition from n2 to n1 (n2 > n1) is:", "choices": ["R(1/n2² − 1/n1²)","R(n2² − n1²)/(n1²n2²)","R(1/n1² − 1/n2²)","R(n1² − n2²)"], "answer": 2 },
+        { "q": "The derivative of tan(x) with respect to x is:", "choices": ["−csc(x)cot(x)","sec(x)tan(x)","csc²(x)","sec²(x)"], "answer": 3 },
+        { "q": "The worst-case time complexity of quicksort is:", "choices": ["O(n log n)","O(n²)","O(log n)","O(n)"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "An online retailer highlights that 95% of its published reviews are five stars and concludes nearly all customers love the product. Only customers who create an account and choose to write a review are counted. Is that 95% figure a reliable estimate of overall customer satisfaction?", "choices": ["No — five-star reviews are always fake and should be discounted entirely","Yes — 95% is such a large majority that it must reflect true satisfaction","Yes, as long as the review count is large enough, self-selection stops mattering","No — reviewers are a self-selected sample, so this isn't representative of all customers"], "answer": 3 },
-        { "q": "You have 8 identical-looking coins. One is counterfeit and slightly lighter than the rest. Using a balance scale, what is the minimum number of weighings needed to guarantee finding the counterfeit coin?", "choices": ["1","4","3","2"], "answer": 3 },
-        { "q": "In Zeno's paradox, Achilles races a tortoise that gets a head start. Each time Achilles reaches the tortoise's last position, the tortoise has crept a bit further ahead — seemingly forever. In reality, does Achilles ever catch the tortoise?", "choices": ["It depends on the tortoise's exact starting speed relative to Achilles","Yes — the infinite sequence of time intervals sums to a finite total, so he catches up in finite time","No — since there are infinitely many steps, it necessarily takes infinite time","No — Zeno proved motion itself is mathematically impossible"], "answer": 1 },
-        { "q": "You are shown two identical envelopes and told one contains exactly twice as much money as the other. You pick one at random and open it to find $100. You're offered the chance to switch. A tempting argument says: the other envelope holds either $50 or $200, each equally likely, so switching has an expected value of $125 — a gain over your $100. Is this switching argument correct?", "choices": ["Yes, but only if you have no idea how much money might be in either envelope","Yes — you should always switch, since $125 expected value beats $100 for certain","No — you should never switch, because the first envelope you pick is always the larger one","No — the calculation invalidly treats $100 as fixed while the other side varies inconsistently; there is no rational reason to switch"], "answer": 3 },
-        { "q": "What has keys but can't open any locks, has space but no room, and you can enter but never go inside?", "choices": ["A treasure chest","A keyboard","A piano","A house"], "answer": 1 },
-        { "q": "If it takes 6 people 6 days to dig 6 holes, how many days does it take 3 people to dig 3 holes?", "choices": ["6 days","2 days","3 days","12 days"], "answer": 0 },
-        { "q": "How much dirt is there in a hole that is 3 feet deep and 2 feet wide?", "choices": ["18 cubic feet","12 cubic feet","6 cubic feet","None — a hole has no dirt in it"], "answer": 3 },
-        { "q": "Some months have 31 days. How many have 30?", "choices": ["11","5","4","7"], "answer": 0 },
-        { "q": "You enter a dark room holding one match, and there is an oil lamp, a candle and a fireplace. What do you light first?", "choices": ["The oil lamp","The candle","The fireplace","The match"], "answer": 3 },
-        { "q": "In the Monty Hall problem, after the host opens a losing door, should you switch?", "choices": ["No — the first pick keeps its advantage","Yes — switching wins with probability 2/3","No — it is now 50/50","Only if the host chose randomly"], "answer": 1 }
+        { "q": "There are 3 switches outside a closed room, each connected to one of 3 identical light bulbs inside. You may operate the switches however you like, but can enter the room to look at the bulbs only once. How can you determine with certainty which switch controls which bulb?", "choices": ["Flip each switch on and off once in sequence, then enter and guess based on which bulb seems brightest","Turn switch 1 on for several minutes, then turn it off and turn switch 2 on; enter — the lit bulb is switch 2, the warm-but-dark bulb is switch 1, and the cold dark bulb is switch 3","It cannot be done with only one entry into the room","Turn all three switches on at once, then enter and see which bulbs are lit"], "answer": 1 },
+        { "q": "In a village, the barber shaves every man who does not shave himself, and no one else. Who shaves the barber?", "choices": ["He does not shave himself","He shaves himself","No consistent answer exists — the premise is self-contradictory, so no such barber can exist","The barber's apprentice shaves him"], "answer": 2 },
+        { "q": "What runs but never walks, murmurs but never talks, has a bed but never sleeps, and has a mouth but never eats?", "choices": ["A clock","A story","A river","The wind"], "answer": 2 },
+        { "q": "What can you catch but never throw?", "choices": ["A cold","Your breath","A ball","A fish"], "answer": 0 },
+        { "q": "How many seconds are there in a year?", "choices": ["Twelve — January 2nd, February 2nd, March 2nd, and so on","31,536,000","365","8,760"], "answer": 0 },
+        { "q": "You have two ropes; each takes exactly 1 hour to burn completely but burns at an uneven, unpredictable rate along its length. How do you measure exactly 45 minutes?", "choices": ["Time it with a clock as each rope burns","Cut each rope exactly in half and burn the halves","Light one rope at both ends and the other at one end; when the first finishes, light the second rope's remaining end","Light both ropes at both ends at the same time"], "answer": 2 },
+        { "q": "Two men play five games of checkers. Each man wins the same number of games, and there are no ties or draws. How is this possible?", "choices": ["They weren't playing against each other","One man cheated","It is impossible","The games were declared void"], "answer": 0 },
+        { "q": "A butcher's clerk is six feet tall and wears size 12 shoes. What does he weigh?", "choices": ["Meat","Depends on his build","About 200 pounds","It cannot be determined"], "answer": 0 },
+        { "q": "I have two US coins that total 30 cents. One of the coins is not a nickel. What are the two coins?", "choices": ["Two dimes","A dime and two nickels","A quarter and a nickel","It is impossible"], "answer": 2 },
+        { "q": "A box has 3 coins: one two-headed, one two-tailed, one normal. You pick one at random and flip it — it lands heads. What is the probability the other side is also heads?", "choices": ["1/2","1/3","3/4","2/3"], "answer": 3 }
       ]
     }
   ]
