@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What colour is a stop sign?", "choices": ["Blue","Red","Yellow","Green"], "answer": 1 },
-        { "q": "Which of these is a bird?", "choices": ["Eagle","Frog","Fish","Dog"], "answer": 0 },
-        { "q": "How many legs does a bird have?", "choices": ["8","4","2","6"], "answer": 2 },
-        { "q": "What is 4 + 3?", "choices": ["6","5","8","7"], "answer": 3 },
-        { "q": "What is the opposite of big?", "choices": ["Tall","Small","Loud","Fast"], "answer": 1 },
-        { "q": "What do you use to hear?", "choices": ["Mouth","Eyes","Ears","Nose"], "answer": 2 },
-        { "q": "What colour is a strawberry?", "choices": ["Red","Green","Blue","Purple"], "answer": 0 },
-        { "q": "What season comes after summer?", "choices": ["Autumn","Summer","Winter","Spring"], "answer": 0 },
-        { "q": "How many legs does a dog have?", "choices": ["2","4","6","3"], "answer": 1 },
-        { "q": "What do you use to comb your hair?", "choices": ["Toothbrush","Spoon","Fork","Comb"], "answer": 3 }
+        { "q": "How many legs does an ant have?", "choices": ["Eight","Six","Four","Two"], "answer": 1 },
+        { "q": "How many wheels does a tricycle have?", "choices": ["Four","Two","Three","One"], "answer": 2 },
+        { "q": "What do you call a baby bear?", "choices": ["Calf","Cub","Joey","Kit"], "answer": 1 },
+        { "q": "What is 9 minus 4?", "choices": ["3","4","5","6"], "answer": 2 },
+        { "q": "What is the opposite of day?", "choices": ["Night","Noon","Sunset","Morning"], "answer": 0 },
+        { "q": "What do cats say?", "choices": ["Moo","Meow","Baa","Oink"], "answer": 1 },
+        { "q": "What is 10 minus 1?", "choices": ["11","8","9","10"], "answer": 2 },
+        { "q": "What is 2 + 1?", "choices": ["2","4","3","5"], "answer": 2 },
+        { "q": "What do bees make?", "choices": ["Bread","Cheese","Honey","Soup"], "answer": 2 },
+        { "q": "Which animal says 'baa'?", "choices": ["Dog","Cow","Cat","Sheep"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is 40% of 85?", "choices": ["36","38","32","34"], "answer": 3 },
-        { "q": "Which does NOT belong? Sonnet, Haiku, Limerick, Novel.", "choices": ["Novel","Haiku","Sonnet","Limerick"], "answer": 0 },
-        { "q": "What is 145 + 278?", "choices": ["413","433","423","443"], "answer": 2 },
-        { "q": "Nostril is to Nose as Pupil is to ___.", "choices": ["Mouth","Ear","Eye","Skin"], "answer": 2 },
-        { "q": "What is 27 × 32?", "choices": ["854","874","864","844"], "answer": 2 },
-        { "q": "Evanescent most nearly means:", "choices": ["Brightly coloured","Vanishing quickly","Deeply rooted","Loudly expressed"], "answer": 1 },
-        { "q": "A rectangle is 14 cm wide and 9 cm tall. What is its perimeter?", "choices": ["48 cm","46 cm","52 cm","42 cm"], "answer": 1 },
-        { "q": "What comes next? 1, 8, 27, 64, ___", "choices": ["128","125","100","216"], "answer": 1 },
-        { "q": "Which does NOT belong? Salmon, Trout, Dolphin, Cod.", "choices": ["Dolphin","Salmon","Trout","Cod"], "answer": 0 },
-        { "q": "In 4, 7, 2, 9, 6 — what is the sum of the first, middle and last values?", "choices": ["11","12","13","14"], "answer": 1 }
+        { "q": "Sculptor is to Chisel as Painter is to ___?", "choices": ["Easel","Palette","Canvas","Brush"], "answer": 3 },
+        { "q": "Which does NOT belong? Emerald, Ruby, Sapphire, Quartz.", "choices": ["Ruby","Emerald","Quartz","Sapphire"], "answer": 2 },
+        { "q": "A book costs $24 and is on sale for 25% off. What is the sale price?", "choices": ["$16","$18","$19","$20"], "answer": 1 },
+        { "q": "What is 26 × 13?", "choices": ["338","318","348","328"], "answer": 0 },
+        { "q": "What is the capital of Mexico?", "choices": ["Monterrey","Guadalajara","Cancun","Mexico City"], "answer": 3 },
+        { "q": "Colossal is to Minuscule as Rapid is to ___.", "choices": ["Fleeting","Sluggish","Steady","Hasty"], "answer": 1 },
+        { "q": "In 8, 3, 6, 1, 9, 4 — what is the product of the 2nd and 5th values?", "choices": ["27","24","18","21"], "answer": 0 },
+        { "q": "Goose is to gosling as swan is to ___.", "choices": ["Kit","Cygnet","Signet","Fawn"], "answer": 1 },
+        { "q": "What is 19 × 21?", "choices": ["409","389","379","399"], "answer": 3 },
+        { "q": "Blueprint is to Building as Score is to ___.", "choices": ["Violin","Conductor","Orchestra","Symphony"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "All doctors are licensed. No licensed people are frauds. Therefore:", "choices": ["No doctors are frauds.","No valid conclusion follows.","All frauds are doctors.","Some doctors are frauds."], "answer": 0 },
-        { "q": "A $320 laptop is discounted 25%, then a further $30 off. What is the final price?", "choices": ["$205","$215","$210","$220"], "answer": 2 },
-        { "q": "A list is 21, 6, 34, 9, 17, 3. Sort it ascending, then find the product of the 1st and 4th values of the result.", "choices": ["48","57","51","54"], "answer": 2 },
-        { "q": "In 9, 3, 7, 2, 5, 8, 4, 1, 6 — what is the sum of the 4th and 7th values?", "choices": ["5","6","12","9"], "answer": 1 },
-        { "q": "A bag has 8 red and 2 blue balls. Two are drawn without replacement. What is P(both red)?", "choices": ["14/45","4/5","28/45","7/9"], "answer": 2 },
-        { "q": "A bag has 8 red and 4 blue marbles. Two are drawn without replacement. What is P(both blue)?", "choices": ["1/10","1/11","3/22","1/12"], "answer": 1 },
-        { "q": "What are the last two digits of 3¹⁰⁰?", "choices": ["03","43","49","01"], "answer": 3 },
-        { "q": "All athletes are disciplined. No disciplined people are lazy. Therefore:", "choices": ["No valid conclusion follows.","No athletes are lazy.","All disciplined people are athletes.","Some athletes are lazy."], "answer": 1 },
-        { "q": "A list is 22, 5, 17, 9, 30, 2. Sort it ascending, then find the sum of the 2nd and 5th values.", "choices": ["31","26","27","22"], "answer": 2 },
-        { "q": "All scientists are curious. No curious people are complacent. Therefore:", "choices": ["No scientists are complacent","Some scientists are complacent","No conclusion can be drawn","All complacent people are scientists"], "answer": 0 }
+        { "q": "A $450 sofa is discounted 20%, then a further $40 off. What is the final price?", "choices": ["$320","$300","$330","$310"], "answer": 0 },
+        { "q": "Fastidious most nearly means:", "choices": ["Meticulous","Careless","Generous","Impulsive"], "answer": 0 },
+        { "q": "A clock shows 4:20. What is the angle between the hour and minute hands?", "choices": ["0°","20°","10°","30°"], "answer": 2 },
+        { "q": "A list is 12, 27, 5, 18, 31, 8. Sort it descending, then find the sum of the 1st and 4th values of the result.", "choices": ["49","43","23","39"], "answer": 1 },
+        { "q": "Pusillanimous most nearly means:", "choices": ["Generous","Cowardly","Meticulous","Talkative"], "answer": 1 },
+        { "q": "A bag has 9 red and 2 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["9/11","1/55","81/121","36/55"], "answer": 3 },
+        { "q": "A bag has 7 red and 5 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["2/7","5/22","1/3","7/22"], "answer": 3 },
+        { "q": "Quixotic most nearly means:", "choices": ["Foolishly idealistic","Openly cruel","Swift and darting","Ruthlessly practical"], "answer": 0 },
+        { "q": "A $400 grill is marked up 10%, then discounted 15% off the new price. What is the final price?", "choices": ["$380","$340","$374","$390"], "answer": 2 },
+        { "q": "A $220 phone is discounted 15%, then a further 10% off the reduced price. What is the final price?", "choices": ["$172.70","$170.50","$165.00","$168.30"], "answer": 3 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "In propositional logic, what is the truth value of (P ∨ ¬P)?", "choices": ["True only when P is false","Always true (a tautology)","Always false (a contradiction)","True only when P is true"], "answer": 1 },
-        { "q": "A 4 kg block on a frictionless incline of angle 30° is released from rest. What is its acceleration along the incline? (g = 9.8 m/s²)", "choices": ["2.45 m/s²","9.8 m/s²","4.9 m/s²","8.49 m/s²"], "answer": 2 },
-        { "q": "What is the oxidation state of nitrogen in nitric acid, HNO₃?", "choices": ["+4","+6","+3","+5"], "answer": 3 },
-        { "q": "What is ∫ x cos(x) dx?", "choices": ["x sin(x) + cos(x) + C","x sin(x) − cos(x) + C","sin(x) − x cos(x) + C","−x sin(x) + cos(x) + C"], "answer": 0 },
-        { "q": "To find the kth smallest of n unsorted elements using a max-heap of size k, what is the time complexity?", "choices": ["O(n log n)","O(n log k)","O(k log n)","O(n)"], "answer": 1 },
-        { "q": "What is the sum of the interior angles of a convex decagon (10-gon)?", "choices": ["1620°","1080°","1800°","1440°"], "answer": 3 },
-        { "q": "The integral ∫₁^e (1/x) dx equals:", "choices": ["e − 1","1","e","0"], "answer": 1 },
-        { "q": "The derivative of arctan(x) with respect to x is:", "choices": ["1/(1+x²)","x/(1+x²)","1/√(1−x²)","−1/√(1−x²)"], "answer": 0 },
-        { "q": "The time complexity of building a balanced binary search tree from n sorted elements is:", "choices": ["O(log n)","O(n log n)","O(n²)","O(n)"], "answer": 3 },
-        { "q": "For a zero-order reaction, which plot gives a straight line?", "choices": ["[A] vs t","1/[A] vs t","ln[A] vs t","[A]² vs t"], "answer": 0 }
+        { "q": "A 3 kg object moving at 6 m/s collides perfectly inelastically with a stationary 1 kg object. What is their common velocity after the collision?", "choices": ["4.5 m/s","3 m/s","4 m/s","6 m/s"], "answer": 0 },
+        { "q": "What is the derivative of x²eˣ with respect to x?", "choices": ["eˣ·x²","2x·eˣ","eˣ(x² + 2)","eˣ(x² + 2x)"], "answer": 3 },
+        { "q": "For a normal distribution, what proportion of the population lies within one standard deviation of the mean?", "choices": ["≈99.7%","≈95%","≈68%","≈50%"], "answer": 2 },
+        { "q": "What is the time complexity of Prim's algorithm using a binary heap and adjacency list, for a graph with V vertices and E edges?", "choices": ["O(E + V)","O(E log V)","O(V log E)","O(V²)"], "answer": 1 },
+        { "q": "What is the oxidation state of phosphorus in phosphoric acid, H₃PO₄?", "choices": ["+4","+3","+5","+7"], "answer": 2 },
+        { "q": "The escape velocity from a spherical body of mass M and radius R is:", "choices": ["√(2GM/R)","√(GM/R²)","√(GM/R)","2GM/R²"], "answer": 0 },
+        { "q": "The second derivative of sin(x) is:", "choices": ["−cos(x)","−sin(x)","sin(x)","cos(x)"], "answer": 1 },
+        { "q": "The relativistic energy–momentum relation is:", "choices": ["E = mc² + pc","E = pc/√(1 − v²/c²)","E² = (pc)² − (mc²)²","E² = (pc)² + (mc²)²"], "answer": 3 },
+        { "q": "The time complexity of the Fast Fourier Transform on n points is:", "choices": ["O(log n)","O(n²)","O(n)","O(n log n)"], "answer": 3 },
+        { "q": "The work function of a metal is 2.0 eV. What is the maximum kinetic energy of photoelectrons ejected by light of energy 3.5 eV?", "choices": ["2.0 eV","1.0 eV","1.5 eV","3.5 eV"], "answer": 2 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "What comes next in the sequence? 1, 11, 21, 1211, 111221, ___", "choices": ["211213","132231","312211","123211"], "answer": 2 },
-        { "q": "A crime-scene DNA profile matches 1 in 1,000,000 people at random. The suspect's DNA matches. The prosecutor argues this means there is only a 1-in-1,000,000 chance the suspect is innocent. What is wrong with this reasoning?", "choices": ["The reasoning is wrong only if the suspect has an identical twin","It confuses P(match | innocent) with P(innocent | match) — without knowing the size of the potential suspect pool, the match rate alone doesn't give the probability of guilt","Nothing is wrong — 1 in 1,000,000 does mean the suspect is almost certainly guilty","The DNA test itself must be flawed if this reasoning seems wrong"], "answer": 1 },
-        { "q": "A fair coin lands heads 5 times in a row. A gambler bets on tails, reasoning 'tails is due.' Is this good reasoning?", "choices": ["Yes — after 5 heads in a row, tails becomes statistically more likely","No — the streak actually makes heads more likely to continue","Yes, but only because 5 heads in a row is extremely rare","No — the coin has no memory; P(tails) is still 0.5 on the next flip regardless of the streak"], "answer": 3 },
-        { "q": "A cowboy rides into town on Friday, stays exactly three days, and rides out on Friday. How is this possible?", "choices": ["The town follows a different calendar system","He rode in on a Thursday and miscounted the days","He didn't actually stay three full days","His horse is named Friday"], "answer": 3 },
-        { "q": "Which is larger: the number of distinct ways to shuffle a standard 52-card deck (52!), or the number of atoms on Earth (roughly 10^50)?", "choices": ["The number of atoms on Earth — a mere 52 cards can't compete with atoms","They are roughly equal, both around 10^50","The number of ways to shuffle a deck of cards (52!) — it vastly exceeds the number of atoms on Earth","It's impossible to meaningfully compare a permutation count to a physical count"], "answer": 2 },
-        { "q": "A farmer must ferry a wolf, a goat, and a cabbage across a river one item at a time (plus himself). Left alone, the wolf eats the goat, and the goat eats the cabbage. What is the minimum number of river crossings required?", "choices": ["9","7","5","3"], "answer": 1 },
-        { "q": "Two fathers and two sons went fishing together. Each caught exactly one fish, yet they brought home only three fish in total. How many people went fishing?", "choices": ["4","3","2","5"], "answer": 1 },
-        { "q": "How many times does the digit 9 appear in the integers from 1 to 100?", "choices": ["11","10","20","19"], "answer": 2 },
-        { "q": "If you are running a race and you pass the person in last place, what position are you in?", "choices": ["Impossible — you cannot pass the last runner","Last","First","Second to last"], "answer": 0 },
-        { "q": "Which is correct: 'the yolk of the egg is white' or 'the yolk of the egg are white'?", "choices": ["Are white","Neither — yolks are yellow","Is white","Both are acceptable"], "answer": 1 }
+        { "q": "If you flip a fair coin repeatedly, which takes longer on average: waiting for the pattern HH to appear, or waiting for the pattern HT to appear?", "choices": ["They take exactly the same expected number of flips","HT takes longer on average (expected 6 flips vs 4)","It depends on which pattern you flip first","HH takes longer on average (expected 6 flips vs 4)"], "answer": 3 },
+        { "q": "How many people must be in a room before there is a greater than 50% chance that at least one of them shares your exact birthday (not just any two people sharing a birthday with each other)?", "choices": ["23","365","253","183"], "answer": 2 },
+        { "q": "Three prisoners each have a hat that is independently red or blue with 50% probability. Each can see the other two hats but not their own, and all three must simultaneously guess their own hat colour or pass. They win only if at least one guesses and everyone who guesses is correct. Using the optimal strategy — guess the opposite colour of what you see if the other two hats match, otherwise pass — what is their probability of winning?", "choices": ["1/8","1/2","7/8","3/4"], "answer": 3 },
+        { "q": "Two fair six-sided dice are rolled. You're told at least one of them shows a 6. What is the probability that the other die also shows a 6?", "choices": ["1/11","1/2","1/36","1/6"], "answer": 0 },
+        { "q": "100 prisoners, each assigned a unique number 1-100, must each find their own number among 100 boxes by opening at most 50 boxes (the room is reset between prisoners; no communication once it starts). If every prisoner follows the strategy 'open the box matching my number, then open the box matching the number found inside, and repeat,' what is the approximate probability that all 100 prisoners succeed?", "choices": ["100% — the strategy is guaranteed","essentially 0% (about 0.5¹⁰⁰)","≈31%","≈50%"], "answer": 2 },
+        { "q": "How many people must be in a room before the chance that two share a birthday exceeds 50%?", "choices": ["183","50","366","23"], "answer": 3 },
+        { "q": "A man pushes his car and stops at a hotel. He shouts, 'I'm bankrupt!' What is happening?", "choices": ["His car ran out of fuel","He lost a bet with the hotel","The hotel overcharged him","He is playing Monopoly"], "answer": 3 },
+        { "q": "What number continues the sequence: 8, 5, 4, 9, 1, 7, 6, ?, 2", "choices": ["3","11","10","0"], "answer": 0 },
+        { "q": "If you have 3 apples and you take away 2, how many do you have?", "choices": ["1","3","2","0"], "answer": 2 },
+        { "q": "Before Mount Everest was discovered, what was the tallest mountain on Earth?", "choices": ["Kangchenjunga","Mount Everest","Mont Blanc","K2"], "answer": 1 }
       ]
     }
   ]
