@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "How many legs does an ant have?", "choices": ["Eight","Six","Four","Two"], "answer": 1 },
-        { "q": "How many wheels does a tricycle have?", "choices": ["Four","Two","Three","One"], "answer": 2 },
-        { "q": "What do you call a baby bear?", "choices": ["Calf","Cub","Joey","Kit"], "answer": 1 },
-        { "q": "What is 9 minus 4?", "choices": ["3","4","5","6"], "answer": 2 },
-        { "q": "What is the opposite of day?", "choices": ["Night","Noon","Sunset","Morning"], "answer": 0 },
-        { "q": "What do cats say?", "choices": ["Moo","Meow","Baa","Oink"], "answer": 1 },
-        { "q": "What is 10 minus 1?", "choices": ["11","8","9","10"], "answer": 2 },
-        { "q": "What is 2 + 1?", "choices": ["2","4","3","5"], "answer": 2 },
-        { "q": "What do bees make?", "choices": ["Bread","Cheese","Honey","Soup"], "answer": 2 },
-        { "q": "Which animal says 'baa'?", "choices": ["Dog","Cow","Cat","Sheep"], "answer": 3 }
+        { "q": "Which animal says 'hiss'?", "choices": ["Cow","Dog","Snake","Cat"], "answer": 2 },
+        { "q": "How many legs does a cow have?", "choices": ["Eight","Two","Six","Four"], "answer": 3 },
+        { "q": "What is 4 + 4?", "choices": ["9","7","8","6"], "answer": 2 },
+        { "q": "What colour is milk?", "choices": ["Purple","Green","White","Black"], "answer": 2 },
+        { "q": "What do you wear when it rains?", "choices": ["Raincoat","Sunglasses","Swimsuit","Mittens"], "answer": 0 },
+        { "q": "What colour is the sky on a clear day?", "choices": ["Blue","Red","Green","Brown"], "answer": 0 },
+        { "q": "What do you use to wash your hands?", "choices": ["Scissors","Comb","Pencil","Soap"], "answer": 3 },
+        { "q": "What do you call a baby cow?", "choices": ["Kitten","Puppy","Chick","Calf"], "answer": 3 },
+        { "q": "What do you use to write?", "choices": ["Pillow","Pan","Pencil","Plate"], "answer": 2 },
+        { "q": "How many legs does a cat have?", "choices": ["8","6","4","2"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Sculptor is to Chisel as Painter is to ___?", "choices": ["Easel","Palette","Canvas","Brush"], "answer": 3 },
-        { "q": "Which does NOT belong? Emerald, Ruby, Sapphire, Quartz.", "choices": ["Ruby","Emerald","Quartz","Sapphire"], "answer": 2 },
-        { "q": "A book costs $24 and is on sale for 25% off. What is the sale price?", "choices": ["$16","$18","$19","$20"], "answer": 1 },
-        { "q": "What is 26 × 13?", "choices": ["338","318","348","328"], "answer": 0 },
-        { "q": "What is the capital of Mexico?", "choices": ["Monterrey","Guadalajara","Cancun","Mexico City"], "answer": 3 },
-        { "q": "Colossal is to Minuscule as Rapid is to ___.", "choices": ["Fleeting","Sluggish","Steady","Hasty"], "answer": 1 },
-        { "q": "In 8, 3, 6, 1, 9, 4 — what is the product of the 2nd and 5th values?", "choices": ["27","24","18","21"], "answer": 0 },
-        { "q": "Goose is to gosling as swan is to ___.", "choices": ["Kit","Cygnet","Signet","Fawn"], "answer": 1 },
-        { "q": "What is 19 × 21?", "choices": ["409","389","379","399"], "answer": 3 },
-        { "q": "Blueprint is to Building as Score is to ___.", "choices": ["Violin","Conductor","Orchestra","Symphony"], "answer": 3 }
+        { "q": "Which does NOT belong? Oxygen, Nitrogen, Helium, Mercury.", "choices": ["Oxygen","Nitrogen","Mercury","Helium"], "answer": 2 },
+        { "q": "Carpenter is to Hammer as Tailor is to ___?", "choices": ["Thread","Scissors","Fabric","Needle"], "answer": 3 },
+        { "q": "What is 21 × 19?", "choices": ["389","379","409","399"], "answer": 3 },
+        { "q": "How many sides does an octagon have?", "choices": ["Six","Nine","Seven","Eight"], "answer": 3 },
+        { "q": "What is the capital of India?", "choices": ["Mumbai","Kolkata","Bangalore","New Delhi"], "answer": 3 },
+        { "q": "What is 35% of 240?", "choices": ["92","84","88","78"], "answer": 1 },
+        { "q": "Hot is to Cold as Zenith is to ___.", "choices": ["Horizon","Apex","Nadir","Summit"], "answer": 2 },
+        { "q": "Which does NOT belong? Sparrow, Robin, Eagle, Penguin.", "choices": ["Penguin","Eagle","Sparrow","Robin"], "answer": 0 },
+        { "q": "Chef is to Recipe as Architect is to ___.", "choices": ["Cement","Hammer","Blueprint","Building"], "answer": 2 },
+        { "q": "Which number is the largest?", "choices": ["0.68","0.71","0.7","0.702"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A $450 sofa is discounted 20%, then a further $40 off. What is the final price?", "choices": ["$320","$300","$330","$310"], "answer": 0 },
-        { "q": "Fastidious most nearly means:", "choices": ["Meticulous","Careless","Generous","Impulsive"], "answer": 0 },
-        { "q": "A clock shows 4:20. What is the angle between the hour and minute hands?", "choices": ["0°","20°","10°","30°"], "answer": 2 },
-        { "q": "A list is 12, 27, 5, 18, 31, 8. Sort it descending, then find the sum of the 1st and 4th values of the result.", "choices": ["49","43","23","39"], "answer": 1 },
-        { "q": "Pusillanimous most nearly means:", "choices": ["Generous","Cowardly","Meticulous","Talkative"], "answer": 1 },
-        { "q": "A bag has 9 red and 2 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["9/11","1/55","81/121","36/55"], "answer": 3 },
-        { "q": "A bag has 7 red and 5 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["2/7","5/22","1/3","7/22"], "answer": 3 },
-        { "q": "Quixotic most nearly means:", "choices": ["Foolishly idealistic","Openly cruel","Swift and darting","Ruthlessly practical"], "answer": 0 },
-        { "q": "A $400 grill is marked up 10%, then discounted 15% off the new price. What is the final price?", "choices": ["$380","$340","$374","$390"], "answer": 2 },
-        { "q": "A $220 phone is discounted 15%, then a further 10% off the reduced price. What is the final price?", "choices": ["$172.70","$170.50","$165.00","$168.30"], "answer": 3 }
+        { "q": "Which word is most nearly opposite in meaning to 'profligate'?", "choices": ["Frugal","Lavish","Wasteful","Prodigal"], "answer": 0 },
+        { "q": "In 5, 12, 9, 4, 17, 8, 21, 6 — what is the sum of the values in odd-numbered positions minus the sum of the values in even-numbered positions?", "choices": ["18","22","26","14"], "answer": 1 },
+        { "q": "A container holds 800 mL of a solution that is 25% acid by volume. How many mL of pure acid does it contain?", "choices": ["200 mL","160 mL","175 mL","225 mL"], "answer": 0 },
+        { "q": "All journalists are writers. No writers are illiterate. Therefore:", "choices": ["No valid conclusion follows.","Some journalists are illiterate.","All writers are journalists.","No journalists are illiterate."], "answer": 3 },
+        { "q": "All watches are timepieces. Some timepieces are antiques. Which conclusion follows with certainty?", "choices": ["No watches are antiques","Some watches are antiques","No conclusion about watches and antiques follows with certainty","All antiques are watches"], "answer": 2 },
+        { "q": "A committee of 4 is chosen at random from a group of 6 men and 5 women. What is the probability the committee has exactly 2 men and 2 women?", "choices": ["1/2","6/11","5/11","10/33"], "answer": 2 },
+        { "q": "Reverse 4, 7, 2, 9, 1, 8, 3 and take the middle value of the result.", "choices": ["9","8","1","2"], "answer": 0 },
+        { "q": "What is the next prime number after 113?", "choices": ["121","115","127","117"], "answer": 2 },
+        { "q": "Reverse B, 4, G, 9, M, 2, X. What is the 3rd item of the result?", "choices": ["M","2","9","G"], "answer": 0 },
+        { "q": "Simplify: (169 ÷ 13) × 4 − 3³", "choices": ["29","31","21","25"], "answer": 3 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A 3 kg object moving at 6 m/s collides perfectly inelastically with a stationary 1 kg object. What is their common velocity after the collision?", "choices": ["4.5 m/s","3 m/s","4 m/s","6 m/s"], "answer": 0 },
-        { "q": "What is the derivative of x²eˣ with respect to x?", "choices": ["eˣ·x²","2x·eˣ","eˣ(x² + 2)","eˣ(x² + 2x)"], "answer": 3 },
-        { "q": "For a normal distribution, what proportion of the population lies within one standard deviation of the mean?", "choices": ["≈99.7%","≈95%","≈68%","≈50%"], "answer": 2 },
-        { "q": "What is the time complexity of Prim's algorithm using a binary heap and adjacency list, for a graph with V vertices and E edges?", "choices": ["O(E + V)","O(E log V)","O(V log E)","O(V²)"], "answer": 1 },
-        { "q": "What is the oxidation state of phosphorus in phosphoric acid, H₃PO₄?", "choices": ["+4","+3","+5","+7"], "answer": 2 },
-        { "q": "The escape velocity from a spherical body of mass M and radius R is:", "choices": ["√(2GM/R)","√(GM/R²)","√(GM/R)","2GM/R²"], "answer": 0 },
-        { "q": "The second derivative of sin(x) is:", "choices": ["−cos(x)","−sin(x)","sin(x)","cos(x)"], "answer": 1 },
-        { "q": "The relativistic energy–momentum relation is:", "choices": ["E = mc² + pc","E = pc/√(1 − v²/c²)","E² = (pc)² − (mc²)²","E² = (pc)² + (mc²)²"], "answer": 3 },
-        { "q": "The time complexity of the Fast Fourier Transform on n points is:", "choices": ["O(log n)","O(n²)","O(n)","O(n log n)"], "answer": 3 },
-        { "q": "The work function of a metal is 2.0 eV. What is the maximum kinetic energy of photoelectrons ejected by light of energy 3.5 eV?", "choices": ["2.0 eV","1.0 eV","1.5 eV","3.5 eV"], "answer": 2 }
+        { "q": "A Carnot engine operates between a hot reservoir at 500 K and a cold reservoir at 300 K. What is its maximum theoretical efficiency?", "choices": ["60%","20%","66.7%","40%"], "answer": 3 },
+        { "q": "A 0.2 kg mass moves in a horizontal circle of radius 0.5 m at a constant speed of 4 m/s. What is the centripetal force acting on it?", "choices": ["6.4 N","12.8 N","3.2 N","1.6 N"], "answer": 0 },
+        { "q": "How much heat energy (in kJ) is required to raise the temperature of 500 g of water by 10°C? (specific heat of water = 4.18 J/g·°C)", "choices": ["2.09 kJ","20.9 kJ","209 kJ","41.8 kJ"], "answer": 1 },
+        { "q": "Starting from an empty dynamic array (like a C++ vector) that doubles its capacity whenever it fills up, what is the total time complexity of performing n consecutive append operations, from empty?", "choices": ["O(n²)","O(n log n)","O(log n)","O(n)"], "answer": 3 },
+        { "q": "How many derangements (permutations with no element in its original position) are there of a 4-element set?", "choices": ["9","24","15","6"], "answer": 0 },
+        { "q": "A first-order reaction has a half-life of 20 minutes. What is its rate constant k?", "choices": ["0.0500 min⁻¹","0.0693 min⁻¹","0.0347 min⁻¹","0.1000 min⁻¹"], "answer": 2 },
+        { "q": "Gauss's law states that the flux ∮E·dA through a closed surface equals:", "choices": ["Q_enc/ε₀","Q_enc·ε₀/2","Q·ε₀","μ₀Q"], "answer": 0 },
+        { "q": "The de Broglie wavelength of a particle with momentum p is:", "choices": ["p/h","h/p","h/p²","hp"], "answer": 1 },
+        { "q": "The derivative of sec(x) with respect to x is:", "choices": ["tan(x)","sec²(x)","sec(x)tan(x)","−csc(x)cot(x)"], "answer": 2 },
+        { "q": "The Lorentz factor γ for a body moving at v = 0.6c is:", "choices": ["1.50","1.20","1.33","1.25"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "If you flip a fair coin repeatedly, which takes longer on average: waiting for the pattern HH to appear, or waiting for the pattern HT to appear?", "choices": ["They take exactly the same expected number of flips","HT takes longer on average (expected 6 flips vs 4)","It depends on which pattern you flip first","HH takes longer on average (expected 6 flips vs 4)"], "answer": 3 },
-        { "q": "How many people must be in a room before there is a greater than 50% chance that at least one of them shares your exact birthday (not just any two people sharing a birthday with each other)?", "choices": ["23","365","253","183"], "answer": 2 },
-        { "q": "Three prisoners each have a hat that is independently red or blue with 50% probability. Each can see the other two hats but not their own, and all three must simultaneously guess their own hat colour or pass. They win only if at least one guesses and everyone who guesses is correct. Using the optimal strategy — guess the opposite colour of what you see if the other two hats match, otherwise pass — what is their probability of winning?", "choices": ["1/8","1/2","7/8","3/4"], "answer": 3 },
-        { "q": "Two fair six-sided dice are rolled. You're told at least one of them shows a 6. What is the probability that the other die also shows a 6?", "choices": ["1/11","1/2","1/36","1/6"], "answer": 0 },
-        { "q": "100 prisoners, each assigned a unique number 1-100, must each find their own number among 100 boxes by opening at most 50 boxes (the room is reset between prisoners; no communication once it starts). If every prisoner follows the strategy 'open the box matching my number, then open the box matching the number found inside, and repeat,' what is the approximate probability that all 100 prisoners succeed?", "choices": ["100% — the strategy is guaranteed","essentially 0% (about 0.5¹⁰⁰)","≈31%","≈50%"], "answer": 2 },
-        { "q": "How many people must be in a room before the chance that two share a birthday exceeds 50%?", "choices": ["183","50","366","23"], "answer": 3 },
-        { "q": "A man pushes his car and stops at a hotel. He shouts, 'I'm bankrupt!' What is happening?", "choices": ["His car ran out of fuel","He lost a bet with the hotel","The hotel overcharged him","He is playing Monopoly"], "answer": 3 },
-        { "q": "What number continues the sequence: 8, 5, 4, 9, 1, 7, 6, ?, 2", "choices": ["3","11","10","0"], "answer": 0 },
-        { "q": "If you have 3 apples and you take away 2, how many do you have?", "choices": ["1","3","2","0"], "answer": 2 },
-        { "q": "Before Mount Everest was discovered, what was the tallest mountain on Earth?", "choices": ["Kangchenjunga","Mount Everest","Mont Blanc","K2"], "answer": 1 }
+        { "q": "A standard, well-shuffled 52-card deck contains 4 aces. You draw two cards without replacement. What is the probability that both cards are aces?", "choices": ["1/26","1/169","1/13","1/221"], "answer": 3 },
+        { "q": "Across summer months, cities with higher ice cream sales also see more drowning deaths, and the two rise and fall together almost in lockstep. Does this mean eating ice cream increases your risk of drowning?", "choices": ["No — hot weather is a confounding variable that independently drives up both ice cream sales and swimming (and so drowning)","Yes, the correlation shows ice cream directly causes drowning","No, because correlation and causation are always unrelated","Yes, but only for people who swim within an hour of eating"], "answer": 0 },
+        { "q": "In a single round of the Prisoner's Dilemma, two purely rational, self-interested players cannot communicate or retaliate later. Mutual cooperation would leave both better off than mutual defection. What does classical game theory say two such rational players will actually do?", "choices": ["Both will cooperate, since cooperation is the jointly optimal choice","Both will defect — defection dominates cooperation for each player individually, even though it leaves them both worse off","Each randomizes 50/50 between cooperating and defecting","They split — one cooperates while the other defects"], "answer": 1 },
+        { "q": "Premise 1: If it rains, the sidewalk gets wet. Premise 2: The sidewalk is wet. Many people conclude it must have rained. Is that conclusion logically valid?", "choices": ["Yes, but only if it's currently cloudy","No conclusion can ever be drawn from an if-then statement","No — this is the fallacy of affirming the consequent; something else (a sprinkler, a hose) could have wet the sidewalk","Yes — the sidewalk being wet proves it rained"], "answer": 2 },
+        { "q": "Buses arrive at a certain stop following a Poisson process (perfectly memoryless and random) with an average of one bus every 10 minutes. If you walk up at a uniformly random moment, what is your expected waiting time for the next bus?", "choices": ["It cannot be determined without knowing the exact schedule","20 minutes, twice the average interval","5 minutes, half the average interval, since you arrive at a random point","10 minutes — memorylessness means your expected wait equals the full average interval, not half of it"], "answer": 3 },
+        { "q": "A game show has 100 doors: 1 hides a car, 99 hide goats. You pick one door. The host, who knows what's behind each door, then opens 98 of the remaining doors, all revealing goats, leaving your door and exactly one other closed. If you switch to that other door, what is your probability of winning the car?", "choices": ["1/99","99/100","1/2","1/100"], "answer": 1 },
+        { "q": "How many letters are in the phrase 'the alphabet'?", "choices": ["26","12","25","11"], "answer": 3 },
+        { "q": "Which is more likely: rolling at least one 6 in four rolls of a fair die, or rolling at least one double-six in twenty-four rolls of a pair of fair dice?", "choices": ["At least one double-six in twenty-four rolls of two dice","Neither — both have zero probability","They are exactly equally likely","At least one 6 in four rolls of a die"], "answer": 3 },
+        { "q": "A plane crashes exactly on the border between two countries. Where are the survivors buried?", "choices": ["Split between both countries","Whichever country they were citizens of","The nearer country","Nowhere — survivors are not buried"], "answer": 3 },
+        { "q": "Linda is 31, single, outspoken, and deeply concerned with issues of social justice. Based on probability alone, which is more likely to be true of her?", "choices": ["There is not enough information to say","She is a bank teller who is active in the feminist movement","Both are equally likely","She is a bank teller"], "answer": 3 }
       ]
     }
   ]
