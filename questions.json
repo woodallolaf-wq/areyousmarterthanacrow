@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "How many days are in a weekend?", "choices": ["2","7","1","3"], "answer": 0 },
-        { "q": "What colour is a pumpkin?", "choices": ["Black","Blue","Orange","Purple"], "answer": 2 },
-        { "q": "What do you call a baby elephant?", "choices": ["Foal","Kit","Cub","Calf"], "answer": 3 },
-        { "q": "Which animal has black and white stripes?", "choices": ["Zebra","Horse","Elephant","Giraffe"], "answer": 0 },
-        { "q": "What is the opposite of 'in'?", "choices": ["Under","On","Over","Out"], "answer": 3 },
-        { "q": "What do you use to see?", "choices": ["Nose","Ears","Eyes","Hands"], "answer": 2 },
-        { "q": "What is 3 + 2?", "choices": ["4","6","3","5"], "answer": 3 },
-        { "q": "What is 2 + 2?", "choices": ["3","4","5","6"], "answer": 1 },
-        { "q": "What is the opposite of hot?", "choices": ["Cold","Big","Warm","Wet"], "answer": 0 },
-        { "q": "What colour is a frog?", "choices": ["Blue","Purple","Green","Red"], "answer": 2 }
+        { "q": "What is 5 + 5?", "choices": ["10","11","9","8"], "answer": 0 },
+        { "q": "What is the opposite of 'fast'?", "choices": ["Loud","Slow","Big","Cold"], "answer": 1 },
+        { "q": "How many legs does a snake have?", "choices": ["6","2","4","0"], "answer": 3 },
+        { "q": "What do you call a baby goat?", "choices": ["Cub","Chick","Foal","Kid"], "answer": 3 },
+        { "q": "Which animal says 'buzz'?", "choices": ["Snake","Fish","Owl","Bee"], "answer": 3 },
+        { "q": "Which animal has a long trunk?", "choices": ["Rabbit","Elephant","Snake","Duck"], "answer": 1 },
+        { "q": "Which animal says 'roar'?", "choices": ["Dog","Cat","Cow","Lion"], "answer": 3 },
+        { "q": "What shape is a ball?", "choices": ["Square","Triangle","Circle","Star"], "answer": 2 },
+        { "q": "Which one is round?", "choices": ["A brick","A ball","A box","A book"], "answer": 1 },
+        { "q": "Which one is a fruit?", "choices": ["Spoon","Chair","Apple","Sock"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "In 9, 2, 6, 4, 8 — what is the sum of the values greater than 5?", "choices": ["19","17","23","21"], "answer": 2 },
-        { "q": "Which does NOT belong? Maple syrup, Honey, Sugar, Salt.", "choices": ["Maple syrup","Honey","Salt","Sugar"], "answer": 2 },
-        { "q": "What is 60% of 150?", "choices": ["85","95","90","80"], "answer": 2 },
-        { "q": "Which is the largest planet in the solar system?", "choices": ["Saturn","Earth","Jupiter","Neptune"], "answer": 2 },
-        { "q": "What is 24 × 26?", "choices": ["624","634","648","614"], "answer": 0 },
-        { "q": "What comes next? 2, 6, 12, 20, 30, ___", "choices": ["38","40","42","36"], "answer": 2 },
-        { "q": "In 6, 2, 8, 5, 3 — what is (first + last) × middle?", "choices": ["72","45","63","54"], "answer": 0 },
-        { "q": "In 7, 2, 9, 4, 6 — what is the sum of the largest and smallest values?", "choices": ["15","9","11","13"], "answer": 2 },
-        { "q": "Reverse 5, 2, 8, 4, 1 and sum the first three values of the result.", "choices": ["13","17","11","15"], "answer": 0 },
-        { "q": "In 6, 9, 2, 8, 4 — what is the sum of the smallest and largest values?", "choices": ["12","13","11","10"], "answer": 2 }
+        { "q": "What is 15 × 12?", "choices": ["180","170","175","190"], "answer": 0 },
+        { "q": "In 5, 12, 3, 9, 7 — what is the sum of the values greater than 6?", "choices": ["24","30","28","26"], "answer": 2 },
+        { "q": "Which does NOT belong? Rose, Tulip, Daisy, Carrot.", "choices": ["Carrot","Rose","Tulip","Daisy"], "answer": 0 },
+        { "q": "What is the chemical symbol for gold?", "choices": ["Au","Go","Ag","Gd"], "answer": 0 },
+        { "q": "What is 45% of 80?", "choices": ["32","36","34","38"], "answer": 1 },
+        { "q": "A circle has radius 10. What is its circumference? (π ≈ 3.14)", "choices": ["314","125.6","31.4","62.8"], "answer": 3 },
+        { "q": "Reticent most nearly means:", "choices": ["Quick to anger","Physically frail","Unwilling to speak freely","Highly persuasive"], "answer": 2 },
+        { "q": "What is 1,728 ÷ 12?", "choices": ["156","144","132","168"], "answer": 1 },
+        { "q": "In W, 4, K, 9, R, 2, M — what is the position of the third letter?", "choices": ["7th","4th","5th","3rd"], "answer": 2 },
+        { "q": "What is 23 × 17?", "choices": ["381","391","401","411"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A list is 30, 12, 45, 7, 22, 16. Sort it ascending, then find the sum of the 1st and 6th values of the result.", "choices": ["52","37","60","45"], "answer": 0 },
-        { "q": "A bag has 4 red, 3 blue and 3 green marbles. Two are drawn without replacement. What is P(both green)?", "choices": ["1/15","3/10","2/15","1/10"], "answer": 0 },
-        { "q": "Pipe A fills a tank in 10 hours, pipe B in 15 hours. Both pipes are open together for the first 3 hours, then pipe B is closed. How much longer does pipe A alone take to finish filling the tank?", "choices": ["5 hours","4 hours","3 hours","6 hours"], "answer": 0 },
-        { "q": "All architects are meticulous. Some meticulous people are impatient. Therefore:", "choices": ["Nothing about architects and impatient people follows","All impatient people are architects","Some architects are impatient","No architects are impatient"], "answer": 0 },
-        { "q": "Sonorous most nearly means:", "choices": ["Silent and muted","Fragile and thin","Resonant and deep","Transparent and clear"], "answer": 2 },
-        { "q": "No M are N. All N are O. Some O are P. Which is certainly true?", "choices": ["Some M are O","Some N are P","No M are N","All P are O"], "answer": 2 },
-        { "q": "A tank fills in 9 hours with pipe A and 6 hours with pipe B. How long with both open?", "choices": ["3 h 36 m","3 h 20 m","4 h","3 h"], "answer": 0 },
-        { "q": "From 7, 2, 9, 4, 6, 3, 5 — sum the odd values.", "choices": ["19","21","27","24"], "answer": 3 },
-        { "q": "In 3, 1, 4, 1, 5, 9, 2 — what is the sum of the values in even-numbered positions?", "choices": ["12","11","14","9"], "answer": 1 },
-        { "q": "Plethora is to Paucity as Turpitude is to ___.", "choices": ["Lassitude","Probity","Depravity","Abundance"], "answer": 1 }
+        { "q": "All engineers are logical. Some logical people are stubborn. Therefore:", "choices": ["No engineers are stubborn","Nothing about engineers and stubborn people follows","Some engineers are stubborn","All stubborn people are engineers"], "answer": 1 },
+        { "q": "A list is 14, 39, 6, 27, 18, 3. Sort it ascending, then find the product of the 2nd and 4th values of the result.", "choices": ["96","114","102","108"], "answer": 3 },
+        { "q": "Loquacious most nearly means:", "choices": ["Talkative","Angry","Sleepy","Silent and muted"], "answer": 0 },
+        { "q": "Pipe A fills a tank in 6 hours, pipe B in 12 hours. Both pipes are open together for the first 2 hours, then pipe B is closed. How much longer does pipe A alone take to finish filling the tank?", "choices": ["5 hours","2 hours","4 hours","3 hours"], "answer": 3 },
+        { "q": "A bag has 5 red and 7 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["7/33","5/33","1/6","5/22"], "answer": 1 },
+        { "q": "Sort RED, BLUE, GREEN, YELLOW, PURPLE by word length, longest first (alphabetical for ties). Which is second?", "choices": ["GREEN","BLUE","PURPLE","YELLOW"], "answer": 3 },
+        { "q": "In 3, 6, 9, 12, 15, 18, 21 — what is the product of the 2nd and 4th values divided by the 1st?", "choices": ["21","27","24","18"], "answer": 2 },
+        { "q": "Some A are B. No B are C. Therefore:", "choices": ["Some A are not C","No A are C","All A are C","Some C are A"], "answer": 0 },
+        { "q": "Inveterate most nearly means:", "choices": ["Recently formed","Firmly established by habit","Easily reversed","Occurring only rarely"], "answer": 1 },
+        { "q": "If x + y = 14 and xy = 40, what is x² + y²?", "choices": ["136","116","126","156"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the oxidation state of iodine in periodic acid, HIO₄?", "choices": ["+1","+3","+7","+5"], "answer": 2 },
-        { "q": "A 1500 kg car travels at 20 m/s and brakes to a stop over a distance of 50 m. What is the magnitude of the average braking force?", "choices": ["3000 N","12000 N","1500 N","6000 N"], "answer": 3 },
-        { "q": "What is the derivative of x³cos(x) with respect to x?", "choices": ["3x²cos(x) − x³sin(x)","3x²sin(x) − x³cos(x)","x²cos(x) − x³sin(x)","3x²cos(x) + x³sin(x)"], "answer": 0 },
-        { "q": "What is the time complexity of Kruskal's algorithm for finding a minimum spanning tree on a graph with V vertices and E edges, using a union-find structure?", "choices": ["O(E log E)","O(E + V log V)","O(E·V)","O(V²)"], "answer": 0 },
-        { "q": "In predicate logic, what is the negation of ∃x P(x)?", "choices": ["∀x P(x)","∀x ¬P(x)","¬∀x P(x)","∃x ¬P(x)"], "answer": 1 },
-        { "q": "What is the pH of a solution with [H+] = 1×10⁻⁴ M?", "choices": ["3","10","14","4"], "answer": 3 },
-        { "q": "The derivative of ln(x²+1) with respect to x is:", "choices": ["x/(x²+1)","1/(x²+1)","2x/(x+1)","2x/(x²+1)"], "answer": 3 },
-        { "q": "The Taylor series of eˣ about 0 is:", "choices": ["Σ xⁿ/n","Σ n·xⁿ","Σ (−1)ⁿxⁿ/n!","Σ xⁿ/n!"], "answer": 3 },
-        { "q": "In propositional logic, which of the following is logically equivalent to P → Q?", "choices": ["¬P ∨ Q","P ∧ ¬Q","P ∨ ¬Q","¬P ∧ Q"], "answer": 0 },
-        { "q": "The number of edges in a complete graph Kₙ is:", "choices": ["n²","2ⁿ⁻¹","n(n − 1)/2","n(n + 1)/2"], "answer": 2 }
+        { "q": "What is the pH of a 0.001 M HCl solution, assuming complete dissociation?", "choices": ["1","2","4","3"], "answer": 3 },
+        { "q": "A 2 kg object moves in a circle of radius 0.5 m at 4 m/s. What is the magnitude of the centripetal force?", "choices": ["32 N","64 N","128 N","16 N"], "answer": 1 },
+        { "q": "What is the time complexity of building a binary heap from an unsorted array of n elements?", "choices": ["O(log n)","O(n)","O(n log n)","O(n²)"], "answer": 1 },
+        { "q": "What is the derivative of x·eˣ with respect to x?", "choices": ["eˣ(x−1)","eˣ(x+1)","eˣ","xeˣ"], "answer": 1 },
+        { "q": "In predicate logic, what is the negation of ∀x (P(x) → Q(x))?", "choices": ["∀x (¬P(x) → ¬Q(x))","∀x (P(x) ∧ ¬Q(x))","∃x (¬P(x) ∨ Q(x))","∃x (P(x) ∧ ¬Q(x))"], "answer": 3 },
+        { "q": "The Compton shift in wavelength when a photon scatters through angle θ is:", "choices": ["(h/mc)(1 − cos θ)","(h/mc)·cos θ","(h/mc)·sin θ","(mc/h)(1 − cos θ)"], "answer": 0 },
+        { "q": "What is the time complexity of building a binary heap from n unordered elements (heapify)?", "choices": ["O(n²)","O(n)","O(n log n)","O(log n)"], "answer": 1 },
+        { "q": "The Lorentz factor γ for a body moving at speed v is:", "choices": ["1/(1 − v/c)","1 − v²/c²","√(1 − v²/c²)","1/√(1 − v²/c²)"], "answer": 3 },
+        { "q": "Wien's displacement law relates the peak wavelength of a blackbody to temperature as:", "choices": ["λ_max·T = b","λ_max·T² = b","λ_max = bT","λ_max = b/T²"], "answer": 0 },
+        { "q": "A photon has wavelength 500 nm. What is its energy in eV (approx)? Use E=hc/λ, hc≈1240 eV·nm.", "choices": ["4.96 eV","1.24 eV","0.50 eV","2.48 eV"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A cube has side length 1. An ant must crawl along the cube's surface from one corner to the diagonally opposite corner. What is the length of the shortest possible path?", "choices": ["√3 (≈1.732)","2","√5 (≈2.236)","3"], "answer": 2 },
-        { "q": "In a 6/49 lottery, which set of numbers is more likely to win the jackpot: {1,2,3,4,5,6} or {7,12,19,23,31,45}?", "choices": ["It depends on how many other people play","{7,12,19,23,31,45} is more likely","{1,2,3,4,5,6} is more likely","They are equally likely"], "answer": 3 },
-        { "q": "Take any three-digit number whose first and last digits differ by at least 2 (for example 532). Reverse it and subtract the smaller from the larger. Then take that result, reverse its digits, and add the two together. What number do you always get?", "choices": ["1998","1089","100","999"], "answer": 1 },
-        { "q": "Which is more likely: getting exactly 5 heads in 10 fair coin flips, or exactly 50 heads in 100 fair coin flips?", "choices": ["Exactly 50 heads in 100 flips","Exactly 5 heads in 10 flips","It cannot be determined","They are exactly equally likely"], "answer": 1 },
-        { "q": "You are 8th in line from the front, and also 8th in line from the back. How many people are in the line in total?", "choices": ["16","14","15","17"], "answer": 2 },
-        { "q": "You throw it out when you need it and take it back in when you don't. What is it?", "choices": ["A life jacket","A lighthouse beam","An anchor","A buoy"], "answer": 2 },
-        { "q": "What has to be broken before you can use it?", "choices": ["A promise","A code","A record","An egg"], "answer": 3 },
-        { "q": "Two trains are 150 miles apart, moving toward each other, each at 25 mph. A bird starts at one train and flies back and forth between them at 60 mph until they meet. How far does the bird fly in total?", "choices": ["90 miles","180 miles","150 miles","300 miles"], "answer": 1 },
-        { "q": "A house has all four walls facing south, and a bear walks past. What colour is the bear?", "choices": ["Black","It cannot be determined","Brown","White"], "answer": 3 },
-        { "q": "A farmer has 17 sheep. All but 9 die. How many are left?", "choices": ["9","0","17","8"], "answer": 0 }
+        { "q": "As you measure the length of a rugged coastline using shorter and shorter measuring sticks, what happens to the measured length?", "choices": ["It converges to the coastline's exact true length","It keeps increasing without bound","It decreases toward zero","It stays exactly the same no matter the stick length"], "answer": 1 },
+        { "q": "100 lockers, all closed, are numbered 1 to 100. You make 100 passes: on pass n, you toggle every locker whose number is a multiple of n (open becomes closed, closed becomes open). After all 100 passes, how many lockers are open?", "choices": ["10","50","1","100"], "answer": 0 },
+        { "q": "You're in a small boat floating next to a dock, with a rope ladder hanging over the side. The rungs are spaced 1 foot apart, and right now 6 rungs are above the waterline. The tide rises at 1 foot per hour. After 3 hours, how many rungs are above the waterline?", "choices": ["0","9","6","3"], "answer": 2 },
+        { "q": "Drug A treated 4 mild-illness patients and cured 3 (75%), plus 20 severe-illness patients and cured 1 (5%). Drug B treated 3 mild-illness patients and cured 2 (67%), plus 1 severe-illness patient and cured 0 (0%). Drug A has the higher cure rate in both the mild group and the severe group. Which drug cured a higher percentage of patients overall, combining both groups?", "choices": ["They are exactly tied","Drug A, since it wins in both groups","Cannot be determined from this information","Drug B"], "answer": 3 },
+        { "q": "A woman gives birth to twins, but their birth certificates list two different calendar dates — for example, one on August 31st and the other on September 1st. How is this possible, given they are true twins born only minutes apart?", "choices": ["One twin was actually born a day earlier by C-section","One twin was legally adopted right after birth","She gave birth right around midnight, so the twins landed on either side of the date change","It isn't possible — the dates must be a clerical error"], "answer": 2 },
+        { "q": "A family has two children and at least one is a boy. What is the probability that both are boys?", "choices": ["1/2","2/3","1/3","1/4"], "answer": 2 },
+        { "q": "A stick is broken at two points chosen uniformly at random along its length. What is the probability the three resulting pieces can form a triangle?", "choices": ["1/4","1/3","1/8","1/2"], "answer": 0 },
+        { "q": "A car travels the first half of a journey's distance at 60 mph and the second half at 40 mph. What is the car's average speed for the whole trip?", "choices": ["52 mph","50 mph","45 mph","48 mph"], "answer": 3 },
+        { "q": "A disease affects 1% of a population. A test is 99% accurate for both true positives and true negatives. If a random person tests positive, what is the probability they actually have the disease?", "choices": ["1%","50%","99%","90%"], "answer": 1 },
+        { "q": "A man is found dead in a locked room with no windows, with only a puddle of water and a chair beneath a ceiling hook. How did he die?", "choices": ["He was poisoned by the water","He hanged himself standing on a block of ice, which then melted","He was electrocuted by the hook","He fell off the chair by accident"], "answer": 1 }
       ]
     }
   ]
