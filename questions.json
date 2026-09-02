@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "Which animal purrs?", "choices": ["Dog","Fish","Bird","Cat"], "answer": 3 },
-        { "q": "What colour is a fire truck?", "choices": ["Green","Red","Blue","Yellow"], "answer": 1 },
-        { "q": "What is 7 + 1?", "choices": ["6","8","7","9"], "answer": 1 },
-        { "q": "What do you call a baby deer?", "choices": ["Calf","Kit","Cub","Fawn"], "answer": 3 },
-        { "q": "What is the opposite of 'open'?", "choices": ["Fast","Closed","Soft","Loud"], "answer": 1 },
-        { "q": "What colour is grass?", "choices": ["Orange","Black","Purple","Green"], "answer": 3 },
-        { "q": "How many fingers are on one hand?", "choices": ["Five","Three","Four","Six"], "answer": 0 },
-        { "q": "What colour is coal?", "choices": ["Black","White","Yellow","Pink"], "answer": 0 },
-        { "q": "How many days are in a week?", "choices": ["Eight","Seven","Six","Five"], "answer": 1 },
-        { "q": "What is 1 + 1?", "choices": ["1","2","3","4"], "answer": 1 }
+        { "q": "What is 8 + 1?", "choices": ["8","7","9","10"], "answer": 2 },
+        { "q": "What colour is broccoli?", "choices": ["Green","Yellow","Red","Blue"], "answer": 0 },
+        { "q": "Which animal says 'growl'?", "choices": ["Sheep","Frog","Bear","Duck"], "answer": 2 },
+        { "q": "What do you call a baby owl?", "choices": ["Cub","Kit","Joey","Owlet"], "answer": 3 },
+        { "q": "How many sides does a square have?", "choices": ["3","6","4","5"], "answer": 2 },
+        { "q": "What shape has four equal sides?", "choices": ["Star","Circle","Triangle","Square"], "answer": 3 },
+        { "q": "How many wheels does a bicycle have?", "choices": ["Two","Four","Three","One"], "answer": 0 },
+        { "q": "What colour is snow?", "choices": ["White","Black","Green","Purple"], "answer": 0 },
+        { "q": "What sound does a cow make?", "choices": ["Moo","Woof","Quack","Meow"], "answer": 0 },
+        { "q": "How many legs does a spider have?", "choices": ["Six","Eight","Four","Ten"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Lamb is to Sheep as Foal is to ___?", "choices": ["Pig","Horse","Goat","Cow"], "answer": 1 },
-        { "q": "In 4, 18, 7, 22, 11, 3 — what is the sum of the values less than 10?", "choices": ["10","17","21","14"], "answer": 3 },
-        { "q": "What is the capital of Greece?", "choices": ["Rome","Lisbon","Athens","Cairo"], "answer": 2 },
-        { "q": "What is 26 × 15?", "choices": ["410","400","390","380"], "answer": 2 },
-        { "q": "Which does NOT belong? Rain, Snow, Hail, Thunder.", "choices": ["Thunder","Rain","Snow","Hail"], "answer": 0 },
-        { "q": "A jacket costs $80 and is discounted by 35%. What is the sale price?", "choices": ["$48","$52","$56","$45"], "answer": 1 },
-        { "q": "Apple is to Orchard as Grape is to ___.", "choices": ["Farm","Field","Garden","Vineyard"], "answer": 3 },
-        { "q": "What is 17 × 48?", "choices": ["784","816","802","768"], "answer": 1 },
-        { "q": "What is 25 × 24?", "choices": ["580","625","550","600"], "answer": 3 },
-        { "q": "Tree is to Copse as Wolf is to ___.", "choices": ["Den","Prey","Pack","Howl"], "answer": 2 }
+        { "q": "What is the capital of Thailand?", "choices": ["Jakarta","Bangkok","Hanoi","Manila"], "answer": 1 },
+        { "q": "In 12, 5, 20, 8, 15 — what is the sum of the values greater than 10?", "choices": ["50","47","45","42"], "answer": 1 },
+        { "q": "Puppy is to Dog as Kitten is to ___?", "choices": ["Cub","Calf","Foal","Cat"], "answer": 3 },
+        { "q": "Which does NOT belong? Guitar, Violin, Cello, Piano.", "choices": ["Violin","Cello","Guitar","Piano"], "answer": 3 },
+        { "q": "What is 34 × 12?", "choices": ["388","408","418","398"], "answer": 1 },
+        { "q": "Sort LION, TIGER, BEAR, WOLF by word length (shortest first, alphabetical for ties). Which comes last?", "choices": ["LION","TIGER","BEAR","WOLF"], "answer": 1 },
+        { "q": "From 12, 5, 8, 21, 3, 16 — how many values are greater than 10?", "choices": ["2","4","3","5"], "answer": 2 },
+        { "q": "What is the capital of Germany?", "choices": ["Hamburg","Berlin","Frankfurt","Munich"], "answer": 1 },
+        { "q": "What is (96 ÷ 8) + (7 × 9) − 4²?", "choices": ["63","75","55","59"], "answer": 3 },
+        { "q": "Which does NOT belong? Salmon, Trout, Dolphin, Tuna.", "choices": ["Tuna","Trout","Dolphin","Salmon"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "From the list 4, 17, 8, 23, 11, 6, keep only the values greater than 10, then find their average.", "choices": ["17","51","15","20"], "answer": 0 },
-        { "q": "Ebullient most nearly means:", "choices": ["Quiet and reserved","Cheerful and enthusiastic","Extremely sad","Easily angered"], "answer": 1 },
-        { "q": "A standard deck of 52 cards is shuffled. Two cards are drawn without replacement. What is the probability both are face cards (Jack, Queen, or King)?", "choices": ["11/221","3/13","1/17","9/169"], "answer": 0 },
-        { "q": "After a 25% pay raise, Maria's new salary is $50,000. What was her salary before the raise?", "choices": ["$37,500","$45,000","$42,500","$40,000"], "answer": 3 },
-        { "q": "All astronauts are trained pilots. No trained pilots are reckless. Therefore:", "choices": ["Some astronauts are reckless.","All astronauts are reckless.","No astronauts are reckless.","No pilots are astronauts."], "answer": 2 },
-        { "q": "Perfidious most nearly means:", "choices": ["Deliberately treacherous","Chronically forgetful","Unfailingly loyal","Excessively cautious"], "answer": 0 },
-        { "q": "Sort 8, 19, 3, 14, 6, 25 in descending order, then find the sum of the 1st and 4th values of the result.", "choices": ["33","30","32","31"], "answer": 0 },
-        { "q": "Palimpsest most nearly means:", "choices": ["A kind of palindrome","A manuscript reused over earlier writing","An ancient map","A circular argument"], "answer": 1 },
-        { "q": "Garrulous most nearly means:", "choices": ["Openly hostile","Excessively talkative","Sternly silent","Easily startled"], "answer": 1 },
-        { "q": "A store sells a $150 item at a 30% discount, then adds 8% sales tax. What is the final price?", "choices": ["$118.20","$113.40","$105.00","$109.50"], "answer": 1 }
+        { "q": "Obstreperous most nearly means:", "choices": ["Calm and obedient","Extremely shy","Noisy and unruly","Highly organized"], "answer": 2 },
+        { "q": "A list is 17, 4, 29, 10, 6, 23. Sort it descending, then find the sum of the 1st and 5th values of the result.", "choices": ["35","46","39","33"], "answer": 0 },
+        { "q": "A bag has 7 red and 3 blue marbles. Two are drawn without replacement. What is P(one of each colour)?", "choices": ["7/15","21/100","3/10","1/3"], "answer": 0 },
+        { "q": "A $340 camera is marked up 15%, then discounted 10% off the new price. What is the final price?", "choices": ["$346.80","$361.90","$340.00","$351.90"], "answer": 3 },
+        { "q": "All linguists are polyglots. No polyglots are monolingual. Therefore:", "choices": ["Some linguists are monolingual.","All linguists are monolingual.","No polyglots are linguists.","No linguists are monolingual."], "answer": 3 },
+        { "q": "Two trains 480 km apart approach each other at 95 km/h and 65 km/h. In how many hours do they meet?", "choices": ["2 h","4 h","5 h","3 h"], "answer": 3 },
+        { "q": "A bag has 4 red and 6 green balls. Two are drawn without replacement. What is P(both green)?", "choices": ["1/3","2/5","3/5","1/2"], "answer": 0 },
+        { "q": "A 250 m train passes a pole in 10 seconds. How long does it take to pass a 450 m bridge?", "choices": ["25 s","32 s","18 s","28 s"], "answer": 3 },
+        { "q": "Ephemeral is to Enduring as Nascent is to ___.", "choices": ["Moribund","Dormant","Emergent","Fragile"], "answer": 0 },
+        { "q": "Pellucid most nearly means:", "choices": ["Crystal clear","Deeply shadowed","Emotionally cold","Slightly curved"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A charge of +3 μC is placed 2 cm from a charge of +6 μC. Using Coulomb's constant k ≈ 8.99×10⁹ N·m²/C², what is the magnitude of the force between them?", "choices": ["≈4045 N","≈8.1 N","≈404.5 N","≈40.5 N"], "answer": 2 },
-        { "q": "What is the worst-case time complexity of the Knuth–Morris–Pratt (KMP) string matching algorithm for a pattern of length m in a text of length n?", "choices": ["O(nm)","O(n log m)","O(m log n)","O(n + m)"], "answer": 3 },
-        { "q": "What is the derivative of sin(x³) with respect to x?", "choices": ["3x²cos(x³)","x³cos(x³)","cos(x³)","3x²sin(x³)"], "answer": 0 },
-        { "q": "Using S(x) for 'x is a student', E(y) for 'y is an exam', and P(x,y) for 'x passed y', which formula correctly expresses 'Every student passed some exam'?", "choices": ["∃x (S(x) ∧ ∀y (E(y) → P(x,y)))","∀x (S(x) → ∃y (E(y) ∧ P(x,y)))","∃y (E(y) ∧ ∀x (S(x) → P(x,y)))","∀x ∀y (S(x) → (E(y) → P(x,y)))"], "answer": 1 },
-        { "q": "According to VSEPR theory, what is the molecular geometry of sulfur hexafluoride, SF₆?", "choices": ["Tetrahedral","Square pyramidal","Trigonal bipyramidal","Octahedral"], "answer": 3 },
-        { "q": "For any scalar field φ, the curl of its gradient ∇ × (∇φ) equals:", "choices": ["∇²φ","−∇²φ","∇φ","0"], "answer": 3 },
-        { "q": "What is the derivative of tan(x) with respect to x?", "choices": ["tan²(x)","sec(x)tan(x)","−csc²(x)","sec²(x)"], "answer": 3 },
-        { "q": "What is the worst-case time complexity of searching for a key in a balanced binary search tree with n nodes?", "choices": ["O(log n)","O(n log n)","O(1)","O(n)"], "answer": 0 },
-        { "q": "For the balanced equation 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O, how many moles of O₂ are needed to completely combust 2 moles of C₂H₆?", "choices": ["3.5 mol","2 mol","14 mol","7 mol"], "answer": 3 },
-        { "q": "The worst-case time complexity of merge sort is:", "choices": ["O(n log n)","O(log n)","O(n)","O(n²)"], "answer": 0 }
+        { "q": "What is the oxidation state of chromium in the dichromate ion, Cr₂O₇²⁻?", "choices": ["+3","+6","+2","+7"], "answer": 1 },
+        { "q": "What is the negation of the implication 'If it rains, then the ground is wet' (p → q)?", "choices": ["It does not rain and the ground is wet.","It rains and the ground is not wet.","It does not rain or the ground is wet.","If it does not rain, the ground is not wet."], "answer": 1 },
+        { "q": "What is the average-case time complexity of quickselect for finding the kth smallest element in an unsorted array of n elements?", "choices": ["O(n log n)","O(n)","O(log n)","O(n²)"], "answer": 1 },
+        { "q": "A ball is thrown horizontally at 10 m/s from a height of 20 m. Ignoring air resistance, how far does it travel horizontally before hitting the ground? (g = 9.8 m/s²)", "choices": ["≈20.2 m","≈40.0 m","≈14.3 m","≈9.8 m"], "answer": 0 },
+        { "q": "What is the value of the definite integral ∫₀¹ eˣ dx?", "choices": ["1","e − 1","e + 1","e"], "answer": 1 },
+        { "q": "The fine-structure constant α is approximately:", "choices": ["1/137","1/1836","1/273","1/100"], "answer": 0 },
+        { "q": "How many grams are in 2 moles of water, H₂O? (molar mass H₂O ≈ 18 g/mol)", "choices": ["36 g","9 g","72 g","18 g"], "answer": 0 },
+        { "q": "The eigenvalues of the Pauli matrix σz = [[1, 0], [0, −1]] are:", "choices": ["0 and 1","+1 and 0","±i","+1 and −1"], "answer": 3 },
+        { "q": "In propositional logic, (P → Q) is logically equivalent to:", "choices": ["¬P ∨ Q","P ∧ ¬Q","¬P ∧ Q","P ∨ ¬Q"], "answer": 0 },
+        { "q": "The Stefan–Boltzmann law gives radiated power per unit area as:", "choices": ["σT⁴","σT³","σT²","σT"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "On average, across a large social network, do most people have more friends than their friends have on average, or fewer?", "choices": ["Exactly the same, on average, for everyone in any network","More — on average, you have more friends than your friends do","It depends entirely on the size of the network and cannot be stated in general","Fewer — on average, your friends have more friends than you do"], "answer": 3 },
-        { "q": "Two generals on separate hills must coordinate a joint attack via messengers who might be captured. No messenger's delivery can ever be confirmed with total certainty. Using any finite number of confirmation messages sent back and forth, can the two generals ever be guaranteed to reach common knowledge of the attack time?", "choices": ["Yes, but only if they use a trusted third-party messenger","Yes, but only if the message length is long enough to include a checksum","No — no finite number of messages can ever guarantee both generals have common knowledge of the attack time","Yes, as long as they exchange at least 3 confirmation messages"], "answer": 2 },
-        { "q": "For any ranked-choice voting system with 3 or more candidates, is it possible to design one that always satisfies all three of: no single dictator, respects unanimous voter preference, and is unaffected by irrelevant candidates being added or removed?", "choices": ["Yes, but only when there are exactly 3 candidates","No — Arrow's Impossibility Theorem proves no such ranked voting system can satisfy all three simultaneously","Yes, ranked-pairs voting satisfies all three","Yes, instant-runoff voting satisfies all three"], "answer": 1 },
-        { "q": "In a road network where every driver selfishly picks their fastest available route, a new road is added connecting two existing junctions, giving everyone an additional route option. According to Braess's paradox, what can happen to the average travel time for everyone at the new equilibrium?", "choices": ["It stays exactly the same, since equilibrium travel time is fixed by total traffic volume alone","It only affects drivers who choose to use the new road","It can get worse for every driver, even though everyone now has strictly more route choices","It always gets better or stays the same, since more options can never hurt"], "answer": 2 },
-        { "q": "Gabriel's Horn is formed by rotating the curve y = 1/x for x ≥ 1 around the x-axis. It has a finite volume (π cubic units) when computed by integration. What is its total surface area?", "choices": ["Exactly π, same as the volume","Finite, and larger than the volume","Zero, since the horn narrows to an infinitely thin point","Infinite — the surface area diverges even though the volume is finite"], "answer": 3 },
-        { "q": "You are in a race and you overtake the person in second place. What position are you in?", "choices": ["First","Second","It depends on the field size","Third"], "answer": 1 },
-        { "q": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10","$1.00","$0.05","$0.15"], "answer": 2 },
-        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep does he have left?", "choices": ["17","8","0","9"], "answer": 3 },
-        { "q": "A woman shoots her husband, holds him underwater for five minutes, then they go out to dinner. How?", "choices": ["She used a sedative","He held his breath","She is a photographer — she shot and developed his photo","He survived a near-death experience"], "answer": 2 },
-        { "q": "A family has exactly two children, and each child is independently equally likely to be a boy or a girl. You are told that at least one of the children is a girl. What is the probability that both children are girls?", "choices": ["1/2","1/3","1/4","2/3"], "answer": 1 }
+        { "q": "The statement 'All ravens are black' is logically equivalent to its contrapositive, 'All non-black things are non-ravens.' Hempel's raven paradox asks: does observing a green apple (a non-black, non-raven object) technically count as evidence, however weak, confirming that all ravens are black?", "choices": ["Yes, but only if the apple is unripe","Yes — by the logic of the contrapositive, it technically counts as extremely weak confirming evidence","No — only observing an actual raven can ever provide evidence either way","No, because apples and ravens belong to entirely unrelated categories"], "answer": 1 },
+        { "q": "You have a coin that lands heads with some unknown, possibly biased probability p, and you want to simulate a perfectly fair 50/50 coin flip. Von Neumann's trick: flip it twice; if the two results differ, use the first flip as your fair result; if they match, discard both and repeat. Why is this exactly fair for any p strictly between 0 and 1?", "choices": ["Because discarding matching pairs removes the coin's bias from future flips too","P(heads,tails) = p(1−p) exactly equals P(tails,heads) = (1−p)p, so conditional on a differing pair, each order is equally likely regardless of p","Because flipping any coin twice always averages out its bias","Because p(1−p) is always exactly 0.5 for any value of p"], "answer": 1 },
+        { "q": "Die A beats Die B more often (over many rolls), and Die B beats Die C more often. Must Die A also beat Die C more often, the way ordinary comparisons (like 5 > 3 > 1) transitively guarantee 5 > 1?", "choices": ["Only if all three dice are standard six-sided dice","Yes, beats-more-often is always transitive, just like ordinary number comparisons","It's impossible to construct dice where this fails","No — 'beats more often' need not be transitive for dice; nontransitive dice exist where C can beat A"], "answer": 3 },
+        { "q": "You're collecting a set of 4 distinct trading cards; every pack gives you one card, each of the 4 equally likely (repeats allowed). On average, how many packs must you buy to collect all 4 distinct cards at least once?", "choices": ["6 packs","4 packs","16 packs","≈8.33 packs"], "answer": 3 },
+        { "q": "A patient whose health is borderline is reclassified from the 'healthy' group into the 'sick' group, with no actual change in anyone's health. Since that patient was the least healthy of the healthy group and becomes the healthiest member of the sick group, what happens to the average health of the two groups (the Will Rogers phenomenon)?", "choices": ["Both groups' average health goes up, even though nobody actually got healthier","Only the healthy group's average goes up; the sick group's average falls","Neither average can change unless someone's actual health changes","Only the sick group's average goes up; the healthy group's average falls"], "answer": 0 },
+        { "q": "A drawer has 10 black socks and 10 white socks, all unpaired and mixed together in the dark. What is the minimum number of socks you must pull out to guarantee a matching pair?", "choices": ["3","2","20","11"], "answer": 0 },
+        { "q": "Two children share the same parents, were born on the same day of the same year, but are not twins. How?", "choices": ["They are two of a set of triplets","One was born just after midnight","They were adopted","The record is mistaken"], "answer": 0 },
+        { "q": "A father and his son are in a car crash. The father dies at the scene, and the son is rushed into surgery. The surgeon says, 'I can't operate on him — he's my son.' How is this possible?", "choices": ["It is a different boy with the same name","The boy has two fathers","The surgeon is the boy's mother","The surgeon is lying"], "answer": 2 },
+        { "q": "How many months of the year have at least 28 days?", "choices": ["12","2","11","1"], "answer": 0 },
+        { "q": "What do you get if you divide 30 by one half and then add 10?", "choices": ["25","15","70","40"], "answer": 2 }
       ]
     }
   ]
