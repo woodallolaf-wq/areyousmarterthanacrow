@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What is 9 - 2?", "choices": ["7","8","6","9"], "answer": 0 },
-        { "q": "What is the opposite of 'old'?", "choices": ["Short","Young","Slow","Small"], "answer": 1 },
-        { "q": "What is 5 + 3?", "choices": ["7","6","8","9"], "answer": 2 },
-        { "q": "How many toes are on one foot?", "choices": ["10","5","6","4"], "answer": 1 },
-        { "q": "Which animal says 'cluck'?", "choices": ["Duck","Goat","Cow","Chicken"], "answer": 3 },
-        { "q": "How many legs does a chicken have?", "choices": ["Six","Eight","Four","Two"], "answer": 3 },
-        { "q": "What colour is the night sky?", "choices": ["Green","Pink","Black","White"], "answer": 2 },
-        { "q": "What is 5 + 1?", "choices": ["6","5","7","4"], "answer": 0 },
-        { "q": "What do you use to smell things?", "choices": ["Nose","Ears","Eyes","Mouth"], "answer": 0 },
-        { "q": "What do you use to unlock a door?", "choices": ["A hat","A key","A spoon","A fork"], "answer": 1 }
+        { "q": "How many eyes does a person have?", "choices": ["One","Four","Three","Two"], "answer": 3 },
+        { "q": "What is the opposite of 'wet'?", "choices": ["Dry","Soft","Cold","Warm"], "answer": 0 },
+        { "q": "Which shape has three sides?", "choices": ["Circle","Triangle","Rectangle","Square"], "answer": 1 },
+        { "q": "What is the opposite of 'big'?", "choices": ["Wide","Heavy","Tall","Small"], "answer": 3 },
+        { "q": "What is 3 + 4?", "choices": ["5","7","6","8"], "answer": 1 },
+        { "q": "How many wheels does a car have?", "choices": ["Four","Three","Two","Six"], "answer": 0 },
+        { "q": "Which animal says 'oink'?", "choices": ["Duck","Pig","Cat","Dog"], "answer": 1 },
+        { "q": "What do you rest your head on in bed?", "choices": ["A fork","A lamp","A rock","A pillow"], "answer": 3 },
+        { "q": "Which animal says 'moo'?", "choices": ["Dog","Cat","Duck","Cow"], "answer": 3 },
+        { "q": "Which animal says 'hoot'?", "choices": ["Cow","Duck","Pig","Owl"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is 45% of 220?", "choices": ["99","96","90","102"], "answer": 0 },
-        { "q": "Farmer is to Field as Miner is to ___.", "choices": ["Cave","Coal","Mine","Shovel"], "answer": 2 },
-        { "q": "What is the capital of Norway?", "choices": ["Oslo","Stockholm","Copenhagen","Helsinki"], "answer": 0 },
-        { "q": "What is 28 × 27?", "choices": ["766","756","736","746"], "answer": 1 },
-        { "q": "Which does NOT belong? Eagle, Sparrow, Bat, Robin.", "choices": ["Eagle","Robin","Bat","Sparrow"], "answer": 2 },
-        { "q": "Fish is to Gills as Human is to ___?", "choices": ["Lungs","Heart","Bones","Skin"], "answer": 0 },
-        { "q": "Which does NOT belong? Guitar, Violin, Harp, Flute.", "choices": ["Violin","Harp","Guitar","Flute"], "answer": 3 },
-        { "q": "In 5, 8, 3, 12, 7 — what is the sum of the two largest values?", "choices": ["19","15","17","20"], "answer": 3 },
-        { "q": "Puppy is to Dog as Kitten is to ___.", "choices": ["Cat","Puppy","Cub","Foal"], "answer": 0 },
-        { "q": "What is 27 × 34?", "choices": ["908","918","928","898"], "answer": 1 }
+        { "q": "What is 30% of 150?", "choices": ["50","45","35","40"], "answer": 1 },
+        { "q": "Sort MANGO, FIG, KIWI, BANANA by word length (shortest first). Which word is second?", "choices": ["FIG","BANANA","MANGO","KIWI"], "answer": 3 },
+        { "q": "What is 13 × 12?", "choices": ["136","146","156","166"], "answer": 2 },
+        { "q": "Pen is to Write as Scissors is to ___.", "choices": ["Paper","Sharp","Cut","Blade"], "answer": 2 },
+        { "q": "Which does NOT belong? Oak, Maple, Rose, Birch.", "choices": ["Rose","Oak","Birch","Maple"], "answer": 0 },
+        { "q": "What is 15% of 200?", "choices": ["30","40","15","20"], "answer": 0 },
+        { "q": "Which is the largest ocean on Earth?", "choices": ["Pacific","Indian","Atlantic","Arctic"], "answer": 0 },
+        { "q": "What is the capital of Spain?", "choices": ["Madrid","Lisbon","Rome","Barcelona"], "answer": 0 },
+        { "q": "Which word is closest in meaning to 'candid'?", "choices": ["Lazy","Secretive","Honest","Anxious"], "answer": 2 },
+        { "q": "What is 12 × 125?", "choices": ["1,200","1,500","1,450","1,250"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A $320 bicycle is discounted 15%, then a further $12 off. What is the final price?", "choices": ["$256","$260","$248","$272"], "answer": 1 },
-        { "q": "A bag has 7 red and 4 blue marbles. Two are drawn without replacement. What is P(both blue)?", "choices": ["12/55","6/55","16/121","4/55"], "answer": 1 },
-        { "q": "Mercurial most nearly means:", "choices": ["Unpredictable","Cheerful","Sluggish","Reliable"], "answer": 0 },
-        { "q": "All firefighters are brave. No brave people are cowards. Therefore:", "choices": ["No firefighters are cowards.","No conclusion follows.","Some cowards are firefighters.","All cowards are firefighters."], "answer": 0 },
-        { "q": "A list is 31, 8, 19, 4, 26, 13. Sort it descending, then find the sum of the 2nd and 4th values of the result.", "choices": ["30","45","39","33"], "answer": 2 },
-        { "q": "Inimical most nearly means:", "choices": ["Closely imitative","Harmful or hostile","Entirely indifferent","Warmly friendly"], "answer": 1 },
-        { "q": "A bag has 7 red and 3 blue balls. Two are drawn without replacement. What is P(both red)?", "choices": ["7/15","7/10","1/2","3/5"], "answer": 0 },
-        { "q": "A cyclist averages 24 km/h. How far does she travel in 50 minutes?", "choices": ["20 km","18 km","19.2 km","22 km"], "answer": 0 },
-        { "q": "Ineffable most nearly means:", "choices": ["Indescribable","Angry","Effective","Eternal"], "answer": 0 },
-        { "q": "Reverse 7, 4, 2, 6, 1, 8. What is the difference between the first and last values of the result?", "choices": ["3","4","1","7"], "answer": 2 }
+        { "q": "A jar has 5 red and 3 green candies. Two are drawn without replacement. What is P(both red)?", "choices": ["25/64","5/8","5/14","15/56"], "answer": 2 },
+        { "q": "A $450 laptop is discounted 20%, then a further $20 off. What is the final price?", "choices": ["$360","$350","$330","$340"], "answer": 3 },
+        { "q": "Ubiquitous most nearly means:", "choices": ["Fragile","Rare","Ancient","Omnipresent"], "answer": 3 },
+        { "q": "A list is 12, 45, 7, 29, 3, 18. Sort it ascending, then find the sum of the 1st and 4th values of the result.", "choices": ["18","21","15","25"], "answer": 1 },
+        { "q": "All painters are artists. Some artists are poor. Therefore:", "choices": ["Some painters are poor.","All poor people are painters.","No painters are poor.","No conclusion follows."], "answer": 3 },
+        { "q": "Verisimilitude most nearly means:", "choices": ["Absolute truthfulness","Similarity of wording","Deliberate exaggeration","The appearance of being true"], "answer": 3 },
+        { "q": "A bag holds 6 red and 4 blue balls. Two are drawn without replacement. What is P(both red)?", "choices": ["9/25","1/3","5/18","3/10"], "answer": 1 },
+        { "q": "Apocryphal most nearly means:", "choices": ["Of doubtful authenticity","Sacred","Widely accepted","Prophetic"], "answer": 0 },
+        { "q": "In 6, 13, 2, 8, 17, 5, 11 — what is the sum of the values in positions 2 and 5?", "choices": ["30","25","21","28"], "answer": 0 },
+        { "q": "In 2, 3, 5, 7, 11, 13, 17 — what is the product of the 3rd and 5th values?", "choices": ["44","77","55","60"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the average oxidation state of sulfur in sodium thiosulfate, Na₂S₂O₃?", "choices": ["0","+2","+6","+4"], "answer": 1 },
-        { "q": "A solid disk of mass M and radius R rotates about its central axis. What is its moment of inertia?", "choices": ["MR²","(1/12)MR²","(1/2)MR²","(2/5)MR²"], "answer": 2 },
-        { "q": "What is the worst-case time complexity of Dijkstra's algorithm implemented with a simple array instead of a heap, for a graph with V vertices and E edges?", "choices": ["O((V+E) log V)","O(V²)","O(V + E)","O(V log V)"], "answer": 1 },
-        { "q": "What is the derivative of ln(cos(x)) with respect to x?", "choices": ["-sin(x)","tan(x)","sec(x)","-tan(x)"], "answer": 3 },
-        { "q": "How many distinct Hamiltonian paths (counting a path and its reverse as one) exist in the complete graph K₅ on 5 labelled vertices?", "choices": ["20","24","60","120"], "answer": 2 },
-        { "q": "What is the derivative of x·ln(x) with respect to x?", "choices": ["ln(x)","1 + x","ln(x) − 1","ln(x) + 1"], "answer": 3 },
-        { "q": "The moment of inertia of a solid sphere of mass M and radius R about its diameter is:", "choices": ["(1/2)MR²","(2/5)MR²","(2/3)MR²","(7/5)MR²"], "answer": 1 },
-        { "q": "The value of the Riemann zeta function ζ(2) is:", "choices": ["π²/3","π²/12","π²/6","π²/4"], "answer": 2 },
-        { "q": "What is the worst-case time complexity of selecting the median of an unsorted array of n elements using the median-of-medians (BFPRT) algorithm?", "choices": ["O(n²)","O(n)","O(log n)","O(n log n)"], "answer": 1 },
-        { "q": "The determinant of the 2×2 matrix [[a, b], [c, d]] is:", "choices": ["ad − bc","ab − cd","ac − bd","ad + bc"], "answer": 0 }
+        { "q": "What is the derivative of sec(x) with respect to x?", "choices": ["-sec(x)tan(x)","sec(x)tan(x)","sec²(x)","tan(x)"], "answer": 1 },
+        { "q": "What is the time complexity of merge sort in the average case?", "choices": ["O(log n)","O(n)","O(n log n)","O(n²)"], "answer": 2 },
+        { "q": "A solid sphere of mass M and radius R rolls without slipping. What is the ratio of its rotational to translational kinetic energy?", "choices": ["2/7","2/5","5/2","1/2"], "answer": 1 },
+        { "q": "What is the pH of a solution with hydrogen ion concentration 1×10⁻³ M?", "choices": ["1","7","3","11"], "answer": 2 },
+        { "q": "What is the integral of 1/x dx?", "choices": ["-1/x² + C","x² / 2 + C","1/x² + C","ln|x| + C"], "answer": 3 },
+        { "q": "Which of the following is a tautology (always true regardless of P and Q)?", "choices": ["P → Q","P ∧ Q","P ∨ ¬P","P ∧ ¬P"], "answer": 2 },
+        { "q": "A 2 kg object moving at 3 m/s collides perfectly inelastically with a stationary 4 kg object. What is their common velocity after the collision?", "choices": ["1.5 m/s","1 m/s","2 m/s","0.5 m/s"], "answer": 1 },
+        { "q": "What is the oxidation state of chromium in potassium dichromate, K₂Cr₂O₇?", "choices": ["+4","+7","+6","+3"], "answer": 2 },
+        { "q": "Gödel's first incompleteness theorem states that any consistent, sufficiently expressive formal system:", "choices": ["Contains true statements it cannot prove","Can prove its own consistency","Has a decidable set of theorems","Is necessarily inconsistent"], "answer": 0 },
+        { "q": "For a normal distribution, the proportion of the population lying within two standard deviations of the mean is approximately:", "choices": ["95%","50%","99.7%","68%"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A puzzle shows people the triple 2, 4, 6 and says it fits a secret rule; they must guess the rule by proposing their own triples and being told 'fits' or 'doesn't fit'. Most participants guess 'ascending even numbers, each +2' and only ever test triples that fit their own guess (like 8, 10, 12), rarely proposing a triple designed to fail — even though the real rule is simply 'any three ascending numbers.' What cognitive bias does this classic experiment, devised by Peter Wason, demonstrate?", "choices": ["Hindsight bias","Confirmation bias","Availability heuristic","Anchoring bias"], "answer": 1 },
-        { "q": "Take any four-digit number that isn't made of all identical digits (e.g. 3524). Arrange its digits to form the largest possible number and the smallest possible number (using leading zeros if needed), then subtract the smaller from the larger. Repeat this process with each new result. Within seven steps, the process will always settle on the exact same fixed number, no matter which starting number you began with. What is that number?", "choices": ["6174","9999","0","1000"], "answer": 0 },
-        { "q": "Which is larger: e^π (roughly 2.71828 raised to the power of pi), or π^e (pi raised to the power of roughly 2.71828)?", "choices": ["They are exactly equal","π^e is larger","e^π is larger","It's impossible to compare without a calculator"], "answer": 2 },
-        { "q": "A hotel has infinitely many rooms, numbered 1, 2, 3, ..., and every single room is already occupied by a guest. One more guest arrives asking for a room. Can the hotel accommodate them without evicting anyone?", "choices": ["No — every room is full, so there is no room for another guest","No — infinity plus one is undefined, so the question has no answer","Yes, but only if the hotel first builds an extra room","Yes — move the guest in room n to room n+1 for every n, freeing up room 1"], "answer": 3 },
-        { "q": "You're colouring a map so that no two regions sharing a border have the same colour. According to the Four Colour Theorem, what is the minimum number of colours that is always enough for ANY such map, no matter how many regions it has or how they're arranged?", "choices": ["There is no fixed number — it grows with the number of regions","5","3","4"], "answer": 3 },
-        { "q": "A man lives on the 10th floor. Every morning he takes the elevator to the ground floor. Every evening he rides back up but only to the 7th floor, walking the rest — except on rainy days, when he rides all the way to the 10th floor. Why?", "choices": ["He enjoys the exercise except when it rains","The elevator breaks down above the 7th floor when it's dry","He is too short to reach the 10th-floor button, but can reach it with his umbrella","He visits a friend on the 7th floor every dry evening"], "answer": 2 },
-        { "q": "Take any two-digit number, reverse its digits, and subtract the smaller result from the larger. The answer will always be:", "choices": ["A multiple of 9","Equal to the original number","A prime number","A multiple of 11"], "answer": 0 },
-        { "q": "A family has exactly two children. You are told that the elder child is a girl. What is the probability that both children are girls?", "choices": ["2/3","1/3","1/4","1/2"], "answer": 3 },
-        { "q": "A man buys a horse for $60, sells it for $70, buys it back for $80, then sells it again for $90. How much profit did he make overall?", "choices": ["$0","$20","$10","$30"], "answer": 1 },
-        { "q": "If a hen and a half lays an egg and a half in a day and a half, how many eggs does one hen lay in three days?", "choices": ["1","3","1.5","2"], "answer": 3 }
+        { "q": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?", "choices": ["5 minutes","20 minutes","500 minutes","100 minutes"], "answer": 0 },
+        { "q": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.15","$1.00","$0.05","$0.10"], "answer": 2 },
+        { "q": "You are in a race and you overtake the person in second place. What position are you in now?", "choices": ["First place","Second place","It depends on the finish line","Third place"], "answer": 1 },
+        { "q": "A man looks at a portrait and says, 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the portrait?", "choices": ["His nephew","Himself","His father","His son"], "answer": 3 },
+        { "q": "Three switches outside a room each control one of three bulbs inside. You may flip the switches as much as you like, but may enter the room only once. How do you determine which switch controls which bulb?", "choices": ["It's impossible with only one entry to the room.","Flip each switch on and off in sequence — the order they flicker tells you which is which.","Turn on switch 1, wait a few minutes, turn it off, turn on switch 2, then enter — the lit bulb is switch 2, the warm-but-off bulb is switch 1, and the cold, off bulb is switch 3.","Turn on all three switches at once, then enter — whichever bulb is brightest is switch 1."], "answer": 2 },
+        { "q": "A red house is built from red bricks, a blue house from blue bricks, a black house from black bricks. What is a greenhouse built from?", "choices": ["Wood and paint","Green bricks","Green-tinted concrete","Glass"], "answer": 3 },
+        { "q": "You flip a fair coin 20 times and it lands heads every single time. What is the probability the 21st flip is heads?", "choices": ["Cannot be determined without more flips","Very likely heads — it's on a hot streak","1/2","Very likely tails — it's due for a correction"], "answer": 2 },
+        { "q": "A woman tells a census taker: 'The product of my three children's ages is 36, and the sum is the number on the door across the street.' He checks the door, returns, and says he still can't tell the ages. She adds, 'My eldest likes strawberry ice cream.' Now he knows. What are the ages?", "choices": ["9, 2, and 2","1, 4, and 9","6, 6, and 1","2, 3, and 6"], "answer": 0 },
+        { "q": "A coin is flipped 10 times and lands heads 7 times. Does this provide strong statistical evidence that the coin is biased?", "choices": ["Yes — any deviation from 50% is statistically significant","No, because coins can never be biased","Yes — 70% heads proves definitively the coin is unfair","No — with only 10 flips, this is well within normal variation for a fair coin"], "answer": 3 },
+        { "q": "A doctor gives you three pills and says to take one every half hour. How long until all three are taken?", "choices": ["90 minutes","1 hour","30 minutes","2 hours"], "answer": 1 }
       ]
     }
   ]
