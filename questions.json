@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "How many eyes does a person have?", "choices": ["One","Four","Three","Two"], "answer": 3 },
-        { "q": "What is the opposite of 'wet'?", "choices": ["Dry","Soft","Cold","Warm"], "answer": 0 },
-        { "q": "Which shape has three sides?", "choices": ["Circle","Triangle","Rectangle","Square"], "answer": 1 },
-        { "q": "What is the opposite of 'big'?", "choices": ["Wide","Heavy","Tall","Small"], "answer": 3 },
-        { "q": "What is 3 + 4?", "choices": ["5","7","6","8"], "answer": 1 },
-        { "q": "How many wheels does a car have?", "choices": ["Four","Three","Two","Six"], "answer": 0 },
-        { "q": "Which animal says 'oink'?", "choices": ["Duck","Pig","Cat","Dog"], "answer": 1 },
-        { "q": "What do you rest your head on in bed?", "choices": ["A fork","A lamp","A rock","A pillow"], "answer": 3 },
-        { "q": "Which animal says 'moo'?", "choices": ["Dog","Cat","Duck","Cow"], "answer": 3 },
-        { "q": "Which animal says 'hoot'?", "choices": ["Cow","Duck","Pig","Owl"], "answer": 3 }
+        { "q": "How many legs does a person have?", "choices": ["4","6","2","8"], "answer": 2 },
+        { "q": "What is the opposite of 'full'?", "choices": ["Loud","Big","Empty","Heavy"], "answer": 2 },
+        { "q": "What is 6 + 3?", "choices": ["9","7","8","10"], "answer": 0 },
+        { "q": "Which one is a colour of the rainbow?", "choices": ["Grey","Red","White","Black"], "answer": 1 },
+        { "q": "What is 7 - 4?", "choices": ["5","4","3","6"], "answer": 2 },
+        { "q": "What do you call a baby pig?", "choices": ["Kit","Joey","Cub","Piglet"], "answer": 3 },
+        { "q": "What colour is chocolate?", "choices": ["Blue","Brown","Purple","Pink"], "answer": 1 },
+        { "q": "Which animal says 'ribbit'?", "choices": ["Frog","Cat","Fish","Bird"], "answer": 0 },
+        { "q": "What colour is a lemon?", "choices": ["Yellow","Red","Green","Blue"], "answer": 0 },
+        { "q": "What is 7 + 2?", "choices": ["7","10","8","9"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is 30% of 150?", "choices": ["50","45","35","40"], "answer": 1 },
-        { "q": "Sort MANGO, FIG, KIWI, BANANA by word length (shortest first). Which word is second?", "choices": ["FIG","BANANA","MANGO","KIWI"], "answer": 3 },
-        { "q": "What is 13 × 12?", "choices": ["136","146","156","166"], "answer": 2 },
-        { "q": "Pen is to Write as Scissors is to ___.", "choices": ["Paper","Sharp","Cut","Blade"], "answer": 2 },
-        { "q": "Which does NOT belong? Oak, Maple, Rose, Birch.", "choices": ["Rose","Oak","Birch","Maple"], "answer": 0 },
-        { "q": "What is 15% of 200?", "choices": ["30","40","15","20"], "answer": 0 },
-        { "q": "Which is the largest ocean on Earth?", "choices": ["Pacific","Indian","Atlantic","Arctic"], "answer": 0 },
-        { "q": "What is the capital of Spain?", "choices": ["Madrid","Lisbon","Rome","Barcelona"], "answer": 0 },
-        { "q": "Which word is closest in meaning to 'candid'?", "choices": ["Lazy","Secretive","Honest","Anxious"], "answer": 2 },
-        { "q": "What is 12 × 125?", "choices": ["1,200","1,500","1,450","1,250"], "answer": 1 }
+        { "q": "What is 55% of 340?", "choices": ["177","167","187","197"], "answer": 2 },
+        { "q": "Which does NOT belong? Piano, Guitar, Violin, Cello.", "choices": ["Cello","Piano","Violin","Guitar"], "answer": 1 },
+        { "q": "Author is to Book as Sculptor is to ___.", "choices": ["Marble","Statue","Museum","Chisel"], "answer": 1 },
+        { "q": "What is 22 × 14?", "choices": ["318","308","288","298"], "answer": 1 },
+        { "q": "What is the capital of Poland?", "choices": ["Vienna","Warsaw","Budapest","Prague"], "answer": 1 },
+        { "q": "Wing is to Bird as Fin is to ___?", "choices": ["Bird","Fish","Frog","Snake"], "answer": 1 },
+        { "q": "Bird is to Nest as Bee is to ___?", "choices": ["Den","Hive","Nest","Web"], "answer": 1 },
+        { "q": "What is 17 + 26?", "choices": ["43","42","33","53"], "answer": 0 },
+        { "q": "What is the capital of Australia?", "choices": ["Sydney","Perth","Melbourne","Canberra"], "answer": 3 },
+        { "q": "Which number is missing? 3, 9, 27, ___, 243", "choices": ["72","108","54","81"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A jar has 5 red and 3 green candies. Two are drawn without replacement. What is P(both red)?", "choices": ["25/64","5/8","5/14","15/56"], "answer": 2 },
-        { "q": "A $450 laptop is discounted 20%, then a further $20 off. What is the final price?", "choices": ["$360","$350","$330","$340"], "answer": 3 },
-        { "q": "Ubiquitous most nearly means:", "choices": ["Fragile","Rare","Ancient","Omnipresent"], "answer": 3 },
-        { "q": "A list is 12, 45, 7, 29, 3, 18. Sort it ascending, then find the sum of the 1st and 4th values of the result.", "choices": ["18","21","15","25"], "answer": 1 },
-        { "q": "All painters are artists. Some artists are poor. Therefore:", "choices": ["Some painters are poor.","All poor people are painters.","No painters are poor.","No conclusion follows."], "answer": 3 },
-        { "q": "Verisimilitude most nearly means:", "choices": ["Absolute truthfulness","Similarity of wording","Deliberate exaggeration","The appearance of being true"], "answer": 3 },
-        { "q": "A bag holds 6 red and 4 blue balls. Two are drawn without replacement. What is P(both red)?", "choices": ["9/25","1/3","5/18","3/10"], "answer": 1 },
-        { "q": "Apocryphal most nearly means:", "choices": ["Of doubtful authenticity","Sacred","Widely accepted","Prophetic"], "answer": 0 },
-        { "q": "In 6, 13, 2, 8, 17, 5, 11 — what is the sum of the values in positions 2 and 5?", "choices": ["30","25","21","28"], "answer": 0 },
-        { "q": "In 2, 3, 5, 7, 11, 13, 17 — what is the product of the 3rd and 5th values?", "choices": ["44","77","55","60"], "answer": 2 }
+        { "q": "All engineers are logical. Some logical people are impatient. Therefore:", "choices": ["No engineers are impatient.","Some engineers are impatient.","All impatient people are engineers.","No conclusion follows."], "answer": 3 },
+        { "q": "A list is 9, 34, 2, 17, 25, 6. Sort it descending, then find the difference between the 2nd and 5th values of the result.", "choices": ["19","23","21","17"], "answer": 0 },
+        { "q": "A drawer has 5 red pens and 7 blue pens. Three are drawn without replacement. What is P(all three blue)?", "choices": ["1/4","5/44","7/44","3/11"], "answer": 2 },
+        { "q": "A $60 shirt is marked up 50%, then discounted 40% off the new price. What is the final price?", "choices": ["$56","$54","$50","$60"], "answer": 1 },
+        { "q": "Meticulous most nearly means:", "choices": ["Careless","Easily confused","Very fast","Extremely careful and precise"], "answer": 3 },
+        { "q": "Sort DELTA, ALPHA, GAMMA, BETA, OMEGA alphabetically. Which is 4th?", "choices": ["GAMMA","OMEGA","BETA","DELTA"], "answer": 0 },
+        { "q": "A $250 laptop is discounted 15%, then a further $20 off. What is the final price?", "choices": ["$200.00","$192.50","$190.00","$195.00"], "answer": 1 },
+        { "q": "Sort 22, 7, 31, 14, 3, 18 in descending order, then multiply the 2nd and 4th values of the result.", "choices": ["286","308","294","322"], "answer": 1 },
+        { "q": "Which does NOT belong? Obfuscate, Dissemble, Prevaricate, Explicate.", "choices": ["Explicate","Prevaricate","Obfuscate","Dissemble"], "answer": 0 },
+        { "q": "Sort 12, 45, 3, 29, 8, 34 in ascending order, then subtract the 2nd value of the result from the 5th value.", "choices": ["27","24","26","25"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the derivative of sec(x) with respect to x?", "choices": ["-sec(x)tan(x)","sec(x)tan(x)","sec²(x)","tan(x)"], "answer": 1 },
-        { "q": "What is the time complexity of merge sort in the average case?", "choices": ["O(log n)","O(n)","O(n log n)","O(n²)"], "answer": 2 },
-        { "q": "A solid sphere of mass M and radius R rolls without slipping. What is the ratio of its rotational to translational kinetic energy?", "choices": ["2/7","2/5","5/2","1/2"], "answer": 1 },
-        { "q": "What is the pH of a solution with hydrogen ion concentration 1×10⁻³ M?", "choices": ["1","7","3","11"], "answer": 2 },
-        { "q": "What is the integral of 1/x dx?", "choices": ["-1/x² + C","x² / 2 + C","1/x² + C","ln|x| + C"], "answer": 3 },
-        { "q": "Which of the following is a tautology (always true regardless of P and Q)?", "choices": ["P → Q","P ∧ Q","P ∨ ¬P","P ∧ ¬P"], "answer": 2 },
-        { "q": "A 2 kg object moving at 3 m/s collides perfectly inelastically with a stationary 4 kg object. What is their common velocity after the collision?", "choices": ["1.5 m/s","1 m/s","2 m/s","0.5 m/s"], "answer": 1 },
-        { "q": "What is the oxidation state of chromium in potassium dichromate, K₂Cr₂O₇?", "choices": ["+4","+7","+6","+3"], "answer": 2 },
-        { "q": "Gödel's first incompleteness theorem states that any consistent, sufficiently expressive formal system:", "choices": ["Contains true statements it cannot prove","Can prove its own consistency","Has a decidable set of theorems","Is necessarily inconsistent"], "answer": 0 },
-        { "q": "For a normal distribution, the proportion of the population lying within two standard deviations of the mean is approximately:", "choices": ["95%","50%","99.7%","68%"], "answer": 0 }
+        { "q": "How many moles of oxygen gas (O2) are needed to completely combust 2 moles of propane (C3H8)? (C3H8 + 5O2 → 3CO2 + 4H2O)", "choices": ["10","15","5","6"], "answer": 0 },
+        { "q": "A block slides down a frictionless incline of angle 30°. What is its acceleration along the incline? (g = 10 m/s²)", "choices": ["2.5 m/s²","8.66 m/s²","5 m/s²","10 m/s²"], "answer": 2 },
+        { "q": "Which inference rule is used here: 'If it rained, the ground is wet. The ground is not wet. Therefore, it did not rain.'", "choices": ["Affirming the consequent","Denying the antecedent","Modus ponens","Modus tollens"], "answer": 3 },
+        { "q": "What is the second derivative of f(x) = x³ − 3x² + 2x with respect to x?", "choices": ["6x − 6","6x² − 6x","3x − 6","6x + 6"], "answer": 0 },
+        { "q": "What is the worst-case time complexity of quicksort?", "choices": ["O(n log n)","O(log n)","O(n)","O(n²)"], "answer": 3 },
+        { "q": "Building a binary min-heap from n unsorted elements (bottom-up heapify) runs in:", "choices": ["O(n)","O(n log n)","O(log n)","O(n²)"], "answer": 0 },
+        { "q": "A projectile is launched at 30° above the horizontal with an initial speed of 20 m/s. Ignoring air resistance (g=9.8 m/s²), what is its total time of flight?", "choices": ["3.06 s","2.04 s","4.08 s","1.02 s"], "answer": 1 },
+        { "q": "The Schwarzschild radius of a body of mass M is given by:", "choices": ["2GM/c²","GM/2c²","GM/c²","2GM/c"], "answer": 0 },
+        { "q": "What is the average-case time complexity of Quickselect (randomized selection) for finding the k-th smallest element in an unsorted array of n elements?", "choices": ["O(n)","O(n log n)","O(n²)","O(log n)"], "answer": 0 },
+        { "q": "The halting problem is best described as:", "choices": ["Undecidable","Solvable in exponential time","Decidable but intractable","NP-complete"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?", "choices": ["5 minutes","20 minutes","500 minutes","100 minutes"], "answer": 0 },
-        { "q": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.15","$1.00","$0.05","$0.10"], "answer": 2 },
-        { "q": "You are in a race and you overtake the person in second place. What position are you in now?", "choices": ["First place","Second place","It depends on the finish line","Third place"], "answer": 1 },
-        { "q": "A man looks at a portrait and says, 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the portrait?", "choices": ["His nephew","Himself","His father","His son"], "answer": 3 },
-        { "q": "Three switches outside a room each control one of three bulbs inside. You may flip the switches as much as you like, but may enter the room only once. How do you determine which switch controls which bulb?", "choices": ["It's impossible with only one entry to the room.","Flip each switch on and off in sequence — the order they flicker tells you which is which.","Turn on switch 1, wait a few minutes, turn it off, turn on switch 2, then enter — the lit bulb is switch 2, the warm-but-off bulb is switch 1, and the cold, off bulb is switch 3.","Turn on all three switches at once, then enter — whichever bulb is brightest is switch 1."], "answer": 2 },
-        { "q": "A red house is built from red bricks, a blue house from blue bricks, a black house from black bricks. What is a greenhouse built from?", "choices": ["Wood and paint","Green bricks","Green-tinted concrete","Glass"], "answer": 3 },
-        { "q": "You flip a fair coin 20 times and it lands heads every single time. What is the probability the 21st flip is heads?", "choices": ["Cannot be determined without more flips","Very likely heads — it's on a hot streak","1/2","Very likely tails — it's due for a correction"], "answer": 2 },
-        { "q": "A woman tells a census taker: 'The product of my three children's ages is 36, and the sum is the number on the door across the street.' He checks the door, returns, and says he still can't tell the ages. She adds, 'My eldest likes strawberry ice cream.' Now he knows. What are the ages?", "choices": ["9, 2, and 2","1, 4, and 9","6, 6, and 1","2, 3, and 6"], "answer": 0 },
-        { "q": "A coin is flipped 10 times and lands heads 7 times. Does this provide strong statistical evidence that the coin is biased?", "choices": ["Yes — any deviation from 50% is statistically significant","No, because coins can never be biased","Yes — 70% heads proves definitively the coin is unfair","No — with only 10 flips, this is well within normal variation for a fair coin"], "answer": 3 },
-        { "q": "A doctor gives you three pills and says to take one every half hour. How long until all three are taken?", "choices": ["90 minutes","1 hour","30 minutes","2 hours"], "answer": 1 }
+        { "q": "Which is greater: the number of seconds in one day, or the number of minutes in six weeks?", "choices": ["It cannot be determined","The number of minutes in six weeks","The number of seconds in one day","They are exactly equal"], "answer": 2 },
+        { "q": "A father and his son are in a car accident. The father dies at the scene, and the son is rushed to the hospital in critical condition. The surgeon looks at the boy and says, 'I can't operate on him — he's my son.' How is this possible?", "choices": ["The father secretly survived and is the surgeon.","The surgeon is the boy's mother.","The boy has two adoptive fathers.","This is a logical contradiction with no answer."], "answer": 1 },
+        { "q": "A woman 'shoots' her husband, then holds him under water for five minutes, then hangs him. Immediately afterward, they enjoy a nice dinner together. How is this possible?", "choices": ["She develops a photograph of him — 'shoots' with a camera, 'holds' the film underwater to develop it, and 'hangs' it up to dry.","She is a ghost and none of it really happened.","She used a time machine to undo it.","It's all a dream she is having."], "answer": 0 },
+        { "q": "Divide 30 by half, then add 10. What is the result?", "choices": ["40","25","15","70"], "answer": 3 },
+        { "q": "A grandfather clock strikes 6 times in 5 seconds. How long does it take to strike 12 times?", "choices": ["10 seconds","11 seconds","6 seconds","12 seconds"], "answer": 1 },
+        { "q": "Rule: 'If a card has a vowel on one side, it has an even number on the other side.' You see four cards showing E, K, 4, 7. Which cards must you turn over to test the rule?", "choices": ["E and 4","E only","K and 4","E and 7"], "answer": 3 },
+        { "q": "Which weighs more: a pound of feathers or a pound of bricks?", "choices": ["A pound of feathers","They weigh exactly the same","It depends on the humidity","A pound of bricks"], "answer": 1 },
+        { "q": "An ant starts crawling from one end of a 1 km rubber band at a constant 1 cm/s. At the end of every second, the entire band is instantly and uniformly stretched by another 1 km. Does the ant ever reach the far end?", "choices": ["No — the band stretches far faster than the ant can crawl, so it falls further behind every second","Yes — the ant's fractional progress each second forms a divergent harmonic series, so it eventually covers the whole band","It depends on exactly where on the band the ant starts","No — the ant can only reach the end once the stretching stops"], "answer": 1 },
+        { "q": "The more you take of it, the more you leave behind. What is it?", "choices": ["Time","Money","Footsteps","Memories"], "answer": 2 },
+        { "q": "You paid $50, non-refundable, for tonight's concert ticket, but you've come down with a cold and won't enjoy the show. Rationally, should the $50 you already spent affect whether you go?", "choices": ["Yes — go, but only to demand a partial refund at the door","Yes — you should go anyway, or the $50 is wasted","No — skip it, since paid tickets are always bad value","No — it's a sunk cost that's gone either way; only tonight's expected enjoyment should matter"], "answer": 3 }
       ]
     }
   ]
