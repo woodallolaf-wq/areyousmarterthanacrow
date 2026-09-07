@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "How many legs does a person have?", "choices": ["4","6","2","8"], "answer": 2 },
-        { "q": "What is the opposite of 'full'?", "choices": ["Loud","Big","Empty","Heavy"], "answer": 2 },
-        { "q": "What is 6 + 3?", "choices": ["9","7","8","10"], "answer": 0 },
-        { "q": "Which one is a colour of the rainbow?", "choices": ["Grey","Red","White","Black"], "answer": 1 },
-        { "q": "What is 7 - 4?", "choices": ["5","4","3","6"], "answer": 2 },
-        { "q": "What do you call a baby pig?", "choices": ["Kit","Joey","Cub","Piglet"], "answer": 3 },
-        { "q": "What colour is chocolate?", "choices": ["Blue","Brown","Purple","Pink"], "answer": 1 },
-        { "q": "Which animal says 'ribbit'?", "choices": ["Frog","Cat","Fish","Bird"], "answer": 0 },
-        { "q": "What colour is a lemon?", "choices": ["Yellow","Red","Green","Blue"], "answer": 0 },
-        { "q": "What is 7 + 2?", "choices": ["7","10","8","9"], "answer": 3 }
+        { "q": "What colour is a cucumber?", "choices": ["Blue","Green","Black","Red"], "answer": 1 },
+        { "q": "Which one is a vehicle?", "choices": ["Hat","Car","Apple","Shoe"], "answer": 1 },
+        { "q": "What is 3 + 5?", "choices": ["7","6","8","9"], "answer": 2 },
+        { "q": "What is 2 + 4?", "choices": ["6","4","7","5"], "answer": 0 },
+        { "q": "Which of these is a pet?", "choices": ["Lion","Tiger","Dog","Shark"], "answer": 2 },
+        { "q": "Which one can fly?", "choices": ["Bird","Cat","Frog","Horse"], "answer": 0 },
+        { "q": "What do you use to talk?", "choices": ["Nose","Mouth","Ears","Elbow"], "answer": 1 },
+        { "q": "Where do fish live?", "choices": ["Trees","Caves","Water","Clouds"], "answer": 2 },
+        { "q": "What colour is the sun?", "choices": ["Black","Blue","Purple","Yellow"], "answer": 3 },
+        { "q": "Which of these is hottest?", "choices": ["An ice cube","The Sun","A snowball","A fridge"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is 55% of 340?", "choices": ["177","167","187","197"], "answer": 2 },
-        { "q": "Which does NOT belong? Piano, Guitar, Violin, Cello.", "choices": ["Cello","Piano","Violin","Guitar"], "answer": 1 },
-        { "q": "Author is to Book as Sculptor is to ___.", "choices": ["Marble","Statue","Museum","Chisel"], "answer": 1 },
-        { "q": "What is 22 × 14?", "choices": ["318","308","288","298"], "answer": 1 },
-        { "q": "What is the capital of Poland?", "choices": ["Vienna","Warsaw","Budapest","Prague"], "answer": 1 },
-        { "q": "Wing is to Bird as Fin is to ___?", "choices": ["Bird","Fish","Frog","Snake"], "answer": 1 },
-        { "q": "Bird is to Nest as Bee is to ___?", "choices": ["Den","Hive","Nest","Web"], "answer": 1 },
-        { "q": "What is 17 + 26?", "choices": ["43","42","33","53"], "answer": 0 },
-        { "q": "What is the capital of Australia?", "choices": ["Sydney","Perth","Melbourne","Canberra"], "answer": 3 },
-        { "q": "Which number is missing? 3, 9, 27, ___, 243", "choices": ["72","108","54","81"], "answer": 3 }
+        { "q": "Which does NOT belong? Carrot, Potato, Radish, Celery.", "choices": ["Potato","Celery","Carrot","Radish"], "answer": 1 },
+        { "q": "What is the capital of Turkey?", "choices": ["Izmir","Istanbul","Ankara","Bursa"], "answer": 2 },
+        { "q": "Calf is to cow as piglet is to ___?", "choices": ["Horse","Goat","Sheep","Pig"], "answer": 3 },
+        { "q": "In 14, 3, 9, 21, 6 — what is the sum of the values greater than 8?", "choices": ["44","36","47","41"], "answer": 0 },
+        { "q": "What is 32 × 18?", "choices": ["576","568","556","586"], "answer": 0 },
+        { "q": "How many sides does a hexagon have?", "choices": ["5","8","6","7"], "answer": 2 },
+        { "q": "What is 18 × 15?", "choices": ["290","270","260","280"], "answer": 1 },
+        { "q": "Which does NOT belong? Square, Rectangle, Rhombus, Sphere.", "choices": ["Sphere","Square","Rhombus","Rectangle"], "answer": 0 },
+        { "q": "What is 15% of 300?", "choices": ["40","35","50","45"], "answer": 3 },
+        { "q": "In 5, 9, 3, 7, 1 — what is the sum of the two smallest values?", "choices": ["5","3","4","6"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "All engineers are logical. Some logical people are impatient. Therefore:", "choices": ["No engineers are impatient.","Some engineers are impatient.","All impatient people are engineers.","No conclusion follows."], "answer": 3 },
-        { "q": "A list is 9, 34, 2, 17, 25, 6. Sort it descending, then find the difference between the 2nd and 5th values of the result.", "choices": ["19","23","21","17"], "answer": 0 },
-        { "q": "A drawer has 5 red pens and 7 blue pens. Three are drawn without replacement. What is P(all three blue)?", "choices": ["1/4","5/44","7/44","3/11"], "answer": 2 },
-        { "q": "A $60 shirt is marked up 50%, then discounted 40% off the new price. What is the final price?", "choices": ["$56","$54","$50","$60"], "answer": 1 },
-        { "q": "Meticulous most nearly means:", "choices": ["Careless","Easily confused","Very fast","Extremely careful and precise"], "answer": 3 },
-        { "q": "Sort DELTA, ALPHA, GAMMA, BETA, OMEGA alphabetically. Which is 4th?", "choices": ["GAMMA","OMEGA","BETA","DELTA"], "answer": 0 },
-        { "q": "A $250 laptop is discounted 15%, then a further $20 off. What is the final price?", "choices": ["$200.00","$192.50","$190.00","$195.00"], "answer": 1 },
-        { "q": "Sort 22, 7, 31, 14, 3, 18 in descending order, then multiply the 2nd and 4th values of the result.", "choices": ["286","308","294","322"], "answer": 1 },
-        { "q": "Which does NOT belong? Obfuscate, Dissemble, Prevaricate, Explicate.", "choices": ["Explicate","Prevaricate","Obfuscate","Dissemble"], "answer": 0 },
-        { "q": "Sort 12, 45, 3, 29, 8, 34 in ascending order, then subtract the 2nd value of the result from the 5th value.", "choices": ["27","24","26","25"], "answer": 2 }
+        { "q": "Which word is most nearly opposite in meaning to 'parsimonious'?", "choices": ["Generous","Cautious","Miserly","Frugal"], "answer": 0 },
+        { "q": "A $90 blender is marked up 20%, then discounted 25% off the new price. What is the final price?", "choices": ["$81","$78","$85.50","$90"], "answer": 0 },
+        { "q": "A list is 16, 3, 28, 9, 21, 5. Sort it ascending, then find the product of the 2nd and 5th values of the result.", "choices": ["105","90","112","95"], "answer": 0 },
+        { "q": "A bag has 6 red and 5 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["5/11","1/2","3/11","6/11"], "answer": 2 },
+        { "q": "All astronomers are scientists. No scientists are dogmatic. Therefore:", "choices": ["Some astronomers are dogmatic.","No astronomers are dogmatic.","No scientists are astronomers.","All dogmatic people are astronomers."], "answer": 1 },
+        { "q": "A list is 14, 3, 27, 8, 19, 5. Reverse it, then find the product of the 2nd and 4th values of the result.", "choices": ["513","494","527","506"], "answer": 0 },
+        { "q": "Reverse 4, 8, 15, 16, 23, 42, then keep only the even values. What is their sum?", "choices": ["108","70","78","62"], "answer": 1 },
+        { "q": "All mammals are vertebrates. No vertebrates are insects. Therefore:", "choices": ["All insects are mammals.","No mammals are insects.","Some mammals are insects.","No valid conclusion follows."], "answer": 1 },
+        { "q": "A car accelerates uniformly from rest to 108 km/h in 12 seconds. How far does it travel?", "choices": ["360 m","240 m","180 m","120 m"], "answer": 2 },
+        { "q": "In 5, 13, 2, 8, 17, 6, 11 — what is the 3rd largest value?", "choices": ["11","8","17","13"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "How many moles of oxygen gas (O2) are needed to completely combust 2 moles of propane (C3H8)? (C3H8 + 5O2 → 3CO2 + 4H2O)", "choices": ["10","15","5","6"], "answer": 0 },
-        { "q": "A block slides down a frictionless incline of angle 30°. What is its acceleration along the incline? (g = 10 m/s²)", "choices": ["2.5 m/s²","8.66 m/s²","5 m/s²","10 m/s²"], "answer": 2 },
-        { "q": "Which inference rule is used here: 'If it rained, the ground is wet. The ground is not wet. Therefore, it did not rain.'", "choices": ["Affirming the consequent","Denying the antecedent","Modus ponens","Modus tollens"], "answer": 3 },
-        { "q": "What is the second derivative of f(x) = x³ − 3x² + 2x with respect to x?", "choices": ["6x − 6","6x² − 6x","3x − 6","6x + 6"], "answer": 0 },
-        { "q": "What is the worst-case time complexity of quicksort?", "choices": ["O(n log n)","O(log n)","O(n)","O(n²)"], "answer": 3 },
-        { "q": "Building a binary min-heap from n unsorted elements (bottom-up heapify) runs in:", "choices": ["O(n)","O(n log n)","O(log n)","O(n²)"], "answer": 0 },
-        { "q": "A projectile is launched at 30° above the horizontal with an initial speed of 20 m/s. Ignoring air resistance (g=9.8 m/s²), what is its total time of flight?", "choices": ["3.06 s","2.04 s","4.08 s","1.02 s"], "answer": 1 },
-        { "q": "The Schwarzschild radius of a body of mass M is given by:", "choices": ["2GM/c²","GM/2c²","GM/c²","2GM/c"], "answer": 0 },
-        { "q": "What is the average-case time complexity of Quickselect (randomized selection) for finding the k-th smallest element in an unsorted array of n elements?", "choices": ["O(n)","O(n log n)","O(n²)","O(log n)"], "answer": 0 },
-        { "q": "The halting problem is best described as:", "choices": ["Undecidable","Solvable in exponential time","Decidable but intractable","NP-complete"], "answer": 0 }
+        { "q": "What is the derivative of arcsin(x) with respect to x?", "choices": ["1/√(1+x²)","1/(1+x²)","1/√(1−x²)","−1/√(1−x²)"], "answer": 2 },
+        { "q": "A thin uniform rod of mass M and length L rotates about an axis through one end, perpendicular to its length. What is its moment of inertia?", "choices": ["(1/12)ML²","(1/2)ML²","ML²","(1/3)ML²"], "answer": 3 },
+        { "q": "What is the oxidation state of nitrogen in the ammonium ion, NH4+?", "choices": ["0","+3","−3","+5"], "answer": 2 },
+        { "q": "What is the negation of the biconditional 'P if and only if Q'?", "choices": ["¬P ∨ ¬Q","(P ∧ ¬Q) ∨ (¬P ∧ Q)","¬P ∧ ¬Q","P ∧ Q"], "answer": 1 },
+        { "q": "What is the time complexity of Prim's algorithm using a Fibonacci heap and adjacency list, for a graph with V vertices and E edges?", "choices": ["O(V²)","O(E + V log V)","O(E log V)","O(E log E)"], "answer": 1 },
+        { "q": "The derivative of xˣ with respect to x is:", "choices": ["x·xˣ⁻¹","xˣ / x","xˣ ln x","xˣ(ln x + 1)"], "answer": 3 },
+        { "q": "What is the derivative of sin(x)cos(x) with respect to x?", "choices": ["cos(2x)","sin(2x)","2cos(x)","−cos(2x)"], "answer": 0 },
+        { "q": "A gas occupies 10 L at 300 K and a pressure of 2 atm. Using PV = nRT (R ≈ 0.0821 L·atm/mol·K), how many moles of gas are present?", "choices": ["0.81 mol","0.41 mol","1.64 mol","1.22 mol"], "answer": 0 },
+        { "q": "What is the inverse of the conditional statement 'If P then Q'?", "choices": ["If Q then P","If not P then not Q","P and not Q","If not Q then not P"], "answer": 1 },
+        { "q": "The magnetic force on a charge q moving with velocity v is:", "choices": ["qv·B","q(v × B)","q(v + B)","qE"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Which is greater: the number of seconds in one day, or the number of minutes in six weeks?", "choices": ["It cannot be determined","The number of minutes in six weeks","The number of seconds in one day","They are exactly equal"], "answer": 2 },
-        { "q": "A father and his son are in a car accident. The father dies at the scene, and the son is rushed to the hospital in critical condition. The surgeon looks at the boy and says, 'I can't operate on him — he's my son.' How is this possible?", "choices": ["The father secretly survived and is the surgeon.","The surgeon is the boy's mother.","The boy has two adoptive fathers.","This is a logical contradiction with no answer."], "answer": 1 },
-        { "q": "A woman 'shoots' her husband, then holds him under water for five minutes, then hangs him. Immediately afterward, they enjoy a nice dinner together. How is this possible?", "choices": ["She develops a photograph of him — 'shoots' with a camera, 'holds' the film underwater to develop it, and 'hangs' it up to dry.","She is a ghost and none of it really happened.","She used a time machine to undo it.","It's all a dream she is having."], "answer": 0 },
-        { "q": "Divide 30 by half, then add 10. What is the result?", "choices": ["40","25","15","70"], "answer": 3 },
-        { "q": "A grandfather clock strikes 6 times in 5 seconds. How long does it take to strike 12 times?", "choices": ["10 seconds","11 seconds","6 seconds","12 seconds"], "answer": 1 },
-        { "q": "Rule: 'If a card has a vowel on one side, it has an even number on the other side.' You see four cards showing E, K, 4, 7. Which cards must you turn over to test the rule?", "choices": ["E and 4","E only","K and 4","E and 7"], "answer": 3 },
-        { "q": "Which weighs more: a pound of feathers or a pound of bricks?", "choices": ["A pound of feathers","They weigh exactly the same","It depends on the humidity","A pound of bricks"], "answer": 1 },
-        { "q": "An ant starts crawling from one end of a 1 km rubber band at a constant 1 cm/s. At the end of every second, the entire band is instantly and uniformly stretched by another 1 km. Does the ant ever reach the far end?", "choices": ["No — the band stretches far faster than the ant can crawl, so it falls further behind every second","Yes — the ant's fractional progress each second forms a divergent harmonic series, so it eventually covers the whole band","It depends on exactly where on the band the ant starts","No — the ant can only reach the end once the stretching stops"], "answer": 1 },
-        { "q": "The more you take of it, the more you leave behind. What is it?", "choices": ["Time","Money","Footsteps","Memories"], "answer": 2 },
-        { "q": "You paid $50, non-refundable, for tonight's concert ticket, but you've come down with a cold and won't enjoy the show. Rationally, should the $50 you already spent affect whether you go?", "choices": ["Yes — go, but only to demand a partial refund at the door","Yes — you should go anyway, or the $50 is wasted","No — skip it, since paid tickets are always bad value","No — it's a sunk cost that's gone either way; only tonight's expected enjoyment should matter"], "answer": 3 }
+        { "q": "A judge tells a condemned prisoner: 'You will be hanged at noon on one weekday next week, but the exact day will be a surprise — you will not know which day it is until the executioner knocks on your door that morning.' The prisoner reasons this backward and concludes the hanging can never actually happen on any day, yet is stunned when the executioner knocks on Wednesday. What is this classic logical paradox called?", "choices": ["The Ship of Theseus paradox","The liar paradox","The Sorites paradox","The unexpected hanging paradox"], "answer": 3 },
+        { "q": "You are on a game show with 3 doors: one hides a car, two hide goats. You pick door 1. The host does not know what is behind any door. He randomly opens one of the other two doors, and purely by chance it reveals a goat. If you now switch to the remaining unopened door, what is your probability of winning the car?", "choices": ["1","2/3","1/2","1/3"], "answer": 2 },
+        { "q": "What can travel all the way around the world while always staying in the same corner?", "choices": ["A photograph","A satellite","A postage stamp","A compass"], "answer": 2 },
+        { "q": "A needle of length L is dropped onto a floor ruled with parallel lines spaced a distance L apart (equal to the needle's own length). What is the probability that the needle lands crossing one of the lines? (Buffon's needle problem)", "choices": ["1/π","2/π","π/4","1/2"], "answer": 1 },
+        { "q": "Which is larger: 100! (100 factorial), or 100^100 (100 to the power of 100)?", "choices": ["100!","Neither — both are infinite","100^100","They are exactly equal"], "answer": 2 },
+        { "q": "Pick any number. Add 5. Multiply the result by 2. Subtract 4. Divide by 2. Then subtract your original number. What do you get?", "choices": ["Always 0","Always 5","It depends on the number you picked","Always 3, no matter what number you started with"], "answer": 3 },
+        { "q": "Sally has 3 brothers, and each of her brothers has 2 sisters. How many sisters does Sally have?", "choices": ["2","3","6","1"], "answer": 3 },
+        { "q": "A class takes a test. The students who scored in the top 10% are given a harder retest the next day, and on average they score lower the second time. A teacher concludes the harder test caused the drop. Is that conclusion justified?", "choices": ["No, because test scores are entirely random and carry no information","Yes, but only because the grading got stricter overnight","Yes — the second test was objectively harder, so it must have caused the lower scores","No — this is regression to the mean: unusually high scores tend to be followed by scores closer to average even without any real change"], "answer": 3 },
+        { "q": "During WWII, statistician Abraham Wald studied bullet-hole patterns on bombers that returned from missions: the wings and fuselage were riddled with holes, while the engines and cockpit were almost untouched. Where did he recommend adding armor?", "choices": ["The engines and cockpit — planes hit there rarely made it back to be counted","Nowhere — the data shows these bombers were rarely hit at all","Spread the armor evenly across the whole aircraft","The wings and fuselage, since that's clearly where planes take the most hits"], "answer": 0 },
+        { "q": "A snail at the bottom of a 30-foot well climbs 3 feet each day and slides back 2 feet each night. How many days until it reaches the top?", "choices": ["28 days","30 days","29 days","27 days"], "answer": 0 }
       ]
     }
   ]
