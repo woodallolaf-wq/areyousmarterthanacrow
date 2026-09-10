@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "Which animal says 'howl'?", "choices": ["Cat","Duck","Wolf","Cow"], "answer": 2 },
-        { "q": "How many sides does a rectangle have?", "choices": ["3","5","4","6"], "answer": 2 },
-        { "q": "What colour is an orange?", "choices": ["Purple","Black","Blue","Orange"], "answer": 3 },
-        { "q": "What is the opposite of 'heavy'?", "choices": ["Loud","Light","Big","Fast"], "answer": 1 },
-        { "q": "What is 4 + 5?", "choices": ["7","9","10","8"], "answer": 1 },
-        { "q": "What colour is an orange (the fruit)?", "choices": ["Black","Blue","Orange","Purple"], "answer": 2 },
-        { "q": "How many wings does a bird have?", "choices": ["2","4","0","6"], "answer": 0 },
-        { "q": "What colour is a banana?", "choices": ["Black","Purple","Yellow","Blue"], "answer": 2 },
-        { "q": "What do you use to brush your teeth?", "choices": ["Fork","Toothbrush","Spoon","Comb"], "answer": 1 },
-        { "q": "How many legs does a horse have?", "choices": ["6","8","4","2"], "answer": 2 }
+        { "q": "Which animal says 'gobble'?", "choices": ["Goose","Duck","Chicken","Turkey"], "answer": 3 },
+        { "q": "What colour is an eggplant?", "choices": ["Yellow","Green","Purple","Orange"], "answer": 2 },
+        { "q": "What is 10 minus 3?", "choices": ["8","7","6","5"], "answer": 1 },
+        { "q": "How many legs does a frog have?", "choices": ["6","4","2","8"], "answer": 1 },
+        { "q": "What do you call a baby fox?", "choices": ["Pup","Cub","Calf","Kit"], "answer": 3 },
+        { "q": "What colour is a school bus?", "choices": ["Yellow","Purple","Blue","Green"], "answer": 0 },
+        { "q": "What do you use to cut paper?", "choices": ["Fork","Hammer","Spoon","Scissors"], "answer": 3 },
+        { "q": "What is 5 minus 2?", "choices": ["2","3","4","1"], "answer": 1 },
+        { "q": "What do you call a baby duck?", "choices": ["Cub","Kit","Duckling","Foal"], "answer": 2 },
+        { "q": "What is 4 + 1?", "choices": ["4","5","6","3"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which does NOT belong? Hammer, Screwdriver, Wrench, Nail.", "choices": ["Hammer","Wrench","Nail","Screwdriver"], "answer": 2 },
-        { "q": "In 5, 18, 2, 9, 14 — what is the sum of the values greater than 8?", "choices": ["41","45","32","27"], "answer": 0 },
-        { "q": "What is 23 × 14?", "choices": ["302","332","312","322"], "answer": 3 },
-        { "q": "What is the capital of Ireland?", "choices": ["Galway","Cork","Belfast","Dublin"], "answer": 3 },
-        { "q": "Kitten is to Cat as Puppy is to ___.", "choices": ["Foal","Calf","Cub","Dog"], "answer": 3 },
-        { "q": "How many letter E's are in this string? EBEAKEEDNEFEGE", "choices": ["6","7","8","5"], "answer": 1 },
-        { "q": "Bee is to Hive as Ant is to ___?", "choices": ["Den","Web","Colony","Nest"], "answer": 2 },
-        { "q": "What is 8 × 7?", "choices": ["56","64","48","54"], "answer": 0 },
-        { "q": "Which does NOT belong? Oak, Maple, Pine, Shark.", "choices": ["Oak","Shark","Maple","Pine"], "answer": 1 },
-        { "q": "What is 13 × 13?", "choices": ["169","189","156","179"], "answer": 0 }
+        { "q": "What is 60% of 85?", "choices": ["51","50","45","55"], "answer": 0 },
+        { "q": "What is the capital of the Netherlands?", "choices": ["Amsterdam","The Hague","Rotterdam","Brussels"], "answer": 0 },
+        { "q": "What is 19 × 17?", "choices": ["322","323","333","313"], "answer": 1 },
+        { "q": "Sculptor is to Statue as Composer is to ___.", "choices": ["Play","Symphony","Poem","Canvas"], "answer": 1 },
+        { "q": "In 6, 13, 4, 9, 2 — what is the sum of the values less than 8?", "choices": ["19","15","12","10"], "answer": 2 },
+        { "q": "Reverse RED, GREEN, BLUE, YELLOW, then take the second item of the result.", "choices": ["RED","GREEN","BLUE","YELLOW"], "answer": 2 },
+        { "q": "Sun is to Day as Moon is to ___?", "choices": ["Star","Cloud","Night","Sky"], "answer": 2 },
+        { "q": "What is 16 × 17?", "choices": ["272","292","262","282"], "answer": 0 },
+        { "q": "Which does NOT belong? Tomato, Cucumber, Pumpkin, Rhubarb.", "choices": ["Tomato","Cucumber","Pumpkin","Rhubarb"], "answer": 3 },
+        { "q": "Which does NOT belong? Rose, Tulip, Daisy, Oak.", "choices": ["Oak","Tulip","Daisy","Rose"], "answer": 0 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "All chemists are meticulous. No meticulous people are careless. Therefore:", "choices": ["All careless people are chemists","No chemists are meticulous","No chemists are careless","Some chemists are careless"], "answer": 2 },
-        { "q": "A list is 22, 5, 31, 14, 8, 27. Sort it descending, then find the sum of the 1st and 3rd values of the result.", "choices": ["53","49","58","45"], "answer": 0 },
-        { "q": "A bag has 8 red and 4 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["7/12","14/33","2/3","4/9"], "answer": 1 },
-        { "q": "Obstinate most nearly means:", "choices": ["Timid","Cheerful","Stubborn","Flexible"], "answer": 2 },
-        { "q": "A $250 phone is discounted 10%, then a further $15 off. What is the final price?", "choices": ["$195","$210","$215","$200"], "answer": 1 },
-        { "q": "A drawer has 6 black socks and 4 white socks. Two socks are drawn without replacement. What is P(both black)?", "choices": ["3/5","1/2","1/3","2/5"], "answer": 2 },
-        { "q": "A sphere has volume 972π cm³. What is its radius?", "choices": ["9 cm","8 cm","6 cm","12 cm"], "answer": 0 },
-        { "q": "Perfunctory most nearly means:", "choices": ["Done as a routine, with little effort or care","Extremely thorough","Done with genuine affection","Highly enthusiastic"], "answer": 0 },
-        { "q": "Obsequious is to Servile as Truculent is to ___.", "choices": ["Trusting","Belligerent","Weary","Reserved"], "answer": 1 },
-        { "q": "Sort 17, 4, 23, 9, 31, 2 in ascending order, then multiply the 2nd and 5th values of the result.", "choices": ["85","99","92","78"], "answer": 2 }
+        { "q": "Peripatetic most nearly means:", "choices": ["Extremely wealthy","Skilled with tools","Wandering from place to place","Habitually late"], "answer": 2 },
+        { "q": "A $400 refrigerator is marked up 10%, then discounted 15% off the new price. What is the final price?", "choices": ["$360","$374","$380","$390"], "answer": 1 },
+        { "q": "A list is 27, 6, 19, 40, 3, 15. Sort it ascending, then find the sum of the 3rd and 6th values of the result.", "choices": ["34","55","46","58"], "answer": 1 },
+        { "q": "A bag has 6 red and 6 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["1/2","1/4","3/11","5/22"], "answer": 3 },
+        { "q": "All tailors are craftsmen. No craftsmen are impatient. Therefore:", "choices": ["Some tailors are impatient","No conclusion follows","No tailors are impatient","All impatient people are tailors"], "answer": 2 },
+        { "q": "What is the sum of all integers from 1 to 200?", "choices": ["20,200","20,000","19,900","20,100"], "answer": 3 },
+        { "q": "Concomitant most nearly means:", "choices": ["Strongly opposed","Mutually exclusive","Causally prior","Naturally accompanying"], "answer": 3 },
+        { "q": "What is 3¹² ÷ 3⁸?", "choices": ["27","243","81","9"], "answer": 2 },
+        { "q": "Ineluctable most nearly means:", "choices": ["Ambiguous","Uncertain","Reversible","Inevitable"], "answer": 3 },
+        { "q": "Unctuous most nearly means:", "choices": ["Excessively ingratiating","Financially reckless","Physically rigid","Bluntly honest"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the oxidation state of chlorine in sodium hypochlorite, NaClO?", "choices": ["+3","+1","+7","+2"], "answer": 1 },
-        { "q": "A thin-walled hollow cylinder (hoop) of mass M and radius R rolls without slipping. What is the ratio of its rotational to translational kinetic energy?", "choices": ["2/5","1","1/2","2"], "answer": 1 },
-        { "q": "What is the derivative of x²cos(x) with respect to x?", "choices": ["−x² sin x","2x cos x − x² sin x","2x cos x + x² sin x","x² sin x + 2x cos x"], "answer": 1 },
-        { "q": "In predicate logic, what is the negation of ∀x ∃y P(x,y)?", "choices": ["∀x ∃y ¬P(x,y)","∃x ∃y ¬P(x,y)","∃x ∀y ¬P(x,y)","¬∃x ∃y P(x,y)"], "answer": 2 },
-        { "q": "What is the worst-case time complexity of building a balanced binary search tree (e.g., AVL) by inserting n elements one at a time?", "choices": ["O(n)","O(n²)","O(log n)","O(n log n)"], "answer": 3 },
-        { "q": "What is the derivative of ln(sin(x)) with respect to x?", "choices": ["sec(x)","−cot(x)","tan(x)","cot(x)"], "answer": 3 },
-        { "q": "The half-life of a first-order reaction with rate constant k is given by:", "choices": ["1 / k","k / ln2","0.5 / k","ln2 / k"], "answer": 3 },
-        { "q": "The Heisenberg uncertainty principle for position and momentum states Δx·Δp ≥:", "choices": ["ℏ","h","2ℏ","ℏ/2"], "answer": 3 },
-        { "q": "Binary search on a sorted array of n elements runs in:", "choices": ["O(n log n)","O(1)","O(log n)","O(n)"], "answer": 2 },
-        { "q": "What is the oxidation state of manganese in KMnO₄?", "choices": ["+6","+4","+7","+2"], "answer": 2 }
+        { "q": "A solution is made by dissolving 3 mol of KOH in enough water to make 1.5 L of solution. What is its molarity?", "choices": ["4.5 M","2 M","0.5 M","1.5 M"], "answer": 1 },
+        { "q": "In predicate logic, what is the negation of ∃x (P(x) ∧ Q(x))?", "choices": ["∀x (¬P(x) ∧ ¬Q(x))","∃x (¬P(x) ∨ ¬Q(x))","∀x (¬P(x) ∨ ¬Q(x))","∃x (¬P(x) ∧ ¬Q(x))"], "answer": 2 },
+        { "q": "What is the time complexity of finding the intersection of two sorted arrays of sizes m and n using the two-pointer technique?", "choices": ["O(m + n)","O(m × n)","O(log(m + n))","O(min(m, n) × max(m, n))"], "answer": 0 },
+        { "q": "What is the derivative of cos²(x) with respect to x?", "choices": ["cos(2x)","-sin(2x)","sin(2x)","-cos(2x)"], "answer": 1 },
+        { "q": "A 5 kg object moving at 4 m/s collides perfectly inelastically with a stationary 3 kg object. What is their common velocity after the collision?", "choices": ["2 m/s","1.75 m/s","3.2 m/s","2.5 m/s"], "answer": 3 },
+        { "q": "∫ x eˣ dx equals:", "choices": ["x²eˣ/2 + C","eˣ(x + 1) + C","eˣ(x − 1) + C","xeˣ + C"], "answer": 2 },
+        { "q": "What is the derivative of x² ln(x) with respect to x?", "choices": ["2x ln(x) + x","x² ln(x) + x","x ln(x) + 2x","2x ln(x)"], "answer": 0 },
+        { "q": "The derivative of tan(x) with respect to x is:", "choices": ["csc²(x)","sec²(x)","−csc(x)cot(x)","sec(x)tan(x)"], "answer": 1 },
+        { "q": "What is the value of the definite integral ∫₀¹ x² dx?", "choices": ["2/3","1/2","1/3","1/4"], "answer": 2 },
+        { "q": "The worst-case time complexity of quicksort is:", "choices": ["O(n log n)","O(log n)","O(n)","O(n²)"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Hilbert's Grand Hotel has infinitely many rooms, all already occupied. Now infinitely many buses arrive, each carrying infinitely many new guests. Can the hotel accommodate every single new guest without evicting anyone?", "choices": ["Yes — every guest, old and new, can be assigned a distinct room number","Only the guests from the first bus can be fit in","No — there are simply too many new guests to fit","Yes, but only if the number of buses is finite"], "answer": 0 },
-        { "q": "Two identical coins lie flat on a table, touching. Keeping the first coin fixed, you roll the second coin around the outside of the first, without slipping, until it returns to its starting position. How many full rotations has the rolling coin made, as seen from a fixed viewpoint above the table?", "choices": ["1","0.5","2","4"], "answer": 2 },
-        { "q": "You meet two people on an island where knights always tell the truth and knaves always lie. Person A says, 'At least one of us is a knave.' What are A and B?", "choices": ["A is a knave, B is a knight","Both are knights","Both are knaves","A is a knight, B is a knave"], "answer": 3 },
-        { "q": "A stock drops 50% on Monday, then rises 50% on Tuesday. Compared to where it started before Monday's drop, is the investor now back to even, ahead, or behind?", "choices": ["Ahead, by 25%","Behind, by 50%","Back to exactly even","Behind, by 25%"], "answer": 3 },
-        { "q": "A gambler starts with $1 and repeatedly bets $1 on a fair coin flip, gaining $1 on heads and losing $1 on tails, stopping only on reaching $10 or going broke at $0. What is the probability the gambler reaches $10 before going broke?", "choices": ["Essentially 0 — ruin is all but certain","1/2","1/9","1/10"], "answer": 3 },
-        { "q": "You are shown two identical envelopes and told one contains exactly twice as much money as the other. You pick one at random and open it to find $100. You're offered the chance to switch. A tempting argument says: the other envelope holds either $50 or $200, each equally likely, so switching has an expected value of $125 — a gain over your $100. Is this switching argument correct?", "choices": ["No — you should never switch, because the first envelope you pick is always the larger one","No — the calculation invalidly treats $100 as fixed while the other side varies inconsistently; there is no rational reason to switch","Yes, but only if you have no idea how much money might be in either envelope","Yes — you should always switch, since $125 expected value beats $100 for certain"], "answer": 1 },
-        { "q": "You have 8 identical-looking coins. One is counterfeit and slightly lighter than the rest. Using a balance scale, what is the minimum number of weighings needed to guarantee finding the counterfeit coin?", "choices": ["1","4","3","2"], "answer": 3 },
-        { "q": "If it takes 6 people 6 days to dig 6 holes, how many days does it take 3 people to dig 3 holes?", "choices": ["2 days","3 days","12 days","6 days"], "answer": 3 },
-        { "q": "An online retailer highlights that 95% of its published reviews are five stars and concludes nearly all customers love the product. Only customers who create an account and choose to write a review are counted. Is that 95% figure a reliable estimate of overall customer satisfaction?", "choices": ["No — five-star reviews are always fake and should be discounted entirely","Yes — 95% is such a large majority that it must reflect true satisfaction","Yes, as long as the review count is large enough, self-selection stops mattering","No — reviewers are a self-selected sample, so this isn't representative of all customers"], "answer": 3 },
-        { "q": "What has keys but can't open any locks, has space but no room, and you can enter but never go inside?", "choices": ["A keyboard","A treasure chest","A piano","A house"], "answer": 0 }
+        { "q": "What is the last digit of 7^2023?", "choices": ["7","3","1","9"], "answer": 1 },
+        { "q": "How many people are needed in a room to guarantee, with certainty (not just better-than-even odds), that at least two share the same calendar birthday, accounting for a possible February 29th?", "choices": ["368","366","367","365"], "answer": 2 },
+        { "q": "A cube is painted red on all faces, then cut into 27 equal smaller cubes (a 3×3×3 arrangement). How many of the small cubes have exactly 2 red faces?", "choices": ["6","8","12","24"], "answer": 2 },
+        { "q": "A ladder is sliding down a wall: its top slides down the wall while its bottom slides away along the floor. What path does the exact midpoint of the ladder trace?", "choices": ["A straight line","A quarter circle centered at the wall-floor corner","A parabola","An ellipse"], "answer": 1 },
+        { "q": "The following steps seem to prove 1 = 2: let a = b, then a² = ab, subtract b²: a² − b² = ab − b², factor: (a−b)(a+b) = b(a−b), divide both sides by (a−b): a+b = b, and since a=b, 2b = b, so 2 = 1. What is the flaw in this proof?", "choices": ["Dividing both sides by (a − b), which equals zero","The proof is correct — 1 really does equal 2 here","Subtracting b² from both sides is not allowed","The step 'a² = ab' is not a valid operation"], "answer": 0 },
+        { "q": "In a village, the barber shaves every man who does not shave himself, and no one else. Who shaves the barber?", "choices": ["He does not shave himself","He shaves himself","No consistent answer exists — the premise is self-contradictory, so no such barber can exist","The barber's apprentice shaves him"], "answer": 2 },
+        { "q": "There are 3 switches outside a closed room, each connected to one of 3 identical light bulbs inside. You may operate the switches however you like, but can enter the room to look at the bulbs only once. How can you determine with certainty which switch controls which bulb?", "choices": ["Turn switch 1 on for several minutes, then turn it off and turn switch 2 on; enter — the lit bulb is switch 2, the warm-but-dark bulb is switch 1, and the cold dark bulb is switch 3","Flip each switch on and off once in sequence, then enter and guess based on which bulb seems brightest","It cannot be done with only one entry into the room","Turn all three switches on at once, then enter and see which bulbs are lit"], "answer": 0 },
+        { "q": "Two men play five games of checkers. Each man wins the same number of games, and there are no ties or draws. How is this possible?", "choices": ["One man cheated","It is impossible","They weren't playing against each other","The games were declared void"], "answer": 2 },
+        { "q": "How many seconds are there in a year?", "choices": ["365","Twelve — January 2nd, February 2nd, March 2nd, and so on","31,536,000","8,760"], "answer": 1 },
+        { "q": "I have two US coins that total 30 cents. One of the coins is not a nickel. What are the two coins?", "choices": ["Two dimes","A dime and two nickels","It is impossible","A quarter and a nickel"], "answer": 3 }
       ]
     }
   ]
