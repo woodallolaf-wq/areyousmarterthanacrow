@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What colour is a pea?", "choices": ["Yellow","Green","Red","Blue"], "answer": 1 },
-        { "q": "What sound does a sheep make?", "choices": ["Oink","Baa","Quack","Moo"], "answer": 1 },
-        { "q": "How many legs does a kangaroo have?", "choices": ["6","4","2","8"], "answer": 2 },
-        { "q": "How many fingers are on two hands?", "choices": ["5","12","10","8"], "answer": 2 },
-        { "q": "What is 7 + 3?", "choices": ["11","10","8","9"], "answer": 1 },
-        { "q": "How many legs does an octopus have?", "choices": ["10","8","6","4"], "answer": 1 },
-        { "q": "How many legs does a duck have?", "choices": ["6","8","4","2"], "answer": 3 },
-        { "q": "What is 6 + 1?", "choices": ["7","6","5","8"], "answer": 0 },
-        { "q": "What do you drink when you are thirsty?", "choices": ["Sand","Rocks","Water","Paper"], "answer": 2 },
-        { "q": "Which animal says 'meow'?", "choices": ["Dog","Cow","Duck","Cat"], "answer": 3 }
+        { "q": "What do you use to eat cereal?", "choices": ["Knife","Fork","Cup","Spoon"], "answer": 3 },
+        { "q": "What shape is an egg?", "choices": ["Square","Triangle","Rectangle","Oval"], "answer": 3 },
+        { "q": "Which meal do you eat in the morning?", "choices": ["Dinner","Lunch","Breakfast","Snack"], "answer": 2 },
+        { "q": "What do you call a baby rabbit?", "choices": ["Calf","Kit","Cub","Foal"], "answer": 1 },
+        { "q": "What is 8 + 2?", "choices": ["9","10","11","12"], "answer": 1 },
+        { "q": "What do you use to comb your hair?", "choices": ["Fork","Spoon","Toothbrush","Comb"], "answer": 3 },
+        { "q": "How many legs does a dog have?", "choices": ["3","4","6","2"], "answer": 1 },
+        { "q": "What colour is a strawberry?", "choices": ["Green","Red","Blue","Purple"], "answer": 1 },
+        { "q": "What season comes after summer?", "choices": ["Spring","Summer","Winter","Autumn"], "answer": 3 },
+        { "q": "How many legs does a bird have?", "choices": ["8","6","4","2"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which of these is not a mammal?", "choices": ["Whale","Shark","Bat","Dolphin"], "answer": 1 },
-        { "q": "How many continents are there on Earth?", "choices": ["5","6","8","7"], "answer": 3 },
-        { "q": "What is the square root of 81?", "choices": ["11","8","7","9"], "answer": 3 },
-        { "q": "What is 45% of 200?", "choices": ["85","100","95","90"], "answer": 3 },
-        { "q": "What is the capital of Switzerland?", "choices": ["Basel","Zurich","Geneva","Bern"], "answer": 3 },
-        { "q": "What is the greatest common divisor of 108 and 144?", "choices": ["36","24","48","18"], "answer": 0 },
-        { "q": "Which number IS prime? 21, 33, 41, 49", "choices": ["49","41","21","33"], "answer": 1 },
-        { "q": "Which does NOT belong? Cerulean, Cobalt, Ultramarine, Ochre.", "choices": ["Ochre","Ultramarine","Cobalt","Cerulean"], "answer": 0 },
-        { "q": "What is the capital of Russia?", "choices": ["St Petersburg","Moscow","Kiev","Minsk"], "answer": 1 },
-        { "q": "If a³ = 1,331, what is a?", "choices": ["9","10","13","11"], "answer": 3 }
+        { "q": "What is the capital of Iceland?", "choices": ["Oslo","Helsinki","Reykjavik","Stockholm"], "answer": 2 },
+        { "q": "Key is to Lock as Password is to ___?", "choices": ["Account","Combination","Diary","Vault"], "answer": 0 },
+        { "q": "What is 17 × 4?", "choices": ["64","68","78","72"], "answer": 1 },
+        { "q": "What is 15% of 60?", "choices": ["9","6","12","15"], "answer": 0 },
+        { "q": "Which does NOT belong? Diamond, Ruby, Emerald, Granite.", "choices": ["Emerald","Granite","Ruby","Diamond"], "answer": 1 },
+        { "q": "Glove is to Hand as Sock is to ___?", "choices": ["Leg","Arm","Shoe","Foot"], "answer": 3 },
+        { "q": "Which does NOT belong? Trumpet, Saxophone, Drum, Clarinet.", "choices": ["Saxophone","Trumpet","Clarinet","Drum"], "answer": 3 },
+        { "q": "In J, 5, P, 3, T, 8, W — which letter immediately follows the largest digit?", "choices": ["P","T","W","J"], "answer": 2 },
+        { "q": "In 3, 7, 5, 9, 2 — what is the sum of the values in odd-numbered positions?", "choices": ["16","10","9","12"], "answer": 1 },
+        { "q": "Reverse 9, 1, 6, 4, 2, then multiply the first and last values of the result.", "choices": ["20","18","16","14"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Which word is most nearly opposite in meaning to 'obdurate'?", "choices": ["Adamant","Compliant","Stubborn","Inflexible"], "answer": 1 },
-        { "q": "All Bloops are Razzles. All Razzles are Lorches. Therefore:", "choices": ["All Lorches are Bloops.","All Bloops are Lorches.","Some Lorches are not Bloops.","No Bloops are Lorches."], "answer": 1 },
-        { "q": "A bag holds 5 orange and 9 purple marbles. Two are drawn without replacement. What is P(both purple)?", "choices": ["36/91","4/7","9/14","1/2"], "answer": 0 },
-        { "q": "A list is 31, 9, 44, 2, 17, 26. Sort it descending, then find the difference between the 1st and 4th values of the result.", "choices": ["25","30","22","27"], "answer": 3 },
-        { "q": "A jacket priced at $180 is discounted 25%, then a further 20% off the discounted price. What is the final price?", "choices": ["$108","$99","$135","$115"], "answer": 0 },
-        { "q": "All poets are dreamers. All dreamers are idealists. Therefore:", "choices": ["All poets are idealists.","No poets are idealists.","All idealists are poets.","Some idealists are not poets."], "answer": 0 },
-        { "q": "All pilots are trained. No trained people are careless. Therefore:", "choices": ["All careless people are pilots","No pilots are careless","All trained people are pilots","Some pilots are careless"], "answer": 1 },
-        { "q": "What is 37 × 43?", "choices": ["1,489","1,517","1,591","1,643"], "answer": 2 },
-        { "q": "In A3, D7, G2, J5, M8 — what is the sum of the digits in positions 2 and 4?", "choices": ["9","11","10","12"], "answer": 3 },
-        { "q": "Mitigate most nearly means:", "choices": ["To copy","To worsen","To lessen","To ignore"], "answer": 2 }
+        { "q": "A deck of 10 cards includes 3 aces. Two cards are drawn at random without replacement. What is P(both are aces)?", "choices": ["1/10","3/10","1/15","1/5"], "answer": 2 },
+        { "q": "Which word is most nearly opposite in meaning to 'garrulous'?", "choices": ["Taciturn","Talkative","Loquacious","Verbose"], "answer": 0 },
+        { "q": "A $250 item is marked up 20%, then discounted 15% off the marked-up price. What is the final price?", "choices": ["$250","$260","$245","$255"], "answer": 3 },
+        { "q": "All Zeps are Quons. No Quons are Wibbles. Therefore:", "choices": ["No Zeps are Wibbles.","All Zeps are Wibbles.","Some Zeps are Wibbles.","All Wibbles are Zeps."], "answer": 0 },
+        { "q": "A list is 12, 45, 3, 78, 29, 6. Sort it ascending, then find the sum of the 2nd and 5th values of the result.", "choices": ["58","33","47","51"], "answer": 3 },
+        { "q": "Perspicuous most nearly means:", "choices": ["Convoluted","Clear","Verbose","Reticent"], "answer": 1 },
+        { "q": "All engineers are analytical. No analytical people are impulsive. Therefore:", "choices": ["All impulsive people are engineers.","Some engineers are impulsive.","No valid conclusion follows.","No engineers are impulsive."], "answer": 3 },
+        { "q": "In 18, 4, 11, 7, 22, 3 — what is the range plus the median?", "choices": ["28","19","24","31"], "answer": 0 },
+        { "q": "Sycophant is to Flatter as Iconoclast is to ___.", "choices": ["Attack cherished beliefs","Create icons","Lead followers","Worship"], "answer": 0 },
+        { "q": "Taciturn most nearly means:", "choices": ["Furious","Reserved","Talkative","Organized"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "How many distinct binary relations are there on a set of 3 elements?", "choices": ["512","64","729","256"], "answer": 0 },
-        { "q": "An RC circuit has R = 2 kΩ and C = 5 μF. What is its time constant τ = RC?", "choices": ["100 ms","10 ms","25 ms","1 ms"], "answer": 1 },
-        { "q": "What are the eigenvalues of the matrix [[4, 1], [2, 3]]?", "choices": ["6 and 1","7 and 0","4 and 3","5 and 2"], "answer": 3 },
-        { "q": "A radioactive isotope has a half-life of 8 days. What fraction of the original sample remains after 24 days?", "choices": ["1/3","1/16","1/8","1/6"], "answer": 2 },
-        { "q": "What does the infinite series Σ (1/n²) for n = 1 to ∞ converge to?", "choices": ["π²/6","Diverges (no finite value)","1","π/6"], "answer": 0 },
-        { "q": "The number of surjective (onto) functions from a 4-element set to a 2-element set is:", "choices": ["16","14","12","8"], "answer": 1 },
-        { "q": "What is the time complexity of counting sort on n elements with range k?", "choices": ["O(n + k)","O(nk)","O(n log n)","O(k log n)"], "answer": 0 },
-        { "q": "What is the oxidation state of sulfur in sulfuric acid, H₂SO₄?", "choices": ["+8","+4","+6","+2"], "answer": 2 },
-        { "q": "A 2 kg object moving at 5 m/s collides perfectly inelastically with a stationary 3 kg object. What is their common velocity after the collision?", "choices": ["3 m/s","1.5 m/s","2.5 m/s","2 m/s"], "answer": 3 },
-        { "q": "The Rydberg formula for 1/λ of emitted light in a hydrogen transition from n2 to n1 (n2 > n1) is:", "choices": ["R(1/n2² − 1/n1²)","R(n2² − n1²)/(n1²n2²)","R(1/n1² − 1/n2²)","R(n1² − n2²)"], "answer": 2 }
+        { "q": "What is the pH of a 0.001 M solution of a strong acid (HCl), fully dissociated?", "choices": ["11","4","2","3"], "answer": 3 },
+        { "q": "A 2 kg object moving at 3 m/s collides elastically with a stationary 1 kg object. What is the velocity of the 2 kg object immediately after the collision?", "choices": ["3 m/s","0 m/s","4 m/s","1 m/s"], "answer": 3 },
+        { "q": "In propositional logic, which of the following is a tautology (true under every assignment of P and Q)?", "choices": ["(P → Q) ∨ (Q → P)","P ∧ ¬P","P ↔ Q","P ∨ Q"], "answer": 0 },
+        { "q": "What is the time complexity of building a binary heap from n unsorted elements using the standard bottom-up heapify algorithm?", "choices": ["O(log n)","O(n)","O(n²)","O(n log n)"], "answer": 1 },
+        { "q": "What is the derivative of f(x) = x³ ln(x)?", "choices": ["3x² ln(x) + x³","x² ln(x) + x²","3x² ln(x)","3x² ln(x) + x²"], "answer": 3 },
+        { "q": "The integral ∫₁^e (1/x) dx equals:", "choices": ["e","0","e − 1","1"], "answer": 3 },
+        { "q": "A 4 kg block on a frictionless incline of angle 30° is released from rest. What is its acceleration along the incline? (g = 9.8 m/s²)", "choices": ["4.9 m/s²","8.49 m/s²","2.45 m/s²","9.8 m/s²"], "answer": 0 },
+        { "q": "What is the sum of the interior angles of a convex decagon (10-gon)?", "choices": ["1440°","1080°","1620°","1800°"], "answer": 0 },
+        { "q": "What is ∫ x cos(x) dx?", "choices": ["−x sin(x) + cos(x) + C","x sin(x) − cos(x) + C","x sin(x) + cos(x) + C","sin(x) − x cos(x) + C"], "answer": 2 },
+        { "q": "The time complexity of building a balanced binary search tree from n sorted elements is:", "choices": ["O(n log n)","O(log n)","O(n²)","O(n)"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Gambler A starts with $1 and Gambler B starts with $99. They repeatedly bet $1 on fair coin flips until one goes broke. What is the probability that A ends up winning all $100?", "choices": ["1/2","1/2 minus a small correction","1/99","1/100"], "answer": 3 },
-        { "q": "On average, across a large social network, do people have fewer friends than their friends have on average, the same number, or more?", "choices": ["It's impossible to say without more information","The same, on average","Fewer, on average — this is the 'friendship paradox'","More, on average"], "answer": 2 },
-        { "q": "Students who scored in the top 5% on a test's first attempt tend to score closer to the class average on an immediate retake, even with no change in ability or coaching. What best explains this?", "choices": ["Regression to the mean: extreme scores partly reflect luck/noise, which is unlikely to repeat","It proves the top scorers cheated the first time","The retake is deliberately made harder","Top scorers get overconfident and stop trying"], "answer": 0 },
-        { "q": "Two people each bet their necktie on whose is cheaper, without knowing either value. Each reasons: 'If I lose, I lose my tie's value; if I win, I gain a tie worth more than mine — so this game favors me.' Both reason identically. Does this argument actually mean the game favors both players?", "choices": ["No — it favors whoever proposed the bet","Yes — the game truly favors both, which is why it's called a paradox","No — the reasoning is flawed; by symmetry the game favors neither player","No — it favors whoever has the more expensive tie"], "answer": 2 },
-        { "q": "There are three boxes: one holds two gold coins, one holds two silver coins, and one holds one gold and one silver coin. You pick a box at random and draw one coin at random from it — it's gold. What is the probability the other coin in that same box is also gold?", "choices": ["3/4","2/3","1/3","1/2"], "answer": 1 },
-        { "q": "A butcher's clerk is six feet tall and wears size 12 shoes. What does he weigh?", "choices": ["It cannot be determined","Depends on his build","Meat","About 200 pounds"], "answer": 2 },
-        { "q": "You have two ropes; each takes exactly 1 hour to burn completely but burns at an uneven, unpredictable rate along its length. How do you measure exactly 45 minutes?", "choices": ["Light both ropes at both ends at the same time","Cut each rope exactly in half and burn the halves","Time it with a clock as each rope burns","Light one rope at both ends and the other at one end; when the first finishes, light the second rope's remaining end"], "answer": 3 },
-        { "q": "A box has 3 coins: one two-headed, one two-tailed, one normal. You pick one at random and flip it — it lands heads. What is the probability the other side is also heads?", "choices": ["2/3","3/4","1/2","1/3"], "answer": 0 },
-        { "q": "What can you catch but never throw?", "choices": ["A ball","A cold","Your breath","A fish"], "answer": 1 },
-        { "q": "What runs but never walks, murmurs but never talks, has a bed but never sleeps, and has a mouth but never eats?", "choices": ["A clock","A story","A river","The wind"], "answer": 2 }
+        { "q": "Urn A contains 50 red and 50 black balls (known). Urn B contains 100 red and black balls in an unknown ratio. Most people would rather bet on red from Urn A than red from Urn B, AND would also rather bet on black from Urn A than black from Urn B. Is this pair of preferences consistent with holding any single subjective probability for Urn B's colour mix?", "choices": ["Yes — because both bets are safer with a known urn","No — it's inconsistent with any subjective probability; it reflects pure ambiguity aversion instead","No — but only because most urns are red-majority","Yes — Urn B is also exactly 50/50, so the preferences agree"], "answer": 1 },
+        { "q": "In a three-way 'truel,' A never misses, B hits 80% of the time, and C hits 50% of the time. They fire in turn (A, then B, then C, repeating), each shooting at the rival they see as the biggest threat, and A moves first with a free choice: shoot at B, shoot at C, or fire into the air on purpose. Which first move gives A the best chance of survival?", "choices": ["Fire into the air on purpose (deliberately miss)","Shoot at C, the weakest shooter","Shoot at B, the more dangerous shooter","It makes no difference — A's survival odds are the same regardless"], "answer": 0 },
+        { "q": "Bertrand's paradox (the chord version): pick a 'random' chord of a circle and ask for the probability that it's longer than the side of the circle's inscribed equilateral triangle. What's the striking result?", "choices": ["The probability is always exactly 1/2, no matter how the chord is chosen","The probability is always exactly 1/3, no matter how the chord is chosen","There's no single answer — different valid methods of choosing a 'random' chord give different correct probabilities (e.g. 1/3, 1/2, or 1/4)","The question is meaningless, because circles cannot have chords longer than their inscribed triangle's side"], "answer": 2 },
+        { "q": "In Newcomb's paradox, a predictor has already either put $1,000,000 in Box B (if it predicted you'll take only B) or left it empty (if it predicted you'll take both boxes); Box A always visibly holds $1,000. 'Dominance reasoning' says: since the money is already placed, taking both boxes always nets you $1,000 more than taking Box B alone, whatever's inside. 'Expected-utility reasoning', given the predictor's high accuracy, favours taking only Box B. What does this paradox chiefly illustrate?", "choices": ["That two-boxing is objectively the mathematically correct choice in all versions","That one-boxing is objectively the mathematically correct choice in all versions","Two seemingly sound decision-theory principles — dominance and expected-utility maximisation — can recommend opposite choices in the very same problem","That the predictor described in the setup is logically impossible"], "answer": 2 },
+        { "q": "The Doomsday Argument reasons that, treating yourself as a random observer among all humans who will ever be born, the roughly 100 billion humans born so far gives a Bayesian reason to doubt that vastly many more humans (say, another 100 trillion) will ever be born — nudging the expected 'doomsday' earlier. Which principle does this argument rest on?", "choices": ["The law of large numbers applied to historical birth-rate statistics","Confirmed trends in declining global fertility rates","The self-sampling assumption: you should reason as if randomly selected from your reference class of observers","Direct astronomical data on asteroid-impact probabilities"], "answer": 2 },
+        { "q": "If you are running a race and you pass the person in last place, what position are you in?", "choices": ["First","Impossible — you cannot pass the last runner","Second to last","Last"], "answer": 1 },
+        { "q": "Which is correct: 'the yolk of the egg is white' or 'the yolk of the egg are white'?", "choices": ["Is white","Are white","Neither — yolks are yellow","Both are acceptable"], "answer": 2 },
+        { "q": "A fair coin lands heads 5 times in a row. A gambler bets on tails, reasoning 'tails is due.' Is this good reasoning?", "choices": ["Yes — after 5 heads in a row, tails becomes statistically more likely","No — the coin has no memory; P(tails) is still 0.5 on the next flip regardless of the streak","Yes, but only because 5 heads in a row is extremely rare","No — the streak actually makes heads more likely to continue"], "answer": 1 },
+        { "q": "What comes next in the sequence? 1, 11, 21, 1211, 111221, ___", "choices": ["211213","132231","312211","123211"], "answer": 2 },
+        { "q": "A crime-scene DNA profile matches 1 in 1,000,000 people at random. The suspect's DNA matches. The prosecutor argues this means there is only a 1-in-1,000,000 chance the suspect is innocent. What is wrong with this reasoning?", "choices": ["Nothing is wrong — 1 in 1,000,000 does mean the suspect is almost certainly guilty","It confuses P(match | innocent) with P(innocent | match) — without knowing the size of the potential suspect pool, the match rate alone doesn't give the probability of guilt","The DNA test itself must be flawed if this reasoning seems wrong","The reasoning is wrong only if the suspect has an identical twin"], "answer": 1 }
       ]
     }
   ]
