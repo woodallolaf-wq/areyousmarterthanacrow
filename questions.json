@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What is the opposite of happy?", "choices": ["Cold","Soft","Sad","Tall"], "answer": 2 },
-        { "q": "How many hours are in a day?", "choices": ["Twelve","Sixty","Twenty-four","Seven"], "answer": 2 },
-        { "q": "How many minutes are in an hour?", "choices": ["Sixty","Twelve","Twenty-four","Thirty"], "answer": 0 },
-        { "q": "What is the opposite of fast?", "choices": ["Heavy","Slow","Loud","Bright"], "answer": 1 },
-        { "q": "What do chickens lay?", "choices": ["Wool","Milk","Eggs","Honey"], "answer": 2 },
-        { "q": "What do you use to hear?", "choices": ["Mouth","Eyes","Nose","Ears"], "answer": 3 },
-        { "q": "What is 4 + 3?", "choices": ["6","7","5","8"], "answer": 1 },
-        { "q": "What colour is a stop sign?", "choices": ["Green","Blue","Red","Yellow"], "answer": 2 },
-        { "q": "What is the opposite of big?", "choices": ["Tall","Small","Loud","Fast"], "answer": 1 },
-        { "q": "Which of these is a bird?", "choices": ["Eagle","Dog","Fish","Frog"], "answer": 0 }
+        { "q": "What is 6 + 6?", "choices": ["13","11","12","10"], "answer": 2 },
+        { "q": "What do you call a baby bird?", "choices": ["Chick","Pup","Kit","Cub"], "answer": 0 },
+        { "q": "Which animal says 'squeak'?", "choices": ["Lion","Mouse","Cow","Dog"], "answer": 1 },
+        { "q": "What sound does a dog make?", "choices": ["Woof","Meow","Moo","Baa"], "answer": 0 },
+        { "q": "How many sides does a triangle have?", "choices": ["2","4","5","3"], "answer": 3 },
+        { "q": "What do cats say?", "choices": ["Meow","Oink","Baa","Moo"], "answer": 0 },
+        { "q": "How many wheels does a tricycle have?", "choices": ["Three","Four","One","Two"], "answer": 0 },
+        { "q": "What do you call a baby bear?", "choices": ["Kit","Calf","Cub","Joey"], "answer": 2 },
+        { "q": "What is 9 minus 4?", "choices": ["3","5","6","4"], "answer": 1 },
+        { "q": "What is 2 + 1?", "choices": ["4","2","3","5"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is 35% of 180?", "choices": ["72","63","60","54"], "answer": 1 },
-        { "q": "Painter is to Brush as Carpenter is to ___?", "choices": ["Needle","Scalpel","Hammer","Baton"], "answer": 2 },
-        { "q": "Which does NOT belong? Oak, Salmon, Maple, Birch.", "choices": ["Oak","Salmon","Maple","Birch"], "answer": 1 },
-        { "q": "What is the capital of Finland?", "choices": ["Copenhagen","Oslo","Helsinki","Stockholm"], "answer": 2 },
-        { "q": "What is 24 × 7?", "choices": ["168","158","172","164"], "answer": 0 },
-        { "q": "A shop sells 4 pens for $6. How many pens can be bought with $27?", "choices": ["18","16","15","17"], "answer": 0 },
-        { "q": "What is 19 × 23?", "choices": ["447","437","434","427"], "answer": 1 },
-        { "q": "What is the lowest common multiple of 14, 21 and 6?", "choices": ["42","126","84","21"], "answer": 0 },
-        { "q": "What is the capital of Brazil?", "choices": ["Rio de Janeiro","São Paulo","Buenos Aires","Brasília"], "answer": 3 },
-        { "q": "In T, 6, H, 2, B, 9, F, 4, Q — what is the sum of all the digits?", "choices": ["20","21","18","19"], "answer": 1 }
+        { "q": "Bird is to Nest as Bee is to:", "choices": ["Burrow","Hive","Den","Web"], "answer": 1 },
+        { "q": "What is 25% of 80?", "choices": ["18","24","16","20"], "answer": 3 },
+        { "q": "Which does NOT belong? Salmon, Trout, Frog, Cod.", "choices": ["Cod","Salmon","Frog","Trout"], "answer": 2 },
+        { "q": "What gas do humans need to breathe to survive?", "choices": ["Nitrogen","Oxygen","Helium","Carbon Dioxide"], "answer": 1 },
+        { "q": "What is 9 x 6?", "choices": ["63","54","56","45"], "answer": 1 },
+        { "q": "What is 16 × 24?", "choices": ["364","374","384","394"], "answer": 2 },
+        { "q": "Which does NOT belong? Cello, Viola, Double bass, Trombone.", "choices": ["Viola","Trombone","Cello","Double bass"], "answer": 1 },
+        { "q": "Seven identical items cost $17.50. What do twelve cost?", "choices": ["$30.00","$24.00","$28.00","$26.50"], "answer": 0 },
+        { "q": "From 4, 9, 2, 7, 12, 5, 6 — how many values are divisible by 3?", "choices": ["5","3","4","2"], "answer": 1 },
+        { "q": "Which planet is closest to the Sun?", "choices": ["Mars","Earth","Mercury","Venus"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A bag has 9 red and 6 green marbles. Two are drawn without replacement. What is P(both green)?", "choices": ["3/14","1/5","1/7","2/15"], "answer": 2 },
-        { "q": "A list is 18, 3, 52, 9, 24, 11. Sort it ascending, then find the sum of the 2nd and 4th values of the result.", "choices": ["24","27","33","20"], "answer": 1 },
-        { "q": "A $150 laptop bag is discounted 20%, then a further $10 off. What is the final price?", "choices": ["$110","$115","$120","$100"], "answer": 0 },
-        { "q": "All Florps are Gleeps. No Gleeps are Snorbs. Therefore:", "choices": ["All Florps are Snorbs.","Some Florps are Snorbs.","No Florps are Snorbs.","All Snorbs are Florps."], "answer": 2 },
-        { "q": "Which word is most nearly opposite in meaning to 'austere'?", "choices": ["Simple","Modest","Lavish","Stern"], "answer": 2 },
-        { "q": "Anodyne most nearly means:", "choices": ["Sharp and precise","Secretly harmful","Officially sanctioned","Inoffensive and dull"], "answer": 3 },
-        { "q": "Cogent most nearly means:", "choices": ["Deliberately unclear","Hesitant in delivery","Excessively lengthy","Powerfully convincing"], "answer": 3 },
-        { "q": "Tendentious most nearly means:", "choices": ["Structurally unsound","Biased toward a cause","Overly cautious","Gentle in manner"], "answer": 1 },
-        { "q": "Ephemeral most nearly means:", "choices": ["Transparent","Eternal","Short-lived","Massive"], "answer": 2 },
-        { "q": "A drone costs $300. It's marked up 30%, then discounted 15% off the new price. What is the final price?", "choices": ["$340.50","$331.50","$325.00","$315.00"], "answer": 1 }
+        { "q": "Take the list [17, 4, 29, 8, 15, 2]. Sort it in descending order, then reverse that order. In the resulting list, what is the sum of the 2nd and 4th elements (1-indexed)?", "choices": ["17","23","25","19"], "answer": 3 },
+        { "q": "All Drennits are Kayo. No Kayo are Vesp. Therefore:", "choices": ["No Drennits are Vesp.","All Vesp are Drennits.","All Drennits are Vesp.","Some Drennits are Vesp."], "answer": 0 },
+        { "q": "A bag contains 4 red balls, 3 blue balls, and 5 green balls. Two balls are drawn at random without replacement. What is the probability both are green?", "choices": ["5/34","25/144","1/6","5/33"], "answer": 3 },
+        { "q": "A jacket costs $80. It is marked up 25%, then discounted 20% at checkout. What is the final price?", "choices": ["$100","$80","$76","$84"], "answer": 1 },
+        { "q": "Which word is closest in meaning to 'ephemeral'?", "choices": ["Solid","Ancient","Everlasting","Fleeting"], "answer": 3 },
+        { "q": "All squares are rectangles. No rectangles are triangles. Therefore:", "choices": ["No squares are triangles","All rectangles are squares","Some squares are triangles","All triangles are squares"], "answer": 0 },
+        { "q": "If log₃(x) = 4, what is x?", "choices": ["27","64","81","243"], "answer": 2 },
+        { "q": "Solipsism is to external reality as scepticism is to ___.", "choices": ["Certainty","Knowledge","Faith","Doubt"], "answer": 1 },
+        { "q": "A television costs $600. It is discounted 15%, then sales tax of 8% is added. What is the final price?", "choices": ["$550.80","$540.00","$561.60","$516.00"], "answer": 0 },
+        { "q": "What is 17.5% of 640?", "choices": ["128","96","104","112"], "answer": 3 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "Using L'Hôpital's rule, what is lim (x→0) of (1 − cos x)/x²?", "choices": ["1/2","1","0","∞"], "answer": 0 },
-        { "q": "In the redox reaction Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), which species is oxidized?", "choices": ["Zn(s)","Cu²⁺(aq)","Cu(s)","Zn²⁺(aq)"], "answer": 0 },
-        { "q": "In predicate logic, what is the negation of ∀x (P(x) ∨ Q(x))?", "choices": ["∃x (¬P(x) ∧ ¬Q(x))","∃x (¬P(x) ∨ ¬Q(x))","∀x (¬P(x) ∧ ¬Q(x))","∃x (P(x) ∧ ¬Q(x))"], "answer": 0 },
-        { "q": "What is the time complexity of a topological sort on a directed acyclic graph with V vertices and E edges, using depth-first search?", "choices": ["O(V + E)","O(E log V)","O(V log V)","O(V²)"], "answer": 0 },
-        { "q": "A capacitor with capacitance 4 μF is charged to a voltage of 12 V. How much energy is stored?", "choices": ["288 μJ","48 μJ","144 μJ","576 μJ"], "answer": 0 },
-        { "q": "In propositional logic, what is the truth value of (P ∨ ¬P)?", "choices": ["Always true (a tautology)","True only when P is true","True only when P is false","Always false (a contradiction)"], "answer": 0 },
-        { "q": "For a zero-order reaction, which plot gives a straight line?", "choices": ["ln[A] vs t","1/[A] vs t","[A]² vs t","[A] vs t"], "answer": 3 },
-        { "q": "To find the kth smallest of n unsorted elements using a max-heap of size k, what is the time complexity?", "choices": ["O(k log n)","O(n log n)","O(n log k)","O(n)"], "answer": 2 },
-        { "q": "What is the oxidation state of nitrogen in nitric acid, HNO₃?", "choices": ["+3","+4","+6","+5"], "answer": 3 },
-        { "q": "The derivative of arctan(x) with respect to x is:", "choices": ["x/(1+x²)","1/√(1−x²)","−1/√(1−x²)","1/(1+x²)"], "answer": 3 }
+        { "q": "A satellite orbits Earth in a circular orbit of radius r. By Kepler's third law (T² ∝ r³), if the orbital radius is doubled, by what factor does the orbital period increase?", "choices": ["2√2","√2","2","4"], "answer": 0 },
+        { "q": "Which of the following is logically equivalent to the material implication P → Q?", "choices": ["¬P ∨ Q","P ∧ ¬Q","¬P ∧ Q","P ∨ ¬Q"], "answer": 0 },
+        { "q": "What is the derivative of f(x) = x² ln(x) for x > 0?", "choices": ["2x ln x + x","2x ln x","2 ln x + x","x ln x + x"], "answer": 0 },
+        { "q": "What is the time complexity of building a binary heap from an unsorted array of n elements using the standard bottom-up heapify algorithm?", "choices": ["O(log n)","O(n)","O(n log n)","O(n²)"], "answer": 1 },
+        { "q": "What is the pH of a 0.001 M solution of HCl, assuming full dissociation?", "choices": ["11","3","2","4"], "answer": 1 },
+        { "q": "What is the oxidation state of phosphorus in phosphoric acid, H₃PO₄?", "choices": ["+3","+4","+5","+7"], "answer": 2 },
+        { "q": "The work function of a metal is 2.0 eV. What is the maximum kinetic energy of photoelectrons ejected by light of energy 3.5 eV?", "choices": ["1.0 eV","1.5 eV","3.5 eV","2.0 eV"], "answer": 1 },
+        { "q": "A 3 kg object moving at 6 m/s collides perfectly inelastically with a stationary 1 kg object. What is their common velocity after the collision?", "choices": ["6 m/s","4 m/s","3 m/s","4.5 m/s"], "answer": 3 },
+        { "q": "What is the derivative of x²eˣ with respect to x?", "choices": ["2x·eˣ","eˣ·x²","eˣ(x² + 2)","eˣ(x² + 2x)"], "answer": 3 },
+        { "q": "The relativistic energy–momentum relation is:", "choices": ["E = pc/√(1 − v²/c²)","E = mc² + pc","E² = (pc)² − (mc²)²","E² = (pc)² + (mc²)²"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "In the general population, having disease A and having disease B are completely statistically independent. A certain hospital admits only patients who have at least one of the two diseases (A, B, or both). Among only the patients admitted to this hospital, researchers find that having disease A makes it LESS likely a patient also has disease B, even though the diseases are independent in the general population. What explains this?", "choices": ["Berkson's paradox: conditioning on being admitted (having A or B) induces a spurious negative correlation between the independent causes of admission","This is impossible — truly independent traits cannot appear correlated in any subgroup","Disease A must be biologically protective against disease B","The hospital's sample size is too small to draw any real conclusion"], "answer": 0 },
-        { "q": "A basketball player has an independent 75% chance of making any given free throw, unaffected by prior makes or misses, and has just made 9 in a row. Commentators say he's 'heating up' and is now more likely than usual to make the next one. What is the actual probability he makes his 10th free throw?", "choices": ["75%","Lower than 75%, because streaks must break","It depends on how many more shots remain in the game","Higher than 75%, because he's in the zone"], "answer": 0 },
-        { "q": "In a single round of the Ultimatum Game, Player A is given $100 and proposes how to split it with Player B. Player B can only accept (both keep their share) or reject (both get nothing) — there are no further rounds. Assuming both players are purely rational and self-interested, caring only about maximizing their own money, and the split can be made in $1 increments, what split should Player A propose?", "choices": ["A 50/50 split, since it's the fairest outcome","It cannot be determined without knowing Player B's personal values","Keep all $100 and give Player B nothing","Give Player B $1 and keep $99, the smallest offer B should still accept"], "answer": 3 },
-        { "q": "You have two glasses holding exactly equal volumes of liquid — one full of wine, one full of water. You take a spoonful of wine from the wine glass and stir it into the water glass. Then, without measuring, you take a spoonful of the now-mixed liquid from the water glass and stir it back into the wine glass, so both glasses once again hold equal volumes. Is there now more water in the wine glass, or more wine in the water glass?", "choices": ["More wine in the water glass than water in the wine glass","Exactly the same amount either way, regardless of how thoroughly it was mixed","More water in the wine glass than wine in the water glass","It cannot be determined without knowing the size of the spoon"], "answer": 1 },
-        { "q": "Three voters rank three candidates A, B, and C as follows — Voter 1: A > B > C. Voter 2: B > C > A. Voter 3: C > A > B. In pairwise majority votes, A beats B, B beats C, and C beats A, each by 2 votes to 1 — so the group's collective preference cycles even though every individual voter's own ranking is perfectly transitive. What is this phenomenon called?", "choices": ["Arrow's Impossibility Theorem","The Tyranny of the Majority","Simpson's Paradox","The Condorcet Paradox"], "answer": 3 },
-        { "q": "A farmer must ferry a wolf, a goat, and a cabbage across a river one item at a time (plus himself). Left alone, the wolf eats the goat, and the goat eats the cabbage. What is the minimum number of river crossings required?", "choices": ["7","5","9","3"], "answer": 0 },
-        { "q": "How many times does the digit 9 appear in the integers from 1 to 100?", "choices": ["19","11","10","20"], "answer": 3 },
-        { "q": "A cowboy rides into town on Friday, stays exactly three days, and rides out on Friday. How is this possible?", "choices": ["He didn't actually stay three full days","His horse is named Friday","He rode in on a Thursday and miscounted the days","The town follows a different calendar system"], "answer": 1 },
-        { "q": "Which is larger: the number of distinct ways to shuffle a standard 52-card deck (52!), or the number of atoms on Earth (roughly 10^50)?", "choices": ["It's impossible to meaningfully compare a permutation count to a physical count","The number of atoms on Earth — a mere 52 cards can't compete with atoms","The number of ways to shuffle a deck of cards (52!) — it vastly exceeds the number of atoms on Earth","They are roughly equal, both around 10^50"], "answer": 2 },
-        { "q": "Two fathers and two sons went fishing together. Each caught exactly one fish, yet they brought home only three fish in total. How many people went fishing?", "choices": ["5","3","2","4"], "answer": 1 }
+        { "q": "A small college has 10 classes: nine classes have 10 students each, and one large lecture has 100 students. The registrar computes the average class size as (9×10 + 100) ÷ 10 = 19 students. If instead you ask a randomly chosen student how many people are in their class and average all the answers, what do you get?", "choices": ["About 57, much higher, because far more students sit in the large class","About 100, the size of the largest class","About 29","About 19, the same as the registrar's figure"], "answer": 0 },
+        { "q": "You flip a fair coin repeatedly until you get three heads in a row (HHH). What is the expected number of flips this takes?", "choices": ["14","8","12","6"], "answer": 0 },
+        { "q": "A large hospital averages about 45 births a day; a small hospital averages about 15 births a day. Over a year, which hospital is more likely to record a day on which more than 60% of the births were boys?", "choices": ["Both equally likely, since the sex ratio is 50/50 regardless of sample size","The large hospital, because it records more births overall","The small hospital, because smaller samples fluctuate further from 50%","It cannot be determined without knowing the exact daily counts"], "answer": 2 },
+        { "q": "A plane flies at a constant airspeed through a constant wind, from city A to city B and then straight back to city A along the same path. Compared to a completely windless day, does the round trip take the same time, more time, or less time?", "choices": ["Exactly the same time, since the headwind and tailwind cancel out","Less time, because the average ground speed is higher","More time than on a windless day","It depends on the wind's direction relative to the flight path"], "answer": 2 },
+        { "q": "Three boxes are labeled 'Apples', 'Oranges', and 'Apples & Oranges'. You are told all three labels are wrong. You may draw exactly one fruit from exactly one box, without looking inside, and must then correctly relabel all three boxes. Which box should you draw from?", "choices": ["The box labeled 'Apples & Oranges'","It cannot be done with only one draw","The box labeled 'Oranges'","The box labeled 'Apples'"], "answer": 0 },
+        { "q": "If you flip a fair coin repeatedly, which takes longer on average: waiting for the pattern HH to appear, or waiting for the pattern HT to appear?", "choices": ["HH takes longer on average (expected 6 flips vs 4)","HT takes longer on average (expected 6 flips vs 4)","They take exactly the same expected number of flips","It depends on which pattern you flip first"], "answer": 0 },
+        { "q": "100 prisoners, each assigned a unique number 1-100, must each find their own number among 100 boxes by opening at most 50 boxes (the room is reset between prisoners; no communication once it starts). If every prisoner follows the strategy 'open the box matching my number, then open the box matching the number found inside, and repeat,' what is the approximate probability that all 100 prisoners succeed?", "choices": ["≈50%","essentially 0% (about 0.5¹⁰⁰)","100% — the strategy is guaranteed","≈31%"], "answer": 3 },
+        { "q": "If you have 3 apples and you take away 2, how many do you have?", "choices": ["0","3","1","2"], "answer": 3 },
+        { "q": "Three prisoners each have a hat that is independently red or blue with 50% probability. Each can see the other two hats but not their own, and all three must simultaneously guess their own hat colour or pass. They win only if at least one guesses and everyone who guesses is correct. Using the optimal strategy — guess the opposite colour of what you see if the other two hats match, otherwise pass — what is their probability of winning?", "choices": ["1/8","1/2","3/4","7/8"], "answer": 2 },
+        { "q": "What number continues the sequence: 8, 5, 4, 9, 1, 7, 6, ?, 2", "choices": ["0","10","3","11"], "answer": 2 }
       ]
     }
   ]
