@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What is 6 + 6?", "choices": ["13","11","12","10"], "answer": 2 },
-        { "q": "What do you call a baby bird?", "choices": ["Chick","Pup","Kit","Cub"], "answer": 0 },
-        { "q": "Which animal says 'squeak'?", "choices": ["Lion","Mouse","Cow","Dog"], "answer": 1 },
-        { "q": "What sound does a dog make?", "choices": ["Woof","Meow","Moo","Baa"], "answer": 0 },
-        { "q": "How many sides does a triangle have?", "choices": ["2","4","5","3"], "answer": 3 },
-        { "q": "What do cats say?", "choices": ["Meow","Oink","Baa","Moo"], "answer": 0 },
-        { "q": "How many wheels does a tricycle have?", "choices": ["Three","Four","One","Two"], "answer": 0 },
-        { "q": "What do you call a baby bear?", "choices": ["Kit","Calf","Cub","Joey"], "answer": 2 },
-        { "q": "What is 9 minus 4?", "choices": ["3","5","6","4"], "answer": 1 },
-        { "q": "What is 2 + 1?", "choices": ["4","2","3","5"], "answer": 2 }
+        { "q": "What do cows give us to drink?", "choices": ["Soda","Water","Milk","Juice"], "answer": 2 },
+        { "q": "What do spiders spin?", "choices": ["Nests","Burrows","Webs","Hives"], "answer": 2 },
+        { "q": "What color is the sky on a clear day?", "choices": ["Red","Purple","Green","Blue"], "answer": 3 },
+        { "q": "What is the opposite of 'hot'?", "choices": ["Big","Cold","Warm","Wet"], "answer": 1 },
+        { "q": "What shape has 4 equal sides?", "choices": ["Oval","Square","Triangle","Circle"], "answer": 1 },
+        { "q": "What do bees make?", "choices": ["Soup","Cheese","Honey","Bread"], "answer": 2 },
+        { "q": "Which animal says 'baa'?", "choices": ["Cow","Sheep","Dog","Cat"], "answer": 1 },
+        { "q": "How many legs does an ant have?", "choices": ["Eight","Six","Two","Four"], "answer": 1 },
+        { "q": "What is the opposite of day?", "choices": ["Sunset","Night","Morning","Noon"], "answer": 1 },
+        { "q": "What is 10 minus 1?", "choices": ["11","9","8","10"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Bird is to Nest as Bee is to:", "choices": ["Burrow","Hive","Den","Web"], "answer": 1 },
-        { "q": "What is 25% of 80?", "choices": ["18","24","16","20"], "answer": 3 },
-        { "q": "Which does NOT belong? Salmon, Trout, Frog, Cod.", "choices": ["Cod","Salmon","Frog","Trout"], "answer": 2 },
-        { "q": "What gas do humans need to breathe to survive?", "choices": ["Nitrogen","Oxygen","Helium","Carbon Dioxide"], "answer": 1 },
-        { "q": "What is 9 x 6?", "choices": ["63","54","56","45"], "answer": 1 },
-        { "q": "What is 16 × 24?", "choices": ["364","374","384","394"], "answer": 2 },
-        { "q": "Which does NOT belong? Cello, Viola, Double bass, Trombone.", "choices": ["Viola","Trombone","Cello","Double bass"], "answer": 1 },
-        { "q": "Seven identical items cost $17.50. What do twelve cost?", "choices": ["$30.00","$24.00","$28.00","$26.50"], "answer": 0 },
-        { "q": "From 4, 9, 2, 7, 12, 5, 6 — how many values are divisible by 3?", "choices": ["5","3","4","2"], "answer": 1 },
-        { "q": "Which planet is closest to the Sun?", "choices": ["Mars","Earth","Mercury","Venus"], "answer": 2 }
+        { "q": "What is the largest planet in our solar system?", "choices": ["Mars","Earth","Jupiter","Saturn"], "answer": 2 },
+        { "q": "Which does NOT belong? Violin, Cello, Trumpet, Viola.", "choices": ["Violin","Viola","Cello","Trumpet"], "answer": 3 },
+        { "q": "What is 144 divided by 12?", "choices": ["10","14","11","12"], "answer": 3 },
+        { "q": "What is 12 x 7?", "choices": ["74","94","84","82"], "answer": 2 },
+        { "q": "Kitten is to Cat as Puppy is to:", "choices": ["Foal","Dog","Cub","Wolf"], "answer": 1 },
+        { "q": "Chef is to Kitchen as Pilot is to ___?", "choices": ["Runway","Sky","Airport","Cockpit"], "answer": 3 },
+        { "q": "Bird is to Flock as Crow is to ___.", "choices": ["Murder","School","Pod","Gaggle"], "answer": 0 },
+        { "q": "What is 40% of 150?", "choices": ["65","60","55","50"], "answer": 1 },
+        { "q": "Which does NOT belong? Maple, Oak, Birch, Trout.", "choices": ["Birch","Oak","Trout","Maple"], "answer": 2 },
+        { "q": "Sort CAT, DOG, BIRD, EMU, FOX alphabetically. Which word is now third?", "choices": ["CAT","BIRD","EMU","DOG"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Take the list [17, 4, 29, 8, 15, 2]. Sort it in descending order, then reverse that order. In the resulting list, what is the sum of the 2nd and 4th elements (1-indexed)?", "choices": ["17","23","25","19"], "answer": 3 },
-        { "q": "All Drennits are Kayo. No Kayo are Vesp. Therefore:", "choices": ["No Drennits are Vesp.","All Vesp are Drennits.","All Drennits are Vesp.","Some Drennits are Vesp."], "answer": 0 },
-        { "q": "A bag contains 4 red balls, 3 blue balls, and 5 green balls. Two balls are drawn at random without replacement. What is the probability both are green?", "choices": ["5/34","25/144","1/6","5/33"], "answer": 3 },
-        { "q": "A jacket costs $80. It is marked up 25%, then discounted 20% at checkout. What is the final price?", "choices": ["$100","$80","$76","$84"], "answer": 1 },
-        { "q": "Which word is closest in meaning to 'ephemeral'?", "choices": ["Solid","Ancient","Everlasting","Fleeting"], "answer": 3 },
-        { "q": "All squares are rectangles. No rectangles are triangles. Therefore:", "choices": ["No squares are triangles","All rectangles are squares","Some squares are triangles","All triangles are squares"], "answer": 0 },
-        { "q": "If log₃(x) = 4, what is x?", "choices": ["27","64","81","243"], "answer": 2 },
-        { "q": "Solipsism is to external reality as scepticism is to ___.", "choices": ["Certainty","Knowledge","Faith","Doubt"], "answer": 1 },
-        { "q": "A television costs $600. It is discounted 15%, then sales tax of 8% is added. What is the final price?", "choices": ["$550.80","$540.00","$561.60","$516.00"], "answer": 0 },
-        { "q": "What is 17.5% of 640?", "choices": ["128","96","104","112"], "answer": 3 }
+        { "q": "All Zeppos are Woggles. Some Woggles are Trimbles. Therefore:", "choices": ["No valid conclusion can be drawn.","All Zeppos are Trimbles.","Some Zeppos are Trimbles.","All Trimbles are Zeppos."], "answer": 0 },
+        { "q": "A password has 40 characters. First 25% of the characters are removed, then 20% of what remains is removed. How many characters remain?", "choices": ["24","26","22","20"], "answer": 0 },
+        { "q": "Which word is closest in meaning to 'obfuscate'?", "choices": ["Illuminate","Clarify","Simplify","Obscure"], "answer": 3 },
+        { "q": "Take the list [12, 45, 3, 78, 29, 6]. Sort it in ascending order. What is the product of the 3rd and 5th elements (1-indexed)?", "choices": ["540","585","522","348"], "answer": 0 },
+        { "q": "A bag has 6 red and 4 blue marbles. Two are drawn at random without replacement. What is the probability both are red?", "choices": ["2/5","5/9","3/5","1/3"], "answer": 3 },
+        { "q": "Sagacious most nearly means:", "choices": ["Easily confused","Showing keen judgement","Habitually secretive","Outwardly charming"], "answer": 1 },
+        { "q": "A jacket costs $250. It's marked up 20%, then discounted 10% off the new price. What is the final price?", "choices": ["$275","$260","$265","$270"], "answer": 3 },
+        { "q": "A bag has 6 red and 4 green marbles. Two are drawn without replacement. What is P(both green)?", "choices": ["1/5","2/15","3/10","4/25"], "answer": 1 },
+        { "q": "What is the remainder when 3¹⁰¹ is divided by 7?", "choices": ["6","1","3","5"], "answer": 3 },
+        { "q": "Perspicacious is to Obtuse as Munificent is to ___.", "choices": ["Magnanimous","Prodigal","Niggardly","Affluent"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A satellite orbits Earth in a circular orbit of radius r. By Kepler's third law (T² ∝ r³), if the orbital radius is doubled, by what factor does the orbital period increase?", "choices": ["2√2","√2","2","4"], "answer": 0 },
-        { "q": "Which of the following is logically equivalent to the material implication P → Q?", "choices": ["¬P ∨ Q","P ∧ ¬Q","¬P ∧ Q","P ∨ ¬Q"], "answer": 0 },
-        { "q": "What is the derivative of f(x) = x² ln(x) for x > 0?", "choices": ["2x ln x + x","2x ln x","2 ln x + x","x ln x + x"], "answer": 0 },
-        { "q": "What is the time complexity of building a binary heap from an unsorted array of n elements using the standard bottom-up heapify algorithm?", "choices": ["O(log n)","O(n)","O(n log n)","O(n²)"], "answer": 1 },
-        { "q": "What is the pH of a 0.001 M solution of HCl, assuming full dissociation?", "choices": ["11","3","2","4"], "answer": 1 },
-        { "q": "What is the oxidation state of phosphorus in phosphoric acid, H₃PO₄?", "choices": ["+3","+4","+5","+7"], "answer": 2 },
-        { "q": "The work function of a metal is 2.0 eV. What is the maximum kinetic energy of photoelectrons ejected by light of energy 3.5 eV?", "choices": ["1.0 eV","1.5 eV","3.5 eV","2.0 eV"], "answer": 1 },
-        { "q": "A 3 kg object moving at 6 m/s collides perfectly inelastically with a stationary 1 kg object. What is their common velocity after the collision?", "choices": ["6 m/s","4 m/s","3 m/s","4.5 m/s"], "answer": 3 },
-        { "q": "What is the derivative of x²eˣ with respect to x?", "choices": ["2x·eˣ","eˣ·x²","eˣ(x² + 2)","eˣ(x² + 2x)"], "answer": 3 },
-        { "q": "The relativistic energy–momentum relation is:", "choices": ["E = pc/√(1 − v²/c²)","E = mc² + pc","E² = (pc)² − (mc²)²","E² = (pc)² + (mc²)²"], "answer": 3 }
+        { "q": "Balance the combustion of propane: C3H8 + __ O2 → 3 CO2 + 4 H2O. What coefficient belongs in the blank?", "choices": ["7","3","4","5"], "answer": 3 },
+        { "q": "What is the correct negation of the statement '∀x (P(x) → Q(x))'?", "choices": ["∃x (P(x) ∧ ¬Q(x))","∀x (¬P(x) ∨ Q(x))","∃x (¬P(x) ∧ Q(x))","∀x (¬P(x) ∧ ¬Q(x))"], "answer": 0 },
+        { "q": "What is the worst-case time complexity of quicksort when the pivot is always chosen as the first element of an already-sorted array?", "choices": ["O(n)","O(n log n)","O(n²)","O(2ⁿ)"], "answer": 2 },
+        { "q": "What is the value of the definite integral of x·e^x dx from 0 to 1?", "choices": ["1","e","2","e − 1"], "answer": 0 },
+        { "q": "A ball is thrown vertically upward with initial speed 20 m/s (g = 10 m/s²). How long until it returns to its launch height?", "choices": ["5 s","2 s","10 s","4 s"], "answer": 3 },
+        { "q": "The second derivative of sin(x) is:", "choices": ["sin(x)","−cos(x)","cos(x)","−sin(x)"], "answer": 3 },
+        { "q": "For a normal distribution, what proportion of the population lies within one standard deviation of the mean?", "choices": ["≈50%","≈95%","≈99.7%","≈68%"], "answer": 3 },
+        { "q": "The escape velocity from a spherical body of mass M and radius R is:", "choices": ["√(GM/R²)","2GM/R²","√(2GM/R)","√(GM/R)"], "answer": 2 },
+        { "q": "What is the time complexity of Prim's algorithm using a binary heap and adjacency list, for a graph with V vertices and E edges?", "choices": ["O(V log E)","O(E + V)","O(V²)","O(E log V)"], "answer": 3 },
+        { "q": "The time complexity of the Fast Fourier Transform on n points is:", "choices": ["O(n²)","O(log n)","O(n)","O(n log n)"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A small college has 10 classes: nine classes have 10 students each, and one large lecture has 100 students. The registrar computes the average class size as (9×10 + 100) ÷ 10 = 19 students. If instead you ask a randomly chosen student how many people are in their class and average all the answers, what do you get?", "choices": ["About 57, much higher, because far more students sit in the large class","About 100, the size of the largest class","About 29","About 19, the same as the registrar's figure"], "answer": 0 },
-        { "q": "You flip a fair coin repeatedly until you get three heads in a row (HHH). What is the expected number of flips this takes?", "choices": ["14","8","12","6"], "answer": 0 },
-        { "q": "A large hospital averages about 45 births a day; a small hospital averages about 15 births a day. Over a year, which hospital is more likely to record a day on which more than 60% of the births were boys?", "choices": ["Both equally likely, since the sex ratio is 50/50 regardless of sample size","The large hospital, because it records more births overall","The small hospital, because smaller samples fluctuate further from 50%","It cannot be determined without knowing the exact daily counts"], "answer": 2 },
-        { "q": "A plane flies at a constant airspeed through a constant wind, from city A to city B and then straight back to city A along the same path. Compared to a completely windless day, does the round trip take the same time, more time, or less time?", "choices": ["Exactly the same time, since the headwind and tailwind cancel out","Less time, because the average ground speed is higher","More time than on a windless day","It depends on the wind's direction relative to the flight path"], "answer": 2 },
-        { "q": "Three boxes are labeled 'Apples', 'Oranges', and 'Apples & Oranges'. You are told all three labels are wrong. You may draw exactly one fruit from exactly one box, without looking inside, and must then correctly relabel all three boxes. Which box should you draw from?", "choices": ["The box labeled 'Apples & Oranges'","It cannot be done with only one draw","The box labeled 'Oranges'","The box labeled 'Apples'"], "answer": 0 },
-        { "q": "If you flip a fair coin repeatedly, which takes longer on average: waiting for the pattern HH to appear, or waiting for the pattern HT to appear?", "choices": ["HH takes longer on average (expected 6 flips vs 4)","HT takes longer on average (expected 6 flips vs 4)","They take exactly the same expected number of flips","It depends on which pattern you flip first"], "answer": 0 },
-        { "q": "100 prisoners, each assigned a unique number 1-100, must each find their own number among 100 boxes by opening at most 50 boxes (the room is reset between prisoners; no communication once it starts). If every prisoner follows the strategy 'open the box matching my number, then open the box matching the number found inside, and repeat,' what is the approximate probability that all 100 prisoners succeed?", "choices": ["≈50%","essentially 0% (about 0.5¹⁰⁰)","100% — the strategy is guaranteed","≈31%"], "answer": 3 },
-        { "q": "If you have 3 apples and you take away 2, how many do you have?", "choices": ["0","3","1","2"], "answer": 3 },
-        { "q": "Three prisoners each have a hat that is independently red or blue with 50% probability. Each can see the other two hats but not their own, and all three must simultaneously guess their own hat colour or pass. They win only if at least one guesses and everyone who guesses is correct. Using the optimal strategy — guess the opposite colour of what you see if the other two hats match, otherwise pass — what is their probability of winning?", "choices": ["1/8","1/2","3/4","7/8"], "answer": 2 },
-        { "q": "What number continues the sequence: 8, 5, 4, 9, 1, 7, 6, ?, 2", "choices": ["0","10","3","11"], "answer": 2 }
+        { "q": "A puzzle defines a number as 'the smallest positive integer not describable in under twenty English words' — but that very definition describes the number in fewer than twenty words. This self-referential contradiction is known as:", "choices": ["The Berry paradox","The Halting problem","The Liar paradox","Russell's paradox"], "answer": 0 },
+        { "q": "In your dating pool, extremely attractive people seem to have worse personalities, and vice versa — even though attractiveness and personality are completely uncorrelated in the general population. What best explains this apparent negative correlation?", "choices": ["Selection bias: you only consider people who clear a minimum combined-desirability bar, so within that selected group, low value in one trait requires high value in the other, creating an artificial negative correlation (Berkson's paradox).","The correlation is real and holds in the general population too, not just your dating pool.","Unattractive people are nicer because they compensate for their looks.","Attractive people become unpleasant because they get away with more."], "answer": 0 },
+        { "q": "A father leaves 17 camels to his three sons: the eldest gets half, the second gets a third, and the youngest gets a ninth — numbers that don't divide 17 evenly. A wise elder lends them one camel to solve it. What happens?", "choices": ["They now have 18 camels: the sons take 9, 6, and 2 camels respectively (17 total), and the elder takes back the borrowed camel.","The problem has no valid solution and the will is voided by the court.","The 17 camels are simply divided into three equal groups after rounding.","They now have 18 camels: the sons take 9, 6, and 3 camels respectively, and the elder keeps the borrowed camel as payment."], "answer": 0 },
+        { "q": "Removing one grain of sand from a heap never turns it into a 'non-heap' — one grain can't matter. Repeating this one grain at a time eventually removes the whole heap, yet each step seemed valid. What does this ancient puzzle (the Sorites paradox) actually demonstrate?", "choices": ["That heaps do not really exist as objects.","That mathematical induction is invalid for physical objects.","That the correct definition of a heap is exactly 10,000 grains.","That vague predicates like 'heap' have no sharp boundary, so a chain of individually plausible small steps can lead to an absurd conclusion."], "answer": 3 },
+        { "q": "I begin with the letter 'E', I end with the letter 'E', but I only contain one letter. What am I?", "choices": ["Ember","Empire","Eye","Envelope"], "answer": 3 },
+        { "q": "A man pushes his car and stops at a hotel. He shouts, 'I'm bankrupt!' What is happening?", "choices": ["He is playing Monopoly","His car ran out of fuel","He lost a bet with the hotel","The hotel overcharged him"], "answer": 0 },
+        { "q": "How many people must be in a room before the chance that two share a birthday exceeds 50%?", "choices": ["50","23","183","366"], "answer": 1 },
+        { "q": "How many people must be in a room before there is a greater than 50% chance that at least one of them shares your exact birthday (not just any two people sharing a birthday with each other)?", "choices": ["23","183","365","253"], "answer": 3 },
+        { "q": "Before Mount Everest was discovered, what was the tallest mountain on Earth?", "choices": ["K2","Kangchenjunga","Mont Blanc","Mount Everest"], "answer": 3 },
+        { "q": "Two fair six-sided dice are rolled. You're told at least one of them shows a 6. What is the probability that the other die also shows a 6?", "choices": ["1/6","1/11","1/36","1/2"], "answer": 1 }
       ]
     }
   ]
