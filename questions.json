@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What do cows give us to drink?", "choices": ["Soda","Water","Milk","Juice"], "answer": 2 },
-        { "q": "What do spiders spin?", "choices": ["Nests","Burrows","Webs","Hives"], "answer": 2 },
-        { "q": "What color is the sky on a clear day?", "choices": ["Red","Purple","Green","Blue"], "answer": 3 },
-        { "q": "What is the opposite of 'hot'?", "choices": ["Big","Cold","Warm","Wet"], "answer": 1 },
-        { "q": "What shape has 4 equal sides?", "choices": ["Oval","Square","Triangle","Circle"], "answer": 1 },
-        { "q": "What do bees make?", "choices": ["Soup","Cheese","Honey","Bread"], "answer": 2 },
-        { "q": "Which animal says 'baa'?", "choices": ["Cow","Sheep","Dog","Cat"], "answer": 1 },
-        { "q": "How many legs does an ant have?", "choices": ["Eight","Six","Two","Four"], "answer": 1 },
-        { "q": "What is the opposite of day?", "choices": ["Sunset","Night","Morning","Noon"], "answer": 1 },
-        { "q": "What is 10 minus 1?", "choices": ["11","9","8","10"], "answer": 1 }
+        { "q": "What is the opposite of 'clean'?", "choices": ["Wet","Dirty","Neat","Shiny"], "answer": 1 },
+        { "q": "How many wheels does a skateboard have?", "choices": ["Two","Three","Six","Four"], "answer": 3 },
+        { "q": "How many wheels does a wheelbarrow have?", "choices": ["Three","Four","Two","One"], "answer": 3 },
+        { "q": "What do you use to stay dry in the rain?", "choices": ["Scarf","Umbrella","Sunglasses","Hat"], "answer": 1 },
+        { "q": "Which animal has a hump on its back?", "choices": ["Camel","Horse","Dog","Cow"], "answer": 0 },
+        { "q": "What colour is the sky on a clear day?", "choices": ["Brown","Red","Green","Blue"], "answer": 3 },
+        { "q": "How many legs does a cow have?", "choices": ["Six","Four","Two","Eight"], "answer": 1 },
+        { "q": "Which animal says 'hiss'?", "choices": ["Cow","Cat","Snake","Dog"], "answer": 2 },
+        { "q": "What is 4 + 4?", "choices": ["9","6","7","8"], "answer": 3 },
+        { "q": "What do you wear when it rains?", "choices": ["Swimsuit","Sunglasses","Mittens","Raincoat"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the largest planet in our solar system?", "choices": ["Mars","Earth","Jupiter","Saturn"], "answer": 2 },
-        { "q": "Which does NOT belong? Violin, Cello, Trumpet, Viola.", "choices": ["Violin","Viola","Cello","Trumpet"], "answer": 3 },
-        { "q": "What is 144 divided by 12?", "choices": ["10","14","11","12"], "answer": 3 },
-        { "q": "What is 12 x 7?", "choices": ["74","94","84","82"], "answer": 2 },
-        { "q": "Kitten is to Cat as Puppy is to:", "choices": ["Foal","Dog","Cub","Wolf"], "answer": 1 },
-        { "q": "Chef is to Kitchen as Pilot is to ___?", "choices": ["Runway","Sky","Airport","Cockpit"], "answer": 3 },
-        { "q": "Bird is to Flock as Crow is to ___.", "choices": ["Murder","School","Pod","Gaggle"], "answer": 0 },
-        { "q": "What is 40% of 150?", "choices": ["65","60","55","50"], "answer": 1 },
-        { "q": "Which does NOT belong? Maple, Oak, Birch, Trout.", "choices": ["Birch","Oak","Trout","Maple"], "answer": 2 },
-        { "q": "Sort CAT, DOG, BIRD, EMU, FOX alphabetically. Which word is now third?", "choices": ["CAT","BIRD","EMU","DOG"], "answer": 3 }
+        { "q": "What is 18% of 150?", "choices": ["27","25","24","30"], "answer": 0 },
+        { "q": "Library is to Books as Museum is to ___.", "choices": ["Books","Exhibits","Music","Paintings"], "answer": 1 },
+        { "q": "Which does not belong? Paris, London, Berlin, Africa.", "choices": ["Paris","London","Berlin","Africa"], "answer": 3 },
+        { "q": "Which of these is a primary color?", "choices": ["Red","Green","Orange","Purple"], "answer": 0 },
+        { "q": "What is the freezing point of water in Celsius?", "choices": ["100°C","0°C","10°C","-10°C"], "answer": 1 },
+        { "q": "Which word is closest in meaning to 'Elated'?", "choices": ["Wary","Fatigued","Composed","Jubilant"], "answer": 3 },
+        { "q": "What is 51² − 49²?", "choices": ["200","1,000","400","100"], "answer": 0 },
+        { "q": "What is 19 × 34?", "choices": ["636","656","626","646"], "answer": 3 },
+        { "q": "Which is the only true berry? Strawberry, Raspberry, Blackberry, Blueberry.", "choices": ["Raspberry","Blackberry","Strawberry","Blueberry"], "answer": 3 },
+        { "q": "Sculptor is to Marble as Potter is to ___?", "choices": ["Wheel","Glaze","Kiln","Clay"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "All Zeppos are Woggles. Some Woggles are Trimbles. Therefore:", "choices": ["No valid conclusion can be drawn.","All Zeppos are Trimbles.","Some Zeppos are Trimbles.","All Trimbles are Zeppos."], "answer": 0 },
-        { "q": "A password has 40 characters. First 25% of the characters are removed, then 20% of what remains is removed. How many characters remain?", "choices": ["24","26","22","20"], "answer": 0 },
-        { "q": "Which word is closest in meaning to 'obfuscate'?", "choices": ["Illuminate","Clarify","Simplify","Obscure"], "answer": 3 },
-        { "q": "Take the list [12, 45, 3, 78, 29, 6]. Sort it in ascending order. What is the product of the 3rd and 5th elements (1-indexed)?", "choices": ["540","585","522","348"], "answer": 0 },
-        { "q": "A bag has 6 red and 4 blue marbles. Two are drawn at random without replacement. What is the probability both are red?", "choices": ["2/5","5/9","3/5","1/3"], "answer": 3 },
-        { "q": "Sagacious most nearly means:", "choices": ["Easily confused","Showing keen judgement","Habitually secretive","Outwardly charming"], "answer": 1 },
-        { "q": "A jacket costs $250. It's marked up 20%, then discounted 10% off the new price. What is the final price?", "choices": ["$275","$260","$265","$270"], "answer": 3 },
-        { "q": "A bag has 6 red and 4 green marbles. Two are drawn without replacement. What is P(both green)?", "choices": ["1/5","2/15","3/10","4/25"], "answer": 1 },
-        { "q": "What is the remainder when 3¹⁰¹ is divided by 7?", "choices": ["6","1","3","5"], "answer": 3 },
-        { "q": "Perspicacious is to Obtuse as Munificent is to ___.", "choices": ["Magnanimous","Prodigal","Niggardly","Affluent"], "answer": 2 }
+        { "q": "A shirt costs $80. It's discounted by 25%, then a 10% tax is added to the discounted price. What is the final price?", "choices": ["$60","$68","$72","$66"], "answer": 3 },
+        { "q": "A box has 5 white and 3 black balls. Two balls are drawn at random without replacement. What is the probability both are white?", "choices": ["1/2","15/28","5/8","5/14"], "answer": 3 },
+        { "q": "All wizards are scholars. No scholars are fools. Therefore:", "choices": ["Some wizards are fools.","No wizards are fools.","No scholars are wizards.","All wizards are fools."], "answer": 1 },
+        { "q": "Take the list [8, 15, 3, 22, 11, 7]. Reverse it. What is the sum of the 2nd and 4th elements (1-indexed)?", "choices": ["14","33","18","25"], "answer": 0 },
+        { "q": "Take the list [34, 12, 89, 45, 6, 71]. Filter out values greater than 40, then sort the remaining values in descending order. What is the 2nd element?", "choices": ["34","6","12","45"], "answer": 2 },
+        { "q": "A bag has 7 red and 3 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["21/50","7/10","7/15","7/9"], "answer": 2 },
+        { "q": "Sanguine is to Pessimistic as Phlegmatic is to ___.", "choices": ["Excitable","Hostile","Optimistic","Calm"], "answer": 0 },
+        { "q": "Obfuscate most nearly means:", "choices": ["To simplify","To make unclear","To celebrate","To clarify"], "answer": 1 },
+        { "q": "A bag has 9 red and 3 blue marbles. Two are drawn without replacement. What is P(both blue)?", "choices": ["3/12","1/22","1/11","1/4"], "answer": 1 },
+        { "q": "A bag has 8 white and 2 black balls. Two are drawn without replacement. What is P(both white)?", "choices": ["7/10","4/5","28/45","14/45"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "Balance the combustion of propane: C3H8 + __ O2 → 3 CO2 + 4 H2O. What coefficient belongs in the blank?", "choices": ["7","3","4","5"], "answer": 3 },
-        { "q": "What is the correct negation of the statement '∀x (P(x) → Q(x))'?", "choices": ["∃x (P(x) ∧ ¬Q(x))","∀x (¬P(x) ∨ Q(x))","∃x (¬P(x) ∧ Q(x))","∀x (¬P(x) ∧ ¬Q(x))"], "answer": 0 },
-        { "q": "What is the worst-case time complexity of quicksort when the pivot is always chosen as the first element of an already-sorted array?", "choices": ["O(n)","O(n log n)","O(n²)","O(2ⁿ)"], "answer": 2 },
-        { "q": "What is the value of the definite integral of x·e^x dx from 0 to 1?", "choices": ["1","e","2","e − 1"], "answer": 0 },
-        { "q": "A ball is thrown vertically upward with initial speed 20 m/s (g = 10 m/s²). How long until it returns to its launch height?", "choices": ["5 s","2 s","10 s","4 s"], "answer": 3 },
-        { "q": "The second derivative of sin(x) is:", "choices": ["sin(x)","−cos(x)","cos(x)","−sin(x)"], "answer": 3 },
-        { "q": "For a normal distribution, what proportion of the population lies within one standard deviation of the mean?", "choices": ["≈50%","≈95%","≈99.7%","≈68%"], "answer": 3 },
-        { "q": "The escape velocity from a spherical body of mass M and radius R is:", "choices": ["√(GM/R²)","2GM/R²","√(2GM/R)","√(GM/R)"], "answer": 2 },
-        { "q": "What is the time complexity of Prim's algorithm using a binary heap and adjacency list, for a graph with V vertices and E edges?", "choices": ["O(V log E)","O(E + V)","O(V²)","O(E log V)"], "answer": 3 },
-        { "q": "The time complexity of the Fast Fourier Transform on n points is:", "choices": ["O(n²)","O(log n)","O(n)","O(n log n)"], "answer": 3 }
+        { "q": "A wheel starts at rest and accelerates uniformly to an angular velocity of 20 rad/s in 4 seconds. What is its angular acceleration?", "choices": ["80 rad/s²","5 rad/s²","20 rad/s²","4 rad/s²"], "answer": 1 },
+        { "q": "Given: P → Q. ¬Q is true. What can be validly concluded?", "choices": ["Q","¬P","P","Nothing can be concluded"], "answer": 1 },
+        { "q": "What is the time complexity of the Floyd-Warshall all-pairs shortest path algorithm on a graph with V vertices?", "choices": ["O(V³)","O(V log V)","O(V²)","O(V² log V)"], "answer": 0 },
+        { "q": "How many electrons are in a neutral atom of iron (Fe, atomic number 26)?", "choices": ["30","24","26","28"], "answer": 2 },
+        { "q": "What is the derivative of f(x) = x³ln(x) with respect to x?", "choices": ["3x²ln(x) + x²","x²ln(x) + x²","3x²ln(x) + x³","3x²ln(x)"], "answer": 0 },
+        { "q": "The derivative of sec(x) with respect to x is:", "choices": ["sec²(x)","tan(x)","−csc(x)cot(x)","sec(x)tan(x)"], "answer": 3 },
+        { "q": "How many derangements (permutations with no element in its original position) are there of a 4-element set?", "choices": ["6","9","24","15"], "answer": 1 },
+        { "q": "How much heat energy (in kJ) is required to raise the temperature of 500 g of water by 10°C? (specific heat of water = 4.18 J/g·°C)", "choices": ["20.9 kJ","41.8 kJ","2.09 kJ","209 kJ"], "answer": 0 },
+        { "q": "The Lorentz factor γ for a body moving at v = 0.6c is:", "choices": ["1.33","1.25","1.20","1.50"], "answer": 1 },
+        { "q": "A 0.2 kg mass moves in a horizontal circle of radius 0.5 m at a constant speed of 4 m/s. What is the centripetal force acting on it?", "choices": ["12.8 N","6.4 N","1.6 N","3.2 N"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A puzzle defines a number as 'the smallest positive integer not describable in under twenty English words' — but that very definition describes the number in fewer than twenty words. This self-referential contradiction is known as:", "choices": ["The Berry paradox","The Halting problem","The Liar paradox","Russell's paradox"], "answer": 0 },
-        { "q": "In your dating pool, extremely attractive people seem to have worse personalities, and vice versa — even though attractiveness and personality are completely uncorrelated in the general population. What best explains this apparent negative correlation?", "choices": ["Selection bias: you only consider people who clear a minimum combined-desirability bar, so within that selected group, low value in one trait requires high value in the other, creating an artificial negative correlation (Berkson's paradox).","The correlation is real and holds in the general population too, not just your dating pool.","Unattractive people are nicer because they compensate for their looks.","Attractive people become unpleasant because they get away with more."], "answer": 0 },
-        { "q": "A father leaves 17 camels to his three sons: the eldest gets half, the second gets a third, and the youngest gets a ninth — numbers that don't divide 17 evenly. A wise elder lends them one camel to solve it. What happens?", "choices": ["They now have 18 camels: the sons take 9, 6, and 2 camels respectively (17 total), and the elder takes back the borrowed camel.","The problem has no valid solution and the will is voided by the court.","The 17 camels are simply divided into three equal groups after rounding.","They now have 18 camels: the sons take 9, 6, and 3 camels respectively, and the elder keeps the borrowed camel as payment."], "answer": 0 },
-        { "q": "Removing one grain of sand from a heap never turns it into a 'non-heap' — one grain can't matter. Repeating this one grain at a time eventually removes the whole heap, yet each step seemed valid. What does this ancient puzzle (the Sorites paradox) actually demonstrate?", "choices": ["That heaps do not really exist as objects.","That mathematical induction is invalid for physical objects.","That the correct definition of a heap is exactly 10,000 grains.","That vague predicates like 'heap' have no sharp boundary, so a chain of individually plausible small steps can lead to an absurd conclusion."], "answer": 3 },
-        { "q": "I begin with the letter 'E', I end with the letter 'E', but I only contain one letter. What am I?", "choices": ["Ember","Empire","Eye","Envelope"], "answer": 3 },
-        { "q": "A man pushes his car and stops at a hotel. He shouts, 'I'm bankrupt!' What is happening?", "choices": ["He is playing Monopoly","His car ran out of fuel","He lost a bet with the hotel","The hotel overcharged him"], "answer": 0 },
-        { "q": "How many people must be in a room before the chance that two share a birthday exceeds 50%?", "choices": ["50","23","183","366"], "answer": 1 },
-        { "q": "How many people must be in a room before there is a greater than 50% chance that at least one of them shares your exact birthday (not just any two people sharing a birthday with each other)?", "choices": ["23","183","365","253"], "answer": 3 },
-        { "q": "Before Mount Everest was discovered, what was the tallest mountain on Earth?", "choices": ["K2","Kangchenjunga","Mont Blanc","Mount Everest"], "answer": 3 },
-        { "q": "Two fair six-sided dice are rolled. You're told at least one of them shows a 6. What is the probability that the other die also shows a 6?", "choices": ["1/6","1/11","1/36","1/2"], "answer": 1 }
+        { "q": "On the Moon, there is no atmosphere and thus no air resistance. If you drop a hammer and a feather from the same height at the same time, which hits the ground first?", "choices": ["The feather","The hammer","It depends on their masses","They land at the same time"], "answer": 3 },
+        { "q": "A rope is tied snugly around the Earth's equator (treat the Earth as a perfect sphere). If you add exactly 1 extra meter to the rope's length and lift it so it forms a larger circle at a uniform height above the ground all the way around, how high off the ground would the rope be (to the nearest cm)?", "choices": ["About 1.6 km","About 16 cm","It depends on Earth's radius, which isn't given","About 1.6 mm"], "answer": 1 },
+        { "q": "A woman has 7 daughters. Each daughter has exactly one brother. How many children does the woman have in total?", "choices": ["7","15","14","8"], "answer": 3 },
+        { "q": "A classic puzzle cuts an 8×8 square (area 64) into 4 pieces and rearranges them into a 5×13 rectangle (area 65) — using the exact same four pieces. Since area cannot actually appear from nowhere, what is really going on?", "choices": ["One of the four pieces is quietly resized between the two arrangements.","The four pieces don't perfectly form a true rectangle — a thin sliver-shaped gap along the diagonal, invisible at normal drawing scale, accounts for the 'missing' unit of area.","Area is not conserved when flat shapes are cut and rigidly rearranged.","The original square doesn't actually measure exactly 8×8; rounding in the drawing causes the discrepancy."], "answer": 1 },
+        { "q": "Cheryl tells Albert and Bernard that her birthday is one of: May 15, May 16, May 19, June 17, June 18, July 14, July 16, August 14, August 15, August 17. She tells Albert only the month and Bernard only the day. Albert says: 'I don't know when Cheryl's birthday is, but I know Bernard doesn't know either.' Bernard then says: 'At first I didn't know, but now I do.' Albert then says: 'Now I know too.' What is Cheryl's birthday?", "choices": ["May 16","July 14","August 15","July 16"], "answer": 3 },
+        { "q": "In a single round of the Prisoner's Dilemma, two purely rational, self-interested players cannot communicate or retaliate later. Mutual cooperation would leave both better off than mutual defection. What does classical game theory say two such rational players will actually do?", "choices": ["Each randomizes 50/50 between cooperating and defecting","They split — one cooperates while the other defects","Both will cooperate, since cooperation is the jointly optimal choice","Both will defect — defection dominates cooperation for each player individually, even though it leaves them both worse off"], "answer": 3 },
+        { "q": "Which is more likely: rolling at least one 6 in four rolls of a fair die, or rolling at least one double-six in twenty-four rolls of a pair of fair dice?", "choices": ["At least one double-six in twenty-four rolls of two dice","Neither — both have zero probability","They are exactly equally likely","At least one 6 in four rolls of a die"], "answer": 3 },
+        { "q": "Linda is 31, single, outspoken, and deeply concerned with issues of social justice. Based on probability alone, which is more likely to be true of her?", "choices": ["She is a bank teller who is active in the feminist movement","There is not enough information to say","She is a bank teller","Both are equally likely"], "answer": 2 },
+        { "q": "A game show has 100 doors: 1 hides a car, 99 hide goats. You pick one door. The host, who knows what's behind each door, then opens 98 of the remaining doors, all revealing goats, leaving your door and exactly one other closed. If you switch to that other door, what is your probability of winning the car?", "choices": ["1/2","1/100","1/99","99/100"], "answer": 3 },
+        { "q": "A plane crashes exactly on the border between two countries. Where are the survivors buried?", "choices": ["Whichever country they were citizens of","Nowhere — survivors are not buried","The nearer country","Split between both countries"], "answer": 1 }
       ]
     }
   ]
