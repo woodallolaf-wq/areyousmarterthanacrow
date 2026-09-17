@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What is the opposite of 'clean'?", "choices": ["Wet","Dirty","Neat","Shiny"], "answer": 1 },
-        { "q": "How many wheels does a skateboard have?", "choices": ["Two","Three","Six","Four"], "answer": 3 },
-        { "q": "How many wheels does a wheelbarrow have?", "choices": ["Three","Four","Two","One"], "answer": 3 },
-        { "q": "What do you use to stay dry in the rain?", "choices": ["Scarf","Umbrella","Sunglasses","Hat"], "answer": 1 },
-        { "q": "Which animal has a hump on its back?", "choices": ["Camel","Horse","Dog","Cow"], "answer": 0 },
-        { "q": "What colour is the sky on a clear day?", "choices": ["Brown","Red","Green","Blue"], "answer": 3 },
-        { "q": "How many legs does a cow have?", "choices": ["Six","Four","Two","Eight"], "answer": 1 },
-        { "q": "Which animal says 'hiss'?", "choices": ["Cow","Cat","Snake","Dog"], "answer": 2 },
-        { "q": "What is 4 + 4?", "choices": ["9","6","7","8"], "answer": 3 },
-        { "q": "What do you wear when it rains?", "choices": ["Swimsuit","Sunglasses","Mittens","Raincoat"], "answer": 3 }
+        { "q": "What color is a banana?", "choices": ["Red","Yellow","Purple","Green"], "answer": 1 },
+        { "q": "What do you wear over your eyes to block the sun?", "choices": ["Sunglasses","Scarf","Socks","Mittens"], "answer": 0 },
+        { "q": "Which of these is a vegetable?", "choices": ["Orange","Apple","Banana","Carrot"], "answer": 3 },
+        { "q": "What is 5 - 2?", "choices": ["2","4","5","3"], "answer": 3 },
+        { "q": "What color do you get when you mix blue and yellow?", "choices": ["Purple","Orange","Green","Red"], "answer": 2 },
+        { "q": "What do you use to wash your hands?", "choices": ["Pencil","Comb","Soap","Scissors"], "answer": 2 },
+        { "q": "What do you call a baby cow?", "choices": ["Puppy","Chick","Calf","Kitten"], "answer": 2 },
+        { "q": "What do you use to write?", "choices": ["Pencil","Pillow","Plate","Pan"], "answer": 0 },
+        { "q": "What colour is milk?", "choices": ["Purple","Black","White","Green"], "answer": 2 },
+        { "q": "How many legs does a cat have?", "choices": ["2","6","8","4"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is 18% of 150?", "choices": ["27","25","24","30"], "answer": 0 },
-        { "q": "Library is to Books as Museum is to ___.", "choices": ["Books","Exhibits","Music","Paintings"], "answer": 1 },
-        { "q": "Which does not belong? Paris, London, Berlin, Africa.", "choices": ["Paris","London","Berlin","Africa"], "answer": 3 },
-        { "q": "Which of these is a primary color?", "choices": ["Red","Green","Orange","Purple"], "answer": 0 },
-        { "q": "What is the freezing point of water in Celsius?", "choices": ["100°C","0°C","10°C","-10°C"], "answer": 1 },
-        { "q": "Which word is closest in meaning to 'Elated'?", "choices": ["Wary","Fatigued","Composed","Jubilant"], "answer": 3 },
-        { "q": "What is 51² − 49²?", "choices": ["200","1,000","400","100"], "answer": 0 },
-        { "q": "What is 19 × 34?", "choices": ["636","656","626","646"], "answer": 3 },
-        { "q": "Which is the only true berry? Strawberry, Raspberry, Blackberry, Blueberry.", "choices": ["Raspberry","Blackberry","Strawberry","Blueberry"], "answer": 3 },
-        { "q": "Sculptor is to Marble as Potter is to ___?", "choices": ["Wheel","Glaze","Kiln","Clay"], "answer": 3 }
+        { "q": "Which does not belong? Trumpet, Violin, Cello, Guitar.", "choices": ["Cello","Guitar","Trumpet","Violin"], "answer": 2 },
+        { "q": "Finger is to Hand as Toe is to ___.", "choices": ["Foot","Knee","Leg","Ankle"], "answer": 0 },
+        { "q": "Which of these numbers is prime: 21, 33, 47, 51?", "choices": ["47","21","51","33"], "answer": 0 },
+        { "q": "What is 7 x 8?", "choices": ["56","48","64","54"], "answer": 0 },
+        { "q": "What is the past tense of 'go'?", "choices": ["Gone","Goed","Going","Went"], "answer": 3 },
+        { "q": "Which does NOT belong? Frog, Toad, Newt, Sparrow.", "choices": ["Frog","Newt","Toad","Sparrow"], "answer": 3 },
+        { "q": "A recipe needs 5 cups of flour for 18 cookies. How much is needed for 45 cookies?", "choices": ["10 cups","12.5 cups","15 cups","11.5 cups"], "answer": 1 },
+        { "q": "What is the capital of China?", "choices": ["Beijing","Hong Kong","Shanghai","Tokyo"], "answer": 0 },
+        { "q": "Choose the antonym of 'Archaic'.", "choices": ["Obscure","Ornate","Antiquated","Contemporary"], "answer": 3 },
+        { "q": "What is 65% of 180?", "choices": ["112","115","120","117"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A shirt costs $80. It's discounted by 25%, then a 10% tax is added to the discounted price. What is the final price?", "choices": ["$60","$68","$72","$66"], "answer": 3 },
-        { "q": "A box has 5 white and 3 black balls. Two balls are drawn at random without replacement. What is the probability both are white?", "choices": ["1/2","15/28","5/8","5/14"], "answer": 3 },
-        { "q": "All wizards are scholars. No scholars are fools. Therefore:", "choices": ["Some wizards are fools.","No wizards are fools.","No scholars are wizards.","All wizards are fools."], "answer": 1 },
-        { "q": "Take the list [8, 15, 3, 22, 11, 7]. Reverse it. What is the sum of the 2nd and 4th elements (1-indexed)?", "choices": ["14","33","18","25"], "answer": 0 },
-        { "q": "Take the list [34, 12, 89, 45, 6, 71]. Filter out values greater than 40, then sort the remaining values in descending order. What is the 2nd element?", "choices": ["34","6","12","45"], "answer": 2 },
-        { "q": "A bag has 7 red and 3 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["21/50","7/10","7/15","7/9"], "answer": 2 },
-        { "q": "Sanguine is to Pessimistic as Phlegmatic is to ___.", "choices": ["Excitable","Hostile","Optimistic","Calm"], "answer": 0 },
-        { "q": "Obfuscate most nearly means:", "choices": ["To simplify","To make unclear","To celebrate","To clarify"], "answer": 1 },
-        { "q": "A bag has 9 red and 3 blue marbles. Two are drawn without replacement. What is P(both blue)?", "choices": ["3/12","1/22","1/11","1/4"], "answer": 1 },
-        { "q": "A bag has 8 white and 2 black balls. Two are drawn without replacement. What is P(both white)?", "choices": ["7/10","4/5","28/45","14/45"], "answer": 2 }
+        { "q": "A number is increased by 20%, then the result is decreased by 20%. What is the net percentage change from the original number?", "choices": ["Decreases by 4%","Increases by 4%","No change","Decreases by 20%"], "answer": 0 },
+        { "q": "If 3 machines make 3 widgets in 3 minutes, how many minutes would 100 machines take to make 100 widgets?", "choices": ["3 minutes","100 minutes","33 minutes","10 minutes"], "answer": 0 },
+        { "q": "Take the list [17, 42, 8, 63, 29, 4]. Reverse it, then remove the first two elements. What is the sum of what remains?", "choices": ["138","130","146","113"], "answer": 1 },
+        { "q": "Which word means the opposite of 'ephemeral'?", "choices": ["Permanent","Vivid","Fleeting","Transparent"], "answer": 0 },
+        { "q": "A jar has 4 red and 6 blue marbles. Two are drawn at random without replacement. What is the probability both are blue?", "choices": ["2/5","1/3","3/5","1/2"], "answer": 1 },
+        { "q": "How many distinct arrangements are there of the letters in LEVEL?", "choices": ["24","30","60","20"], "answer": 1 },
+        { "q": "Sort F, M, T, B, Q, R alphabetically. Which letter is now 4th?", "choices": ["B","R","Q","M"], "answer": 2 },
+        { "q": "A tablet costs $400. It's marked up 25%, then discounted 20% off the new price. What is the final price?", "choices": ["$420","$400","$440","$380"], "answer": 1 },
+        { "q": "A list is 16, 4, 29, 11, 7, 20. Reverse it, then find the product of the 2nd and 4th values of the result.", "choices": ["203","189","196","210"], "answer": 0 },
+        { "q": "All squares are rhombi. No rhombi are circles. Therefore:", "choices": ["Some squares are circles.","No valid conclusion follows.","No squares are circles.","All circles are squares."], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A wheel starts at rest and accelerates uniformly to an angular velocity of 20 rad/s in 4 seconds. What is its angular acceleration?", "choices": ["80 rad/s²","5 rad/s²","20 rad/s²","4 rad/s²"], "answer": 1 },
-        { "q": "Given: P → Q. ¬Q is true. What can be validly concluded?", "choices": ["Q","¬P","P","Nothing can be concluded"], "answer": 1 },
-        { "q": "What is the time complexity of the Floyd-Warshall all-pairs shortest path algorithm on a graph with V vertices?", "choices": ["O(V³)","O(V log V)","O(V²)","O(V² log V)"], "answer": 0 },
-        { "q": "How many electrons are in a neutral atom of iron (Fe, atomic number 26)?", "choices": ["30","24","26","28"], "answer": 2 },
-        { "q": "What is the derivative of f(x) = x³ln(x) with respect to x?", "choices": ["3x²ln(x) + x²","x²ln(x) + x²","3x²ln(x) + x³","3x²ln(x)"], "answer": 0 },
-        { "q": "The derivative of sec(x) with respect to x is:", "choices": ["sec²(x)","tan(x)","−csc(x)cot(x)","sec(x)tan(x)"], "answer": 3 },
-        { "q": "How many derangements (permutations with no element in its original position) are there of a 4-element set?", "choices": ["6","9","24","15"], "answer": 1 },
-        { "q": "How much heat energy (in kJ) is required to raise the temperature of 500 g of water by 10°C? (specific heat of water = 4.18 J/g·°C)", "choices": ["20.9 kJ","41.8 kJ","2.09 kJ","209 kJ"], "answer": 0 },
-        { "q": "The Lorentz factor γ for a body moving at v = 0.6c is:", "choices": ["1.33","1.25","1.20","1.50"], "answer": 1 },
-        { "q": "A 0.2 kg mass moves in a horizontal circle of radius 0.5 m at a constant speed of 4 m/s. What is the centripetal force acting on it?", "choices": ["12.8 N","6.4 N","1.6 N","3.2 N"], "answer": 1 }
+        { "q": "How many subsets does a set with 6 elements have (including the empty set and the full set)?", "choices": ["64","36","32","720"], "answer": 0 },
+        { "q": "How many grams of NaOH (molar mass 40 g/mol) are needed to prepare 500 mL of a 0.2 M solution?", "choices": ["0.4 g","20 g","40 g","4 g"], "answer": 3 },
+        { "q": "Which of the following is a tautology in propositional logic?", "choices": ["P → Q","P ∨ Q","P ∧ ¬P","P ∨ ¬P"], "answer": 3 },
+        { "q": "A 4 μF capacitor is charged to 12 V. How much energy is stored in it?", "choices": ["576 μJ","2.88 mJ","48 μJ","288 μJ"], "answer": 3 },
+        { "q": "What is d/dx [sin(2x) · eˣ] evaluated at x = 0?", "choices": ["e","0","2","1"], "answer": 2 },
+        { "q": "The de Broglie wavelength of a particle with momentum p is:", "choices": ["p/h","hp","h/p","h/p²"], "answer": 2 },
+        { "q": "Starting from an empty dynamic array (like a C++ vector) that doubles its capacity whenever it fills up, what is the total time complexity of performing n consecutive append operations, from empty?", "choices": ["O(log n)","O(n)","O(n log n)","O(n²)"], "answer": 1 },
+        { "q": "A first-order reaction has a half-life of 20 minutes. What is its rate constant k?", "choices": ["0.0347 min⁻¹","0.0500 min⁻¹","0.1000 min⁻¹","0.0693 min⁻¹"], "answer": 0 },
+        { "q": "A Carnot engine operates between a hot reservoir at 500 K and a cold reservoir at 300 K. What is its maximum theoretical efficiency?", "choices": ["40%","66.7%","60%","20%"], "answer": 0 },
+        { "q": "Gauss's law states that the flux ∮E·dA through a closed surface equals:", "choices": ["Q·ε₀","Q_enc/ε₀","μ₀Q","Q_enc·ε₀/2"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "On the Moon, there is no atmosphere and thus no air resistance. If you drop a hammer and a feather from the same height at the same time, which hits the ground first?", "choices": ["The feather","The hammer","It depends on their masses","They land at the same time"], "answer": 3 },
-        { "q": "A rope is tied snugly around the Earth's equator (treat the Earth as a perfect sphere). If you add exactly 1 extra meter to the rope's length and lift it so it forms a larger circle at a uniform height above the ground all the way around, how high off the ground would the rope be (to the nearest cm)?", "choices": ["About 1.6 km","About 16 cm","It depends on Earth's radius, which isn't given","About 1.6 mm"], "answer": 1 },
-        { "q": "A woman has 7 daughters. Each daughter has exactly one brother. How many children does the woman have in total?", "choices": ["7","15","14","8"], "answer": 3 },
-        { "q": "A classic puzzle cuts an 8×8 square (area 64) into 4 pieces and rearranges them into a 5×13 rectangle (area 65) — using the exact same four pieces. Since area cannot actually appear from nowhere, what is really going on?", "choices": ["One of the four pieces is quietly resized between the two arrangements.","The four pieces don't perfectly form a true rectangle — a thin sliver-shaped gap along the diagonal, invisible at normal drawing scale, accounts for the 'missing' unit of area.","Area is not conserved when flat shapes are cut and rigidly rearranged.","The original square doesn't actually measure exactly 8×8; rounding in the drawing causes the discrepancy."], "answer": 1 },
-        { "q": "Cheryl tells Albert and Bernard that her birthday is one of: May 15, May 16, May 19, June 17, June 18, July 14, July 16, August 14, August 15, August 17. She tells Albert only the month and Bernard only the day. Albert says: 'I don't know when Cheryl's birthday is, but I know Bernard doesn't know either.' Bernard then says: 'At first I didn't know, but now I do.' Albert then says: 'Now I know too.' What is Cheryl's birthday?", "choices": ["May 16","July 14","August 15","July 16"], "answer": 3 },
-        { "q": "In a single round of the Prisoner's Dilemma, two purely rational, self-interested players cannot communicate or retaliate later. Mutual cooperation would leave both better off than mutual defection. What does classical game theory say two such rational players will actually do?", "choices": ["Each randomizes 50/50 between cooperating and defecting","They split — one cooperates while the other defects","Both will cooperate, since cooperation is the jointly optimal choice","Both will defect — defection dominates cooperation for each player individually, even though it leaves them both worse off"], "answer": 3 },
-        { "q": "Which is more likely: rolling at least one 6 in four rolls of a fair die, or rolling at least one double-six in twenty-four rolls of a pair of fair dice?", "choices": ["At least one double-six in twenty-four rolls of two dice","Neither — both have zero probability","They are exactly equally likely","At least one 6 in four rolls of a die"], "answer": 3 },
-        { "q": "Linda is 31, single, outspoken, and deeply concerned with issues of social justice. Based on probability alone, which is more likely to be true of her?", "choices": ["She is a bank teller who is active in the feminist movement","There is not enough information to say","She is a bank teller","Both are equally likely"], "answer": 2 },
-        { "q": "A game show has 100 doors: 1 hides a car, 99 hide goats. You pick one door. The host, who knows what's behind each door, then opens 98 of the remaining doors, all revealing goats, leaving your door and exactly one other closed. If you switch to that other door, what is your probability of winning the car?", "choices": ["1/2","1/100","1/99","99/100"], "answer": 3 },
-        { "q": "A plane crashes exactly on the border between two countries. Where are the survivors buried?", "choices": ["Whichever country they were citizens of","Nowhere — survivors are not buried","The nearer country","Split between both countries"], "answer": 1 }
+        { "q": "Pick any number. Double it. Add 10. Divide the result by 2. Then subtract your original number. What do you get?", "choices": ["10","It depends on the number you picked","5","Half the original number"], "answer": 2 },
+        { "q": "Player X batted .400 in Season 1 and .250 in Season 2, beating Player Y's .350 and .200 in those same two seasons. Yet when both seasons are combined, Player Y's overall batting average is higher. This apparent contradiction is known as:", "choices": ["Simpson's paradox","Regression to the mean","The gambler's fallacy","The base rate fallacy"], "answer": 0 },
+        { "q": "You are outside a room with three switches, only one of which controls a single incandescent bulb inside the room. You may flip the switches as much as you like, but may only open the door and look inside the room once. How can you determine with certainty which switch controls the bulb?", "choices": ["Turn switch 1 on for several minutes, then turn it off, turn switch 2 on, and enter: check both whether the bulb is lit and whether it feels warm","It is impossible to determine which switch controls the bulb with only one visit to the room","Turn all three switches on at once and enter — the lit bulb reveals nothing useful","Flip all three switches on and off once each, then enter and listen for which switch's click is still echoing"], "answer": 0 },
+        { "q": "In a room of 23 people, assuming birthdays are independently and uniformly distributed across 365 days, the probability that at least two people share the same birthday is closest to:", "choices": ["About 99%","About 50%","Less than 1%","About 6%"], "answer": 1 },
+        { "q": "Twin A stays on Earth while Twin B travels away at a large fraction of the speed of light and then returns. According to special relativity, when they are reunited:", "choices": ["Twin A is younger than Twin B","They are exactly the same age, since motion is relative","It cannot be determined without knowing the exact distance traveled","Twin B is younger than Twin A"], "answer": 3 },
+        { "q": "How many letters are in the phrase 'the alphabet'?", "choices": ["12","26","25","11"], "answer": 3 },
+        { "q": "Premise 1: If it rains, the sidewalk gets wet. Premise 2: The sidewalk is wet. Many people conclude it must have rained. Is that conclusion logically valid?", "choices": ["Yes, but only if it's currently cloudy","Yes — the sidewalk being wet proves it rained","No conclusion can ever be drawn from an if-then statement","No — this is the fallacy of affirming the consequent; something else (a sprinkler, a hose) could have wet the sidewalk"], "answer": 3 },
+        { "q": "Across summer months, cities with higher ice cream sales also see more drowning deaths, and the two rise and fall together almost in lockstep. Does this mean eating ice cream increases your risk of drowning?", "choices": ["Yes, but only for people who swim within an hour of eating","No, because correlation and causation are always unrelated","No — hot weather is a confounding variable that independently drives up both ice cream sales and swimming (and so drowning)","Yes, the correlation shows ice cream directly causes drowning"], "answer": 2 },
+        { "q": "Buses arrive at a certain stop following a Poisson process (perfectly memoryless and random) with an average of one bus every 10 minutes. If you walk up at a uniformly random moment, what is your expected waiting time for the next bus?", "choices": ["It cannot be determined without knowing the exact schedule","10 minutes — memorylessness means your expected wait equals the full average interval, not half of it","5 minutes, half the average interval, since you arrive at a random point","20 minutes, twice the average interval"], "answer": 1 },
+        { "q": "A standard, well-shuffled 52-card deck contains 4 aces. You draw two cards without replacement. What is the probability that both cards are aces?", "choices": ["1/26","1/13","1/169","1/221"], "answer": 3 }
       ]
     }
   ]
