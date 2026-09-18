@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color is a banana?", "choices": ["Red","Yellow","Purple","Green"], "answer": 1 },
-        { "q": "What do you wear over your eyes to block the sun?", "choices": ["Sunglasses","Scarf","Socks","Mittens"], "answer": 0 },
-        { "q": "Which of these is a vegetable?", "choices": ["Orange","Apple","Banana","Carrot"], "answer": 3 },
-        { "q": "What is 5 - 2?", "choices": ["2","4","5","3"], "answer": 3 },
-        { "q": "What color do you get when you mix blue and yellow?", "choices": ["Purple","Orange","Green","Red"], "answer": 2 },
-        { "q": "What do you use to wash your hands?", "choices": ["Pencil","Comb","Soap","Scissors"], "answer": 2 },
-        { "q": "What do you call a baby cow?", "choices": ["Puppy","Chick","Calf","Kitten"], "answer": 2 },
-        { "q": "What do you use to write?", "choices": ["Pencil","Pillow","Plate","Pan"], "answer": 0 },
-        { "q": "What colour is milk?", "choices": ["Purple","Black","White","Green"], "answer": 2 },
-        { "q": "How many legs does a cat have?", "choices": ["2","6","8","4"], "answer": 3 }
+        { "q": "What sound does a cat make?", "choices": ["Oink","Meow","Moo","Woof"], "answer": 1 },
+        { "q": "Which of these is something you eat for breakfast?", "choices": ["Shoe","Cereal","Chair","Pencil"], "answer": 1 },
+        { "q": "What do you call a baby dog?", "choices": ["Calf","Puppy","Kitten","Cub"], "answer": 1 },
+        { "q": "What color are most clouds?", "choices": ["Black","White","Green","Purple"], "answer": 1 },
+        { "q": "What is the opposite of 'up'?", "choices": ["Sideways","Left","Down","Right"], "answer": 2 },
+        { "q": "Which animal says 'neigh'?", "choices": ["Cow","Horse","Pig","Cat"], "answer": 1 },
+        { "q": "What is the opposite of wet?", "choices": ["Dry","Big","Cold","Fast"], "answer": 0 },
+        { "q": "How many wheels does a unicycle have?", "choices": ["4","2","1","3"], "answer": 2 },
+        { "q": "What shape has three sides?", "choices": ["Star","Triangle","Circle","Square"], "answer": 1 },
+        { "q": "What do you call a baby kangaroo?", "choices": ["Joey","Kit","Calf","Cub"], "answer": 0 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which does not belong? Trumpet, Violin, Cello, Guitar.", "choices": ["Cello","Guitar","Trumpet","Violin"], "answer": 2 },
-        { "q": "Finger is to Hand as Toe is to ___.", "choices": ["Foot","Knee","Leg","Ankle"], "answer": 0 },
-        { "q": "Which of these numbers is prime: 21, 33, 47, 51?", "choices": ["47","21","51","33"], "answer": 0 },
-        { "q": "What is 7 x 8?", "choices": ["56","48","64","54"], "answer": 0 },
-        { "q": "What is the past tense of 'go'?", "choices": ["Gone","Goed","Going","Went"], "answer": 3 },
-        { "q": "Which does NOT belong? Frog, Toad, Newt, Sparrow.", "choices": ["Frog","Newt","Toad","Sparrow"], "answer": 3 },
-        { "q": "A recipe needs 5 cups of flour for 18 cookies. How much is needed for 45 cookies?", "choices": ["10 cups","12.5 cups","15 cups","11.5 cups"], "answer": 1 },
-        { "q": "What is the capital of China?", "choices": ["Beijing","Hong Kong","Shanghai","Tokyo"], "answer": 0 },
-        { "q": "Choose the antonym of 'Archaic'.", "choices": ["Obscure","Ornate","Antiquated","Contemporary"], "answer": 3 },
-        { "q": "What is 65% of 180?", "choices": ["112","115","120","117"], "answer": 3 }
+        { "q": "Which of these numbers is even: 17, 29, 42, 53?", "choices": ["42","29","17","53"], "answer": 0 },
+        { "q": "What is 9 x 7?", "choices": ["56","72","63","54"], "answer": 2 },
+        { "q": "Paw is to Cat as Hoof is to ___.", "choices": ["Snake","Bird","Horse","Fish"], "answer": 2 },
+        { "q": "Petal is to Flower as Leaf is to ___.", "choices": ["Rock","Tree","River","Cloud"], "answer": 1 },
+        { "q": "What is the chemical symbol for water?", "choices": ["O2","NaCl","CO2","H2O"], "answer": 3 },
+        { "q": "What is 145 + 278?", "choices": ["423","433","443","413"], "answer": 0 },
+        { "q": "Which does NOT belong? Salmon, Trout, Dolphin, Cod.", "choices": ["Salmon","Dolphin","Cod","Trout"], "answer": 1 },
+        { "q": "What is 40% of 85?", "choices": ["32","38","34","36"], "answer": 2 },
+        { "q": "Nostril is to Nose as Pupil is to ___.", "choices": ["Skin","Ear","Mouth","Eye"], "answer": 3 },
+        { "q": "Evanescent most nearly means:", "choices": ["Brightly coloured","Loudly expressed","Vanishing quickly","Deeply rooted"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A number is increased by 20%, then the result is decreased by 20%. What is the net percentage change from the original number?", "choices": ["Decreases by 4%","Increases by 4%","No change","Decreases by 20%"], "answer": 0 },
-        { "q": "If 3 machines make 3 widgets in 3 minutes, how many minutes would 100 machines take to make 100 widgets?", "choices": ["3 minutes","100 minutes","33 minutes","10 minutes"], "answer": 0 },
-        { "q": "Take the list [17, 42, 8, 63, 29, 4]. Reverse it, then remove the first two elements. What is the sum of what remains?", "choices": ["138","130","146","113"], "answer": 1 },
-        { "q": "Which word means the opposite of 'ephemeral'?", "choices": ["Permanent","Vivid","Fleeting","Transparent"], "answer": 0 },
-        { "q": "A jar has 4 red and 6 blue marbles. Two are drawn at random without replacement. What is the probability both are blue?", "choices": ["2/5","1/3","3/5","1/2"], "answer": 1 },
-        { "q": "How many distinct arrangements are there of the letters in LEVEL?", "choices": ["24","30","60","20"], "answer": 1 },
-        { "q": "Sort F, M, T, B, Q, R alphabetically. Which letter is now 4th?", "choices": ["B","R","Q","M"], "answer": 2 },
-        { "q": "A tablet costs $400. It's marked up 25%, then discounted 20% off the new price. What is the final price?", "choices": ["$420","$400","$440","$380"], "answer": 1 },
-        { "q": "A list is 16, 4, 29, 11, 7, 20. Reverse it, then find the product of the 2nd and 4th values of the result.", "choices": ["203","189","196","210"], "answer": 0 },
-        { "q": "All squares are rhombi. No rhombi are circles. Therefore:", "choices": ["Some squares are circles.","No valid conclusion follows.","No squares are circles.","All circles are squares."], "answer": 2 }
+        { "q": "A shirt costs $80 after a 20% discount. What was the original price?", "choices": ["$120","$104","$100","$96"], "answer": 2 },
+        { "q": "All poets are dreamers. Some dreamers are painters. Therefore:", "choices": ["No valid conclusion can be drawn","Some poets are painters","All poets are painters","No poets are painters"], "answer": 0 },
+        { "q": "Take the list [15, 3, 27, 9, 41, 6]. Sort it ascending, then what is the 4th element?", "choices": ["15","9","6","27"], "answer": 0 },
+        { "q": "A train travels 60 miles in 45 minutes. What is its speed in miles per hour?", "choices": ["80","75","60","90"], "answer": 0 },
+        { "q": "Take the list [8, 19, 3, 25, 11, 2]. Remove the smallest two values, then find the average of what remains.", "choices": ["14.25","13","15.75","16.5"], "answer": 2 },
+        { "q": "A list is 18, 7, 25, 3, 14, 9. Sort it ascending, then find the sum of the 2nd and 5th values of the result.", "choices": ["21","22","25","28"], "answer": 2 },
+        { "q": "A bag holds 4 green and 6 yellow balls. Two are drawn without replacement. What is P(both yellow)?", "choices": ["5/9","3/5","1/3","2/5"], "answer": 2 },
+        { "q": "In 7, 2, 9, 4, 6, 1, 3 — what is the sum of the 2nd, 5th and 7th values?", "choices": ["9","10","11","8"], "answer": 2 },
+        { "q": "A laptop costs $500. It's marked up 20%, then discounted 25% off the new price. What is the final price?", "choices": ["$460","$440","$500","$450"], "answer": 3 },
+        { "q": "How many trailing zeros does 100! have?", "choices": ["24","20","22","25"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "How many subsets does a set with 6 elements have (including the empty set and the full set)?", "choices": ["64","36","32","720"], "answer": 0 },
-        { "q": "How many grams of NaOH (molar mass 40 g/mol) are needed to prepare 500 mL of a 0.2 M solution?", "choices": ["0.4 g","20 g","40 g","4 g"], "answer": 3 },
-        { "q": "Which of the following is a tautology in propositional logic?", "choices": ["P → Q","P ∨ Q","P ∧ ¬P","P ∨ ¬P"], "answer": 3 },
-        { "q": "A 4 μF capacitor is charged to 12 V. How much energy is stored in it?", "choices": ["576 μJ","2.88 mJ","48 μJ","288 μJ"], "answer": 3 },
-        { "q": "What is d/dx [sin(2x) · eˣ] evaluated at x = 0?", "choices": ["e","0","2","1"], "answer": 2 },
-        { "q": "The de Broglie wavelength of a particle with momentum p is:", "choices": ["p/h","hp","h/p","h/p²"], "answer": 2 },
-        { "q": "Starting from an empty dynamic array (like a C++ vector) that doubles its capacity whenever it fills up, what is the total time complexity of performing n consecutive append operations, from empty?", "choices": ["O(log n)","O(n)","O(n log n)","O(n²)"], "answer": 1 },
-        { "q": "A first-order reaction has a half-life of 20 minutes. What is its rate constant k?", "choices": ["0.0347 min⁻¹","0.0500 min⁻¹","0.1000 min⁻¹","0.0693 min⁻¹"], "answer": 0 },
-        { "q": "A Carnot engine operates between a hot reservoir at 500 K and a cold reservoir at 300 K. What is its maximum theoretical efficiency?", "choices": ["40%","66.7%","60%","20%"], "answer": 0 },
-        { "q": "Gauss's law states that the flux ∮E·dA through a closed surface equals:", "choices": ["Q·ε₀","Q_enc/ε₀","μ₀Q","Q_enc·ε₀/2"], "answer": 1 }
+        { "q": "How many moles are in 88 grams of CO2 (molar mass 44 g/mol)?", "choices": ["1","4","2","0.5"], "answer": 2 },
+        { "q": "What is the derivative of ln(x^2 + 1) with respect to x?", "choices": ["1/(x^2+1)","2x/(x^2+1)","2x·ln(x^2+1)","x/(x^2+1)"], "answer": 1 },
+        { "q": "In Big-O notation, what is the time complexity of binary search on a sorted array of n elements?", "choices": ["O(n log n)","O(1)","O(n)","O(log n)"], "answer": 3 },
+        { "q": "A 2 kg object moving at 3 m/s collides and sticks to a stationary 1 kg object. What is their combined velocity after collision?", "choices": ["3 m/s","2 m/s","1 m/s","1.5 m/s"], "answer": 1 },
+        { "q": "What is the pH of a solution with hydrogen ion concentration [H+] = 1 x 10^-4 M?", "choices": ["10","4","7","2"], "answer": 1 },
+        { "q": "The time complexity of depth-first search on a graph with V vertices and E edges (adjacency list) is:", "choices": ["O(V · E)","O(V + E)","O(V²)","O(E log V)"], "answer": 1 },
+        { "q": "How many distinct arrangements are there of the letters in 'MISSISSIPPI'?", "choices": ["11,340","46,200","17,325","34,650"], "answer": 3 },
+        { "q": "How many moles are in 44 grams of CO₂? (molar mass CO₂ ≈ 44 g/mol)", "choices": ["2","4","1","0.5"], "answer": 2 },
+        { "q": "What is the time complexity of the Floyd–Warshall all-pairs shortest path algorithm on a graph with V vertices?", "choices": ["O(V log V)","O(V²)","O(V³)","O(V² log V)"], "answer": 2 },
+        { "q": "A 2 kg object is dropped from rest from a height of 20 m. Ignoring air resistance, what is its speed just before impact? (g = 9.8 m/s²)", "choices": ["28 m/s","19.8 m/s","14 m/s","9.8 m/s"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Pick any number. Double it. Add 10. Divide the result by 2. Then subtract your original number. What do you get?", "choices": ["10","It depends on the number you picked","5","Half the original number"], "answer": 2 },
-        { "q": "Player X batted .400 in Season 1 and .250 in Season 2, beating Player Y's .350 and .200 in those same two seasons. Yet when both seasons are combined, Player Y's overall batting average is higher. This apparent contradiction is known as:", "choices": ["Simpson's paradox","Regression to the mean","The gambler's fallacy","The base rate fallacy"], "answer": 0 },
-        { "q": "You are outside a room with three switches, only one of which controls a single incandescent bulb inside the room. You may flip the switches as much as you like, but may only open the door and look inside the room once. How can you determine with certainty which switch controls the bulb?", "choices": ["Turn switch 1 on for several minutes, then turn it off, turn switch 2 on, and enter: check both whether the bulb is lit and whether it feels warm","It is impossible to determine which switch controls the bulb with only one visit to the room","Turn all three switches on at once and enter — the lit bulb reveals nothing useful","Flip all three switches on and off once each, then enter and listen for which switch's click is still echoing"], "answer": 0 },
-        { "q": "In a room of 23 people, assuming birthdays are independently and uniformly distributed across 365 days, the probability that at least two people share the same birthday is closest to:", "choices": ["About 99%","About 50%","Less than 1%","About 6%"], "answer": 1 },
-        { "q": "Twin A stays on Earth while Twin B travels away at a large fraction of the speed of light and then returns. According to special relativity, when they are reunited:", "choices": ["Twin A is younger than Twin B","They are exactly the same age, since motion is relative","It cannot be determined without knowing the exact distance traveled","Twin B is younger than Twin A"], "answer": 3 },
-        { "q": "How many letters are in the phrase 'the alphabet'?", "choices": ["12","26","25","11"], "answer": 3 },
-        { "q": "Premise 1: If it rains, the sidewalk gets wet. Premise 2: The sidewalk is wet. Many people conclude it must have rained. Is that conclusion logically valid?", "choices": ["Yes, but only if it's currently cloudy","Yes — the sidewalk being wet proves it rained","No conclusion can ever be drawn from an if-then statement","No — this is the fallacy of affirming the consequent; something else (a sprinkler, a hose) could have wet the sidewalk"], "answer": 3 },
-        { "q": "Across summer months, cities with higher ice cream sales also see more drowning deaths, and the two rise and fall together almost in lockstep. Does this mean eating ice cream increases your risk of drowning?", "choices": ["Yes, but only for people who swim within an hour of eating","No, because correlation and causation are always unrelated","No — hot weather is a confounding variable that independently drives up both ice cream sales and swimming (and so drowning)","Yes, the correlation shows ice cream directly causes drowning"], "answer": 2 },
-        { "q": "Buses arrive at a certain stop following a Poisson process (perfectly memoryless and random) with an average of one bus every 10 minutes. If you walk up at a uniformly random moment, what is your expected waiting time for the next bus?", "choices": ["It cannot be determined without knowing the exact schedule","10 minutes — memorylessness means your expected wait equals the full average interval, not half of it","5 minutes, half the average interval, since you arrive at a random point","20 minutes, twice the average interval"], "answer": 1 },
-        { "q": "A standard, well-shuffled 52-card deck contains 4 aces. You draw two cards without replacement. What is the probability that both cards are aces?", "choices": ["1/26","1/13","1/169","1/221"], "answer": 3 }
+        { "q": "In a race, you overtake the person in second place. What position are you in now?", "choices": ["It depends on the track","Third place","First place","Second place"], "answer": 3 },
+        { "q": "A disease affects 1% of the population. A test for it is 99% accurate (both for true positives and true negatives). If a random person tests positive, what is the approximate probability they actually have the disease?", "choices": ["95%","1%","99%","50%"], "answer": 3 },
+        { "q": "You have two ropes, each of which takes exactly 60 minutes to burn end to end, but burns unevenly. Using only these ropes and matches, how do you measure exactly 45 minutes?", "choices": ["It cannot be done since the ropes burn unevenly","Light both ropes at one end each and stop timing when the first one finishes","Light one rope at both ends and the other rope at one end simultaneously; when the first rope finishes burning, light the second end of the other rope — it finishes 45 minutes after the start","Cut both ropes in half and time each half"], "answer": 2 },
+        { "q": "A fair coin has landed on heads 5 times in a row. What is the probability that the next flip is also heads?", "choices": ["Greater than 50%, since the coin is on a streak","It depends on how many times it was flipped before that","Less than 50%, since a tails is 'due'","Exactly 50%"], "answer": 3 },
+        { "q": "A man pushes his car to a hotel and tells the owner he's bankrupt. Why?", "choices": ["He is playing Monopoly","He ran out of gas and needs money","He owns a fleet of tow trucks","It's a hotel loyalty program stunt"], "answer": 0 },
+        { "q": "Among the English number words from one to one hundred, exactly one has its letters appearing in strict alphabetical order. Which number is it?", "choices": ["Six","Eleven","Forty","One"], "answer": 2 },
+        { "q": "How many times can you subtract 5 from 25?", "choices": ["Five times","Four times","Once — after that you are subtracting from 20","Infinitely many"], "answer": 2 },
+        { "q": "A family has two children. At least one of them is a boy born on a Tuesday. What is the probability that both children are boys? (Assume gender and birth day are each independent and uniformly random, with 7 equally likely days of the week.)", "choices": ["13/27","1/3","1/2","1/4"], "answer": 0 },
+        { "q": "A large-scale physical study of coin flipping (Bartos et al., 2023, ~350,000 flips) found that a flipped coin is slightly more likely to:", "choices": ["land showing the same face it started on","land showing the opposite face from its starting position","land on its edge more often than expected","always land on heads regardless of its start"], "answer": 0 },
+        { "q": "Which weighs more: one troy ounce of gold, or one (avoirdupois) ounce of feathers?", "choices": ["The ounce of feathers","The troy ounce of gold","They weigh exactly the same","It depends on the scale used"], "answer": 1 }
       ]
     }
   ]
