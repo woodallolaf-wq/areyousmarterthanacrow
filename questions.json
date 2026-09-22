@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What do you brush to keep them clean?", "choices": ["Walls","Hair","Shoes","Teeth"], "answer": 3 },
-        { "q": "What do you call your father's father?", "choices": ["Cousin","Uncle","Grandfather","Grandmother"], "answer": 2 },
-        { "q": "Which is bigger, an elephant or a mouse?", "choices": ["Dog","Elephant","Mouse","Cat"], "answer": 1 },
-        { "q": "What color is the sun?", "choices": ["Blue","Purple","Green","Yellow"], "answer": 3 },
-        { "q": "What animal says moo?", "choices": ["Cat","Duck","Cow","Dog"], "answer": 2 },
-        { "q": "What do you use to see?", "choices": ["Nose","Eyes","Ears","Hands"], "answer": 1 },
-        { "q": "What colour is a pumpkin?", "choices": ["Purple","Blue","Black","Orange"], "answer": 3 },
-        { "q": "What colour is a frog?", "choices": ["Blue","Green","Purple","Red"], "answer": 1 },
-        { "q": "What is the opposite of hot?", "choices": ["Wet","Warm","Big","Cold"], "answer": 3 },
-        { "q": "What is the opposite of 'in'?", "choices": ["On","Over","Out","Under"], "answer": 2 }
+        { "q": "What do you use to see in the dark?", "choices": ["A spoon","A flashlight","A pillow","A hat"], "answer": 1 },
+        { "q": "Which animal is known as man's best friend?", "choices": ["Fish","Bird","Cat","Dog"], "answer": 3 },
+        { "q": "What is 7 + 5?", "choices": ["10","13","12","11"], "answer": 2 },
+        { "q": "What is the opposite of 'top'?", "choices": ["Middle","Front","Bottom","Side"], "answer": 2 },
+        { "q": "How many wheels does a motorcycle have?", "choices": ["2","4","3","1"], "answer": 0 },
+        { "q": "What do you call a baby goat?", "choices": ["Foal","Cub","Kid","Chick"], "answer": 2 },
+        { "q": "Which animal has a long trunk?", "choices": ["Rabbit","Duck","Elephant","Snake"], "answer": 2 },
+        { "q": "What is 5 + 5?", "choices": ["9","10","8","11"], "answer": 1 },
+        { "q": "Which one is round?", "choices": ["A ball","A box","A book","A brick"], "answer": 0 },
+        { "q": "How many legs does a snake have?", "choices": ["2","6","0","4"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Paw is to Cat as Hoof is to ___?", "choices": ["Fish","Horse","Bird","Snake"], "answer": 1 },
-        { "q": "Which does NOT belong? Trumpet, Violin, Cello, Guitar", "choices": ["Violin","Guitar","Trumpet","Cello"], "answer": 2 },
-        { "q": "What is 20% of 150?", "choices": ["30","25","20","35"], "answer": 0 },
-        { "q": "Which gas do plants absorb from the air for photosynthesis?", "choices": ["Oxygen","Hydrogen","Carbon dioxide","Nitrogen"], "answer": 2 },
-        { "q": "What is 13 × 7?", "choices": ["81","84","91","98"], "answer": 2 },
-        { "q": "Sculptor is to Chisel as Painter is to ___?", "choices": ["Palette","Easel","Canvas","Brush"], "answer": 3 },
-        { "q": "Colossal is to Minuscule as Rapid is to ___.", "choices": ["Hasty","Sluggish","Steady","Fleeting"], "answer": 1 },
-        { "q": "A book costs $24 and is on sale for 25% off. What is the sale price?", "choices": ["$19","$20","$18","$16"], "answer": 2 },
-        { "q": "What is the capital of Mexico?", "choices": ["Guadalajara","Mexico City","Monterrey","Cancun"], "answer": 1 },
-        { "q": "What is 19 × 21?", "choices": ["399","379","409","389"], "answer": 0 }
+        { "q": "What is the capital of Vietnam?", "choices": ["Hanoi","Bangkok","Manila","Jakarta"], "answer": 0 },
+        { "q": "What is 15 × 4?", "choices": ["60","65","55","50"], "answer": 0 },
+        { "q": "What is the chemical symbol for potassium?", "choices": ["Po","Pt","K","P"], "answer": 2 },
+        { "q": "Author is to Book as Composer is to ___?", "choices": ["Sculpture","Poem","Painting","Symphony"], "answer": 3 },
+        { "q": "Which does NOT belong? Carrot, Potato, Onion, Apple", "choices": ["Carrot","Apple","Potato","Onion"], "answer": 1 },
+        { "q": "Which does NOT belong? Oxygen, Nitrogen, Helium, Mercury.", "choices": ["Helium","Nitrogen","Mercury","Oxygen"], "answer": 2 },
+        { "q": "Which number is the largest?", "choices": ["0.68","0.71","0.702","0.7"], "answer": 1 },
+        { "q": "How many sides does an octagon have?", "choices": ["Seven","Six","Nine","Eight"], "answer": 3 },
+        { "q": "Carpenter is to Hammer as Tailor is to ___?", "choices": ["Fabric","Needle","Thread","Scissors"], "answer": 1 },
+        { "q": "Hot is to Cold as Zenith is to ___.", "choices": ["Horizon","Apex","Summit","Nadir"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A jacket costs $80. It is discounted by 25%, then a 10% tax is added to the discounted price. What is the final price?", "choices": ["$70","$72","$66","$60"], "answer": 2 },
-        { "q": "Take the list [8, 21, 3, 17, 12, 5]. Sort it in ascending order. What is the 4th number in the sorted list?", "choices": ["8","17","5","12"], "answer": 3 },
-        { "q": "Which word means the opposite of 'meticulous'?", "choices": ["Precise","Thorough","Careless","Diligent"], "answer": 2 },
-        { "q": "All squares are rectangles. All rectangles have four sides. Therefore, all squares have ___.", "choices": ["No fixed number of sides","Four sides","Five sides","Three sides"], "answer": 1 },
-        { "q": "A bag contains 4 red and 6 blue balls. Two balls are drawn without replacement. What is the probability that both are red?", "choices": ["1/5","4/10","1/3","2/15"], "answer": 3 },
-        { "q": "Pejorative is to Laudatory as Mendacious is to ___.", "choices": ["Loquacious","Veracious","Duplicitous","Voracious"], "answer": 1 },
-        { "q": "A pipe can fill a tank in 8 hours; a drain can empty it in 24 hours. If both are open at once, how long does it take to fill the tank?", "choices": ["16 hours","12 hours","10 hours","6 hours"], "answer": 1 },
-        { "q": "A list is 11, 24, 6, 19, 2, 15. Sort it descending, then find the difference between the 1st and 4th values of the result.", "choices": ["14","13","15","12"], "answer": 1 },
-        { "q": "Recalcitrant most nearly means:", "choices": ["Extremely generous","Deeply sorrowful","Stubbornly resistant","Highly skilled"], "answer": 2 },
-        { "q": "A list is 21, 4, 16, 9, 28, 2. Sort it descending, then find the product of the 2nd and 5th values of the result.", "choices": ["84","88","76","80"], "answer": 0 }
+        { "q": "Take the list [22, 5, 38, 14, 9, 31]. Sort it descending, then find the sum of the 1st and 5th elements (1-indexed).", "choices": ["31","69","40","47"], "answer": 3 },
+        { "q": "A bicycle costs $240. It is discounted 15%, then a 5% tax is added to the discounted price. What is the final price?", "choices": ["$214.20","$192.00","$216.00","$204.00"], "answer": 0 },
+        { "q": "Which word is closest in meaning to 'surreptitious'?", "choices": ["Honest","Furtive","Loud","Blatant"], "answer": 1 },
+        { "q": "A drawer has 5 black socks and 7 white socks. Two socks are drawn at random without replacement. What is the probability both are black?", "choices": ["5/33","5/12","25/144","4/11"], "answer": 0 },
+        { "q": "All Vindols are Crenites. No Crenites are Baswicks. Therefore:", "choices": ["All Crenites are Vindols","No Vindols are Baswicks","Some Vindols are Baswicks","All Baswicks are Vindols"], "answer": 1 },
+        { "q": "Diffident most nearly means:", "choices": ["Highly aggressive","Extremely proud","Lacking self-confidence","Very generous"], "answer": 2 },
+        { "q": "Effrontery most nearly means:", "choices": ["Insolence","Generosity","Timidity","Sorrow"], "answer": 0 },
+        { "q": "All pharmacists are trained. No trained people are reckless. Therefore:", "choices": ["No valid conclusion follows.","Some pharmacists are reckless.","No pharmacists are reckless.","All reckless people are pharmacists."], "answer": 2 },
+        { "q": "A sum of money triples in 16 years at simple interest. What is the annual rate?", "choices": ["15%","10%","12.5%","18.75%"], "answer": 2 },
+        { "q": "Diaphanous most nearly means:", "choices": ["Translucent","Colorful","Sturdy","Opaque"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the derivative of f(x) = x^3 · ln(x) with respect to x?", "choices": ["3x^2 ln x","3x^2 + x^2 ln x","x^2(3 ln x + 1)","x^2 ln x + x^2"], "answer": 2 },
-        { "q": "In the reaction 2 C4H10 + 13 O2 → 8 CO2 + 10 H2O, how many moles of O2 are required to completely combust 2 moles of butane?", "choices": ["6.5","26","8","13"], "answer": 3 },
-        { "q": "A 2 kg object moving at 3 m/s collides perfectly inelastically with a stationary 4 kg object at rest. What is the velocity of the combined mass immediately after collision?", "choices": ["1.5 m/s","1 m/s","2 m/s","0.5 m/s"], "answer": 1 },
-        { "q": "What is the worst-case time complexity of building a binary heap from n unsorted elements using the standard bottom-up heapify algorithm?", "choices": ["O(n)","O(log n)","O(n^2)","O(n log n)"], "answer": 0 },
-        { "q": "Which of the following is logically equivalent to the statement: for all x, P(x) implies Q(x)?", "choices": ["There is no x for which P(x) is true","For all x, P(x) and Q(x) are both true","There is no x such that P(x) is true and Q(x) is false","There exists an x such that P(x) is true and Q(x) is false"], "answer": 2 },
-        { "q": "The derivative of ln(x²+1) with respect to x is:", "choices": ["2x/(x²+1)","2x/(x+1)","x/(x²+1)","1/(x²+1)"], "answer": 0 },
-        { "q": "What is the pH of a solution with [H+] = 1×10⁻⁴ M?", "choices": ["4","3","14","10"], "answer": 0 },
-        { "q": "A 1500 kg car travels at 20 m/s and brakes to a stop over a distance of 50 m. What is the magnitude of the average braking force?", "choices": ["12000 N","6000 N","3000 N","1500 N"], "answer": 1 },
-        { "q": "What is the time complexity of Kruskal's algorithm for finding a minimum spanning tree on a graph with V vertices and E edges, using a union-find structure?", "choices": ["O(E + V log V)","O(E log E)","O(E·V)","O(V²)"], "answer": 1 },
-        { "q": "In propositional logic, which of the following is logically equivalent to P → Q?", "choices": ["¬P ∧ Q","¬P ∨ Q","P ∧ ¬Q","P ∨ ¬Q"], "answer": 1 }
+        { "q": "What is the time complexity of the Bellman-Ford algorithm for single-source shortest paths on a graph with V vertices and E edges?", "choices": ["O(V²)","O(E log V)","O(V·E)","O(V + E)"], "answer": 2 },
+        { "q": "What is the pH of a 0.01 M solution of NaOH, a strong base fully dissociated in water, at 25°C?", "choices": ["4","12","10","2"], "answer": 1 },
+        { "q": "A projectile is launched at 30° above horizontal with an initial speed of 20 m/s (g = 10 m/s²). What is the maximum height it reaches?", "choices": ["10 m","5 m","20 m","15 m"], "answer": 1 },
+        { "q": "Which named rule of inference has the form: P → Q, P, therefore Q?", "choices": ["Denying the antecedent","Modus ponens","Modus tollens","Affirming the consequent"], "answer": 1 },
+        { "q": "What is the derivative of f(x) = e^(x²) with respect to x?", "choices": ["2x·e^(x²)","e^(x²)","2·e^(x²)","x²·e^(x²)"], "answer": 0 },
+        { "q": "What is the derivative of x·eˣ with respect to x?", "choices": ["eˣ(x−1)","xeˣ","eˣ","eˣ(x+1)"], "answer": 3 },
+        { "q": "Wien's displacement law relates the peak wavelength of a blackbody to temperature as:", "choices": ["λ_max·T² = b","λ_max·T = b","λ_max = b/T²","λ_max = bT"], "answer": 1 },
+        { "q": "In predicate logic, what is the negation of ∀x (P(x) → Q(x))?", "choices": ["∃x (¬P(x) ∨ Q(x))","∃x (P(x) ∧ ¬Q(x))","∀x (P(x) ∧ ¬Q(x))","∀x (¬P(x) → ¬Q(x))"], "answer": 1 },
+        { "q": "What is the time complexity of building a binary heap from n unordered elements (heapify)?", "choices": ["O(log n)","O(n log n)","O(n)","O(n²)"], "answer": 2 },
+        { "q": "A 2 kg object moves in a circle of radius 0.5 m at 4 m/s. What is the magnitude of the centripetal force?", "choices": ["32 N","128 N","16 N","64 N"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Group A has test scores {8, 12, 14, 16} (average 12.5). Group B has test scores {2, 4, 6} (average 4). Move the score of 8 from Group A to Group B — no individual score changes value, it just switches groups. What happens to the average of EACH group?", "choices": ["Both averages stay exactly the same, since no individual score's value changed","Both averages go down, because moving any single element always increases the variance of both groups","Group A's average goes up but Group B's average goes down, since B just gained a comparatively low score","Both averages go up (A: 12.5 to 14, B: 4 to 5) — a value that's below the mean of the group it leaves but above the mean of the group it joins raises both"], "answer": 3 },
-        { "q": "In the general population, being funny and being talented are completely independent traits. A talent show accepts anyone who is funny OR talented (or both), rejecting only people who are neither. Among the accepted contestants, are being funny and being talented now positively correlated, negatively correlated, or still independent?", "choices": ["Positively correlated — accepted contestants who are funny are more likely to also be talented","Still independent — a selection filter cannot create a correlation that wasn't present in the underlying population","It depends on the exact numbers and cannot be determined in general","Negatively correlated — funny accepted contestants are less likely to also be talented than non-funny accepted contestants are, purely because of how the OR-filter selects people"], "answer": 3 },
-        { "q": "A bus route has a repeating cycle of gaps between arrivals: 2, 2, 2, then 18 minutes, then it repeats. The average gap between buses is (2+2+2+18)/4 = 6 minutes. If you walk up to the stop at a uniformly random moment in time, what is your EXPECTED waiting time until the next bus?", "choices": ["1.5 minutes, since three of the four gaps are only 2 minutes long","7 minutes — you're disproportionately likely to arrive during the long 18-minute gap, which pulls the expectation above 'half the average'","6 minutes — the length of one full average gap","3 minutes — half the average gap, as you'd normally expect"], "answer": 1 },
-        { "q": "Two hospitals treat kidney stones with Treatment A and Treatment B. For small stones: A succeeds in 81 of 87 cases; B succeeds in 234 of 270 cases. For large stones: A succeeds in 192 of 263 cases; B succeeds in 55 of 80 cases. Treatment A has the higher success rate in BOTH the small-stone group and the large-stone group. Which treatment has the higher success rate when all 350 patients treated with each method are combined?", "choices": ["It cannot be determined without knowing individual patient outcomes","Treatment A — since it wins in both subgroups, it must win overall","Treatment B — because it treated a much higher share of the easier small-stone cases, which pulls its combined average above A's","They tie exactly, both at 79%"], "answer": 2 },
-        { "q": "In a small social network of 5 people, X is friends with A, B, C, and D, and none of A, B, C, D are friends with each other. So X has 4 friends, while A, B, C, and D each have exactly 1 friend. If you compute, for every person, the average number of friends THEIR friends have, and then average that across all 5 people, how does that population-wide figure compare to the network's actual average number of friends per person (1.6)?", "choices": ["Lower than 1.6, since X already has the most friends and X's own friends can't also be unusually popular","It's only higher because this particular network happens to have an odd number of people","Exactly 1.6, since any such average must equal the population's raw average","Higher than 1.6 — specifically 3.4, since the highly-connected person X is listed as 'a friend' by four different people, so their high friend-count gets counted four times over"], "answer": 3 },
-        { "q": "A house has all four walls facing south, and a bear walks past. What colour is the bear?", "choices": ["Black","It cannot be determined","Brown","White"], "answer": 3 },
-        { "q": "Which is more likely: getting exactly 5 heads in 10 fair coin flips, or exactly 50 heads in 100 fair coin flips?", "choices": ["They are exactly equally likely","Exactly 50 heads in 100 flips","It cannot be determined","Exactly 5 heads in 10 flips"], "answer": 3 },
-        { "q": "A cube has side length 1. An ant must crawl along the cube's surface from one corner to the diagonally opposite corner. What is the length of the shortest possible path?", "choices": ["√5 (≈2.236)","√3 (≈1.732)","2","3"], "answer": 0 },
-        { "q": "A farmer has 17 sheep. All but 9 die. How many are left?", "choices": ["17","0","9","8"], "answer": 2 },
-        { "q": "In a 6/49 lottery, which set of numbers is more likely to win the jackpot: {1,2,3,4,5,6} or {7,12,19,23,31,45}?", "choices": ["{7,12,19,23,31,45} is more likely","They are equally likely","{1,2,3,4,5,6} is more likely","It depends on how many other people play"], "answer": 1 }
+        { "q": "You flip a fair coin repeatedly until the specific sequence Heads-Tails-Heads (HTH) has appeared. What is the expected number of flips this takes?", "choices": ["10 flips","14 flips","8 flips","6 flips"], "answer": 0 },
+        { "q": "At step n (for n = 1, 2, 3, ...), you add ten new balls numbered 10n−9 through 10n into a vase, then remove the single ball numbered n. All infinitely many steps happen within one minute (each step taking half as long as the one before it). At the exact end of the minute, how many balls are left in the vase?", "choices": ["Infinitely many, since ten balls go in for every one that comes out","0 — every ball, however large its number, is eventually removed at its own numbered step, so none remain unremoved","It's undefined — the process has no well-defined outcome","Exactly 1, the very last ball added"], "answer": 1 },
+        { "q": "In a study, people who scored in the bottom quartile on a test of logical reasoning rated their own ability as well above average, while the top performers slightly underestimated how they ranked against peers. What is this effect called, where people with low ability at a task tend to overestimate their competence, partly because the same skills needed to perform well are also needed to judge performance accurately?", "choices": ["The Dunning-Kruger effect","The halo effect","Impostor syndrome","The overconfidence effect"], "answer": 0 },
+        { "q": "A ship has every one of its wooden planks replaced over the years, one by one, until literally none of the original material remains. Philosophers ask whether the fully-replaced ship is still 'the same ship' it always was. What is the name of this classic identity paradox?", "choices": ["The Trolley problem","The Grandfather paradox","The Ship of Theseus","The Sorites paradox"], "answer": 2 },
+        { "q": "Two players, A and B, are playing a game to 10 points: each round is decided by an independent fair coin flip, awarding one point to the winner. They must stop early when A has 8 points and B has 7. To split the prize fairly — in proportion to each player's probability of winning had the game continued — what ratio of the pot should A and B receive?", "choices": ["2:3, based on points still needed","11:5 (A gets 11/16 of the pot)","8:7, matching the current score","1:1, since the game never actually finished"], "answer": 1 },
+        { "q": "As you measure the length of a rugged coastline using shorter and shorter measuring sticks, what happens to the measured length?", "choices": ["It converges to the coastline's exact true length","It stays exactly the same no matter the stick length","It keeps increasing without bound","It decreases toward zero"], "answer": 2 },
+        { "q": "You're in a small boat floating next to a dock, with a rope ladder hanging over the side. The rungs are spaced 1 foot apart, and right now 6 rungs are above the waterline. The tide rises at 1 foot per hour. After 3 hours, how many rungs are above the waterline?", "choices": ["6","0","9","3"], "answer": 0 },
+        { "q": "Drug A treated 4 mild-illness patients and cured 3 (75%), plus 20 severe-illness patients and cured 1 (5%). Drug B treated 3 mild-illness patients and cured 2 (67%), plus 1 severe-illness patient and cured 0 (0%). Drug A has the higher cure rate in both the mild group and the severe group. Which drug cured a higher percentage of patients overall, combining both groups?", "choices": ["They are exactly tied","Drug B","Drug A, since it wins in both groups","Cannot be determined from this information"], "answer": 1 },
+        { "q": "A disease affects 1% of a population. A test is 99% accurate for both true positives and true negatives. If a random person tests positive, what is the probability they actually have the disease?", "choices": ["50%","1%","99%","90%"], "answer": 0 },
+        { "q": "A stick is broken at two points chosen uniformly at random along its length. What is the probability the three resulting pieces can form a triangle?", "choices": ["1/2","1/3","1/4","1/8"], "answer": 2 }
       ]
     }
   ]
