@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What do you sleep on?", "choices": ["A bed","A chair","A table","A ladder"], "answer": 0 },
-        { "q": "What is the opposite of 'loud'?", "choices": ["Heavy","Fast","Quiet","Bright"], "answer": 2 },
-        { "q": "What is 10 - 3?", "choices": ["7","8","5","6"], "answer": 0 },
-        { "q": "What is the opposite of 'empty'?", "choices": ["Full","Cold","Small","Slow"], "answer": 0 },
-        { "q": "What do you use to open a locked door?", "choices": ["A pillow","A key","A balloon","A spoon"], "answer": 1 },
-        { "q": "What is the opposite of 'fast'?", "choices": ["Cold","Slow","Big","Loud"], "answer": 1 },
-        { "q": "Which animal says 'roar'?", "choices": ["Cow","Dog","Cat","Lion"], "answer": 3 },
-        { "q": "What shape is a ball?", "choices": ["Square","Triangle","Circle","Star"], "answer": 2 },
-        { "q": "Which one is a fruit?", "choices": ["Chair","Sock","Spoon","Apple"], "answer": 3 },
-        { "q": "Which animal says 'buzz'?", "choices": ["Owl","Bee","Snake","Fish"], "answer": 1 }
+        { "q": "What do you call your mother's sister?", "choices": ["Aunt","Sister","Cousin","Niece"], "answer": 0 },
+        { "q": "How many ears does a person have?", "choices": ["1","4","3","2"], "answer": 3 },
+        { "q": "What do you call your father's brother?", "choices": ["Uncle","Nephew","Cousin","Grandpa"], "answer": 0 },
+        { "q": "If you have 3 apples and eat 1, how many apples are left?", "choices": ["4","1","2","3"], "answer": 2 },
+        { "q": "What color do you get when you mix red and yellow?", "choices": ["Pink","Orange","Purple","Green"], "answer": 1 },
+        { "q": "What is 10 - 5?", "choices": ["3","4","5","6"], "answer": 2 },
+        { "q": "Which animal has a long neck?", "choices": ["Pig","Frog","Giraffe","Mouse"], "answer": 2 },
+        { "q": "What do you eat soup with?", "choices": ["A shoe","A spoon","A book","A comb"], "answer": 1 },
+        { "q": "What colour are most frogs?", "choices": ["Pink","Green","Orange","Purple"], "answer": 1 },
+        { "q": "What is the opposite of 'happy'?", "choices": ["Fast","Sad","Loud","Big"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which does NOT belong? Guitar, Piano, Drum, Umbrella?", "choices": ["Piano","Drum","Guitar","Umbrella"], "answer": 3 },
-        { "q": "Which of these numbers is prime: 12, 18, 23, 30?", "choices": ["12","18","30","23"], "answer": 3 },
-        { "q": "Thermometer is to Temperature as Scale is to ___?", "choices": ["Height","Sound","Weight","Color"], "answer": 2 },
-        { "q": "What is 17 × 6?", "choices": ["98","108","112","102"], "answer": 3 },
-        { "q": "What is the chemical symbol for silver?", "choices": ["Sv","Ag","Al","Si"], "answer": 1 },
-        { "q": "Which does NOT belong? Sparrow, Robin, Eagle, Penguin.", "choices": ["Sparrow","Penguin","Eagle","Robin"], "answer": 1 },
-        { "q": "What is the capital of India?", "choices": ["Mumbai","New Delhi","Bangalore","Kolkata"], "answer": 1 },
-        { "q": "Chef is to Recipe as Architect is to ___.", "choices": ["Hammer","Blueprint","Cement","Building"], "answer": 1 },
-        { "q": "What is 21 × 19?", "choices": ["409","389","379","399"], "answer": 3 },
-        { "q": "What is 35% of 240?", "choices": ["84","78","88","92"], "answer": 0 }
+        { "q": "In 6, 14, 3, 19, 8 — what is the sum of the values greater than 9?", "choices": ["36","30","27","33"], "answer": 3 },
+        { "q": "What is the capital of Peru?", "choices": ["Quito","Santiago","Bogotá","Lima"], "answer": 3 },
+        { "q": "What is 16 × 13?", "choices": ["216","208","198","206"], "answer": 1 },
+        { "q": "Which does NOT belong? Peach, Plum, Cherry, Cucumber.", "choices": ["Cherry","Plum","Peach","Cucumber"], "answer": 3 },
+        { "q": "Tooth is to Mouth as Nail is to ___?", "choices": ["Arm","Hand","Finger","Foot"], "answer": 2 },
+        { "q": "In R, 7, L, 3, K, 9, D, 5 — what is the sum of the digits that appear before the letter K?", "choices": ["12","15","10","9"], "answer": 2 },
+        { "q": "How many of these are prime? 51, 57, 59, 61, 63, 67", "choices": ["3","5","2","4"], "answer": 0 },
+        { "q": "What is 12.5% of 640?", "choices": ["76","84","72","80"], "answer": 3 },
+        { "q": "Fish is to School as Lion is to ___.", "choices": ["Flock","Pride","Herd","Pack"], "answer": 1 },
+        { "q": "Which does NOT belong? Mercury, Venus, Mars, Sirius.", "choices": ["Sirius","Mercury","Venus","Mars"], "answer": 0 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Take the list [11, 19, 4, 27, 15, 8]. Reverse it, then find the sum of the 3rd and 6th elements (1-indexed).", "choices": ["46","38","34","30"], "answer": 1 },
-        { "q": "A bag has 3 red and 4 blue marbles. Two are drawn at random without replacement. What is the probability both are blue?", "choices": ["3/7","1/2","6/49","2/7"], "answer": 3 },
-        { "q": "A bicycle costs $180. It is discounted 25%, then a 10% tax is added to the discounted price. What is the final price?", "choices": ["$162.00","$148.50","$121.50","$135.00"], "answer": 1 },
-        { "q": "All Drenlings are Fostrels. No Fostrels are Yipsons. Therefore:", "choices": ["Some Drenlings are Yipsons","All Yipsons are Drenlings","No Drenlings are Yipsons","All Fostrels are Drenlings"], "answer": 2 },
-        { "q": "Which word is closest in meaning to 'inscrutable'?", "choices": ["Friendly","Predictable","Obvious","Mysterious"], "answer": 3 },
-        { "q": "Sort 21, 8, 34, 15, 2, 27 in ascending order, then find the product of the 2nd and 5th values of the result.", "choices": ["200","210","224","216"], "answer": 3 },
-        { "q": "Vociferous most nearly means:", "choices": ["Silent","Loud and forceful","Graceful","Timid"], "answer": 1 },
-        { "q": "All chemists are scientists. No scientists are charlatans. Therefore:", "choices": ["No chemists are charlatans.","Some chemists are charlatans.","All charlatans are chemists.","No valid conclusion follows."], "answer": 0 },
-        { "q": "A bag has 5 red and 5 blue marbles. Two are drawn without replacement. What is P(different colours)?", "choices": ["4/9","5/18","5/9","1/2"], "answer": 2 },
-        { "q": "Punctilious most nearly means:", "choices": ["Prone to sudden anger","Habitually late","Extremely attentive to detail","Financially generous"], "answer": 2 }
+        { "q": "All Trepids are Wombles. No Wombles are Skarn. Therefore:", "choices": ["No conclusion follows","All Skarn are Trepids","Some Trepids are Skarn","No Trepids are Skarn"], "answer": 3 },
+        { "q": "Take the words PLANET, GARDEN, WINDOW, FOREST, MARBLE. Sort them alphabetically. Which word is now 4th?", "choices": ["PLANET","WINDOW","MARBLE","GARDEN"], "answer": 0 },
+        { "q": "Indefatigable most nearly means:", "choices": ["Cowardly","Easily exhausted","Talkative","Tireless"], "answer": 3 },
+        { "q": "A shop mixes 10 kg of coffee at $10/kg with 15 kg of coffee at $15/kg. What is the price per kg of the mixture?", "choices": ["$14/kg","$12/kg","$13/kg","$12.50/kg"], "answer": 2 },
+        { "q": "A clock shows 7:15. What is the angle between the hour and minute hands?", "choices": ["127.5°","112.5°","135°","120°"], "answer": 0 },
+        { "q": "A list is 9, 22, 4, 17, 6, 13. Sort it descending, then find the sum of the 2nd and 5th values of the result.", "choices": ["19","23","25","21"], "answer": 1 },
+        { "q": "A bag has 8 red and 2 blue balls. Two are drawn without replacement. What is P(both red)?", "choices": ["7/9","14/45","28/45","4/5"], "answer": 2 },
+        { "q": "A list is 22, 5, 17, 9, 30, 2. Sort it ascending, then find the sum of the 2nd and 5th values.", "choices": ["27","22","26","31"], "answer": 0 },
+        { "q": "In 9, 3, 7, 2, 5, 8, 4, 1, 6 — what is the sum of the 4th and 7th values?", "choices": ["5","6","9","12"], "answer": 1 },
+        { "q": "A list is 21, 6, 34, 9, 17, 3. Sort it ascending, then find the product of the 1st and 4th values of the result.", "choices": ["57","51","48","54"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A mass on a spring undergoes simple harmonic motion with angular frequency ω = 4 rad/s and amplitude 0.5 m. What is its maximum speed?", "choices": ["2 m/s","0.5 m/s","4 m/s","8 m/s"], "answer": 0 },
-        { "q": "What is the determinant of the matrix [[3, 1], [2, 4]]?", "choices": ["2","10","8","14"], "answer": 1 },
-        { "q": "A recursive algorithm satisfies T(n) = 2T(n/2) + O(n). By the Master Theorem, what is its time complexity?", "choices": ["O(log n)","O(n)","O(n log n)","O(n²)"], "answer": 2 },
-        { "q": "A gas occupies 2.0 L at a pressure of 3 atm. If the temperature is kept constant, what is the new pressure if the volume is compressed to 0.5 L?", "choices": ["6 atm","1.5 atm","12 atm","24 atm"], "answer": 2 },
-        { "q": "What is the derivative of f(x) = x^x for x > 0?", "choices": ["x^x","x^x·ln x","x^x(ln x + 1)","x·x^(x−1)"], "answer": 2 },
-        { "q": "The Compton shift in wavelength when a photon scatters through angle θ is:", "choices": ["(mc/h)(1 − cos θ)","(h/mc)(1 − cos θ)","(h/mc)·sin θ","(h/mc)·cos θ"], "answer": 1 },
-        { "q": "What is the pH of a 0.001 M HCl solution, assuming complete dissociation?", "choices": ["4","1","2","3"], "answer": 3 },
-        { "q": "The Lorentz factor γ for a body moving at speed v is:", "choices": ["√(1 − v²/c²)","1 − v²/c²","1/√(1 − v²/c²)","1/(1 − v/c)"], "answer": 2 },
-        { "q": "What is the time complexity of building a binary heap from an unsorted array of n elements?", "choices": ["O(n)","O(n²)","O(n log n)","O(log n)"], "answer": 0 },
-        { "q": "A photon has wavelength 500 nm. What is its energy in eV (approx)? Use E=hc/λ, hc≈1240 eV·nm.", "choices": ["2.48 eV","0.50 eV","4.96 eV","1.24 eV"], "answer": 0 }
+        { "q": "A compound is found to contain 40% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. What is its empirical formula?", "choices": ["CHO","C₂H₄O₂","CH₂O","C₂H₆O"], "answer": 2 },
+        { "q": "Radix sort processes n integers with d digits each, using counting sort as a subroutine with base (radix) b. What is its overall time complexity?", "choices": ["O(n log n)","O(d(n + b))","O(dn²)","O(n²)"], "answer": 1 },
+        { "q": "How many distinct ways can the letters of the word 'BALLOON' be arranged?", "choices": ["630","5040","1260","2520"], "answer": 2 },
+        { "q": "A wrench applies a force of 50 N perpendicular to the end of a 0.3 m handle. What torque does it produce about the bolt?", "choices": ["10 N·m","20 N·m","12.5 N·m","15 N·m"], "answer": 3 },
+        { "q": "A spherical balloon is being inflated so that its radius increases at a constant rate of 2 cm/s. At the instant the radius is 5 cm, how fast is its volume increasing?", "choices": ["200π cm³/s","150π cm³/s","250π cm³/s","100π cm³/s"], "answer": 0 },
+        { "q": "The Gaussian integral ∫₀^∞ e^(−x²) dx equals:", "choices": ["π/2","√π","√π/2","2√π"], "answer": 2 },
+        { "q": "What is ∫₀^π sin(x) dx?", "choices": ["1","π","2","0"], "answer": 2 },
+        { "q": "What is the time complexity of the optimal algorithm for finding the median of two sorted arrays of sizes m and n?", "choices": ["O(m×n)","O(log(min(m,n)))","O((m+n) log(m+n))","O(m+n)"], "answer": 1 },
+        { "q": "What is the hybridization of the carbon atoms in benzene?", "choices": ["sp","sp3d","sp3","sp2"], "answer": 3 },
+        { "q": "A solution is made by dissolving 0.5 mol of NaOH in enough water to make 2 L of solution. What is its molarity?", "choices": ["2 M","1 M","0.25 M","0.5 M"], "answer": 2 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "On an island of 100 perfectly logical people, all have blue eyes, but no one knows their own eye colour — there are no mirrors, and it is absolutely forbidden to discuss anyone's eye colour. Every person can see everyone else's eyes. The rule: if a person ever logically deduces with certainty that their own eyes are blue, they must leave the island at dawn the next day. One day a visitor publicly announces, in front of everyone simultaneously, 'At least one of you has blue eyes' — a fact every islander could already see was true just by looking around. After how many dawns do the blue-eyed islanders leave?", "choices": ["The 100th dawn — the announcement, though it told no one anything they couldn't already see, creates common knowledge that triggers a chain of deduction taking exactly n dawns for n blue-eyed people","The 1st dawn — each person can already see 99 others with blue eyes, so they can deduce their own eyes are blue immediately","The 99th dawn, one day sooner than the number of blue-eyed people, since each person already excludes themselves from their own count","They never leave — the announcement provided no new information, since everyone already saw that others had blue eyes"], "answer": 0 },
-        { "q": "You bought a $60 non-refundable, non-transferable concert ticket. On the day of the show you feel sick, and would enjoy the concert only about half as much as usual — if the ticket had been free, you would definitely skip it tonight. From a purely rational, forward-looking standpoint, should the $60 you already spent affect tonight's decision to go?", "choices": ["No, but only because concerts are non-transferable; a refundable ticket would change the answer","Yes, but only if the ticket cost more than $100","Yes — going recoups value from the money already spent, so you should go to avoid wasting it","No — the $60 is a sunk cost; it's already gone either way, so only tonight's expected enjoyment versus the cost of going tonight should matter"], "answer": 3 },
-        { "q": "A family sits on a porch on a hot day. Grandpa suggests driving 50 miles to a diner in Abilene for dinner. Each family member privately thinks it's a bad idea but assumes the others want to go, so everyone agrees to avoid seeming disagreeable. They drive, have a miserable, hot trip, and over dinner each admits they only went along because they thought everyone else wanted to. What is this phenomenon — where a group collectively agrees to a course of action that no individual member actually wants — called?", "choices": ["The bystander effect — individuals fail to act because they assume someone else will","Social loafing — individuals exert less effort on a task when working as part of a group","Groupthink — the group suppresses dissent to preserve a false sense of harmony and overconfidence in its own judgment","The Abilene Paradox — a group agrees to a course of action that no individual member actually wants, because each person wrongly assumes the others want it"], "answer": 3 },
-        { "q": "Three voters rank three candidates as follows. Voter 1: A>B>C. Voter 2: B>C>A. Voter 3: C>A>B. In pairwise majority votes, A beats B 2-1, B beats C 2-1, and C beats A 2-1. What does this demonstrate about majority-rule voting with three or more options?", "choices": ["The result proves A is the true winner, since A beats B and the cycle is just a tiebreaking artifact","One of the three pairwise vote counts must actually be a tie, so the cycle is only apparent","Majority-rule preferences can be cyclical even though every individual voter's own preferences are perfectly transitive — this is Condorcet's paradox, and it means there is no single 'majority winner' among the three candidates","A cycle like this can only happen with an even number of voters; three voters can never produce one"], "answer": 2 },
-        { "q": "In a two-day golf tournament, players who score far above the field average on day one tend, on average, to score closer to the field average on day two — even setting aside any psychological pressure of leading. What is the purely statistical explanation for this pattern?", "choices": ["Regression to the mean — an extreme day-one score is partly luck, and luck (good or bad) tends not to repeat, so day-two scores drift back toward the average","The scoring must be measured incorrectly, since a player's true skill should produce the same score both days","This only happens because weaker players intentionally play more conservatively once they see they're ahead","Golf courses are deliberately made harder on the second day of tournaments to level the field"], "answer": 0 },
-        { "q": "A family has two children and at least one is a boy. What is the probability that both are boys?", "choices": ["1/3","2/3","1/2","1/4"], "answer": 0 },
-        { "q": "A man is found dead in a locked room with no windows, with only a puddle of water and a chair beneath a ceiling hook. How did he die?", "choices": ["He hanged himself standing on a block of ice, which then melted","He was electrocuted by the hook","He was poisoned by the water","He fell off the chair by accident"], "answer": 0 },
-        { "q": "100 lockers, all closed, are numbered 1 to 100. You make 100 passes: on pass n, you toggle every locker whose number is a multiple of n (open becomes closed, closed becomes open). After all 100 passes, how many lockers are open?", "choices": ["10","50","1","100"], "answer": 0 },
-        { "q": "A car travels the first half of a journey's distance at 60 mph and the second half at 40 mph. What is the car's average speed for the whole trip?", "choices": ["45 mph","48 mph","50 mph","52 mph"], "answer": 1 },
-        { "q": "A woman gives birth to twins, but their birth certificates list two different calendar dates — for example, one on August 31st and the other on September 1st. How is this possible, given they are true twins born only minutes apart?", "choices": ["One twin was actually born a day earlier by C-section","She gave birth right around midnight, so the twins landed on either side of the date change","One twin was legally adopted right after birth","It isn't possible — the dates must be a clerical error"], "answer": 1 }
+        { "q": "A city has exactly 1,000,001 residents. No human head has more than 1,000,000 hairs on it. Without counting a single hair, what can you conclude with certainty?", "choices": ["At least two residents have exactly the same number of hairs on their head","Most residents are bald","Exactly one resident has 1,000,000 hairs","Nothing — you cannot know anything about hair counts without actually counting them"], "answer": 0 },
+        { "q": "In a classic experiment, one group was randomly given a coffee mug and asked the minimum price they'd accept to sell it; a separate group, given no mug, was asked the maximum price they'd pay for an identical one. Ownership was assigned purely by coin flip. What did researchers consistently find?", "choices": ["Sellers and buyers named almost identical prices, since the mug's value didn't depend on who happened to hold it","Both groups refused to name any price, since assigning a dollar value to a gift feels unethical","Sellers demanded roughly twice as much as buyers were willing to pay, purely because of random ownership — the endowment effect","Buyers were willing to pay roughly twice as much as sellers demanded, since new owners undervalue unfamiliar items"], "answer": 2 },
+        { "q": "What is the name of the philosophical paradox in which a hypothetical donkey, placed exactly midway between two identical, equally appealing piles of hay, is unable to find any rational reason to choose one over the other — and, in the paradox, starves to death from indecision?", "choices": ["Occam's razor","Buridan's ass","The Ship of Theseus","Pascal's wager"], "answer": 1 },
+        { "q": "A disease is expected to kill 600 people. Framed as 'lives saved,' Program A saves 200 people for certain and Program B has a 1-in-3 chance of saving all 600 (and 2-in-3 chance of saving no one) — most people pick the certain option, Program A. The identical choice is then reframed as 'lives lost': Program C causes 400 deaths for certain, and Program D has a 1-in-3 chance nobody dies (and 2-in-3 chance all 600 die). Even though Program A = Program C and Program B = Program D in every outcome, most people now switch and pick Program D. What is this reversal called?", "choices": ["The sunk cost fallacy","The gambler's fallacy","Regression to the mean","The framing effect"], "answer": 3 },
+        { "q": "You're offered a single fair coin flip: heads wins you $150, tails loses you $100. The expected value is +$25, favoring you. Most people, however, decline this bet. What well-documented psychological principle — where losses are felt roughly twice as intensely as equivalent gains — best explains this typically irrational refusal?", "choices": ["The sunk cost fallacy","The gambler's fallacy","Confirmation bias","Loss aversion"], "answer": 3 },
+        { "q": "Without cracking it open, how can you reliably tell whether an egg is raw or hard-boiled?", "choices": ["Hold it up to a bright light — a hard-boiled egg looks transparent","Spin it — a hard-boiled egg spins smoothly and stops dead when touched; a raw egg wobbles and keeps moving","Shake it — a hard-boiled egg rattles and a raw egg stays silent","Weigh it — a hard-boiled egg is heavier"], "answer": 1 },
+        { "q": "Nine dots are arranged in a 3×3 grid. Without lifting your pen and without retracing a line, what is the minimum number of straight lines needed to connect all nine dots?", "choices": ["3","5","It cannot be done","4"], "answer": 3 },
+        { "q": "In a 12-hour period, how many times do a clock's hour and minute hands exactly overlap?", "choices": ["24","12","10","11"], "answer": 3 },
+        { "q": "What gets wetter the more it dries?", "choices": ["Sunshine","Ice","A fan","A towel"], "answer": 3 },
+        { "q": "A chessboard has 64 squares. You place 1 grain of rice on the first square, 2 on the second, 4 on the third, doubling each time up to the 64th square. Roughly how many grains of rice are on the whole board in total?", "choices": ["About 18.4 trillion","About 18.4 quintillion","About 18.4 billion","About 128"], "answer": 1 }
       ]
     }
   ]
