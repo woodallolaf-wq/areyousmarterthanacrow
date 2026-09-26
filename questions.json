@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "Which of these is cold?", "choices": ["Oven","Ice","Sun","Fire"], "answer": 1 },
-        { "q": "Which of these is a fruit?", "choices": ["Potato","Carrot","Apple","Onion"], "answer": 2 },
-        { "q": "Which animal is known as 'man's best friend'?", "choices": ["Bird","Cat","Dog","Fish"], "answer": 2 },
-        { "q": "What do you use an umbrella for?", "choices": ["To brush hair","To eat soup","To stay dry in the rain","To tell time"], "answer": 2 },
-        { "q": "Which of these animals can fly?", "choices": ["Fish","Snake","Bird","Elephant"], "answer": 2 },
-        { "q": "What colour is a ripe tomato?", "choices": ["Purple","Red","Grey","Blue"], "answer": 1 },
-        { "q": "What is the opposite of 'day'?", "choices": ["Night","Morning","Sun","Bright"], "answer": 0 },
-        { "q": "Which fruit is yellow and curved?", "choices": ["Cherry","Apple","Grape","Banana"], "answer": 3 },
-        { "q": "What is 3 + 1?", "choices": ["4","5","3","2"], "answer": 0 },
-        { "q": "What do you call baby dogs?", "choices": ["Puppies","Chicks","Kittens","Cubs"], "answer": 0 }
+        { "q": "What is the star at the center of our solar system called?", "choices": ["Earth","The Sun","Mars","The Moon"], "answer": 1 },
+        { "q": "What do you call the frozen water that falls from the sky in winter?", "choices": ["Rain","Fog","Sand","Snow"], "answer": 3 },
+        { "q": "What do you wear on your head when it is cold outside?", "choices": ["Sunglasses","A swimsuit","Sandals","A hat"], "answer": 3 },
+        { "q": "Which of these is a musical instrument?", "choices": ["Guitar","Pillow","Sock","Spoon"], "answer": 0 },
+        { "q": "Which of these animals has a long neck?", "choices": ["Frog","Mouse","Giraffe","Pig"], "answer": 2 },
+        { "q": "What is 1 + 3?", "choices": ["4","5","2","3"], "answer": 0 },
+        { "q": "What do you call a baby lion?", "choices": ["Foal","Kit","Cub","Pup"], "answer": 2 },
+        { "q": "What is the opposite of up?", "choices": ["Big","Fast","Left","Down"], "answer": 3 },
+        { "q": "Which shape has no corners?", "choices": ["Circle","Triangle","Square","Star"], "answer": 0 },
+        { "q": "What is 3 + 3?", "choices": ["5","8","6","7"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which of these is the odd one out: Salmon, Trout, Dolphin, Cod?", "choices": ["Salmon","Trout","Dolphin","Cod"], "answer": 2 },
-        { "q": "Which of these animals is a mammal?", "choices": ["Lizard","Frog","Dolphin","Shark"], "answer": 2 },
-        { "q": "Book is to Read as Fork is to ___?", "choices": ["Kitchen","Eat","Spoon","Metal"], "answer": 1 },
-        { "q": "Which of these numbers is a prime number?", "choices": ["21","15","17","9"], "answer": 2 },
-        { "q": "Which of these words means the same as 'happy'?", "choices": ["Joyful","Sad","Tired","Angry"], "answer": 0 },
-        { "q": "A train covers 150 km in 1 hour 15 minutes. What is its average speed?", "choices": ["125 km/h","100 km/h","110 km/h","120 km/h"], "answer": 3 },
-        { "q": "Which planet is known as the Red Planet?", "choices": ["Saturn","Mars","Venus","Jupiter"], "answer": 1 },
-        { "q": "What is the capital of Japan?", "choices": ["Osaka","Seoul","Tokyo","Kyoto"], "answer": 2 },
-        { "q": "What is the capital of Portugal?", "choices": ["Madrid","Porto","Barcelona","Lisbon"], "answer": 3 },
-        { "q": "What is 18 × 23?", "choices": ["396","414","424","404"], "answer": 1 }
+        { "q": "In 5, 12, 7, 20, 9 — what is the sum of the two smallest values?", "choices": ["14","12","17","9"], "answer": 1 },
+        { "q": "Pen is to Write as Scissors is to ___?", "choices": ["Fold","Draw","Tape","Cut"], "answer": 3 },
+        { "q": "Which does NOT belong? Oak, Pine, Maple, Rose?", "choices": ["Oak","Rose","Pine","Maple"], "answer": 1 },
+        { "q": "Which of these is the odd one out: Violin, Cello, Trumpet, Guitar?", "choices": ["Trumpet","Violin","Cello","Guitar"], "answer": 0 },
+        { "q": "Which of these numbers is NOT a prime number: 17, 19, 21, 23?", "choices": ["17","23","19","21"], "answer": 3 },
+        { "q": "In 9, 2, 6, 4, 8 — what is the sum of the values greater than 5?", "choices": ["21","17","23","19"], "answer": 2 },
+        { "q": "Reverse 5, 2, 8, 4, 1 and sum the first three values of the result.", "choices": ["17","13","15","11"], "answer": 1 },
+        { "q": "Which is the largest planet in the solar system?", "choices": ["Earth","Jupiter","Saturn","Neptune"], "answer": 1 },
+        { "q": "In 6, 9, 2, 8, 4 — what is the sum of the smallest and largest values?", "choices": ["11","13","12","10"], "answer": 0 },
+        { "q": "What is 24 × 26?", "choices": ["614","634","648","624"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A shop marks up an item by 25% and then offers a 20% discount on the marked-up price. Compared to the original price, the final price is:", "choices": ["5% higher","10% lower","The same","5% lower"], "answer": 2 },
-        { "q": "Take the list [17, 3, 9, 22, 5, 14]. Sort it in descending order, then add the 2nd and 5th values in the sorted list. What is the sum?", "choices": ["22","19","14","26"], "answer": 0 },
-        { "q": "'Loquacious' most nearly means:", "choices": ["Silent","Talkative","Suspicious","Clumsy"], "answer": 1 },
-        { "q": "A bag has 4 red and 6 blue marbles. You draw two marbles without replacement. What is the probability both are red?", "choices": ["4/25","2/9","1/9","2/15"], "answer": 3 },
-        { "q": "All violinists are musicians. Some musicians are conductors. Which conclusion follows with certainty?", "choices": ["None of the other options is guaranteed true","All violinists are conductors","Some conductors are violinists","No violinists are conductors"], "answer": 0 },
-        { "q": "A bag has 8 red and 4 blue marbles. Two are drawn without replacement. What is P(both blue)?", "choices": ["1/11","1/10","1/12","3/22"], "answer": 0 },
-        { "q": "All athletes are disciplined. No disciplined people are lazy. Therefore:", "choices": ["All disciplined people are athletes.","No valid conclusion follows.","No athletes are lazy.","Some athletes are lazy."], "answer": 2 },
-        { "q": "A $320 laptop is discounted 25%, then a further $30 off. What is the final price?", "choices": ["$220","$215","$205","$210"], "answer": 3 },
-        { "q": "What are the last two digits of 3¹⁰⁰?", "choices": ["01","49","03","43"], "answer": 0 },
-        { "q": "All doctors are licensed. No licensed people are frauds. Therefore:", "choices": ["Some doctors are frauds.","No valid conclusion follows.","No doctors are frauds.","All frauds are doctors."], "answer": 2 }
+        { "q": "A bag contains 5 red and 3 blue balls. Two balls are drawn without replacement. What is the probability both are red?", "choices": ["5/8","25/64","5/14","3/14"], "answer": 2 },
+        { "q": "'Ephemeral' most nearly means:", "choices": ["Short-lived","Heavy","Colorful","Eternal"], "answer": 0 },
+        { "q": "A $150 item is discounted 20%, then an 8% sales tax is added to the discounted price. What is the final price?", "choices": ["$126.00","$132.00","$124.80","$129.60"], "answer": 3 },
+        { "q": "Take the list [8, 15, 3, 22, 11, 6]. Reverse it, then sum the 2nd and 4th values.", "choices": ["19","26","14","17"], "answer": 2 },
+        { "q": "All engineers are analytical. Some analytical people are creative. Which conclusion follows with certainty?", "choices": ["Some creative people are engineers","None of the other options is guaranteed true","No engineers are creative","All engineers are creative"], "answer": 1 },
+        { "q": "All scientists are curious. No curious people are complacent. Therefore:", "choices": ["No scientists are complacent","All complacent people are scientists","No conclusion can be drawn","Some scientists are complacent"], "answer": 0 },
+        { "q": "A $220 phone is discounted 15%, then a further 10% off the reduced price. What is the final price?", "choices": ["$165.00","$172.70","$170.50","$168.30"], "answer": 3 },
+        { "q": "A bag has 7 red and 5 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["5/22","1/3","7/22","2/7"], "answer": 2 },
+        { "q": "A clock shows 4:20. What is the angle between the hour and minute hands?", "choices": ["0°","30°","10°","20°"], "answer": 2 },
+        { "q": "A list is 12, 27, 5, 18, 31, 8. Sort it descending, then find the sum of the 1st and 4th values of the result.", "choices": ["23","43","49","39"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the time complexity of building a binary heap from n unordered elements?", "choices": ["O(n^2)","O(n)","O(log n)","O(n log n)"], "answer": 1 },
-        { "q": "What is the derivative of f(x) = ln(x^2 + 1) with respect to x?", "choices": ["2/(x^2+1)","x/(x^2+1)","2x/(x^2+1)","1/(x^2+1)"], "answer": 2 },
-        { "q": "In special relativity, a spaceship travels at 0.6c relative to Earth. What is the Lorentz factor (gamma), to two decimal places?", "choices": ["1.25","1.33","1.50","1.15"], "answer": 0 },
-        { "q": "Balance the combustion of propane: C3H8 + O2 -> CO2 + H2O. What is the coefficient of O2 in the balanced equation?", "choices": ["7","5","3","4"], "answer": 1 },
-        { "q": "In propositional logic, which of the following is logically equivalent to (P -> Q)?", "choices": ["P AND Q","NOT P OR Q","NOT P AND Q","P OR NOT Q"], "answer": 1 },
-        { "q": "The derivative of ln(x) with respect to x is:", "choices": ["x ln x","ln x / x","−1/x²","1/x"], "answer": 3 },
-        { "q": "A spaceship travels at 0.8c relative to Earth. According to an Earth observer, how much proper time passes aboard the ship during 10 years of Earth time?", "choices": ["10 years","16.7 years","8 years","6 years"], "answer": 3 },
-        { "q": "What is the logical equivalent of the negation of (P ∨ Q)?", "choices": ["¬P → Q","P ∧ Q","¬P ∧ ¬Q","¬P ∨ ¬Q"], "answer": 2 },
-        { "q": "What is ∫ x sin(x) dx?", "choices": ["x cos x + sin x + C","x sin x - cos x + C","-x cos x - sin x + C","-x cos x + sin x + C"], "answer": 3 },
-        { "q": "The eigenvalue equation for a matrix A and eigenvector v is:", "choices": ["Av = λv","A = λv","vA = λ","Av = 0"], "answer": 0 }
+        { "q": "What is the average-case time complexity of binary search on a sorted array of n elements?", "choices": ["O(1)","O(n)","O(n log n)","O(log n)"], "answer": 3 },
+        { "q": "How many grams of NaOH (molar mass 40 g/mol) are needed to prepare 500 mL of a 2 M solution?", "choices": ["40 g","20 g","80 g","10 g"], "answer": 0 },
+        { "q": "In propositional logic, is the statement (P AND NOT P) a tautology, a contradiction, or a contingency?", "choices": ["Tautology","Contradiction","Contingency","Equivalence"], "answer": 1 },
+        { "q": "What is the derivative of f(x) = sin(x)cos(x)?", "choices": ["cos(2x)","2cos(x)","sin(2x)","-sin(2x)"], "answer": 0 },
+        { "q": "A 2 kg object moving at 3 m/s collides and sticks to a stationary 4 kg object. What is their combined velocity immediately after the perfectly inelastic collision?", "choices": ["1 m/s","0.5 m/s","1.5 m/s","2 m/s"], "answer": 0 },
+        { "q": "A satellite moves in a circular orbit of radius r around a planet of mass M. In terms of the gravitational constant G, its orbital speed is:", "choices": ["√(GM/r²)","√(2GM/r)","√(GM/r)","GM/r²"], "answer": 2 },
+        { "q": "A chemical reaction is spontaneous at every temperature only when:", "choices": ["ΔH < 0 and ΔS > 0","ΔH < 0 and ΔS < 0","ΔH > 0 and ΔS > 0","ΔH > 0 and ΔS < 0"], "answer": 0 },
+        { "q": "What is the time complexity of multiplying two n×n matrices using the standard (naive) algorithm?", "choices": ["O(n log n)","O(n³)","O(n²)","O(n² log n)"], "answer": 1 },
+        { "q": "What is the space complexity of an in-place quicksort (average case, including the recursion stack)?", "choices": ["O(log n)","O(n log n)","O(n)","O(1)"], "answer": 0 },
+        { "q": "The Clausius definition of entropy change for a reversible process is dS =", "choices": ["δQ_rev/T","δQ·T","δW/T","T·δQ_rev"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A car race has 10 cars. You overtake the car currently in 2nd place. What position are you in now?", "choices": ["It depends on your original position","1st place","2nd place","3rd place"], "answer": 2 },
-        { "q": "Three people check into a hotel room costing $30, splitting it $10 each. The manager realizes the room was only $25 and sends the bellhop back with $5. The bellhop, unable to split $5 three ways, gives each guest $1 back and pockets $2. Each guest has now paid $9, totaling $27, plus the bellhop's $2 makes $29. Where did the missing dollar go?", "choices": ["The hotel secretly kept it","The bellhop actually pocketed $3, not $2","The math is correct and a dollar truly vanished","Nowhere — the $27 already includes the bellhop's $2, so adding them double-counts; $27 paid = $25 room + $2 pocketed"], "answer": 3 },
-        { "q": "A biologist says: 'Every one of my lab's rats that drank the experimental compound survived. Therefore the compound is safe.' What is the most glaring logical flaw, assuming the lab also ran rats that did NOT drink it?", "choices": ["There is no flaw — the conclusion follows directly","The claim ignores whether the untreated control rats also survived at the same or higher rate","Rats are not a valid model for any biological claim","The sample size of rats is always too small to matter"], "answer": 1 },
-        { "q": "A survey asks whether a woman with two children has at least one son. She says yes. Assuming each child is independently equally likely to be a boy or girl, what is the probability her other child is also a son?", "choices": ["1/4","1/2","1/3","2/3"], "answer": 2 },
-        { "q": "A farmer must ferry a wolf, a goat, and a cabbage across a river one at a time, and cannot leave the wolf alone with the goat, or the goat alone with the cabbage, when he isn't there. What is the minimum number of river crossings (one-way trips) the farmer needs to get all three across safely?", "choices": ["9","7","5","3"], "answer": 1 },
-        { "q": "You flip a fair coin four times. Which is more likely: the coin landing on HHHH (four heads in a row), or on HTHT (heads, tails, heads, tails)?", "choices": ["Neither is possible with a fair coin","HTHT is more likely","HHHH is more likely","They are equally likely (each has probability 1/16)"], "answer": 3 },
-        { "q": "In 1995, David Justice had a higher batting average than Derek Jeter. In 1996, Justice again had a higher average than Jeter. Yet combining both years together, Jeter's overall average was higher than Justice's. Is this mathematically possible?", "choices": ["Yes — this is a real, documented case (Simpson's paradox)","This could only happen due to a scorekeeping error","No — if Justice led in both years he must lead overall","No — batting averages are strictly additive across years"], "answer": 0 },
-        { "q": "In the St. Petersburg game, a fair coin is flipped until it lands tails; if the first tails occurs on flip n, the payout is $2ⁿ (so $2 if tails on flip 1, $4 on flip 2, and so on). What is this game's expected value?", "choices": ["$8","Infinite — the expected value diverges","$2","$4"], "answer": 1 },
-        { "q": "You have 12 identical-looking coins. Exactly one is counterfeit and weighs slightly differently from the rest (you don't know if it's heavier or lighter). Using a balance scale, what is the minimum number of weighings needed to guarantee finding the counterfeit coin?", "choices": ["3","12","2","4"], "answer": 0 },
-        { "q": "Three guests pay $30 for a room ($10 each). The manager sends back $5 via the bellboy, who keeps $2 and gives $1 to each guest. Each guest paid $9 (total $27); add the bellboy's $2 and you get $29. Where is the missing dollar?", "choices": ["There is no missing dollar — the bellboy's $2 is already part of the $27 paid, not additional to it","The hotel manager kept an extra dollar by mistake","One guest was overcharged by a dollar","The bellboy actually kept $3, not $2"], "answer": 0 }
+        { "q": "A bus is scheduled to arrive every 10 minutes on average, but the actual gaps between buses vary unevenly rather than being constant. If you show up at a uniformly random time, is your average wait for the next bus exactly 5 minutes, more than 5 minutes, or less than 5 minutes?", "choices": ["Less than 5 minutes","More than 5 minutes","It depends only on the bus company's schedule, not the math","Exactly 5 minutes"], "answer": 1 },
+        { "q": "Game A, played alone, is a losing game over time. Game B, played alone, is also a losing game over time. Yet by switching back and forth between A and B according to a certain rule, the combined strategy becomes a winning game overall. What is this result called?", "choices": ["The St. Petersburg paradox","Regression to the mean","Parrondo's paradox","The gambler's ruin"], "answer": 2 },
+        { "q": "An urn contains 90 balls: 30 are red, and the other 60 are black or yellow in some unknown split. Bet A pays $100 if you draw red; Bet B pays $100 if you draw black — most people strictly prefer Bet A. Now Bet C pays $100 if you draw red or yellow; Bet D pays $100 if you draw black or yellow — most people strictly prefer Bet D. For ANY assumed number of yellow balls, preferring A over B together with D over C is logically inconsistent. What does this classic result (the Ellsberg paradox) demonstrate?", "choices": ["People prefer known probabilities (risk) over unknown ones (ambiguity), even though it produces logically inconsistent preferences","Red is genuinely the better colour to bet on in every case","People are simply bad at arithmetic with fractions","The two pairs of bets are not actually inconsistent once risk aversion is included"], "answer": 0 },
+        { "q": "A forensic expert testifies that a DNA sample matches the defendant, and 'the probability of a random person matching by chance is 1 in 1,000,000' — the expert then concludes 'so there is only a 1 in 1,000,000 chance the defendant is innocent.' What is the flaw in this reasoning?", "choices": ["The 1-in-1,000,000 figure must be wrong because DNA matches are always unique","It conflates the probability of the evidence given innocence with the probability of innocence given the evidence — the latter also depends on how many other people could have been tested","There is no flaw; a 1-in-a-million match is conclusive proof of guilt","DNA evidence is never reliable enough to use in court"], "answer": 1 },
+        { "q": "In most real-world friendship networks, compare (a) the average number of friends a random person has, to (b) the average number of friends that random person's own friends have. Which is typically true?", "choices": ["(b) is typically greater than (a)","(a) and (b) are always exactly equal","There is no consistent relationship between (a) and (b)","(a) is typically greater than (b)"], "answer": 0 },
+        { "q": "You're floating in a rowboat on a small pond, holding a heavy rock that is denser than water. You throw the rock overboard and it sinks to the bottom. What happens to the water level in the pond?", "choices": ["It stays exactly the same","It rises","It falls","It's impossible to know without weighing the rock"], "answer": 2 },
+        { "q": "You will interview 100 candidates for a job, one at a time in random order, and must accept or reject each immediately — you can never recall one you rejected. Using the best possible strategy (reject an initial batch outright, then hire the next candidate who beats everyone seen so far), what is the approximate probability that you end up hiring the single best candidate out of all 100?", "choices": ["About 50%","About 90%","About 1%","About 37%"], "answer": 3 },
+        { "q": "100 lbs of freshly picked potatoes are 99% water by weight. After being left out to dry, they are 98% water by weight. What is their new total weight?", "choices": ["99 lbs","98 lbs","50 lbs","1 lb"], "answer": 2 },
+        { "q": "Four hikers must cross a rope bridge at night, sharing one flashlight; at most two people can cross at once, and a pair always moves at the slower hiker's pace. Their solo crossing times are 1, 2, 5 and 10 minutes. What is the minimum total time for all four to get across?", "choices": ["15 minutes","18 minutes","19 minutes","17 minutes"], "answer": 3 },
+        { "q": "Behind one of two doors is freedom, behind the other is death. One guard always tells the truth, the other always lies, but you don't know which is which. You may ask exactly one question, to one guard, to guarantee finding the door to freedom. What do you ask?", "choices": ["It is impossible to determine the correct door with only one question","Ask each guard separately which door is safe, and go with the majority answer","Ask a guard 'Are you the truth-teller?' and follow their answer","Ask either guard what the other guard would say is the door to freedom, then pick the opposite door"], "answer": 3 }
       ]
     }
   ]
