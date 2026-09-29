@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "Which of these is a reptile: Snake, Dog, Cat, Bird?", "choices": ["Snake","Bird","Dog","Cat"], "answer": 0 },
-        { "q": "What is the opposite of 'young'?", "choices": ["Loud","Fast","Small","Old"], "answer": 3 },
-        { "q": "What colour is the ocean?", "choices": ["Blue","Red","Yellow","Purple"], "answer": 0 },
-        { "q": "How many sides does a pentagon have?", "choices": ["4","3","6","5"], "answer": 3 },
-        { "q": "What is 1 + 2?", "choices": ["2","4","5","3"], "answer": 3 },
-        { "q": "What is 2 + 3?", "choices": ["4","7","6","5"], "answer": 3 },
-        { "q": "What do you call a baby sheep?", "choices": ["Chick","Puppy","Lamb","Cub"], "answer": 2 },
-        { "q": "What season comes before winter?", "choices": ["Autumn","Winter","Summer","Spring"], "answer": 0 },
-        { "q": "How many legs does an elephant have?", "choices": ["2","4","6","8"], "answer": 1 },
-        { "q": "What is 6 + 2?", "choices": ["7","9","8","6"], "answer": 2 }
+        { "q": "What is 2 + 6?", "choices": ["9","7","6","8"], "answer": 3 },
+        { "q": "Which of these is a vehicle that can fly?", "choices": ["Airplane","Boat","Bicycle","Car"], "answer": 0 },
+        { "q": "What do you use to draw a picture?", "choices": ["Fork","Crayon","Pillow","Sock"], "answer": 1 },
+        { "q": "Which season is the coldest?", "choices": ["Winter","Summer","Autumn","Spring"], "answer": 0 },
+        { "q": "Which of these shapes has five sides?", "choices": ["Triangle","Circle","Square","Pentagon"], "answer": 3 },
+        { "q": "What do you call a baby whale?", "choices": ["Kit","Cub","Foal","Calf"], "answer": 3 },
+        { "q": "What is 6 minus 3?", "choices": ["2","5","4","3"], "answer": 3 },
+        { "q": "Where do birds build their homes?", "choices": ["Rivers","Cars","Caves","Nests"], "answer": 3 },
+        { "q": "Which one is a vegetable?", "choices": ["Chair","Carrot","Sock","Hat"], "answer": 1 },
+        { "q": "How many eyes do people have?", "choices": ["Four","Two","One","Three"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "How many of these are even: 13, 24, 35, 46, 57, 68?", "choices": ["3","2","4","5"], "answer": 0 },
-        { "q": "Which does NOT belong? Triangle, Square, Pentagon, Circle?", "choices": ["Square","Pentagon","Circle","Triangle"], "answer": 2 },
-        { "q": "What is the capital of Kenya?", "choices": ["Cairo","Nairobi","Accra","Lagos"], "answer": 1 },
-        { "q": "Farmer is to Field as Fisherman is to ___?", "choices": ["Barn","Forest","Farm","Sea"], "answer": 3 },
-        { "q": "In 12, 5, 19, 8, 3 — what is the difference between the largest and smallest values?", "choices": ["11","16","14","19"], "answer": 1 },
-        { "q": "What is 45% of 80?", "choices": ["38","36","32","34"], "answer": 1 },
-        { "q": "Which does NOT belong? Rose, Tulip, Daisy, Carrot.", "choices": ["Tulip","Carrot","Rose","Daisy"], "answer": 1 },
-        { "q": "In 5, 12, 3, 9, 7 — what is the sum of the values greater than 6?", "choices": ["30","28","24","26"], "answer": 1 },
-        { "q": "What is 1,728 ÷ 12?", "choices": ["144","132","156","168"], "answer": 0 },
-        { "q": "In W, 4, K, 9, R, 2, M — what is the position of the third letter?", "choices": ["3rd","7th","4th","5th"], "answer": 3 }
+        { "q": "What is the capital of Chile?", "choices": ["Quito","Lima","Bogota","Santiago"], "answer": 3 },
+        { "q": "In 6, 15, 3, 21, 9 — what is the median value?", "choices": ["9","3","15","6"], "answer": 0 },
+        { "q": "What is 35% of 60?", "choices": ["27","21","18","24"], "answer": 1 },
+        { "q": "Artist is to Paintbrush as Writer is to ___?", "choices": ["River","Pen","Hammer","Kitchen"], "answer": 1 },
+        { "q": "Which of these numbers is NOT a multiple of 4: 16, 22, 28, 32?", "choices": ["28","32","16","22"], "answer": 3 },
+        { "q": "A circle has radius 10. What is its circumference? (π ≈ 3.14)", "choices": ["125.6","62.8","314","31.4"], "answer": 1 },
+        { "q": "What is 23 × 17?", "choices": ["391","401","411","381"], "answer": 0 },
+        { "q": "What is 15 × 12?", "choices": ["170","175","180","190"], "answer": 2 },
+        { "q": "What is the chemical symbol for gold?", "choices": ["Go","Au","Ag","Gd"], "answer": 1 },
+        { "q": "Reticent most nearly means:", "choices": ["Highly persuasive","Quick to anger","Physically frail","Unwilling to speak freely"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "You roll two fair six-sided dice. What is the probability that their sum is exactly 8?", "choices": ["7/36","5/36","1/9","1/6"], "answer": 1 },
-        { "q": "'Laconic' most nearly means:", "choices": ["Talkative and verbose","Sad and melancholic","Terse and using few words","Angry and aggressive"], "answer": 2 },
-        { "q": "All doctors are professionals. Some professionals are not wealthy. Which conclusion follows with certainty?", "choices": ["No doctors are professionals","Some doctors are not wealthy","None of the other options is guaranteed true","All doctors are wealthy"], "answer": 2 },
-        { "q": "A jacket costs $150. It is discounted 20%, then a further 5% loyalty discount is applied to the new price. What is the final price?", "choices": ["$105.00","$120.00","$112.50","$114.00"], "answer": 3 },
-        { "q": "Take the list [45, 12, 78, 3, 29, 60]. Sort it in descending order, then subtract the 4th value from the 1st value.", "choices": ["33","49","16","66"], "answer": 1 },
-        { "q": "A bag has 9 red and 2 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["81/121","9/11","1/55","36/55"], "answer": 3 },
-        { "q": "A container holds 800 mL of a solution that is 25% acid by volume. How many mL of pure acid does it contain?", "choices": ["225 mL","175 mL","200 mL","160 mL"], "answer": 2 },
-        { "q": "In 5, 12, 9, 4, 17, 8, 21, 6 — what is the sum of the values in odd-numbered positions minus the sum of the values in even-numbered positions?", "choices": ["18","22","14","26"], "answer": 1 },
-        { "q": "Simplify: (169 ÷ 13) × 4 − 3³", "choices": ["29","21","31","25"], "answer": 3 },
-        { "q": "Which word is most nearly opposite in meaning to 'profligate'?", "choices": ["Prodigal","Lavish","Wasteful","Frugal"], "answer": 3 }
+        { "q": "All whales are mammals. All mammals are warm-blooded. Which conclusion follows with certainty?", "choices": ["All whales are warm-blooded","No whales are warm-blooded","Some mammals are not warm-blooded","All warm-blooded animals are whales"], "answer": 0 },
+        { "q": "Take the list [14, 27, 6, 33, 19, 2]. Sort it in ascending order, then multiply the 1st and 3rd values.", "choices": ["24","42","36","28"], "answer": 3 },
+        { "q": "'Ubiquitous' most nearly means:", "choices": ["Difficult to understand","Extremely rare","Short-lived","Present everywhere"], "answer": 3 },
+        { "q": "A $250 item is marked up 12%, then discounted 15% off the marked-up price. What is the final price?", "choices": ["$242.50","$238.00","$230.00","$235.00"], "answer": 1 },
+        { "q": "A bag contains 6 green and 4 yellow marbles. You draw two marbles without replacement. What is the probability both are yellow?", "choices": ["2/15","1/5","3/10","4/25"], "answer": 0 },
+        { "q": "All watches are timepieces. Some timepieces are antiques. Which conclusion follows with certainty?", "choices": ["No watches are antiques","All antiques are watches","No conclusion about watches and antiques follows with certainty","Some watches are antiques"], "answer": 2 },
+        { "q": "All journalists are writers. No writers are illiterate. Therefore:", "choices": ["All writers are journalists.","Some journalists are illiterate.","No journalists are illiterate.","No valid conclusion follows."], "answer": 2 },
+        { "q": "What is the next prime number after 113?", "choices": ["121","117","127","115"], "answer": 2 },
+        { "q": "Reverse B, 4, G, 9, M, 2, X. What is the 3rd item of the result?", "choices": ["G","M","9","2"], "answer": 1 },
+        { "q": "Reverse 4, 7, 2, 9, 1, 8, 3 and take the middle value of the result.", "choices": ["1","9","8","2"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A gas occupies 10 L at 2 atm and 300 K. If the pressure is increased to 5 atm at constant temperature, what is the new volume? (Boyle's Law)", "choices": ["2.5 L","20 L","5 L","4 L"], "answer": 3 },
-        { "q": "A 2 kg object accelerates from rest to 10 m/s in 5 seconds. What is the net force applied? (assume constant acceleration)", "choices": ["10 N","20 N","2 N","4 N"], "answer": 3 },
-        { "q": "What is the average-case time complexity of a hash table lookup with a good hash function and low load factor?", "choices": ["O(n)","O(n log n)","O(1)","O(log n)"], "answer": 2 },
-        { "q": "What is the second derivative of f(x) = x^4 with respect to x?", "choices": ["12x","4x^3","12x^2","x^3"], "answer": 2 },
-        { "q": "Given: 'Either the alarm malfunctioned, or someone tampered with it. The alarm did not malfunction.' Using disjunctive syllogism, what can we validly conclude?", "choices": ["Nothing can be concluded","Both statements are false","Someone tampered with it","The alarm malfunctioned"], "answer": 2 },
-        { "q": "What is the derivative of x²sin(x) with respect to x?", "choices": ["2x sin x + x² cos x","2x cos x + x² sin x","2x sin x − x² cos x","x² cos x"], "answer": 0 },
-        { "q": "A ball is dropped from rest and falls for 3 seconds. Ignoring air resistance (g=9.8 m/s²), what is its velocity at t=3s?", "choices": ["19.6 m/s","29.4 m/s","44.1 m/s","9.8 m/s"], "answer": 1 },
-        { "q": "The reduced mass μ of a two-body system with masses m₁ and m₂ is:", "choices": ["(m₁m₂)/(m₁ + m₂)","(m₁ + m₂)/2","m₁ + m₂","(m₁² + m₂²)/(m₁ + m₂)"], "answer": 0 },
-        { "q": "What is the oxidation state of chlorine in perchloric acid, HClO₄?", "choices": ["+3","+1","+7","+5"], "answer": 2 },
-        { "q": "Which of the following is logically equivalent to ¬(P ∧ Q)?", "choices": ["¬P ∧ ¬Q","P ∧ ¬Q","P ∨ Q","¬P ∨ ¬Q"], "answer": 3 }
+        { "q": "A projectile is launched at 30 m/s at an angle of 30 degrees above horizontal. What is the initial vertical component of its velocity? (use sin(30°) = 0.5)", "choices": ["30 m/s","7.5 m/s","15 m/s","25.98 m/s"], "answer": 2 },
+        { "q": "What is the time complexity of inserting a node into a balanced binary search tree?", "choices": ["O(n)","O(1)","O(n log n)","O(log n)"], "answer": 3 },
+        { "q": "What is the derivative of f(x) = e^(2x) with respect to x?", "choices": ["e^(2x)","2e^(2x)","2xe^(2x-1)","e^(2x)/2"], "answer": 1 },
+        { "q": "What is the molarity of a solution made by dissolving 0.5 mol of solute in 250 mL of solution?", "choices": ["0.5 M","0.125 M","2 M","4 M"], "answer": 2 },
+        { "q": "Using modus tollens, given 'If P then Q' and 'not Q', what can be validly concluded?", "choices": ["Q","Nothing can be concluded","P","not P"], "answer": 3 },
+        { "q": "The number of ways to choose an unordered committee of 3 from 10 people is:", "choices": ["120","210","720","100"], "answer": 0 },
+        { "q": "A photon has wavelength 400 nm. What is its energy in eV (approx)? Use E=hc/λ, hc≈1240 eV·nm.", "choices": ["4.0 eV","2.8 eV","3.1 eV","3.5 eV"], "answer": 2 },
+        { "q": "What is the time complexity of the union–find (disjoint-set) data structure's operations with path compression and union by rank, over m operations?", "choices": ["O(m α(n))","O(m)","O(m log log n)","O(m log n)"], "answer": 0 },
+        { "q": "What is the value of ∫₀^(π/2) cos(x) dx?", "choices": ["0","2","π/2","1"], "answer": 3 },
+        { "q": "Dijkstra's algorithm with a binary heap runs in:", "choices": ["O(V²)","O(VE)","O((V + E) log V)","O(E log E + V)"], "answer": 2 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Two people each flip a fair coin 3 times. What is the probability that they end up with the same number of heads as each other?", "choices": ["1/2","5/16","3/8","1/4"], "answer": 1 },
-        { "q": "You flip a fair coin 10 times, and on a separate occasion flip it 10,000 times. In which case is the result MORE likely to come out to EXACTLY 50% heads?", "choices": ["Neither can ever land on exactly 50% by definition","The 10,000-flip case — the Law of Large Numbers makes exact 50% more likely with more flips","The 10-flip case — exact 50% is actually far more probable with fewer flips","Both cases are exactly equally likely"], "answer": 2 },
-        { "q": "A rectangular garden is 8 m by 8 m. Its length is increased by 50% and its width is increased by 20%. By what percentage does the garden's area increase?", "choices": ["80%","65%","70%","100%"], "answer": 0 },
-        { "q": "A rumor starts with 1 person. Each hour, every person who knows the rumor tells 3 new people who haven't heard it yet. Including the original person, how many people in total have heard the rumor by the end of hour 5?", "choices": ["16","364","729","243"], "answer": 1 },
-        { "q": "You flip a fair coin repeatedly until you see two heads in a row (HH) for the first time. What is the expected (average) number of flips needed?", "choices": ["2","6","4","8"], "answer": 1 },
-        { "q": "Writing out every integer from 1 to 1000, how many times does the digit '1' appear in total (counting every occurrence, so 111 counts three times)?", "choices": ["301","280","320","300"], "answer": 0 },
-        { "q": "A man looks at a photograph and says, 'Brothers and sisters I have none, but this man's father is my father's son.' Whose photograph is he looking at?", "choices": ["His father's","His nephew's","His own","His son's"], "answer": 3 },
-        { "q": "You shuffle a standard 52-card deck thoroughly and deal all 52 cards face-up in a row. Which specific final order is more likely: the exact order you actually got, or the deck coming out in perfect sorted order (A♠, 2♠, 3♠, ... K♣)?", "choices": ["They are exactly equally likely — every specific order has the same probability, 1/52!","The order you got is far more likely, since it looks properly random","It depends on how many times the deck was shuffled","The sorted order is far more likely, since a shuffle rarely produces something so orderly"], "answer": 0 },
-        { "q": "An airport screening test correctly flags 95% of actual terrorists and incorrectly flags 2% of innocent travelers. Out of 10,000,000 travelers, only 100 are actual terrorists. If a random flagged traveler is picked, what is the probability they are actually a terrorist?", "choices": ["About 2%","About 95%","About 50%","About 0.05%"], "answer": 3 },
-        { "q": "How many animals of each kind did Moses take on the ark?", "choices": ["None — it was Noah, not Moses, who built the ark","Seven of each clean kind, two of each unclean kind","Two of each kind","One of each kind"], "answer": 0 }
+        { "q": "You must hire exactly one candidate from a pool of 100, interviewing them one at a time in random order, deciding to accept or reject immediately with no recall of anyone rejected. The strategy that maximizes your chance of picking the single best candidate is to automatically reject an initial sample, then accept the next candidate who beats everyone seen so far. Roughly what fraction of the pool should that initial 'reject no matter what' sample be?", "choices": ["About 63%","About 37%","About 10%","About 50%"], "answer": 1 },
+        { "q": "Benford's Law describes the distribution of leading (first) digits in many naturally occurring numerical datasets, such as populations, stock prices, and physical constants. Which leading digit actually occurs most often?", "choices": ["5","1","9","Every digit is equally likely, about 11.1% each"], "answer": 1 },
+        { "q": "Three identical-looking boxes: one holds two gold coins, one holds two silver coins, and one holds one gold and one silver coin. You pick a box at random and draw one of its coins at random — it turns out to be gold. What is the probability the OTHER coin in that same box is also gold?", "choices": ["1/3","1/2","3/4","2/3"], "answer": 3 },
+        { "q": "A cereal brand puts 1 of 6 different toys in every box, each toy equally likely. Buying boxes one at a time until you own all 6 toys, about how many boxes should you expect to need on average?", "choices": ["About 14.7","About 10.5","About 21","About 6"], "answer": 0 },
+        { "q": "A single-elimination tournament starts with 127 players. Matches are played one at a time; each match has exactly two players, and the loser is eliminated immediately. This continues until only one player — the champion — remains. How many matches are played in total?", "choices": ["126","63","127","128"], "answer": 0 },
+        { "q": "A rooster lays an egg on the exact peak of a barn roof. Which side does the egg roll down?", "choices": ["Neither — roosters don't lay eggs","Neither — it balances","South","North"], "answer": 0 },
+        { "q": "In a doubling ('Martingale') betting strategy on a fair coin, you bet $1 and double your next bet after every loss, stopping as soon as you win once. Assuming no table limit and unlimited money, what is your profit when you finally win?", "choices": ["$1, no matter how many losses came before it","It depends on how many times you lost first","A net loss equal to the total amount wagered","$0, since it's a fundamentally fair game"], "answer": 0 },
+        { "q": "You are running a race and you overtake the person in second place. What position are you in now?", "choices": ["Third place","First place","It depends on the length of the race","Second place"], "answer": 3 },
+        { "q": "You answer 10 independent true/false questions, and you are perfectly well-calibrated at 90% confidence on each one. What is the probability you get all 10 correct?", "choices": ["About 65%","About 35%","About 90%","About 10%"], "answer": 1 },
+        { "q": "A man walks into a bar and asks the bartender for a glass of water. The bartender pulls out a gun and points it at him. The man says 'thank you' and calmly walks out. Why?", "choices": ["The man was testing whether the gun was loaded","The bartender recognised him as a wanted criminal","The man had hiccups, and the shock of the gun cured them","The bartender was joking with a water pistol"], "answer": 2 }
       ]
     }
   ]
