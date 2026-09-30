@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What is 2 + 6?", "choices": ["9","7","6","8"], "answer": 3 },
-        { "q": "Which of these is a vehicle that can fly?", "choices": ["Airplane","Boat","Bicycle","Car"], "answer": 0 },
-        { "q": "What do you use to draw a picture?", "choices": ["Fork","Crayon","Pillow","Sock"], "answer": 1 },
-        { "q": "Which season is the coldest?", "choices": ["Winter","Summer","Autumn","Spring"], "answer": 0 },
-        { "q": "Which of these shapes has five sides?", "choices": ["Triangle","Circle","Square","Pentagon"], "answer": 3 },
-        { "q": "What do you call a baby whale?", "choices": ["Kit","Cub","Foal","Calf"], "answer": 3 },
-        { "q": "What is 6 minus 3?", "choices": ["2","5","4","3"], "answer": 3 },
-        { "q": "Where do birds build their homes?", "choices": ["Rivers","Cars","Caves","Nests"], "answer": 3 },
-        { "q": "Which one is a vegetable?", "choices": ["Chair","Carrot","Sock","Hat"], "answer": 1 },
-        { "q": "How many eyes do people have?", "choices": ["Four","Two","One","Three"], "answer": 1 }
+        { "q": "What colour is a ripe strawberry?", "choices": ["Black","Red","Blue","Purple"], "answer": 1 },
+        { "q": "Which of these is a pet: dog, car, table, spoon?", "choices": ["Dog","Car","Table","Spoon"], "answer": 0 },
+        { "q": "What sound does a pig make?", "choices": ["Moo","Oink","Baa","Quack"], "answer": 1 },
+        { "q": "Which of these is a vegetable: carrot, hat, shoe, spoon?", "choices": ["Spoon","Shoe","Carrot","Hat"], "answer": 2 },
+        { "q": "Which season comes after summer?", "choices": ["Winter","Spring","Summer","Autumn"], "answer": 3 },
+        { "q": "What is the opposite of 'open'?", "choices": ["Closed","Soft","Loud","Fast"], "answer": 0 },
+        { "q": "What colour is a fire truck?", "choices": ["Yellow","Red","Blue","Green"], "answer": 1 },
+        { "q": "What do you call a baby deer?", "choices": ["Kit","Calf","Fawn","Cub"], "answer": 2 },
+        { "q": "What colour is coal?", "choices": ["White","Black","Yellow","Pink"], "answer": 1 },
+        { "q": "Which animal purrs?", "choices": ["Dog","Fish","Cat","Bird"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Chile?", "choices": ["Quito","Lima","Bogota","Santiago"], "answer": 3 },
-        { "q": "In 6, 15, 3, 21, 9 — what is the median value?", "choices": ["9","3","15","6"], "answer": 0 },
-        { "q": "What is 35% of 60?", "choices": ["27","21","18","24"], "answer": 1 },
-        { "q": "Artist is to Paintbrush as Writer is to ___?", "choices": ["River","Pen","Hammer","Kitchen"], "answer": 1 },
-        { "q": "Which of these numbers is NOT a multiple of 4: 16, 22, 28, 32?", "choices": ["28","32","16","22"], "answer": 3 },
-        { "q": "A circle has radius 10. What is its circumference? (π ≈ 3.14)", "choices": ["125.6","62.8","314","31.4"], "answer": 1 },
-        { "q": "What is 23 × 17?", "choices": ["391","401","411","381"], "answer": 0 },
-        { "q": "What is 15 × 12?", "choices": ["170","175","180","190"], "answer": 2 },
-        { "q": "What is the chemical symbol for gold?", "choices": ["Go","Au","Ag","Gd"], "answer": 1 },
-        { "q": "Reticent most nearly means:", "choices": ["Highly persuasive","Quick to anger","Physically frail","Unwilling to speak freely"], "answer": 3 }
+        { "q": "Which of these is NOT a primary colour: Red, Blue, Green, Yellow?", "choices": ["Red","Yellow","Green","Blue"], "answer": 2 },
+        { "q": "How many of these are odd: 12, 15, 18, 21, 24, 27?", "choices": ["4","5","3","2"], "answer": 2 },
+        { "q": "What is 18% of 50?", "choices": ["9","10","7.5","8"], "answer": 0 },
+        { "q": "Which of these numbers is NOT a multiple of 3: 9, 14, 18, 27?", "choices": ["27","18","9","14"], "answer": 3 },
+        { "q": "Puppy is to Dog as Calf is to ___?", "choices": ["Cow","Sheep","Goat","Horse"], "answer": 0 },
+        { "q": "What is 144 ÷ 12?", "choices": ["11","10","14","12"], "answer": 3 },
+        { "q": "Which does NOT belong? Whale, Shark, Dolphin, Seal", "choices": ["Dolphin","Whale","Seal","Shark"], "answer": 3 },
+        { "q": "What is the capital of Italy?", "choices": ["Naples","Milan","Venice","Rome"], "answer": 3 },
+        { "q": "What is 65% of 360?", "choices": ["216","228","234","225"], "answer": 2 },
+        { "q": "What is 23 × 4?", "choices": ["88","84","92","96"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "All whales are mammals. All mammals are warm-blooded. Which conclusion follows with certainty?", "choices": ["All whales are warm-blooded","No whales are warm-blooded","Some mammals are not warm-blooded","All warm-blooded animals are whales"], "answer": 0 },
-        { "q": "Take the list [14, 27, 6, 33, 19, 2]. Sort it in ascending order, then multiply the 1st and 3rd values.", "choices": ["24","42","36","28"], "answer": 3 },
-        { "q": "'Ubiquitous' most nearly means:", "choices": ["Difficult to understand","Extremely rare","Short-lived","Present everywhere"], "answer": 3 },
-        { "q": "A $250 item is marked up 12%, then discounted 15% off the marked-up price. What is the final price?", "choices": ["$242.50","$238.00","$230.00","$235.00"], "answer": 1 },
-        { "q": "A bag contains 6 green and 4 yellow marbles. You draw two marbles without replacement. What is the probability both are yellow?", "choices": ["2/15","1/5","3/10","4/25"], "answer": 0 },
-        { "q": "All watches are timepieces. Some timepieces are antiques. Which conclusion follows with certainty?", "choices": ["No watches are antiques","All antiques are watches","No conclusion about watches and antiques follows with certainty","Some watches are antiques"], "answer": 2 },
-        { "q": "All journalists are writers. No writers are illiterate. Therefore:", "choices": ["All writers are journalists.","Some journalists are illiterate.","No journalists are illiterate.","No valid conclusion follows."], "answer": 2 },
-        { "q": "What is the next prime number after 113?", "choices": ["121","117","127","115"], "answer": 2 },
-        { "q": "Reverse B, 4, G, 9, M, 2, X. What is the 3rd item of the result?", "choices": ["G","M","9","2"], "answer": 1 },
-        { "q": "Reverse 4, 7, 2, 9, 1, 8, 3 and take the middle value of the result.", "choices": ["1","9","8","2"], "answer": 1 }
+        { "q": "Take the list [8, 3, 15, 1, 22, 7]. Reverse it, then add the 2nd and 5th numbers in the reversed list.", "choices": ["18","23","30","25"], "answer": 3 },
+        { "q": "'Meticulous' most nearly means:", "choices": ["Loud and boastful","Careless and hasty","Extremely careful and precise","Slow and lazy"], "answer": 2 },
+        { "q": "A jacket originally priced $180 is discounted 20%, then an additional 10% off the discounted price. What is the final price?", "choices": ["$126.00","$140.40","$129.60","$132.00"], "answer": 2 },
+        { "q": "No reptiles are mammals. All snakes are reptiles. Which conclusion follows with certainty?", "choices": ["No snakes are mammals","No reptiles are snakes","Some snakes are mammals","All mammals are snakes"], "answer": 0 },
+        { "q": "A drawer has 5 red socks and 3 blue socks. You draw two socks without replacement. What is the probability both are red?", "choices": ["3/8","5/14","1/2","5/8"], "answer": 1 },
+        { "q": "A committee of 4 is chosen at random from a group of 6 men and 5 women. What is the probability the committee has exactly 2 men and 2 women?", "choices": ["10/33","6/11","5/11","1/2"], "answer": 2 },
+        { "q": "From 14, 7, 22, 3, 19, 11, 8 — sum the values above 10.", "choices": ["66","47","55","70"], "answer": 0 },
+        { "q": "Two fair dice are rolled. What is P(sum = 8)?", "choices": ["7/36","5/36","1/9","1/6"], "answer": 1 },
+        { "q": "A bag has 8 red and 4 blue marbles. Two are drawn without replacement. What is P(different colours)?", "choices": ["4/11","8/33","1/2","16/33"], "answer": 3 },
+        { "q": "Vituperative most nearly means:", "choices": ["Harshly critical","Highly persuasive","Mildly amused","Excessively cautious"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A projectile is launched at 30 m/s at an angle of 30 degrees above horizontal. What is the initial vertical component of its velocity? (use sin(30°) = 0.5)", "choices": ["30 m/s","7.5 m/s","15 m/s","25.98 m/s"], "answer": 2 },
-        { "q": "What is the time complexity of inserting a node into a balanced binary search tree?", "choices": ["O(n)","O(1)","O(n log n)","O(log n)"], "answer": 3 },
-        { "q": "What is the derivative of f(x) = e^(2x) with respect to x?", "choices": ["e^(2x)","2e^(2x)","2xe^(2x-1)","e^(2x)/2"], "answer": 1 },
-        { "q": "What is the molarity of a solution made by dissolving 0.5 mol of solute in 250 mL of solution?", "choices": ["0.5 M","0.125 M","2 M","4 M"], "answer": 2 },
-        { "q": "Using modus tollens, given 'If P then Q' and 'not Q', what can be validly concluded?", "choices": ["Q","Nothing can be concluded","P","not P"], "answer": 3 },
-        { "q": "The number of ways to choose an unordered committee of 3 from 10 people is:", "choices": ["120","210","720","100"], "answer": 0 },
-        { "q": "A photon has wavelength 400 nm. What is its energy in eV (approx)? Use E=hc/λ, hc≈1240 eV·nm.", "choices": ["4.0 eV","2.8 eV","3.1 eV","3.5 eV"], "answer": 2 },
-        { "q": "What is the time complexity of the union–find (disjoint-set) data structure's operations with path compression and union by rank, over m operations?", "choices": ["O(m α(n))","O(m)","O(m log log n)","O(m log n)"], "answer": 0 },
-        { "q": "What is the value of ∫₀^(π/2) cos(x) dx?", "choices": ["0","2","π/2","1"], "answer": 3 },
-        { "q": "Dijkstra's algorithm with a binary heap runs in:", "choices": ["O(V²)","O(VE)","O((V + E) log V)","O(E log E + V)"], "answer": 2 }
+        { "q": "Given the premises 'If the reactor overheats, the alarm sounds' and 'The alarm did not sound,' what can be validly concluded?", "choices": ["The alarm is broken","The reactor did not overheat","No valid conclusion follows","The reactor overheated"], "answer": 1 },
+        { "q": "What is the time complexity of merging two already-sorted arrays of size n and m into one sorted array?", "choices": ["O(nm)","O(log(n+m))","O(n log m)","O(n + m)"], "answer": 3 },
+        { "q": "What is the derivative of f(x) = ln(3x^2 + 1) with respect to x?", "choices": ["6x/(3x^2+1)","6x/(x^2+1)","ln(6x)","3x/(3x^2+1)"], "answer": 0 },
+        { "q": "How many grams of KOH (molar mass 56 g/mol) are needed to prepare 250 mL of a 0.4 M solution?", "choices": ["5.6 g","2.8 g","4 g","11.2 g"], "answer": 0 },
+        { "q": "A 3 kg object moving at 4 m/s collides and sticks to a stationary 2 kg object. What is the velocity of the combined mass after the collision (perfectly inelastic)?", "choices": ["6 m/s","2 m/s","3 m/s","2.4 m/s"], "answer": 3 },
+        { "q": "What is the worst-case time complexity of the Knuth–Morris–Pratt (KMP) string matching algorithm for a pattern of length m in a text of length n?", "choices": ["O(n log m)","O(n + m)","O(nm)","O(m log n)"], "answer": 1 },
+        { "q": "For the balanced equation 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O, how many moles of O₂ are needed to completely combust 2 moles of C₂H₆?", "choices": ["14 mol","7 mol","3.5 mol","2 mol"], "answer": 1 },
+        { "q": "A charge of +3 μC is placed 2 cm from a charge of +6 μC. Using Coulomb's constant k ≈ 8.99×10⁹ N·m²/C², what is the magnitude of the force between them?", "choices": ["≈40.5 N","≈4045 N","≈8.1 N","≈404.5 N"], "answer": 3 },
+        { "q": "Using S(x) for 'x is a student', E(y) for 'y is an exam', and P(x,y) for 'x passed y', which formula correctly expresses 'Every student passed some exam'?", "choices": ["∃x (S(x) ∧ ∀y (E(y) → P(x,y)))","∃y (E(y) ∧ ∀x (S(x) → P(x,y)))","∀x (S(x) → ∃y (E(y) ∧ P(x,y)))","∀x ∀y (S(x) → (E(y) → P(x,y)))"], "answer": 2 },
+        { "q": "The worst-case time complexity of merge sort is:", "choices": ["O(n²)","O(log n)","O(n)","O(n log n)"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "You must hire exactly one candidate from a pool of 100, interviewing them one at a time in random order, deciding to accept or reject immediately with no recall of anyone rejected. The strategy that maximizes your chance of picking the single best candidate is to automatically reject an initial sample, then accept the next candidate who beats everyone seen so far. Roughly what fraction of the pool should that initial 'reject no matter what' sample be?", "choices": ["About 63%","About 37%","About 10%","About 50%"], "answer": 1 },
-        { "q": "Benford's Law describes the distribution of leading (first) digits in many naturally occurring numerical datasets, such as populations, stock prices, and physical constants. Which leading digit actually occurs most often?", "choices": ["5","1","9","Every digit is equally likely, about 11.1% each"], "answer": 1 },
-        { "q": "Three identical-looking boxes: one holds two gold coins, one holds two silver coins, and one holds one gold and one silver coin. You pick a box at random and draw one of its coins at random — it turns out to be gold. What is the probability the OTHER coin in that same box is also gold?", "choices": ["1/3","1/2","3/4","2/3"], "answer": 3 },
-        { "q": "A cereal brand puts 1 of 6 different toys in every box, each toy equally likely. Buying boxes one at a time until you own all 6 toys, about how many boxes should you expect to need on average?", "choices": ["About 14.7","About 10.5","About 21","About 6"], "answer": 0 },
-        { "q": "A single-elimination tournament starts with 127 players. Matches are played one at a time; each match has exactly two players, and the loser is eliminated immediately. This continues until only one player — the champion — remains. How many matches are played in total?", "choices": ["126","63","127","128"], "answer": 0 },
-        { "q": "A rooster lays an egg on the exact peak of a barn roof. Which side does the egg roll down?", "choices": ["Neither — roosters don't lay eggs","Neither — it balances","South","North"], "answer": 0 },
-        { "q": "In a doubling ('Martingale') betting strategy on a fair coin, you bet $1 and double your next bet after every loss, stopping as soon as you win once. Assuming no table limit and unlimited money, what is your profit when you finally win?", "choices": ["$1, no matter how many losses came before it","It depends on how many times you lost first","A net loss equal to the total amount wagered","$0, since it's a fundamentally fair game"], "answer": 0 },
-        { "q": "You are running a race and you overtake the person in second place. What position are you in now?", "choices": ["Third place","First place","It depends on the length of the race","Second place"], "answer": 3 },
-        { "q": "You answer 10 independent true/false questions, and you are perfectly well-calibrated at 90% confidence on each one. What is the probability you get all 10 correct?", "choices": ["About 65%","About 35%","About 90%","About 10%"], "answer": 1 },
-        { "q": "A man walks into a bar and asks the bartender for a glass of water. The bartender pulls out a gun and points it at him. The man says 'thank you' and calmly walks out. Why?", "choices": ["The man was testing whether the gun was loaded","The bartender recognised him as a wanted criminal","The man had hiccups, and the shock of the gun cured them","The bartender was joking with a water pistol"], "answer": 2 }
+        { "q": "The old city of Konigsberg had four landmasses connected by seven bridges, arranged so that every single landmass was touched by an odd number of bridges. Euler proved it is impossible to walk through the city crossing each bridge exactly once. Why not?", "choices": ["Because seven is an odd number of bridges","A route crossing every bridge exactly once can exist only if zero or exactly two landmasses have an odd number of bridges touching them - but here all four do","Because the landmasses are not arranged in a straight line","Because there are more bridges than landmasses"], "answer": 1 },
+        { "q": "Dice A, B, and C are weighted so that A beats B more often than not in a single roll-off, and B beats C more often than not. Must A also beat C more often than not?", "choices": ["No - nontransitive dice can be constructed where A beats B, B beats C, and yet C beats A","Yes, but only if all three dice are six-sided","No, because probabilities can never exceed 50%","Yes, this follows automatically from transitivity"], "answer": 0 },
+        { "q": "Cantor's diagonal argument proves that no list, however long, can ever contain every real number between 0 and 1 - even though the list of natural numbers (1, 2, 3, ...) is already infinite. What does this establish?", "choices": ["The real numbers between 0 and 1 and the natural numbers are the same size of infinity","There are more natural numbers than real numbers between 0 and 1","Infinity is not a well-defined mathematical concept","The real numbers between 0 and 1 form a strictly larger infinity than the natural numbers"], "answer": 3 },
+        { "q": "A factory's widgets come from two machines: Machine A makes 70% of all widgets with a 2% defect rate; Machine B makes 30% of all widgets with a 5% defect rate. A widget is picked at random and found to be defective. Is it more likely to have come from Machine A or Machine B?", "choices": ["There's not enough information to tell","Machine A, since it produces most of the widgets","It's exactly 50/50 either way","Machine B - despite making fewer widgets overall, its higher defect rate means about 51.7% of defective widgets come from it"], "answer": 3 },
+        { "q": "You roll two fair six-sided dice and are told their sum is 8. Given that information, what is the probability that at least one of the two dice shows a 6?", "choices": ["11/36","1/6","1/3","2/5"], "answer": 3 },
+        { "q": "Gabriel's Horn is formed by rotating the curve y = 1/x for x ≥ 1 around the x-axis. It has a finite volume (π cubic units) when computed by integration. What is its total surface area?", "choices": ["Zero, since the horn narrows to an infinitely thin point","Finite, and larger than the volume","Exactly π, same as the volume","Infinite — the surface area diverges even though the volume is finite"], "answer": 3 },
+        { "q": "For any ranked-choice voting system with 3 or more candidates, is it possible to design one that always satisfies all three of: no single dictator, respects unanimous voter preference, and is unaffected by irrelevant candidates being added or removed?", "choices": ["Yes, but only when there are exactly 3 candidates","No — Arrow's Impossibility Theorem proves no such ranked voting system can satisfy all three simultaneously","Yes, instant-runoff voting satisfies all three","Yes, ranked-pairs voting satisfies all three"], "answer": 1 },
+        { "q": "You are in a race and you overtake the person in second place. What position are you in?", "choices": ["It depends on the field size","First","Third","Second"], "answer": 3 },
+        { "q": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10","$0.15","$0.05","$1.00"], "answer": 2 },
+        { "q": "A family has exactly two children, and each child is independently equally likely to be a boy or a girl. You are told that at least one of the children is a girl. What is the probability that both children are girls?", "choices": ["1/2","1/3","1/4","2/3"], "answer": 1 }
       ]
     }
   ]
