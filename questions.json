@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What colour is a ripe strawberry?", "choices": ["Black","Red","Blue","Purple"], "answer": 1 },
-        { "q": "Which of these is a pet: dog, car, table, spoon?", "choices": ["Dog","Car","Table","Spoon"], "answer": 0 },
-        { "q": "What sound does a pig make?", "choices": ["Moo","Oink","Baa","Quack"], "answer": 1 },
-        { "q": "Which of these is a vegetable: carrot, hat, shoe, spoon?", "choices": ["Spoon","Shoe","Carrot","Hat"], "answer": 2 },
-        { "q": "Which season comes after summer?", "choices": ["Winter","Spring","Summer","Autumn"], "answer": 3 },
-        { "q": "What is the opposite of 'open'?", "choices": ["Closed","Soft","Loud","Fast"], "answer": 0 },
-        { "q": "What colour is a fire truck?", "choices": ["Yellow","Red","Blue","Green"], "answer": 1 },
-        { "q": "What do you call a baby deer?", "choices": ["Kit","Calf","Fawn","Cub"], "answer": 2 },
-        { "q": "What colour is coal?", "choices": ["White","Black","Yellow","Pink"], "answer": 1 },
-        { "q": "Which animal purrs?", "choices": ["Dog","Fish","Cat","Bird"], "answer": 2 }
+        { "q": "What is 6 + 4?", "choices": ["8","9","10","11"], "answer": 2 },
+        { "q": "What is 8 + 3?", "choices": ["11","9","10","12"], "answer": 0 },
+        { "q": "Which one is a vegetable: broccoli, spoon, pillow, sock?", "choices": ["Sock","Spoon","Pillow","Broccoli"], "answer": 3 },
+        { "q": "Which is colder: Ice or Fire?", "choices": ["Neither is cold","Fire","Ice","They are the same"], "answer": 2 },
+        { "q": "Which of these is a shape: Circle, Jump, Happy, Run?", "choices": ["Jump","Happy","Run","Circle"], "answer": 3 },
+        { "q": "How many days are in a week?", "choices": ["Eight","Five","Six","Seven"], "answer": 3 },
+        { "q": "What colour is grass?", "choices": ["Purple","Green","Orange","Black"], "answer": 1 },
+        { "q": "How many fingers are on one hand?", "choices": ["Five","Four","Three","Six"], "answer": 0 },
+        { "q": "What is 7 + 1?", "choices": ["8","7","6","9"], "answer": 0 },
+        { "q": "What is 1 + 1?", "choices": ["1","4","2","3"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which of these is NOT a primary colour: Red, Blue, Green, Yellow?", "choices": ["Red","Yellow","Green","Blue"], "answer": 2 },
-        { "q": "How many of these are odd: 12, 15, 18, 21, 24, 27?", "choices": ["4","5","3","2"], "answer": 2 },
-        { "q": "What is 18% of 50?", "choices": ["9","10","7.5","8"], "answer": 0 },
-        { "q": "Which of these numbers is NOT a multiple of 3: 9, 14, 18, 27?", "choices": ["27","18","9","14"], "answer": 3 },
-        { "q": "Puppy is to Dog as Calf is to ___?", "choices": ["Cow","Sheep","Goat","Horse"], "answer": 0 },
-        { "q": "What is 144 ÷ 12?", "choices": ["11","10","14","12"], "answer": 3 },
-        { "q": "Which does NOT belong? Whale, Shark, Dolphin, Seal", "choices": ["Dolphin","Whale","Seal","Shark"], "answer": 3 },
-        { "q": "What is the capital of Italy?", "choices": ["Naples","Milan","Venice","Rome"], "answer": 3 },
-        { "q": "What is 65% of 360?", "choices": ["216","228","234","225"], "answer": 2 },
-        { "q": "What is 23 × 4?", "choices": ["88","84","92","96"], "answer": 2 }
+        { "q": "What is 8 x 7?", "choices": ["48","64","54","56"], "answer": 3 },
+        { "q": "Which of these is NOT a mammal: Whale, Shark, Bat, Dog?", "choices": ["Whale","Bat","Shark","Dog"], "answer": 2 },
+        { "q": "Which number is a multiple of 7: 21, 25, 30, 33?", "choices": ["30","25","21","33"], "answer": 2 },
+        { "q": "Which of these numbers is prime: 21, 27, 29, 33?", "choices": ["21","29","33","27"], "answer": 1 },
+        { "q": "Chick is to Hen as Lamb is to ___?", "choices": ["Horse","Cow","Sheep","Goat"], "answer": 2 },
+        { "q": "Which does NOT belong? Oak, Maple, Salmon, Birch.", "choices": ["Maple","Birch","Salmon","Oak"], "answer": 2 },
+        { "q": "What is the smallest prime number?", "choices": ["3","0","1","2"], "answer": 3 },
+        { "q": "Which does NOT belong? Trumpet, Flute, Clarinet, Drum.", "choices": ["Clarinet","Drum","Flute","Trumpet"], "answer": 1 },
+        { "q": "Reverse the sequence 3, 7, 2, then add the first and last values of the result.", "choices": ["9","10","5","12"], "answer": 2 },
+        { "q": "What is the chemical symbol for sodium?", "choices": ["So","Nu","Sd","Na"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Take the list [8, 3, 15, 1, 22, 7]. Reverse it, then add the 2nd and 5th numbers in the reversed list.", "choices": ["18","23","30","25"], "answer": 3 },
-        { "q": "'Meticulous' most nearly means:", "choices": ["Loud and boastful","Careless and hasty","Extremely careful and precise","Slow and lazy"], "answer": 2 },
-        { "q": "A jacket originally priced $180 is discounted 20%, then an additional 10% off the discounted price. What is the final price?", "choices": ["$126.00","$140.40","$129.60","$132.00"], "answer": 2 },
-        { "q": "No reptiles are mammals. All snakes are reptiles. Which conclusion follows with certainty?", "choices": ["No snakes are mammals","No reptiles are snakes","Some snakes are mammals","All mammals are snakes"], "answer": 0 },
-        { "q": "A drawer has 5 red socks and 3 blue socks. You draw two socks without replacement. What is the probability both are red?", "choices": ["3/8","5/14","1/2","5/8"], "answer": 1 },
-        { "q": "A committee of 4 is chosen at random from a group of 6 men and 5 women. What is the probability the committee has exactly 2 men and 2 women?", "choices": ["10/33","6/11","5/11","1/2"], "answer": 2 },
-        { "q": "From 14, 7, 22, 3, 19, 11, 8 — sum the values above 10.", "choices": ["66","47","55","70"], "answer": 0 },
-        { "q": "Two fair dice are rolled. What is P(sum = 8)?", "choices": ["7/36","5/36","1/9","1/6"], "answer": 1 },
-        { "q": "A bag has 8 red and 4 blue marbles. Two are drawn without replacement. What is P(different colours)?", "choices": ["4/11","8/33","1/2","16/33"], "answer": 3 },
-        { "q": "Vituperative most nearly means:", "choices": ["Harshly critical","Highly persuasive","Mildly amused","Excessively cautious"], "answer": 0 }
+        { "q": "A bag has 4 red and 6 blue marbles. Two are drawn without replacement. What is the probability both are blue?", "choices": ["2/5","1/3","1/2","3/5"], "answer": 1 },
+        { "q": "All pilots must pass a medical exam. Jane passed a medical exam. Which conclusion follows with certainty?", "choices": ["Jane is a pilot","Jane is not a pilot","No valid conclusion about whether Jane is a pilot follows","All people who pass medical exams are pilots"], "answer": 2 },
+        { "q": "Take the list [12, 5, 9, 20, 3, 17]. Sort it in descending order, then multiply the 1st and 4th numbers.", "choices": ["165","150","200","180"], "answer": 3 },
+        { "q": "A shirt costs $45 after a 25% discount. What was the original price?", "choices": ["$54","$60","$56.25","$67.50"], "answer": 1 },
+        { "q": "'Ambivalent' most nearly means:", "choices": ["Extremely confident","Highly aggressive","Having mixed or conflicting feelings","Completely indifferent"], "answer": 2 },
+        { "q": "In a class of 50, 30 study French and 25 study German; 12 study both. How many study neither?", "choices": ["6","8","5","7"], "answer": 3 },
+        { "q": "A price rises by 25%, then falls by 25%. What is the net change?", "choices": ["−5%","−6.25%","−12.5%","0%"], "answer": 1 },
+        { "q": "A $360 phone is discounted 15%, then a further $20 off. What is the final price?", "choices": ["$286","$306","$296","$266"], "answer": 0 },
+        { "q": "Liminal most nearly means:", "choices": ["Precisely defined","Belonging to the outer edge","Relating to a threshold or transition","Extremely limited in scope"], "answer": 2 },
+        { "q": "A list is 25, 8, 33, 4, 19, 11. Sort it descending, then find the difference between the 2nd and 5th values of the result.", "choices": ["14","21","17","25"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "Given the premises 'If the reactor overheats, the alarm sounds' and 'The alarm did not sound,' what can be validly concluded?", "choices": ["The alarm is broken","The reactor did not overheat","No valid conclusion follows","The reactor overheated"], "answer": 1 },
-        { "q": "What is the time complexity of merging two already-sorted arrays of size n and m into one sorted array?", "choices": ["O(nm)","O(log(n+m))","O(n log m)","O(n + m)"], "answer": 3 },
-        { "q": "What is the derivative of f(x) = ln(3x^2 + 1) with respect to x?", "choices": ["6x/(3x^2+1)","6x/(x^2+1)","ln(6x)","3x/(3x^2+1)"], "answer": 0 },
-        { "q": "How many grams of KOH (molar mass 56 g/mol) are needed to prepare 250 mL of a 0.4 M solution?", "choices": ["5.6 g","2.8 g","4 g","11.2 g"], "answer": 0 },
-        { "q": "A 3 kg object moving at 4 m/s collides and sticks to a stationary 2 kg object. What is the velocity of the combined mass after the collision (perfectly inelastic)?", "choices": ["6 m/s","2 m/s","3 m/s","2.4 m/s"], "answer": 3 },
-        { "q": "What is the worst-case time complexity of the Knuth–Morris–Pratt (KMP) string matching algorithm for a pattern of length m in a text of length n?", "choices": ["O(n log m)","O(n + m)","O(nm)","O(m log n)"], "answer": 1 },
-        { "q": "For the balanced equation 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O, how many moles of O₂ are needed to completely combust 2 moles of C₂H₆?", "choices": ["14 mol","7 mol","3.5 mol","2 mol"], "answer": 1 },
-        { "q": "A charge of +3 μC is placed 2 cm from a charge of +6 μC. Using Coulomb's constant k ≈ 8.99×10⁹ N·m²/C², what is the magnitude of the force between them?", "choices": ["≈40.5 N","≈4045 N","≈8.1 N","≈404.5 N"], "answer": 3 },
-        { "q": "Using S(x) for 'x is a student', E(y) for 'y is an exam', and P(x,y) for 'x passed y', which formula correctly expresses 'Every student passed some exam'?", "choices": ["∃x (S(x) ∧ ∀y (E(y) → P(x,y)))","∃y (E(y) ∧ ∀x (S(x) → P(x,y)))","∀x (S(x) → ∃y (E(y) ∧ P(x,y)))","∀x ∀y (S(x) → (E(y) → P(x,y)))"], "answer": 2 },
-        { "q": "The worst-case time complexity of merge sort is:", "choices": ["O(n²)","O(log n)","O(n)","O(n log n)"], "answer": 3 }
+        { "q": "A ball is thrown vertically upward at 20 m/s. Using g = 10 m/s^2, how long until it returns to its starting height?", "choices": ["5 s","4 s","2 s","3 s"], "answer": 1 },
+        { "q": "What is the pH of a 0.0001 M solution of a strong acid like HCl that fully dissociates?", "choices": ["2","3","5","4"], "answer": 3 },
+        { "q": "What is the time complexity of computing the nth Fibonacci number using memoized recursion (top-down dynamic programming)?", "choices": ["O(n^2)","O(2^n)","O(log n)","O(n)"], "answer": 3 },
+        { "q": "Which rule of inference is used in the following argument? 'If it rained, the ground is wet. The ground is not wet. Therefore, it did not rain.'", "choices": ["Modus tollens","Hypothetical syllogism","Disjunctive syllogism","Modus ponens"], "answer": 0 },
+        { "q": "What is the derivative of f(x) = x^3 * e^(2x) with respect to x?", "choices": ["e^(2x)(3x^2 - 2x^3)","2x^3 e^(2x)","3x^2 e^(2x)","e^(2x)(3x^2 + 2x^3)"], "answer": 3 },
+        { "q": "What is the worst-case time complexity of searching for a key in a balanced binary search tree with n nodes?", "choices": ["O(n log n)","O(1)","O(log n)","O(n)"], "answer": 2 },
+        { "q": "For any scalar field φ, the curl of its gradient ∇ × (∇φ) equals:", "choices": ["−∇²φ","0","∇φ","∇²φ"], "answer": 1 },
+        { "q": "What is the derivative of sin(x³) with respect to x?", "choices": ["cos(x³)","3x²sin(x³)","3x²cos(x³)","x³cos(x³)"], "answer": 2 },
+        { "q": "What is the derivative of tan(x) with respect to x?", "choices": ["sec(x)tan(x)","tan²(x)","−csc²(x)","sec²(x)"], "answer": 3 },
+        { "q": "According to VSEPR theory, what is the molecular geometry of sulfur hexafluoride, SF₆?", "choices": ["Square pyramidal","Octahedral","Tetrahedral","Trigonal bipyramidal"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "The old city of Konigsberg had four landmasses connected by seven bridges, arranged so that every single landmass was touched by an odd number of bridges. Euler proved it is impossible to walk through the city crossing each bridge exactly once. Why not?", "choices": ["Because seven is an odd number of bridges","A route crossing every bridge exactly once can exist only if zero or exactly two landmasses have an odd number of bridges touching them - but here all four do","Because the landmasses are not arranged in a straight line","Because there are more bridges than landmasses"], "answer": 1 },
-        { "q": "Dice A, B, and C are weighted so that A beats B more often than not in a single roll-off, and B beats C more often than not. Must A also beat C more often than not?", "choices": ["No - nontransitive dice can be constructed where A beats B, B beats C, and yet C beats A","Yes, but only if all three dice are six-sided","No, because probabilities can never exceed 50%","Yes, this follows automatically from transitivity"], "answer": 0 },
-        { "q": "Cantor's diagonal argument proves that no list, however long, can ever contain every real number between 0 and 1 - even though the list of natural numbers (1, 2, 3, ...) is already infinite. What does this establish?", "choices": ["The real numbers between 0 and 1 and the natural numbers are the same size of infinity","There are more natural numbers than real numbers between 0 and 1","Infinity is not a well-defined mathematical concept","The real numbers between 0 and 1 form a strictly larger infinity than the natural numbers"], "answer": 3 },
-        { "q": "A factory's widgets come from two machines: Machine A makes 70% of all widgets with a 2% defect rate; Machine B makes 30% of all widgets with a 5% defect rate. A widget is picked at random and found to be defective. Is it more likely to have come from Machine A or Machine B?", "choices": ["There's not enough information to tell","Machine A, since it produces most of the widgets","It's exactly 50/50 either way","Machine B - despite making fewer widgets overall, its higher defect rate means about 51.7% of defective widgets come from it"], "answer": 3 },
-        { "q": "You roll two fair six-sided dice and are told their sum is 8. Given that information, what is the probability that at least one of the two dice shows a 6?", "choices": ["11/36","1/6","1/3","2/5"], "answer": 3 },
-        { "q": "Gabriel's Horn is formed by rotating the curve y = 1/x for x ≥ 1 around the x-axis. It has a finite volume (π cubic units) when computed by integration. What is its total surface area?", "choices": ["Zero, since the horn narrows to an infinitely thin point","Finite, and larger than the volume","Exactly π, same as the volume","Infinite — the surface area diverges even though the volume is finite"], "answer": 3 },
-        { "q": "For any ranked-choice voting system with 3 or more candidates, is it possible to design one that always satisfies all three of: no single dictator, respects unanimous voter preference, and is unaffected by irrelevant candidates being added or removed?", "choices": ["Yes, but only when there are exactly 3 candidates","No — Arrow's Impossibility Theorem proves no such ranked voting system can satisfy all three simultaneously","Yes, instant-runoff voting satisfies all three","Yes, ranked-pairs voting satisfies all three"], "answer": 1 },
-        { "q": "You are in a race and you overtake the person in second place. What position are you in?", "choices": ["It depends on the field size","First","Third","Second"], "answer": 3 },
-        { "q": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.10","$0.15","$0.05","$1.00"], "answer": 2 },
-        { "q": "A family has exactly two children, and each child is independently equally likely to be a boy or a girl. You are told that at least one of the children is a girl. What is the probability that both children are girls?", "choices": ["1/2","1/3","1/4","2/3"], "answer": 1 }
+        { "q": "A farmer needs to cross a river with a wolf, a goat, and a cabbage, in a boat that only holds the farmer and one item at a time. If left alone, the wolf eats the goat, and the goat eats the cabbage. What is the minimum number of river crossings needed to get everything across safely?", "choices": ["3","7","9","5"], "answer": 1 },
+        { "q": "If you have 17 sheep and all but 9 die, how many sheep do you have left?", "choices": ["8","9","0","17"], "answer": 1 },
+        { "q": "A man lives on the 10th floor of a building. Every morning he takes the elevator to the ground floor. Every evening, he takes the elevator back up, but gets off on the 7th floor and walks the rest of the way — except on rainy days, when he rides all the way to the 10th floor. Why?", "choices": ["He likes the exercise, and rain makes him too tired","The elevator is broken above the 7th floor on dry days","The building has no power to the top floors except when it rains","He is too short to reach the 10th-floor button, except when he has an umbrella to press it"], "answer": 3 },
+        { "q": "A racket and a shuttlecock together cost $1.10. The racket costs $1.00 more than the shuttlecock. How much does the shuttlecock cost?", "choices": ["$0.05","$0.15","$0.10","$1.00"], "answer": 0 },
+        { "q": "In a room of 23 randomly chosen people, is it more likely than not that at least two share the same birthday (ignoring leap years)?", "choices": ["No - it's extremely unlikely with only 23 people","Yes - the probability is just over 50%","No - you'd need at least 183 people for even odds","Yes, but only with certainty (100%)"], "answer": 1 },
+        { "q": "A woman shoots her husband, holds him underwater for five minutes, then they go out to dinner. How?", "choices": ["She is a photographer — she shot and developed his photo","He survived a near-death experience","He held his breath","She used a sedative"], "answer": 0 },
+        { "q": "In a road network where every driver selfishly picks their fastest available route, a new road is added connecting two existing junctions, giving everyone an additional route option. According to Braess's paradox, what can happen to the average travel time for everyone at the new equilibrium?", "choices": ["It only affects drivers who choose to use the new road","It always gets better or stays the same, since more options can never hurt","It stays exactly the same, since equilibrium travel time is fixed by total traffic volume alone","It can get worse for every driver, even though everyone now has strictly more route choices"], "answer": 3 },
+        { "q": "Two generals on separate hills must coordinate a joint attack via messengers who might be captured. No messenger's delivery can ever be confirmed with total certainty. Using any finite number of confirmation messages sent back and forth, can the two generals ever be guaranteed to reach common knowledge of the attack time?", "choices": ["Yes, but only if they use a trusted third-party messenger","Yes, but only if the message length is long enough to include a checksum","Yes, as long as they exchange at least 3 confirmation messages","No — no finite number of messages can ever guarantee both generals have common knowledge of the attack time"], "answer": 3 },
+        { "q": "On average, across a large social network, do most people have more friends than their friends have on average, or fewer?", "choices": ["It depends entirely on the size of the network and cannot be stated in general","Fewer — on average, your friends have more friends than you do","Exactly the same, on average, for everyone in any network","More — on average, you have more friends than your friends do"], "answer": 1 },
+        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep does he have left?", "choices": ["8","17","9","0"], "answer": 2 }
       ]
     }
   ]
