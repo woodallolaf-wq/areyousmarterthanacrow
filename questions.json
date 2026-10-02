@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What is 6 + 4?", "choices": ["8","9","10","11"], "answer": 2 },
-        { "q": "What is 8 + 3?", "choices": ["11","9","10","12"], "answer": 0 },
-        { "q": "Which one is a vegetable: broccoli, spoon, pillow, sock?", "choices": ["Sock","Spoon","Pillow","Broccoli"], "answer": 3 },
-        { "q": "Which is colder: Ice or Fire?", "choices": ["Neither is cold","Fire","Ice","They are the same"], "answer": 2 },
-        { "q": "Which of these is a shape: Circle, Jump, Happy, Run?", "choices": ["Jump","Happy","Run","Circle"], "answer": 3 },
-        { "q": "How many days are in a week?", "choices": ["Eight","Five","Six","Seven"], "answer": 3 },
-        { "q": "What colour is grass?", "choices": ["Purple","Green","Orange","Black"], "answer": 1 },
-        { "q": "How many fingers are on one hand?", "choices": ["Five","Four","Three","Six"], "answer": 0 },
-        { "q": "What is 7 + 1?", "choices": ["8","7","6","9"], "answer": 0 },
-        { "q": "What is 1 + 1?", "choices": ["1","4","2","3"], "answer": 2 }
+        { "q": "Which of these animals lives in water?", "choices": ["Dog","Fish","Bird","Cat"], "answer": 1 },
+        { "q": "Which is hot: Fire or Ice?", "choices": ["They are the same","Fire","Neither is hot","Ice"], "answer": 1 },
+        { "q": "Which animal has a shell?", "choices": ["Dog","Frog","Turtle","Bird"], "answer": 2 },
+        { "q": "Which is taller: a giraffe or a mouse?", "choices": ["They are the same height","Giraffe","Neither has a height","Mouse"], "answer": 1 },
+        { "q": "What do you call frozen water?", "choices": ["Ice","Steam","Sand","Glass"], "answer": 0 },
+        { "q": "How many wheels does a bicycle have?", "choices": ["One","Two","Four","Three"], "answer": 1 },
+        { "q": "How many sides does a square have?", "choices": ["6","3","4","5"], "answer": 2 },
+        { "q": "What is 8 + 1?", "choices": ["9","7","8","10"], "answer": 0 },
+        { "q": "What colour is broccoli?", "choices": ["Blue","Red","Yellow","Green"], "answer": 3 },
+        { "q": "Which animal says 'growl'?", "choices": ["Sheep","Duck","Frog","Bear"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is 8 x 7?", "choices": ["48","64","54","56"], "answer": 3 },
-        { "q": "Which of these is NOT a mammal: Whale, Shark, Bat, Dog?", "choices": ["Whale","Bat","Shark","Dog"], "answer": 2 },
-        { "q": "Which number is a multiple of 7: 21, 25, 30, 33?", "choices": ["30","25","21","33"], "answer": 2 },
-        { "q": "Which of these numbers is prime: 21, 27, 29, 33?", "choices": ["21","29","33","27"], "answer": 1 },
-        { "q": "Chick is to Hen as Lamb is to ___?", "choices": ["Horse","Cow","Sheep","Goat"], "answer": 2 },
-        { "q": "Which does NOT belong? Oak, Maple, Salmon, Birch.", "choices": ["Maple","Birch","Salmon","Oak"], "answer": 2 },
-        { "q": "What is the smallest prime number?", "choices": ["3","0","1","2"], "answer": 3 },
-        { "q": "Which does NOT belong? Trumpet, Flute, Clarinet, Drum.", "choices": ["Clarinet","Drum","Flute","Trumpet"], "answer": 1 },
-        { "q": "Reverse the sequence 3, 7, 2, then add the first and last values of the result.", "choices": ["9","10","5","12"], "answer": 2 },
-        { "q": "What is the chemical symbol for sodium?", "choices": ["So","Nu","Sd","Na"], "answer": 3 }
+        { "q": "Wheel is to Car as Wing is to ___?", "choices": ["Airplane","Bicycle","Train","Boat"], "answer": 0 },
+        { "q": "Which does NOT belong? Carrot, Potato, Onion, Mango.", "choices": ["Onion","Carrot","Mango","Potato"], "answer": 2 },
+        { "q": "Which number is a multiple of 9: 42, 46, 54, 58?", "choices": ["54","58","42","46"], "answer": 0 },
+        { "q": "How many bones are there in the adult human skeleton?", "choices": ["198","201","212","206"], "answer": 3 },
+        { "q": "What is 23 × 16?", "choices": ["348","358","368","378"], "answer": 2 },
+        { "q": "Which does NOT belong? Cotton, Wool, Silk, Plastic.", "choices": ["Silk","Plastic","Wool","Cotton"], "answer": 1 },
+        { "q": "How many ways can 5 books be arranged in a row on a shelf?", "choices": ["120","240","60","25"], "answer": 0 },
+        { "q": "What is 55% of 220?", "choices": ["115","132","121","110"], "answer": 2 },
+        { "q": "What is the capital of Argentina?", "choices": ["Bogotá","Buenos Aires","Santiago","Lima"], "answer": 1 },
+        { "q": "What is 23 × 26?", "choices": ["578","588","608","598"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A bag has 4 red and 6 blue marbles. Two are drawn without replacement. What is the probability both are blue?", "choices": ["2/5","1/3","1/2","3/5"], "answer": 1 },
-        { "q": "All pilots must pass a medical exam. Jane passed a medical exam. Which conclusion follows with certainty?", "choices": ["Jane is a pilot","Jane is not a pilot","No valid conclusion about whether Jane is a pilot follows","All people who pass medical exams are pilots"], "answer": 2 },
-        { "q": "Take the list [12, 5, 9, 20, 3, 17]. Sort it in descending order, then multiply the 1st and 4th numbers.", "choices": ["165","150","200","180"], "answer": 3 },
-        { "q": "A shirt costs $45 after a 25% discount. What was the original price?", "choices": ["$54","$60","$56.25","$67.50"], "answer": 1 },
-        { "q": "'Ambivalent' most nearly means:", "choices": ["Extremely confident","Highly aggressive","Having mixed or conflicting feelings","Completely indifferent"], "answer": 2 },
-        { "q": "In a class of 50, 30 study French and 25 study German; 12 study both. How many study neither?", "choices": ["6","8","5","7"], "answer": 3 },
-        { "q": "A price rises by 25%, then falls by 25%. What is the net change?", "choices": ["−5%","−6.25%","−12.5%","0%"], "answer": 1 },
-        { "q": "A $360 phone is discounted 15%, then a further $20 off. What is the final price?", "choices": ["$286","$306","$296","$266"], "answer": 0 },
-        { "q": "Liminal most nearly means:", "choices": ["Precisely defined","Belonging to the outer edge","Relating to a threshold or transition","Extremely limited in scope"], "answer": 2 },
-        { "q": "A list is 25, 8, 33, 4, 19, 11. Sort it descending, then find the difference between the 2nd and 5th values of the result.", "choices": ["14","21","17","25"], "answer": 2 }
+        { "q": "A jacket originally priced at $160 is discounted by 30%, then the sale price is further discounted by 10%. What is the final price?", "choices": ["$100.80","$96.00","$104.00","$112.00"], "answer": 0 },
+        { "q": "Which word is closest in meaning to 'equivocal'?", "choices": ["Obvious","Truthful","Certain","Ambiguous"], "answer": 3 },
+        { "q": "Take the list [15, 42, 8, 23, 31, 7]. Remove any number greater than 25, then sum the remaining numbers.", "choices": ["61","53","38","45"], "answer": 1 },
+        { "q": "A bag contains 9 green marbles and 6 yellow marbles. Two are drawn at random without replacement. What is the probability both are green?", "choices": ["3/5","2/5","9/25","12/35"], "answer": 3 },
+        { "q": "All engineers at Vextro Corp hold a professional engineering license. Dana holds a professional engineering license. Which conclusion follows with certainty?", "choices": ["All licensed engineers work at Vextro Corp","Dana works at Vextro Corp","Dana is not an engineer","No certain conclusion that Dana works at Vextro Corp follows"], "answer": 3 },
+        { "q": "All frogs are amphibians. No amphibians are mammals. Therefore:", "choices": ["Some frogs are mammals.","All mammals are frogs.","No amphibians are frogs.","No frogs are mammals."], "answer": 3 },
+        { "q": "Plethora is to Paucity as Turpitude is to ___.", "choices": ["Depravity","Lassitude","Abundance","Probity"], "answer": 3 },
+        { "q": "Sonorous most nearly means:", "choices": ["Silent and muted","Fragile and thin","Transparent and clear","Resonant and deep"], "answer": 3 },
+        { "q": "A tank fills in 9 hours with pipe A and 6 hours with pipe B. How long with both open?", "choices": ["3 h 20 m","4 h","3 h 36 m","3 h"], "answer": 2 },
+        { "q": "All architects are meticulous. Some meticulous people are impatient. Therefore:", "choices": ["Nothing about architects and impatient people follows","Some architects are impatient","No architects are impatient","All impatient people are architects"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A ball is thrown vertically upward at 20 m/s. Using g = 10 m/s^2, how long until it returns to its starting height?", "choices": ["5 s","4 s","2 s","3 s"], "answer": 1 },
-        { "q": "What is the pH of a 0.0001 M solution of a strong acid like HCl that fully dissociates?", "choices": ["2","3","5","4"], "answer": 3 },
-        { "q": "What is the time complexity of computing the nth Fibonacci number using memoized recursion (top-down dynamic programming)?", "choices": ["O(n^2)","O(2^n)","O(log n)","O(n)"], "answer": 3 },
-        { "q": "Which rule of inference is used in the following argument? 'If it rained, the ground is wet. The ground is not wet. Therefore, it did not rain.'", "choices": ["Modus tollens","Hypothetical syllogism","Disjunctive syllogism","Modus ponens"], "answer": 0 },
-        { "q": "What is the derivative of f(x) = x^3 * e^(2x) with respect to x?", "choices": ["e^(2x)(3x^2 - 2x^3)","2x^3 e^(2x)","3x^2 e^(2x)","e^(2x)(3x^2 + 2x^3)"], "answer": 3 },
-        { "q": "What is the worst-case time complexity of searching for a key in a balanced binary search tree with n nodes?", "choices": ["O(n log n)","O(1)","O(log n)","O(n)"], "answer": 2 },
-        { "q": "For any scalar field φ, the curl of its gradient ∇ × (∇φ) equals:", "choices": ["−∇²φ","0","∇φ","∇²φ"], "answer": 1 },
-        { "q": "What is the derivative of sin(x³) with respect to x?", "choices": ["cos(x³)","3x²sin(x³)","3x²cos(x³)","x³cos(x³)"], "answer": 2 },
-        { "q": "What is the derivative of tan(x) with respect to x?", "choices": ["sec(x)tan(x)","tan²(x)","−csc²(x)","sec²(x)"], "answer": 3 },
-        { "q": "According to VSEPR theory, what is the molecular geometry of sulfur hexafluoride, SF₆?", "choices": ["Square pyramidal","Octahedral","Tetrahedral","Trigonal bipyramidal"], "answer": 1 }
+        { "q": "A 10 m ladder leans against a vertical wall, its base sliding away from the wall at 2 m/s. At the instant the base is 6 m from the wall, how fast is the top of the ladder sliding down the wall?", "choices": ["2 m/s","2.67 m/s","1 m/s","1.5 m/s"], "answer": 3 },
+        { "q": "Which of the following problems is known to be NP-complete?", "choices": ["Boolean satisfiability (SAT)","Sorting n numbers","Binary search in a sorted array","Finding a shortest path in a graph with no negative edge weights"], "answer": 0 },
+        { "q": "A police car's siren emits sound at 600 Hz. The car moves toward a stationary pedestrian at 34 m/s, while the speed of sound in air is 340 m/s. Using the Doppler formula f' = f·v/(v−vs), what frequency (to the nearest Hz) does the pedestrian hear?", "choices": ["733 Hz","540 Hz","667 Hz","600 Hz"], "answer": 2 },
+        { "q": "In the reaction N₂ + 3H₂ → 2NH₃, 2 moles of N₂ are mixed with 3 moles of H₂ and allowed to react to completion. Which reactant is the limiting reagent?", "choices": ["Both are used up exactly","N₂","H₂","NH₃"], "answer": 2 },
+        { "q": "A recursive algorithm satisfies the recurrence T(n) = 4T(n/2) + O(n). By the Master Theorem, what is its time complexity?", "choices": ["Θ(n)","Θ(n² log n)","Θ(n²)","Θ(n log n)"], "answer": 2 },
+        { "q": "What is the value of the definite integral ∫₀¹ eˣ dx?", "choices": ["e + 1","e","1","e − 1"], "answer": 3 },
+        { "q": "What is the average-case time complexity of quickselect for finding the kth smallest element in an unsorted array of n elements?", "choices": ["O(n²)","O(log n)","O(n log n)","O(n)"], "answer": 3 },
+        { "q": "The Stefan–Boltzmann law gives radiated power per unit area as:", "choices": ["σT³","σT²","σT⁴","σT"], "answer": 2 },
+        { "q": "The eigenvalues of the Pauli matrix σz = [[1, 0], [0, −1]] are:", "choices": ["±i","+1 and 0","0 and 1","+1 and −1"], "answer": 3 },
+        { "q": "What is the negation of the implication 'If it rains, then the ground is wet' (p → q)?", "choices": ["If it does not rain, the ground is not wet.","It does not rain or the ground is wet.","It rains and the ground is not wet.","It does not rain and the ground is wet."], "answer": 2 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A farmer needs to cross a river with a wolf, a goat, and a cabbage, in a boat that only holds the farmer and one item at a time. If left alone, the wolf eats the goat, and the goat eats the cabbage. What is the minimum number of river crossings needed to get everything across safely?", "choices": ["3","7","9","5"], "answer": 1 },
-        { "q": "If you have 17 sheep and all but 9 die, how many sheep do you have left?", "choices": ["8","9","0","17"], "answer": 1 },
-        { "q": "A man lives on the 10th floor of a building. Every morning he takes the elevator to the ground floor. Every evening, he takes the elevator back up, but gets off on the 7th floor and walks the rest of the way — except on rainy days, when he rides all the way to the 10th floor. Why?", "choices": ["He likes the exercise, and rain makes him too tired","The elevator is broken above the 7th floor on dry days","The building has no power to the top floors except when it rains","He is too short to reach the 10th-floor button, except when he has an umbrella to press it"], "answer": 3 },
-        { "q": "A racket and a shuttlecock together cost $1.10. The racket costs $1.00 more than the shuttlecock. How much does the shuttlecock cost?", "choices": ["$0.05","$0.15","$0.10","$1.00"], "answer": 0 },
-        { "q": "In a room of 23 randomly chosen people, is it more likely than not that at least two share the same birthday (ignoring leap years)?", "choices": ["No - it's extremely unlikely with only 23 people","Yes - the probability is just over 50%","No - you'd need at least 183 people for even odds","Yes, but only with certainty (100%)"], "answer": 1 },
-        { "q": "A woman shoots her husband, holds him underwater for five minutes, then they go out to dinner. How?", "choices": ["She is a photographer — she shot and developed his photo","He survived a near-death experience","He held his breath","She used a sedative"], "answer": 0 },
-        { "q": "In a road network where every driver selfishly picks their fastest available route, a new road is added connecting two existing junctions, giving everyone an additional route option. According to Braess's paradox, what can happen to the average travel time for everyone at the new equilibrium?", "choices": ["It only affects drivers who choose to use the new road","It always gets better or stays the same, since more options can never hurt","It stays exactly the same, since equilibrium travel time is fixed by total traffic volume alone","It can get worse for every driver, even though everyone now has strictly more route choices"], "answer": 3 },
-        { "q": "Two generals on separate hills must coordinate a joint attack via messengers who might be captured. No messenger's delivery can ever be confirmed with total certainty. Using any finite number of confirmation messages sent back and forth, can the two generals ever be guaranteed to reach common knowledge of the attack time?", "choices": ["Yes, but only if they use a trusted third-party messenger","Yes, but only if the message length is long enough to include a checksum","Yes, as long as they exchange at least 3 confirmation messages","No — no finite number of messages can ever guarantee both generals have common knowledge of the attack time"], "answer": 3 },
-        { "q": "On average, across a large social network, do most people have more friends than their friends have on average, or fewer?", "choices": ["It depends entirely on the size of the network and cannot be stated in general","Fewer — on average, your friends have more friends than you do","Exactly the same, on average, for everyone in any network","More — on average, you have more friends than your friends do"], "answer": 1 },
-        { "q": "A farmer has 17 sheep. All but 9 die. How many sheep does he have left?", "choices": ["8","17","9","0"], "answer": 2 }
+        { "q": "In an experiment, participants rated statements as 'true' or 'false.' Statements they had already seen before — regardless of whether the statement was actually true or false — were rated as more likely to be true on a later viewing, simply because they felt more familiar. What is this effect called?", "choices": ["The mere exposure effect: repeated exposure increases liking for a stimulus, not belief in its truth","The illusory truth effect: repeated exposure to a claim increases how true it feels, independent of its actual accuracy","Confirmation bias: people preferentially recall information supporting beliefs they already hold","The halo effect: a positive impression in one area causes positive impressions in unrelated areas"], "answer": 1 },
+        { "q": "Children who already enjoyed drawing for fun were split into two groups. One group was given a reward every time they drew; the other group drew with no reward at all. After the rewards stopped, the previously rewarded group spent noticeably LESS free time drawing than before the experiment — while the unrewarded group's interest held steady. What explains the rewarded group's drop in interest?", "choices": ["Rewards have no measurable effect on intrinsic motivation; the drop was random noise","The overjustification effect: external rewards undermined their original intrinsic motivation","Both groups actually increased their drawing time equally","The unrewarded group secretly practiced more, making the comparison unfair"], "answer": 1 },
+        { "q": "In the 19th century, as steam engines became far more fuel-efficient, each engine needed less coal to produce the same work. Economist William Stanley Jevons observed that this increased efficiency was followed not by a decrease in total coal consumption, but by an increase. What does Jevons paradox describe?", "choices": ["Improvements in the efficiency of using a resource can increase, rather than decrease, that resource's total rate of consumption","Efficiency improvements always proportionally reduce total resource consumption","Coal became more expensive as engines grew efficient, forcing less overall use","The paradox shows that 19th-century efficiency measurements were simply wrong"], "answer": 0 },
+        { "q": "Modern AI can play grandmaster-level chess and solve advanced calculus, yet historically struggled with tasks like folding laundry or walking over uneven terrain — skills a toddler performs easily. Moravec's paradox is the observation that, contrary to intuition, ___.", "choices": ["high-level reasoning requires relatively little computation, while low-level sensorimotor skills require enormous computational resources","toddlers are secretly better at logic and calculus than adults give them credit for","AI will never be able to perform any physical task, no matter how advanced it becomes","computation has no real cost, so the only barrier to any robotic task is better programming"], "answer": 0 },
+        { "q": "In Situation 1, most people choose A: $1,000,000 for certain, over B: a 10% chance of $5,000,000, an 89% chance of $1,000,000, and a 1% chance of nothing. In Situation 2, most people choose D: a 10% chance of $5,000,000 and a 90% chance of nothing, over C: an 11% chance of $1,000,000 and an 89% chance of nothing. Mathematically, switching from A to B is the same reallocation of probability as switching from C to D. What does this Allais paradox demonstrate?", "choices": ["The paradox proves expected-utility theory correctly predicts human choices","$5,000,000 provides no additional utility over $1,000,000, so the two situations are identical","Real human preferences can violate the independence axiom of expected-utility theory, even among people who accept it as rational","People simply made arithmetic errors calculating the probabilities"], "answer": 2 },
+        { "q": "A drawer has 10 black socks and 10 white socks, all unpaired and mixed together in the dark. What is the minimum number of socks you must pull out to guarantee a matching pair?", "choices": ["3","20","11","2"], "answer": 0 },
+        { "q": "The statement 'All ravens are black' is logically equivalent to its contrapositive, 'All non-black things are non-ravens.' Hempel's raven paradox asks: does observing a green apple (a non-black, non-raven object) technically count as evidence, however weak, confirming that all ravens are black?", "choices": ["Yes, but only if the apple is unripe","No — only observing an actual raven can ever provide evidence either way","No, because apples and ravens belong to entirely unrelated categories","Yes — by the logic of the contrapositive, it technically counts as extremely weak confirming evidence"], "answer": 3 },
+        { "q": "Two children share the same parents, were born on the same day of the same year, but are not twins. How?", "choices": ["They were adopted","One was born just after midnight","They are two of a set of triplets","The record is mistaken"], "answer": 2 },
+        { "q": "A father and his son are in a car crash. The father dies at the scene, and the son is rushed into surgery. The surgeon says, 'I can't operate on him — he's my son.' How is this possible?", "choices": ["The surgeon is the boy's mother","The surgeon is lying","The boy has two fathers","It is a different boy with the same name"], "answer": 0 },
+        { "q": "What do you get if you divide 30 by one half and then add 10?", "choices": ["40","70","25","15"], "answer": 1 }
       ]
     }
   ]
