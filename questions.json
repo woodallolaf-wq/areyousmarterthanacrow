@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "Which of these animals lives in water?", "choices": ["Dog","Fish","Bird","Cat"], "answer": 1 },
-        { "q": "Which is hot: Fire or Ice?", "choices": ["They are the same","Fire","Neither is hot","Ice"], "answer": 1 },
-        { "q": "Which animal has a shell?", "choices": ["Dog","Frog","Turtle","Bird"], "answer": 2 },
-        { "q": "Which is taller: a giraffe or a mouse?", "choices": ["They are the same height","Giraffe","Neither has a height","Mouse"], "answer": 1 },
-        { "q": "What do you call frozen water?", "choices": ["Ice","Steam","Sand","Glass"], "answer": 0 },
-        { "q": "How many wheels does a bicycle have?", "choices": ["One","Two","Four","Three"], "answer": 1 },
-        { "q": "How many sides does a square have?", "choices": ["6","3","4","5"], "answer": 2 },
-        { "q": "What is 8 + 1?", "choices": ["9","7","8","10"], "answer": 0 },
-        { "q": "What colour is broccoli?", "choices": ["Blue","Red","Yellow","Green"], "answer": 3 },
-        { "q": "Which animal says 'growl'?", "choices": ["Sheep","Duck","Frog","Bear"], "answer": 3 }
+        { "q": "What color do you get when you mix red and blue?", "choices": ["Purple","Orange","Brown","Green"], "answer": 0 },
+        { "q": "What is the opposite of 'start'?", "choices": ["Pause","Middle","Begin","Finish"], "answer": 3 },
+        { "q": "What do you call a baby penguin?", "choices": ["Kit","Chick","Puppy","Cub"], "answer": 1 },
+        { "q": "Which meal do you usually eat at night?", "choices": ["Brunch","Snack","Dinner","Breakfast"], "answer": 2 },
+        { "q": "What is 8 + 4?", "choices": ["13","12","10","11"], "answer": 1 },
+        { "q": "What shape has four equal sides?", "choices": ["Star","Square","Triangle","Circle"], "answer": 1 },
+        { "q": "What sound does a cow make?", "choices": ["Moo","Quack","Meow","Woof"], "answer": 0 },
+        { "q": "What do you call a baby owl?", "choices": ["Kit","Owlet","Joey","Cub"], "answer": 1 },
+        { "q": "What colour is snow?", "choices": ["White","Green","Purple","Black"], "answer": 0 },
+        { "q": "How many legs does a spider have?", "choices": ["Four","Six","Eight","Ten"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Wheel is to Car as Wing is to ___?", "choices": ["Airplane","Bicycle","Train","Boat"], "answer": 0 },
-        { "q": "Which does NOT belong? Carrot, Potato, Onion, Mango.", "choices": ["Onion","Carrot","Mango","Potato"], "answer": 2 },
-        { "q": "Which number is a multiple of 9: 42, 46, 54, 58?", "choices": ["54","58","42","46"], "answer": 0 },
-        { "q": "How many bones are there in the adult human skeleton?", "choices": ["198","201","212","206"], "answer": 3 },
-        { "q": "What is 23 × 16?", "choices": ["348","358","368","378"], "answer": 2 },
-        { "q": "Which does NOT belong? Cotton, Wool, Silk, Plastic.", "choices": ["Silk","Plastic","Wool","Cotton"], "answer": 1 },
-        { "q": "How many ways can 5 books be arranged in a row on a shelf?", "choices": ["120","240","60","25"], "answer": 0 },
-        { "q": "What is 55% of 220?", "choices": ["115","132","121","110"], "answer": 2 },
-        { "q": "What is the capital of Argentina?", "choices": ["Bogotá","Buenos Aires","Santiago","Lima"], "answer": 1 },
-        { "q": "What is 23 × 26?", "choices": ["578","588","608","598"], "answer": 3 }
+        { "q": "In 11, 4, 19, 6, 2 — what is the sum of the values greater than 5?", "choices": ["30","42","25","36"], "answer": 3 },
+        { "q": "What is the chemical symbol for copper?", "choices": ["Cp","Cu","Cr","Co"], "answer": 1 },
+        { "q": "Reverse 6, 1, 9, 3, then add the first and last values of the result.", "choices": ["9","12","7","10"], "answer": 0 },
+        { "q": "Author is to Novel as Director is to ___?", "choices": ["Film","Script","Camera","Studio"], "answer": 0 },
+        { "q": "What is 19 × 18?", "choices": ["352","332","362","342"], "answer": 3 },
+        { "q": "What is the capital of France?", "choices": ["Lyon","Nice","Marseille","Paris"], "answer": 3 },
+        { "q": "What is 45 × 12?", "choices": ["520","540","480","560"], "answer": 1 },
+        { "q": "Which does NOT belong? Simile, Metaphor, Personification, Onomatopoeia.", "choices": ["Personification","Simile","Onomatopoeia","Metaphor"], "answer": 2 },
+        { "q": "Word is to Sentence as Sentence is to ___?", "choices": ["Book","Paragraph","Chapter","Page"], "answer": 1 },
+        { "q": "Which does NOT belong? Square, Triangle, Circle, Cube.", "choices": ["Triangle","Circle","Cube","Square"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A jacket originally priced at $160 is discounted by 30%, then the sale price is further discounted by 10%. What is the final price?", "choices": ["$100.80","$96.00","$104.00","$112.00"], "answer": 0 },
-        { "q": "Which word is closest in meaning to 'equivocal'?", "choices": ["Obvious","Truthful","Certain","Ambiguous"], "answer": 3 },
-        { "q": "Take the list [15, 42, 8, 23, 31, 7]. Remove any number greater than 25, then sum the remaining numbers.", "choices": ["61","53","38","45"], "answer": 1 },
-        { "q": "A bag contains 9 green marbles and 6 yellow marbles. Two are drawn at random without replacement. What is the probability both are green?", "choices": ["3/5","2/5","9/25","12/35"], "answer": 3 },
-        { "q": "All engineers at Vextro Corp hold a professional engineering license. Dana holds a professional engineering license. Which conclusion follows with certainty?", "choices": ["All licensed engineers work at Vextro Corp","Dana works at Vextro Corp","Dana is not an engineer","No certain conclusion that Dana works at Vextro Corp follows"], "answer": 3 },
-        { "q": "All frogs are amphibians. No amphibians are mammals. Therefore:", "choices": ["Some frogs are mammals.","All mammals are frogs.","No amphibians are frogs.","No frogs are mammals."], "answer": 3 },
-        { "q": "Plethora is to Paucity as Turpitude is to ___.", "choices": ["Depravity","Lassitude","Abundance","Probity"], "answer": 3 },
-        { "q": "Sonorous most nearly means:", "choices": ["Silent and muted","Fragile and thin","Transparent and clear","Resonant and deep"], "answer": 3 },
-        { "q": "A tank fills in 9 hours with pipe A and 6 hours with pipe B. How long with both open?", "choices": ["3 h 20 m","4 h","3 h 36 m","3 h"], "answer": 2 },
-        { "q": "All architects are meticulous. Some meticulous people are impatient. Therefore:", "choices": ["Nothing about architects and impatient people follows","Some architects are impatient","No architects are impatient","All impatient people are architects"], "answer": 0 }
+        { "q": "All chemists are meticulous. Some meticulous people are impatient. Therefore:", "choices": ["No valid conclusion follows.","Some chemists are impatient.","No chemists are impatient.","All chemists are impatient."], "answer": 0 },
+        { "q": "Which word is closest in meaning to 'taciturn'?", "choices": ["Generous","Anxious","Reserved","Talkative"], "answer": 2 },
+        { "q": "A blender costs $120. It's marked up 15%, then discounted 20% off the new price. What is the final price?", "choices": ["$108.00","$115.20","$102.00","$110.40"], "answer": 3 },
+        { "q": "A bag has 7 green and 5 blue marbles. Two are drawn without replacement. What is P(one of each colour)?", "choices": ["5/12","7/12","42/66","35/66"], "answer": 3 },
+        { "q": "Take the list [26, 7, 14, 33, 9, 18]. Sort it in ascending order, then compute the sum of the 2nd and 5th elements (1-indexed).", "choices": ["40","35","28","32"], "answer": 1 },
+        { "q": "Pipe A fills a tank in 10 hours, pipe B in 15 hours. Both pipes are open together for the first 3 hours, then pipe B is closed. How much longer does pipe A alone take to finish filling the tank?", "choices": ["5 hours","3 hours","6 hours","4 hours"], "answer": 0 },
+        { "q": "A list is 30, 12, 45, 7, 22, 16. Sort it ascending, then find the sum of the 1st and 6th values of the result.", "choices": ["60","52","45","37"], "answer": 1 },
+        { "q": "No M are N. All N are O. Some O are P. Which is certainly true?", "choices": ["Some M are O","No M are N","All P are O","Some N are P"], "answer": 1 },
+        { "q": "A bag has 4 red, 3 blue and 3 green marbles. Two are drawn without replacement. What is P(both green)?", "choices": ["2/15","3/10","1/15","1/10"], "answer": 2 },
+        { "q": "From 7, 2, 9, 4, 6, 3, 5 — sum the odd values.", "choices": ["21","24","27","19"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A 10 m ladder leans against a vertical wall, its base sliding away from the wall at 2 m/s. At the instant the base is 6 m from the wall, how fast is the top of the ladder sliding down the wall?", "choices": ["2 m/s","2.67 m/s","1 m/s","1.5 m/s"], "answer": 3 },
-        { "q": "Which of the following problems is known to be NP-complete?", "choices": ["Boolean satisfiability (SAT)","Sorting n numbers","Binary search in a sorted array","Finding a shortest path in a graph with no negative edge weights"], "answer": 0 },
-        { "q": "A police car's siren emits sound at 600 Hz. The car moves toward a stationary pedestrian at 34 m/s, while the speed of sound in air is 340 m/s. Using the Doppler formula f' = f·v/(v−vs), what frequency (to the nearest Hz) does the pedestrian hear?", "choices": ["733 Hz","540 Hz","667 Hz","600 Hz"], "answer": 2 },
-        { "q": "In the reaction N₂ + 3H₂ → 2NH₃, 2 moles of N₂ are mixed with 3 moles of H₂ and allowed to react to completion. Which reactant is the limiting reagent?", "choices": ["Both are used up exactly","N₂","H₂","NH₃"], "answer": 2 },
-        { "q": "A recursive algorithm satisfies the recurrence T(n) = 4T(n/2) + O(n). By the Master Theorem, what is its time complexity?", "choices": ["Θ(n)","Θ(n² log n)","Θ(n²)","Θ(n log n)"], "answer": 2 },
-        { "q": "What is the value of the definite integral ∫₀¹ eˣ dx?", "choices": ["e + 1","e","1","e − 1"], "answer": 3 },
-        { "q": "What is the average-case time complexity of quickselect for finding the kth smallest element in an unsorted array of n elements?", "choices": ["O(n²)","O(log n)","O(n log n)","O(n)"], "answer": 3 },
-        { "q": "The Stefan–Boltzmann law gives radiated power per unit area as:", "choices": ["σT³","σT²","σT⁴","σT"], "answer": 2 },
-        { "q": "The eigenvalues of the Pauli matrix σz = [[1, 0], [0, −1]] are:", "choices": ["±i","+1 and 0","0 and 1","+1 and −1"], "answer": 3 },
-        { "q": "What is the negation of the implication 'If it rains, then the ground is wet' (p → q)?", "choices": ["If it does not rain, the ground is not wet.","It does not rain or the ground is wet.","It rains and the ground is not wet.","It does not rain and the ground is wet."], "answer": 2 }
+        { "q": "A block of mass 2 kg slides down a frictionless incline of angle 30° from rest. What is its speed after sliding 4 m along the incline? (g = 9.8 m/s²)", "choices": ["4.4 m/s","6.3 m/s","3.1 m/s","8.9 m/s"], "answer": 1 },
+        { "q": "What is the negation of '∃x (P(x) ∧ Q(x))'?", "choices": ["∀x (¬P(x) ∧ ¬Q(x))","∀x (P(x) ∨ Q(x))","∀x (¬P(x) ∨ ¬Q(x))","∃x (¬P(x) ∨ ¬Q(x))"], "answer": 2 },
+        { "q": "What is ∫₀¹ x³ dx?", "choices": ["1/4","1/2","1/5","1/3"], "answer": 0 },
+        { "q": "What is the time complexity of the Floyd–Warshall all-pairs shortest-path algorithm on a graph with V vertices?", "choices": ["O(V²)","O(V³)","O(V log V)","O(V²E)"], "answer": 1 },
+        { "q": "What is the oxidation state of nitrogen in HNO₃?", "choices": ["+4","+1","+5","+3"], "answer": 2 },
+        { "q": "What is the oxidation state of chromium in the dichromate ion, Cr₂O₇²⁻?", "choices": ["+3","+7","+2","+6"], "answer": 3 },
+        { "q": "The fine-structure constant α is approximately:", "choices": ["1/100","1/137","1/273","1/1836"], "answer": 1 },
+        { "q": "A ball is thrown horizontally at 10 m/s from a height of 20 m. Ignoring air resistance, how far does it travel horizontally before hitting the ground? (g = 9.8 m/s²)", "choices": ["≈20.2 m","≈9.8 m","≈40.0 m","≈14.3 m"], "answer": 0 },
+        { "q": "In propositional logic, (P → Q) is logically equivalent to:", "choices": ["P ∨ ¬Q","¬P ∧ Q","P ∧ ¬Q","¬P ∨ Q"], "answer": 3 },
+        { "q": "How many grams are in 2 moles of water, H₂O? (molar mass H₂O ≈ 18 g/mol)", "choices": ["9 g","36 g","18 g","72 g"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "In an experiment, participants rated statements as 'true' or 'false.' Statements they had already seen before — regardless of whether the statement was actually true or false — were rated as more likely to be true on a later viewing, simply because they felt more familiar. What is this effect called?", "choices": ["The mere exposure effect: repeated exposure increases liking for a stimulus, not belief in its truth","The illusory truth effect: repeated exposure to a claim increases how true it feels, independent of its actual accuracy","Confirmation bias: people preferentially recall information supporting beliefs they already hold","The halo effect: a positive impression in one area causes positive impressions in unrelated areas"], "answer": 1 },
-        { "q": "Children who already enjoyed drawing for fun were split into two groups. One group was given a reward every time they drew; the other group drew with no reward at all. After the rewards stopped, the previously rewarded group spent noticeably LESS free time drawing than before the experiment — while the unrewarded group's interest held steady. What explains the rewarded group's drop in interest?", "choices": ["Rewards have no measurable effect on intrinsic motivation; the drop was random noise","The overjustification effect: external rewards undermined their original intrinsic motivation","Both groups actually increased their drawing time equally","The unrewarded group secretly practiced more, making the comparison unfair"], "answer": 1 },
-        { "q": "In the 19th century, as steam engines became far more fuel-efficient, each engine needed less coal to produce the same work. Economist William Stanley Jevons observed that this increased efficiency was followed not by a decrease in total coal consumption, but by an increase. What does Jevons paradox describe?", "choices": ["Improvements in the efficiency of using a resource can increase, rather than decrease, that resource's total rate of consumption","Efficiency improvements always proportionally reduce total resource consumption","Coal became more expensive as engines grew efficient, forcing less overall use","The paradox shows that 19th-century efficiency measurements were simply wrong"], "answer": 0 },
-        { "q": "Modern AI can play grandmaster-level chess and solve advanced calculus, yet historically struggled with tasks like folding laundry or walking over uneven terrain — skills a toddler performs easily. Moravec's paradox is the observation that, contrary to intuition, ___.", "choices": ["high-level reasoning requires relatively little computation, while low-level sensorimotor skills require enormous computational resources","toddlers are secretly better at logic and calculus than adults give them credit for","AI will never be able to perform any physical task, no matter how advanced it becomes","computation has no real cost, so the only barrier to any robotic task is better programming"], "answer": 0 },
-        { "q": "In Situation 1, most people choose A: $1,000,000 for certain, over B: a 10% chance of $5,000,000, an 89% chance of $1,000,000, and a 1% chance of nothing. In Situation 2, most people choose D: a 10% chance of $5,000,000 and a 90% chance of nothing, over C: an 11% chance of $1,000,000 and an 89% chance of nothing. Mathematically, switching from A to B is the same reallocation of probability as switching from C to D. What does this Allais paradox demonstrate?", "choices": ["The paradox proves expected-utility theory correctly predicts human choices","$5,000,000 provides no additional utility over $1,000,000, so the two situations are identical","Real human preferences can violate the independence axiom of expected-utility theory, even among people who accept it as rational","People simply made arithmetic errors calculating the probabilities"], "answer": 2 },
-        { "q": "A drawer has 10 black socks and 10 white socks, all unpaired and mixed together in the dark. What is the minimum number of socks you must pull out to guarantee a matching pair?", "choices": ["3","20","11","2"], "answer": 0 },
-        { "q": "The statement 'All ravens are black' is logically equivalent to its contrapositive, 'All non-black things are non-ravens.' Hempel's raven paradox asks: does observing a green apple (a non-black, non-raven object) technically count as evidence, however weak, confirming that all ravens are black?", "choices": ["Yes, but only if the apple is unripe","No — only observing an actual raven can ever provide evidence either way","No, because apples and ravens belong to entirely unrelated categories","Yes — by the logic of the contrapositive, it technically counts as extremely weak confirming evidence"], "answer": 3 },
-        { "q": "Two children share the same parents, were born on the same day of the same year, but are not twins. How?", "choices": ["They were adopted","One was born just after midnight","They are two of a set of triplets","The record is mistaken"], "answer": 2 },
-        { "q": "A father and his son are in a car crash. The father dies at the scene, and the son is rushed into surgery. The surgeon says, 'I can't operate on him — he's my son.' How is this possible?", "choices": ["The surgeon is the boy's mother","The surgeon is lying","The boy has two fathers","It is a different boy with the same name"], "answer": 0 },
-        { "q": "What do you get if you divide 30 by one half and then add 10?", "choices": ["40","70","25","15"], "answer": 1 }
+        { "q": "A pundit points to today's most famous college dropouts who built billion-dollar companies (Gates, Zuckerberg, etc.) and concludes that dropping out of college to pursue a startup is, in general, a statistically sound path to success. What is the flaw in this reasoning?", "choices": ["The flaw is that Gates and Zuckerberg actually finished their degrees","There is no flaw — the examples are real companies, so the conclusion is statistically valid","The flaw is that billion-dollar companies are evenly distributed between dropouts and graduates, so the comparison is meaningless","Survivorship bias — the reasoning only looks at the rare successful survivors while ignoring the vastly larger number of dropouts whose startups failed"], "answer": 3 },
+        { "q": "A talented rookie wins 'Rookie of the Year' after an outstanding debut season — likely an unusually good season even relative to their true underlying skill level. Pure statistics predicts their following season's performance will typically be:", "choices": ["Closer to their long-run average skill level — i.e., somewhat worse than the outstanding rookie season, simply due to regression to the mean","Even better than the rookie season, since the player is clearly improving and trending upward","There is no statistical reason to expect any change at all, since past performance guarantees future results","Exactly identical to the rookie season, since skill level alone fully determines performance"], "answer": 0 },
+        { "q": "Game A, played alone, is a losing game over time (the odds slightly favor the house). Game B, played alone, is also a losing game over time. Yet by alternating between A and B — even just switching randomly each round — the combined strategy becomes, on average, a WINNING game. What does this result, known as Parrondo's paradox, demonstrate?", "choices": ["This only works because the 'losing' games were already secretly profitable on their own","Any sequence of losing games will always remain a losing game in total, with no exceptions","The games must have been miscalculated — two losing games can never combine into a winning one","Combining two individually losing strategies can produce a winning strategy, because switching between them changes the underlying dynamics in a way neither game alone exhibits"], "answer": 3 },
+        { "q": "Philosopher Edmund Gettier described cases where a person has a belief that is both true and backed by seemingly adequate justification, yet almost all philosophers agree the person does not actually 'know' the fact — because pure luck, not the justification itself, is what connects the belief to the truth. What does this show about the classical definition of knowledge as 'justified true belief'?", "choices": ["It shows that true beliefs can never be justified, so the definition is incoherent from the start","Justified true belief is not sufficient for knowledge — some justified true beliefs are true merely by luck, not knowledge","It shows that justification is irrelevant to knowledge, and only truth matters","It shows that justified true belief is both necessary and perfectly sufficient for knowledge, with no exceptions"], "answer": 1 },
+        { "q": "You bought a $200 non-refundable, non-transferable concert ticket. The day of the show, you feel ill and know attending will be miserable, with no benefit beyond the music itself. Purely in terms of maximizing your well-being from this point forward, should the fact that you already spent $200 affect your decision to attend?", "choices": ["No — but only because concert tickets specifically don't count as sunk costs","Yes — you should go, because skipping would double your financial loss","Yes — you should go, because otherwise the $200 is wasted","No — the $200 is already gone regardless of your choice (a sunk cost), so it is irrelevant to a rational decision based only on future costs and benefits"], "answer": 3 },
+        { "q": "Die A beats Die B more often (over many rolls), and Die B beats Die C more often. Must Die A also beat Die C more often, the way ordinary comparisons (like 5 > 3 > 1) transitively guarantee 5 > 1?", "choices": ["No — 'beats more often' need not be transitive for dice; nontransitive dice exist where C can beat A","Only if all three dice are standard six-sided dice","It's impossible to construct dice where this fails","Yes, beats-more-often is always transitive, just like ordinary number comparisons"], "answer": 0 },
+        { "q": "You have a coin that lands heads with some unknown, possibly biased probability p, and you want to simulate a perfectly fair 50/50 coin flip. Von Neumann's trick: flip it twice; if the two results differ, use the first flip as your fair result; if they match, discard both and repeat. Why is this exactly fair for any p strictly between 0 and 1?", "choices": ["P(heads,tails) = p(1−p) exactly equals P(tails,heads) = (1−p)p, so conditional on a differing pair, each order is equally likely regardless of p","Because flipping any coin twice always averages out its bias","Because discarding matching pairs removes the coin's bias from future flips too","Because p(1−p) is always exactly 0.5 for any value of p"], "answer": 0 },
+        { "q": "A patient whose health is borderline is reclassified from the 'healthy' group into the 'sick' group, with no actual change in anyone's health. Since that patient was the least healthy of the healthy group and becomes the healthiest member of the sick group, what happens to the average health of the two groups (the Will Rogers phenomenon)?", "choices": ["Only the healthy group's average goes up; the sick group's average falls","Both groups' average health goes up, even though nobody actually got healthier","Only the sick group's average goes up; the healthy group's average falls","Neither average can change unless someone's actual health changes"], "answer": 1 },
+        { "q": "How many months of the year have at least 28 days?", "choices": ["11","2","12","1"], "answer": 2 },
+        { "q": "You're collecting a set of 4 distinct trading cards; every pack gives you one card, each of the 4 equally likely (repeats allowed). On average, how many packs must you buy to collect all 4 distinct cards at least once?", "choices": ["4 packs","≈8.33 packs","16 packs","6 packs"], "answer": 1 }
       ]
     }
   ]
