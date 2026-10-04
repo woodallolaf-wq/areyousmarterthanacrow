@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color do you get when you mix red and blue?", "choices": ["Purple","Orange","Brown","Green"], "answer": 0 },
-        { "q": "What is the opposite of 'start'?", "choices": ["Pause","Middle","Begin","Finish"], "answer": 3 },
-        { "q": "What do you call a baby penguin?", "choices": ["Kit","Chick","Puppy","Cub"], "answer": 1 },
-        { "q": "Which meal do you usually eat at night?", "choices": ["Brunch","Snack","Dinner","Breakfast"], "answer": 2 },
-        { "q": "What is 8 + 4?", "choices": ["13","12","10","11"], "answer": 1 },
-        { "q": "What shape has four equal sides?", "choices": ["Star","Square","Triangle","Circle"], "answer": 1 },
-        { "q": "What sound does a cow make?", "choices": ["Moo","Quack","Meow","Woof"], "answer": 0 },
-        { "q": "What do you call a baby owl?", "choices": ["Kit","Owlet","Joey","Cub"], "answer": 1 },
-        { "q": "What colour is snow?", "choices": ["White","Green","Purple","Black"], "answer": 0 },
-        { "q": "How many legs does a spider have?", "choices": ["Four","Six","Eight","Ten"], "answer": 2 }
+        { "q": "What is the opposite of 'tall'?", "choices": ["Big","Long","Short","Wide"], "answer": 2 },
+        { "q": "What sound does a donkey make?", "choices": ["Oink","Hee-haw","Baa","Moo"], "answer": 1 },
+        { "q": "What colour is a flamingo?", "choices": ["Grey","Pink","Green","Blue"], "answer": 1 },
+        { "q": "What do you call a baby butterfly?", "choices": ["Caterpillar","Chick","Tadpole","Cub"], "answer": 0 },
+        { "q": "What is 2 + 5?", "choices": ["7","6","8","5"], "answer": 0 },
+        { "q": "What is 9 + 1?", "choices": ["9","10","8","11"], "answer": 1 },
+        { "q": "What colour is a carrot?", "choices": ["Purple","Orange","Black","Blue"], "answer": 1 },
+        { "q": "What do you call a baby chicken?", "choices": ["Duckling","Kitten","Chick","Puppy"], "answer": 2 },
+        { "q": "What do you call a baby horse?", "choices": ["Foal","Cub","Kit","Joey"], "answer": 0 },
+        { "q": "What do you wear on your feet?", "choices": ["Scarf","Gloves","Shoes","Hat"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "In 11, 4, 19, 6, 2 — what is the sum of the values greater than 5?", "choices": ["30","42","25","36"], "answer": 3 },
-        { "q": "What is the chemical symbol for copper?", "choices": ["Cp","Cu","Cr","Co"], "answer": 1 },
-        { "q": "Reverse 6, 1, 9, 3, then add the first and last values of the result.", "choices": ["9","12","7","10"], "answer": 0 },
-        { "q": "Author is to Novel as Director is to ___?", "choices": ["Film","Script","Camera","Studio"], "answer": 0 },
-        { "q": "What is 19 × 18?", "choices": ["352","332","362","342"], "answer": 3 },
-        { "q": "What is the capital of France?", "choices": ["Lyon","Nice","Marseille","Paris"], "answer": 3 },
-        { "q": "What is 45 × 12?", "choices": ["520","540","480","560"], "answer": 1 },
-        { "q": "Which does NOT belong? Simile, Metaphor, Personification, Onomatopoeia.", "choices": ["Personification","Simile","Onomatopoeia","Metaphor"], "answer": 2 },
-        { "q": "Word is to Sentence as Sentence is to ___?", "choices": ["Book","Paragraph","Chapter","Page"], "answer": 1 },
-        { "q": "Which does NOT belong? Square, Triangle, Circle, Cube.", "choices": ["Triangle","Circle","Cube","Square"], "answer": 2 }
+        { "q": "What is 24 × 15?", "choices": ["320","340","380","360"], "answer": 3 },
+        { "q": "What is the capital of Morocco?", "choices": ["Algiers","Marrakesh","Rabat","Casablanca"], "answer": 2 },
+        { "q": "Which does NOT belong? Spring, Summer, Monday, Autumn.", "choices": ["Autumn","Monday","Summer","Spring"], "answer": 1 },
+        { "q": "Clock is to Time as Compass is to ___?", "choices": ["Map","Distance","Needle","Direction"], "answer": 3 },
+        { "q": "In 7, 2, 16, 9, 4 — what is the sum of the values less than 8?", "choices": ["11","13","9","15"], "answer": 1 },
+        { "q": "In Z, 9, Q, 4, H, 7, B, 2, W — how many letters come after the digit 7?", "choices": ["4","5","3","2"], "answer": 3 },
+        { "q": "Which does NOT belong? Gold, Silver, Platinum, Wood.", "choices": ["Gold","Silver","Platinum","Wood"], "answer": 3 },
+        { "q": "Scalpel is to Surgeon as Trowel is to ___.", "choices": ["Chemist","Archaeologist","Cartographer","Blacksmith"], "answer": 1 },
+        { "q": "How many perfect squares lie between 50 and 200 inclusive?", "choices": ["7","9","6","8"], "answer": 0 },
+        { "q": "Which does NOT belong? Copper, Iron, Aluminium, Oxygen.", "choices": ["Copper","Iron","Aluminium","Oxygen"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "All chemists are meticulous. Some meticulous people are impatient. Therefore:", "choices": ["No valid conclusion follows.","Some chemists are impatient.","No chemists are impatient.","All chemists are impatient."], "answer": 0 },
-        { "q": "Which word is closest in meaning to 'taciturn'?", "choices": ["Generous","Anxious","Reserved","Talkative"], "answer": 2 },
-        { "q": "A blender costs $120. It's marked up 15%, then discounted 20% off the new price. What is the final price?", "choices": ["$108.00","$115.20","$102.00","$110.40"], "answer": 3 },
-        { "q": "A bag has 7 green and 5 blue marbles. Two are drawn without replacement. What is P(one of each colour)?", "choices": ["5/12","7/12","42/66","35/66"], "answer": 3 },
-        { "q": "Take the list [26, 7, 14, 33, 9, 18]. Sort it in ascending order, then compute the sum of the 2nd and 5th elements (1-indexed).", "choices": ["40","35","28","32"], "answer": 1 },
-        { "q": "Pipe A fills a tank in 10 hours, pipe B in 15 hours. Both pipes are open together for the first 3 hours, then pipe B is closed. How much longer does pipe A alone take to finish filling the tank?", "choices": ["5 hours","3 hours","6 hours","4 hours"], "answer": 0 },
-        { "q": "A list is 30, 12, 45, 7, 22, 16. Sort it ascending, then find the sum of the 1st and 6th values of the result.", "choices": ["60","52","45","37"], "answer": 1 },
-        { "q": "No M are N. All N are O. Some O are P. Which is certainly true?", "choices": ["Some M are O","No M are N","All P are O","Some N are P"], "answer": 1 },
-        { "q": "A bag has 4 red, 3 blue and 3 green marbles. Two are drawn without replacement. What is P(both green)?", "choices": ["2/15","3/10","1/15","1/10"], "answer": 2 },
-        { "q": "From 7, 2, 9, 4, 6, 3, 5 — sum the odd values.", "choices": ["21","24","27","19"], "answer": 1 }
+        { "q": "A $320 item is marked up 10%, then discounted 25% off the marked-up price. What is the final price?", "choices": ["$280","$272","$256","$264"], "answer": 3 },
+        { "q": "A bag contains 9 red and 5 blue marbles. You draw two without replacement. What is the probability both are red?", "choices": ["18/49","9/14","36/91","4/7"], "answer": 2 },
+        { "q": "Take the list [19, 4, 11, 27, 8, 15]. Sort it in ascending order, then compute the product of the 1st and 6th elements.", "choices": ["120","95","108","114"], "answer": 2 },
+        { "q": "'Querulous' most nearly means:", "choices": ["Cheerful","Quiet","Complaining","Curious"], "answer": 2 },
+        { "q": "All Glimms are Taxor. No Taxor are Previn. Therefore:", "choices": ["Some Glimms are Previn","No Glimms are Previn","Cannot be determined","All Previn are Glimms"], "answer": 1 },
+        { "q": "In 3, 1, 4, 1, 5, 9, 2 — what is the sum of the values in even-numbered positions?", "choices": ["9","11","12","14"], "answer": 1 },
+        { "q": "If x + y = 14 and xy = 40, what is x² + y²?", "choices": ["126","116","136","156"], "answer": 1 },
+        { "q": "Some A are B. No B are C. Therefore:", "choices": ["All A are C","Some C are A","Some A are not C","No A are C"], "answer": 2 },
+        { "q": "All engineers are logical. Some logical people are stubborn. Therefore:", "choices": ["No engineers are stubborn","Nothing about engineers and stubborn people follows","Some engineers are stubborn","All stubborn people are engineers"], "answer": 1 },
+        { "q": "In 3, 6, 9, 12, 15, 18, 21 — what is the product of the 2nd and 4th values divided by the 1st?", "choices": ["24","18","21","27"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A block of mass 2 kg slides down a frictionless incline of angle 30° from rest. What is its speed after sliding 4 m along the incline? (g = 9.8 m/s²)", "choices": ["4.4 m/s","6.3 m/s","3.1 m/s","8.9 m/s"], "answer": 1 },
-        { "q": "What is the negation of '∃x (P(x) ∧ Q(x))'?", "choices": ["∀x (¬P(x) ∧ ¬Q(x))","∀x (P(x) ∨ Q(x))","∀x (¬P(x) ∨ ¬Q(x))","∃x (¬P(x) ∨ ¬Q(x))"], "answer": 2 },
-        { "q": "What is ∫₀¹ x³ dx?", "choices": ["1/4","1/2","1/5","1/3"], "answer": 0 },
-        { "q": "What is the time complexity of the Floyd–Warshall all-pairs shortest-path algorithm on a graph with V vertices?", "choices": ["O(V²)","O(V³)","O(V log V)","O(V²E)"], "answer": 1 },
-        { "q": "What is the oxidation state of nitrogen in HNO₃?", "choices": ["+4","+1","+5","+3"], "answer": 2 },
-        { "q": "What is the oxidation state of chromium in the dichromate ion, Cr₂O₇²⁻?", "choices": ["+3","+7","+2","+6"], "answer": 3 },
-        { "q": "The fine-structure constant α is approximately:", "choices": ["1/100","1/137","1/273","1/1836"], "answer": 1 },
-        { "q": "A ball is thrown horizontally at 10 m/s from a height of 20 m. Ignoring air resistance, how far does it travel horizontally before hitting the ground? (g = 9.8 m/s²)", "choices": ["≈20.2 m","≈9.8 m","≈40.0 m","≈14.3 m"], "answer": 0 },
-        { "q": "In propositional logic, (P → Q) is logically equivalent to:", "choices": ["P ∨ ¬Q","¬P ∧ Q","P ∧ ¬Q","¬P ∨ Q"], "answer": 3 },
-        { "q": "How many grams are in 2 moles of water, H₂O? (molar mass H₂O ≈ 18 g/mol)", "choices": ["9 g","36 g","18 g","72 g"], "answer": 1 }
+        { "q": "Dijkstra's Dining Philosophers problem, in which five philosophers alternately think and eat using forks shared with their neighbors, is the classic illustration of which concurrency problem?", "choices": ["A buffer overflow from writing past the end of an allocated array","A stack overflow from excessive recursive calls","A race condition, where the result depends on unpredictable timing of reads and writes","Deadlock: each philosopher waits forever for a fork held by a neighbor who is also waiting, so no one can proceed"], "answer": 3 },
+        { "q": "A figure skater spins at 2 rad/s with her arms extended, giving her a moment of inertia I. She pulls her arms in, reducing her moment of inertia to 0.4I. Ignoring friction, so angular momentum is conserved, what is her new angular velocity?", "choices": ["5 rad/s","4 rad/s","2 rad/s","0.8 rad/s"], "answer": 0 },
+        { "q": "What is the oxidation state of oxygen in hydrogen peroxide, H₂O₂?", "choices": ["-2","+1","0","-1"], "answer": 3 },
+        { "q": "What is the Maclaurin series (Taylor series about x = 0) for ln(1 + x)?", "choices": ["x + x²/2 + x³/3 + x⁴/4 + ...","x − x²/2 + x³/3 − x⁴/4 + ...","1 − x + x² − x³ + ...","x²/2 − x³/3 + x⁴/4 − ..."], "answer": 1 },
+        { "q": "An 'inversion' in an array is a pair of elements that are out of sorted order relative to each other. Using a merge-sort-based algorithm that counts inversions during the merge step, what is the worst-case time complexity for counting all inversions in an array of n elements?", "choices": ["O(n log n)","O(n² log n)","O(n)","O(n²)"], "answer": 0 },
+        { "q": "What is the time complexity of finding the diameter of an unweighted tree with n nodes using two breadth-first searches?", "choices": ["O(n²)","O(log n)","O(n)","O(n log n)"], "answer": 2 },
+        { "q": "Bayes' theorem expresses P(A|B) as:", "choices": ["P(A)P(B)","P(A∩B)/P(A)","P(B|A)/P(A)","P(B|A)P(A)/P(B)"], "answer": 3 },
+        { "q": "What is the space complexity of standard merge sort on an array of n elements?", "choices": ["O(n log n)","O(n)","O(1)","O(log n)"], "answer": 1 },
+        { "q": "In predicate logic, what is the negation of ∃x ∀y P(x,y)?", "choices": ["∀x∀y ¬P(x,y)","∀x∃y ¬P(x,y)","∃x∃y ¬P(x,y)","∃x∀y ¬P(x,y)"], "answer": 1 },
+        { "q": "What is i^i (i raised to the power i), expressed as a real number in terms of e and π? (principal value)", "choices": ["e^(−π/2)","e^(π/2)","e^(iπ/2)","−1"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A pundit points to today's most famous college dropouts who built billion-dollar companies (Gates, Zuckerberg, etc.) and concludes that dropping out of college to pursue a startup is, in general, a statistically sound path to success. What is the flaw in this reasoning?", "choices": ["The flaw is that Gates and Zuckerberg actually finished their degrees","There is no flaw — the examples are real companies, so the conclusion is statistically valid","The flaw is that billion-dollar companies are evenly distributed between dropouts and graduates, so the comparison is meaningless","Survivorship bias — the reasoning only looks at the rare successful survivors while ignoring the vastly larger number of dropouts whose startups failed"], "answer": 3 },
-        { "q": "A talented rookie wins 'Rookie of the Year' after an outstanding debut season — likely an unusually good season even relative to their true underlying skill level. Pure statistics predicts their following season's performance will typically be:", "choices": ["Closer to their long-run average skill level — i.e., somewhat worse than the outstanding rookie season, simply due to regression to the mean","Even better than the rookie season, since the player is clearly improving and trending upward","There is no statistical reason to expect any change at all, since past performance guarantees future results","Exactly identical to the rookie season, since skill level alone fully determines performance"], "answer": 0 },
-        { "q": "Game A, played alone, is a losing game over time (the odds slightly favor the house). Game B, played alone, is also a losing game over time. Yet by alternating between A and B — even just switching randomly each round — the combined strategy becomes, on average, a WINNING game. What does this result, known as Parrondo's paradox, demonstrate?", "choices": ["This only works because the 'losing' games were already secretly profitable on their own","Any sequence of losing games will always remain a losing game in total, with no exceptions","The games must have been miscalculated — two losing games can never combine into a winning one","Combining two individually losing strategies can produce a winning strategy, because switching between them changes the underlying dynamics in a way neither game alone exhibits"], "answer": 3 },
-        { "q": "Philosopher Edmund Gettier described cases where a person has a belief that is both true and backed by seemingly adequate justification, yet almost all philosophers agree the person does not actually 'know' the fact — because pure luck, not the justification itself, is what connects the belief to the truth. What does this show about the classical definition of knowledge as 'justified true belief'?", "choices": ["It shows that true beliefs can never be justified, so the definition is incoherent from the start","Justified true belief is not sufficient for knowledge — some justified true beliefs are true merely by luck, not knowledge","It shows that justification is irrelevant to knowledge, and only truth matters","It shows that justified true belief is both necessary and perfectly sufficient for knowledge, with no exceptions"], "answer": 1 },
-        { "q": "You bought a $200 non-refundable, non-transferable concert ticket. The day of the show, you feel ill and know attending will be miserable, with no benefit beyond the music itself. Purely in terms of maximizing your well-being from this point forward, should the fact that you already spent $200 affect your decision to attend?", "choices": ["No — but only because concert tickets specifically don't count as sunk costs","Yes — you should go, because skipping would double your financial loss","Yes — you should go, because otherwise the $200 is wasted","No — the $200 is already gone regardless of your choice (a sunk cost), so it is irrelevant to a rational decision based only on future costs and benefits"], "answer": 3 },
-        { "q": "Die A beats Die B more often (over many rolls), and Die B beats Die C more often. Must Die A also beat Die C more often, the way ordinary comparisons (like 5 > 3 > 1) transitively guarantee 5 > 1?", "choices": ["No — 'beats more often' need not be transitive for dice; nontransitive dice exist where C can beat A","Only if all three dice are standard six-sided dice","It's impossible to construct dice where this fails","Yes, beats-more-often is always transitive, just like ordinary number comparisons"], "answer": 0 },
-        { "q": "You have a coin that lands heads with some unknown, possibly biased probability p, and you want to simulate a perfectly fair 50/50 coin flip. Von Neumann's trick: flip it twice; if the two results differ, use the first flip as your fair result; if they match, discard both and repeat. Why is this exactly fair for any p strictly between 0 and 1?", "choices": ["P(heads,tails) = p(1−p) exactly equals P(tails,heads) = (1−p)p, so conditional on a differing pair, each order is equally likely regardless of p","Because flipping any coin twice always averages out its bias","Because discarding matching pairs removes the coin's bias from future flips too","Because p(1−p) is always exactly 0.5 for any value of p"], "answer": 0 },
-        { "q": "A patient whose health is borderline is reclassified from the 'healthy' group into the 'sick' group, with no actual change in anyone's health. Since that patient was the least healthy of the healthy group and becomes the healthiest member of the sick group, what happens to the average health of the two groups (the Will Rogers phenomenon)?", "choices": ["Only the healthy group's average goes up; the sick group's average falls","Both groups' average health goes up, even though nobody actually got healthier","Only the sick group's average goes up; the healthy group's average falls","Neither average can change unless someone's actual health changes"], "answer": 1 },
-        { "q": "How many months of the year have at least 28 days?", "choices": ["11","2","12","1"], "answer": 2 },
-        { "q": "You're collecting a set of 4 distinct trading cards; every pack gives you one card, each of the 4 equally likely (repeats allowed). On average, how many packs must you buy to collect all 4 distinct cards at least once?", "choices": ["4 packs","≈8.33 packs","16 packs","6 packs"], "answer": 1 }
+        { "q": "A machine learning model achieves 100% accuracy on the data it was trained on, but only 52% accuracy (barely better than a coin flip) on new, unseen data. What does this gap most likely indicate?", "choices": ["52% accuracy on unseen data is impossible if training accuracy is 100%, so there must be a bug in how accuracy is measured","The model has overfit the training data — it memorized specifics of the training set (including its noise) rather than learning patterns that generalize, so a perfect training score alone is not evidence of a good model","The training data must have been mislabeled","The model is actually performing excellently, since 100% is the best possible score on any dataset"], "answer": 1 },
+        { "q": "If a single farmer doubles their wheat output while every other farmer's output stays the same, that farmer's income rises. Does it follow that if ALL farmers simultaneously double their output, total income across the whole industry also rises?", "choices": ["No, because wheat prices never change regardless of how much is supplied","Yes — more total wheat sold at the same price means more total income","No — when all farmers increase output together, the extra supply drives the market price down, and total industry income can actually fall, even though it rises for any single farmer acting alone","Yes, but only if demand for wheat triples as well"], "answer": 2 },
+        { "q": "A researcher runs 20 completely independent statistical tests on data where NO real effects exist (every null hypothesis is true), using the standard significance threshold of p < 0.05 for each individual test. Approximately what is the probability that AT LEAST one test comes back 'statistically significant' purely by chance?", "choices": ["About 100%, since running enough tests guarantees a significant result","About 5%, since the significance threshold is fixed at 5% no matter how many tests you run","About 25%, roughly five times the base 5% risk","About 64%, because the chance of avoiding a false positive shrinks with every additional independent test run"], "answer": 3 },
+        { "q": "A turkey is fed by the farmer every single day for 1,000 days, and each day its confidence that 'the farmer will feed me again tomorrow, since he always has' grows statistically stronger based on the data. On day 1,001 — the day before Thanksgiving — its confidence is at its highest point ever. That is the day the farmer kills it. What does this illustrate?", "choices": ["That turkeys simply aren't intelligent enough to make valid statistical inferences, unlike humans in similar situations","Past stability and a long track record can mask a qualitatively different, catastrophic event that hasn't happened yet — and more confirming data can make that event feel even less likely right up until it happens; this is Nassim Taleb's 'turkey problem', an example of a black swan event","That you should always trust a long, unbroken track record as a reliable predictor of the future","The farmer's behavior was random, so no inference was ever justified in the first place"], "answer": 1 },
+        { "q": "A map shows that 6 cancer cases happen to cluster within 2 blocks of a particular cell tower, in a large city where cases are otherwise scattered essentially at random. A campaign cites this cluster as proof the tower causes cancer. What is the key flaw in treating this single cluster as evidence of causation?", "choices": ["None — if a cluster exists, there must be a shared physical cause","6 cases is simply too small a number to ever be meaningful, regardless of location","The 'Texas sharpshooter fallacy': drawing the target (the region of interest) after seeing where the cases already landed — cherry-picking an apparent cluster that random chance alone would be expected to produce somewhere in a large enough area","The cluster is irrelevant, because cancer is never caused by environmental factors"], "answer": 2 },
+        { "q": "Which is the better deal: one 12-inch pizza for $10, or two 6-inch pizzas for the same $10 total (all diameters, same thickness and toppings)?", "choices": ["The two 6-inch pizzas — more pieces means more food","The 12-inch pizza — it has double the area of the two 6-inch pizzas combined","The two 6-inch pizzas — smaller pizzas have less wasted crust","They are exactly the same amount of pizza"], "answer": 1 },
+        { "q": "A frog sits at the bottom of a 20-metre well. Each day it climbs 3 metres, but each night, before the next day's climb, it slides back down 4 metres. On which day does it climb out of the well?", "choices": ["23rd day","20th day","17th day","It never climbs out"], "answer": 3 },
+        { "q": "A sign reads: 'Everything written on this sign is false, including this statement.' Is the sign's claim true or false?", "choices": ["It is a paradox — it can be neither true nor false without contradiction","False","Both true and false at the same time, with no contradiction","True"], "answer": 0 },
+        { "q": "A clock has completely stopped and permanently shows the same fixed time, never moving. How many times a day is it showing the exactly correct time?", "choices": ["Twice a day","Once a day","Never — it's broken, so it's always wrong","Twenty-four times a day"], "answer": 0 },
+        { "q": "It takes 12 minutes to saw a wooden board into 3 pieces (each cut takes the same amount of time). At that rate, how long does it take to saw an identical board into 6 pieces?", "choices": ["36 minutes","30 minutes","18 minutes","24 minutes"], "answer": 1 }
       ]
     }
   ]
