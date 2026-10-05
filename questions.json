@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What is the opposite of 'tall'?", "choices": ["Big","Long","Short","Wide"], "answer": 2 },
-        { "q": "What sound does a donkey make?", "choices": ["Oink","Hee-haw","Baa","Moo"], "answer": 1 },
-        { "q": "What colour is a flamingo?", "choices": ["Grey","Pink","Green","Blue"], "answer": 1 },
-        { "q": "What do you call a baby butterfly?", "choices": ["Caterpillar","Chick","Tadpole","Cub"], "answer": 0 },
-        { "q": "What is 2 + 5?", "choices": ["7","6","8","5"], "answer": 0 },
-        { "q": "What is 9 + 1?", "choices": ["9","10","8","11"], "answer": 1 },
-        { "q": "What colour is a carrot?", "choices": ["Purple","Orange","Black","Blue"], "answer": 1 },
-        { "q": "What do you call a baby chicken?", "choices": ["Duckling","Kitten","Chick","Puppy"], "answer": 2 },
-        { "q": "What do you call a baby horse?", "choices": ["Foal","Cub","Kit","Joey"], "answer": 0 },
-        { "q": "What do you wear on your feet?", "choices": ["Scarf","Gloves","Shoes","Hat"], "answer": 2 }
+        { "q": "What do you use to tell the time?", "choices": ["Pillow","Spoon","Clock","Umbrella"], "answer": 2 },
+        { "q": "What is 10 + 10?", "choices": ["20","25","30","15"], "answer": 0 },
+        { "q": "Which shape has six sides?", "choices": ["Square","Hexagon","Pentagon","Triangle"], "answer": 1 },
+        { "q": "Which animal loves to eat bananas?", "choices": ["Monkey","Elephant","Lion","Fish"], "answer": 0 },
+        { "q": "What do bees live in?", "choices": ["Web","Hive","Burrow","Nest"], "answer": 1 },
+        { "q": "What is the opposite of 'left'?", "choices": ["Up","Sideways","Down","Right"], "answer": 3 },
+        { "q": "What sound does an elephant make?", "choices": ["Bark","Moo","Trumpet","Roar"], "answer": 2 },
+        { "q": "What is 4 + 2?", "choices": ["8","5","7","6"], "answer": 3 },
+        { "q": "What colour is a blueberry?", "choices": ["Yellow","Blue","Green","Red"], "answer": 1 },
+        { "q": "How many legs does a bee have?", "choices": ["Two","Eight","Four","Six"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is 24 × 15?", "choices": ["320","340","380","360"], "answer": 3 },
-        { "q": "What is the capital of Morocco?", "choices": ["Algiers","Marrakesh","Rabat","Casablanca"], "answer": 2 },
-        { "q": "Which does NOT belong? Spring, Summer, Monday, Autumn.", "choices": ["Autumn","Monday","Summer","Spring"], "answer": 1 },
-        { "q": "Clock is to Time as Compass is to ___?", "choices": ["Map","Distance","Needle","Direction"], "answer": 3 },
-        { "q": "In 7, 2, 16, 9, 4 — what is the sum of the values less than 8?", "choices": ["11","13","9","15"], "answer": 1 },
-        { "q": "In Z, 9, Q, 4, H, 7, B, 2, W — how many letters come after the digit 7?", "choices": ["4","5","3","2"], "answer": 3 },
-        { "q": "Which does NOT belong? Gold, Silver, Platinum, Wood.", "choices": ["Gold","Silver","Platinum","Wood"], "answer": 3 },
-        { "q": "Scalpel is to Surgeon as Trowel is to ___.", "choices": ["Chemist","Archaeologist","Cartographer","Blacksmith"], "answer": 1 },
-        { "q": "How many perfect squares lie between 50 and 200 inclusive?", "choices": ["7","9","6","8"], "answer": 0 },
-        { "q": "Which does NOT belong? Copper, Iron, Aluminium, Oxygen.", "choices": ["Copper","Iron","Aluminium","Oxygen"], "answer": 3 }
+        { "q": "What is 60% of 450?", "choices": ["280","260","270","290"], "answer": 2 },
+        { "q": "Which is the smallest ocean on Earth?", "choices": ["Southern Ocean","Indian Ocean","Atlantic Ocean","Arctic Ocean"], "answer": 3 },
+        { "q": "Nest is to Bird as Den is to ___?", "choices": ["Fox","Horse","Bee","Fish"], "answer": 0 },
+        { "q": "Which does NOT belong? Trout, Maple, Pine, Oak.", "choices": ["Oak","Trout","Pine","Maple"], "answer": 1 },
+        { "q": "What is 34 × 26?", "choices": ["864","884","874","894"], "answer": 1 },
+        { "q": "Author is to Novel as Composer is to ___.", "choices": ["Symphony","Play","Sculpture","Painting"], "answer": 0 },
+        { "q": "Chapter is to Book as Scene is to ___?", "choices": ["Stage","Actor","Script","Play"], "answer": 3 },
+        { "q": "What is 45% of 160?", "choices": ["72","70","74","76"], "answer": 0 },
+        { "q": "What is the capital of South Korea?", "choices": ["Beijing","Tokyo","Bangkok","Seoul"], "answer": 3 },
+        { "q": "In 8, 3, 15, 6, 11 — what is the sum of the values greater than 7?", "choices": ["31","26","34","29"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A $320 item is marked up 10%, then discounted 25% off the marked-up price. What is the final price?", "choices": ["$280","$272","$256","$264"], "answer": 3 },
-        { "q": "A bag contains 9 red and 5 blue marbles. You draw two without replacement. What is the probability both are red?", "choices": ["18/49","9/14","36/91","4/7"], "answer": 2 },
-        { "q": "Take the list [19, 4, 11, 27, 8, 15]. Sort it in ascending order, then compute the product of the 1st and 6th elements.", "choices": ["120","95","108","114"], "answer": 2 },
-        { "q": "'Querulous' most nearly means:", "choices": ["Cheerful","Quiet","Complaining","Curious"], "answer": 2 },
-        { "q": "All Glimms are Taxor. No Taxor are Previn. Therefore:", "choices": ["Some Glimms are Previn","No Glimms are Previn","Cannot be determined","All Previn are Glimms"], "answer": 1 },
-        { "q": "In 3, 1, 4, 1, 5, 9, 2 — what is the sum of the values in even-numbered positions?", "choices": ["9","11","12","14"], "answer": 1 },
-        { "q": "If x + y = 14 and xy = 40, what is x² + y²?", "choices": ["126","116","136","156"], "answer": 1 },
-        { "q": "Some A are B. No B are C. Therefore:", "choices": ["All A are C","Some C are A","Some A are not C","No A are C"], "answer": 2 },
-        { "q": "All engineers are logical. Some logical people are stubborn. Therefore:", "choices": ["No engineers are stubborn","Nothing about engineers and stubborn people follows","Some engineers are stubborn","All stubborn people are engineers"], "answer": 1 },
-        { "q": "In 3, 6, 9, 12, 15, 18, 21 — what is the product of the 2nd and 4th values divided by the 1st?", "choices": ["24","18","21","27"], "answer": 0 }
+        { "q": "A $620 drone is discounted 15%, then sales tax of 6% is added. What is the final price?", "choices": ["$558.62","$527.00","$570.40","$546.20"], "answer": 0 },
+        { "q": "Take the list [31, 6, 18, 44, 9, 23]. Filter out values greater than 20, then sum the remaining values.", "choices": ["40","51","33","27"], "answer": 2 },
+        { "q": "All Mintles are Corvid. No Corvid are Yupp. Therefore:", "choices": ["Some Mintles are Yupp","Cannot be determined","No Mintles are Yupp","All Yupp are Mintles"], "answer": 2 },
+        { "q": "'Pernicious' most nearly means:", "choices": ["Harmful in a gradual or subtle way","Lacking in detail","Extremely cheerful","Loud and boisterous"], "answer": 0 },
+        { "q": "A bag contains 5 red, 7 blue, and 3 green marbles. One marble is drawn at random. What is the probability it is NOT blue?", "choices": ["1/2","7/15","8/15","2/3"], "answer": 2 },
+        { "q": "Pipe A fills a tank in 6 hours, pipe B in 12 hours. Both pipes are open together for the first 2 hours, then pipe B is closed. How much longer does pipe A alone take to finish filling the tank?", "choices": ["2 hours","3 hours","5 hours","4 hours"], "answer": 1 },
+        { "q": "Inveterate most nearly means:", "choices": ["Firmly established by habit","Easily reversed","Occurring only rarely","Recently formed"], "answer": 0 },
+        { "q": "Loquacious most nearly means:", "choices": ["Angry","Talkative","Sleepy","Silent and muted"], "answer": 1 },
+        { "q": "A bag has 5 red and 7 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["7/33","1/6","5/33","5/22"], "answer": 2 },
+        { "q": "A list is 14, 39, 6, 27, 18, 3. Sort it ascending, then find the product of the 2nd and 4th values of the result.", "choices": ["108","114","96","102"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "Dijkstra's Dining Philosophers problem, in which five philosophers alternately think and eat using forks shared with their neighbors, is the classic illustration of which concurrency problem?", "choices": ["A buffer overflow from writing past the end of an allocated array","A stack overflow from excessive recursive calls","A race condition, where the result depends on unpredictable timing of reads and writes","Deadlock: each philosopher waits forever for a fork held by a neighbor who is also waiting, so no one can proceed"], "answer": 3 },
-        { "q": "A figure skater spins at 2 rad/s with her arms extended, giving her a moment of inertia I. She pulls her arms in, reducing her moment of inertia to 0.4I. Ignoring friction, so angular momentum is conserved, what is her new angular velocity?", "choices": ["5 rad/s","4 rad/s","2 rad/s","0.8 rad/s"], "answer": 0 },
-        { "q": "What is the oxidation state of oxygen in hydrogen peroxide, H₂O₂?", "choices": ["-2","+1","0","-1"], "answer": 3 },
-        { "q": "What is the Maclaurin series (Taylor series about x = 0) for ln(1 + x)?", "choices": ["x + x²/2 + x³/3 + x⁴/4 + ...","x − x²/2 + x³/3 − x⁴/4 + ...","1 − x + x² − x³ + ...","x²/2 − x³/3 + x⁴/4 − ..."], "answer": 1 },
-        { "q": "An 'inversion' in an array is a pair of elements that are out of sorted order relative to each other. Using a merge-sort-based algorithm that counts inversions during the merge step, what is the worst-case time complexity for counting all inversions in an array of n elements?", "choices": ["O(n log n)","O(n² log n)","O(n)","O(n²)"], "answer": 0 },
-        { "q": "What is the time complexity of finding the diameter of an unweighted tree with n nodes using two breadth-first searches?", "choices": ["O(n²)","O(log n)","O(n)","O(n log n)"], "answer": 2 },
-        { "q": "Bayes' theorem expresses P(A|B) as:", "choices": ["P(A)P(B)","P(A∩B)/P(A)","P(B|A)/P(A)","P(B|A)P(A)/P(B)"], "answer": 3 },
-        { "q": "What is the space complexity of standard merge sort on an array of n elements?", "choices": ["O(n log n)","O(n)","O(1)","O(log n)"], "answer": 1 },
-        { "q": "In predicate logic, what is the negation of ∃x ∀y P(x,y)?", "choices": ["∀x∀y ¬P(x,y)","∀x∃y ¬P(x,y)","∃x∃y ¬P(x,y)","∃x∀y ¬P(x,y)"], "answer": 1 },
-        { "q": "What is i^i (i raised to the power i), expressed as a real number in terms of e and π? (principal value)", "choices": ["e^(−π/2)","e^(π/2)","e^(iπ/2)","−1"], "answer": 0 }
+        { "q": "A weak acid solution has concentration 0.01 M and Ka = 1×10⁻⁵. Using the approximation [H⁺] ≈ √(Ka·C), what is the pH of the solution?", "choices": ["3.5","3.0","4.0","2.5"], "answer": 0 },
+        { "q": "What does the infinite series Σ (n/2ⁿ) for n = 1 to ∞ converge to?", "choices": ["4","1","2","∞"], "answer": 2 },
+        { "q": "The Strassen algorithm multiplies two n×n matrices faster than the naive O(n³) approach. What is Strassen's time complexity?", "choices": ["O(n^log₂7) (≈ O(n²·⁸¹))","O(n²)","O(n² log n)","O(n³/log n)"], "answer": 0 },
+        { "q": "A particle's position is given by x(t) = 3t³ − 5t² + 2t (in meters, t in seconds). What is its acceleration at t = 2 s?", "choices": ["26 m/s²","22 m/s²","34 m/s²","16 m/s²"], "answer": 0 },
+        { "q": "Using S(x) for 'x is a student' and L(x) for 'x likes logic', which formula correctly expresses 'Not all students like logic'?", "choices": ["∀x (¬S(x) ∨ L(x))","¬∃x (S(x) ∧ L(x))","∃x (S(x) ∧ ¬L(x))","∀x (S(x) → ¬L(x))"], "answer": 2 },
+        { "q": "What is the oxidation state of carbon in carbon dioxide, CO₂?", "choices": ["+2","+4","0","-4"], "answer": 1 },
+        { "q": "What is the derivative of x²e^(−x) with respect to x?", "choices": ["e^(−x)(2x + x²)","e^(−x)(x² − 2x)","−e^(−x)(2x − x²)","e^(−x)(2x − x²)"], "answer": 3 },
+        { "q": "A simple pendulum has period T = 2π√(L/g). If its length L is quadrupled, the new period is:", "choices": ["4× the original","√2× the original","The same as the original","2× the original"], "answer": 3 },
+        { "q": "An isolated parallel-plate capacitor holds a fixed charge Q. If the plate separation is doubled, what happens to its stored energy?", "choices": ["It halves.","It stays the same.","It doubles.","It quadruples."], "answer": 2 },
+        { "q": "Which of the following is the converse of 'If P then Q'?", "choices": ["If Q then P.","If not P then not Q.","P if and only if Q.","If not Q then not P."], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A machine learning model achieves 100% accuracy on the data it was trained on, but only 52% accuracy (barely better than a coin flip) on new, unseen data. What does this gap most likely indicate?", "choices": ["52% accuracy on unseen data is impossible if training accuracy is 100%, so there must be a bug in how accuracy is measured","The model has overfit the training data — it memorized specifics of the training set (including its noise) rather than learning patterns that generalize, so a perfect training score alone is not evidence of a good model","The training data must have been mislabeled","The model is actually performing excellently, since 100% is the best possible score on any dataset"], "answer": 1 },
-        { "q": "If a single farmer doubles their wheat output while every other farmer's output stays the same, that farmer's income rises. Does it follow that if ALL farmers simultaneously double their output, total income across the whole industry also rises?", "choices": ["No, because wheat prices never change regardless of how much is supplied","Yes — more total wheat sold at the same price means more total income","No — when all farmers increase output together, the extra supply drives the market price down, and total industry income can actually fall, even though it rises for any single farmer acting alone","Yes, but only if demand for wheat triples as well"], "answer": 2 },
-        { "q": "A researcher runs 20 completely independent statistical tests on data where NO real effects exist (every null hypothesis is true), using the standard significance threshold of p < 0.05 for each individual test. Approximately what is the probability that AT LEAST one test comes back 'statistically significant' purely by chance?", "choices": ["About 100%, since running enough tests guarantees a significant result","About 5%, since the significance threshold is fixed at 5% no matter how many tests you run","About 25%, roughly five times the base 5% risk","About 64%, because the chance of avoiding a false positive shrinks with every additional independent test run"], "answer": 3 },
-        { "q": "A turkey is fed by the farmer every single day for 1,000 days, and each day its confidence that 'the farmer will feed me again tomorrow, since he always has' grows statistically stronger based on the data. On day 1,001 — the day before Thanksgiving — its confidence is at its highest point ever. That is the day the farmer kills it. What does this illustrate?", "choices": ["That turkeys simply aren't intelligent enough to make valid statistical inferences, unlike humans in similar situations","Past stability and a long track record can mask a qualitatively different, catastrophic event that hasn't happened yet — and more confirming data can make that event feel even less likely right up until it happens; this is Nassim Taleb's 'turkey problem', an example of a black swan event","That you should always trust a long, unbroken track record as a reliable predictor of the future","The farmer's behavior was random, so no inference was ever justified in the first place"], "answer": 1 },
-        { "q": "A map shows that 6 cancer cases happen to cluster within 2 blocks of a particular cell tower, in a large city where cases are otherwise scattered essentially at random. A campaign cites this cluster as proof the tower causes cancer. What is the key flaw in treating this single cluster as evidence of causation?", "choices": ["None — if a cluster exists, there must be a shared physical cause","6 cases is simply too small a number to ever be meaningful, regardless of location","The 'Texas sharpshooter fallacy': drawing the target (the region of interest) after seeing where the cases already landed — cherry-picking an apparent cluster that random chance alone would be expected to produce somewhere in a large enough area","The cluster is irrelevant, because cancer is never caused by environmental factors"], "answer": 2 },
-        { "q": "Which is the better deal: one 12-inch pizza for $10, or two 6-inch pizzas for the same $10 total (all diameters, same thickness and toppings)?", "choices": ["The two 6-inch pizzas — more pieces means more food","The 12-inch pizza — it has double the area of the two 6-inch pizzas combined","The two 6-inch pizzas — smaller pizzas have less wasted crust","They are exactly the same amount of pizza"], "answer": 1 },
-        { "q": "A frog sits at the bottom of a 20-metre well. Each day it climbs 3 metres, but each night, before the next day's climb, it slides back down 4 metres. On which day does it climb out of the well?", "choices": ["23rd day","20th day","17th day","It never climbs out"], "answer": 3 },
-        { "q": "A sign reads: 'Everything written on this sign is false, including this statement.' Is the sign's claim true or false?", "choices": ["It is a paradox — it can be neither true nor false without contradiction","False","Both true and false at the same time, with no contradiction","True"], "answer": 0 },
-        { "q": "A clock has completely stopped and permanently shows the same fixed time, never moving. How many times a day is it showing the exactly correct time?", "choices": ["Twice a day","Once a day","Never — it's broken, so it's always wrong","Twenty-four times a day"], "answer": 0 },
-        { "q": "It takes 12 minutes to saw a wooden board into 3 pieces (each cut takes the same amount of time). At that rate, how long does it take to saw an identical board into 6 pieces?", "choices": ["36 minutes","30 minutes","18 minutes","24 minutes"], "answer": 1 }
+        { "q": "A fruit bowl contains only apples and oranges, more than enough of each, in a pitch-dark room. What is the minimum number of pieces of fruit you must grab to GUARANTEE that at least 3 of them are the same type?", "choices": ["3","4","6","5"], "answer": 3 },
+        { "q": "You roll two fair six-sided dice. Which is more likely: the dice showing a sum of 7, or the dice showing 'doubles' (both the same number)?", "choices": ["Doubles is more likely","Sum of 7 is more likely","Doubles is more likely, but only by a small margin","They are equally likely, at 1/6 each"], "answer": 3 },
+        { "q": "If you could fold a standard sheet of paper in half 42 times (ignore real-world physical limits on folding), the resulting thickness would be closest to:", "choices": ["The height of a house","The height of a skyscraper","The distance to the Moon","The distance to the Sun"], "answer": 2 },
+        { "q": "Under certain conditions, a container of hot water can freeze completely before an otherwise identical container of cold water placed in the same freezer at the same time — even though the hot water starts further from freezing. What is this well-documented, counterintuitive phenomenon called?", "choices": ["The Leidenfrost effect","The Seebeck effect","The Mpemba effect","Thermal hysteresis"], "answer": 2 },
+        { "q": "In staged emergency experiments, a person in need of help is more likely to receive it when only ONE bystander is present than when a large crowd of bystanders is present. Why does adding more witnesses make any single person LESS likely to help?", "choices": ["People in crowds are simply less compassionate than people who are alone","This is a myth — controlled studies have found no such effect","Larger groups always react faster, because more people means more total helping capacity","Diffusion of responsibility — each bystander assumes someone else will step in, so any one person's felt responsibility to act shrinks as the group grows; this is the 'bystander effect'"], "answer": 3 },
+        { "q": "There is independently a 50% chance of rain on Saturday and a 50% chance of rain on Sunday. What is the probability it rains on at least one of the two days?", "choices": ["75%","100%","25%","50%"], "answer": 0 },
+        { "q": "What is 8 − 2 × (3 − 1)?", "choices": ["2","12","4","1"], "answer": 2 },
+        { "q": "What five-letter word becomes shorter when you add two letters to it?", "choices": ["Brief","Small","Short","Tiny"], "answer": 2 },
+        { "q": "If it takes 8 people 10 hours to dig a hole, how long does it take 4 people to dig half a hole?", "choices": ["20 hours","A hole can't be halved — the task doesn't make sense","10 hours","5 hours"], "answer": 1 },
+        { "q": "A fair European roulette wheel (18 red, 18 black, 1 green) has landed on red 8 times in a row. What is the probability the next spin lands on red?", "choices": ["Exactly 1/2","18/37","Greater than 18/37, since black is 'due'","Less than 18/37, since red is 'due' to stop"], "answer": 1 }
       ]
     }
   ]
