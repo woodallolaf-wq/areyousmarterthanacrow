@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What do you use to tell the time?", "choices": ["Pillow","Spoon","Clock","Umbrella"], "answer": 2 },
-        { "q": "What is 10 + 10?", "choices": ["20","25","30","15"], "answer": 0 },
-        { "q": "Which shape has six sides?", "choices": ["Square","Hexagon","Pentagon","Triangle"], "answer": 1 },
-        { "q": "Which animal loves to eat bananas?", "choices": ["Monkey","Elephant","Lion","Fish"], "answer": 0 },
-        { "q": "What do bees live in?", "choices": ["Web","Hive","Burrow","Nest"], "answer": 1 },
-        { "q": "What is the opposite of 'left'?", "choices": ["Up","Sideways","Down","Right"], "answer": 3 },
-        { "q": "What sound does an elephant make?", "choices": ["Bark","Moo","Trumpet","Roar"], "answer": 2 },
-        { "q": "What is 4 + 2?", "choices": ["8","5","7","6"], "answer": 3 },
-        { "q": "What colour is a blueberry?", "choices": ["Yellow","Blue","Green","Red"], "answer": 1 },
-        { "q": "How many legs does a bee have?", "choices": ["Two","Eight","Four","Six"], "answer": 3 }
+        { "q": "Which is the biggest animal in the ocean?", "choices": ["Dolphin","Blue whale","Shark","Octopus"], "answer": 1 },
+        { "q": "What color are most leaves in the summer?", "choices": ["Red","Blue","Purple","Green"], "answer": 3 },
+        { "q": "What do cats like to drink?", "choices": ["Coffee","Juice","Soda","Milk"], "answer": 3 },
+        { "q": "Where does rain come from?", "choices": ["Clouds","The ground","Trees","The ocean floor"], "answer": 0 },
+        { "q": "What do fish live in?", "choices": ["Sand","Trees","Water","Clouds"], "answer": 2 },
+        { "q": "What is 5 + 1?", "choices": ["6","5","7","4"], "answer": 0 },
+        { "q": "How many toes are on one foot?", "choices": ["5","4","6","10"], "answer": 0 },
+        { "q": "What is the opposite of 'old'?", "choices": ["Young","Short","Small","Slow"], "answer": 0 },
+        { "q": "What do you use to smell things?", "choices": ["Mouth","Eyes","Nose","Ears"], "answer": 2 },
+        { "q": "Which animal says 'cluck'?", "choices": ["Goat","Duck","Cow","Chicken"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is 60% of 450?", "choices": ["280","260","270","290"], "answer": 2 },
-        { "q": "Which is the smallest ocean on Earth?", "choices": ["Southern Ocean","Indian Ocean","Atlantic Ocean","Arctic Ocean"], "answer": 3 },
-        { "q": "Nest is to Bird as Den is to ___?", "choices": ["Fox","Horse","Bee","Fish"], "answer": 0 },
-        { "q": "Which does NOT belong? Trout, Maple, Pine, Oak.", "choices": ["Oak","Trout","Pine","Maple"], "answer": 1 },
-        { "q": "What is 34 × 26?", "choices": ["864","884","874","894"], "answer": 1 },
-        { "q": "Author is to Novel as Composer is to ___.", "choices": ["Symphony","Play","Sculpture","Painting"], "answer": 0 },
-        { "q": "Chapter is to Book as Scene is to ___?", "choices": ["Stage","Actor","Script","Play"], "answer": 3 },
-        { "q": "What is 45% of 160?", "choices": ["72","70","74","76"], "answer": 0 },
-        { "q": "What is the capital of South Korea?", "choices": ["Beijing","Tokyo","Bangkok","Seoul"], "answer": 3 },
-        { "q": "In 8, 3, 15, 6, 11 — what is the sum of the values greater than 7?", "choices": ["31","26","34","29"], "answer": 2 }
+        { "q": "Which does NOT belong? Circle, Square, Triangle, Sphere.", "choices": ["Square","Triangle","Sphere","Circle"], "answer": 2 },
+        { "q": "What is 12 × 11?", "choices": ["121","132","112","142"], "answer": 1 },
+        { "q": "What is 9 × 8?", "choices": ["72","64","63","81"], "answer": 0 },
+        { "q": "Book is to Reading as Fork is to ___?", "choices": ["Cooking","Cutting","Eating","Writing"], "answer": 2 },
+        { "q": "What is 25% of 160?", "choices": ["40","30","45","35"], "answer": 0 },
+        { "q": "A jacket costs $80 and is discounted by 35%. What is the sale price?", "choices": ["$48","$56","$45","$52"], "answer": 3 },
+        { "q": "In 4, 18, 7, 22, 11, 3 — what is the sum of the values less than 10?", "choices": ["14","21","10","17"], "answer": 0 },
+        { "q": "What is 26 × 15?", "choices": ["410","380","390","400"], "answer": 2 },
+        { "q": "Lamb is to Sheep as Foal is to ___?", "choices": ["Cow","Goat","Pig","Horse"], "answer": 3 },
+        { "q": "Tree is to Copse as Wolf is to ___.", "choices": ["Howl","Pack","Prey","Den"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A $620 drone is discounted 15%, then sales tax of 6% is added. What is the final price?", "choices": ["$558.62","$527.00","$570.40","$546.20"], "answer": 0 },
-        { "q": "Take the list [31, 6, 18, 44, 9, 23]. Filter out values greater than 20, then sum the remaining values.", "choices": ["40","51","33","27"], "answer": 2 },
-        { "q": "All Mintles are Corvid. No Corvid are Yupp. Therefore:", "choices": ["Some Mintles are Yupp","Cannot be determined","No Mintles are Yupp","All Yupp are Mintles"], "answer": 2 },
-        { "q": "'Pernicious' most nearly means:", "choices": ["Harmful in a gradual or subtle way","Lacking in detail","Extremely cheerful","Loud and boisterous"], "answer": 0 },
-        { "q": "A bag contains 5 red, 7 blue, and 3 green marbles. One marble is drawn at random. What is the probability it is NOT blue?", "choices": ["1/2","7/15","8/15","2/3"], "answer": 2 },
-        { "q": "Pipe A fills a tank in 6 hours, pipe B in 12 hours. Both pipes are open together for the first 2 hours, then pipe B is closed. How much longer does pipe A alone take to finish filling the tank?", "choices": ["2 hours","3 hours","5 hours","4 hours"], "answer": 1 },
-        { "q": "Inveterate most nearly means:", "choices": ["Firmly established by habit","Easily reversed","Occurring only rarely","Recently formed"], "answer": 0 },
-        { "q": "Loquacious most nearly means:", "choices": ["Angry","Talkative","Sleepy","Silent and muted"], "answer": 1 },
-        { "q": "A bag has 5 red and 7 blue marbles. Two are drawn without replacement. What is P(both red)?", "choices": ["7/33","1/6","5/33","5/22"], "answer": 2 },
-        { "q": "A list is 14, 39, 6, 27, 18, 3. Sort it ascending, then find the product of the 2nd and 4th values of the result.", "choices": ["108","114","96","102"], "answer": 0 }
+        { "q": "A jacket costs $85. It's marked up 20%, then discounted 25% off the new price. What is the final price?", "choices": ["$90.00","$76.50","$63.75","$81.60"], "answer": 1 },
+        { "q": "A list is 12, 45, 7, 33, 21, 9. Reverse it, then find the sum of the 2nd and 4th values of the result.", "choices": ["28","33","45","54"], "answer": 0 },
+        { "q": "A bag contains 3 red, 5 green, and 4 yellow marbles. Two marbles are drawn without replacement. What is the probability both are green?", "choices": ["1/6","5/33","4/33","7/33"], "answer": 1 },
+        { "q": "All Zelkins are Dorbin. Some Dorbin are Flix. Therefore:", "choices": ["Some Zelkins are definitely Flix","Cannot be determined","No Zelkins are Flix","All Zelkins are Flix"], "answer": 1 },
+        { "q": "'Circumspect' most nearly means:", "choices": ["Extremely talkative","Recklessly bold","Hopelessly confused","Cautious and attentive to consequences"], "answer": 3 },
+        { "q": "Sort RED, BLUE, GREEN, YELLOW, PURPLE by word length, longest first (alphabetical for ties). Which is second?", "choices": ["GREEN","BLUE","PURPLE","YELLOW"], "answer": 3 },
+        { "q": "All logicians are thinkers. Some thinkers are writers. Therefore:", "choices": ["Some logicians are writers","All logicians are writers","Nothing about logicians and writers follows","No logicians are writers"], "answer": 2 },
+        { "q": "A laptop costs $650. It's discounted 20%, then the discounted price has 6% sales tax added. What is the final price?", "choices": ["$555.60","$549.20","$551.20","$546.80"], "answer": 2 },
+        { "q": "If 5x − 9 = 3x + 17, what is x?", "choices": ["13","11","17","15"], "answer": 0 },
+        { "q": "Sort 9, 4, 15, 2, 11, 6 in descending order, then find the difference between the 2nd and 5th values of the result.", "choices": ["11","9","5","7"], "answer": 3 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A weak acid solution has concentration 0.01 M and Ka = 1×10⁻⁵. Using the approximation [H⁺] ≈ √(Ka·C), what is the pH of the solution?", "choices": ["3.5","3.0","4.0","2.5"], "answer": 0 },
-        { "q": "What does the infinite series Σ (n/2ⁿ) for n = 1 to ∞ converge to?", "choices": ["4","1","2","∞"], "answer": 2 },
-        { "q": "The Strassen algorithm multiplies two n×n matrices faster than the naive O(n³) approach. What is Strassen's time complexity?", "choices": ["O(n^log₂7) (≈ O(n²·⁸¹))","O(n²)","O(n² log n)","O(n³/log n)"], "answer": 0 },
-        { "q": "A particle's position is given by x(t) = 3t³ − 5t² + 2t (in meters, t in seconds). What is its acceleration at t = 2 s?", "choices": ["26 m/s²","22 m/s²","34 m/s²","16 m/s²"], "answer": 0 },
-        { "q": "Using S(x) for 'x is a student' and L(x) for 'x likes logic', which formula correctly expresses 'Not all students like logic'?", "choices": ["∀x (¬S(x) ∨ L(x))","¬∃x (S(x) ∧ L(x))","∃x (S(x) ∧ ¬L(x))","∀x (S(x) → ¬L(x))"], "answer": 2 },
-        { "q": "What is the oxidation state of carbon in carbon dioxide, CO₂?", "choices": ["+2","+4","0","-4"], "answer": 1 },
-        { "q": "What is the derivative of x²e^(−x) with respect to x?", "choices": ["e^(−x)(2x + x²)","e^(−x)(x² − 2x)","−e^(−x)(2x − x²)","e^(−x)(2x − x²)"], "answer": 3 },
-        { "q": "A simple pendulum has period T = 2π√(L/g). If its length L is quadrupled, the new period is:", "choices": ["4× the original","√2× the original","The same as the original","2× the original"], "answer": 3 },
-        { "q": "An isolated parallel-plate capacitor holds a fixed charge Q. If the plate separation is doubled, what happens to its stored energy?", "choices": ["It halves.","It stays the same.","It doubles.","It quadruples."], "answer": 2 },
-        { "q": "Which of the following is the converse of 'If P then Q'?", "choices": ["If Q then P.","If not P then not Q.","P if and only if Q.","If not Q then not P."], "answer": 0 }
+        { "q": "A simple pendulum has a length of 2.0 m. Using T = 2π√(L/g) with g = 9.8 m/s², what is its period, to the nearest tenth of a second?", "choices": ["1.4 s","2.8 s","4.0 s","9.0 s"], "answer": 1 },
+        { "q": "How many distinct ways can the letters of the word 'ABRACADABRA' be arranged?", "choices": ["39916800","166320","83160","41580"], "answer": 2 },
+        { "q": "Let f(x) = (3x + 1)⁴. What is f'(1)?", "choices": ["192","1024","256","768"], "answer": 3 },
+        { "q": "A gas occupies 4 L at 300 K and 1 atm. If the temperature is raised to 450 K at constant pressure, what is the new volume? (Charles's Law)", "choices": ["6 L","8 L","5 L","4.5 L"], "answer": 0 },
+        { "q": "The 0/1 knapsack problem with n items and capacity W, solved via dynamic programming, has what time complexity?", "choices": ["O(n²)","O(2ⁿ)","O(n log n)","O(nW)"], "answer": 3 },
+        { "q": "What is the derivative of ln(cos(x)) with respect to x?", "choices": ["-sin(x)","-tan(x)","sec(x)","tan(x)"], "answer": 1 },
+        { "q": "The moment of inertia of a solid sphere of mass M and radius R about its diameter is:", "choices": ["(1/2)MR²","(2/5)MR²","(2/3)MR²","(7/5)MR²"], "answer": 1 },
+        { "q": "What is the worst-case time complexity of selecting the median of an unsorted array of n elements using the median-of-medians (BFPRT) algorithm?", "choices": ["O(n)","O(log n)","O(n²)","O(n log n)"], "answer": 0 },
+        { "q": "What is the worst-case time complexity of Dijkstra's algorithm implemented with a simple array instead of a heap, for a graph with V vertices and E edges?", "choices": ["O(V log V)","O((V+E) log V)","O(V²)","O(V + E)"], "answer": 2 },
+        { "q": "The determinant of the 2×2 matrix [[a, b], [c, d]] is:", "choices": ["ad − bc","ac − bd","ab − cd","ad + bc"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A fruit bowl contains only apples and oranges, more than enough of each, in a pitch-dark room. What is the minimum number of pieces of fruit you must grab to GUARANTEE that at least 3 of them are the same type?", "choices": ["3","4","6","5"], "answer": 3 },
-        { "q": "You roll two fair six-sided dice. Which is more likely: the dice showing a sum of 7, or the dice showing 'doubles' (both the same number)?", "choices": ["Doubles is more likely","Sum of 7 is more likely","Doubles is more likely, but only by a small margin","They are equally likely, at 1/6 each"], "answer": 3 },
-        { "q": "If you could fold a standard sheet of paper in half 42 times (ignore real-world physical limits on folding), the resulting thickness would be closest to:", "choices": ["The height of a house","The height of a skyscraper","The distance to the Moon","The distance to the Sun"], "answer": 2 },
-        { "q": "Under certain conditions, a container of hot water can freeze completely before an otherwise identical container of cold water placed in the same freezer at the same time — even though the hot water starts further from freezing. What is this well-documented, counterintuitive phenomenon called?", "choices": ["The Leidenfrost effect","The Seebeck effect","The Mpemba effect","Thermal hysteresis"], "answer": 2 },
-        { "q": "In staged emergency experiments, a person in need of help is more likely to receive it when only ONE bystander is present than when a large crowd of bystanders is present. Why does adding more witnesses make any single person LESS likely to help?", "choices": ["People in crowds are simply less compassionate than people who are alone","This is a myth — controlled studies have found no such effect","Larger groups always react faster, because more people means more total helping capacity","Diffusion of responsibility — each bystander assumes someone else will step in, so any one person's felt responsibility to act shrinks as the group grows; this is the 'bystander effect'"], "answer": 3 },
-        { "q": "There is independently a 50% chance of rain on Saturday and a 50% chance of rain on Sunday. What is the probability it rains on at least one of the two days?", "choices": ["75%","100%","25%","50%"], "answer": 0 },
-        { "q": "What is 8 − 2 × (3 − 1)?", "choices": ["2","12","4","1"], "answer": 2 },
-        { "q": "What five-letter word becomes shorter when you add two letters to it?", "choices": ["Brief","Small","Short","Tiny"], "answer": 2 },
-        { "q": "If it takes 8 people 10 hours to dig a hole, how long does it take 4 people to dig half a hole?", "choices": ["20 hours","A hole can't be halved — the task doesn't make sense","10 hours","5 hours"], "answer": 1 },
-        { "q": "A fair European roulette wheel (18 red, 18 black, 1 green) has landed on red 8 times in a row. What is the probability the next spin lands on red?", "choices": ["Exactly 1/2","18/37","Greater than 18/37, since black is 'due'","Less than 18/37, since red is 'due' to stop"], "answer": 1 }
+        { "q": "A rubber band is initially 1 km long. An ant starts walking from one end at a constant speed of 1 cm/s. After each second, the entire band is instantly and uniformly stretched by an extra 1 km (so the ant's position stretches proportionally too, along with everything else). Does the ant ever reach the far end?", "choices": ["It depends on the ant's exact starting speed relative to 1 km/s","Yes — the ant eventually reaches the end, despite the band's length growing without bound","No — the band grows faster than the ant can ever walk, so it never reaches the end","The ant reaches the end only if the growth rate eventually slows down"], "answer": 1 },
+        { "q": "A golfer has an outstanding, career-best round one day, far above their usual average. Ignoring any genuine change in skill, what should you expect, on average, from their very next round?", "choices": ["A round closer to their long-term average than the career-best was","Exactly the same score as the career-best round","An even better round than the career-best","An equally extreme career-best round again"], "answer": 0 },
+        { "q": "You have 12 coins identical in appearance, but exactly one is counterfeit and differs in weight (you don't know if it's heavier or lighter) from the other 11. Using only a balance scale with no weights, what is the minimum number of weighings needed to guarantee identifying the counterfeit AND whether it's heavier or lighter?", "choices": ["3","6","2","4"], "answer": 0 },
+        { "q": "During WWII, researchers studied returning bomber planes and found bullet holes clustered on the wings and tail, with very few holes near the engines. Statistician Abraham Wald concluded the military should add armor to the area with the FEWEST bullet holes — the engines. Why?", "choices": ["Because more holes in an area simply means that area already has enough natural armor","Because planes hit in the engine areas were the ones that didn't return, so the lack of holes there reflects fatal damage, not safety","Because bullet holes in the wings indicate structural weakness that needs less reinforcement","Because the enemy specifically avoided targeting the engines, so they needed less protection"], "answer": 1 },
+        { "q": "A disease affects 1% of a population. A test for it is 99% accurate (correctly identifies 99% of those with the disease, and correctly clears 99% of those without it). If a random person tests positive, what is the approximate probability they actually have the disease?", "choices": ["About 1%","About 90%","About 50%","About 99%"], "answer": 2 },
+        { "q": "A man lives on the 10th floor. Every morning he takes the elevator to the ground floor. Every evening he rides back up but only to the 7th floor, walking the rest — except on rainy days, when he rides all the way to the 10th floor. Why?", "choices": ["He enjoys the exercise except when it rains","The elevator breaks down above the 7th floor when it's dry","He visits a friend on the 7th floor every dry evening","He is too short to reach the 10th-floor button, but can reach it with his umbrella"], "answer": 3 },
+        { "q": "A family has exactly two children. You are told that the elder child is a girl. What is the probability that both children are girls?", "choices": ["1/2","1/4","1/3","2/3"], "answer": 0 },
+        { "q": "A man buys a horse for $60, sells it for $70, buys it back for $80, then sells it again for $90. How much profit did he make overall?", "choices": ["$0","$20","$30","$10"], "answer": 1 },
+        { "q": "A puzzle shows people the triple 2, 4, 6 and says it fits a secret rule; they must guess the rule by proposing their own triples and being told 'fits' or 'doesn't fit'. Most participants guess 'ascending even numbers, each +2' and only ever test triples that fit their own guess (like 8, 10, 12), rarely proposing a triple designed to fail — even though the real rule is simply 'any three ascending numbers.' What cognitive bias does this classic experiment, devised by Peter Wason, demonstrate?", "choices": ["Anchoring bias","Confirmation bias","Availability heuristic","Hindsight bias"], "answer": 1 },
+        { "q": "You're colouring a map so that no two regions sharing a border have the same colour. According to the Four Colour Theorem, what is the minimum number of colours that is always enough for ANY such map, no matter how many regions it has or how they're arranged?", "choices": ["There is no fixed number — it grows with the number of regions","4","3","5"], "answer": 1 }
       ]
     }
   ]
