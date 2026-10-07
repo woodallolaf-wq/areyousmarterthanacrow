@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "Which is the biggest animal in the ocean?", "choices": ["Dolphin","Blue whale","Shark","Octopus"], "answer": 1 },
-        { "q": "What color are most leaves in the summer?", "choices": ["Red","Blue","Purple","Green"], "answer": 3 },
-        { "q": "What do cats like to drink?", "choices": ["Coffee","Juice","Soda","Milk"], "answer": 3 },
-        { "q": "Where does rain come from?", "choices": ["Clouds","The ground","Trees","The ocean floor"], "answer": 0 },
-        { "q": "What do fish live in?", "choices": ["Sand","Trees","Water","Clouds"], "answer": 2 },
-        { "q": "What is 5 + 1?", "choices": ["6","5","7","4"], "answer": 0 },
-        { "q": "How many toes are on one foot?", "choices": ["5","4","6","10"], "answer": 0 },
-        { "q": "What is the opposite of 'old'?", "choices": ["Young","Short","Small","Slow"], "answer": 0 },
-        { "q": "What do you use to smell things?", "choices": ["Mouth","Eyes","Nose","Ears"], "answer": 2 },
-        { "q": "Which animal says 'cluck'?", "choices": ["Goat","Duck","Cow","Chicken"], "answer": 3 }
+        { "q": "How many fingers do you have on one hand?", "choices": ["Four","Five","Six","Ten"], "answer": 1 },
+        { "q": "What do you use to cut your food at dinner?", "choices": ["Spoon","Napkin","Knife","Cup"], "answer": 2 },
+        { "q": "What do you call your mother's brother?", "choices": ["Aunt","Uncle","Grandpa","Cousin"], "answer": 1 },
+        { "q": "What shape is a stop sign?", "choices": ["Octagon","Hexagon","Triangle","Square"], "answer": 0 },
+        { "q": "What is the name of the planet we live on?", "choices": ["Moon","Sun","Mars","Earth"], "answer": 3 },
+        { "q": "How many legs does a chicken have?", "choices": ["Eight","Two","Six","Four"], "answer": 1 },
+        { "q": "What colour is the night sky?", "choices": ["Pink","Green","Black","White"], "answer": 2 },
+        { "q": "What do you use to unlock a door?", "choices": ["A hat","A fork","A key","A spoon"], "answer": 2 },
+        { "q": "What is 9 - 2?", "choices": ["7","9","8","6"], "answer": 0 },
+        { "q": "What is 5 + 3?", "choices": ["6","9","7","8"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which does NOT belong? Circle, Square, Triangle, Sphere.", "choices": ["Square","Triangle","Sphere","Circle"], "answer": 2 },
-        { "q": "What is 12 × 11?", "choices": ["121","132","112","142"], "answer": 1 },
-        { "q": "What is 9 × 8?", "choices": ["72","64","63","81"], "answer": 0 },
-        { "q": "Book is to Reading as Fork is to ___?", "choices": ["Cooking","Cutting","Eating","Writing"], "answer": 2 },
-        { "q": "What is 25% of 160?", "choices": ["40","30","45","35"], "answer": 0 },
-        { "q": "A jacket costs $80 and is discounted by 35%. What is the sale price?", "choices": ["$48","$56","$45","$52"], "answer": 3 },
-        { "q": "In 4, 18, 7, 22, 11, 3 — what is the sum of the values less than 10?", "choices": ["14","21","10","17"], "answer": 0 },
-        { "q": "What is 26 × 15?", "choices": ["410","380","390","400"], "answer": 2 },
-        { "q": "Lamb is to Sheep as Foal is to ___?", "choices": ["Cow","Goat","Pig","Horse"], "answer": 3 },
-        { "q": "Tree is to Copse as Wolf is to ___.", "choices": ["Howl","Pack","Prey","Den"], "answer": 1 }
+        { "q": "Which does NOT belong? Sparrow, Robin, Eagle, Bat.", "choices": ["Eagle","Robin","Bat","Sparrow"], "answer": 2 },
+        { "q": "What is 9 × 9?", "choices": ["72","81","99","91"], "answer": 1 },
+        { "q": "What is 40% of 120?", "choices": ["54","36","42","48"], "answer": 3 },
+        { "q": "What is 14 × 6?", "choices": ["74","84","94","76"], "answer": 1 },
+        { "q": "What is the capital of Austria?", "choices": ["Berlin","Prague","Vienna","Zurich"], "answer": 2 },
+        { "q": "What is 25 × 24?", "choices": ["580","625","600","550"], "answer": 2 },
+        { "q": "Which does NOT belong? Rain, Snow, Hail, Thunder.", "choices": ["Snow","Thunder","Rain","Hail"], "answer": 1 },
+        { "q": "What is the capital of Greece?", "choices": ["Athens","Cairo","Lisbon","Rome"], "answer": 0 },
+        { "q": "Apple is to Orchard as Grape is to ___.", "choices": ["Vineyard","Field","Garden","Farm"], "answer": 0 },
+        { "q": "What is 17 × 48?", "choices": ["816","802","768","784"], "answer": 0 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A jacket costs $85. It's marked up 20%, then discounted 25% off the new price. What is the final price?", "choices": ["$90.00","$76.50","$63.75","$81.60"], "answer": 1 },
-        { "q": "A list is 12, 45, 7, 33, 21, 9. Reverse it, then find the sum of the 2nd and 4th values of the result.", "choices": ["28","33","45","54"], "answer": 0 },
-        { "q": "A bag contains 3 red, 5 green, and 4 yellow marbles. Two marbles are drawn without replacement. What is the probability both are green?", "choices": ["1/6","5/33","4/33","7/33"], "answer": 1 },
-        { "q": "All Zelkins are Dorbin. Some Dorbin are Flix. Therefore:", "choices": ["Some Zelkins are definitely Flix","Cannot be determined","No Zelkins are Flix","All Zelkins are Flix"], "answer": 1 },
-        { "q": "'Circumspect' most nearly means:", "choices": ["Extremely talkative","Recklessly bold","Hopelessly confused","Cautious and attentive to consequences"], "answer": 3 },
-        { "q": "Sort RED, BLUE, GREEN, YELLOW, PURPLE by word length, longest first (alphabetical for ties). Which is second?", "choices": ["GREEN","BLUE","PURPLE","YELLOW"], "answer": 3 },
-        { "q": "All logicians are thinkers. Some thinkers are writers. Therefore:", "choices": ["Some logicians are writers","All logicians are writers","Nothing about logicians and writers follows","No logicians are writers"], "answer": 2 },
-        { "q": "A laptop costs $650. It's discounted 20%, then the discounted price has 6% sales tax added. What is the final price?", "choices": ["$555.60","$549.20","$551.20","$546.80"], "answer": 2 },
-        { "q": "If 5x − 9 = 3x + 17, what is x?", "choices": ["13","11","17","15"], "answer": 0 },
-        { "q": "Sort 9, 4, 15, 2, 11, 6 in descending order, then find the difference between the 2nd and 5th values of the result.", "choices": ["11","9","5","7"], "answer": 3 }
+        { "q": "A shirt costs $60. It's discounted 30%, then an 8% sales tax is added to the discounted price. What is the final price, to the nearest cent?", "choices": ["$43.20","$46.80","$44.40","$45.36"], "answer": 3 },
+        { "q": "'Vindictive' most nearly means:", "choices": ["Forgiving","Generous","Indifferent","Spiteful and vengeful"], "answer": 3 },
+        { "q": "Take the list [19, 4, 27, 12, 8, 33]. Sort it in ascending order, then what is the 4th value?", "choices": ["19","12","33","27"], "answer": 0 },
+        { "q": "All Grebbits are Wunip. No Wunip are Thaxo. Therefore:", "choices": ["Cannot be determined","Some Grebbits are Thaxo","All Thaxo are Grebbits","No Grebbits are Thaxo"], "answer": 3 },
+        { "q": "A bag has 4 blue, 6 red, and 2 green marbles. Two marbles are drawn without replacement. What is the probability both are red?", "choices": ["5/22","3/11","1/4","1/2"], "answer": 0 },
+        { "q": "Reverse 2, 5, 8, 1, 7, 4, 9, 3. What are the 3rd and 6th values of the result?", "choices": ["8 and 1","7 and 4","9 and 5","4 and 8"], "answer": 3 },
+        { "q": "Hubris is to Nemesis as Cause is to ___.", "choices": ["Origin","Effect","Fate","Blame"], "answer": 1 },
+        { "q": "A list is 22, 5, 17, 9, 30, 12. Reverse it, then find the sum of the 2nd and 5th values of the reversed list.", "choices": ["26","39","35","47"], "answer": 2 },
+        { "q": "All mammals are warm-blooded. Some warm-blooded animals are birds. Therefore:", "choices": ["Some mammals are birds","All birds are mammals","Nothing about mammals and birds follows","No mammals are birds"], "answer": 2 },
+        { "q": "Insipid most nearly means:", "choices": ["Lacking flavor or interest","Extremely spicy","Highly aggressive","Bright and colorful"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A simple pendulum has a length of 2.0 m. Using T = 2π√(L/g) with g = 9.8 m/s², what is its period, to the nearest tenth of a second?", "choices": ["1.4 s","2.8 s","4.0 s","9.0 s"], "answer": 1 },
-        { "q": "How many distinct ways can the letters of the word 'ABRACADABRA' be arranged?", "choices": ["39916800","166320","83160","41580"], "answer": 2 },
-        { "q": "Let f(x) = (3x + 1)⁴. What is f'(1)?", "choices": ["192","1024","256","768"], "answer": 3 },
-        { "q": "A gas occupies 4 L at 300 K and 1 atm. If the temperature is raised to 450 K at constant pressure, what is the new volume? (Charles's Law)", "choices": ["6 L","8 L","5 L","4.5 L"], "answer": 0 },
-        { "q": "The 0/1 knapsack problem with n items and capacity W, solved via dynamic programming, has what time complexity?", "choices": ["O(n²)","O(2ⁿ)","O(n log n)","O(nW)"], "answer": 3 },
-        { "q": "What is the derivative of ln(cos(x)) with respect to x?", "choices": ["-sin(x)","-tan(x)","sec(x)","tan(x)"], "answer": 1 },
-        { "q": "The moment of inertia of a solid sphere of mass M and radius R about its diameter is:", "choices": ["(1/2)MR²","(2/5)MR²","(2/3)MR²","(7/5)MR²"], "answer": 1 },
-        { "q": "What is the worst-case time complexity of selecting the median of an unsorted array of n elements using the median-of-medians (BFPRT) algorithm?", "choices": ["O(n)","O(log n)","O(n²)","O(n log n)"], "answer": 0 },
-        { "q": "What is the worst-case time complexity of Dijkstra's algorithm implemented with a simple array instead of a heap, for a graph with V vertices and E edges?", "choices": ["O(V log V)","O((V+E) log V)","O(V²)","O(V + E)"], "answer": 2 },
-        { "q": "The determinant of the 2×2 matrix [[a, b], [c, d]] is:", "choices": ["ad − bc","ac − bd","ab − cd","ad + bc"], "answer": 0 }
+        { "q": "Let P(x): 'x is prime' and E(x): 'x is even', over the domain of natural numbers greater than 1. Which formula correctly expresses 'There exists an even prime number'?", "choices": ["∃x (E(x) → P(x))","∀x (E(x) ∧ P(x))","∃x (E(x) ∧ P(x))","∀x (E(x) → P(x))"], "answer": 2 },
+        { "q": "What is the molarity of a solution made by dissolving 0.5 moles of NaCl in enough water to make 2 L of solution?", "choices": ["0.5 M","0.1 M","0.25 M","1 M"], "answer": 2 },
+        { "q": "What is the time complexity of Dijkstra's algorithm using a Fibonacci heap and adjacency list, for a graph with V vertices and E edges?", "choices": ["O(V²)","O(E log V)","O(E + V log V)","O(V·E)"], "answer": 2 },
+        { "q": "What is the integral of sin(2x) dx from 0 to π/2?", "choices": ["2","1","π/2","0"], "answer": 1 },
+        { "q": "A spring with spring constant k = 350 N/m is compressed 0.2 m from equilibrium. What elastic potential energy is stored?", "choices": ["3.5 J","7 J","35 J","14 J"], "answer": 1 },
+        { "q": "How many distinct Hamiltonian paths (counting a path and its reverse as one) exist in the complete graph K₅ on 5 labelled vertices?", "choices": ["120","60","24","20"], "answer": 1 },
+        { "q": "What is the derivative of x·ln(x) with respect to x?", "choices": ["ln(x) + 1","ln(x)","ln(x) − 1","1 + x"], "answer": 0 },
+        { "q": "A solid disk of mass M and radius R rotates about its central axis. What is its moment of inertia?", "choices": ["(1/2)MR²","(2/5)MR²","MR²","(1/12)MR²"], "answer": 0 },
+        { "q": "The value of the Riemann zeta function ζ(2) is:", "choices": ["π²/6","π²/12","π²/3","π²/4"], "answer": 0 },
+        { "q": "What is the average oxidation state of sulfur in sodium thiosulfate, Na₂S₂O₃?", "choices": ["+6","+2","0","+4"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A rubber band is initially 1 km long. An ant starts walking from one end at a constant speed of 1 cm/s. After each second, the entire band is instantly and uniformly stretched by an extra 1 km (so the ant's position stretches proportionally too, along with everything else). Does the ant ever reach the far end?", "choices": ["It depends on the ant's exact starting speed relative to 1 km/s","Yes — the ant eventually reaches the end, despite the band's length growing without bound","No — the band grows faster than the ant can ever walk, so it never reaches the end","The ant reaches the end only if the growth rate eventually slows down"], "answer": 1 },
-        { "q": "A golfer has an outstanding, career-best round one day, far above their usual average. Ignoring any genuine change in skill, what should you expect, on average, from their very next round?", "choices": ["A round closer to their long-term average than the career-best was","Exactly the same score as the career-best round","An even better round than the career-best","An equally extreme career-best round again"], "answer": 0 },
-        { "q": "You have 12 coins identical in appearance, but exactly one is counterfeit and differs in weight (you don't know if it's heavier or lighter) from the other 11. Using only a balance scale with no weights, what is the minimum number of weighings needed to guarantee identifying the counterfeit AND whether it's heavier or lighter?", "choices": ["3","6","2","4"], "answer": 0 },
-        { "q": "During WWII, researchers studied returning bomber planes and found bullet holes clustered on the wings and tail, with very few holes near the engines. Statistician Abraham Wald concluded the military should add armor to the area with the FEWEST bullet holes — the engines. Why?", "choices": ["Because more holes in an area simply means that area already has enough natural armor","Because planes hit in the engine areas were the ones that didn't return, so the lack of holes there reflects fatal damage, not safety","Because bullet holes in the wings indicate structural weakness that needs less reinforcement","Because the enemy specifically avoided targeting the engines, so they needed less protection"], "answer": 1 },
-        { "q": "A disease affects 1% of a population. A test for it is 99% accurate (correctly identifies 99% of those with the disease, and correctly clears 99% of those without it). If a random person tests positive, what is the approximate probability they actually have the disease?", "choices": ["About 1%","About 90%","About 50%","About 99%"], "answer": 2 },
-        { "q": "A man lives on the 10th floor. Every morning he takes the elevator to the ground floor. Every evening he rides back up but only to the 7th floor, walking the rest — except on rainy days, when he rides all the way to the 10th floor. Why?", "choices": ["He enjoys the exercise except when it rains","The elevator breaks down above the 7th floor when it's dry","He visits a friend on the 7th floor every dry evening","He is too short to reach the 10th-floor button, but can reach it with his umbrella"], "answer": 3 },
-        { "q": "A family has exactly two children. You are told that the elder child is a girl. What is the probability that both children are girls?", "choices": ["1/2","1/4","1/3","2/3"], "answer": 0 },
-        { "q": "A man buys a horse for $60, sells it for $70, buys it back for $80, then sells it again for $90. How much profit did he make overall?", "choices": ["$0","$20","$30","$10"], "answer": 1 },
-        { "q": "A puzzle shows people the triple 2, 4, 6 and says it fits a secret rule; they must guess the rule by proposing their own triples and being told 'fits' or 'doesn't fit'. Most participants guess 'ascending even numbers, each +2' and only ever test triples that fit their own guess (like 8, 10, 12), rarely proposing a triple designed to fail — even though the real rule is simply 'any three ascending numbers.' What cognitive bias does this classic experiment, devised by Peter Wason, demonstrate?", "choices": ["Anchoring bias","Confirmation bias","Availability heuristic","Hindsight bias"], "answer": 1 },
-        { "q": "You're colouring a map so that no two regions sharing a border have the same colour. According to the Four Colour Theorem, what is the minimum number of colours that is always enough for ANY such map, no matter how many regions it has or how they're arranged?", "choices": ["There is no fixed number — it grows with the number of regions","4","3","5"], "answer": 1 }
+        { "q": "A standard 52-card deck (4 aces) is shuffled and dealt into four 13-card bridge hands. You're told a particular hand contains at least one ace. What is the approximate probability that hand contains at least two aces?", "choices": ["About 25%","About 37%","About 70%","About 6%"], "answer": 1 },
+        { "q": "You and a friend play a game: you each pick a sequence of 3 coin-flip outcomes in advance (like HHT), then flip a fair coin repeatedly until one of your sequences appears first in the stream — that person wins. Your friend picks HHH. You get to choose your sequence AFTER seeing theirs. Which sequence should you pick, and what is your probability of winning with it?", "choices": ["HHT, with a 50% chance of winning","TTT, with a 50% chance of winning","THH, with a 7/8 chance of winning","HTH, with a 1/2 chance of winning"], "answer": 2 },
+        { "q": "Assume 12 equally likely birth months (ignore leap years). How many people must be in a room before the probability that at least two of them share the same birth month exceeds 50%?", "choices": ["12","23","7","5"], "answer": 3 },
+        { "q": "Die A has faces {2,2,4,4,9,9}. Die B has faces {1,1,6,6,8,8}. Die C has faces {3,3,5,5,7,7}. Each die is rolled against each other die many times (higher face wins each roll). Which statement is true?", "choices": ["All three dice win against each other equally often, with no advantage either way","Die A beats Die B, Die B beats Die C, and Die C beats Die A — there's no single 'best' die","Die A beats both B and C, since it has the highest face value (9)","Die C beats both A and B, since its faces are the most balanced"], "answer": 1 },
+        { "q": "You play a game: roll a fair six-sided die. If it lands on 6, you win $100; otherwise, you lose $15. If you play this game many times, what is your expected profit per roll?", "choices": ["About +$4.17 (profitable)","About -$4.17 (a loss)","About $0 (break-even)","About -$15 (you lose most rolls)"], "answer": 0 },
+        { "q": "Take any two-digit number, reverse its digits, and subtract the smaller result from the larger. The answer will always be:", "choices": ["A multiple of 9","A prime number","A multiple of 11","Equal to the original number"], "answer": 0 },
+        { "q": "If a hen and a half lays an egg and a half in a day and a half, how many eggs does one hen lay in three days?", "choices": ["3","1.5","1","2"], "answer": 3 },
+        { "q": "A hotel has infinitely many rooms, numbered 1, 2, 3, ..., and every single room is already occupied by a guest. One more guest arrives asking for a room. Can the hotel accommodate them without evicting anyone?", "choices": ["No — every room is full, so there is no room for another guest","No — infinity plus one is undefined, so the question has no answer","Yes, but only if the hotel first builds an extra room","Yes — move the guest in room n to room n+1 for every n, freeing up room 1"], "answer": 3 },
+        { "q": "Take any four-digit number that isn't made of all identical digits (e.g. 3524). Arrange its digits to form the largest possible number and the smallest possible number (using leading zeros if needed), then subtract the smaller from the larger. Repeat this process with each new result. Within seven steps, the process will always settle on the exact same fixed number, no matter which starting number you began with. What is that number?", "choices": ["9999","1000","0","6174"], "answer": 3 },
+        { "q": "Which is larger: e^π (roughly 2.71828 raised to the power of pi), or π^e (pi raised to the power of roughly 2.71828)?", "choices": ["π^e is larger","e^π is larger","They are exactly equal","It's impossible to compare without a calculator"], "answer": 1 }
       ]
     }
   ]
