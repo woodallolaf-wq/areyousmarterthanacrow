@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "How many fingers do you have on one hand?", "choices": ["Four","Five","Six","Ten"], "answer": 1 },
-        { "q": "What do you use to cut your food at dinner?", "choices": ["Spoon","Napkin","Knife","Cup"], "answer": 2 },
-        { "q": "What do you call your mother's brother?", "choices": ["Aunt","Uncle","Grandpa","Cousin"], "answer": 1 },
-        { "q": "What shape is a stop sign?", "choices": ["Octagon","Hexagon","Triangle","Square"], "answer": 0 },
-        { "q": "What is the name of the planet we live on?", "choices": ["Moon","Sun","Mars","Earth"], "answer": 3 },
-        { "q": "How many legs does a chicken have?", "choices": ["Eight","Two","Six","Four"], "answer": 1 },
-        { "q": "What colour is the night sky?", "choices": ["Pink","Green","Black","White"], "answer": 2 },
-        { "q": "What do you use to unlock a door?", "choices": ["A hat","A fork","A key","A spoon"], "answer": 2 },
-        { "q": "What is 9 - 2?", "choices": ["7","9","8","6"], "answer": 0 },
-        { "q": "What is 5 + 3?", "choices": ["6","9","7","8"], "answer": 3 }
+        { "q": "What is 4 - 2?", "choices": ["1","3","4","2"], "answer": 3 },
+        { "q": "Which shape is round like a ball?", "choices": ["Star","Triangle","Square","Circle"], "answer": 3 },
+        { "q": "What is 6 - 3?", "choices": ["2","3","4","5"], "answer": 1 },
+        { "q": "What color are most frogs?", "choices": ["Green","Purple","Pink","Blue"], "answer": 0 },
+        { "q": "What do you call a group of fish?", "choices": ["School","Pack","Herd","Flock"], "answer": 0 },
+        { "q": "What do you rest your head on in bed?", "choices": ["A fork","A pillow","A rock","A lamp"], "answer": 1 },
+        { "q": "How many wheels does a car have?", "choices": ["Six","Two","Four","Three"], "answer": 2 },
+        { "q": "Which animal says 'hoot'?", "choices": ["Duck","Owl","Pig","Cow"], "answer": 1 },
+        { "q": "Which animal says 'oink'?", "choices": ["Dog","Duck","Pig","Cat"], "answer": 2 },
+        { "q": "How many eyes does a person have?", "choices": ["Three","Two","One","Four"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which does NOT belong? Sparrow, Robin, Eagle, Bat.", "choices": ["Eagle","Robin","Bat","Sparrow"], "answer": 2 },
-        { "q": "What is 9 × 9?", "choices": ["72","81","99","91"], "answer": 1 },
-        { "q": "What is 40% of 120?", "choices": ["54","36","42","48"], "answer": 3 },
-        { "q": "What is 14 × 6?", "choices": ["74","84","94","76"], "answer": 1 },
-        { "q": "What is the capital of Austria?", "choices": ["Berlin","Prague","Vienna","Zurich"], "answer": 2 },
-        { "q": "What is 25 × 24?", "choices": ["580","625","600","550"], "answer": 2 },
-        { "q": "Which does NOT belong? Rain, Snow, Hail, Thunder.", "choices": ["Snow","Thunder","Rain","Hail"], "answer": 1 },
-        { "q": "What is the capital of Greece?", "choices": ["Athens","Cairo","Lisbon","Rome"], "answer": 0 },
-        { "q": "Apple is to Orchard as Grape is to ___.", "choices": ["Vineyard","Field","Garden","Farm"], "answer": 0 },
-        { "q": "What is 17 × 48?", "choices": ["816","802","768","784"], "answer": 0 }
+        { "q": "What is the tallest mountain in the world?", "choices": ["K2","Kilimanjaro","Denali","Mount Everest"], "answer": 3 },
+        { "q": "Hammer is to Nail as Needle is to ___?", "choices": ["Button","Thread","Fabric","Scissors"], "answer": 1 },
+        { "q": "What is 13 × 4?", "choices": ["48","50","56","52"], "answer": 3 },
+        { "q": "What is 60 ÷ 5?", "choices": ["10","20","15","12"], "answer": 3 },
+        { "q": "Which does NOT belong? Carrot, Potato, Onion, Apple.", "choices": ["Carrot","Apple","Onion","Potato"], "answer": 1 },
+        { "q": "What is (96 ÷ 8) + (7 × 9) − 4²?", "choices": ["63","59","55","75"], "answer": 1 },
+        { "q": "What is the capital of Thailand?", "choices": ["Manila","Bangkok","Jakarta","Hanoi"], "answer": 1 },
+        { "q": "What is the capital of Germany?", "choices": ["Berlin","Frankfurt","Hamburg","Munich"], "answer": 0 },
+        { "q": "Which does NOT belong? Guitar, Violin, Cello, Piano.", "choices": ["Guitar","Violin","Cello","Piano"], "answer": 3 },
+        { "q": "In 12, 5, 20, 8, 15 — what is the sum of the values greater than 10?", "choices": ["50","42","47","45"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A shirt costs $60. It's discounted 30%, then an 8% sales tax is added to the discounted price. What is the final price, to the nearest cent?", "choices": ["$43.20","$46.80","$44.40","$45.36"], "answer": 3 },
-        { "q": "'Vindictive' most nearly means:", "choices": ["Forgiving","Generous","Indifferent","Spiteful and vengeful"], "answer": 3 },
-        { "q": "Take the list [19, 4, 27, 12, 8, 33]. Sort it in ascending order, then what is the 4th value?", "choices": ["19","12","33","27"], "answer": 0 },
-        { "q": "All Grebbits are Wunip. No Wunip are Thaxo. Therefore:", "choices": ["Cannot be determined","Some Grebbits are Thaxo","All Thaxo are Grebbits","No Grebbits are Thaxo"], "answer": 3 },
-        { "q": "A bag has 4 blue, 6 red, and 2 green marbles. Two marbles are drawn without replacement. What is the probability both are red?", "choices": ["5/22","3/11","1/4","1/2"], "answer": 0 },
-        { "q": "Reverse 2, 5, 8, 1, 7, 4, 9, 3. What are the 3rd and 6th values of the result?", "choices": ["8 and 1","7 and 4","9 and 5","4 and 8"], "answer": 3 },
-        { "q": "Hubris is to Nemesis as Cause is to ___.", "choices": ["Origin","Effect","Fate","Blame"], "answer": 1 },
-        { "q": "A list is 22, 5, 17, 9, 30, 12. Reverse it, then find the sum of the 2nd and 5th values of the reversed list.", "choices": ["26","39","35","47"], "answer": 2 },
-        { "q": "All mammals are warm-blooded. Some warm-blooded animals are birds. Therefore:", "choices": ["Some mammals are birds","All birds are mammals","Nothing about mammals and birds follows","No mammals are birds"], "answer": 2 },
-        { "q": "Insipid most nearly means:", "choices": ["Lacking flavor or interest","Extremely spicy","Highly aggressive","Bright and colorful"], "answer": 0 }
+        { "q": "Take the list [14, 2, 33, 9, 21, 6]. Reverse the list, then multiply the 1st and 3rd numbers in the reversed list. What is the product?", "choices": ["42","54","48","63"], "answer": 1 },
+        { "q": "All Blips are Fenn. Some Fenn are Dost. Therefore:", "choices": ["Some Blips are Dost","No valid conclusion can be drawn","No Blips are Dost","All Dost are Blips"], "answer": 1 },
+        { "q": "Which word means the opposite of 'benevolent'?", "choices": ["Generous","Malicious","Kind","Charitable"], "answer": 1 },
+        { "q": "A fair six-sided die is rolled twice. What is the probability that the sum of the two rolls is 9?", "choices": ["5/36","1/6","1/9","1/12"], "answer": 2 },
+        { "q": "A laptop originally costs $900. It's discounted 20%, then a further 10% off the reduced price. What is the final price?", "choices": ["$630","$702","$660","$648"], "answer": 3 },
+        { "q": "A drawer has 4 black socks and 6 white socks. Two are drawn without replacement. What is the probability both are white?", "choices": ["5/12","3/10","2/5","1/3"], "answer": 3 },
+        { "q": "All squares are rectangles. All rectangles are quadrilaterals. Therefore:", "choices": ["Some quadrilaterals are not squares","All squares are quadrilaterals","All quadrilaterals are squares","No squares are quadrilaterals"], "answer": 1 },
+        { "q": "A $280 desk is marked up 15%, then discounted 20% off the new price. What is the final price?", "choices": ["$260.40","$254.80","$257.60","$252.00"], "answer": 2 },
+        { "q": "A list is 19, 4, 26, 11, 8, 15. Sort it descending, then find the difference between the 1st and 4th values of the result.", "choices": ["11","22","18","15"], "answer": 3 },
+        { "q": "A bag has 5 red and 3 blue marbles. Two are drawn without replacement. What is P(one of each colour)?", "choices": ["1/2","5/28","3/28","15/28"], "answer": 3 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "Let P(x): 'x is prime' and E(x): 'x is even', over the domain of natural numbers greater than 1. Which formula correctly expresses 'There exists an even prime number'?", "choices": ["∃x (E(x) → P(x))","∀x (E(x) ∧ P(x))","∃x (E(x) ∧ P(x))","∀x (E(x) → P(x))"], "answer": 2 },
-        { "q": "What is the molarity of a solution made by dissolving 0.5 moles of NaCl in enough water to make 2 L of solution?", "choices": ["0.5 M","0.1 M","0.25 M","1 M"], "answer": 2 },
-        { "q": "What is the time complexity of Dijkstra's algorithm using a Fibonacci heap and adjacency list, for a graph with V vertices and E edges?", "choices": ["O(V²)","O(E log V)","O(E + V log V)","O(V·E)"], "answer": 2 },
-        { "q": "What is the integral of sin(2x) dx from 0 to π/2?", "choices": ["2","1","π/2","0"], "answer": 1 },
-        { "q": "A spring with spring constant k = 350 N/m is compressed 0.2 m from equilibrium. What elastic potential energy is stored?", "choices": ["3.5 J","7 J","35 J","14 J"], "answer": 1 },
-        { "q": "How many distinct Hamiltonian paths (counting a path and its reverse as one) exist in the complete graph K₅ on 5 labelled vertices?", "choices": ["120","60","24","20"], "answer": 1 },
-        { "q": "What is the derivative of x·ln(x) with respect to x?", "choices": ["ln(x) + 1","ln(x)","ln(x) − 1","1 + x"], "answer": 0 },
-        { "q": "A solid disk of mass M and radius R rotates about its central axis. What is its moment of inertia?", "choices": ["(1/2)MR²","(2/5)MR²","MR²","(1/12)MR²"], "answer": 0 },
-        { "q": "The value of the Riemann zeta function ζ(2) is:", "choices": ["π²/6","π²/12","π²/3","π²/4"], "answer": 0 },
-        { "q": "What is the average oxidation state of sulfur in sodium thiosulfate, Na₂S₂O₃?", "choices": ["+6","+2","0","+4"], "answer": 1 }
+        { "q": "A spring with spring constant k = 200 N/m is compressed by 0.1 m. How much elastic potential energy is stored?", "choices": ["2 J","1 J","20 J","0.5 J"], "answer": 1 },
+        { "q": "What is the amortized time complexity of the push (append) operation on a dynamic array that doubles its capacity when full?", "choices": ["O(n) amortized","O(log n) amortized","O(1) amortized","O(n²) amortized"], "answer": 2 },
+        { "q": "A gas occupies 12 L at 300 K and 2 atm. Using the combined gas law, what is its volume at 600 K and 1 atm?", "choices": ["36 L","24 L","96 L","48 L"], "answer": 3 },
+        { "q": "Which expression is logically equivalent to ¬(P → Q)?", "choices": ["P ∧ ¬Q","¬P ∨ Q","P ∨ ¬Q","¬P ∧ Q"], "answer": 0 },
+        { "q": "What is the derivative of f(x) = e^x · cos(x) with respect to x?", "choices": ["e^x cos(x)","e^x(cos x + sin x)","e^x(cos x − sin x)","-e^x sin(x)"], "answer": 2 },
+        { "q": "What is the integral of 1/x dx?", "choices": ["1/x² + C","x² / 2 + C","ln|x| + C","-1/x² + C"], "answer": 2 },
+        { "q": "Which of the following is a tautology (always true regardless of P and Q)?", "choices": ["P ∨ ¬P","P ∧ Q","P → Q","P ∧ ¬P"], "answer": 0 },
+        { "q": "For a normal distribution, the proportion of the population lying within two standard deviations of the mean is approximately:", "choices": ["68%","50%","99.7%","95%"], "answer": 3 },
+        { "q": "What is the time complexity of merge sort in the average case?", "choices": ["O(n)","O(log n)","O(n log n)","O(n²)"], "answer": 2 },
+        { "q": "What is the pH of a solution with hydrogen ion concentration 1×10⁻³ M?", "choices": ["1","7","11","3"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A standard 52-card deck (4 aces) is shuffled and dealt into four 13-card bridge hands. You're told a particular hand contains at least one ace. What is the approximate probability that hand contains at least two aces?", "choices": ["About 25%","About 37%","About 70%","About 6%"], "answer": 1 },
-        { "q": "You and a friend play a game: you each pick a sequence of 3 coin-flip outcomes in advance (like HHT), then flip a fair coin repeatedly until one of your sequences appears first in the stream — that person wins. Your friend picks HHH. You get to choose your sequence AFTER seeing theirs. Which sequence should you pick, and what is your probability of winning with it?", "choices": ["HHT, with a 50% chance of winning","TTT, with a 50% chance of winning","THH, with a 7/8 chance of winning","HTH, with a 1/2 chance of winning"], "answer": 2 },
-        { "q": "Assume 12 equally likely birth months (ignore leap years). How many people must be in a room before the probability that at least two of them share the same birth month exceeds 50%?", "choices": ["12","23","7","5"], "answer": 3 },
-        { "q": "Die A has faces {2,2,4,4,9,9}. Die B has faces {1,1,6,6,8,8}. Die C has faces {3,3,5,5,7,7}. Each die is rolled against each other die many times (higher face wins each roll). Which statement is true?", "choices": ["All three dice win against each other equally often, with no advantage either way","Die A beats Die B, Die B beats Die C, and Die C beats Die A — there's no single 'best' die","Die A beats both B and C, since it has the highest face value (9)","Die C beats both A and B, since its faces are the most balanced"], "answer": 1 },
-        { "q": "You play a game: roll a fair six-sided die. If it lands on 6, you win $100; otherwise, you lose $15. If you play this game many times, what is your expected profit per roll?", "choices": ["About +$4.17 (profitable)","About -$4.17 (a loss)","About $0 (break-even)","About -$15 (you lose most rolls)"], "answer": 0 },
-        { "q": "Take any two-digit number, reverse its digits, and subtract the smaller result from the larger. The answer will always be:", "choices": ["A multiple of 9","A prime number","A multiple of 11","Equal to the original number"], "answer": 0 },
-        { "q": "If a hen and a half lays an egg and a half in a day and a half, how many eggs does one hen lay in three days?", "choices": ["3","1.5","1","2"], "answer": 3 },
-        { "q": "A hotel has infinitely many rooms, numbered 1, 2, 3, ..., and every single room is already occupied by a guest. One more guest arrives asking for a room. Can the hotel accommodate them without evicting anyone?", "choices": ["No — every room is full, so there is no room for another guest","No — infinity plus one is undefined, so the question has no answer","Yes, but only if the hotel first builds an extra room","Yes — move the guest in room n to room n+1 for every n, freeing up room 1"], "answer": 3 },
-        { "q": "Take any four-digit number that isn't made of all identical digits (e.g. 3524). Arrange its digits to form the largest possible number and the smallest possible number (using leading zeros if needed), then subtract the smaller from the larger. Repeat this process with each new result. Within seven steps, the process will always settle on the exact same fixed number, no matter which starting number you began with. What is that number?", "choices": ["9999","1000","0","6174"], "answer": 3 },
-        { "q": "Which is larger: e^π (roughly 2.71828 raised to the power of pi), or π^e (pi raised to the power of roughly 2.71828)?", "choices": ["π^e is larger","e^π is larger","They are exactly equal","It's impossible to compare without a calculator"], "answer": 1 }
+        { "q": "If you double the radius of a circle, by what percentage does its area increase?", "choices": ["100%","300%","200%","400%"], "answer": 1 },
+        { "q": "Each day this week has an independent 10% chance of rain. What is the approximate probability that it rains at least once during the 7-day week?", "choices": ["About 52%","About 90%","About 70%","About 10%"], "answer": 0 },
+        { "q": "Which is larger: 2^(2^10), or 10^300?", "choices": ["They are exactly equal","2^(2^10) is larger","10^300 is larger","Impossible to determine without a calculator"], "answer": 1 },
+        { "q": "You invest $100 at a guaranteed 10% annual return, compounded once per year for 10 years. To the nearest dollar, how much is it worth at the end?", "choices": ["$200","$210","$1,000","$259"], "answer": 3 },
+        { "q": "A square has both an inscribed circle (touching all four sides) and a circumscribed circle (passing through all four corners). What is the ratio of the circumscribed circle's area to the inscribed circle's area?", "choices": ["π","√2 (about 1.41)","4","2"], "answer": 3 },
+        { "q": "A doctor gives you three pills and says to take one every half hour. How long until all three are taken?", "choices": ["90 minutes","1 hour","2 hours","30 minutes"], "answer": 1 },
+        { "q": "A woman tells a census taker: 'The product of my three children's ages is 36, and the sum is the number on the door across the street.' He checks the door, returns, and says he still can't tell the ages. She adds, 'My eldest likes strawberry ice cream.' Now he knows. What are the ages?", "choices": ["6, 6, and 1","9, 2, and 2","1, 4, and 9","2, 3, and 6"], "answer": 1 },
+        { "q": "You are in a race and you overtake the person in second place. What position are you in now?", "choices": ["It depends on the finish line","Second place","Third place","First place"], "answer": 1 },
+        { "q": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?", "choices": ["100 minutes","20 minutes","500 minutes","5 minutes"], "answer": 3 },
+        { "q": "Three switches outside a room each control one of three bulbs inside. You may flip the switches as much as you like, but may enter the room only once. How do you determine which switch controls which bulb?", "choices": ["Flip each switch on and off in sequence — the order they flicker tells you which is which.","It's impossible with only one entry to the room.","Turn on all three switches at once, then enter — whichever bulb is brightest is switch 1.","Turn on switch 1, wait a few minutes, turn it off, turn on switch 2, then enter — the lit bulb is switch 2, the warm-but-off bulb is switch 1, and the cold, off bulb is switch 3."], "answer": 3 }
       ]
     }
   ]
