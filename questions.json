@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What is 4 - 2?", "choices": ["1","3","4","2"], "answer": 3 },
-        { "q": "Which shape is round like a ball?", "choices": ["Star","Triangle","Square","Circle"], "answer": 3 },
-        { "q": "What is 6 - 3?", "choices": ["2","3","4","5"], "answer": 1 },
-        { "q": "What color are most frogs?", "choices": ["Green","Purple","Pink","Blue"], "answer": 0 },
-        { "q": "What do you call a group of fish?", "choices": ["School","Pack","Herd","Flock"], "answer": 0 },
-        { "q": "What do you rest your head on in bed?", "choices": ["A fork","A pillow","A rock","A lamp"], "answer": 1 },
-        { "q": "How many wheels does a car have?", "choices": ["Six","Two","Four","Three"], "answer": 2 },
-        { "q": "Which animal says 'hoot'?", "choices": ["Duck","Owl","Pig","Cow"], "answer": 1 },
-        { "q": "Which animal says 'oink'?", "choices": ["Dog","Duck","Pig","Cat"], "answer": 2 },
-        { "q": "How many eyes does a person have?", "choices": ["Three","Two","One","Four"], "answer": 1 }
+        { "q": "A week has how many days?", "choices": ["8","7","6","5"], "answer": 1 },
+        { "q": "Which does NOT belong? Apple, Banana, Carrot, Grape.", "choices": ["Grape","Apple","Banana","Carrot"], "answer": 3 },
+        { "q": "Which animal says the sound moo?", "choices": ["Dog","Cat","Duck","Cow"], "answer": 3 },
+        { "q": "What shape has 3 sides?", "choices": ["Square","Star","Circle","Triangle"], "answer": 3 },
+        { "q": "What is 7 + 6?", "choices": ["12","11","13","14"], "answer": 2 },
+        { "q": "What is 3 + 4?", "choices": ["7","6","5","8"], "answer": 0 },
+        { "q": "Which animal says 'moo'?", "choices": ["Cow","Dog","Cat","Duck"], "answer": 0 },
+        { "q": "What is the opposite of 'wet'?", "choices": ["Soft","Cold","Warm","Dry"], "answer": 3 },
+        { "q": "Which shape has three sides?", "choices": ["Triangle","Circle","Rectangle","Square"], "answer": 0 },
+        { "q": "What is the opposite of 'big'?", "choices": ["Wide","Small","Tall","Heavy"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the tallest mountain in the world?", "choices": ["K2","Kilimanjaro","Denali","Mount Everest"], "answer": 3 },
-        { "q": "Hammer is to Nail as Needle is to ___?", "choices": ["Button","Thread","Fabric","Scissors"], "answer": 1 },
-        { "q": "What is 13 × 4?", "choices": ["48","50","56","52"], "answer": 3 },
-        { "q": "What is 60 ÷ 5?", "choices": ["10","20","15","12"], "answer": 3 },
-        { "q": "Which does NOT belong? Carrot, Potato, Onion, Apple.", "choices": ["Carrot","Apple","Onion","Potato"], "answer": 1 },
-        { "q": "What is (96 ÷ 8) + (7 × 9) − 4²?", "choices": ["63","59","55","75"], "answer": 1 },
-        { "q": "What is the capital of Thailand?", "choices": ["Manila","Bangkok","Jakarta","Hanoi"], "answer": 1 },
-        { "q": "What is the capital of Germany?", "choices": ["Berlin","Frankfurt","Hamburg","Munich"], "answer": 0 },
-        { "q": "Which does NOT belong? Guitar, Violin, Cello, Piano.", "choices": ["Guitar","Violin","Cello","Piano"], "answer": 3 },
-        { "q": "In 12, 5, 20, 8, 15 — what is the sum of the values greater than 10?", "choices": ["50","42","47","45"], "answer": 2 }
+        { "q": "What is the freezing point of water in degrees Celsius?", "choices": ["100","0","32","-10"], "answer": 1 },
+        { "q": "Which does NOT belong? Guitar, Violin, Trumpet, Bicycle.", "choices": ["Guitar","Bicycle","Trumpet","Violin"], "answer": 1 },
+        { "q": "A train travels 60 miles in 90 minutes. What is its speed in miles per hour?", "choices": ["30","60","40","45"], "answer": 2 },
+        { "q": "What is 15 × 6?", "choices": ["85","90","95","80"], "answer": 1 },
+        { "q": "Fin is to Fish as Wing is to ___?", "choices": ["Plane","Bird","Insect","Wind"], "answer": 1 },
+        { "q": "What is 34 × 12?", "choices": ["418","388","398","408"], "answer": 3 },
+        { "q": "Which does NOT belong? Salmon, Trout, Dolphin, Tuna.", "choices": ["Dolphin","Salmon","Tuna","Trout"], "answer": 0 },
+        { "q": "Sort LION, TIGER, BEAR, WOLF by word length (shortest first, alphabetical for ties). Which comes last?", "choices": ["TIGER","WOLF","LION","BEAR"], "answer": 0 },
+        { "q": "From 12, 5, 8, 21, 3, 16 — how many values are greater than 10?", "choices": ["4","3","2","5"], "answer": 1 },
+        { "q": "Puppy is to Dog as Kitten is to ___?", "choices": ["Foal","Calf","Cat","Cub"], "answer": 2 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Take the list [14, 2, 33, 9, 21, 6]. Reverse the list, then multiply the 1st and 3rd numbers in the reversed list. What is the product?", "choices": ["42","54","48","63"], "answer": 1 },
-        { "q": "All Blips are Fenn. Some Fenn are Dost. Therefore:", "choices": ["Some Blips are Dost","No valid conclusion can be drawn","No Blips are Dost","All Dost are Blips"], "answer": 1 },
-        { "q": "Which word means the opposite of 'benevolent'?", "choices": ["Generous","Malicious","Kind","Charitable"], "answer": 1 },
-        { "q": "A fair six-sided die is rolled twice. What is the probability that the sum of the two rolls is 9?", "choices": ["5/36","1/6","1/9","1/12"], "answer": 2 },
-        { "q": "A laptop originally costs $900. It's discounted 20%, then a further 10% off the reduced price. What is the final price?", "choices": ["$630","$702","$660","$648"], "answer": 3 },
-        { "q": "A drawer has 4 black socks and 6 white socks. Two are drawn without replacement. What is the probability both are white?", "choices": ["5/12","3/10","2/5","1/3"], "answer": 3 },
-        { "q": "All squares are rectangles. All rectangles are quadrilaterals. Therefore:", "choices": ["Some quadrilaterals are not squares","All squares are quadrilaterals","All quadrilaterals are squares","No squares are quadrilaterals"], "answer": 1 },
-        { "q": "A $280 desk is marked up 15%, then discounted 20% off the new price. What is the final price?", "choices": ["$260.40","$254.80","$257.60","$252.00"], "answer": 2 },
-        { "q": "A list is 19, 4, 26, 11, 8, 15. Sort it descending, then find the difference between the 1st and 4th values of the result.", "choices": ["11","22","18","15"], "answer": 3 },
-        { "q": "A bag has 5 red and 3 blue marbles. Two are drawn without replacement. What is P(one of each colour)?", "choices": ["1/2","5/28","3/28","15/28"], "answer": 3 }
+        { "q": "Which word means the opposite of 'frugal'?", "choices": ["Prudent","Extravagant","Stingy","Thrifty"], "answer": 1 },
+        { "q": "A deck of 52 cards is shuffled. What is the probability the top card is a face card (J, Q, K)?", "choices": ["3/13","1/4","1/13","4/13"], "answer": 0 },
+        { "q": "All Zinks are Dorp. Some Dorp are Fael. Therefore:", "choices": ["No Zinks are Fael","Some Zinks are Fael","All Fael are Zinks","No valid conclusion can be drawn"], "answer": 3 },
+        { "q": "A store marks up a $40 item by 25%, then offers a 10% discount on the marked-up price. What is the final price?", "choices": ["$44","$45","$46","$40"], "answer": 1 },
+        { "q": "Take the list [5, 12, 8, 1, 19]. Sort it ascending, then subtract the 2nd number from the 4th number. What is the result?", "choices": ["11","7","4","3"], "answer": 1 },
+        { "q": "A bag has 5 white and 3 black marbles. Two are drawn without replacement. What is P(one of each colour)?", "choices": ["3/14","15/28","5/28","1/2"], "answer": 1 },
+        { "q": "Reverse 5, 3, 8, 1, 9, 2, then sum the values now in odd-numbered positions.", "choices": ["16","12","6","22"], "answer": 2 },
+        { "q": "All squares are quadrilaterals. No quadrilaterals are circles. Therefore:", "choices": ["No conclusion follows with certainty.","No squares are circles.","All circles are squares.","Some squares are circles."], "answer": 1 },
+        { "q": "In 8, 6, 7, 5, 3, 0, 9 — what is the product of the 3rd and 7th values?", "choices": ["54","63","72","45"], "answer": 1 },
+        { "q": "All D are E. No E are F. Some G are F. Which is certainly true?", "choices": ["No D are F","All F are G","All G are F","Some D are G"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A spring with spring constant k = 200 N/m is compressed by 0.1 m. How much elastic potential energy is stored?", "choices": ["2 J","1 J","20 J","0.5 J"], "answer": 1 },
-        { "q": "What is the amortized time complexity of the push (append) operation on a dynamic array that doubles its capacity when full?", "choices": ["O(n) amortized","O(log n) amortized","O(1) amortized","O(n²) amortized"], "answer": 2 },
-        { "q": "A gas occupies 12 L at 300 K and 2 atm. Using the combined gas law, what is its volume at 600 K and 1 atm?", "choices": ["36 L","24 L","96 L","48 L"], "answer": 3 },
-        { "q": "Which expression is logically equivalent to ¬(P → Q)?", "choices": ["P ∧ ¬Q","¬P ∨ Q","P ∨ ¬Q","¬P ∧ Q"], "answer": 0 },
-        { "q": "What is the derivative of f(x) = e^x · cos(x) with respect to x?", "choices": ["e^x cos(x)","e^x(cos x + sin x)","e^x(cos x − sin x)","-e^x sin(x)"], "answer": 2 },
-        { "q": "What is the integral of 1/x dx?", "choices": ["1/x² + C","x² / 2 + C","ln|x| + C","-1/x² + C"], "answer": 2 },
-        { "q": "Which of the following is a tautology (always true regardless of P and Q)?", "choices": ["P ∨ ¬P","P ∧ Q","P → Q","P ∧ ¬P"], "answer": 0 },
-        { "q": "For a normal distribution, the proportion of the population lying within two standard deviations of the mean is approximately:", "choices": ["68%","50%","99.7%","95%"], "answer": 3 },
-        { "q": "What is the time complexity of merge sort in the average case?", "choices": ["O(n)","O(log n)","O(n log n)","O(n²)"], "answer": 2 },
-        { "q": "What is the pH of a solution with hydrogen ion concentration 1×10⁻³ M?", "choices": ["1","7","11","3"], "answer": 3 }
+        { "q": "What is the currently accepted mathematical status of the P vs NP problem?", "choices": ["P has been proven equal to NP","It remains unproven whether P = NP","P has been proven not equal to NP","The problem has been proven undecidable"], "answer": 1 },
+        { "q": "What is the pH of a solution with hydrogen ion concentration [H+] = 1 × 10^-5 M?", "choices": ["9","-5","5","1 × 10^-5"], "answer": 2 },
+        { "q": "What is the Big-O time complexity of multiplying two n×n matrices using the naive (schoolbook) triple-loop algorithm?", "choices": ["O(n²)","O(2ⁿ)","O(n³)","O(n log n)"], "answer": 2 },
+        { "q": "What is the derivative of f(x) = ln(x) · x^2 with respect to x?", "choices": ["x + 2x·ln(x)","2x·ln(x)","x^2/x + 2","x·ln(x) + x"], "answer": 0 },
+        { "q": "A capacitor of 4 microfarads is charged to 12 volts. How much energy is stored?", "choices": ["48 µJ","288 µJ","576 µJ","144 µJ"], "answer": 1 },
+        { "q": "Gödel's first incompleteness theorem states that any consistent, sufficiently expressive formal system:", "choices": ["Has a decidable set of theorems","Is necessarily inconsistent","Can prove its own consistency","Contains true statements it cannot prove"], "answer": 3 },
+        { "q": "A solid sphere of mass M and radius R rolls without slipping. What is the ratio of its rotational to translational kinetic energy?", "choices": ["2/5","1/2","2/7","5/2"], "answer": 0 },
+        { "q": "What is the oxidation state of chromium in potassium dichromate, K₂Cr₂O₇?", "choices": ["+3","+4","+6","+7"], "answer": 2 },
+        { "q": "What is the derivative of sec(x) with respect to x?", "choices": ["sec(x)tan(x)","sec²(x)","-sec(x)tan(x)","tan(x)"], "answer": 0 },
+        { "q": "A 2 kg object moving at 3 m/s collides perfectly inelastically with a stationary 4 kg object. What is their common velocity after the collision?", "choices": ["1 m/s","1.5 m/s","2 m/s","0.5 m/s"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "If you double the radius of a circle, by what percentage does its area increase?", "choices": ["100%","300%","200%","400%"], "answer": 1 },
-        { "q": "Each day this week has an independent 10% chance of rain. What is the approximate probability that it rains at least once during the 7-day week?", "choices": ["About 52%","About 90%","About 70%","About 10%"], "answer": 0 },
-        { "q": "Which is larger: 2^(2^10), or 10^300?", "choices": ["They are exactly equal","2^(2^10) is larger","10^300 is larger","Impossible to determine without a calculator"], "answer": 1 },
-        { "q": "You invest $100 at a guaranteed 10% annual return, compounded once per year for 10 years. To the nearest dollar, how much is it worth at the end?", "choices": ["$200","$210","$1,000","$259"], "answer": 3 },
-        { "q": "A square has both an inscribed circle (touching all four sides) and a circumscribed circle (passing through all four corners). What is the ratio of the circumscribed circle's area to the inscribed circle's area?", "choices": ["π","√2 (about 1.41)","4","2"], "answer": 3 },
-        { "q": "A doctor gives you three pills and says to take one every half hour. How long until all three are taken?", "choices": ["90 minutes","1 hour","2 hours","30 minutes"], "answer": 1 },
-        { "q": "A woman tells a census taker: 'The product of my three children's ages is 36, and the sum is the number on the door across the street.' He checks the door, returns, and says he still can't tell the ages. She adds, 'My eldest likes strawberry ice cream.' Now he knows. What are the ages?", "choices": ["6, 6, and 1","9, 2, and 2","1, 4, and 9","2, 3, and 6"], "answer": 1 },
-        { "q": "You are in a race and you overtake the person in second place. What position are you in now?", "choices": ["It depends on the finish line","Second place","Third place","First place"], "answer": 1 },
-        { "q": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?", "choices": ["100 minutes","20 minutes","500 minutes","5 minutes"], "answer": 3 },
-        { "q": "Three switches outside a room each control one of three bulbs inside. You may flip the switches as much as you like, but may enter the room only once. How do you determine which switch controls which bulb?", "choices": ["Flip each switch on and off in sequence — the order they flicker tells you which is which.","It's impossible with only one entry to the room.","Turn on all three switches at once, then enter — whichever bulb is brightest is switch 1.","Turn on switch 1, wait a few minutes, turn it off, turn on switch 2, then enter — the lit bulb is switch 2, the warm-but-off bulb is switch 1, and the cold, off bulb is switch 3."], "answer": 3 }
+        { "q": "A fair six-sided die is rolled repeatedly until every face (1 through 6) has appeared at least once. What is the expected number of rolls?", "choices": ["6","14.7","21","36"], "answer": 1 },
+        { "q": "You will interview 100 candidates one at a time in random order, deciding to accept or permanently reject each immediately, and must pick the single best candidate. The strategy that maximizes your chance of success is to automatically reject the first k candidates, then accept the next one who beats everyone seen so far. What is the optimal fraction k/100, to the nearest whole percent?", "choices": ["≈37%","≈10%","≈50%","≈63%"], "answer": 0 },
+        { "q": "Due to the 'friendship paradox,' in a typical real-world social network, the average number of friends that a random person's friends have is:", "choices": ["Greater than that person's own number of friends, on average","Impossible to compare in general","Exactly equal to that person's own number of friends","Less than that person's own number of friends, on average"], "answer": 0 },
+        { "q": "A golfer shoots an unusually low (great) round one day. With no real change in their underlying skill, their next round is most likely to be:", "choices": ["Even better, due to the hot-hand effect","Closer to their average, due to regression to the mean","Worse than their worst previous round, due to the gambler's fallacy","Exactly as good, since performance is independent day to day"], "answer": 1 },
+        { "q": "Buses are scheduled to arrive at a stop every 10 minutes on average, but in practice the gaps between buses vary — some longer, some shorter. A passenger who arrives at a uniformly random time will, on average, wait:", "choices": ["Longer than 5 minutes, because of the inspection (waiting-time) paradox","Exactly 5 minutes, since that is half the average gap","It depends only on the bus schedule and is never more than 5 minutes","Less than 5 minutes, since most gaps are short"], "answer": 0 },
+        { "q": "A man looks at a portrait and says, 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the portrait?", "choices": ["His father","Himself","His nephew","His son"], "answer": 3 },
+        { "q": "A red house is built from red bricks, a blue house from blue bricks, a black house from black bricks. What is a greenhouse built from?", "choices": ["Green-tinted concrete","Green bricks","Glass","Wood and paint"], "answer": 2 },
+        { "q": "You flip a fair coin 20 times and it lands heads every single time. What is the probability the 21st flip is heads?", "choices": ["Very likely heads — it's on a hot streak","1/2","Cannot be determined without more flips","Very likely tails — it's due for a correction"], "answer": 1 },
+        { "q": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?", "choices": ["$0.05","$0.10","$0.15","$1.00"], "answer": 0 },
+        { "q": "A coin is flipped 10 times and lands heads 7 times. Does this provide strong statistical evidence that the coin is biased?", "choices": ["Yes — 70% heads proves definitively the coin is unfair","Yes — any deviation from 50% is statistically significant","No — with only 10 flips, this is well within normal variation for a fair coin","No, because coins can never be biased"], "answer": 2 }
       ]
     }
   ]
