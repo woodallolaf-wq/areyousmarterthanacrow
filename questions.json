@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "Which is longer, a mile or a foot?", "choices": ["Neither has a length","A foot","They are the same","A mile"], "answer": 3 },
-        { "q": "What is 2 + 7?", "choices": ["8","9","10","7"], "answer": 1 },
-        { "q": "What do you call your mother's husband?", "choices": ["Uncle","Brother","Grandfather","Father"], "answer": 3 },
-        { "q": "What color do you get when you mix black and white?", "choices": ["Gray","Brown","Purple","Pink"], "answer": 0 },
-        { "q": "Which day comes right before Monday?", "choices": ["Friday","Sunday","Tuesday","Saturday"], "answer": 1 },
-        { "q": "How many legs does a person have?", "choices": ["4","8","6","2"], "answer": 3 },
-        { "q": "What colour is a lemon?", "choices": ["Red","Green","Blue","Yellow"], "answer": 3 },
-        { "q": "Which animal says 'ribbit'?", "choices": ["Fish","Bird","Cat","Frog"], "answer": 3 },
-        { "q": "What do you call a baby pig?", "choices": ["Piglet","Cub","Kit","Joey"], "answer": 0 },
-        { "q": "Which one is a colour of the rainbow?", "choices": ["Red","Grey","Black","White"], "answer": 0 }
+        { "q": "What is your father's sister called?", "choices": ["Niece","Uncle","Aunt","Cousin"], "answer": 2 },
+        { "q": "What is 1 + 4?", "choices": ["Five","Six","Four","Three"], "answer": 0 },
+        { "q": "What do you call a baby giraffe?", "choices": ["Joey","Kid","Calf","Cub"], "answer": 2 },
+        { "q": "What colour is the inside of a watermelon?", "choices": ["Yellow","Red","Purple","Blue"], "answer": 1 },
+        { "q": "How many thumbs do you have?", "choices": ["One","Ten","Four","Two"], "answer": 3 },
+        { "q": "What is 7 + 2?", "choices": ["8","9","10","7"], "answer": 1 },
+        { "q": "What is 6 + 3?", "choices": ["9","8","7","10"], "answer": 0 },
+        { "q": "What colour is chocolate?", "choices": ["Blue","Brown","Pink","Purple"], "answer": 1 },
+        { "q": "What is the opposite of 'full'?", "choices": ["Loud","Empty","Heavy","Big"], "answer": 1 },
+        { "q": "What is 7 - 4?", "choices": ["3","5","4","6"], "answer": 0 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of Indonesia?", "choices": ["Bangkok","Jakarta","Manila","Hanoi"], "answer": 1 },
-        { "q": "What is 23 × 23?", "choices": ["512","526","533","529"], "answer": 3 },
-        { "q": "What is 16% of 250?", "choices": ["40","45","38","35"], "answer": 0 },
-        { "q": "What comes next? 1, 4, 9, 16, 25, ___?", "choices": ["36","30","32","49"], "answer": 0 },
-        { "q": "Petal is to Flower as Spoke is to ___?", "choices": ["Leaf","Chain","Wheel","Engine"], "answer": 2 },
-        { "q": "What is 29 × 31?", "choices": ["899","869","909","879"], "answer": 0 },
-        { "q": "Sort FIG, KIWI, APPLE, BANANA by word length (shortest first). Which word is second?", "choices": ["KIWI","FIG","BANANA","APPLE"], "answer": 0 },
-        { "q": "What is the capital of Sweden?", "choices": ["Helsinki","Oslo","Copenhagen","Stockholm"], "answer": 3 },
-        { "q": "From 9, 4, 7, 2, 5, 6 — take only the even values and sum them.", "choices": ["12","16","10","14"], "answer": 0 },
-        { "q": "What is 9² − 10?", "choices": ["61","71","91","81"], "answer": 1 }
+        { "q": "What is the capital of the United Kingdom?", "choices": ["Edinburgh","Manchester","London","Liverpool"], "answer": 2 },
+        { "q": "What is the chemical symbol for lead?", "choices": ["Pb","Lb","Le","Ld"], "answer": 0 },
+        { "q": "Umbrella is to Rain as Sunscreen is to ___?", "choices": ["Rain","Sun","Cold","Wind"], "answer": 1 },
+        { "q": "Which does NOT belong? Sparrow, Ostrich, Falcon, Hawk.", "choices": ["Ostrich","Sparrow","Falcon","Hawk"], "answer": 0 },
+        { "q": "What is 36 × 15?", "choices": ["540","520","560","510"], "answer": 0 },
+        { "q": "Painter is to Easel as Weaver is to ___.", "choices": ["Loom","Kiln","Thread","Chisel"], "answer": 0 },
+        { "q": "Bee is to Honey as Cow is to ___.", "choices": ["Wool","Silk","Eggs","Milk"], "answer": 3 },
+        { "q": "Which does NOT belong? Ant, Bee, Spider, Wasp.", "choices": ["Wasp","Bee","Ant","Spider"], "answer": 3 },
+        { "q": "Doctor is to Hospital as Teacher is to ___.", "choices": ["Court","School","Farm","Hospital"], "answer": 1 },
+        { "q": "Reverse the letters of METAL, then take the 2nd and 4th letters of the result.", "choices": ["L and T","A and E","E and A","T and M"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A box contains 7 green pens and 3 blue pens. Two pens are drawn at random without replacement. What is the probability that both are blue?", "choices": ["3/10","7/15","2/9","1/15"], "answer": 3 },
-        { "q": "A savings account holds $800. It earns 5% interest, then a 3% fee is deducted from the new balance. What is the remaining balance?", "choices": ["$840.00","$814.80","$776.00","$824.00"], "answer": 1 },
-        { "q": "From the list [16, 9, 23, 4, 11, 30], remove all values greater than 20, then sum the remaining values.", "choices": ["36","60","40","70"], "answer": 2 },
-        { "q": "All Blerns are Fitch. No Fitch are Ozwold. Therefore:", "choices": ["Some Blerns are Ozwold.","No Blerns are Ozwold.","All Ozwold are Blerns.","Cannot be determined."], "answer": 1 },
-        { "q": "Lugubrious most nearly means:", "choices": ["Cheerful","Talkative","Mournful","Energetic"], "answer": 2 },
-        { "q": "Ostentatious most nearly means:", "choices": ["Simple and understated","Designed to attract attention or impress; showy","Extremely shy and withdrawn","Quiet and calm"], "answer": 1 },
-        { "q": "What is √(196 × 9)?", "choices": ["44","42","46","38"], "answer": 1 },
-        { "q": "A list is 23, 6, 31, 14, 9, 27. Sort it ascending, then find the sum of the 2nd and 5th values of the result.", "choices": ["36","30","41","33"], "answer": 0 },
-        { "q": "A bag has 6 red and 4 blue marbles. Three are drawn without replacement. What is P(all three red)?", "choices": ["1/6","1/5","2/9","3/10"], "answer": 0 },
-        { "q": "A shirt priced $60 is marked up 20%, then discounted 20% in a sale. What is the final price?", "choices": ["$62.40","$57.60","$55.20","$60.00"], "answer": 1 }
+        { "q": "All pilots are disciplined. No disciplined people are reckless. Therefore:", "choices": ["Cannot be determined","Some pilots are reckless","All reckless people are pilots","No pilot is reckless"], "answer": 3 },
+        { "q": "A $150 laptop bag is marked up 30%, then discounted 15% off the marked-up price. What is the final price?", "choices": ["$160.50","$180.00","$172.50","$165.75"], "answer": 3 },
+        { "q": "You roll two fair six-sided dice. What is the probability that their sum is 7?", "choices": ["1/6","1/12","5/36","1/8"], "answer": 0 },
+        { "q": "Take the list [9, 40, 17, 2, 25, 11]. Sort it in ascending order, then give the 4th value.", "choices": ["25","9","11","17"], "answer": 3 },
+        { "q": "Pedantic most nearly means:", "choices": ["Warm and friendly","Bold and adventurous","Careless and casual","Excessively focused on minor details or rules"], "answer": 3 },
+        { "q": "If 6 workers build a wall in 15 days, how many days do 10 workers need?", "choices": ["9 days","8 days","7.5 days","6 days"], "answer": 0 },
+        { "q": "A $200 item is marked up 40%, then discounted 30%. What is the final price?", "choices": ["$182","$204","$188","$196"], "answer": 3 },
+        { "q": "From 5, 8, 3, 6, 2, 9, 4 — sum the values greater than 5.", "choices": ["28","20","17","23"], "answer": 3 },
+        { "q": "Mellifluous most nearly means:", "choices": ["Sweet-sounding; smooth and musical","Harsh and grating","Extremely bitter","Completely silent"], "answer": 0 },
+        { "q": "All surgeons are precise. No precise people are careless. Therefore:", "choices": ["No surgeons are careless.","All careless people are surgeons.","Some surgeons are careless.","All precise people are surgeons."], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the determinant of the 3×3 matrix [[2, 0, 1], [1, 3, 0], [0, 1, 4]]?", "choices": ["25","23","20","24"], "answer": 0 },
-        { "q": "A buffer solution contains 0.3 mol of acetic acid (Ka = 1.8×10⁻⁵) and 0.3 mol of sodium acetate in 1 L of solution. Using the Henderson-Hasselbalch equation, what is the pH (to the nearest tenth)?", "choices": ["4.7","5.7","3.7","4.0"], "answer": 0 },
-        { "q": "For a particle in a 1D infinite square well of width L, the nth energy level is Eₙ = n²h²/(8mL²). If L is doubled while m and n stay fixed, what happens to Eₙ?", "choices": ["It is divided by 4","It is divided by 8","It is divided by 2","It doubles"], "answer": 0 },
-        { "q": "A fair coin is flipped 10 times. What is the probability of getting exactly 7 heads?", "choices": ["7/128","15/128","21/128","1/8"], "answer": 1 },
-        { "q": "A quantity N(t) decays according to dN/dt = −kN with N(0) = N₀. What is N(t)?", "choices": ["N₀/kt","N₀(1−kt)","N₀e^(kt)","N₀e^(−kt)"], "answer": 3 },
-        { "q": "A block slides down a frictionless incline of angle 30°. What is its acceleration along the incline? (g = 10 m/s²)", "choices": ["5 m/s²","8.66 m/s²","10 m/s²","2.5 m/s²"], "answer": 0 },
-        { "q": "Which inference rule is used here: 'If it rained, the ground is wet. The ground is not wet. Therefore, it did not rain.'", "choices": ["Denying the antecedent","Modus tollens","Modus ponens","Affirming the consequent"], "answer": 1 },
-        { "q": "What is the worst-case time complexity of quicksort?", "choices": ["O(n)","O(n log n)","O(log n)","O(n²)"], "answer": 3 },
-        { "q": "A projectile is launched at 30° above the horizontal with an initial speed of 20 m/s. Ignoring air resistance (g=9.8 m/s²), what is its total time of flight?", "choices": ["3.06 s","4.08 s","2.04 s","1.02 s"], "answer": 2 },
-        { "q": "What is the average-case time complexity of Quickselect (randomized selection) for finding the k-th smallest element in an unsorted array of n elements?", "choices": ["O(n²)","O(n)","O(n log n)","O(log n)"], "answer": 1 }
+        { "q": "A 5 kg cart moving at 4 m/s collides and sticks to a stationary 3 kg cart (perfectly inelastic collision, frictionless track). What is the final speed of the combined carts?", "choices": ["2.5 m/s","4 m/s","7 m/s","1.5 m/s"], "answer": 0 },
+        { "q": "Which inference rule justifies deriving 'P → R' from the premises 'P → Q' and 'Q → R'?", "choices": ["Disjunctive syllogism","Modus tollens","Hypothetical syllogism","Modus ponens"], "answer": 2 },
+        { "q": "What is the time complexity of the Boyer-Moore majority vote algorithm for finding the element that appears more than n/2 times in an array of n elements?", "choices": ["O(n²)","O(n)","O(log n)","O(n log n)"], "answer": 1 },
+        { "q": "Using the ideal gas law (PV = nRT, R ≈ 0.0821 L·atm/(mol·K)), what pressure (in atm) is exerted by 2 moles of an ideal gas in a 10 L container at 300 K?", "choices": ["≈9.85 atm","≈0.49 atm","≈4.93 atm","≈2.46 atm"], "answer": 2 },
+        { "q": "What is the second derivative of f(x) = sin(2x) with respect to x?", "choices": ["4 cos(2x)","-2 sin(2x)","-4 sin(2x)","-4 cos(2x)"], "answer": 2 },
+        { "q": "How many moles of oxygen gas (O2) are needed to completely combust 2 moles of propane (C3H8)? (C3H8 + 5O2 → 3CO2 + 4H2O)", "choices": ["6","10","15","5"], "answer": 1 },
+        { "q": "The halting problem is best described as:", "choices": ["Decidable but intractable","Undecidable","NP-complete","Solvable in exponential time"], "answer": 1 },
+        { "q": "What is the second derivative of f(x) = x³ − 3x² + 2x with respect to x?", "choices": ["6x² − 6x","6x − 6","6x + 6","3x − 6"], "answer": 1 },
+        { "q": "The Schwarzschild radius of a body of mass M is given by:", "choices": ["2GM/c","GM/c²","2GM/c²","GM/2c²"], "answer": 2 },
+        { "q": "Building a binary min-heap from n unsorted elements (bottom-up heapify) runs in:", "choices": ["O(n log n)","O(n²)","O(log n)","O(n)"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A monk begins climbing a mountain path at exactly 7:00 AM and reaches the summit at exactly 7:00 PM, walking at varying speeds and resting at times along the way. The next day he starts back down the very same path at exactly 7:00 AM and reaches the bottom at exactly 7:00 PM, again varying his pace. Must there be some point on the path where he is located at exactly the same time of day on both days?", "choices": ["No — it depends entirely on how fast he walks each day","Yes — this is guaranteed no matter how his pace varies each day","Only if the mountain path happens to be perfectly straight","No — only if he walks at a perfectly constant speed on both days"], "answer": 1 },
-        { "q": "Of three prisoners A, B, and C, the governor will pardon exactly one, chosen uniformly at random, though the result won't be announced until tomorrow. Prisoner A asks the guard, who already knows the outcome, to name one of B or C who will definitely NOT be pardoned — at least one such prisoner always exists no matter who is actually chosen. The guard truthfully says, 'C will not be pardoned.' Does this change A's own probability of being pardoned?", "choices": ["No — it remains exactly 1/3","Yes — it falls to 1/4","Yes — it rises to 2/3","Yes — it rises to 1/2"], "answer": 0 },
-        { "q": "A woman says: 'The day before yesterday I was 25, and next year I will turn 28.' This is only true for one specific relationship between 'today' and her birthday. What must be true?", "choices": ["Today is her birthday","No date makes this statement true","Today is December 31st and her birthday is January 1st","Today is January 1st and her birthday is December 31st"], "answer": 3 },
-        { "q": "I am an odd number. Remove one letter from my name and I become even. What number am I?", "choices": ["Three","Nine","Seven","Five"], "answer": 2 },
-        { "q": "In most modern programming languages using IEEE 754 double-precision floating-point arithmetic (JavaScript, Python, Java, C, etc.), what does evaluating 0.1 + 0.2 actually produce?", "choices": ["0.30000000000000001","0.3","0.299999999999999999","0.30000000000000004"], "answer": 3 },
-        { "q": "Which weighs more: a pound of feathers or a pound of bricks?", "choices": ["They weigh exactly the same","It depends on the humidity","A pound of bricks","A pound of feathers"], "answer": 0 },
-        { "q": "Which is greater: the number of seconds in one day, or the number of minutes in six weeks?", "choices": ["They are exactly equal","The number of minutes in six weeks","It cannot be determined","The number of seconds in one day"], "answer": 3 },
-        { "q": "A father and his son are in a car accident. The father dies at the scene, and the son is rushed to the hospital in critical condition. The surgeon looks at the boy and says, 'I can't operate on him — he's my son.' How is this possible?", "choices": ["The surgeon is the boy's mother.","The boy has two adoptive fathers.","This is a logical contradiction with no answer.","The father secretly survived and is the surgeon."], "answer": 0 },
-        { "q": "Rule: 'If a card has a vowel on one side, it has an even number on the other side.' You see four cards showing E, K, 4, 7. Which cards must you turn over to test the rule?", "choices": ["E only","K and 4","E and 7","E and 4"], "answer": 2 },
-        { "q": "An ant starts crawling from one end of a 1 km rubber band at a constant 1 cm/s. At the end of every second, the entire band is instantly and uniformly stretched by another 1 km. Does the ant ever reach the far end?", "choices": ["It depends on exactly where on the band the ant starts","Yes — the ant's fractional progress each second forms a divergent harmonic series, so it eventually covers the whole band","No — the band stretches far faster than the ant can crawl, so it falls further behind every second","No — the ant can only reach the end once the stretching stops"], "answer": 1 }
+        { "q": "Die A beats Die B more often than it loses to Die B in repeated rolls, and Die B beats Die C more often than it loses to Die C. Must Die A also beat Die C more often than it loses, by transitivity?", "choices": ["No — 'beats more often' need not be transitive; non-transitive dice exist where C actually beats A","Only if all three dice have six sides","Only if the dice are loaded rather than fair","Yes, this is guaranteed by transitivity of comparisons"], "answer": 0 },
+        { "q": "Drug A has a higher overall cure rate than Drug B when you pool all patients together. Must Drug A also have a higher cure rate than Drug B within every age subgroup considered separately?", "choices": ["Only if both drugs have a cure rate above 50%","Yes, this is guaranteed by the laws of probability","No — this relationship can reverse within subgroups (Simpson's Paradox)","Only if the two drugs were tested on equal numbers of patients"], "answer": 2 },
+        { "q": "A rare side effect occurs independently in 1% of patients who take a certain drug. If 100 patients take the drug, is it certain (100%) that at least one will experience the side effect? What is the actual probability, rounded to the nearest percent?", "choices": ["About 1%","About 50%","Yes, 100% — a 1% chance times 100 patients guarantees at least one","No, it is not certain — the actual probability is about 63%"], "answer": 3 },
+        { "q": "If every linear dimension of a solid object (length, width, and height) is doubled, while the material and density stay the same, by what factor does the object's weight increase?", "choices": ["6×","4×","2×","8×"], "answer": 3 },
+        { "q": "You will interview candidates one at a time in random order for a single position, and must accept or permanently reject each one immediately, with the goal of maximizing your chance of hiring the single best candidate overall. The optimal strategy is to automatically reject the first k candidates (using them only to set a benchmark), then hire the next one who is better than everyone seen so far. As the candidate pool grows large, what fraction of candidates should you plan to automatically reject before switching to the hire-if-best-so-far rule?", "choices": ["63%","10%","50%","About 37% (1/e)"], "answer": 3 },
+        { "q": "A woman 'shoots' her husband, then holds him under water for five minutes, then hangs him. Immediately afterward, they enjoy a nice dinner together. How is this possible?", "choices": ["She used a time machine to undo it.","She is a ghost and none of it really happened.","She develops a photograph of him — 'shoots' with a camera, 'holds' the film underwater to develop it, and 'hangs' it up to dry.","It's all a dream she is having."], "answer": 2 },
+        { "q": "The more you take of it, the more you leave behind. What is it?", "choices": ["Money","Memories","Time","Footsteps"], "answer": 3 },
+        { "q": "Divide 30 by half, then add 10. What is the result?", "choices": ["40","70","25","15"], "answer": 1 },
+        { "q": "A grandfather clock strikes 6 times in 5 seconds. How long does it take to strike 12 times?", "choices": ["12 seconds","6 seconds","10 seconds","11 seconds"], "answer": 3 },
+        { "q": "You paid $50, non-refundable, for tonight's concert ticket, but you've come down with a cold and won't enjoy the show. Rationally, should the $50 you already spent affect whether you go?", "choices": ["Yes — go, but only to demand a partial refund at the door","No — it's a sunk cost that's gone either way; only tonight's expected enjoyment should matter","Yes — you should go anyway, or the $50 is wasted","No — skip it, since paid tickets are always bad value"], "answer": 1 }
       ]
     }
   ]
