@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What is your father's sister called?", "choices": ["Niece","Uncle","Aunt","Cousin"], "answer": 2 },
-        { "q": "What is 1 + 4?", "choices": ["Five","Six","Four","Three"], "answer": 0 },
-        { "q": "What do you call a baby giraffe?", "choices": ["Joey","Kid","Calf","Cub"], "answer": 2 },
-        { "q": "What colour is the inside of a watermelon?", "choices": ["Yellow","Red","Purple","Blue"], "answer": 1 },
-        { "q": "How many thumbs do you have?", "choices": ["One","Ten","Four","Two"], "answer": 3 },
-        { "q": "What is 7 + 2?", "choices": ["8","9","10","7"], "answer": 1 },
-        { "q": "What is 6 + 3?", "choices": ["9","8","7","10"], "answer": 0 },
-        { "q": "What colour is chocolate?", "choices": ["Blue","Brown","Pink","Purple"], "answer": 1 },
-        { "q": "What is the opposite of 'full'?", "choices": ["Loud","Empty","Heavy","Big"], "answer": 1 },
-        { "q": "What is 7 - 4?", "choices": ["3","5","4","6"], "answer": 0 }
+        { "q": "How many fingers are on both of your hands together?", "choices": ["Eight","Twelve","Six","Ten"], "answer": 3 },
+        { "q": "What color is snow?", "choices": ["Red","Green","White","Black"], "answer": 2 },
+        { "q": "Which animal has a long neck and eats leaves from tall trees?", "choices": ["Lion","Zebra","Elephant","Giraffe"], "answer": 3 },
+        { "q": "Where do you sleep at night?", "choices": ["A bed","A pool","A car","A tree"], "answer": 0 },
+        { "q": "What is 8 - 5?", "choices": ["4","2","5","3"], "answer": 3 },
+        { "q": "Where do fish live?", "choices": ["Clouds","Caves","Trees","Water"], "answer": 3 },
+        { "q": "What colour is a cucumber?", "choices": ["Green","Red","Blue","Black"], "answer": 0 },
+        { "q": "What do you use to talk?", "choices": ["Elbow","Ears","Mouth","Nose"], "answer": 2 },
+        { "q": "What is 3 + 5?", "choices": ["8","9","7","6"], "answer": 0 },
+        { "q": "Which of these is a pet?", "choices": ["Tiger","Dog","Lion","Shark"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What is the capital of the United Kingdom?", "choices": ["Edinburgh","Manchester","London","Liverpool"], "answer": 2 },
-        { "q": "What is the chemical symbol for lead?", "choices": ["Pb","Lb","Le","Ld"], "answer": 0 },
-        { "q": "Umbrella is to Rain as Sunscreen is to ___?", "choices": ["Rain","Sun","Cold","Wind"], "answer": 1 },
-        { "q": "Which does NOT belong? Sparrow, Ostrich, Falcon, Hawk.", "choices": ["Ostrich","Sparrow","Falcon","Hawk"], "answer": 0 },
-        { "q": "What is 36 × 15?", "choices": ["540","520","560","510"], "answer": 0 },
-        { "q": "Painter is to Easel as Weaver is to ___.", "choices": ["Loom","Kiln","Thread","Chisel"], "answer": 0 },
-        { "q": "Bee is to Honey as Cow is to ___.", "choices": ["Wool","Silk","Eggs","Milk"], "answer": 3 },
-        { "q": "Which does NOT belong? Ant, Bee, Spider, Wasp.", "choices": ["Wasp","Bee","Ant","Spider"], "answer": 3 },
-        { "q": "Doctor is to Hospital as Teacher is to ___.", "choices": ["Court","School","Farm","Hospital"], "answer": 1 },
-        { "q": "Reverse the letters of METAL, then take the 2nd and 4th letters of the result.", "choices": ["L and T","A and E","E and A","T and M"], "answer": 1 }
+        { "q": "How many sides does a heptagon have?", "choices": ["Nine","Eight","Six","Seven"], "answer": 3 },
+        { "q": "Hammer is to Nail as Wrench is to ___?", "choices": ["Screw","Nail","Bolt","Glue"], "answer": 2 },
+        { "q": "What is 29 × 3?", "choices": ["87","89","84","86"], "answer": 0 },
+        { "q": "Which does NOT belong? Tuna, Shark, Whale, Catfish.", "choices": ["Catfish","Whale","Shark","Tuna"], "answer": 1 },
+        { "q": "How many planets are in our solar system?", "choices": ["Seven","Ten","Eight","Nine"], "answer": 2 },
+        { "q": "Which does NOT belong? Eagle, Sparrow, Bat, Robin.", "choices": ["Robin","Sparrow","Eagle","Bat"], "answer": 3 },
+        { "q": "What is the capital of Norway?", "choices": ["Copenhagen","Helsinki","Stockholm","Oslo"], "answer": 3 },
+        { "q": "Fish is to Gills as Human is to ___?", "choices": ["Skin","Heart","Bones","Lungs"], "answer": 3 },
+        { "q": "Puppy is to Dog as Kitten is to ___.", "choices": ["Cat","Cub","Puppy","Foal"], "answer": 0 },
+        { "q": "What is 45% of 220?", "choices": ["102","99","90","96"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "All pilots are disciplined. No disciplined people are reckless. Therefore:", "choices": ["Cannot be determined","Some pilots are reckless","All reckless people are pilots","No pilot is reckless"], "answer": 3 },
-        { "q": "A $150 laptop bag is marked up 30%, then discounted 15% off the marked-up price. What is the final price?", "choices": ["$160.50","$180.00","$172.50","$165.75"], "answer": 3 },
-        { "q": "You roll two fair six-sided dice. What is the probability that their sum is 7?", "choices": ["1/6","1/12","5/36","1/8"], "answer": 0 },
-        { "q": "Take the list [9, 40, 17, 2, 25, 11]. Sort it in ascending order, then give the 4th value.", "choices": ["25","9","11","17"], "answer": 3 },
-        { "q": "Pedantic most nearly means:", "choices": ["Warm and friendly","Bold and adventurous","Careless and casual","Excessively focused on minor details or rules"], "answer": 3 },
-        { "q": "If 6 workers build a wall in 15 days, how many days do 10 workers need?", "choices": ["9 days","8 days","7.5 days","6 days"], "answer": 0 },
-        { "q": "A $200 item is marked up 40%, then discounted 30%. What is the final price?", "choices": ["$182","$204","$188","$196"], "answer": 3 },
-        { "q": "From 5, 8, 3, 6, 2, 9, 4 — sum the values greater than 5.", "choices": ["28","20","17","23"], "answer": 3 },
-        { "q": "Mellifluous most nearly means:", "choices": ["Sweet-sounding; smooth and musical","Harsh and grating","Extremely bitter","Completely silent"], "answer": 0 },
-        { "q": "All surgeons are precise. No precise people are careless. Therefore:", "choices": ["No surgeons are careless.","All careless people are surgeons.","Some surgeons are careless.","All precise people are surgeons."], "answer": 0 }
+        { "q": "'Didactic' most nearly means:", "choices": ["Extremely relaxed and informal","Lacking any clear purpose","Intended to teach or instruct","Characterized by violent conflict"], "answer": 2 },
+        { "q": "Consider the list [31, 12, 45, 7, 22, 16]. Sort it in ascending order, then reverse the sorted list. What is the third element (index 2) of the resulting list?", "choices": ["22","45","16","31"], "answer": 0 },
+        { "q": "All reliable witnesses are observant. No observant person is easily distracted. Which conclusion follows?", "choices": ["Cannot be determined","All easily distracted people are reliable witnesses","No reliable witness is easily distracted","Some reliable witnesses are easily distracted"], "answer": 2 },
+        { "q": "A laptop costs $900. It is discounted 20%, then an additional 5% off the discounted price. What is the final price?", "choices": ["$690","$680","$702","$684"], "answer": 3 },
+        { "q": "A standard deck of 52 playing cards is shuffled. Two cards are drawn without replacement. What is the probability that both are aces?", "choices": ["1/13","1/26","1/169","1/221"], "answer": 3 },
+        { "q": "A $260 grill is marked up 30%, then discounted 20% off the new price. What is the final price?", "choices": ["$270.40","$260.00","$275.60","$265.20"], "answer": 0 },
+        { "q": "Garrulous most nearly means:", "choices": ["Sternly silent","Easily startled","Excessively talkative","Openly hostile"], "answer": 2 },
+        { "q": "All astronauts are trained pilots. No trained pilots are reckless. Therefore:", "choices": ["All astronauts are reckless.","No astronauts are reckless.","Some astronauts are reckless.","No pilots are astronauts."], "answer": 1 },
+        { "q": "Ebullient most nearly means:", "choices": ["Easily angered","Extremely sad","Cheerful and enthusiastic","Quiet and reserved"], "answer": 2 },
+        { "q": "Sort 8, 19, 3, 14, 6, 25 in descending order, then find the sum of the 1st and 4th values of the result.", "choices": ["33","30","32","31"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A 5 kg cart moving at 4 m/s collides and sticks to a stationary 3 kg cart (perfectly inelastic collision, frictionless track). What is the final speed of the combined carts?", "choices": ["2.5 m/s","4 m/s","7 m/s","1.5 m/s"], "answer": 0 },
-        { "q": "Which inference rule justifies deriving 'P → R' from the premises 'P → Q' and 'Q → R'?", "choices": ["Disjunctive syllogism","Modus tollens","Hypothetical syllogism","Modus ponens"], "answer": 2 },
-        { "q": "What is the time complexity of the Boyer-Moore majority vote algorithm for finding the element that appears more than n/2 times in an array of n elements?", "choices": ["O(n²)","O(n)","O(log n)","O(n log n)"], "answer": 1 },
-        { "q": "Using the ideal gas law (PV = nRT, R ≈ 0.0821 L·atm/(mol·K)), what pressure (in atm) is exerted by 2 moles of an ideal gas in a 10 L container at 300 K?", "choices": ["≈9.85 atm","≈0.49 atm","≈4.93 atm","≈2.46 atm"], "answer": 2 },
-        { "q": "What is the second derivative of f(x) = sin(2x) with respect to x?", "choices": ["4 cos(2x)","-2 sin(2x)","-4 sin(2x)","-4 cos(2x)"], "answer": 2 },
-        { "q": "How many moles of oxygen gas (O2) are needed to completely combust 2 moles of propane (C3H8)? (C3H8 + 5O2 → 3CO2 + 4H2O)", "choices": ["6","10","15","5"], "answer": 1 },
-        { "q": "The halting problem is best described as:", "choices": ["Decidable but intractable","Undecidable","NP-complete","Solvable in exponential time"], "answer": 1 },
-        { "q": "What is the second derivative of f(x) = x³ − 3x² + 2x with respect to x?", "choices": ["6x² − 6x","6x − 6","6x + 6","3x − 6"], "answer": 1 },
-        { "q": "The Schwarzschild radius of a body of mass M is given by:", "choices": ["2GM/c","GM/c²","2GM/c²","GM/2c²"], "answer": 2 },
-        { "q": "Building a binary min-heap from n unsorted elements (bottom-up heapify) runs in:", "choices": ["O(n log n)","O(n²)","O(log n)","O(n)"], "answer": 3 }
+        { "q": "A 0.5 M solution of HCl has a volume of 2 L. How many moles of HCl are present?", "choices": ["0.25 mol","2.0 mol","0.5 mol","1.0 mol"], "answer": 3 },
+        { "q": "What is the derivative of f(x) = x³·eˣ with respect to x?", "choices": ["3x²eˣ","x³eˣ","x²eˣ(x+3)","eˣ(x³+3x²+1)"], "answer": 2 },
+        { "q": "A ball is thrown horizontally at 12 m/s from a height of 80 m (g = 10 m/s²). Ignoring air resistance, how far does it travel horizontally before hitting the ground?", "choices": ["40 m","60 m","96 m","48 m"], "answer": 3 },
+        { "q": "Which rule of inference justifies deriving '¬P' from the premises 'P → Q' and '¬Q'?", "choices": ["Disjunctive syllogism","Hypothetical syllogism","Modus ponens","Modus tollens"], "answer": 3 },
+        { "q": "In the worst case, what is the time complexity of searching for an element in a hash table where a poor hash function has caused every key to collide into a single bucket?", "choices": ["O(n log n)","O(log n)","O(n)","O(1)"], "answer": 2 },
+        { "q": "The derivative of xˣ with respect to x is:", "choices": ["xˣ(ln x + 1)","xˣ ln x","x·xˣ⁻¹","xˣ / x"], "answer": 0 },
+        { "q": "What is the derivative of arcsin(x) with respect to x?", "choices": ["1/√(1−x²)","1/√(1+x²)","−1/√(1−x²)","1/(1+x²)"], "answer": 0 },
+        { "q": "What is the inverse of the conditional statement 'If P then Q'?", "choices": ["If not Q then not P","If not P then not Q","P and not Q","If Q then P"], "answer": 1 },
+        { "q": "What is the negation of the biconditional 'P if and only if Q'?", "choices": ["¬P ∨ ¬Q","¬P ∧ ¬Q","(P ∧ ¬Q) ∨ (¬P ∧ Q)","P ∧ Q"], "answer": 2 },
+        { "q": "What is the oxidation state of nitrogen in the ammonium ion, NH4+?", "choices": ["+5","−3","0","+3"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Die A beats Die B more often than it loses to Die B in repeated rolls, and Die B beats Die C more often than it loses to Die C. Must Die A also beat Die C more often than it loses, by transitivity?", "choices": ["No — 'beats more often' need not be transitive; non-transitive dice exist where C actually beats A","Only if all three dice have six sides","Only if the dice are loaded rather than fair","Yes, this is guaranteed by transitivity of comparisons"], "answer": 0 },
-        { "q": "Drug A has a higher overall cure rate than Drug B when you pool all patients together. Must Drug A also have a higher cure rate than Drug B within every age subgroup considered separately?", "choices": ["Only if both drugs have a cure rate above 50%","Yes, this is guaranteed by the laws of probability","No — this relationship can reverse within subgroups (Simpson's Paradox)","Only if the two drugs were tested on equal numbers of patients"], "answer": 2 },
-        { "q": "A rare side effect occurs independently in 1% of patients who take a certain drug. If 100 patients take the drug, is it certain (100%) that at least one will experience the side effect? What is the actual probability, rounded to the nearest percent?", "choices": ["About 1%","About 50%","Yes, 100% — a 1% chance times 100 patients guarantees at least one","No, it is not certain — the actual probability is about 63%"], "answer": 3 },
-        { "q": "If every linear dimension of a solid object (length, width, and height) is doubled, while the material and density stay the same, by what factor does the object's weight increase?", "choices": ["6×","4×","2×","8×"], "answer": 3 },
-        { "q": "You will interview candidates one at a time in random order for a single position, and must accept or permanently reject each one immediately, with the goal of maximizing your chance of hiring the single best candidate overall. The optimal strategy is to automatically reject the first k candidates (using them only to set a benchmark), then hire the next one who is better than everyone seen so far. As the candidate pool grows large, what fraction of candidates should you plan to automatically reject before switching to the hire-if-best-so-far rule?", "choices": ["63%","10%","50%","About 37% (1/e)"], "answer": 3 },
-        { "q": "A woman 'shoots' her husband, then holds him under water for five minutes, then hangs him. Immediately afterward, they enjoy a nice dinner together. How is this possible?", "choices": ["She used a time machine to undo it.","She is a ghost and none of it really happened.","She develops a photograph of him — 'shoots' with a camera, 'holds' the film underwater to develop it, and 'hangs' it up to dry.","It's all a dream she is having."], "answer": 2 },
-        { "q": "The more you take of it, the more you leave behind. What is it?", "choices": ["Money","Memories","Time","Footsteps"], "answer": 3 },
-        { "q": "Divide 30 by half, then add 10. What is the result?", "choices": ["40","70","25","15"], "answer": 1 },
-        { "q": "A grandfather clock strikes 6 times in 5 seconds. How long does it take to strike 12 times?", "choices": ["12 seconds","6 seconds","10 seconds","11 seconds"], "answer": 3 },
-        { "q": "You paid $50, non-refundable, for tonight's concert ticket, but you've come down with a cold and won't enjoy the show. Rationally, should the $50 you already spent affect whether you go?", "choices": ["Yes — go, but only to demand a partial refund at the door","No — it's a sunk cost that's gone either way; only tonight's expected enjoyment should matter","Yes — you should go anyway, or the $50 is wasted","No — skip it, since paid tickets are always bad value"], "answer": 1 }
+        { "q": "A bacteria colony in a petri dish triples in size every hour. At 2:00 PM, the colony fills exactly 1/9 of the dish. If it keeps tripling every hour, at what time will the colony completely fill the dish?", "choices": ["6:00 PM","4:00 PM","5:00 PM","3:30 PM"], "answer": 1 },
+        { "q": "In a room of 30 people, is it more likely than not that at least two of them share the same birthday (month and day)?", "choices": ["No, the probability is exactly 50%","No, the probability is about 8%","Yes, the probability is about 71%","Yes, but only in leap years"], "answer": 2 },
+        { "q": "Bertrand's Box Paradox: a cabinet has three drawers. One holds two gold coins, one holds two silver coins, and one holds one gold and one silver coin. You pick a drawer at random and pull out one coin at random, and it is gold. What is the probability that the other coin in the same drawer is also gold?", "choices": ["1/3","3/4","2/3","1/2"], "answer": 2 },
+        { "q": "A disease affects 1 in 1,000 people. A test for it has a 100% true-positive rate but a 5% false-positive rate. If a random person tests positive, what is the approximate probability they actually have the disease?", "choices": ["About 2%","About 95%","About 20%","About 50%"], "answer": 0 },
+        { "q": "Five people at a party each shake hands with every other person exactly once. A sixth person then joins and also shakes hands with everyone else exactly once. How many MORE handshakes happened because of the sixth person, compared to the total before they joined?", "choices": ["5","15","10","6"], "answer": 0 },
+        { "q": "What can travel all the way around the world while always staying in the same corner?", "choices": ["A satellite","A compass","A postage stamp","A photograph"], "answer": 2 },
+        { "q": "A needle of length L is dropped onto a floor ruled with parallel lines spaced a distance L apart (equal to the needle's own length). What is the probability that the needle lands crossing one of the lines? (Buffon's needle problem)", "choices": ["2/π","1/π","1/2","π/4"], "answer": 0 },
+        { "q": "You are on a game show with 3 doors: one hides a car, two hide goats. You pick door 1. The host does not know what is behind any door. He randomly opens one of the other two doors, and purely by chance it reveals a goat. If you now switch to the remaining unopened door, what is your probability of winning the car?", "choices": ["1","2/3","1/2","1/3"], "answer": 2 },
+        { "q": "Which is larger: 100! (100 factorial), or 100^100 (100 to the power of 100)?", "choices": ["100^100","They are exactly equal","100!","Neither — both are infinite"], "answer": 0 },
+        { "q": "A class takes a test. The students who scored in the top 10% are given a harder retest the next day, and on average they score lower the second time. A teacher concludes the harder test caused the drop. Is that conclusion justified?", "choices": ["Yes, but only because the grading got stricter overnight","Yes — the second test was objectively harder, so it must have caused the lower scores","No — this is regression to the mean: unusually high scores tend to be followed by scores closer to average even without any real change","No, because test scores are entirely random and carry no information"], "answer": 2 }
       ]
     }
   ]
