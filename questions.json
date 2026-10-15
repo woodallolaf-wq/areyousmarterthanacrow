@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What is 9 - 3?", "choices": ["7","4","5","6"], "answer": 3 },
-        { "q": "What do you call the day before today?", "choices": ["Tomorrow","Yesterday","Today","Last week"], "answer": 1 },
-        { "q": "Which is the largest land animal?", "choices": ["Rabbit","Cat","Elephant","Mouse"], "answer": 2 },
-        { "q": "What do you call the day after today?", "choices": ["Tomorrow","Yesterday","Today","Next week"], "answer": 0 },
-        { "q": "Which of these is a vegetable: Potato, Lemon, Peach, Cherry?", "choices": ["Peach","Lemon","Cherry","Potato"], "answer": 3 },
-        { "q": "What colour are clouds?", "choices": ["White","Green","Yellow","Black"], "answer": 0 },
-        { "q": "What colour is a lime?", "choices": ["Grey","Red","Green","Purple"], "answer": 2 },
-        { "q": "Which one is an insect?", "choices": ["Cat","Dog","Ant","Fish"], "answer": 2 },
-        { "q": "What do you call a baby frog?", "choices": ["Tadpole","Kit","Cub","Joey"], "answer": 0 },
-        { "q": "What do you wear on your head to keep warm?", "choices": ["Hat","Glove","Belt","Sock"], "answer": 0 }
+        { "q": "What is 5 + 2?", "choices": ["6","8","7","5"], "answer": 2 },
+        { "q": "Which is bigger: a whale or a mouse?", "choices": ["Mouse","Whale","Neither","They are the same size"], "answer": 1 },
+        { "q": "Which of these is a vegetable: Apple, Banana, Carrot, Grape?", "choices": ["Carrot","Apple","Banana","Grape"], "answer": 0 },
+        { "q": "Which of these can you drink: Milk, Rock, Chair, Shoe?", "choices": ["Milk","Shoe","Rock","Chair"], "answer": 0 },
+        { "q": "What is 8 + 5?", "choices": ["12","14","13","11"], "answer": 2 },
+        { "q": "What is 5 + 4?", "choices": ["8","9","7","10"], "answer": 1 },
+        { "q": "What is 8 minus 3?", "choices": ["6","5","4","3"], "answer": 1 },
+        { "q": "Which animal says 'quack'?", "choices": ["Duck","Cow","Cat","Dog"], "answer": 0 },
+        { "q": "What season comes after winter?", "choices": ["Winter","Spring","Summer","Fall"], "answer": 1 },
+        { "q": "What sound does a duck make?", "choices": ["Bark","Moo","Meow","Quack"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Carpenter is to Wood as Blacksmith is to ___?", "choices": ["Metal","Glass","Cloth","Stone"], "answer": 0 },
-        { "q": "Which does NOT belong? Eagle, Sparrow, Penguin, Robin.", "choices": ["Robin","Penguin","Eagle","Sparrow"], "answer": 1 },
-        { "q": "Hammer is to Nail as Screwdriver is to ___?", "choices": ["Screw","Wood","Drill","Wrench"], "answer": 0 },
-        { "q": "Which does NOT belong? Piano, Guitar, Drum, Painting.", "choices": ["Piano","Guitar","Drum","Painting"], "answer": 3 },
-        { "q": "What is 7² (7 squared)?", "choices": ["63","56","49","36"], "answer": 2 },
-        { "q": "Pen is to Write as Scissors is to ___.", "choices": ["Paper","Cut","Blade","Sharp"], "answer": 1 },
-        { "q": "Which does NOT belong? Oak, Maple, Rose, Birch.", "choices": ["Rose","Maple","Birch","Oak"], "answer": 0 },
-        { "q": "What is 30% of 150?", "choices": ["50","35","40","45"], "answer": 3 },
-        { "q": "Sort MANGO, FIG, KIWI, BANANA by word length (shortest first). Which word is second?", "choices": ["KIWI","BANANA","MANGO","FIG"], "answer": 0 },
-        { "q": "Which is the largest ocean on Earth?", "choices": ["Arctic","Pacific","Atlantic","Indian"], "answer": 1 }
+        { "q": "What is 16 x 4?", "choices": ["68","56","60","64"], "answer": 3 },
+        { "q": "What is 121 divided by 11?", "choices": ["10","13","12","11"], "answer": 3 },
+        { "q": "Painter is to Canvas as Writer is to ___?", "choices": ["Stage","Brush","Paper","Canvas"], "answer": 2 },
+        { "q": "What is the capital of New Zealand?", "choices": ["Wellington","Sydney","Canberra","Auckland"], "answer": 0 },
+        { "q": "Which does NOT belong? Rose, Tulip, Daisy, Cabbage.", "choices": ["Daisy","Cabbage","Rose","Tulip"], "answer": 1 },
+        { "q": "What is 13 × 12?", "choices": ["156","136","146","166"], "answer": 0 },
+        { "q": "What is 15% of 200?", "choices": ["15","20","40","30"], "answer": 3 },
+        { "q": "What is 12 × 125?", "choices": ["1,500","1,450","1,200","1,250"], "answer": 0 },
+        { "q": "What is the capital of Spain?", "choices": ["Lisbon","Barcelona","Rome","Madrid"], "answer": 3 },
+        { "q": "Which word is closest in meaning to 'candid'?", "choices": ["Anxious","Honest","Secretive","Lazy"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A jacket originally costs $120. It is discounted by 15%, then an additional 10% off the discounted price. What is the final price?", "choices": ["$91.80","$93.60","$96.00","$90.00"], "answer": 0 },
-        { "q": "A fair six-sided die is rolled twice. What is the probability that the sum of the two rolls is exactly 7?", "choices": ["1/6","1/12","1/9","5/36"], "answer": 0 },
-        { "q": "Consider the list [34, 11, 27, 6, 42, 19]. Sort it in descending order, then take the second value. What is it?", "choices": ["19","34","27","42"], "answer": 1 },
-        { "q": "'Intransigent' most nearly means:", "choices": ["Highly skilled at negotiation","Easily persuaded","Extremely generous","Refusing to compromise or change one's position"], "answer": 3 },
-        { "q": "If demand for a product rises, its price increases. If its price increases, suppliers increase production. Demand for the product has risen. What can we certainly conclude?", "choices": ["Suppliers will reduce production","Demand will fall again","Price will stay the same","Suppliers will increase production"], "answer": 3 },
-        { "q": "A standard deck of 52 cards is shuffled. Two cards are drawn without replacement. What is the probability both are face cards (Jack, Queen, or King)?", "choices": ["3/13","1/17","9/169","11/221"], "answer": 3 },
-        { "q": "All linguists are polyglots. No polyglots are monolingual. Therefore:", "choices": ["No linguists are monolingual.","All linguists are monolingual.","No polyglots are linguists.","Some linguists are monolingual."], "answer": 0 },
-        { "q": "A bag has 7 red and 3 blue marbles. Two are drawn without replacement. What is P(one of each colour)?", "choices": ["21/100","7/15","3/10","1/3"], "answer": 1 },
-        { "q": "Pellucid most nearly means:", "choices": ["Slightly curved","Crystal clear","Deeply shadowed","Emotionally cold"], "answer": 1 },
-        { "q": "Two trains 480 km apart approach each other at 95 km/h and 65 km/h. In how many hours do they meet?", "choices": ["2 h","5 h","3 h","4 h"], "answer": 2 }
+        { "q": "A bag has 6 teal and 8 maroon marbles. Two are drawn without replacement. What is the probability both are teal?", "choices": ["1/7","6/14","15/91","3/14"], "answer": 2 },
+        { "q": "A $140 item is marked up 15%, then discounted 30% off the marked-up price. What is the final price?", "choices": ["$105.00","$98.00","$112.70","$119.00"], "answer": 2 },
+        { "q": "'Cantankerous' most nearly means:", "choices": ["Bad-tempered and argumentative","Deeply generous","Extremely cheerful","Highly intelligent"], "answer": 0 },
+        { "q": "All pilots are trained professionals. Some trained professionals are impatient. What can we certainly conclude?", "choices": ["Some pilots are impatient","All impatient people are pilots","No certain conclusion can be drawn","No pilots are impatient"], "answer": 2 },
+        { "q": "Consider the list [19, 2, 36, 14, 5, 27]. Sort it in ascending order, then take the fourth value. What is it?", "choices": ["19","36","27","14"], "answer": 0 },
+        { "q": "A 250 m train passes a pole in 10 seconds. How long does it take to pass a 450 m bridge?", "choices": ["32 s","28 s","18 s","25 s"], "answer": 1 },
+        { "q": "A bag has 4 red and 6 green balls. Two are drawn without replacement. What is P(both green)?", "choices": ["1/3","1/2","2/5","3/5"], "answer": 0 },
+        { "q": "A $340 camera is marked up 15%, then discounted 10% off the new price. What is the final price?", "choices": ["$340.00","$351.90","$361.90","$346.80"], "answer": 1 },
+        { "q": "A list is 17, 4, 29, 10, 6, 23. Sort it descending, then find the sum of the 1st and 5th values of the result.", "choices": ["46","33","35","39"], "answer": 2 },
+        { "q": "Ephemeral is to Enduring as Nascent is to ___.", "choices": ["Fragile","Dormant","Moribund","Emergent"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the derivative of f(x) = e^(2x) sin(x) with respect to x?", "choices": ["2e^(2x) cos x","e^(2x)(sin x + 2 cos x)","e^(2x) sin x cos x","e^(2x)(2 sin x + cos x)"], "answer": 3 },
-        { "q": "Using hypothetical syllogism, given 'If P then Q' and 'If Q then R', what can be validly concluded?", "choices": ["Neither P nor R can be determined","If P then R","If R then P","P and R"], "answer": 1 },
-        { "q": "Which of the following grows fastest as n → ∞?", "choices": ["2ⁿ","n² log n","n log n","n³"], "answer": 0 },
-        { "q": "A photon has a wavelength of 620 nm. What is its energy in eV (approximately)? Use E = hc/λ, hc ≈ 1240 eV·nm.", "choices": ["1.24 eV","0.5 eV","4.0 eV","2.0 eV"], "answer": 3 },
-        { "q": "What is the oxidation state of chromium in K₂Cr₂O₇?", "choices": ["+2","+6","+7","+3"], "answer": 1 },
-        { "q": "What is the derivative of ln(x² + 1) with respect to x?", "choices": ["1/(x²+1)","x/(x²+1)","2x","2x/(x²+1)"], "answer": 3 },
-        { "q": "What is the integral of sec²(x) dx?", "choices": ["sec(x) + C","ln|sec(x)| + C","sec(x)tan(x) + C","tan(x) + C"], "answer": 3 },
-        { "q": "For a first-order reaction, which plot gives a straight line?", "choices": ["[A] vs t","[A]² vs t","ln[A] vs t","1/[A] vs t"], "answer": 2 },
-        { "q": "A 0.5 kg object moving at 4 m/s collides perfectly elastically head-on with an identical stationary 0.5 kg object. What is the velocity of the first object after the collision?", "choices": ["8 m/s","0 m/s","4 m/s","2 m/s"], "answer": 1 },
-        { "q": "Which of the following is the negation of 'All swans are white'?", "choices": ["All swans are not white","Some swans are white","No swans are white","Some swans are not white"], "answer": 3 }
+        { "q": "What is the integral of x² eˣ dx?", "choices": ["eˣ(x² − 2x) + C","x³eˣ/3 + C","eˣ(x² + 2x + 2) + C","eˣ(x² − 2x + 2) + C"], "answer": 3 },
+        { "q": "What is the chromatic number of the complete graph K₅ (5 mutually adjacent vertices)?", "choices": ["5","3","4","10"], "answer": 0 },
+        { "q": "A buffer solution contains equal concentrations of acetic acid (Ka = 1.8×10⁻⁵) and sodium acetate. Using the Henderson-Hasselbalch equation, what is the pH of this buffer (to the nearest hundredth)?", "choices": ["9.26","4.74","1.8","7.00"], "answer": 1 },
+        { "q": "Consider the argument: 'If P then Q. Q is true. Therefore P is true.' Is this argument logically valid?", "choices": ["No — this is the fallacy of affirming the consequent","Yes, by modus ponens","Yes, this form is always valid","Yes, by modus tollens"], "answer": 0 },
+        { "q": "A spring with spring constant k = 200 N/m is compressed 0.1 m from equilibrium. How much elastic potential energy is stored?", "choices": ["20 J","0.5 J","2 J","1 J"], "answer": 3 },
+        { "q": "The Maclaurin series for cos(x) is:", "choices": ["1 + x + x²/2! + …","1 − x²/2! + x⁴/4! − …","1 − x + x²/2! − …","x − x³/3! + x⁵/5! − …"], "answer": 1 },
+        { "q": "What is the pH of a solution with a hydrogen ion concentration of 1 × 10⁻⁴ mol/L?", "choices": ["-4","4","10","0.0001"], "answer": 1 },
+        { "q": "What is the time complexity of building a binary heap from an unsorted array of n elements using the standard bottom-up heapify method?", "choices": ["O(n²)","O(log n)","O(n)","O(n log n)"], "answer": 2 },
+        { "q": "A block slides down a frictionless incline of angle 30 degrees. What is its acceleration (g = 9.8 m/s²)?", "choices": ["8.49 m/s²","4.9 m/s²","9.8 m/s²","2.45 m/s²"], "answer": 1 },
+        { "q": "What is the time complexity of the Bellman–Ford shortest path algorithm on a graph with V vertices and E edges?", "choices": ["O(E log V)","O(VE)","O(V²E)","O(V log V)"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "You're collecting a set of 6 distinct toy figurines, one random figurine (uniformly, with replacement) in each cereal box you buy. On average, about how many boxes must you buy to collect all 6 distinct figurines?", "choices": ["About 21 boxes","About 36 boxes","About 14.7 boxes","About 6 boxes"], "answer": 2 },
-        { "q": "Three custom dice, A, B, and C, are designed so that A beats B more than half the time, and B beats C more than half the time (in a roll-off, higher number wins). Must A also beat C more than half the time?", "choices": ["No such set of three dice can actually exist","No — dice can be built so that C actually beats A more often than not (nontransitive dice)","Yes, but only if all three dice have six sides","Yes, by the transitive property, since A beats B and B beats C"], "answer": 1 },
-        { "q": "In the 'Monty Fall' variant of the Monty Hall problem, the host doesn't know what's behind the doors. You pick door 1 out of 3. The host randomly opens one of the other two doors, and by chance it reveals a goat. Given this, what is the probability the car is behind your original door versus the remaining closed door?", "choices": ["1/3 for your door, 2/3 for the other, just like the classic problem","You should always switch because it can't hurt your odds","1/2 for each — switching gives no advantage here","2/3 if you switch, same as the classic Monty Hall problem"], "answer": 2 },
-        { "q": "In Penney's Game, Player 1 picks a sequence of coin-flip outcomes (like HHT), then Player 2 picks a different sequence after seeing it. Coins are flipped repeatedly until one sequence appears first. Can Player 2 always choose a sequence giving better than 50% odds of winning, no matter what Player 1 picked?", "choices": ["Only if the sequences chosen are the same length as each other","No, Player 1 always has the advantage since they choose first","No, the game is always exactly fair at 50/50 odds","Yes — a well-chosen reply sequence always gives Player 2 better than 50% odds"], "answer": 3 },
-        { "q": "A group of students scores unusually high on a test, largely due to lucky guessing as well as skill. If they retake a similar test, their average score will most likely:", "choices": ["Drop back closer to the group's true average ability, due to regression to the mean","Stay exactly the same, since ability doesn't change","Drop to the lowest possible score, as a correction","Rise even higher, since they've proven they're skilled"], "answer": 0 },
-        { "q": "In Zeno's paradox, Achilles races a tortoise that gets a head start. Each time Achilles reaches the tortoise's last position, the tortoise has crept a bit further ahead — seemingly forever. In reality, does Achilles ever catch the tortoise?", "choices": ["No — since there are infinitely many steps, it necessarily takes infinite time","No — Zeno proved motion itself is mathematically impossible","It depends on the tortoise's exact starting speed relative to Achilles","Yes — the infinite sequence of time intervals sums to a finite total, so he catches up in finite time"], "answer": 3 },
-        { "q": "A fair coin has just landed heads 6 times in a row. What is the probability that the next flip is heads?", "choices": ["It depends on how many times it landed heads before that","More than 1/2, because it's on a streak","Exactly 1/2","Less than 1/2, because tails is due"], "answer": 2 },
-        { "q": "Hospital A has a 90% overall survival rate and Hospital B has an 80% overall survival rate. Yet when patients are split into mild and severe cases, Hospital B has the higher survival rate in BOTH categories. How is this possible?", "choices": ["Overall survival rate cannot be computed from category rates","It is mathematically impossible — the claim must be false","Hospital B's records were falsified","Hospital A treats a much larger proportion of mild, low-risk cases than Hospital B (Simpson's paradox)"], "answer": 3 },
-        { "q": "In a city, 85% of cabs are Green and 15% are Blue. A witness says the hit-and-run cab was Blue. In tests under similar conditions, the witness correctly identifies each color 80% of the time and misidentifies it 20% of the time. What is the probability the cab was actually Blue?", "choices": ["20%","15%","≈41%","80%"], "answer": 2 },
-        { "q": "How much dirt is there in a hole that is 3 feet deep and 2 feet wide?", "choices": ["12 cubic feet","18 cubic feet","6 cubic feet","None — a hole has no dirt in it"], "answer": 3 }
+        { "q": "A disease affects 1% of a population. A test for it is 95% accurate in both directions (95% true positive rate, 95% true negative rate). If a random person tests positive, what is the approximate probability they actually have the disease?", "choices": ["About 5%","About 95%","About 16%","About 50%"], "answer": 2 },
+        { "q": "Buses on a route arrive with irregular gaps that average 10 minutes apart (sometimes 2 minutes, sometimes 18). If you arrive at the bus stop at a uniformly random time, is your average wait longer than, shorter than, or equal to 5 minutes (half the average gap)?", "choices": ["Shorter than 5 minutes, since most gaps are short","Longer than 5 minutes — a random arrival is more likely to fall within one of the longer gaps","Exactly 5 minutes, by symmetry","It cannot be determined without knowing the exact bus schedule"], "answer": 1 },
+        { "q": "During WWII, statistician Abraham Wald examined returning bomber planes and found bullet holes concentrated on the wings and tail, with far fewer on the engines. Where did he recommend adding armor?", "choices": ["The wings and tail, since that's where the most hits were observed","The engines — the area with no hits, because planes hit there usually didn't return","Evenly across the entire aircraft","Nowhere — no extra armor was needed"], "answer": 1 },
+        { "q": "A player has a higher batting average than another player in both the first half and the second half of a season. Is it possible for the first player to still have the LOWER batting average for the season overall?", "choices": ["No — if one player is better in both halves, they must be better overall","Yes — if they had very different numbers of at-bats in each half, this reversal (Simpson's paradox) can occur","No, this situation is mathematically impossible for any two players","Only if both players had exactly the same number of at-bats"], "answer": 1 },
+        { "q": "Hilbert's Grand Hotel has infinitely many rooms, all of them occupied. A single new guest arrives and asks for a room. Can the hotel accommodate them without evicting anyone?", "choices": ["Yes — move the guest in room n to room n+1 for every n, which frees up room 1","No — a fully occupied infinite hotel has no space for anyone else","Only if the new guest is willing to share a room","Only if an existing guest checks out first"], "answer": 0 },
+        { "q": "In the Monty Hall problem, after the host opens a losing door, should you switch?", "choices": ["No — it is now 50/50","No — the first pick keeps its advantage","Yes — switching wins with probability 2/3","Only if the host chose randomly"], "answer": 2 },
+        { "q": "You enter a dark room holding one match, and there is an oil lamp, a candle and a fireplace. What do you light first?", "choices": ["The fireplace","The candle","The match","The oil lamp"], "answer": 2 },
+        { "q": "Some months have 31 days. How many have 30?", "choices": ["11","7","5","4"], "answer": 0 },
+        { "q": "A casino game: roll two fair six-sided dice. If the sum is 7 you win $10, otherwise you lose $2. What is the expected value of one play?", "choices": ["$0","-$0.33","-$2.00","$1.33"], "answer": 0 },
+        { "q": "Consider the sentence 'This sentence is false.' If you try to assign it a truth value, what happens?", "choices": ["It is simply true","It is a paradox — assuming either truth value leads to a contradiction","It is meaningless because it contains no verb","It is simply false"], "answer": 1 }
       ]
     }
   ]
