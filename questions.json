@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What is 9 + 5?", "choices": ["15","13","14","16"], "answer": 2 },
-        { "q": "Which letter comes right after B in the alphabet?", "choices": ["C","E","D","A"], "answer": 0 },
-        { "q": "What is 3 + 6?", "choices": ["8","7","9","10"], "answer": 2 },
-        { "q": "What is 7 + 7?", "choices": ["16","14","15","13"], "answer": 1 },
-        { "q": "What is 1 + 6?", "choices": ["6","7","9","8"], "answer": 1 },
-        { "q": "What do you use to brush your teeth?", "choices": ["Fork","Toothbrush","Spoon","Comb"], "answer": 1 },
-        { "q": "How many wings does a bird have?", "choices": ["4","6","2","0"], "answer": 2 },
-        { "q": "How many sides does a rectangle have?", "choices": ["5","4","3","6"], "answer": 1 },
-        { "q": "What is 4 + 5?", "choices": ["7","8","10","9"], "answer": 3 },
-        { "q": "Which animal says 'howl'?", "choices": ["Cat","Cow","Duck","Wolf"], "answer": 3 }
+        { "q": "What color do you get when you mix red and white?", "choices": ["Pink","Brown","Orange","Purple"], "answer": 0 },
+        { "q": "Which day comes after Monday?", "choices": ["Sunday","Wednesday","Friday","Tuesday"], "answer": 3 },
+        { "q": "What do you call the baby of a cat?", "choices": ["Chick","Cub","Puppy","Kitten"], "answer": 3 },
+        { "q": "Which animal says moo?", "choices": ["Sheep","Horse","Pig","Cow"], "answer": 3 },
+        { "q": "Which animal lives in a web?", "choices": ["Spider","Bee","Snail","Ant"], "answer": 0 },
+        { "q": "What colour is an orange?", "choices": ["Orange","Blue","Black","Purple"], "answer": 0 },
+        { "q": "What colour is an orange (the fruit)?", "choices": ["Purple","Black","Blue","Orange"], "answer": 3 },
+        { "q": "How many legs does a horse have?", "choices": ["4","8","2","6"], "answer": 0 },
+        { "q": "What colour is a banana?", "choices": ["Black","Purple","Yellow","Blue"], "answer": 2 },
+        { "q": "What is the opposite of 'heavy'?", "choices": ["Fast","Loud","Light","Big"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "From 8, 3, 11, 6, 2 — take only the values greater than 5 and sum them.", "choices": ["25","30","17","19"], "answer": 0 },
-        { "q": "Owl is to Hoot as Lion is to ___?", "choices": ["Roar","Bark","Howl","Growl"], "answer": 0 },
-        { "q": "What is 19 × 7?", "choices": ["134","123","132","133"], "answer": 3 },
-        { "q": "What is 60% of 145?", "choices": ["87","82","90","85"], "answer": 0 },
-        { "q": "Which does NOT belong? Salmon, Trout, Tuna, Dolphin.", "choices": ["Tuna","Dolphin","Trout","Salmon"], "answer": 1 },
-        { "q": "Author is to Book as Sculptor is to ___.", "choices": ["Marble","Museum","Chisel","Statue"], "answer": 3 },
-        { "q": "What is the capital of Australia?", "choices": ["Melbourne","Perth","Sydney","Canberra"], "answer": 3 },
-        { "q": "Wing is to Bird as Fin is to ___?", "choices": ["Fish","Snake","Frog","Bird"], "answer": 0 },
-        { "q": "Bird is to Nest as Bee is to ___?", "choices": ["Nest","Den","Web","Hive"], "answer": 3 },
-        { "q": "What is 22 × 14?", "choices": ["308","288","318","298"], "answer": 0 }
+        { "q": "Which does NOT belong? Violin, Cello, Flute, Viola.", "choices": ["Violin","Viola","Flute","Cello"], "answer": 2 },
+        { "q": "Bee is to Hive as Bird is to ___?", "choices": ["Den","Burrow","Web","Nest"], "answer": 3 },
+        { "q": "Pen is to Write as Knife is to ___?", "choices": ["Cut","Sharpen","Erase","Draw"], "answer": 0 },
+        { "q": "What is 60 divided by 4?", "choices": ["20","12","16","15"], "answer": 3 },
+        { "q": "Which does NOT belong? Hammer, Saw, Chisel, Carrot.", "choices": ["Hammer","Chisel","Saw","Carrot"], "answer": 3 },
+        { "q": "Which does NOT belong? Piano, Guitar, Violin, Cello.", "choices": ["Guitar","Cello","Piano","Violin"], "answer": 2 },
+        { "q": "What is 17 + 26?", "choices": ["53","33","43","42"], "answer": 2 },
+        { "q": "What is the capital of Poland?", "choices": ["Warsaw","Vienna","Budapest","Prague"], "answer": 0 },
+        { "q": "Which number is missing? 3, 9, 27, ___, 243", "choices": ["54","108","72","81"], "answer": 3 },
+        { "q": "What is 55% of 340?", "choices": ["197","177","167","187"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A $750 laptop is discounted 15%, then an additional 10% off the discounted price. What is the final price?", "choices": ["$562.50","$600.00","$573.75","$637.50"], "answer": 2 },
-        { "q": "Take the list [52, 19, 7, 38, 24, 11]. Sort it in ascending order, then compute the sum of the 2nd and 5th elements (1-indexed).", "choices": ["49","57","46","42"], "answer": 0 },
-        { "q": "All historians are researchers. No researchers are careless. Therefore:", "choices": ["No historians are careless","All careless people are historians","Some historians are careless","No certain conclusion can be drawn"], "answer": 0 },
-        { "q": "A bag has 4 red, 5 blue, and 3 green marbles. Two marbles are drawn without replacement. What is the probability both are blue?", "choices": ["25/144","1/6","5/12","5/33"], "answer": 3 },
-        { "q": "'Truculent' most nearly means:", "choices": ["Extremely generous","Highly organized","Aggressively defiant and quick to argue or fight","Calm and easily persuaded"], "answer": 2 },
-        { "q": "Obstreperous most nearly means:", "choices": ["Highly organized","Noisy and unruly","Extremely shy","Calm and obedient"], "answer": 1 },
-        { "q": "Nefarious most nearly means:", "choices": ["Timid","Generous","Wicked","Brave"], "answer": 2 },
-        { "q": "A geometric sequence starts 5, 15, 45 … What is the 7th term?", "choices": ["3,125","3,645","1,215","2,187"], "answer": 1 },
-        { "q": "A $175 grill is marked up 12%, then discounted 25% off the new price. What is the final price?", "choices": ["$147","$153","$140","$150"], "answer": 0 },
-        { "q": "A list is 26, 9, 33, 14, 5, 21. Sort it descending, then find the sum of the 2nd and 5th values of the result.", "choices": ["35","30","40","33"], "answer": 0 }
+        { "q": "A fair six-sided die is rolled twice. What is the probability that the sum is exactly 8?", "choices": ["1/6","5/36","7/36","1/9"], "answer": 1 },
+        { "q": "Which word is the best antonym of 'ephemeral'?", "choices": ["Momentary","Transient","Permanent","Fleeting"], "answer": 2 },
+        { "q": "All squares are rectangles. All rectangles have four sides. Which conclusion follows?", "choices": ["No squares have four sides","All squares have four sides","Some four-sided shapes are not rectangles","All rectangles are squares"], "answer": 1 },
+        { "q": "A shirt costs $40. It is marked up 25%, then during a sale discounted 20% off the marked-up price. What is the final price?", "choices": ["$44.00","$42.00","$38.00","$40.00"], "answer": 3 },
+        { "q": "Take the list [84, 13, 47, 29, 61, 8]. Reverse it, then multiply the 2nd and 4th elements (1-indexed) of the reversed list.", "choices": ["2867","2967","2847","2767"], "answer": 0 },
+        { "q": "From 6, 11, 3, 8, 15, 2 — take the values above 7 and give their median.", "choices": ["15","11","12","8"], "answer": 1 },
+        { "q": "A bag has 6 red and 3 green marbles. Two are drawn without replacement. What is P(one of each colour)?", "choices": ["5/9","2/3","1/2","1/3"], "answer": 2 },
+        { "q": "All electricians are certified. No certified people are amateurs. Therefore:", "choices": ["Some amateurs are certified.","All amateurs are electricians.","No conclusion follows.","No electricians are amateurs."], "answer": 3 },
+        { "q": "Abstruse most nearly means:", "choices": ["Deliberately rude","Plainly stated","Recently discovered","Difficult to comprehend"], "answer": 3 },
+        { "q": "In T, 6, H, 2, B, 9, F, 4, Q — what is the product of the digits?", "choices": ["432","648","216","384"], "answer": 0 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the oxidation state of nitrogen in sodium nitrate, NaNO₃?", "choices": ["+3","+5","−3","+1"], "answer": 1 },
-        { "q": "A hash table using open addressing has load factor α = n/m (n keys, m buckets). Under the uniform hashing assumption, what is the expected number of probes for an unsuccessful search?", "choices": ["α/(1−α)","1/(1−α)","1−α","α²"], "answer": 1 },
-        { "q": "What is ∫ x eˣ dx?", "choices": ["eˣ + C","xeˣ + C","(x + 1)eˣ + C","(x − 1)eˣ + C"], "answer": 3 },
-        { "q": "A parallel-plate capacitor with fixed charge Q has its plate separation doubled while the plate area stays constant. What happens to the voltage across the capacitor?", "choices": ["It stays the same","It halves","It quadruples","It doubles"], "answer": 3 },
-        { "q": "What is the space complexity (maximum call stack depth) of the standard recursive factorial function computing n!?", "choices": ["O(n)","O(1)","O(log n)","O(n²)"], "answer": 0 },
-        { "q": "What is the worst-case time complexity of building a balanced binary search tree (e.g., AVL) by inserting n elements one at a time?", "choices": ["O(n²)","O(n)","O(n log n)","O(log n)"], "answer": 2 },
-        { "q": "In predicate logic, what is the negation of ∀x ∃y P(x,y)?", "choices": ["∃x ∃y ¬P(x,y)","¬∃x ∃y P(x,y)","∃x ∀y ¬P(x,y)","∀x ∃y ¬P(x,y)"], "answer": 2 },
-        { "q": "What is the derivative of ln(sin(x)) with respect to x?", "choices": ["tan(x)","−cot(x)","cot(x)","sec(x)"], "answer": 2 },
-        { "q": "What is the oxidation state of manganese in KMnO₄?", "choices": ["+6","+7","+4","+2"], "answer": 1 },
-        { "q": "A thin-walled hollow cylinder (hoop) of mass M and radius R rolls without slipping. What is the ratio of its rotational to translational kinetic energy?", "choices": ["1","2/5","1/2","2"], "answer": 0 }
+        { "q": "How many sigma bonds are there in a molecule of ethyne (acetylene, C₂H₂)?", "choices": ["3","4","2","5"], "answer": 0 },
+        { "q": "In propositional logic, which of the following is logically equivalent to (P → Q)?", "choices": ["¬P ∨ Q","P ∨ ¬Q","P ∧ ¬Q","¬P ∧ Q"], "answer": 0 },
+        { "q": "A ball is thrown vertically upward with initial speed 20 m/s (g=10 m/s²). How long until it returns to its starting height?", "choices": ["3 s","2 s","5 s","4 s"], "answer": 3 },
+        { "q": "What is the average-case time complexity of quickselect to find the k-th smallest element in an unsorted array of n elements?", "choices": ["O(n²)","O(n)","O(log n)","O(n log n)"], "answer": 1 },
+        { "q": "What is the derivative of f(x) = x³ ln(x) with respect to x (for x>0)?", "choices": ["3x²ln x","3x² + x²ln x","3x²ln x + x²","x²ln x + x³"], "answer": 2 },
+        { "q": "The Heisenberg uncertainty principle for position and momentum states Δx·Δp ≥:", "choices": ["ℏ/2","h","2ℏ","ℏ"], "answer": 0 },
+        { "q": "What is the derivative of x²cos(x) with respect to x?", "choices": ["x² sin x + 2x cos x","−x² sin x","2x cos x − x² sin x","2x cos x + x² sin x"], "answer": 2 },
+        { "q": "What is the oxidation state of chlorine in sodium hypochlorite, NaClO?", "choices": ["+1","+7","+2","+3"], "answer": 0 },
+        { "q": "Binary search on a sorted array of n elements runs in:", "choices": ["O(n log n)","O(1)","O(log n)","O(n)"], "answer": 2 },
+        { "q": "The half-life of a first-order reaction with rate constant k is given by:", "choices": ["ln2 / k","k / ln2","0.5 / k","1 / k"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A man is found dead in the middle of a desert. Next to him lies an unopened package. There are no footprints or tracks anywhere nearby. How did he die?", "choices": ["He was struck by lightning, and the package is unrelated","He was poisoned by someone who then flew away","He jumped from an airplane and his parachute — the unopened package — failed to open","He died of thirst, and the package is an untouched canteen of water"], "answer": 2 },
-        { "q": "A gambler starts with $1 and repeatedly bets $1 on fair coin flips (win: +$1, lose: −$1), stopping only when he goes broke or reaches $10. What is the probability he eventually reaches $10 rather than going broke?", "choices": ["Cannot be determined without more flips","1/10","9/10","1/2"], "answer": 1 },
-        { "q": "A cereal brand puts one of 6 equally likely toy types in every box (independent each box), and you buy boxes one at a time until you've collected all 6 types. What is the expected number of boxes you'll need to buy?", "choices": ["Exactly 6","Approximately 36","Approximately 14.7","Approximately 12"], "answer": 2 },
-        { "q": "You face two doors guarded by two guards. One always tells the truth, the other always lies, but you don't know which is which. One door leads to freedom, the other to disaster. You may ask exactly ONE question to exactly ONE guard. What question guarantees you find the door to freedom?", "choices": ["Ask either guard: 'If I asked the other guard whether this door leads to freedom, what would they say?' — then pick the opposite door from their answer","Ask both guards the same question and see if they agree","Ask either guard: 'Are you the truth-teller?' — then trust whichever door they point to","Ask either guard: 'Does this door lead to freedom?' and believe whatever they say"], "answer": 0 },
-        { "q": "You have 25 horses of different speeds (no ties) and a track that fits 5 horses per race, with no stopwatch — each race only reveals finishing order. What is the minimum number of races needed to guarantee identifying the 3 fastest horses, in order?", "choices": ["8","6","5","7"], "answer": 3 },
-        { "q": "You are shown two identical envelopes and told one contains exactly twice as much money as the other. You pick one at random and open it to find $100. You're offered the chance to switch. A tempting argument says: the other envelope holds either $50 or $200, each equally likely, so switching has an expected value of $125 — a gain over your $100. Is this switching argument correct?", "choices": ["Yes, but only if you have no idea how much money might be in either envelope","No — the calculation invalidly treats $100 as fixed while the other side varies inconsistently; there is no rational reason to switch","Yes — you should always switch, since $125 expected value beats $100 for certain","No — you should never switch, because the first envelope you pick is always the larger one"], "answer": 1 },
-        { "q": "If it takes 6 people 6 days to dig 6 holes, how many days does it take 3 people to dig 3 holes?", "choices": ["12 days","6 days","3 days","2 days"], "answer": 1 },
-        { "q": "An online retailer highlights that 95% of its published reviews are five stars and concludes nearly all customers love the product. Only customers who create an account and choose to write a review are counted. Is that 95% figure a reliable estimate of overall customer satisfaction?", "choices": ["No — reviewers are a self-selected sample, so this isn't representative of all customers","No — five-star reviews are always fake and should be discounted entirely","Yes, as long as the review count is large enough, self-selection stops mattering","Yes — 95% is such a large majority that it must reflect true satisfaction"], "answer": 0 },
-        { "q": "A stock drops 50% on Monday, then rises 50% on Tuesday. Compared to where it started before Monday's drop, is the investor now back to even, ahead, or behind?", "choices": ["Ahead, by 25%","Behind, by 25%","Behind, by 50%","Back to exactly even"], "answer": 1 },
-        { "q": "Two identical coins lie flat on a table, touching. Keeping the first coin fixed, you roll the second coin around the outside of the first, without slipping, until it returns to its starting position. How many full rotations has the rolling coin made, as seen from a fixed viewpoint above the table?", "choices": ["1","0.5","2","4"], "answer": 2 }
+        { "q": "During WWII, researchers examined returning bomber planes and found bullet holes concentrated on the wings and tail, with almost none on the engines and cockpit. Statistician Abraham Wald recommended reinforcing armor on which areas?", "choices": ["Equally all over the plane","No reinforcement was necessary","The wings and tail, where the holes were","The engines and cockpit, where there were no holes"], "answer": 3 },
+        { "q": "You are hiring from n candidates interviewed one at a time in a random order; you must accept or reject each one immediately with no going back. Using the optimal '37% rule' stopping strategy, what is the approximate probability of selecting the single best candidate as n grows large?", "choices": ["About 50%","About 37% (1/e)","About 63%","About 13%"], "answer": 1 },
+        { "q": "A racket and a shuttlecock together cost $2.70. The racket costs $2.00 more than the shuttlecock. How much does the shuttlecock cost?", "choices": ["$0.35","$0.25","$0.70","$1.35"], "answer": 0 },
+        { "q": "Raj is quiet, pays close attention to detail, and keeps meticulous financial spreadsheets as a hobby. Statement A: 'Raj is an accountant.' Statement B: 'Raj is an accountant who also plays violin in a community orchestra.' Which must be true, based on the laws of probability alone?", "choices": ["It cannot be determined without knowing more about Raj","P(A) and P(B) are always exactly equal","P(A) is always greater than or equal to P(B)","P(B) is always greater than P(A)"], "answer": 2 },
+        { "q": "Dice A beats Dice B more often than not, and Dice B beats Dice C more often than not. Does Dice A necessarily beat Dice C more often than not?", "choices": ["Only if all three dice have six sides","Only if the dice are loaded unfairly","Yes, beating is always transitive","No — non-transitive dice sets exist where A beats B, B beats C, and yet C beats A"], "answer": 3 },
+        { "q": "You have 8 identical-looking coins. One is counterfeit and slightly lighter than the rest. Using a balance scale, what is the minimum number of weighings needed to guarantee finding the counterfeit coin?", "choices": ["4","1","2","3"], "answer": 2 },
+        { "q": "A gambler starts with $1 and repeatedly bets $1 on a fair coin flip, gaining $1 on heads and losing $1 on tails, stopping only on reaching $10 or going broke at $0. What is the probability the gambler reaches $10 before going broke?", "choices": ["1/9","Essentially 0 — ruin is all but certain","1/2","1/10"], "answer": 3 },
+        { "q": "What has keys but can't open any locks, has space but no room, and you can enter but never go inside?", "choices": ["A house","A treasure chest","A piano","A keyboard"], "answer": 3 },
+        { "q": "You meet two people on an island where knights always tell the truth and knaves always lie. Person A says, 'At least one of us is a knave.' What are A and B?", "choices": ["Both are knights","A is a knave, B is a knight","A is a knight, B is a knave","Both are knaves"], "answer": 2 },
+        { "q": "Hilbert's Grand Hotel has infinitely many rooms, all already occupied. Now infinitely many buses arrive, each carrying infinitely many new guests. Can the hotel accommodate every single new guest without evicting anyone?", "choices": ["Yes — every guest, old and new, can be assigned a distinct room number","Yes, but only if the number of buses is finite","Only the guests from the first bus can be fit in","No — there are simply too many new guests to fit"], "answer": 0 }
       ]
     }
   ]
