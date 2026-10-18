@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What color do you get when you mix red and white?", "choices": ["Pink","Brown","Orange","Purple"], "answer": 0 },
-        { "q": "Which day comes after Monday?", "choices": ["Sunday","Wednesday","Friday","Tuesday"], "answer": 3 },
-        { "q": "What do you call the baby of a cat?", "choices": ["Chick","Cub","Puppy","Kitten"], "answer": 3 },
-        { "q": "Which animal says moo?", "choices": ["Sheep","Horse","Pig","Cow"], "answer": 3 },
-        { "q": "Which animal lives in a web?", "choices": ["Spider","Bee","Snail","Ant"], "answer": 0 },
-        { "q": "What colour is an orange?", "choices": ["Orange","Blue","Black","Purple"], "answer": 0 },
-        { "q": "What colour is an orange (the fruit)?", "choices": ["Purple","Black","Blue","Orange"], "answer": 3 },
-        { "q": "How many legs does a horse have?", "choices": ["4","8","2","6"], "answer": 0 },
-        { "q": "What colour is a banana?", "choices": ["Black","Purple","Yellow","Blue"], "answer": 2 },
-        { "q": "What is the opposite of 'heavy'?", "choices": ["Fast","Loud","Light","Big"], "answer": 2 }
+        { "q": "What do you call the star we see during the day?", "choices": ["A Cloud","A Planet","The Moon","The Sun"], "answer": 3 },
+        { "q": "Which animal is known for climbing trees and eating bananas?", "choices": ["Snake","Cow","Monkey","Fish"], "answer": 2 },
+        { "q": "Which is heavier, a feather or a rock?", "choices": ["A feather","A rock","Neither has weight","They are the same"], "answer": 1 },
+        { "q": "Which is wet: a towel in the pool or a towel in a drawer?", "choices": ["A towel in the pool","Both are wet","Neither is wet","A towel in a drawer"], "answer": 0 },
+        { "q": "How many ears does a rabbit have?", "choices": ["2","4","3","1"], "answer": 0 },
+        { "q": "What is 5 minus 2?", "choices": ["3","4","2","1"], "answer": 0 },
+        { "q": "What do you use to cut paper?", "choices": ["Hammer","Fork","Scissors","Spoon"], "answer": 2 },
+        { "q": "What is 10 minus 3?", "choices": ["5","7","8","6"], "answer": 1 },
+        { "q": "How many legs does a frog have?", "choices": ["4","6","2","8"], "answer": 0 },
+        { "q": "What do you call a baby fox?", "choices": ["Cub","Kit","Calf","Pup"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which does NOT belong? Violin, Cello, Flute, Viola.", "choices": ["Violin","Viola","Flute","Cello"], "answer": 2 },
-        { "q": "Bee is to Hive as Bird is to ___?", "choices": ["Den","Burrow","Web","Nest"], "answer": 3 },
-        { "q": "Pen is to Write as Knife is to ___?", "choices": ["Cut","Sharpen","Erase","Draw"], "answer": 0 },
-        { "q": "What is 60 divided by 4?", "choices": ["20","12","16","15"], "answer": 3 },
-        { "q": "Which does NOT belong? Hammer, Saw, Chisel, Carrot.", "choices": ["Hammer","Chisel","Saw","Carrot"], "answer": 3 },
-        { "q": "Which does NOT belong? Piano, Guitar, Violin, Cello.", "choices": ["Guitar","Cello","Piano","Violin"], "answer": 2 },
-        { "q": "What is 17 + 26?", "choices": ["53","33","43","42"], "answer": 2 },
-        { "q": "What is the capital of Poland?", "choices": ["Warsaw","Vienna","Budapest","Prague"], "answer": 0 },
-        { "q": "Which number is missing? 3, 9, 27, ___, 243", "choices": ["54","108","72","81"], "answer": 3 },
-        { "q": "What is 55% of 340?", "choices": ["197","177","167","187"], "answer": 3 }
+        { "q": "Which does NOT belong? Guitar, Piano, Violin, Tomato", "choices": ["Tomato","Violin","Piano","Guitar"], "answer": 0 },
+        { "q": "Which planet is known for its large rings?", "choices": ["Venus","Mercury","Mars","Saturn"], "answer": 3 },
+        { "q": "From 12, 4, 19, 7, 15 — take only the even values and sum them.", "choices": ["23","31","16","19"], "answer": 2 },
+        { "q": "What is 13 x 6?", "choices": ["78","81","72","74"], "answer": 0 },
+        { "q": "Fish is to Swim as Bird is to ___?", "choices": ["Fly","Swim","Hop","Crawl"], "answer": 0 },
+        { "q": "How many sides does a hexagon have?", "choices": ["7","5","8","6"], "answer": 3 },
+        { "q": "Which does NOT belong? Square, Rectangle, Rhombus, Sphere.", "choices": ["Rectangle","Sphere","Square","Rhombus"], "answer": 1 },
+        { "q": "What is the capital of Turkey?", "choices": ["Bursa","Istanbul","Izmir","Ankara"], "answer": 3 },
+        { "q": "What is 32 × 18?", "choices": ["556","568","576","586"], "answer": 2 },
+        { "q": "In 5, 9, 3, 7, 1 — what is the sum of the two smallest values?", "choices": ["3","5","6","4"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A fair six-sided die is rolled twice. What is the probability that the sum is exactly 8?", "choices": ["1/6","5/36","7/36","1/9"], "answer": 1 },
-        { "q": "Which word is the best antonym of 'ephemeral'?", "choices": ["Momentary","Transient","Permanent","Fleeting"], "answer": 2 },
-        { "q": "All squares are rectangles. All rectangles have four sides. Which conclusion follows?", "choices": ["No squares have four sides","All squares have four sides","Some four-sided shapes are not rectangles","All rectangles are squares"], "answer": 1 },
-        { "q": "A shirt costs $40. It is marked up 25%, then during a sale discounted 20% off the marked-up price. What is the final price?", "choices": ["$44.00","$42.00","$38.00","$40.00"], "answer": 3 },
-        { "q": "Take the list [84, 13, 47, 29, 61, 8]. Reverse it, then multiply the 2nd and 4th elements (1-indexed) of the reversed list.", "choices": ["2867","2967","2847","2767"], "answer": 0 },
-        { "q": "From 6, 11, 3, 8, 15, 2 — take the values above 7 and give their median.", "choices": ["15","11","12","8"], "answer": 1 },
-        { "q": "A bag has 6 red and 3 green marbles. Two are drawn without replacement. What is P(one of each colour)?", "choices": ["5/9","2/3","1/2","1/3"], "answer": 2 },
-        { "q": "All electricians are certified. No certified people are amateurs. Therefore:", "choices": ["Some amateurs are certified.","All amateurs are electricians.","No conclusion follows.","No electricians are amateurs."], "answer": 3 },
-        { "q": "Abstruse most nearly means:", "choices": ["Deliberately rude","Plainly stated","Recently discovered","Difficult to comprehend"], "answer": 3 },
-        { "q": "In T, 6, H, 2, B, 9, F, 4, Q — what is the product of the digits?", "choices": ["432","648","216","384"], "answer": 0 }
+        { "q": "A population grows 10% per year for 2 years, starting at 5,000. What is the population after 2 years, rounded to the nearest whole number?", "choices": ["5,500","6,000","6,050","6,100"], "answer": 2 },
+        { "q": "Take the list [23, 55, 8, 44, 31, 16]. Sort it in descending order, then subtract the 3rd element from the 1st element (1-indexed).", "choices": ["21","24","26","23"], "answer": 1 },
+        { "q": "A fair six-sided die is rolled twice. What is the probability that the sum is exactly 9?", "choices": ["1/12","5/36","1/6","1/9"], "answer": 3 },
+        { "q": "Which word is the best synonym of 'loquacious'?", "choices": ["Talkative","Shy","Silent","Clumsy"], "answer": 0 },
+        { "q": "No reptiles are warm-blooded. All snakes are reptiles. Which conclusion follows with certainty?", "choices": ["No snakes are warm-blooded","Some reptiles are not snakes","Some snakes are warm-blooded","All snakes are warm-blooded"], "answer": 0 },
+        { "q": "Laconic is to Verbose as Frugal is to ___.", "choices": ["Meticulous","Destitute","Parsimonious","Prodigal"], "answer": 3 },
+        { "q": "Ineffable most nearly means:", "choices": ["Effective","Eternal","Indescribable","Angry"], "answer": 2 },
+        { "q": "A list is 31, 8, 19, 4, 26, 13. Sort it descending, then find the sum of the 2nd and 4th values of the result.", "choices": ["45","39","30","33"], "answer": 1 },
+        { "q": "All firefighters are brave. No brave people are cowards. Therefore:", "choices": ["Some cowards are firefighters.","All cowards are firefighters.","No firefighters are cowards.","No conclusion follows."], "answer": 2 },
+        { "q": "Inimical most nearly means:", "choices": ["Warmly friendly","Closely imitative","Harmful or hostile","Entirely indifferent"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "How many sigma bonds are there in a molecule of ethyne (acetylene, C₂H₂)?", "choices": ["3","4","2","5"], "answer": 0 },
-        { "q": "In propositional logic, which of the following is logically equivalent to (P → Q)?", "choices": ["¬P ∨ Q","P ∨ ¬Q","P ∧ ¬Q","¬P ∧ Q"], "answer": 0 },
-        { "q": "A ball is thrown vertically upward with initial speed 20 m/s (g=10 m/s²). How long until it returns to its starting height?", "choices": ["3 s","2 s","5 s","4 s"], "answer": 3 },
-        { "q": "What is the average-case time complexity of quickselect to find the k-th smallest element in an unsorted array of n elements?", "choices": ["O(n²)","O(n)","O(log n)","O(n log n)"], "answer": 1 },
-        { "q": "What is the derivative of f(x) = x³ ln(x) with respect to x (for x>0)?", "choices": ["3x²ln x","3x² + x²ln x","3x²ln x + x²","x²ln x + x³"], "answer": 2 },
-        { "q": "The Heisenberg uncertainty principle for position and momentum states Δx·Δp ≥:", "choices": ["ℏ/2","h","2ℏ","ℏ"], "answer": 0 },
-        { "q": "What is the derivative of x²cos(x) with respect to x?", "choices": ["x² sin x + 2x cos x","−x² sin x","2x cos x − x² sin x","2x cos x + x² sin x"], "answer": 2 },
-        { "q": "What is the oxidation state of chlorine in sodium hypochlorite, NaClO?", "choices": ["+1","+7","+2","+3"], "answer": 0 },
-        { "q": "Binary search on a sorted array of n elements runs in:", "choices": ["O(n log n)","O(1)","O(log n)","O(n)"], "answer": 2 },
-        { "q": "The half-life of a first-order reaction with rate constant k is given by:", "choices": ["ln2 / k","k / ln2","0.5 / k","1 / k"], "answer": 0 }
+        { "q": "A solid cylinder of mass M and radius R rolls without slipping down an incline. What fraction of its total kinetic energy is rotational?", "choices": ["1/4","1/2","2/3","1/3"], "answer": 3 },
+        { "q": "What is the worst-case time complexity of the KMP (Knuth-Morris-Pratt) string matching algorithm for a text of length n and pattern of length m?", "choices": ["O(n log m)","O(n+m)","O(m²)","O(nm)"], "answer": 1 },
+        { "q": "Given the premises 'P ∨ Q' (P or Q) and '¬P' (not P), which of the following must be true by disjunctive syllogism?", "choices": ["P","¬Q","Q","P ∧ Q"], "answer": 2 },
+        { "q": "What is the oxidation state of iodine in potassium periodate, KIO4?", "choices": ["+5","+7","+3","+1"], "answer": 1 },
+        { "q": "What is ∫ x² sin(x) dx?", "choices": ["-x²cos x - 2x sin x + 2cos x + C","-x²cos x + 2x sin x + 2cos x + C","x²cos x + 2x sin x + C","-x²cos x + 2x sin x - 2cos x + C"], "answer": 1 },
+        { "q": "The derivative of tan(x) with respect to x is:", "choices": ["−csc(x)cot(x)","sec(x)tan(x)","csc²(x)","sec²(x)"], "answer": 3 },
+        { "q": "What is the derivative of x² ln(x) with respect to x?", "choices": ["2x ln(x) + x","2x ln(x)","x² ln(x) + x","x ln(x) + 2x"], "answer": 0 },
+        { "q": "What is the derivative of cos²(x) with respect to x?", "choices": ["-cos(2x)","-sin(2x)","sin(2x)","cos(2x)"], "answer": 1 },
+        { "q": "∫ x eˣ dx equals:", "choices": ["eˣ(x − 1) + C","eˣ(x + 1) + C","x²eˣ/2 + C","xeˣ + C"], "answer": 0 },
+        { "q": "What is the value of the definite integral ∫₀¹ x² dx?", "choices": ["1/3","1/4","2/3","1/2"], "answer": 0 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "During WWII, researchers examined returning bomber planes and found bullet holes concentrated on the wings and tail, with almost none on the engines and cockpit. Statistician Abraham Wald recommended reinforcing armor on which areas?", "choices": ["Equally all over the plane","No reinforcement was necessary","The wings and tail, where the holes were","The engines and cockpit, where there were no holes"], "answer": 3 },
-        { "q": "You are hiring from n candidates interviewed one at a time in a random order; you must accept or reject each one immediately with no going back. Using the optimal '37% rule' stopping strategy, what is the approximate probability of selecting the single best candidate as n grows large?", "choices": ["About 50%","About 37% (1/e)","About 63%","About 13%"], "answer": 1 },
-        { "q": "A racket and a shuttlecock together cost $2.70. The racket costs $2.00 more than the shuttlecock. How much does the shuttlecock cost?", "choices": ["$0.35","$0.25","$0.70","$1.35"], "answer": 0 },
-        { "q": "Raj is quiet, pays close attention to detail, and keeps meticulous financial spreadsheets as a hobby. Statement A: 'Raj is an accountant.' Statement B: 'Raj is an accountant who also plays violin in a community orchestra.' Which must be true, based on the laws of probability alone?", "choices": ["It cannot be determined without knowing more about Raj","P(A) and P(B) are always exactly equal","P(A) is always greater than or equal to P(B)","P(B) is always greater than P(A)"], "answer": 2 },
-        { "q": "Dice A beats Dice B more often than not, and Dice B beats Dice C more often than not. Does Dice A necessarily beat Dice C more often than not?", "choices": ["Only if all three dice have six sides","Only if the dice are loaded unfairly","Yes, beating is always transitive","No — non-transitive dice sets exist where A beats B, B beats C, and yet C beats A"], "answer": 3 },
-        { "q": "You have 8 identical-looking coins. One is counterfeit and slightly lighter than the rest. Using a balance scale, what is the minimum number of weighings needed to guarantee finding the counterfeit coin?", "choices": ["4","1","2","3"], "answer": 2 },
-        { "q": "A gambler starts with $1 and repeatedly bets $1 on a fair coin flip, gaining $1 on heads and losing $1 on tails, stopping only on reaching $10 or going broke at $0. What is the probability the gambler reaches $10 before going broke?", "choices": ["1/9","Essentially 0 — ruin is all but certain","1/2","1/10"], "answer": 3 },
-        { "q": "What has keys but can't open any locks, has space but no room, and you can enter but never go inside?", "choices": ["A house","A treasure chest","A piano","A keyboard"], "answer": 3 },
-        { "q": "You meet two people on an island where knights always tell the truth and knaves always lie. Person A says, 'At least one of us is a knave.' What are A and B?", "choices": ["Both are knights","A is a knave, B is a knight","A is a knight, B is a knave","Both are knaves"], "answer": 2 },
-        { "q": "Hilbert's Grand Hotel has infinitely many rooms, all already occupied. Now infinitely many buses arrive, each carrying infinitely many new guests. Can the hotel accommodate every single new guest without evicting anyone?", "choices": ["Yes — every guest, old and new, can be assigned a distinct room number","Yes, but only if the number of buses is finite","Only the guests from the first bus can be fit in","No — there are simply too many new guests to fit"], "answer": 0 }
+        { "q": "A game show offers you 4 identical doors: one hides a car, the other three hide goats. After you pick a door, the host, who knows what is behind each door, opens two of the remaining three doors, always revealing goats. Should you switch to the one remaining unopened door?", "choices": ["No, staying is better since you chose first","Yes, but only because the host might be lying","No, both doors are equally likely (50/50)","Yes — switching gives a 3/4 chance of the car, versus 1/4 by staying"], "answer": 3 },
+        { "q": "Three light switches outside a windowless room each control one of three light bulbs inside. You may flip the switches however you like, but you may only enter the room ONE time. How can you determine with certainty which switch controls which bulb?", "choices": ["It's impossible with only one entry","Turn on all three switches and enter immediately","Turn on switch A, wait, turn it off, turn on switch B, then enter — the lit bulb is B, the warm dark bulb is A, the cold dark bulb is C","Turn on switch A only, enter, then adjust based on brightness"], "answer": 2 },
+        { "q": "If the universe were infinite, static, and uniformly packed with stars, Olbers' Paradox asks why the night sky is mostly dark instead of uniformly bright. What is the standard modern resolution?", "choices": ["The universe has a finite age, so light from the most distant stars hasn't reached us yet","The universe is infinite in age, so eventually the night sky will become bright","Dark matter absorbs all starlight before it reaches Earth","Stars block each other's light evenly, making the sky appear dark"], "answer": 0 },
+        { "q": "A man travels back in time and prevents his own grandfather from ever meeting his grandmother, seemingly making his own birth — and thus his trip — impossible. What is the name of this classic time-travel paradox?", "choices": ["The Novikov Self-Consistency Principle","The Predestination Paradox","The Bootstrap Paradox","The Grandfather Paradox"], "answer": 3 },
+        { "q": "Benford's Law describes the distribution of leading digits in many naturally occurring numerical datasets. Which leading digit actually occurs most often?", "choices": ["5","9","All digits occur equally often","1"], "answer": 3 },
+        { "q": "There are 3 switches outside a closed room, each connected to one of 3 identical light bulbs inside. You may operate the switches however you like, but can enter the room to look at the bulbs only once. How can you determine with certainty which switch controls which bulb?", "choices": ["Flip each switch on and off once in sequence, then enter and guess based on which bulb seems brightest","Turn switch 1 on for several minutes, then turn it off and turn switch 2 on; enter — the lit bulb is switch 2, the warm-but-dark bulb is switch 1, and the cold dark bulb is switch 3","Turn all three switches on at once, then enter and see which bulbs are lit","It cannot be done with only one entry into the room"], "answer": 1 },
+        { "q": "How many people are needed in a room to guarantee, with certainty (not just better-than-even odds), that at least two share the same calendar birthday, accounting for a possible February 29th?", "choices": ["365","367","368","366"], "answer": 1 },
+        { "q": "A ladder is sliding down a wall: its top slides down the wall while its bottom slides away along the floor. What path does the exact midpoint of the ladder trace?", "choices": ["A parabola","An ellipse","A straight line","A quarter circle centered at the wall-floor corner"], "answer": 3 },
+        { "q": "A cube is painted red on all faces, then cut into 27 equal smaller cubes (a 3×3×3 arrangement). How many of the small cubes have exactly 2 red faces?", "choices": ["8","6","12","24"], "answer": 2 },
+        { "q": "How many seconds are there in a year?", "choices": ["8,760","Twelve — January 2nd, February 2nd, March 2nd, and so on","365","31,536,000"], "answer": 1 }
       ]
     }
   ]
