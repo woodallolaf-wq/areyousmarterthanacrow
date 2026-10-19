@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What do you call the star we see during the day?", "choices": ["A Cloud","A Planet","The Moon","The Sun"], "answer": 3 },
-        { "q": "Which animal is known for climbing trees and eating bananas?", "choices": ["Snake","Cow","Monkey","Fish"], "answer": 2 },
-        { "q": "Which is heavier, a feather or a rock?", "choices": ["A feather","A rock","Neither has weight","They are the same"], "answer": 1 },
-        { "q": "Which is wet: a towel in the pool or a towel in a drawer?", "choices": ["A towel in the pool","Both are wet","Neither is wet","A towel in a drawer"], "answer": 0 },
-        { "q": "How many ears does a rabbit have?", "choices": ["2","4","3","1"], "answer": 0 },
-        { "q": "What is 5 minus 2?", "choices": ["3","4","2","1"], "answer": 0 },
-        { "q": "What do you use to cut paper?", "choices": ["Hammer","Fork","Scissors","Spoon"], "answer": 2 },
-        { "q": "What is 10 minus 3?", "choices": ["5","7","8","6"], "answer": 1 },
-        { "q": "How many legs does a frog have?", "choices": ["4","6","2","8"], "answer": 0 },
-        { "q": "What do you call a baby fox?", "choices": ["Cub","Kit","Calf","Pup"], "answer": 1 }
+        { "q": "What is 1 + 5?", "choices": ["7","5","4","6"], "answer": 3 },
+        { "q": "Which is the tallest animal in the world?", "choices": ["Giraffe","Mouse","Cat","Dog"], "answer": 0 },
+        { "q": "If you have 2 cookies and a friend gives you 3 more, how many cookies do you have?", "choices": ["4","7","5","6"], "answer": 2 },
+        { "q": "What do you use to taste your food?", "choices": ["Ears","Elbow","Tongue","Hair"], "answer": 2 },
+        { "q": "What is 3 + 7?", "choices": ["10","8","11","9"], "answer": 0 },
+        { "q": "What colour is a school bus?", "choices": ["Purple","Green","Blue","Yellow"], "answer": 3 },
+        { "q": "What do you call a baby duck?", "choices": ["Cub","Duckling","Kit","Foal"], "answer": 1 },
+        { "q": "What is 4 + 1?", "choices": ["3","4","6","5"], "answer": 3 },
+        { "q": "Which animal says 'gobble'?", "choices": ["Goose","Duck","Turkey","Chicken"], "answer": 2 },
+        { "q": "What colour is an eggplant?", "choices": ["Purple","Orange","Yellow","Green"], "answer": 0 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which does NOT belong? Guitar, Piano, Violin, Tomato", "choices": ["Tomato","Violin","Piano","Guitar"], "answer": 0 },
-        { "q": "Which planet is known for its large rings?", "choices": ["Venus","Mercury","Mars","Saturn"], "answer": 3 },
-        { "q": "From 12, 4, 19, 7, 15 — take only the even values and sum them.", "choices": ["23","31","16","19"], "answer": 2 },
-        { "q": "What is 13 x 6?", "choices": ["78","81","72","74"], "answer": 0 },
-        { "q": "Fish is to Swim as Bird is to ___?", "choices": ["Fly","Swim","Hop","Crawl"], "answer": 0 },
-        { "q": "How many sides does a hexagon have?", "choices": ["7","5","8","6"], "answer": 3 },
-        { "q": "Which does NOT belong? Square, Rectangle, Rhombus, Sphere.", "choices": ["Rectangle","Sphere","Square","Rhombus"], "answer": 1 },
-        { "q": "What is the capital of Turkey?", "choices": ["Bursa","Istanbul","Izmir","Ankara"], "answer": 3 },
-        { "q": "What is 32 × 18?", "choices": ["556","568","576","586"], "answer": 2 },
-        { "q": "In 5, 9, 3, 7, 1 — what is the sum of the two smallest values?", "choices": ["3","5","6","4"], "answer": 3 }
+        { "q": "Which does NOT belong? Sparrow, Eagle, Penguin, Robin", "choices": ["Penguin","Sparrow","Robin","Eagle"], "answer": 0 },
+        { "q": "Pencil is to Write as Knife is to ___?", "choices": ["Erase","Cut","Draw","Sharpen"], "answer": 1 },
+        { "q": "What is 34 + 59?", "choices": ["83","93","94","91"], "answer": 1 },
+        { "q": "What number comes next in the sequence: 3, 6, 9, 12, ?", "choices": ["15","16","18","14"], "answer": 0 },
+        { "q": "What is the capital of Colombia?", "choices": ["Caracas","Lima","Bogotá","Quito"], "answer": 2 },
+        { "q": "Which does NOT belong? Carrot, Potato, Radish, Celery.", "choices": ["Celery","Radish","Carrot","Potato"], "answer": 0 },
+        { "q": "In 14, 3, 9, 21, 6 — what is the sum of the values greater than 8?", "choices": ["36","44","41","47"], "answer": 1 },
+        { "q": "What is 15% of 300?", "choices": ["35","50","45","40"], "answer": 2 },
+        { "q": "Calf is to cow as piglet is to ___?", "choices": ["Horse","Sheep","Goat","Pig"], "answer": 3 },
+        { "q": "What is 18 × 15?", "choices": ["270","280","260","290"], "answer": 0 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A population grows 10% per year for 2 years, starting at 5,000. What is the population after 2 years, rounded to the nearest whole number?", "choices": ["5,500","6,000","6,050","6,100"], "answer": 2 },
-        { "q": "Take the list [23, 55, 8, 44, 31, 16]. Sort it in descending order, then subtract the 3rd element from the 1st element (1-indexed).", "choices": ["21","24","26","23"], "answer": 1 },
-        { "q": "A fair six-sided die is rolled twice. What is the probability that the sum is exactly 9?", "choices": ["1/12","5/36","1/6","1/9"], "answer": 3 },
-        { "q": "Which word is the best synonym of 'loquacious'?", "choices": ["Talkative","Shy","Silent","Clumsy"], "answer": 0 },
-        { "q": "No reptiles are warm-blooded. All snakes are reptiles. Which conclusion follows with certainty?", "choices": ["No snakes are warm-blooded","Some reptiles are not snakes","Some snakes are warm-blooded","All snakes are warm-blooded"], "answer": 0 },
-        { "q": "Laconic is to Verbose as Frugal is to ___.", "choices": ["Meticulous","Destitute","Parsimonious","Prodigal"], "answer": 3 },
-        { "q": "Ineffable most nearly means:", "choices": ["Effective","Eternal","Indescribable","Angry"], "answer": 2 },
-        { "q": "A list is 31, 8, 19, 4, 26, 13. Sort it descending, then find the sum of the 2nd and 4th values of the result.", "choices": ["45","39","30","33"], "answer": 1 },
-        { "q": "All firefighters are brave. No brave people are cowards. Therefore:", "choices": ["Some cowards are firefighters.","All cowards are firefighters.","No firefighters are cowards.","No conclusion follows."], "answer": 2 },
-        { "q": "Inimical most nearly means:", "choices": ["Warmly friendly","Closely imitative","Harmful or hostile","Entirely indifferent"], "answer": 2 }
+        { "q": "A bicycle originally priced at $340 is discounted 15%, then a $20 coupon is applied. What is the final price?", "choices": ["$289","$274","$259","$269"], "answer": 3 },
+        { "q": "Take the list [8, 21, 56, 13, 34, 2]. Sort it in ascending order, then add the 2nd and 5th elements (1-indexed).", "choices": ["55","42","47","34"], "answer": 1 },
+        { "q": "A bag contains 4 green and 9 yellow balls. Two balls are drawn without replacement. What is the probability both are yellow?", "choices": ["81/169","4/13","6/13","9/13"], "answer": 2 },
+        { "q": "Which word is the best synonym of 'obsequious'?", "choices": ["Fawning","Confident","Generous","Rebellious"], "answer": 0 },
+        { "q": "All chefs are creative. No creative people are impatient. Which must be true?", "choices": ["Some chefs are impatient.","All creative people are chefs.","No chefs are impatient.","All impatient people are chefs."], "answer": 2 },
+        { "q": "A bag has 7 red and 3 blue balls. Two are drawn without replacement. What is P(both red)?", "choices": ["3/5","1/2","7/10","7/15"], "answer": 3 },
+        { "q": "Mercurial most nearly means:", "choices": ["Reliable","Unpredictable","Sluggish","Cheerful"], "answer": 1 },
+        { "q": "A bag has 7 red and 4 blue marbles. Two are drawn without replacement. What is P(both blue)?", "choices": ["4/55","16/121","6/55","12/55"], "answer": 2 },
+        { "q": "Reverse 7, 4, 2, 6, 1, 8. What is the difference between the first and last values of the result?", "choices": ["1","3","4","7"], "answer": 0 },
+        { "q": "A cyclist averages 24 km/h. How far does she travel in 50 minutes?", "choices": ["22 km","20 km","18 km","19.2 km"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A solid cylinder of mass M and radius R rolls without slipping down an incline. What fraction of its total kinetic energy is rotational?", "choices": ["1/4","1/2","2/3","1/3"], "answer": 3 },
-        { "q": "What is the worst-case time complexity of the KMP (Knuth-Morris-Pratt) string matching algorithm for a text of length n and pattern of length m?", "choices": ["O(n log m)","O(n+m)","O(m²)","O(nm)"], "answer": 1 },
-        { "q": "Given the premises 'P ∨ Q' (P or Q) and '¬P' (not P), which of the following must be true by disjunctive syllogism?", "choices": ["P","¬Q","Q","P ∧ Q"], "answer": 2 },
-        { "q": "What is the oxidation state of iodine in potassium periodate, KIO4?", "choices": ["+5","+7","+3","+1"], "answer": 1 },
-        { "q": "What is ∫ x² sin(x) dx?", "choices": ["-x²cos x - 2x sin x + 2cos x + C","-x²cos x + 2x sin x + 2cos x + C","x²cos x + 2x sin x + C","-x²cos x + 2x sin x - 2cos x + C"], "answer": 1 },
-        { "q": "The derivative of tan(x) with respect to x is:", "choices": ["−csc(x)cot(x)","sec(x)tan(x)","csc²(x)","sec²(x)"], "answer": 3 },
-        { "q": "What is the derivative of x² ln(x) with respect to x?", "choices": ["2x ln(x) + x","2x ln(x)","x² ln(x) + x","x ln(x) + 2x"], "answer": 0 },
-        { "q": "What is the derivative of cos²(x) with respect to x?", "choices": ["-cos(2x)","-sin(2x)","sin(2x)","cos(2x)"], "answer": 1 },
-        { "q": "∫ x eˣ dx equals:", "choices": ["eˣ(x − 1) + C","eˣ(x + 1) + C","x²eˣ/2 + C","xeˣ + C"], "answer": 0 },
-        { "q": "What is the value of the definite integral ∫₀¹ x² dx?", "choices": ["1/3","1/4","2/3","1/2"], "answer": 0 }
+        { "q": "In formal logic, which rule of inference concludes Q from the premises 'P → Q' and 'P'?", "choices": ["Modus Tollens","Modus Ponens","Disjunctive Syllogism","Hypothetical Syllogism"], "answer": 1 },
+        { "q": "What is the average-case time complexity of quickselect for finding the k-th smallest element in an unsorted array of n elements?", "choices": ["O(n log n)","O(n²)","O(log n)","O(n)"], "answer": 3 },
+        { "q": "What is the hybridization of the carbon atom in CO2 (carbon dioxide)?", "choices": ["sp3d","sp3","sp","sp2"], "answer": 2 },
+        { "q": "A satellite orbits Earth with an initial orbital period of 90 minutes. If the orbital radius is doubled, by Kepler's third law (T² ∝ r³), what is the new orbital period, to the nearest minute?", "choices": ["255 minutes","360 minutes","127 minutes","180 minutes"], "answer": 0 },
+        { "q": "What is the derivative of f(x) = e^(2x) cos(x) with respect to x?", "choices": ["e^(2x)(2cos(x) - sin(x))","2e^(2x)cos(x)","e^(2x)(cos(x) - 2sin(x))","2e^(2x)sin(x)"], "answer": 0 },
+        { "q": "The worst-case time complexity of quicksort is:", "choices": ["O(log n)","O(n²)","O(n)","O(n log n)"], "answer": 1 },
+        { "q": "A solution is made by dissolving 3 mol of KOH in enough water to make 1.5 L of solution. What is its molarity?", "choices": ["4.5 M","2 M","0.5 M","1.5 M"], "answer": 1 },
+        { "q": "In predicate logic, what is the negation of ∃x (P(x) ∧ Q(x))?", "choices": ["∀x (¬P(x) ∨ ¬Q(x))","∃x (¬P(x) ∧ ¬Q(x))","∀x (¬P(x) ∧ ¬Q(x))","∃x (¬P(x) ∨ ¬Q(x))"], "answer": 0 },
+        { "q": "What is the time complexity of finding the intersection of two sorted arrays of sizes m and n using the two-pointer technique?", "choices": ["O(m × n)","O(min(m, n) × max(m, n))","O(log(m + n))","O(m + n)"], "answer": 3 },
+        { "q": "A 5 kg object moving at 4 m/s collides perfectly inelastically with a stationary 3 kg object. What is their common velocity after the collision?", "choices": ["3.2 m/s","2 m/s","2.5 m/s","1.75 m/s"], "answer": 2 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A game show offers you 4 identical doors: one hides a car, the other three hide goats. After you pick a door, the host, who knows what is behind each door, opens two of the remaining three doors, always revealing goats. Should you switch to the one remaining unopened door?", "choices": ["No, staying is better since you chose first","Yes, but only because the host might be lying","No, both doors are equally likely (50/50)","Yes — switching gives a 3/4 chance of the car, versus 1/4 by staying"], "answer": 3 },
-        { "q": "Three light switches outside a windowless room each control one of three light bulbs inside. You may flip the switches however you like, but you may only enter the room ONE time. How can you determine with certainty which switch controls which bulb?", "choices": ["It's impossible with only one entry","Turn on all three switches and enter immediately","Turn on switch A, wait, turn it off, turn on switch B, then enter — the lit bulb is B, the warm dark bulb is A, the cold dark bulb is C","Turn on switch A only, enter, then adjust based on brightness"], "answer": 2 },
-        { "q": "If the universe were infinite, static, and uniformly packed with stars, Olbers' Paradox asks why the night sky is mostly dark instead of uniformly bright. What is the standard modern resolution?", "choices": ["The universe has a finite age, so light from the most distant stars hasn't reached us yet","The universe is infinite in age, so eventually the night sky will become bright","Dark matter absorbs all starlight before it reaches Earth","Stars block each other's light evenly, making the sky appear dark"], "answer": 0 },
-        { "q": "A man travels back in time and prevents his own grandfather from ever meeting his grandmother, seemingly making his own birth — and thus his trip — impossible. What is the name of this classic time-travel paradox?", "choices": ["The Novikov Self-Consistency Principle","The Predestination Paradox","The Bootstrap Paradox","The Grandfather Paradox"], "answer": 3 },
-        { "q": "Benford's Law describes the distribution of leading digits in many naturally occurring numerical datasets. Which leading digit actually occurs most often?", "choices": ["5","9","All digits occur equally often","1"], "answer": 3 },
-        { "q": "There are 3 switches outside a closed room, each connected to one of 3 identical light bulbs inside. You may operate the switches however you like, but can enter the room to look at the bulbs only once. How can you determine with certainty which switch controls which bulb?", "choices": ["Flip each switch on and off once in sequence, then enter and guess based on which bulb seems brightest","Turn switch 1 on for several minutes, then turn it off and turn switch 2 on; enter — the lit bulb is switch 2, the warm-but-dark bulb is switch 1, and the cold dark bulb is switch 3","Turn all three switches on at once, then enter and see which bulbs are lit","It cannot be done with only one entry into the room"], "answer": 1 },
-        { "q": "How many people are needed in a room to guarantee, with certainty (not just better-than-even odds), that at least two share the same calendar birthday, accounting for a possible February 29th?", "choices": ["365","367","368","366"], "answer": 1 },
-        { "q": "A ladder is sliding down a wall: its top slides down the wall while its bottom slides away along the floor. What path does the exact midpoint of the ladder trace?", "choices": ["A parabola","An ellipse","A straight line","A quarter circle centered at the wall-floor corner"], "answer": 3 },
-        { "q": "A cube is painted red on all faces, then cut into 27 equal smaller cubes (a 3×3×3 arrangement). How many of the small cubes have exactly 2 red faces?", "choices": ["8","6","12","24"], "answer": 2 },
-        { "q": "How many seconds are there in a year?", "choices": ["8,760","Twelve — January 2nd, February 2nd, March 2nd, and so on","365","31,536,000"], "answer": 1 }
+        { "q": "Three friends each flip a fair coin once. What is the probability that all three flips show the same result (all heads or all tails)?", "choices": ["3/8","1/8","1/4","1/2"], "answer": 2 },
+        { "q": "How many people must be in a room before there is more than a 99% chance that at least two of them share a birthday (ignoring leap years)?", "choices": ["100","57","23","366"], "answer": 1 },
+        { "q": "A specific 'garbage' 5-card poker hand (say, 2♠-7♥-9♦-J♣-K♠, no pair, no flush) is dealt from a well-shuffled 52-card deck. Compared to being dealt a specific royal flush (10♠-J♠-Q♠-K♠-A♠), which hand is more likely?", "choices": ["It depends on the order the cards are dealt","The garbage hand is far more likely","They are exactly equally likely — every specific 5-card hand has the same probability","The royal flush is far more likely"], "answer": 2 },
+        { "q": "7 people each independently and randomly pick one day of the week (Monday through Sunday) to be 'their' day. What is the approximate probability that at least two of them pick the same day?", "choices": ["About 1%","About 50%","About 14% (1/7)","About 99%"], "answer": 3 },
+        { "q": "When you roll two fair six-sided dice, which is more likely: rolling a sum of exactly 7, or rolling a sum of either 6 or 8?", "choices": ["It's impossible to compare without rolling many times","A sum of 6 or 8 (combined) is more likely than a sum of 7","A sum of exactly 7 is more likely, since it is the single most common sum","They are exactly equally likely"], "answer": 1 },
+        { "q": "I have two US coins that total 30 cents. One of the coins is not a nickel. What are the two coins?", "choices": ["It is impossible","A dime and two nickels","Two dimes","A quarter and a nickel"], "answer": 3 },
+        { "q": "Two men play five games of checkers. Each man wins the same number of games, and there are no ties or draws. How is this possible?", "choices": ["The games were declared void","One man cheated","They weren't playing against each other","It is impossible"], "answer": 2 },
+        { "q": "What is the last digit of 7^2023?", "choices": ["7","1","3","9"], "answer": 2 },
+        { "q": "The following steps seem to prove 1 = 2: let a = b, then a² = ab, subtract b²: a² − b² = ab − b², factor: (a−b)(a+b) = b(a−b), divide both sides by (a−b): a+b = b, and since a=b, 2b = b, so 2 = 1. What is the flaw in this proof?", "choices": ["The step 'a² = ab' is not a valid operation","Dividing both sides by (a − b), which equals zero","Subtracting b² from both sides is not allowed","The proof is correct — 1 really does equal 2 here"], "answer": 1 },
+        { "q": "In a village, the barber shaves every man who does not shave himself, and no one else. Who shaves the barber?", "choices": ["No consistent answer exists — the premise is self-contradictory, so no such barber can exist","The barber's apprentice shaves him","He shaves himself","He does not shave himself"], "answer": 0 }
       ]
     }
   ]
