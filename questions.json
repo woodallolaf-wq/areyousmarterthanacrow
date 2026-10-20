@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What is 1 + 5?", "choices": ["7","5","4","6"], "answer": 3 },
-        { "q": "Which is the tallest animal in the world?", "choices": ["Giraffe","Mouse","Cat","Dog"], "answer": 0 },
-        { "q": "If you have 2 cookies and a friend gives you 3 more, how many cookies do you have?", "choices": ["4","7","5","6"], "answer": 2 },
-        { "q": "What do you use to taste your food?", "choices": ["Ears","Elbow","Tongue","Hair"], "answer": 2 },
-        { "q": "What is 3 + 7?", "choices": ["10","8","11","9"], "answer": 0 },
-        { "q": "What colour is a school bus?", "choices": ["Purple","Green","Blue","Yellow"], "answer": 3 },
-        { "q": "What do you call a baby duck?", "choices": ["Cub","Duckling","Kit","Foal"], "answer": 1 },
-        { "q": "What is 4 + 1?", "choices": ["3","4","6","5"], "answer": 3 },
-        { "q": "Which animal says 'gobble'?", "choices": ["Goose","Duck","Turkey","Chicken"], "answer": 2 },
-        { "q": "What colour is an eggplant?", "choices": ["Purple","Orange","Yellow","Green"], "answer": 0 }
+        { "q": "Which animal lives in a burrow?", "choices": ["Rabbit","Whale","Bird","Fish"], "answer": 0 },
+        { "q": "What do spiders catch bugs with?", "choices": ["A net","A rope","A cage","A web"], "answer": 3 },
+        { "q": "Which season comes before spring?", "choices": ["Winter","Summer","Fall","Spring"], "answer": 0 },
+        { "q": "Which animal lives in a hive?", "choices": ["Cat","Dog","Fish","Bee"], "answer": 3 },
+        { "q": "Which shape is like a ball?", "choices": ["Triangle","Square","Star","Circle"], "answer": 3 },
+        { "q": "Which animal says 'meow'?", "choices": ["Dog","Duck","Cow","Cat"], "answer": 3 },
+        { "q": "How many legs does a duck have?", "choices": ["2","4","6","8"], "answer": 0 },
+        { "q": "What is 7 + 3?", "choices": ["9","11","8","10"], "answer": 3 },
+        { "q": "What colour is a pea?", "choices": ["Blue","Red","Yellow","Green"], "answer": 3 },
+        { "q": "How many legs does a kangaroo have?", "choices": ["8","6","2","4"], "answer": 2 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which does NOT belong? Sparrow, Eagle, Penguin, Robin", "choices": ["Penguin","Sparrow","Robin","Eagle"], "answer": 0 },
-        { "q": "Pencil is to Write as Knife is to ___?", "choices": ["Erase","Cut","Draw","Sharpen"], "answer": 1 },
-        { "q": "What is 34 + 59?", "choices": ["83","93","94","91"], "answer": 1 },
-        { "q": "What number comes next in the sequence: 3, 6, 9, 12, ?", "choices": ["15","16","18","14"], "answer": 0 },
-        { "q": "What is the capital of Colombia?", "choices": ["Caracas","Lima","Bogotá","Quito"], "answer": 2 },
-        { "q": "Which does NOT belong? Carrot, Potato, Radish, Celery.", "choices": ["Celery","Radish","Carrot","Potato"], "answer": 0 },
-        { "q": "In 14, 3, 9, 21, 6 — what is the sum of the values greater than 8?", "choices": ["36","44","41","47"], "answer": 1 },
-        { "q": "What is 15% of 300?", "choices": ["35","50","45","40"], "answer": 2 },
-        { "q": "Calf is to cow as piglet is to ___?", "choices": ["Horse","Sheep","Goat","Pig"], "answer": 3 },
-        { "q": "What is 18 × 15?", "choices": ["270","280","260","290"], "answer": 0 }
+        { "q": "What number comes next: 2, 4, 8, 16, ?", "choices": ["20","30","32","24"], "answer": 2 },
+        { "q": "Which does NOT belong? Salmon, Trout, Shark, Oak", "choices": ["Salmon","Shark","Trout","Oak"], "answer": 3 },
+        { "q": "Which ocean is the largest on Earth?", "choices": ["Pacific","Atlantic","Indian","Arctic"], "answer": 0 },
+        { "q": "Needle is to Thread as Lock is to ___?", "choices": ["Door","Chain","Hinge","Key"], "answer": 3 },
+        { "q": "What is 47 + 36?", "choices": ["85","79","83","81"], "answer": 2 },
+        { "q": "Which country is home to the kangaroo?", "choices": ["India","Australia","Kenya","Brazil"], "answer": 1 },
+        { "q": "What is 14 × 16?", "choices": ["210","224","234","214"], "answer": 1 },
+        { "q": "Which does NOT belong? Lion, Tiger, Leopard, Wolf.", "choices": ["Tiger","Leopard","Lion","Wolf"], "answer": 3 },
+        { "q": "What gas do plants absorb from the air for photosynthesis?", "choices": ["Carbon dioxide","Hydrogen","Oxygen","Nitrogen"], "answer": 0 },
+        { "q": "What is the largest ocean on Earth?", "choices": ["Arctic","Indian","Atlantic","Pacific"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A bicycle originally priced at $340 is discounted 15%, then a $20 coupon is applied. What is the final price?", "choices": ["$289","$274","$259","$269"], "answer": 3 },
-        { "q": "Take the list [8, 21, 56, 13, 34, 2]. Sort it in ascending order, then add the 2nd and 5th elements (1-indexed).", "choices": ["55","42","47","34"], "answer": 1 },
-        { "q": "A bag contains 4 green and 9 yellow balls. Two balls are drawn without replacement. What is the probability both are yellow?", "choices": ["81/169","4/13","6/13","9/13"], "answer": 2 },
-        { "q": "Which word is the best synonym of 'obsequious'?", "choices": ["Fawning","Confident","Generous","Rebellious"], "answer": 0 },
-        { "q": "All chefs are creative. No creative people are impatient. Which must be true?", "choices": ["Some chefs are impatient.","All creative people are chefs.","No chefs are impatient.","All impatient people are chefs."], "answer": 2 },
-        { "q": "A bag has 7 red and 3 blue balls. Two are drawn without replacement. What is P(both red)?", "choices": ["3/5","1/2","7/10","7/15"], "answer": 3 },
-        { "q": "Mercurial most nearly means:", "choices": ["Reliable","Unpredictable","Sluggish","Cheerful"], "answer": 1 },
-        { "q": "A bag has 7 red and 4 blue marbles. Two are drawn without replacement. What is P(both blue)?", "choices": ["4/55","16/121","6/55","12/55"], "answer": 2 },
-        { "q": "Reverse 7, 4, 2, 6, 1, 8. What is the difference between the first and last values of the result?", "choices": ["1","3","4","7"], "answer": 0 },
-        { "q": "A cyclist averages 24 km/h. How far does she travel in 50 minutes?", "choices": ["22 km","20 km","18 km","19.2 km"], "answer": 1 }
+        { "q": "A shirt priced at $60 is marked up 25%, then discounted 20% off the new price. What is the final price?", "choices": ["$60","$57","$54","$63"], "answer": 0 },
+        { "q": "Take the list [15, 3, 42, 9, 27]. Reverse it, then multiply the 1st and 3rd elements (1-indexed).", "choices": ["1026","405","1134","567"], "answer": 2 },
+        { "q": "A train travels 180 miles in 3 hours, then 240 miles in 4 hours. What is its average speed for the whole trip?", "choices": ["60 mph","55 mph","70 mph","65 mph"], "answer": 0 },
+        { "q": "Which word is the best synonym of 'ubiquitous'?", "choices": ["Hidden","Fragile","Rare","Widespread"], "answer": 3 },
+        { "q": "A jar has 5 red and 7 blue marbles. Two are drawn without replacement. What is the probability both are red?", "choices": ["5/12","7/33","35/144","5/33"], "answer": 3 },
+        { "q": "A $320 bicycle is discounted 15%, then a further $12 off. What is the final price?", "choices": ["$272","$260","$256","$248"], "answer": 1 },
+        { "q": "A jar has 5 red and 3 green candies. Two are drawn without replacement. What is P(both red)?", "choices": ["15/56","25/64","5/14","5/8"], "answer": 2 },
+        { "q": "Apocryphal most nearly means:", "choices": ["Widely accepted","Sacred","Prophetic","Of doubtful authenticity"], "answer": 3 },
+        { "q": "In 2, 3, 5, 7, 11, 13, 17 — what is the product of the 3rd and 5th values?", "choices": ["55","60","77","44"], "answer": 0 },
+        { "q": "Verisimilitude most nearly means:", "choices": ["Similarity of wording","Deliberate exaggeration","The appearance of being true","Absolute truthfulness"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "In formal logic, which rule of inference concludes Q from the premises 'P → Q' and 'P'?", "choices": ["Modus Tollens","Modus Ponens","Disjunctive Syllogism","Hypothetical Syllogism"], "answer": 1 },
-        { "q": "What is the average-case time complexity of quickselect for finding the k-th smallest element in an unsorted array of n elements?", "choices": ["O(n log n)","O(n²)","O(log n)","O(n)"], "answer": 3 },
-        { "q": "What is the hybridization of the carbon atom in CO2 (carbon dioxide)?", "choices": ["sp3d","sp3","sp","sp2"], "answer": 2 },
-        { "q": "A satellite orbits Earth with an initial orbital period of 90 minutes. If the orbital radius is doubled, by Kepler's third law (T² ∝ r³), what is the new orbital period, to the nearest minute?", "choices": ["255 minutes","360 minutes","127 minutes","180 minutes"], "answer": 0 },
-        { "q": "What is the derivative of f(x) = e^(2x) cos(x) with respect to x?", "choices": ["e^(2x)(2cos(x) - sin(x))","2e^(2x)cos(x)","e^(2x)(cos(x) - 2sin(x))","2e^(2x)sin(x)"], "answer": 0 },
-        { "q": "The worst-case time complexity of quicksort is:", "choices": ["O(log n)","O(n²)","O(n)","O(n log n)"], "answer": 1 },
-        { "q": "A solution is made by dissolving 3 mol of KOH in enough water to make 1.5 L of solution. What is its molarity?", "choices": ["4.5 M","2 M","0.5 M","1.5 M"], "answer": 1 },
-        { "q": "In predicate logic, what is the negation of ∃x (P(x) ∧ Q(x))?", "choices": ["∀x (¬P(x) ∨ ¬Q(x))","∃x (¬P(x) ∧ ¬Q(x))","∀x (¬P(x) ∧ ¬Q(x))","∃x (¬P(x) ∨ ¬Q(x))"], "answer": 0 },
-        { "q": "What is the time complexity of finding the intersection of two sorted arrays of sizes m and n using the two-pointer technique?", "choices": ["O(m × n)","O(min(m, n) × max(m, n))","O(log(m + n))","O(m + n)"], "answer": 3 },
-        { "q": "A 5 kg object moving at 4 m/s collides perfectly inelastically with a stationary 3 kg object. What is their common velocity after the collision?", "choices": ["3.2 m/s","2 m/s","2.5 m/s","1.75 m/s"], "answer": 2 }
+        { "q": "What is the second derivative of f(x) = sin(x)?", "choices": ["sin(x)","cos(x)","-cos(x)","-sin(x)"], "answer": 3 },
+        { "q": "What is the molecular geometry of methane (CH4)?", "choices": ["Trigonal planar","Linear","Bent","Tetrahedral"], "answer": 3 },
+        { "q": "A block slides down a frictionless incline of angle 30 degrees. What is its acceleration, to one decimal place (g = 9.8 m/s^2)?", "choices": ["8.5 m/s^2","2.45 m/s^2","4.9 m/s^2","9.8 m/s^2"], "answer": 2 },
+        { "q": "What is the time complexity of binary search on a sorted array of n elements?", "choices": ["O(n)","O(log n)","O(n^2)","O(n log n)"], "answer": 1 },
+        { "q": "What is the integral of x^3 with respect to x?", "choices": ["x^4/4 + C","x^4 + C","x^4/3 + C","3x^2 + C"], "answer": 0 },
+        { "q": "The number of surjective (onto) functions from a 4-element set to a 2-element set is:", "choices": ["12","8","16","14"], "answer": 3 },
+        { "q": "What does the infinite series Σ (1/n²) for n = 1 to ∞ converge to?", "choices": ["Diverges (no finite value)","1","π²/6","π/6"], "answer": 2 },
+        { "q": "What are the eigenvalues of the matrix [[4, 1], [2, 3]]?", "choices": ["5 and 2","6 and 1","7 and 0","4 and 3"], "answer": 0 },
+        { "q": "A 2 kg object moving at 5 m/s collides perfectly inelastically with a stationary 3 kg object. What is their common velocity after the collision?", "choices": ["3 m/s","1.5 m/s","2 m/s","2.5 m/s"], "answer": 2 },
+        { "q": "What is the oxidation state of sulfur in sulfuric acid, H₂SO₄?", "choices": ["+2","+4","+8","+6"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "Three friends each flip a fair coin once. What is the probability that all three flips show the same result (all heads or all tails)?", "choices": ["3/8","1/8","1/4","1/2"], "answer": 2 },
-        { "q": "How many people must be in a room before there is more than a 99% chance that at least two of them share a birthday (ignoring leap years)?", "choices": ["100","57","23","366"], "answer": 1 },
-        { "q": "A specific 'garbage' 5-card poker hand (say, 2♠-7♥-9♦-J♣-K♠, no pair, no flush) is dealt from a well-shuffled 52-card deck. Compared to being dealt a specific royal flush (10♠-J♠-Q♠-K♠-A♠), which hand is more likely?", "choices": ["It depends on the order the cards are dealt","The garbage hand is far more likely","They are exactly equally likely — every specific 5-card hand has the same probability","The royal flush is far more likely"], "answer": 2 },
-        { "q": "7 people each independently and randomly pick one day of the week (Monday through Sunday) to be 'their' day. What is the approximate probability that at least two of them pick the same day?", "choices": ["About 1%","About 50%","About 14% (1/7)","About 99%"], "answer": 3 },
-        { "q": "When you roll two fair six-sided dice, which is more likely: rolling a sum of exactly 7, or rolling a sum of either 6 or 8?", "choices": ["It's impossible to compare without rolling many times","A sum of 6 or 8 (combined) is more likely than a sum of 7","A sum of exactly 7 is more likely, since it is the single most common sum","They are exactly equally likely"], "answer": 1 },
-        { "q": "I have two US coins that total 30 cents. One of the coins is not a nickel. What are the two coins?", "choices": ["It is impossible","A dime and two nickels","Two dimes","A quarter and a nickel"], "answer": 3 },
-        { "q": "Two men play five games of checkers. Each man wins the same number of games, and there are no ties or draws. How is this possible?", "choices": ["The games were declared void","One man cheated","They weren't playing against each other","It is impossible"], "answer": 2 },
-        { "q": "What is the last digit of 7^2023?", "choices": ["7","1","3","9"], "answer": 2 },
-        { "q": "The following steps seem to prove 1 = 2: let a = b, then a² = ab, subtract b²: a² − b² = ab − b², factor: (a−b)(a+b) = b(a−b), divide both sides by (a−b): a+b = b, and since a=b, 2b = b, so 2 = 1. What is the flaw in this proof?", "choices": ["The step 'a² = ab' is not a valid operation","Dividing both sides by (a − b), which equals zero","Subtracting b² from both sides is not allowed","The proof is correct — 1 really does equal 2 here"], "answer": 1 },
-        { "q": "In a village, the barber shaves every man who does not shave himself, and no one else. Who shaves the barber?", "choices": ["No consistent answer exists — the premise is self-contradictory, so no such barber can exist","The barber's apprentice shaves him","He shaves himself","He does not shave himself"], "answer": 0 }
+        { "q": "You have two ropes; each takes exactly 60 minutes to burn completely, but neither burns at a steady rate. Using only these two ropes and matches, how do you measure exactly 45 minutes?", "choices": ["Cut each rope in half, light all four pieces at once, and stop when the first piece burns out.","Light rope A at both ends and rope B at one end at the same time. When rope A finishes burning (30 minutes), light the second end of rope B -- it will finish 15 minutes later, for a total of 45 minutes.","Light both ropes at both ends at the same time; they will both burn out together in exactly 45 minutes.","Light both ropes at one end each; stop timing when rope A finishes, since that marks 45 minutes."], "answer": 1 },
+        { "q": "A man has 7 daughters. Each daughter has 1 brother. How many children does the man have?", "choices": ["15","8","7","14"], "answer": 1 },
+        { "q": "A clock's hour and minute hands overlap exactly at 12:00. Not counting that moment, how many more times do they overlap before 12:00 the next day?", "choices": ["22","23","24","21"], "answer": 3 },
+        { "q": "A farmer has 17 sheep. All but 9 run away. How many sheep does the farmer have left?", "choices": ["17","0","8","9"], "answer": 3 },
+        { "q": "If you are running a race and you overtake the person in 2nd place, what place are you now in?", "choices": ["2nd place","1st place","3rd place","Last place"], "answer": 0 },
+        { "q": "Gambler A starts with $1 and Gambler B starts with $99. They repeatedly bet $1 on fair coin flips until one goes broke. What is the probability that A ends up winning all $100?", "choices": ["1/2 minus a small correction","1/100","1/99","1/2"], "answer": 1 },
+        { "q": "Two people each bet their necktie on whose is cheaper, without knowing either value. Each reasons: 'If I lose, I lose my tie's value; if I win, I gain a tie worth more than mine — so this game favors me.' Both reason identically. Does this argument actually mean the game favors both players?", "choices": ["No — the reasoning is flawed; by symmetry the game favors neither player","Yes — the game truly favors both, which is why it's called a paradox","No — it favors whoever proposed the bet","No — it favors whoever has the more expensive tie"], "answer": 0 },
+        { "q": "What runs but never walks, murmurs but never talks, has a bed but never sleeps, and has a mouth but never eats?", "choices": ["The wind","A river","A story","A clock"], "answer": 1 },
+        { "q": "On average, across a large social network, do people have fewer friends than their friends have on average, the same number, or more?", "choices": ["Fewer, on average — this is the 'friendship paradox'","More, on average","The same, on average","It's impossible to say without more information"], "answer": 0 },
+        { "q": "There are three boxes: one holds two gold coins, one holds two silver coins, and one holds one gold and one silver coin. You pick a box at random and draw one coin at random from it — it's gold. What is the probability the other coin in that same box is also gold?", "choices": ["3/4","1/2","2/3","1/3"], "answer": 2 }
       ]
     }
   ]
