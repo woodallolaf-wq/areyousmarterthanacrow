@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "Which animal lives in a burrow?", "choices": ["Rabbit","Whale","Bird","Fish"], "answer": 0 },
-        { "q": "What do spiders catch bugs with?", "choices": ["A net","A rope","A cage","A web"], "answer": 3 },
-        { "q": "Which season comes before spring?", "choices": ["Winter","Summer","Fall","Spring"], "answer": 0 },
-        { "q": "Which animal lives in a hive?", "choices": ["Cat","Dog","Fish","Bee"], "answer": 3 },
-        { "q": "Which shape is like a ball?", "choices": ["Triangle","Square","Star","Circle"], "answer": 3 },
-        { "q": "Which animal says 'meow'?", "choices": ["Dog","Duck","Cow","Cat"], "answer": 3 },
-        { "q": "How many legs does a duck have?", "choices": ["2","4","6","8"], "answer": 0 },
-        { "q": "What is 7 + 3?", "choices": ["9","11","8","10"], "answer": 3 },
-        { "q": "What colour is a pea?", "choices": ["Blue","Red","Yellow","Green"], "answer": 3 },
-        { "q": "How many legs does a kangaroo have?", "choices": ["8","6","2","4"], "answer": 2 }
+        { "q": "What do you use to brush your hair?", "choices": ["Fork","Comb","Hammer","Spoon"], "answer": 1 },
+        { "q": "What do you wear on your hands to keep them warm?", "choices": ["Socks","Gloves","Hat","Shoes"], "answer": 1 },
+        { "q": "What do you use to measure how hot or cold something is?", "choices": ["Scale","Ruler","Thermometer","Clock"], "answer": 2 },
+        { "q": "What do you call water that has frozen solid?", "choices": ["Steam","Ice","Fire","Mud"], "answer": 1 },
+        { "q": "What do you call a house made of ice?", "choices": ["Castle","Cabin","Igloo","Tent"], "answer": 2 },
+        { "q": "What sound does a sheep make?", "choices": ["Baa","Quack","Moo","Oink"], "answer": 0 },
+        { "q": "How many legs does an octopus have?", "choices": ["10","6","4","8"], "answer": 3 },
+        { "q": "How many fingers are on two hands?", "choices": ["10","8","12","5"], "answer": 0 },
+        { "q": "What do you drink when you are thirsty?", "choices": ["Water","Rocks","Sand","Paper"], "answer": 0 },
+        { "q": "What is 6 + 1?", "choices": ["5","6","8","7"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "What number comes next: 2, 4, 8, 16, ?", "choices": ["20","30","32","24"], "answer": 2 },
-        { "q": "Which does NOT belong? Salmon, Trout, Shark, Oak", "choices": ["Salmon","Shark","Trout","Oak"], "answer": 3 },
-        { "q": "Which ocean is the largest on Earth?", "choices": ["Pacific","Atlantic","Indian","Arctic"], "answer": 0 },
-        { "q": "Needle is to Thread as Lock is to ___?", "choices": ["Door","Chain","Hinge","Key"], "answer": 3 },
-        { "q": "What is 47 + 36?", "choices": ["85","79","83","81"], "answer": 2 },
-        { "q": "Which country is home to the kangaroo?", "choices": ["India","Australia","Kenya","Brazil"], "answer": 1 },
-        { "q": "What is 14 × 16?", "choices": ["210","224","234","214"], "answer": 1 },
-        { "q": "Which does NOT belong? Lion, Tiger, Leopard, Wolf.", "choices": ["Tiger","Leopard","Lion","Wolf"], "answer": 3 },
-        { "q": "What gas do plants absorb from the air for photosynthesis?", "choices": ["Carbon dioxide","Hydrogen","Oxygen","Nitrogen"], "answer": 0 },
-        { "q": "What is the largest ocean on Earth?", "choices": ["Arctic","Indian","Atlantic","Pacific"], "answer": 3 }
+        { "q": "Fish is to Water as Bird is to ___?", "choices": ["Water","Tree","Nest","Air"], "answer": 3 },
+        { "q": "Which does NOT belong? Fork, Spoon, Knife, Pillow", "choices": ["Pillow","Spoon","Fork","Knife"], "answer": 0 },
+        { "q": "What is 83 - 47?", "choices": ["36","34","46","38"], "answer": 0 },
+        { "q": "What is the capital of Nigeria?", "choices": ["Accra","Abuja","Cairo","Lagos"], "answer": 1 },
+        { "q": "What number comes next in the sequence: 1, 1, 2, 3, 5, ?", "choices": ["8","9","7","6"], "answer": 0 },
+        { "q": "What is the capital of Canada?", "choices": ["Toronto","Montreal","Vancouver","Ottawa"], "answer": 3 },
+        { "q": "What is the capital of Egypt?", "choices": ["Giza","Luxor","Cairo","Alexandria"], "answer": 2 },
+        { "q": "In 8, 22, 3, 17, 11 — what is the sum of the values greater than 10?", "choices": ["44","47","39","50"], "answer": 3 },
+        { "q": "Doctor is to Hospital as Teacher is to ___?", "choices": ["Office","Hospital","Library","School"], "answer": 3 },
+        { "q": "Which number is NOT prime? 17, 21, 23, 29", "choices": ["17","23","29","21"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A shirt priced at $60 is marked up 25%, then discounted 20% off the new price. What is the final price?", "choices": ["$60","$57","$54","$63"], "answer": 0 },
-        { "q": "Take the list [15, 3, 42, 9, 27]. Reverse it, then multiply the 1st and 3rd elements (1-indexed).", "choices": ["1026","405","1134","567"], "answer": 2 },
-        { "q": "A train travels 180 miles in 3 hours, then 240 miles in 4 hours. What is its average speed for the whole trip?", "choices": ["60 mph","55 mph","70 mph","65 mph"], "answer": 0 },
-        { "q": "Which word is the best synonym of 'ubiquitous'?", "choices": ["Hidden","Fragile","Rare","Widespread"], "answer": 3 },
-        { "q": "A jar has 5 red and 7 blue marbles. Two are drawn without replacement. What is the probability both are red?", "choices": ["5/12","7/33","35/144","5/33"], "answer": 3 },
-        { "q": "A $320 bicycle is discounted 15%, then a further $12 off. What is the final price?", "choices": ["$272","$260","$256","$248"], "answer": 1 },
-        { "q": "A jar has 5 red and 3 green candies. Two are drawn without replacement. What is P(both red)?", "choices": ["15/56","25/64","5/14","5/8"], "answer": 2 },
-        { "q": "Apocryphal most nearly means:", "choices": ["Widely accepted","Sacred","Prophetic","Of doubtful authenticity"], "answer": 3 },
-        { "q": "In 2, 3, 5, 7, 11, 13, 17 — what is the product of the 3rd and 5th values?", "choices": ["55","60","77","44"], "answer": 0 },
-        { "q": "Verisimilitude most nearly means:", "choices": ["Similarity of wording","Deliberate exaggeration","The appearance of being true","Absolute truthfulness"], "answer": 2 }
+        { "q": "Take the list [52, 9, 36, 14, 23, 5]. Sort it in descending order, then compute the difference between the 2nd and 5th elements (1-indexed).", "choices": ["29","25","31","27"], "answer": 3 },
+        { "q": "In a survey of 200 people, 120 like coffee, 90 like tea, and 50 like both. How many people like neither coffee nor tea?", "choices": ["40","60","50","30"], "answer": 0 },
+        { "q": "All chess masters are strategists. No strategists are reckless. Therefore:", "choices": ["Some chess masters are reckless.","No chess masters are reckless.","All strategists are chess masters.","All reckless people are chess masters."], "answer": 1 },
+        { "q": "Which word is the best synonym of 'austere'?", "choices": ["Generous","Cheerful","Severe","Luxurious"], "answer": 2 },
+        { "q": "A rectangular garden measures 24 m by 18 m. A path of uniform width 2 m is built just inside its border, reducing the planting area. What is the area of the remaining planting region, in square meters?", "choices": ["260","320","280","300"], "answer": 2 },
+        { "q": "Ubiquitous most nearly means:", "choices": ["Rare","Ancient","Fragile","Omnipresent"], "answer": 3 },
+        { "q": "In 6, 13, 2, 8, 17, 5, 11 — what is the sum of the values in positions 2 and 5?", "choices": ["30","28","21","25"], "answer": 0 },
+        { "q": "A $450 laptop is discounted 20%, then a further $20 off. What is the final price?", "choices": ["$330","$340","$350","$360"], "answer": 1 },
+        { "q": "All painters are artists. Some artists are poor. Therefore:", "choices": ["No conclusion follows.","All poor people are painters.","No painters are poor.","Some painters are poor."], "answer": 0 },
+        { "q": "A bag holds 6 red and 4 blue balls. Two are drawn without replacement. What is P(both red)?", "choices": ["5/18","9/25","1/3","3/10"], "answer": 2 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the second derivative of f(x) = sin(x)?", "choices": ["sin(x)","cos(x)","-cos(x)","-sin(x)"], "answer": 3 },
-        { "q": "What is the molecular geometry of methane (CH4)?", "choices": ["Trigonal planar","Linear","Bent","Tetrahedral"], "answer": 3 },
-        { "q": "A block slides down a frictionless incline of angle 30 degrees. What is its acceleration, to one decimal place (g = 9.8 m/s^2)?", "choices": ["8.5 m/s^2","2.45 m/s^2","4.9 m/s^2","9.8 m/s^2"], "answer": 2 },
-        { "q": "What is the time complexity of binary search on a sorted array of n elements?", "choices": ["O(n)","O(log n)","O(n^2)","O(n log n)"], "answer": 1 },
-        { "q": "What is the integral of x^3 with respect to x?", "choices": ["x^4/4 + C","x^4 + C","x^4/3 + C","3x^2 + C"], "answer": 0 },
-        { "q": "The number of surjective (onto) functions from a 4-element set to a 2-element set is:", "choices": ["12","8","16","14"], "answer": 3 },
-        { "q": "What does the infinite series Σ (1/n²) for n = 1 to ∞ converge to?", "choices": ["Diverges (no finite value)","1","π²/6","π/6"], "answer": 2 },
-        { "q": "What are the eigenvalues of the matrix [[4, 1], [2, 3]]?", "choices": ["5 and 2","6 and 1","7 and 0","4 and 3"], "answer": 0 },
-        { "q": "A 2 kg object moving at 5 m/s collides perfectly inelastically with a stationary 3 kg object. What is their common velocity after the collision?", "choices": ["3 m/s","1.5 m/s","2 m/s","2.5 m/s"], "answer": 2 },
-        { "q": "What is the oxidation state of sulfur in sulfuric acid, H₂SO₄?", "choices": ["+2","+4","+8","+6"], "answer": 3 }
+        { "q": "For the reaction N2 + 3H2 → 2NH3, how many moles of H2 are required to produce 6 moles of NH3?", "choices": ["6","9","3","12"], "answer": 1 },
+        { "q": "A charged particle with charge q and mass m moves in a circle of radius r in a uniform magnetic field of magnitude B, at speed v. Which equation correctly relates these quantities?", "choices": ["r = qB/(mv)","r = m/(qvB)","r = mv/(qB)","r = qvB/m"], "answer": 2 },
+        { "q": "What is the name of the formal fallacy of inferring 'P' from the premises 'P → Q' and 'Q'?", "choices": ["Modus Ponens","Affirming the consequent","Denying the antecedent","Modus Tollens"], "answer": 1 },
+        { "q": "What is the time complexity of merging two already-sorted arrays of size n each into one sorted array of size 2n?", "choices": ["O(n log n)","O(n²)","O(n)","O(log n)"], "answer": 2 },
+        { "q": "What is the derivative of f(x) = x² sin(x) with respect to x?", "choices": ["2x cos(x)","x² cos(x)","2x sin(x) - x² cos(x)","2x sin(x) + x² cos(x)"], "answer": 3 },
+        { "q": "A radioactive isotope has a half-life of 8 days. What fraction of the original sample remains after 24 days?", "choices": ["1/6","1/3","1/8","1/16"], "answer": 2 },
+        { "q": "The Rydberg formula for 1/λ of emitted light in a hydrogen transition from n2 to n1 (n2 > n1) is:", "choices": ["R(1/n1² − 1/n2²)","R(1/n2² − 1/n1²)","R(n1² − n2²)","R(n2² − n1²)/(n1²n2²)"], "answer": 0 },
+        { "q": "How many distinct binary relations are there on a set of 3 elements?", "choices": ["256","512","729","64"], "answer": 1 },
+        { "q": "What is the time complexity of counting sort on n elements with range k?", "choices": ["O(n + k)","O(nk)","O(k log n)","O(n log n)"], "answer": 0 },
+        { "q": "An RC circuit has R = 2 kΩ and C = 5 μF. What is its time constant τ = RC?", "choices": ["1 ms","10 ms","100 ms","25 ms"], "answer": 1 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "You have two ropes; each takes exactly 60 minutes to burn completely, but neither burns at a steady rate. Using only these two ropes and matches, how do you measure exactly 45 minutes?", "choices": ["Cut each rope in half, light all four pieces at once, and stop when the first piece burns out.","Light rope A at both ends and rope B at one end at the same time. When rope A finishes burning (30 minutes), light the second end of rope B -- it will finish 15 minutes later, for a total of 45 minutes.","Light both ropes at both ends at the same time; they will both burn out together in exactly 45 minutes.","Light both ropes at one end each; stop timing when rope A finishes, since that marks 45 minutes."], "answer": 1 },
-        { "q": "A man has 7 daughters. Each daughter has 1 brother. How many children does the man have?", "choices": ["15","8","7","14"], "answer": 1 },
-        { "q": "A clock's hour and minute hands overlap exactly at 12:00. Not counting that moment, how many more times do they overlap before 12:00 the next day?", "choices": ["22","23","24","21"], "answer": 3 },
-        { "q": "A farmer has 17 sheep. All but 9 run away. How many sheep does the farmer have left?", "choices": ["17","0","8","9"], "answer": 3 },
-        { "q": "If you are running a race and you overtake the person in 2nd place, what place are you now in?", "choices": ["2nd place","1st place","3rd place","Last place"], "answer": 0 },
-        { "q": "Gambler A starts with $1 and Gambler B starts with $99. They repeatedly bet $1 on fair coin flips until one goes broke. What is the probability that A ends up winning all $100?", "choices": ["1/2 minus a small correction","1/100","1/99","1/2"], "answer": 1 },
-        { "q": "Two people each bet their necktie on whose is cheaper, without knowing either value. Each reasons: 'If I lose, I lose my tie's value; if I win, I gain a tie worth more than mine — so this game favors me.' Both reason identically. Does this argument actually mean the game favors both players?", "choices": ["No — the reasoning is flawed; by symmetry the game favors neither player","Yes — the game truly favors both, which is why it's called a paradox","No — it favors whoever proposed the bet","No — it favors whoever has the more expensive tie"], "answer": 0 },
-        { "q": "What runs but never walks, murmurs but never talks, has a bed but never sleeps, and has a mouth but never eats?", "choices": ["The wind","A river","A story","A clock"], "answer": 1 },
-        { "q": "On average, across a large social network, do people have fewer friends than their friends have on average, the same number, or more?", "choices": ["Fewer, on average — this is the 'friendship paradox'","More, on average","The same, on average","It's impossible to say without more information"], "answer": 0 },
-        { "q": "There are three boxes: one holds two gold coins, one holds two silver coins, and one holds one gold and one silver coin. You pick a box at random and draw one coin at random from it — it's gold. What is the probability the other coin in that same box is also gold?", "choices": ["3/4","1/2","2/3","1/3"], "answer": 2 }
+        { "q": "Which is heavier: 1 kilogram of feathers, or 1 pound of feathers?", "choices": ["1 kilogram — a kilogram is about 2.2 times heavier than a pound","1 pound — pounds measure weight and kilograms measure mass, so they can't be directly compared","It depends entirely on how tightly the feathers are packed","They are exactly equal, since they're both just 'feathers'"], "answer": 0 },
+        { "q": "Statement A says: 'Exactly one of statements A and B is true.' Statement B says: 'Statement A is false.' Which is actually the case?", "choices": ["A is true and B is false","Both are true","Both are false","A is false and B is true"], "answer": 0 },
+        { "q": "A person says: 'If you add my age now to the age I will be in 10 years, you get 76.' How old is the person now?", "choices": ["43","38","28","33"], "answer": 3 },
+        { "q": "A clock is set to the correct time at noon, but it runs slow, losing exactly 15 minutes every 24 hours. Since it is a standard 12-hour analog clock face, after how many real days will it next display the correct time?", "choices": ["48 days","96 days","30 days","24 days"], "answer": 0 },
+        { "q": "A jar contains 100 coins: 1 is double-headed (always lands heads) and 99 are ordinary fair coins. You pick one coin at random and flip it 3 times — it lands heads all three times. What is the probability you picked the double-headed coin?", "choices": ["About 99%","About 7.5%","About 87.5%","About 50%"], "answer": 1 },
+        { "q": "You have two ropes; each takes exactly 1 hour to burn completely but burns at an uneven, unpredictable rate along its length. How do you measure exactly 45 minutes?", "choices": ["Light both ropes at both ends at the same time","Light one rope at both ends and the other at one end; when the first finishes, light the second rope's remaining end","Time it with a clock as each rope burns","Cut each rope exactly in half and burn the halves"], "answer": 1 },
+        { "q": "What can you catch but never throw?", "choices": ["Your breath","A fish","A ball","A cold"], "answer": 3 },
+        { "q": "Students who scored in the top 5% on a test's first attempt tend to score closer to the class average on an immediate retake, even with no change in ability or coaching. What best explains this?", "choices": ["Regression to the mean: extreme scores partly reflect luck/noise, which is unlikely to repeat","It proves the top scorers cheated the first time","Top scorers get overconfident and stop trying","The retake is deliberately made harder"], "answer": 0 },
+        { "q": "A butcher's clerk is six feet tall and wears size 12 shoes. What does he weigh?", "choices": ["Depends on his build","About 200 pounds","Meat","It cannot be determined"], "answer": 2 },
+        { "q": "A box has 3 coins: one two-headed, one two-tailed, one normal. You pick one at random and flip it — it lands heads. What is the probability the other side is also heads?", "choices": ["3/4","2/3","1/3","1/2"], "answer": 1 }
       ]
     }
   ]
