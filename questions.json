@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What do you wear on your hands to keep them warm in the snow?", "choices": ["Sunglasses","Swimsuit","Sandals","Mittens"], "answer": 3 },
-        { "q": "Which small animal spins a web to catch its food?", "choices": ["Ladybug","Spider","Snail","Butterfly"], "answer": 1 },
-        { "q": "What do you call the yellow part in the middle of an egg?", "choices": ["Shell","White","Crust","Yolk"], "answer": 3 },
-        { "q": "What do you blow out on a birthday cake?", "choices": ["Balloons","Bubbles","Fireworks","Candles"], "answer": 3 },
-        { "q": "What do you put over yourself to stay warm while sleeping?", "choices": ["Umbrella","Blanket","Backpack","Raincoat"], "answer": 1 },
-        { "q": "What is 8 + 2?", "choices": ["9","11","12","10"], "answer": 3 },
-        { "q": "What shape is an egg?", "choices": ["Triangle","Rectangle","Square","Oval"], "answer": 3 },
-        { "q": "What do you use to comb your hair?", "choices": ["Comb","Spoon","Fork","Toothbrush"], "answer": 0 },
-        { "q": "What season comes after summer?", "choices": ["Autumn","Summer","Spring","Winter"], "answer": 0 },
-        { "q": "What do you use to eat cereal?", "choices": ["Knife","Spoon","Fork","Cup"], "answer": 1 }
+        { "q": "Which of these do you eat with a spoon?", "choices": ["A shoe","A book","Soup","A chair"], "answer": 2 },
+        { "q": "Which word rhymes with 'cat'?", "choices": ["Dog","Tree","Sun","Hat"], "answer": 3 },
+        { "q": "What is the color of grass?", "choices": ["Blue","Red","Green","Purple"], "answer": 2 },
+        { "q": "Which season is the hottest?", "choices": ["Summer","Spring","Fall","Winter"], "answer": 0 },
+        { "q": "Which of these is a shape with four equal sides?", "choices": ["Oval","Square","Triangle","Circle"], "answer": 1 },
+        { "q": "How many minutes are in an hour?", "choices": ["Twenty-four","Thirty","Twelve","Sixty"], "answer": 3 },
+        { "q": "What is the opposite of happy?", "choices": ["Cold","Tall","Soft","Sad"], "answer": 3 },
+        { "q": "What colour is a stop sign?", "choices": ["Blue","Green","Red","Yellow"], "answer": 2 },
+        { "q": "What is 4 + 3?", "choices": ["8","5","6","7"], "answer": 3 },
+        { "q": "How many hours are in a day?", "choices": ["Twenty-four","Sixty","Twelve","Seven"], "answer": 0 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which does not belong?", "choices": ["Hammer","Screwdriver","Banana","Wrench"], "answer": 2 },
-        { "q": "What is 96 ÷ 8?", "choices": ["8","12","11","14"], "answer": 1 },
-        { "q": "What is the largest land animal on Earth?", "choices": ["Giraffe","Rhinoceros","Elephant","Hippopotamus"], "answer": 2 },
-        { "q": "What is 13 x 7?", "choices": ["81","84","98","91"], "answer": 3 },
-        { "q": "Which of these is a primary colour?", "choices": ["Blue","Purple","Green","Orange"], "answer": 0 },
-        { "q": "In 5, 18, 2, 9, 14 — what is the sum of the values greater than 8?", "choices": ["27","32","45","41"], "answer": 3 },
-        { "q": "Bee is to Hive as Ant is to ___?", "choices": ["Colony","Web","Nest","Den"], "answer": 0 },
-        { "q": "What is 13 × 13?", "choices": ["189","169","156","179"], "answer": 1 },
-        { "q": "What is 8 × 7?", "choices": ["56","48","54","64"], "answer": 0 },
-        { "q": "How many letter E's are in this string? EBEAKEEDNEFEGE", "choices": ["7","8","6","5"], "answer": 0 }
+        { "q": "What is 169 ÷ 13?", "choices": ["11","13","14","12"], "answer": 1 },
+        { "q": "What is 15 x 6?", "choices": ["90","96","85","80"], "answer": 0 },
+        { "q": "Pen is to Writing as Scissors is to:", "choices": ["Folding","Cutting","Gluing","Drawing"], "answer": 1 },
+        { "q": "Which animal below is NOT a mammal: Dolphin, Bat, Shark, Elephant?", "choices": ["Bat","Shark","Elephant","Dolphin"], "answer": 1 },
+        { "q": "Which does NOT belong? Trumpet, Flute, Clarinet, Hammer.", "choices": ["Clarinet","Hammer","Trumpet","Flute"], "answer": 1 },
+        { "q": "What is 60% of 85?", "choices": ["55","51","45","50"], "answer": 1 },
+        { "q": "What is 19 × 17?", "choices": ["313","323","322","333"], "answer": 1 },
+        { "q": "What is 16 × 17?", "choices": ["262","272","282","292"], "answer": 1 },
+        { "q": "Sun is to Day as Moon is to ___?", "choices": ["Sky","Night","Cloud","Star"], "answer": 1 },
+        { "q": "Which does NOT belong? Rose, Tulip, Daisy, Oak.", "choices": ["Rose","Tulip","Daisy","Oak"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "A jar contains 4 red, 6 green, and 10 blue marbles (20 total). If two marbles are drawn without replacement, what is the probability both are red?", "choices": ["2/19","1/25","3/95","1/10"], "answer": 2 },
-        { "q": "Which word is the best synonym of 'voracious'?", "choices": ["Ravenous","Indifferent","Reluctant","Satisfied"], "answer": 0 },
-        { "q": "No fish can breathe air outside water. All sharks are fish. Therefore:", "choices": ["No conclusion can be drawn.","All sharks can breathe air outside water.","No sharks can breathe air outside water.","Some sharks can breathe air outside water."], "answer": 2 },
-        { "q": "A $250 jacket is marked up 35% for a flash-sale display price, then discounted 20% off that display price for the actual sale. What is the final sale price?", "choices": ["$262.50","$255","$280","$270"], "answer": 3 },
-        { "q": "Take the list [52, 18, 7, 41, 23, 9]. Sort it in ascending order, then subtract the 1st value of the sorted list from the 5th value.", "choices": ["34","36","30","33"], "answer": 0 },
-        { "q": "A $60 shirt is marked up 50%, then discounted 40% off the new price. What is the final price?", "choices": ["$54","$50","$56","$60"], "answer": 0 },
-        { "q": "Meticulous most nearly means:", "choices": ["Careless","Very fast","Easily confused","Extremely careful and precise"], "answer": 3 },
-        { "q": "Which does NOT belong? Obfuscate, Dissemble, Prevaricate, Explicate.", "choices": ["Obfuscate","Prevaricate","Explicate","Dissemble"], "answer": 2 },
-        { "q": "Sort 12, 45, 3, 29, 8, 34 in ascending order, then subtract the 2nd value of the result from the 5th value.", "choices": ["25","26","24","27"], "answer": 1 },
-        { "q": "A drawer has 5 red pens and 7 blue pens. Three are drawn without replacement. What is P(all three blue)?", "choices": ["7/44","1/4","3/11","5/44"], "answer": 0 }
+        { "q": "A jar contains 7 yellow and 3 purple gumballs (10 total). Two are drawn without replacement. What is the probability that both are purple?", "choices": ["1/10","1/15","3/10","1/5"], "answer": 1 },
+        { "q": "Which word is the best synonym of 'equivocate'?", "choices": ["Commit","Hedge","Confess","Clarify"], "answer": 1 },
+        { "q": "A $60 jacket is increased by 40% for a special display, then reduced by 25% off that higher price for a one-day sale. What is the final price?", "choices": ["$66","$63","$70","$60"], "answer": 1 },
+        { "q": "All engineers can solve equations. No poets can solve equations. Therefore:", "choices": ["All engineers are poets","Some poets are engineers","All poets are engineers","No poets are engineers"], "answer": 3 },
+        { "q": "Take the list [14, 3, 27, 8, 19, 11]. Reverse it, then add the 2nd and 4th values of the reversed list.", "choices": ["49","38","46","41"], "answer": 2 },
+        { "q": "Sort DELTA, ALPHA, GAMMA, BETA, OMEGA alphabetically. Which is 4th?", "choices": ["OMEGA","DELTA","BETA","GAMMA"], "answer": 3 },
+        { "q": "Reverse 4, 8, 15, 16, 23, 42, then keep only the even values. What is their sum?", "choices": ["62","78","108","70"], "answer": 3 },
+        { "q": "Which word is most nearly opposite in meaning to 'parsimonious'?", "choices": ["Cautious","Miserly","Generous","Frugal"], "answer": 2 },
+        { "q": "A $90 blender is marked up 20%, then discounted 25% off the new price. What is the final price?", "choices": ["$81","$90","$78","$85.50"], "answer": 0 },
+        { "q": "A list is 14, 3, 27, 8, 19, 5. Reverse it, then find the product of the 2nd and 4th values of the result.", "choices": ["527","513","494","506"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the radius of convergence of the power series Σ(xⁿ/n!) for n = 0 to ∞?", "choices": ["0","∞ — it converges for all real x","1","e"], "answer": 1 },
-        { "q": "A sound wave has a wavelength of 2 meters and travels through air at the speed of sound, 340 m/s. What is its frequency?", "choices": ["680 Hz","85 Hz","340 Hz","170 Hz"], "answer": 3 },
-        { "q": "In predicate logic, consider '∃x ∀y Loves(x, y)' versus '∀y ∃x Loves(x, y)'. Which best describes the difference in meaning?", "choices": ["Both say that love is mutual between all pairs","They are logically equivalent — quantifier order never changes meaning","The first says one specific person loves everyone; the second only says everyone is loved by someone (possibly different people)","The first is weaker (less specific) than the second"], "answer": 2 },
-        { "q": "Using the Master Theorem, what is the time complexity of the recurrence T(n) = 3T(n/2) + O(n)?", "choices": ["Θ(n²)","Θ(n)","Θ(n log n)","Θ(n^log₂3), approximately n^1.585"], "answer": 3 },
-        { "q": "A radioactive isotope has a half-life of 5 days. Starting with 128 g, how much remains after 25 days?", "choices": ["4 g","16 g","2 g","8 g"], "answer": 0 },
-        { "q": "What is the sum of the interior angles of a convex decagon (10-gon)?", "choices": ["1080°","1800°","1440°","1620°"], "answer": 2 },
-        { "q": "In propositional logic, which of the following is a tautology (true under every assignment of P and Q)?", "choices": ["(P → Q) ∨ (Q → P)","P ↔ Q","P ∨ Q","P ∧ ¬P"], "answer": 0 },
-        { "q": "A 2 kg object moving at 3 m/s collides elastically with a stationary 1 kg object. What is the velocity of the 2 kg object immediately after the collision?", "choices": ["1 m/s","4 m/s","0 m/s","3 m/s"], "answer": 0 },
-        { "q": "What is ∫ x cos(x) dx?", "choices": ["−x sin(x) + cos(x) + C","sin(x) − x cos(x) + C","x sin(x) − cos(x) + C","x sin(x) + cos(x) + C"], "answer": 3 },
-        { "q": "What is the time complexity of building a binary heap from n unsorted elements using the standard bottom-up heapify algorithm?", "choices": ["O(n log n)","O(log n)","O(n²)","O(n)"], "answer": 3 }
+        { "q": "What is the derivative of f(x) = x^2 sin(x) with respect to x?", "choices": ["2x cos(x)","2x sin(x) + x^2 cos(x)","x^2 cos(x)","2x sin(x) - x^2 cos(x)"], "answer": 1 },
+        { "q": "An 8 kg object moving at 6 m/s collides and sticks to a stationary 2 kg object (perfectly inelastic collision). What is the final velocity of the combined mass?", "choices": ["4 m/s","6 m/s","4.8 m/s","5 m/s"], "answer": 2 },
+        { "q": "A drawer contains socks in 4 different colors, mixed together with no way to see color before pulling one out. What is the minimum number of socks you must pull out to GUARANTEE at least 3 of the same color?", "choices": ["5","9","13","8"], "answer": 1 },
+        { "q": "Methane burns according to CH4 + 2O2 → CO2 + 2H2O. How many moles of O2 are required to completely combust 3 moles of methane?", "choices": ["4.5","9","3","6"], "answer": 3 },
+        { "q": "A convex polyhedron has 12 vertices and 30 edges. Using Euler’s formula V - E + F = 2, how many faces does it have?", "choices": ["18","20","24","22"], "answer": 1 },
+        { "q": "In propositional logic, what is the truth value of (P ∨ ¬P)?", "choices": ["Always true (a tautology)","True only when P is true","True only when P is false","Always false (a contradiction)"], "answer": 0 },
+        { "q": "What is the time complexity of a topological sort on a directed acyclic graph with V vertices and E edges, using depth-first search?", "choices": ["O(V²)","O(E log V)","O(V log V)","O(V + E)"], "answer": 3 },
+        { "q": "In predicate logic, what is the negation of ∀x (P(x) ∨ Q(x))?", "choices": ["∃x (¬P(x) ∧ ¬Q(x))","∃x (P(x) ∧ ¬Q(x))","∀x (¬P(x) ∧ ¬Q(x))","∃x (¬P(x) ∨ ¬Q(x))"], "answer": 0 },
+        { "q": "In the redox reaction Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), which species is oxidized?", "choices": ["Cu²⁺(aq)","Zn²⁺(aq)","Cu(s)","Zn(s)"], "answer": 3 },
+        { "q": "For a zero-order reaction, which plot gives a straight line?", "choices": ["1/[A] vs t","[A]² vs t","[A] vs t","ln[A] vs t"], "answer": 2 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A particular algorithm's runtime exactly doubles every time its input size increases by 1. At input size 10, the runtime is 2 seconds. At what input size does the runtime FIRST exceed 1000 seconds?", "choices": ["19","24","20","15"], "answer": 0 },
-        { "q": "Hospital A treats 100 patients: 90 mild cases (85 survive) and 10 severe cases (2 survive) — an overall 87% survival rate. Hospital B treats 100 patients: 10 mild cases (10 survive) and 90 severe cases (60 survive) — an overall 70% survival rate. Within mild cases alone, B survives 100% vs A's 94.4%; within severe cases alone, B survives 66.7% vs A's 20%. Which hospital actually has the higher survival rate within BOTH patient subgroups separately?", "choices": ["This combination of numbers is mathematically impossible","Hospital B, even though Hospital A has the higher overall rate","Hospital A, matching its higher overall rate","They are exactly tied in both subgroups"], "answer": 1 },
-        { "q": "A man leaves his house, turns left three times, and ends up back at his house — where he's confronted by two men wearing masks. Who are these two men?", "choices": ["A baseball catcher and umpire — he's just a player rounding the bases back to home plate","Two police officers arresting him","Two burglars breaking into his home","His own reflection in two mirrors"], "answer": 0 },
-        { "q": "You're collecting a set of 6 distinct trading cards. Each pack contains exactly one random card, equally likely to be any of the 6 (duplicates allowed). On average, how many packs do you need to buy to collect all 6 distinct cards at least once?", "choices": ["About 14.7 packs","36 packs","10 packs","6 packs"], "answer": 0 },
-        { "q": "Alice and Bob each played exactly 5 games of chess today and each won all 5 of their own games, with no draws. Since chess always has exactly one winner per game, how is it possible that both of them won every game they played?", "choices": ["They each played their 5 games against different opponents, not against each other","It's only possible if none of the games were actually finished","One of them must be lying about the results","Chess allows simultaneous draws to count as wins for both sides"], "answer": 0 },
-        { "q": "In Newcomb's paradox, a predictor has already either put $1,000,000 in Box B (if it predicted you'll take only B) or left it empty (if it predicted you'll take both boxes); Box A always visibly holds $1,000. 'Dominance reasoning' says: since the money is already placed, taking both boxes always nets you $1,000 more than taking Box B alone, whatever's inside. 'Expected-utility reasoning', given the predictor's high accuracy, favours taking only Box B. What does this paradox chiefly illustrate?", "choices": ["That the predictor described in the setup is logically impossible","That two-boxing is objectively the mathematically correct choice in all versions","That one-boxing is objectively the mathematically correct choice in all versions","Two seemingly sound decision-theory principles — dominance and expected-utility maximisation — can recommend opposite choices in the very same problem"], "answer": 3 },
-        { "q": "What comes next in the sequence? 1, 11, 21, 1211, 111221, ___", "choices": ["211213","312211","132231","123211"], "answer": 1 },
-        { "q": "In a three-way 'truel,' A never misses, B hits 80% of the time, and C hits 50% of the time. They fire in turn (A, then B, then C, repeating), each shooting at the rival they see as the biggest threat, and A moves first with a free choice: shoot at B, shoot at C, or fire into the air on purpose. Which first move gives A the best chance of survival?", "choices": ["Shoot at B, the more dangerous shooter","Shoot at C, the weakest shooter","It makes no difference — A's survival odds are the same regardless","Fire into the air on purpose (deliberately miss)"], "answer": 3 },
-        { "q": "Which is correct: 'the yolk of the egg is white' or 'the yolk of the egg are white'?", "choices": ["Both are acceptable","Is white","Are white","Neither — yolks are yellow"], "answer": 3 },
-        { "q": "A fair coin lands heads 5 times in a row. A gambler bets on tails, reasoning 'tails is due.' Is this good reasoning?", "choices": ["No — the streak actually makes heads more likely to continue","Yes, but only because 5 heads in a row is extremely rare","Yes — after 5 heads in a row, tails becomes statistically more likely","No — the coin has no memory; P(tails) is still 0.5 on the next flip regardless of the streak"], "answer": 3 }
+        { "q": "Take any positive integer. If it is even, divide it by 2; if it is odd, triple it and add 1. Repeat this process on the result, over and over. The (still unproven) Collatz conjecture claims that no matter which positive integer you start from, this process will always eventually:", "choices": ["Reach 0 and stop","Reach exactly 1, then cycle 1 → 4 → 2 → 1 forever","Enter a different cycle depending on the starting number, never settling on the same one","Increase without bound, growing larger forever"], "answer": 1 },
+        { "q": "Buses in a city are scheduled to run every 10 minutes on average, but due to traffic, the actual gaps between consecutive buses vary randomly (sometimes 2 minutes, sometimes 18, etc.), while still averaging 10 minutes overall. If you arrive at the stop at a completely random moment, is your expected wait for the next bus exactly 5 minutes, less than 5 minutes, or more than 5 minutes?", "choices": ["It is impossible to say anything about the expected wait without knowing the exact schedule","Exactly 5 minutes, since half of 10 minutes is always the average wait","More than 5 minutes, because arriving at a random moment makes you more likely to land inside one of the longer gaps","Less than 5 minutes, because buses that are late tend to catch up afterward"], "answer": 2 },
+        { "q": "Cancer risk should intuitively rise with body size and lifespan, since more cells and more cell divisions mean more chances for a cancer-causing mutation. Yet large, long-lived animals like whales do not show proportionally higher cancer rates than humans despite having vastly more cells. This observation is known as:", "choices": ["Berkson's paradox","Simpson's paradox","The base rate fallacy","Peto's paradox"], "answer": 3 },
+        { "q": "Class A has 10 students who averaged 60 on a test. Class B has 40 students who averaged 90 on the same test. Someone claims that combining both classes must give an overall average of exactly 75, the midpoint between 60 and 90. What is the actual combined average, and why?", "choices": ["75 — the midpoint is always correct when combining two averages","84 — the true weighted average is pulled toward Class B's score because it has four times as many students","90 — the larger class's average always determines the combined average entirely","It cannot be determined without knowing each student's individual score"], "answer": 1 },
+        { "q": "A university reports that its average class size, computed by averaging over all classes, is exactly 20 students. However, when individual students are surveyed and asked how many students are in their classes, the average class size they report comes out noticeably higher than 20. Both figures are computed correctly. How is this possible?", "choices": ["It isn't possible — both averages must be identical if computed correctly","Students in large classes systematically lie about their class size","The university made an arithmetic error in one of the two calculations","Averaging per student over-weights large classes, since each of their many students reports that same large size, while small classes contribute only a few reports each"], "answer": 3 },
+        { "q": "How many times does the digit 9 appear in the integers from 1 to 100?", "choices": ["19","20","10","11"], "answer": 1 },
+        { "q": "In the general population, having disease A and having disease B are completely statistically independent. A certain hospital admits only patients who have at least one of the two diseases (A, B, or both). Among only the patients admitted to this hospital, researchers find that having disease A makes it LESS likely a patient also has disease B, even though the diseases are independent in the general population. What explains this?", "choices": ["The hospital's sample size is too small to draw any real conclusion","This is impossible — truly independent traits cannot appear correlated in any subgroup","Disease A must be biologically protective against disease B","Berkson's paradox: conditioning on being admitted (having A or B) induces a spurious negative correlation between the independent causes of admission"], "answer": 3 },
+        { "q": "A cowboy rides into town on Friday, stays exactly three days, and rides out on Friday. How is this possible?", "choices": ["He rode in on a Thursday and miscounted the days","The town follows a different calendar system","His horse is named Friday","He didn't actually stay three full days"], "answer": 2 },
+        { "q": "Two fathers and two sons went fishing together. Each caught exactly one fish, yet they brought home only three fish in total. How many people went fishing?", "choices": ["4","2","3","5"], "answer": 2 },
+        { "q": "A basketball player has an independent 75% chance of making any given free throw, unaffected by prior makes or misses, and has just made 9 in a row. Commentators say he's 'heating up' and is now more likely than usual to make the next one. What is the actual probability he makes his 10th free throw?", "choices": ["75%","It depends on how many more shots remain in the game","Lower than 75%, because streaks must break","Higher than 75%, because he's in the zone"], "answer": 0 }
       ]
     }
   ]
