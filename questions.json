@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "Which animal do people often walk on a leash?", "choices": ["Fish","Snake","Dog","Turtle"], "answer": 2 },
-        { "q": "Which of these can you ride: Bicycle, Table, Lamp, Sofa?", "choices": ["Bicycle","Table","Lamp","Sofa"], "answer": 0 },
-        { "q": "Which of these is a color: Red, Jump, Loud, Fast?", "choices": ["Jump","Loud","Fast","Red"], "answer": 3 },
-        { "q": "Where do you go to buy groceries?", "choices": ["A store","A library","A school","A hospital"], "answer": 0 },
-        { "q": "Who delivers mail to your house?", "choices": ["A doctor","A mail carrier","A chef","A pilot"], "answer": 1 },
-        { "q": "What do you call a baby bear?", "choices": ["Calf","Kit","Cub","Joey"], "answer": 2 },
-        { "q": "What do cats say?", "choices": ["Meow","Moo","Baa","Oink"], "answer": 0 },
-        { "q": "Which animal says 'squeak'?", "choices": ["Lion","Dog","Cow","Mouse"], "answer": 3 },
-        { "q": "How many sides does a triangle have?", "choices": ["3","4","2","5"], "answer": 0 },
-        { "q": "What is 9 minus 4?", "choices": ["5","6","4","3"], "answer": 0 }
+        { "q": "What do firefighters use to put out fires?", "choices": ["Rocks","Glue","Water","Sand"], "answer": 2 },
+        { "q": "Which of these can fly: Bird, Fish, Turtle, Snail?", "choices": ["Snail","Fish","Turtle","Bird"], "answer": 3 },
+        { "q": "Which planet do we live on?", "choices": ["Jupiter","Mars","Earth","Venus"], "answer": 2 },
+        { "q": "Which number comes after 9?", "choices": ["8","9","10","11"], "answer": 2 },
+        { "q": "What colour is a clear nighttime sky?", "choices": ["Green","Black","Pink","Yellow"], "answer": 1 },
+        { "q": "How many wheels does a tricycle have?", "choices": ["Four","Three","Two","One"], "answer": 1 },
+        { "q": "What is 2 + 1?", "choices": ["5","4","2","3"], "answer": 3 },
+        { "q": "What do you call a baby bird?", "choices": ["Chick","Pup","Kit","Cub"], "answer": 0 },
+        { "q": "What sound does a dog make?", "choices": ["Baa","Woof","Moo","Meow"], "answer": 1 },
+        { "q": "What is 6 + 6?", "choices": ["12","13","11","10"], "answer": 0 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which does NOT belong? Guitar, Violin, Cello, Microwave.", "choices": ["Cello","Guitar","Violin","Microwave"], "answer": 3 },
-        { "q": "What is 17 × 14?", "choices": ["234","248","228","238"], "answer": 3 },
-        { "q": "What number comes next: 1, 2, 4, 7, 11, ?", "choices": ["14","15","16","18"], "answer": 2 },
-        { "q": "What is the capital of Hungary?", "choices": ["Prague","Bucharest","Budapest","Vienna"], "answer": 2 },
-        { "q": "Doctor is to Patient as Teacher is to ___?", "choices": ["Book","Lesson","Student","School"], "answer": 2 },
-        { "q": "Which of these is not a mammal?", "choices": ["Bat","Whale","Dolphin","Shark"], "answer": 3 },
-        { "q": "Which number IS prime? 21, 33, 41, 49", "choices": ["49","21","41","33"], "answer": 2 },
-        { "q": "What is the greatest common divisor of 108 and 144?", "choices": ["24","48","18","36"], "answer": 3 },
-        { "q": "What is 45% of 200?", "choices": ["85","90","100","95"], "answer": 1 },
-        { "q": "Which does NOT belong? Cerulean, Cobalt, Ultramarine, Ochre.", "choices": ["Ultramarine","Ochre","Cerulean","Cobalt"], "answer": 1 }
+        { "q": "Which of these is NOT a type of cloud: Cumulus, Stratus, Cirrus, Quartz?", "choices": ["Quartz","Cumulus","Stratus","Cirrus"], "answer": 0 },
+        { "q": "Which of these numbers is a perfect square: 48, 49, 50, 54?", "choices": ["49","48","50","54"], "answer": 0 },
+        { "q": "A week has 7 days. How many days are in 4 weeks?", "choices": ["28","21","35","24"], "answer": 0 },
+        { "q": "What is 169 divided by 13?", "choices": ["13","11","17","15"], "answer": 0 },
+        { "q": "What is 14 x 7?", "choices": ["84","91","104","98"], "answer": 3 },
+        { "q": "What is the capital of Switzerland?", "choices": ["Bern","Zurich","Geneva","Basel"], "answer": 0 },
+        { "q": "What is the square root of 81?", "choices": ["9","11","7","8"], "answer": 0 },
+        { "q": "How many continents are there on Earth?", "choices": ["6","5","8","7"], "answer": 3 },
+        { "q": "If a³ = 1,331, what is a?", "choices": ["9","13","10","11"], "answer": 3 },
+        { "q": "What is the capital of Russia?", "choices": ["Kiev","St Petersburg","Minsk","Moscow"], "answer": 3 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Take the list [31, 6, 44, 19, 27, 12]. Sort it in descending order, then compute the sum of the 1st and 4th values.", "choices": ["63","58","50","71"], "answer": 0 },
-        { "q": "A drawer contains 6 black and 4 white socks (10 total). If two socks are drawn without replacement, what is the probability that both are black?", "choices": ["3/10","1/2","1/3","2/5"], "answer": 2 },
-        { "q": "Which word is the best synonym of 'magnanimous'?", "choices": ["Fearful","Generous","Suspicious","Stingy"], "answer": 1 },
-        { "q": "A $320 item is marked up 15%, then discounted 20% off the marked-up price. What is the final price?", "choices": ["$310.40","$300.80","$288.00","$294.40"], "answer": 3 },
-        { "q": "All librarians are detail-oriented. No detail-oriented people are careless. Therefore:", "choices": ["All detail-oriented people are librarians.","Some librarians are careless.","No valid conclusion follows.","No librarians are careless."], "answer": 3 },
-        { "q": "In 5, 13, 2, 8, 17, 6, 11 — what is the 3rd largest value?", "choices": ["13","8","11","17"], "answer": 2 },
-        { "q": "All poets are dreamers. No dreamers are pragmatists. Therefore:", "choices": ["Some poets are pragmatists.","No poets are pragmatists.","No dreamers are poets.","All pragmatists are poets."], "answer": 1 },
-        { "q": "A jar has 4 green and 7 yellow candies. Two are drawn without replacement. What is P(both yellow)?", "choices": ["1/2","21/55","7/11","49/121"], "answer": 1 },
-        { "q": "Reverse 2, 6, 4, 8, 3, then multiply the first and third values of the result.", "choices": ["18","16","12","24"], "answer": 2 },
-        { "q": "Two taps fill a tank in 12 minutes and 18 minutes. How long together?", "choices": ["7 min 12 s","7 min","6 min 40 s","6 min"], "answer": 0 }
+        { "q": "Take the list [40, 17, 63, 9, 28, 51]. Remove every number less than 20, then find the smallest number remaining.", "choices": ["63","28","51","40"], "answer": 1 },
+        { "q": "A population grows from 4,000 to 4,600 over one year. What is the percentage increase?", "choices": ["15%","20%","10%","12%"], "answer": 0 },
+        { "q": "A $75 jacket is marked up by 40%, then discounted 30% off the marked-up price. What is the final price?", "choices": ["$70.00","$73.50","$75.00","$78.75"], "answer": 1 },
+        { "q": "All licensed pilots have passed a flight exam. No one who has passed a flight exam is under 16. Therefore:", "choices": ["No licensed pilot is under 16","All licensed pilots are under 16","No conclusion can be drawn","Some licensed pilots are under 16"], "answer": 0 },
+        { "q": "A bag contains 6 red, 4 blue, and 2 green marbles. What is the probability of drawing a red marble at random?", "choices": ["2/3","1/3","1/4","1/2"], "answer": 3 },
+        { "q": "Which word is most nearly opposite in meaning to 'ephemeral'?", "choices": ["Transient","Enduring","Fleeting","Brief"], "answer": 1 },
+        { "q": "A list is 12, 45, 7, 33, 19, 2. Reverse it, then find the sum of the 1st and 4th values of the result.", "choices": ["26","14","9","21"], "answer": 2 },
+        { "q": "A $150 jacket is discounted 20%, then a further 10% off the reduced price. What is the final price?", "choices": ["$108","$105","$110","$112"], "answer": 0 },
+        { "q": "All P are Q. Some Q are R. No R are S. Which is definitely true?", "choices": ["No P are S","Some P are R","Some P are not R","Some Q are not S"], "answer": 3 },
+        { "q": "A $180 bicycle is discounted 25%, then a further $15 off. What is the final price?", "choices": ["$130","$120","$125","$115"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "What is the derivative of f(x) = (x² + 1)⁵ with respect to x?", "choices": ["5x(x²+1)⁴","10x(x²+1)⁴","10x(x²+1)⁵","5(x²+1)⁴"], "answer": 1 },
-        { "q": "What is the pH of a 0.01 M solution of NaOH (a strong base that fully dissociates)?", "choices": ["10","2","12","11"], "answer": 2 },
-        { "q": "A spring with spring constant k = 500 N/m is compressed 0.04 m from equilibrium. How much elastic potential energy is stored?", "choices": ["0.2 J","0.4 J","4.0 J","0.8 J"], "answer": 1 },
-        { "q": "A recursive algorithm satisfies the recurrence T(n) = 4T(n/2) + O(n²). By the Master Theorem, what is its time complexity?", "choices": ["Θ(n³)","Θ(n²)","Θ(n log n)","Θ(n² log n)"], "answer": 3 },
-        { "q": "A propositional logic truth table lists every combination of truth values for 5 distinct propositional variables. How many rows does the table have?", "choices": ["25","32","16","64"], "answer": 1 },
-        { "q": "A satellite orbits Earth in a circular orbit of radius r. By Kepler's third law (T² ∝ r³), if the orbital radius is doubled, by what factor does the orbital period increase?", "choices": ["√2","2","4","2√2"], "answer": 3 },
-        { "q": "What is the derivative of f(x) = x² ln(x) for x > 0?", "choices": ["2x ln x + x","2 ln x + x","2x ln x","x ln x + x"], "answer": 0 },
-        { "q": "What is the pH of a 0.001 M solution of HCl, assuming full dissociation?", "choices": ["2","11","4","3"], "answer": 3 },
-        { "q": "A 3 kg object moving at 6 m/s collides perfectly inelastically with a stationary 1 kg object. What is their common velocity after the collision?", "choices": ["4.5 m/s","4 m/s","3 m/s","6 m/s"], "answer": 0 },
-        { "q": "What is the oxidation state of phosphorus in phosphoric acid, H₃PO₄?", "choices": ["+5","+7","+3","+4"], "answer": 0 }
+        { "q": "A 5 kg object moving at 6 m/s collides and sticks to a stationary 3 kg object. What is the velocity of the combined mass after the collision (perfectly inelastic)?", "choices": ["4 m/s","3 m/s","3.75 m/s","6 m/s"], "answer": 2 },
+        { "q": "What is the space complexity of merge sort on an array of n elements?", "choices": ["O(1)","O(n)","O(log n)","O(n log n)"], "answer": 1 },
+        { "q": "What is ∫(4x^3 - 6x + 2) dx?", "choices": ["x^4 - 3x^2 + 2x + C","4x^4 - 3x^2 + 2x + C","x^4 - 3x^2 + C","x^4 - 6x^2 + 2x + C"], "answer": 0 },
+        { "q": "A committee of 3 people is chosen from a group of 8. How many different committees are possible?", "choices": ["56","168","24","336"], "answer": 0 },
+        { "q": "A gas occupies 2 L at 1 atm and 300 K. If the pressure is increased to 4 atm at constant temperature, what is the new volume (Boyle's Law)?", "choices": ["1 L","0.5 L","2 L","8 L"], "answer": 1 },
+        { "q": "What is the time complexity of building a binary heap from an unsorted array of n elements using the standard bottom-up heapify algorithm?", "choices": ["O(n²)","O(n log n)","O(n)","O(log n)"], "answer": 2 },
+        { "q": "Which of the following is logically equivalent to the material implication P → Q?", "choices": ["P ∧ ¬Q","¬P ∨ Q","¬P ∧ Q","P ∨ ¬Q"], "answer": 1 },
+        { "q": "What is the derivative of x²eˣ with respect to x?", "choices": ["eˣ(x² + 2x)","eˣ·x²","eˣ(x² + 2)","2x·eˣ"], "answer": 0 },
+        { "q": "The work function of a metal is 2.0 eV. What is the maximum kinetic energy of photoelectrons ejected by light of energy 3.5 eV?", "choices": ["3.5 eV","2.0 eV","1.5 eV","1.0 eV"], "answer": 2 },
+        { "q": "The relativistic energy–momentum relation is:", "choices": ["E = mc² + pc","E = pc/√(1 − v²/c²)","E² = (pc)² − (mc²)²","E² = (pc)² + (mc²)²"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A fair coin is flipped 20 times. Which is more likely: getting exactly 10 heads, or getting at least 10 heads?", "choices": ["It cannot be determined without a simulation","At least 10 heads, since that outcome includes 'exactly 10' plus many other successful counts","Exactly 10 heads, since 10 is the single most probable head-count in 20 flips","They are exactly equally likely"], "answer": 1 },
-        { "q": "A standard, well-shuffled 52-card deck is dealt face down in a row. What is the probability that both the top card and the bottom card of the deck are aces?", "choices": ["2/221","4/221","1/169","1/221"], "answer": 3 },
-        { "q": "A fair six-sided die is rolled repeatedly until it shows a 6. What is the expected number of rolls needed?", "choices": ["3","12","6","5"], "answer": 2 },
-        { "q": "Three cards are in a hat: one is red on both sides, one is blue on both sides, and one is red on one side and blue on the other. You pick a card at random and look at one random side — it is red. What is the probability the other side of that same card is also red?", "choices": ["1/3","3/4","2/3","1/2"], "answer": 2 },
-        { "q": "Consider the infinite series 1 − 1 + 1 − 1 + 1 − 1 + ⋯ (Grandi's series). Do its partial sums converge to a single value in the ordinary sense?", "choices": ["Yes, they converge to 1","Yes, they converge to 0","Yes, they converge to 1/2","No — the partial sums oscillate forever between 1 and 0, never settling on one value"], "answer": 3 },
-        { "q": "If you have 3 apples and you take away 2, how many do you have?", "choices": ["3","2","1","0"], "answer": 1 },
-        { "q": "What number continues the sequence: 8, 5, 4, 9, 1, 7, 6, ?, 2", "choices": ["0","11","10","3"], "answer": 3 },
-        { "q": "Three prisoners each have a hat that is independently red or blue with 50% probability. Each can see the other two hats but not their own, and all three must simultaneously guess their own hat colour or pass. They win only if at least one guesses and everyone who guesses is correct. Using the optimal strategy — guess the opposite colour of what you see if the other two hats match, otherwise pass — what is their probability of winning?", "choices": ["1/2","1/8","3/4","7/8"], "answer": 2 },
-        { "q": "A plane flies at a constant airspeed through a constant wind, from city A to city B and then straight back to city A along the same path. Compared to a completely windless day, does the round trip take the same time, more time, or less time?", "choices": ["More time than on a windless day","Less time, because the average ground speed is higher","It depends on the wind's direction relative to the flight path","Exactly the same time, since the headwind and tailwind cancel out"], "answer": 0 },
-        { "q": "Three boxes are labeled 'Apples', 'Oranges', and 'Apples & Oranges'. You are told all three labels are wrong. You may draw exactly one fruit from exactly one box, without looking inside, and must then correctly relabel all three boxes. Which box should you draw from?", "choices": ["The box labeled 'Apples'","It cannot be done with only one draw","The box labeled 'Oranges'","The box labeled 'Apples & Oranges'"], "answer": 3 }
+        { "q": "You interview candidates one at a time, in random order, and must accept or permanently reject each one immediately. You want to maximize your chance of hiring the single best candidate overall. What is the optimal strategy, and roughly what success probability does it achieve as the candidate pool grows large?", "choices": ["Reject roughly the first 37% automatically, then hire the next candidate who beats everyone seen so far — this succeeds about 37% of the time","Interview everyone, then go back and hire the best one — this succeeds 100% of the time","Always hire the very first candidate — this succeeds 100% of the time","Reject the first half automatically, then hire the next one who beats everyone seen so far — this succeeds about 50% of the time"], "answer": 0 },
+        { "q": "You're given a sealed envelope containing an unknown amount of money X. You're told a second sealed envelope contains either half or double of X, each equally likely. Before opening either, you're offered the chance to switch. An argument claims the expected value of the other envelope is 1.25X, so you should always switch. What is actually true?", "choices": ["You should switch only if X happens to be an even number","You should never switch, since the envelopes are identical in appearance","The argument is correct — you should always switch to gain 25% in expectation","The argument is flawed — it treats the fixed unknown amount in your envelope as if it were a random variable, so there is no expected gain from switching"], "answer": 3 },
+        { "q": "Buses arrive at a stop according to a Poisson process, averaging one bus every 10 minutes (so some gaps are longer than average and some shorter, but they average 10 minutes). If you arrive at a uniformly random time, what is your expected waiting time for the next bus?", "choices": ["20 minutes — twice the average gap","It cannot be determined without more information","5 minutes — half the average gap","10 minutes — the same as the average gap, due to the inspection paradox"], "answer": 3 },
+        { "q": "Three doors hide a car and two goats. You pick Door 1. Unlike the classic Monty Hall setup, this host does NOT know what's behind the doors — he opens one of the other two doors uniformly at random, and it happens to reveal a goat. Should you switch to the remaining door, and what is your probability of winning the car if you do?", "choices": ["Switch; the probability of winning is 2/3, exactly as in the classic Monty Hall problem","Switch; the probability of winning is now 1/2","It cannot be determined without knowing which door the host prefers","Stay; the probability of winning is 2/3"], "answer": 1 },
+        { "q": "Let A be the event 'a stock's price rises next week' and B be the event 'the stock's price rises next week AND its trading volume also increases.' Which of these is necessarily true, regardless of how A and B are correlated?", "choices": ["P(B) ≤ P(A), since B is a more specific, conjoined version of A","P(B) ≥ P(A), since B contains more information","P(B) > P(A), since adding a plausible detail makes the combined scenario more likely","P(B) = P(A) always"], "answer": 0 },
+        { "q": "A small college has 10 classes: nine classes have 10 students each, and one large lecture has 100 students. The registrar computes the average class size as (9×10 + 100) ÷ 10 = 19 students. If instead you ask a randomly chosen student how many people are in their class and average all the answers, what do you get?", "choices": ["About 100, the size of the largest class","About 29","About 57, much higher, because far more students sit in the large class","About 19, the same as the registrar's figure"], "answer": 2 },
+        { "q": "A large hospital averages about 45 births a day; a small hospital averages about 15 births a day. Over a year, which hospital is more likely to record a day on which more than 60% of the births were boys?", "choices": ["The large hospital, because it records more births overall","Both equally likely, since the sex ratio is 50/50 regardless of sample size","It cannot be determined without knowing the exact daily counts","The small hospital, because smaller samples fluctuate further from 50%"], "answer": 3 },
+        { "q": "100 prisoners, each assigned a unique number 1-100, must each find their own number among 100 boxes by opening at most 50 boxes (the room is reset between prisoners; no communication once it starts). If every prisoner follows the strategy 'open the box matching my number, then open the box matching the number found inside, and repeat,' what is the approximate probability that all 100 prisoners succeed?", "choices": ["≈50%","essentially 0% (about 0.5¹⁰⁰)","≈31%","100% — the strategy is guaranteed"], "answer": 2 },
+        { "q": "If you flip a fair coin repeatedly, which takes longer on average: waiting for the pattern HH to appear, or waiting for the pattern HT to appear?", "choices": ["HT takes longer on average (expected 6 flips vs 4)","It depends on which pattern you flip first","HH takes longer on average (expected 6 flips vs 4)","They take exactly the same expected number of flips"], "answer": 2 },
+        { "q": "You flip a fair coin repeatedly until you get three heads in a row (HHH). What is the expected number of flips this takes?", "choices": ["14","6","8","12"], "answer": 0 }
       ]
     }
   ]
