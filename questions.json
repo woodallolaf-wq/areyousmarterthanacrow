@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "What do firefighters use to put out fires?", "choices": ["Rocks","Glue","Water","Sand"], "answer": 2 },
-        { "q": "Which of these can fly: Bird, Fish, Turtle, Snail?", "choices": ["Snail","Fish","Turtle","Bird"], "answer": 3 },
-        { "q": "Which planet do we live on?", "choices": ["Jupiter","Mars","Earth","Venus"], "answer": 2 },
-        { "q": "Which number comes after 9?", "choices": ["8","9","10","11"], "answer": 2 },
-        { "q": "What colour is a clear nighttime sky?", "choices": ["Green","Black","Pink","Yellow"], "answer": 1 },
-        { "q": "How many wheels does a tricycle have?", "choices": ["Four","Three","Two","One"], "answer": 1 },
-        { "q": "What is 2 + 1?", "choices": ["5","4","2","3"], "answer": 3 },
-        { "q": "What do you call a baby bird?", "choices": ["Chick","Pup","Kit","Cub"], "answer": 0 },
-        { "q": "What sound does a dog make?", "choices": ["Baa","Woof","Moo","Meow"], "answer": 1 },
-        { "q": "What is 6 + 6?", "choices": ["12","13","11","10"], "answer": 0 }
+        { "q": "What do you often see in the sky after it rains?", "choices": ["Rainbow","Star","Snowman","Moon"], "answer": 0 },
+        { "q": "Which of these tastes sweet?", "choices": ["Sugar","Lemon","Salt","Pepper"], "answer": 0 },
+        { "q": "Which of these feels soft?", "choices": ["Ice","Brick","Pillow","Rock"], "answer": 2 },
+        { "q": "Which of these tastes sour?", "choices": ["Lemon","Cake","Sugar","Honey"], "answer": 0 },
+        { "q": "Which of these feels rough?", "choices": ["Water","Glass","Sandpaper","Silk"], "answer": 2 },
+        { "q": "What do spiders spin?", "choices": ["Hives","Burrows","Webs","Nests"], "answer": 2 },
+        { "q": "What is 10 minus 1?", "choices": ["9","11","10","8"], "answer": 0 },
+        { "q": "What is the opposite of day?", "choices": ["Sunset","Night","Noon","Morning"], "answer": 1 },
+        { "q": "What is the opposite of 'hot'?", "choices": ["Warm","Big","Cold","Wet"], "answer": 2 },
+        { "q": "What do cows give us to drink?", "choices": ["Juice","Milk","Water","Soda"], "answer": 1 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which of these is NOT a type of cloud: Cumulus, Stratus, Cirrus, Quartz?", "choices": ["Quartz","Cumulus","Stratus","Cirrus"], "answer": 0 },
-        { "q": "Which of these numbers is a perfect square: 48, 49, 50, 54?", "choices": ["49","48","50","54"], "answer": 0 },
-        { "q": "A week has 7 days. How many days are in 4 weeks?", "choices": ["28","21","35","24"], "answer": 0 },
-        { "q": "What is 169 divided by 13?", "choices": ["13","11","17","15"], "answer": 0 },
-        { "q": "What is 14 x 7?", "choices": ["84","91","104","98"], "answer": 3 },
-        { "q": "What is the capital of Switzerland?", "choices": ["Bern","Zurich","Geneva","Basel"], "answer": 0 },
-        { "q": "What is the square root of 81?", "choices": ["9","11","7","8"], "answer": 0 },
-        { "q": "How many continents are there on Earth?", "choices": ["6","5","8","7"], "answer": 3 },
-        { "q": "If a³ = 1,331, what is a?", "choices": ["9","13","10","11"], "answer": 3 },
-        { "q": "What is the capital of Russia?", "choices": ["Kiev","St Petersburg","Minsk","Moscow"], "answer": 3 }
+        { "q": "What is 144 − 57?", "choices": ["107","87","97","77"], "answer": 1 },
+        { "q": "What is the chemical symbol for oxygen?", "choices": ["O2","Ox","Og","O"], "answer": 3 },
+        { "q": "What is 38 × 6?", "choices": ["232","224","218","228"], "answer": 3 },
+        { "q": "How many strings does a standard acoustic guitar have?", "choices": ["4","8","6","12"], "answer": 2 },
+        { "q": "What is the capital of Belgium?", "choices": ["Amsterdam","Brussels","Vienna","Bern"], "answer": 1 },
+        { "q": "What is 17 × 4?", "choices": ["72","64","78","68"], "answer": 3 },
+        { "q": "In J, 5, P, 3, T, 8, W — which letter immediately follows the largest digit?", "choices": ["W","P","T","J"], "answer": 0 },
+        { "q": "Glove is to Hand as Sock is to ___?", "choices": ["Leg","Arm","Foot","Shoe"], "answer": 2 },
+        { "q": "Key is to Lock as Password is to ___?", "choices": ["Combination","Diary","Account","Vault"], "answer": 2 },
+        { "q": "Reverse 9, 1, 6, 4, 2, then multiply the first and last values of the result.", "choices": ["16","18","20","14"], "answer": 1 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Take the list [40, 17, 63, 9, 28, 51]. Remove every number less than 20, then find the smallest number remaining.", "choices": ["63","28","51","40"], "answer": 1 },
-        { "q": "A population grows from 4,000 to 4,600 over one year. What is the percentage increase?", "choices": ["15%","20%","10%","12%"], "answer": 0 },
-        { "q": "A $75 jacket is marked up by 40%, then discounted 30% off the marked-up price. What is the final price?", "choices": ["$70.00","$73.50","$75.00","$78.75"], "answer": 1 },
-        { "q": "All licensed pilots have passed a flight exam. No one who has passed a flight exam is under 16. Therefore:", "choices": ["No licensed pilot is under 16","All licensed pilots are under 16","No conclusion can be drawn","Some licensed pilots are under 16"], "answer": 0 },
-        { "q": "A bag contains 6 red, 4 blue, and 2 green marbles. What is the probability of drawing a red marble at random?", "choices": ["2/3","1/3","1/4","1/2"], "answer": 3 },
-        { "q": "Which word is most nearly opposite in meaning to 'ephemeral'?", "choices": ["Transient","Enduring","Fleeting","Brief"], "answer": 1 },
-        { "q": "A list is 12, 45, 7, 33, 19, 2. Reverse it, then find the sum of the 1st and 4th values of the result.", "choices": ["26","14","9","21"], "answer": 2 },
-        { "q": "A $150 jacket is discounted 20%, then a further 10% off the reduced price. What is the final price?", "choices": ["$108","$105","$110","$112"], "answer": 0 },
-        { "q": "All P are Q. Some Q are R. No R are S. Which is definitely true?", "choices": ["No P are S","Some P are R","Some P are not R","Some Q are not S"], "answer": 3 },
-        { "q": "A $180 bicycle is discounted 25%, then a further $15 off. What is the final price?", "choices": ["$130","$120","$125","$115"], "answer": 1 }
+        { "q": "All Zelkons are Quorbi. No Quorbi are Vithra. Therefore:", "choices": ["No conclusion can be drawn","No Zelkons are Vithra","Some Zelkons are Vithra","All Vithra are Zelkons"], "answer": 1 },
+        { "q": "Nonchalant most nearly means:", "choices": ["Openly hostile and aggressive","Coolly unconcerned or casual","Highly organized and precise","Extremely anxious and tense"], "answer": 1 },
+        { "q": "A $120 item is discounted 25%, then a further 10% off the reduced price. What is the final price?", "choices": ["$78","$81","$84","$90"], "answer": 1 },
+        { "q": "A bag has 5 yellow and 7 purple marbles. Two are drawn without replacement. What is P(both yellow)?", "choices": ["5/12","7/33","1/3","5/33"], "answer": 3 },
+        { "q": "Take the list [52, 9, 34, 71, 18, 40]. Sort it in descending order, then subtract the 3rd value from the 1st value of the result.", "choices": ["-31","18","31","40"], "answer": 2 },
+        { "q": "A $60 jacket is discounted 30%, then a further 10% off the discounted price. What is the final price?", "choices": ["$39.00","$37.80","$42.00","$36.00"], "answer": 1 },
+        { "q": "A sphere has volume 972π cm³. What is its radius?", "choices": ["6 cm","9 cm","8 cm","12 cm"], "answer": 1 },
+        { "q": "Obstinate most nearly means:", "choices": ["Cheerful","Timid","Stubborn","Flexible"], "answer": 2 },
+        { "q": "Sort 17, 4, 23, 9, 31, 2 in ascending order, then multiply the 2nd and 5th values of the result.", "choices": ["85","99","78","92"], "answer": 3 },
+        { "q": "All chemists are meticulous. No meticulous people are careless. Therefore:", "choices": ["All careless people are chemists","No chemists are careless","Some chemists are careless","No chemists are meticulous"], "answer": 1 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A 5 kg object moving at 6 m/s collides and sticks to a stationary 3 kg object. What is the velocity of the combined mass after the collision (perfectly inelastic)?", "choices": ["4 m/s","3 m/s","3.75 m/s","6 m/s"], "answer": 2 },
-        { "q": "What is the space complexity of merge sort on an array of n elements?", "choices": ["O(1)","O(n)","O(log n)","O(n log n)"], "answer": 1 },
-        { "q": "What is ∫(4x^3 - 6x + 2) dx?", "choices": ["x^4 - 3x^2 + 2x + C","4x^4 - 3x^2 + 2x + C","x^4 - 3x^2 + C","x^4 - 6x^2 + 2x + C"], "answer": 0 },
-        { "q": "A committee of 3 people is chosen from a group of 8. How many different committees are possible?", "choices": ["56","168","24","336"], "answer": 0 },
-        { "q": "A gas occupies 2 L at 1 atm and 300 K. If the pressure is increased to 4 atm at constant temperature, what is the new volume (Boyle's Law)?", "choices": ["1 L","0.5 L","2 L","8 L"], "answer": 1 },
-        { "q": "What is the time complexity of building a binary heap from an unsorted array of n elements using the standard bottom-up heapify algorithm?", "choices": ["O(n²)","O(n log n)","O(n)","O(log n)"], "answer": 2 },
-        { "q": "Which of the following is logically equivalent to the material implication P → Q?", "choices": ["P ∧ ¬Q","¬P ∨ Q","¬P ∧ Q","P ∨ ¬Q"], "answer": 1 },
-        { "q": "What is the derivative of x²eˣ with respect to x?", "choices": ["eˣ(x² + 2x)","eˣ·x²","eˣ(x² + 2)","2x·eˣ"], "answer": 0 },
-        { "q": "The work function of a metal is 2.0 eV. What is the maximum kinetic energy of photoelectrons ejected by light of energy 3.5 eV?", "choices": ["3.5 eV","2.0 eV","1.5 eV","1.0 eV"], "answer": 2 },
-        { "q": "The relativistic energy–momentum relation is:", "choices": ["E = mc² + pc","E = pc/√(1 − v²/c²)","E² = (pc)² − (mc²)²","E² = (pc)² + (mc²)²"], "answer": 3 }
+        { "q": "A person 2 m tall walks directly away from a 6 m lamppost at a constant rate of 1.5 m/s. How fast is the tip of their shadow moving away from the lamppost?", "choices": ["1.5 m/s","3.0 m/s","0.75 m/s","2.25 m/s"], "answer": 3 },
+        { "q": "A buffer solution contains 0.2 mol of acetic acid (Ka = 1.8×10⁻⁵) and 0.5 mol of sodium acetate in 1 L of solution. Using the Henderson-Hasselbalch equation, what is the pH (to the nearest hundredth)?", "choices": ["5.44","5.14","4.74","4.34"], "answer": 1 },
+        { "q": "What are the eigenvalues of the matrix [[4, 2], [1, 3]]?", "choices": ["6 and 1","7 and 0","5 and 2","4 and 3"], "answer": 2 },
+        { "q": "What is the minimum number of people needed in a room to guarantee that at least 3 of them were born in the same calendar month?", "choices": ["24","25","36","13"], "answer": 1 },
+        { "q": "A recursive algorithm satisfies the recurrence T(n) = 2T(n/3) + O(n). By the Master Theorem, what is its time complexity?", "choices": ["Θ(n^(log₃2))","Θ(log n)","Θ(n log n)","Θ(n)"], "answer": 3 },
+        { "q": "The time complexity of the Fast Fourier Transform on n points is:", "choices": ["O(log n)","O(n log n)","O(n)","O(n²)"], "answer": 1 },
+        { "q": "For a normal distribution, what proportion of the population lies within one standard deviation of the mean?", "choices": ["≈99.7%","≈95%","≈68%","≈50%"], "answer": 2 },
+        { "q": "A ball is thrown vertically upward with initial speed 20 m/s (g = 10 m/s²). How long until it returns to its launch height?", "choices": ["2 s","5 s","10 s","4 s"], "answer": 3 },
+        { "q": "Balance the combustion of propane: C3H8 + __ O2 → 3 CO2 + 4 H2O. What coefficient belongs in the blank?", "choices": ["3","7","5","4"], "answer": 2 },
+        { "q": "What is the correct negation of the statement '∀x (P(x) → Q(x))'?", "choices": ["∃x (¬P(x) ∧ Q(x))","∀x (¬P(x) ∨ Q(x))","∃x (P(x) ∧ ¬Q(x))","∀x (¬P(x) ∧ ¬Q(x))"], "answer": 2 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "You interview candidates one at a time, in random order, and must accept or permanently reject each one immediately. You want to maximize your chance of hiring the single best candidate overall. What is the optimal strategy, and roughly what success probability does it achieve as the candidate pool grows large?", "choices": ["Reject roughly the first 37% automatically, then hire the next candidate who beats everyone seen so far — this succeeds about 37% of the time","Interview everyone, then go back and hire the best one — this succeeds 100% of the time","Always hire the very first candidate — this succeeds 100% of the time","Reject the first half automatically, then hire the next one who beats everyone seen so far — this succeeds about 50% of the time"], "answer": 0 },
-        { "q": "You're given a sealed envelope containing an unknown amount of money X. You're told a second sealed envelope contains either half or double of X, each equally likely. Before opening either, you're offered the chance to switch. An argument claims the expected value of the other envelope is 1.25X, so you should always switch. What is actually true?", "choices": ["You should switch only if X happens to be an even number","You should never switch, since the envelopes are identical in appearance","The argument is correct — you should always switch to gain 25% in expectation","The argument is flawed — it treats the fixed unknown amount in your envelope as if it were a random variable, so there is no expected gain from switching"], "answer": 3 },
-        { "q": "Buses arrive at a stop according to a Poisson process, averaging one bus every 10 minutes (so some gaps are longer than average and some shorter, but they average 10 minutes). If you arrive at a uniformly random time, what is your expected waiting time for the next bus?", "choices": ["20 minutes — twice the average gap","It cannot be determined without more information","5 minutes — half the average gap","10 minutes — the same as the average gap, due to the inspection paradox"], "answer": 3 },
-        { "q": "Three doors hide a car and two goats. You pick Door 1. Unlike the classic Monty Hall setup, this host does NOT know what's behind the doors — he opens one of the other two doors uniformly at random, and it happens to reveal a goat. Should you switch to the remaining door, and what is your probability of winning the car if you do?", "choices": ["Switch; the probability of winning is 2/3, exactly as in the classic Monty Hall problem","Switch; the probability of winning is now 1/2","It cannot be determined without knowing which door the host prefers","Stay; the probability of winning is 2/3"], "answer": 1 },
-        { "q": "Let A be the event 'a stock's price rises next week' and B be the event 'the stock's price rises next week AND its trading volume also increases.' Which of these is necessarily true, regardless of how A and B are correlated?", "choices": ["P(B) ≤ P(A), since B is a more specific, conjoined version of A","P(B) ≥ P(A), since B contains more information","P(B) > P(A), since adding a plausible detail makes the combined scenario more likely","P(B) = P(A) always"], "answer": 0 },
-        { "q": "A small college has 10 classes: nine classes have 10 students each, and one large lecture has 100 students. The registrar computes the average class size as (9×10 + 100) ÷ 10 = 19 students. If instead you ask a randomly chosen student how many people are in their class and average all the answers, what do you get?", "choices": ["About 100, the size of the largest class","About 29","About 57, much higher, because far more students sit in the large class","About 19, the same as the registrar's figure"], "answer": 2 },
-        { "q": "A large hospital averages about 45 births a day; a small hospital averages about 15 births a day. Over a year, which hospital is more likely to record a day on which more than 60% of the births were boys?", "choices": ["The large hospital, because it records more births overall","Both equally likely, since the sex ratio is 50/50 regardless of sample size","It cannot be determined without knowing the exact daily counts","The small hospital, because smaller samples fluctuate further from 50%"], "answer": 3 },
-        { "q": "100 prisoners, each assigned a unique number 1-100, must each find their own number among 100 boxes by opening at most 50 boxes (the room is reset between prisoners; no communication once it starts). If every prisoner follows the strategy 'open the box matching my number, then open the box matching the number found inside, and repeat,' what is the approximate probability that all 100 prisoners succeed?", "choices": ["≈50%","essentially 0% (about 0.5¹⁰⁰)","≈31%","100% — the strategy is guaranteed"], "answer": 2 },
-        { "q": "If you flip a fair coin repeatedly, which takes longer on average: waiting for the pattern HH to appear, or waiting for the pattern HT to appear?", "choices": ["HT takes longer on average (expected 6 flips vs 4)","It depends on which pattern you flip first","HH takes longer on average (expected 6 flips vs 4)","They take exactly the same expected number of flips"], "answer": 2 },
-        { "q": "You flip a fair coin repeatedly until you get three heads in a row (HHH). What is the expected number of flips this takes?", "choices": ["14","6","8","12"], "answer": 0 }
+        { "q": "Which is more likely: rolling at least one 6 in four rolls of a single fair die, or rolling at least one double-6 in twenty-four rolls of a pair of fair dice?", "choices": ["Four rolls of one die is slightly more likely (≈51.8% vs ≈49.1%)","Twenty-four rolls of two dice is slightly more likely (≈51.8% vs ≈49.1%)","They are exactly equally likely, since both scale the number of rolls and outcomes by the same factor of 6","It cannot be determined without running a simulation"], "answer": 0 },
+        { "q": "You bought a non-refundable $200 concert ticket. On the night of the show you come down with a bad flu and know you'd barely enjoy the concert if you forced yourself to go — the $200 is gone either way, whether you attend or not. Many people nonetheless drag themselves to the show, reasoning 'I already paid for it, so I have to go.' What is this reasoning error called?", "choices": ["Loss aversion","The endowment effect","The gambler's fallacy","The sunk cost fallacy — letting an unrecoverable past cost influence a decision that should be based only on future costs and benefits"], "answer": 3 },
+        { "q": "Hospital A has a higher survival rate than Hospital B for minor surgeries, and also a higher survival rate than Hospital B for major surgeries. Yet when all surgeries are combined, Hospital B has the higher OVERALL survival rate. Both sets of figures are accurate. How is this possible?", "choices": ["It isn't possible — at least one hospital's numbers must be wrong","The combined rate is always just the average of the two category rates, so Hospital A should lead overall too","Hospital A treats a much larger share of high-risk major-surgery cases, so the riskier case mix drags down its combined rate — this is Simpson's paradox","Hospital B's doctors must simply be more skilled overall"], "answer": 2 },
+        { "q": "A patch of lily pads on a lake doubles in size every single day. It takes exactly 48 days for the patch to grow and cover the entire lake. On which day does the patch cover exactly HALF of the lake?", "choices": ["Day 24","Day 36","Day 46","Day 47"], "answer": 3 },
+        { "q": "A vending machine dispenses one of 5 different keychains, chosen uniformly at random and independently each time you buy one. On average, how many keychains must you buy to collect all 5 different ones?", "choices": ["About 11.42 (137/12)","15","25","5"], "answer": 0 },
+        { "q": "How many people must be in a room before there is a greater than 50% chance that at least one of them shares your exact birthday (not just any two people sharing a birthday with each other)?", "choices": ["253","183","23","365"], "answer": 0 },
+        { "q": "A puzzle defines a number as 'the smallest positive integer not describable in under twenty English words' — but that very definition describes the number in fewer than twenty words. This self-referential contradiction is known as:", "choices": ["The Berry paradox","The Liar paradox","Russell's paradox","The Halting problem"], "answer": 0 },
+        { "q": "In your dating pool, extremely attractive people seem to have worse personalities, and vice versa — even though attractiveness and personality are completely uncorrelated in the general population. What best explains this apparent negative correlation?", "choices": ["Attractive people become unpleasant because they get away with more.","Selection bias: you only consider people who clear a minimum combined-desirability bar, so within that selected group, low value in one trait requires high value in the other, creating an artificial negative correlation (Berkson's paradox).","Unattractive people are nicer because they compensate for their looks.","The correlation is real and holds in the general population too, not just your dating pool."], "answer": 1 },
+        { "q": "A father leaves 17 camels to his three sons: the eldest gets half, the second gets a third, and the youngest gets a ninth — numbers that don't divide 17 evenly. A wise elder lends them one camel to solve it. What happens?", "choices": ["They now have 18 camels: the sons take 9, 6, and 2 camels respectively (17 total), and the elder takes back the borrowed camel.","The problem has no valid solution and the will is voided by the court.","The 17 camels are simply divided into three equal groups after rounding.","They now have 18 camels: the sons take 9, 6, and 3 camels respectively, and the elder keeps the borrowed camel as payment."], "answer": 0 },
+        { "q": "How many people must be in a room before the chance that two share a birthday exceeds 50%?", "choices": ["183","50","23","366"], "answer": 2 }
       ]
     }
   ]
