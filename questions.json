@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "opponents": [
     {
       "id": "timmy",
       "name": "Timmy",
       "iq": 70,
       "questions": [
-        { "q": "Which is heavier: a feather or a rock?", "choices": ["A feather","Neither weighs anything","They weigh the same","A rock"], "answer": 3 },
-        { "q": "Which shape has four equal sides?", "choices": ["Star","Triangle","Circle","Square"], "answer": 3 },
-        { "q": "Which number comes after 7?", "choices": ["9","8","5","6"], "answer": 1 },
-        { "q": "What color is grass?", "choices": ["Black","Green","Blue","Red"], "answer": 1 },
-        { "q": "Which is bigger: an elephant or a mouse?", "choices": ["An elephant","Neither","They are the same size","A mouse"], "answer": 0 },
-        { "q": "How many wheels does a skateboard have?", "choices": ["Four","Six","Three","Two"], "answer": 0 },
-        { "q": "What do you wear when it rains?", "choices": ["Swimsuit","Mittens","Sunglasses","Raincoat"], "answer": 3 },
-        { "q": "How many wheels does a wheelbarrow have?", "choices": ["One","Three","Two","Four"], "answer": 0 },
-        { "q": "Which animal has a hump on its back?", "choices": ["Dog","Camel","Horse","Cow"], "answer": 1 },
-        { "q": "What colour is the sky on a clear day?", "choices": ["Brown","Red","Green","Blue"], "answer": 3 }
+        { "q": "Which is a fruit: apple or chair?", "choices": ["Apple","Both","Chair","Neither"], "answer": 0 },
+        { "q": "Which one can you eat: a cookie or a rock?", "choices": ["A cookie","Both","Neither","A rock"], "answer": 0 },
+        { "q": "What sound does a clock make?", "choices": ["Moo","Honk","Tick-tock","Roar"], "answer": 2 },
+        { "q": "Which is a baby cow called?", "choices": ["Calf","Kitten","Chick","Puppy"], "answer": 0 },
+        { "q": "What do you use to write on paper?", "choices": ["Spoon","Shoe","Pillow","Pencil"], "answer": 3 },
+        { "q": "Which animal says 'hiss'?", "choices": ["Cow","Snake","Dog","Cat"], "answer": 1 },
+        { "q": "What is 4 + 4?", "choices": ["9","7","6","8"], "answer": 3 },
+        { "q": "What is the opposite of 'clean'?", "choices": ["Wet","Shiny","Neat","Dirty"], "answer": 3 },
+        { "q": "What do you use to stay dry in the rain?", "choices": ["Sunglasses","Umbrella","Hat","Scarf"], "answer": 1 },
+        { "q": "How many legs does a cow have?", "choices": ["Six","Eight","Two","Four"], "answer": 3 }
       ]
     },
     {
@@ -23,16 +23,16 @@
       "name": "Crow",
       "iq": 90,
       "questions": [
-        { "q": "Which of these is NOT a fruit: Carrot, Apple, Banana, Grape?", "choices": ["Banana","Apple","Grape","Carrot"], "answer": 3 },
-        { "q": "Which of these is NOT a primary color: Red, Yellow, Blue, Orange?", "choices": ["Orange","Blue","Red","Yellow"], "answer": 0 },
-        { "q": "What is 13 × 6?", "choices": ["72","84","78","76"], "answer": 2 },
-        { "q": "What is 156 ÷ 12?", "choices": ["12","13","15","14"], "answer": 1 },
-        { "q": "Which of these is NOT a reptile: Snake, Lizard, Frog, Turtle?", "choices": ["Frog","Lizard","Snake","Turtle"], "answer": 0 },
-        { "q": "Painter is to Brush as Carpenter is to ___?", "choices": ["Needle","Hammer","Baton","Scalpel"], "answer": 1 },
-        { "q": "What is the capital of Brazil?", "choices": ["Buenos Aires","Brasília","São Paulo","Rio de Janeiro"], "answer": 1 },
-        { "q": "What is 24 × 7?", "choices": ["164","158","172","168"], "answer": 3 },
-        { "q": "What is the lowest common multiple of 14, 21 and 6?", "choices": ["21","126","84","42"], "answer": 3 },
-        { "q": "Which does NOT belong? Oak, Salmon, Maple, Birch.", "choices": ["Maple","Birch","Salmon","Oak"], "answer": 2 }
+        { "q": "Which of these is NOT a bird: Eagle, Sparrow, Penguin, Lizard?", "choices": ["Penguin","Eagle","Sparrow","Lizard"], "answer": 3 },
+        { "q": "If today is Monday, what day was it 3 days ago?", "choices": ["Thursday","Friday","Saturday","Sunday"], "answer": 1 },
+        { "q": "Which of these is NOT a tool: Hammer, Wrench, Screwdriver, Banana?", "choices": ["Banana","Screwdriver","Wrench","Hammer"], "answer": 0 },
+        { "q": "What is 7 × 9?", "choices": ["56","63","54","72"], "answer": 1 },
+        { "q": "Which of these is NOT a vegetable: Carrot, Potato, Strawberry, Broccoli?", "choices": ["Potato","Carrot","Broccoli","Strawberry"], "answer": 3 },
+        { "q": "A shop sells 4 pens for $6. How many pens can be bought with $27?", "choices": ["16","17","18","15"], "answer": 2 },
+        { "q": "What is 19 × 23?", "choices": ["427","434","437","447"], "answer": 2 },
+        { "q": "What is 35% of 180?", "choices": ["54","60","63","72"], "answer": 2 },
+        { "q": "In T, 6, H, 2, B, 9, F, 4, Q — what is the sum of all the digits?", "choices": ["20","19","21","18"], "answer": 2 },
+        { "q": "What is the capital of Finland?", "choices": ["Helsinki","Oslo","Stockholm","Copenhagen"], "answer": 0 }
       ]
     },
     {
@@ -40,16 +40,16 @@
       "name": "Bob",
       "iq": 100,
       "questions": [
-        { "q": "Which word is the best synonym of 'egregious'?", "choices": ["Flagrant","Minor","Praiseworthy","Subtle"], "answer": 0 },
-        { "q": "A shirt originally costs $80. It is marked up by 15%, then discounted by 20% off the new price. What is the final price?", "choices": ["$80.00","$68.00","$73.60","$76.00"], "answer": 2 },
-        { "q": "All Dravins are Korlacks. All Korlacks are Mellifin. Therefore:", "choices": ["Cannot be determined.","No Dravins are Mellifin.","Some Dravins are not Mellifin.","All Dravins are Mellifin."], "answer": 3 },
-        { "q": "A drawer contains 4 red socks and 6 blue socks. Two socks are drawn without replacement. What is P(both red)?", "choices": ["4/25","6/15","2/15","1/5"], "answer": 2 },
-        { "q": "Here is a list of numbers: [22, 6, 31, 9, 15, 4]. Sort them in ascending order, then tell me which number is in the 5th position.", "choices": ["15","31","22","9"], "answer": 2 },
-        { "q": "A drawer has 6 black socks and 4 white socks. Two socks are drawn without replacement. What is P(both black)?", "choices": ["3/5","2/5","1/3","1/2"], "answer": 2 },
-        { "q": "Concomitant most nearly means:", "choices": ["Mutually exclusive","Naturally accompanying","Causally prior","Strongly opposed"], "answer": 1 },
-        { "q": "What is the sum of all integers from 1 to 200?", "choices": ["20,000","20,100","20,200","19,900"], "answer": 1 },
-        { "q": "Peripatetic most nearly means:", "choices": ["Extremely wealthy","Wandering from place to place","Skilled with tools","Habitually late"], "answer": 1 },
-        { "q": "A $400 refrigerator is marked up 10%, then discounted 15% off the new price. What is the final price?", "choices": ["$390","$360","$380","$374"], "answer": 3 }
+        { "q": "Here is a list of numbers: [17, 3, 29, 11, 8, 24]. Sort them in descending order, then tell me which number is in the 4th position.", "choices": ["11","24","17","8"], "answer": 0 },
+        { "q": "Which word is the best synonym of 'inexorable'?", "choices": ["Avoidable","Flexible","Hesitant","Relentless"], "answer": 3 },
+        { "q": "All Vireos are Tantrels. No Tantrels are Buskers. Therefore:", "choices": ["Cannot be determined.","All Vireos are Buskers.","No Vireos are Buskers.","Some Vireos are not Buskers."], "answer": 2 },
+        { "q": "A company's revenue grows from $180,000 to $216,000 in one year. What is the percentage increase?", "choices": ["20%","25%","18%","15%"], "answer": 0 },
+        { "q": "A bag has 4 red and 2 blue marbles. Two are drawn without replacement. What is P(both blue)?", "choices": ["2/15","1/6","1/15","1/9"], "answer": 2 },
+        { "q": "Unctuous most nearly means:", "choices": ["Financially reckless","Physically rigid","Excessively ingratiating","Bluntly honest"], "answer": 2 },
+        { "q": "What is 3¹² ÷ 3⁸?", "choices": ["81","243","9","27"], "answer": 0 },
+        { "q": "Ineluctable most nearly means:", "choices": ["Ambiguous","Reversible","Inevitable","Uncertain"], "answer": 2 },
+        { "q": "All tailors are craftsmen. No craftsmen are impatient. Therefore:", "choices": ["No tailors are impatient","No conclusion follows","Some tailors are impatient","All impatient people are tailors"], "answer": 0 },
+        { "q": "A list is 27, 6, 19, 40, 3, 15. Sort it ascending, then find the sum of the 3rd and 6th values of the result.", "choices": ["58","34","46","55"], "answer": 3 }
       ]
     },
     {
@@ -57,16 +57,16 @@
       "name": "Einstein",
       "iq": 180,
       "questions": [
-        { "q": "A 0.50 L buffer solution contains 0.10 mol NH₃ (Kb = 1.8×10⁻⁵) and 0.10 mol NH₄Cl. What is the pOH of this solution (to the nearest hundredth)?", "choices": ["9.26","14.00","4.74","4.26"], "answer": 2 },
-        { "q": "A projectile is launched at 40 m/s at an angle of 53° above horizontal (sin 53° ≈ 0.8, cos 53° ≈ 0.6, g = 10 m/s²). What is the maximum height reached, in meters?", "choices": ["64.0 m","51.2 m","32.0 m","25.6 m"], "answer": 1 },
-        { "q": "What is the derivative of f(x) = x² eˣ with respect to x?", "choices": ["2x eˣ","x² eˣ","eˣ(x² - 2x)","eˣ(x² + 2x)"], "answer": 3 },
-        { "q": "A recursive algorithm satisfies T(n) = 3T(n/2) + O(n²). By the Master Theorem, what is its time complexity?", "choices": ["Θ(n² log n)","Θ(n log n)","Θ(n^log₂ 3)","Θ(n²)"], "answer": 3 },
-        { "q": "How many distinct arrangements are there of the letters in the word 'COMMITTEE'?", "choices": ["45360","22680","90720","362880"], "answer": 0 },
-        { "q": "How many derangements (permutations with no element in its original position) are there of a 4-element set?", "choices": ["15","6","24","9"], "answer": 3 },
-        { "q": "How much heat energy (in kJ) is required to raise the temperature of 500 g of water by 10°C? (specific heat of water = 4.18 J/g·°C)", "choices": ["20.9 kJ","41.8 kJ","2.09 kJ","209 kJ"], "answer": 0 },
-        { "q": "The Lorentz factor γ for a body moving at v = 0.6c is:", "choices": ["1.20","1.33","1.50","1.25"], "answer": 3 },
-        { "q": "The derivative of sec(x) with respect to x is:", "choices": ["sec²(x)","sec(x)tan(x)","−csc(x)cot(x)","tan(x)"], "answer": 1 },
-        { "q": "A 0.2 kg mass moves in a horizontal circle of radius 0.5 m at a constant speed of 4 m/s. What is the centripetal force acting on it?", "choices": ["12.8 N","6.4 N","1.6 N","3.2 N"], "answer": 1 }
+        { "q": "A spring with spring constant k = 500 N/m is compressed 0.2 m from equilibrium. How much elastic potential energy is stored?", "choices": ["5 J","50 J","20 J","10 J"], "answer": 3 },
+        { "q": "A first-order reaction has rate constant k = 0.0231 s⁻¹. What is its half-life, to the nearest second?", "choices": ["15 s","60 s","30 s","23 s"], "answer": 2 },
+        { "q": "What is the divergence of the vector field F = (x²y, y²z, z²x) at the point (1, 1, 1)?", "choices": ["6","3","9","2"], "answer": 0 },
+        { "q": "A divide-and-conquer algorithm splits a problem of size n into 5 subproblems of size n/2 each, then combines results in O(n³) time. By the Master Theorem, what is the overall time complexity?", "choices": ["Θ(n³)","Θ(n³ log n)","Θ(n² log n)","Θ(n^log₂5)"], "answer": 0 },
+        { "q": "In how many ways can you choose a committee of 3 people from a group of 8, if two specific people refuse to serve together?", "choices": ["50","56","48","6"], "answer": 0 },
+        { "q": "A wheel starts at rest and accelerates uniformly to an angular velocity of 20 rad/s in 4 seconds. What is its angular acceleration?", "choices": ["80 rad/s²","5 rad/s²","4 rad/s²","20 rad/s²"], "answer": 1 },
+        { "q": "What is the derivative of f(x) = x³ln(x) with respect to x?", "choices": ["3x²ln(x) + x³","3x²ln(x)","3x²ln(x) + x²","x²ln(x) + x²"], "answer": 2 },
+        { "q": "What is the time complexity of the Floyd-Warshall all-pairs shortest path algorithm on a graph with V vertices?", "choices": ["O(V log V)","O(V³)","O(V²)","O(V² log V)"], "answer": 1 },
+        { "q": "How many electrons are in a neutral atom of iron (Fe, atomic number 26)?", "choices": ["26","24","30","28"], "answer": 0 },
+        { "q": "Given: P → Q. ¬Q is true. What can be validly concluded?", "choices": ["Nothing can be concluded","P","Q","¬P"], "answer": 3 }
       ]
     },
     {
@@ -74,16 +74,16 @@
       "name": "Claude",
       "iq": 1000,
       "questions": [
-        { "q": "A square has an area of 64. If each side length is increased by 50%, by what percentage does the area increase?", "choices": ["50%","125%","80%","100%"], "answer": 1 },
-        { "q": "A wrench and a bolt together cost $5.50. The wrench costs $5.00 more than the bolt. How much does the bolt cost?", "choices": ["$0.75","$0.50","$0.25","$5.25"], "answer": 2 },
-        { "q": "If you pick two integers independently and uniformly at random from 1 to 100 (repeats allowed), what is the probability, to the nearest 10%, that they are coprime (share no common factor greater than 1)?", "choices": ["10%","90%","60%","30%"], "answer": 2 },
-        { "q": "You invest $1,000 at 10% annual interest, compounded annually, for 2 years. Naive reasoning says this just adds '$100 extra per year' for a total of $1,200. What is the actual final amount after compounding?", "choices": ["$1,210","$1,200","$1,100","$1,220"], "answer": 0 },
-        { "q": "Three fair coins are flipped simultaneously. Given that at least one of them lands heads, what is the probability that all three landed heads?", "choices": ["3/8","1/7","1/2","1/8"], "answer": 1 },
-        { "q": "On the Moon, there is no atmosphere and thus no air resistance. If you drop a hammer and a feather from the same height at the same time, which hits the ground first?", "choices": ["They land at the same time","It depends on their masses","The feather","The hammer"], "answer": 0 },
-        { "q": "Cheryl tells Albert and Bernard that her birthday is one of: May 15, May 16, May 19, June 17, June 18, July 14, July 16, August 14, August 15, August 17. She tells Albert only the month and Bernard only the day. Albert says: 'I don't know when Cheryl's birthday is, but I know Bernard doesn't know either.' Bernard then says: 'At first I didn't know, but now I do.' Albert then says: 'Now I know too.' What is Cheryl's birthday?", "choices": ["August 15","July 14","July 16","May 16"], "answer": 2 },
-        { "q": "Which is more likely: rolling at least one 6 in four rolls of a fair die, or rolling at least one double-six in twenty-four rolls of a pair of fair dice?", "choices": ["At least one 6 in four rolls of a die","At least one double-six in twenty-four rolls of two dice","They are exactly equally likely","Neither — both have zero probability"], "answer": 0 },
-        { "q": "Linda is 31, single, outspoken, and deeply concerned with issues of social justice. Based on probability alone, which is more likely to be true of her?", "choices": ["There is not enough information to say","Both are equally likely","She is a bank teller","She is a bank teller who is active in the feminist movement"], "answer": 2 },
-        { "q": "A game show has 100 doors: 1 hides a car, 99 hide goats. You pick one door. The host, who knows what's behind each door, then opens 98 of the remaining doors, all revealing goats, leaving your door and exactly one other closed. If you switch to that other door, what is your probability of winning the car?", "choices": ["1/99","1/2","99/100","1/100"], "answer": 2 }
+        { "q": "A facial-recognition system has a false-positive rate of 1 in 500,000. It flags one match in a city of 5,000,000 residents, and this match is the only evidence against that person. Assuming the real culprit is equally likely to be any resident and would also be flagged, approximately what is the probability that the flagged person is actually guilty?", "choices": ["About 99.9998%","About 50%","About 9%","About 91%"], "answer": 2 },
+        { "q": "A fair coin has just landed on heads 9 times in a row. What is the probability it lands heads on the 10th flip?", "choices": ["Greater than 1/2 — it's on a heads streak","Less than 1/2 — tails is now 'due'","Nearly 0","1/2"], "answer": 3 },
+        { "q": "A survey asks 100 people whether they own a cat, a dog, both, or neither. 60 say they own a cat, 50 say they own a dog, and 15 say they own neither. How many own both a cat and a dog?", "choices": ["25","15","10","35"], "answer": 0 },
+        { "q": "Program A and Program B both run SAT prep courses. On an easy practice test, Program A's students pass at 90% (45 of 50) while Program B's pass at 88% (440 of 500). On a hard practice test, Program A passes 20% (10 of 50) while Program B passes 15% (3 of 20). Program A has a higher pass rate on both tests. Yet combining both tests, Program B has more total passes relative to total students. How is this possible?", "choices": ["This is a contradiction and the data must be wrong","Program B is actually better on every individual test; the breakdown must be mistaken","Pure random chance explains the reversal regardless of the group sizes","Program B tested overwhelmingly more students on the easy test, which pulls its combined rate up — a Simpson's paradox effect from unequal group sizes"], "answer": 3 },
+        { "q": "Steve is quiet, keeps meticulously organized records, and has little interest in people — traits many associate with librarians. Based purely on the rules of probability (not on how 'typical' each sounds), which must be true, given that farmers vastly outnumber librarians in the general population?", "choices": ["There is not enough information to compare them","P(Steve is a farmer AND a librarian) ≥ P(Steve is a farmer)","Both probabilities must be exactly equal","P(Steve is a farmer) ≥ P(Steve is a farmer AND a librarian)"], "answer": 3 },
+        { "q": "A plane crashes exactly on the border between two countries. Where are the survivors buried?", "choices": ["Split between both countries","Nowhere — survivors are not buried","Whichever country they were citizens of","The nearer country"], "answer": 1 },
+        { "q": "A classic puzzle cuts an 8×8 square (area 64) into 4 pieces and rearranges them into a 5×13 rectangle (area 65) — using the exact same four pieces. Since area cannot actually appear from nowhere, what is really going on?", "choices": ["The original square doesn't actually measure exactly 8×8; rounding in the drawing causes the discrepancy.","One of the four pieces is quietly resized between the two arrangements.","Area is not conserved when flat shapes are cut and rigidly rearranged.","The four pieces don't perfectly form a true rectangle — a thin sliver-shaped gap along the diagonal, invisible at normal drawing scale, accounts for the 'missing' unit of area."], "answer": 3 },
+        { "q": "A woman has 7 daughters. Each daughter has exactly one brother. How many children does the woman have in total?", "choices": ["8","15","7","14"], "answer": 0 },
+        { "q": "A rope is tied snugly around the Earth's equator (treat the Earth as a perfect sphere). If you add exactly 1 extra meter to the rope's length and lift it so it forms a larger circle at a uniform height above the ground all the way around, how high off the ground would the rope be (to the nearest cm)?", "choices": ["About 16 cm","About 1.6 km","It depends on Earth's radius, which isn't given","About 1.6 mm"], "answer": 0 },
+        { "q": "In a single round of the Prisoner's Dilemma, two purely rational, self-interested players cannot communicate or retaliate later. Mutual cooperation would leave both better off than mutual defection. What does classical game theory say two such rational players will actually do?", "choices": ["Both will defect — defection dominates cooperation for each player individually, even though it leaves them both worse off","They split — one cooperates while the other defects","Both will cooperate, since cooperation is the jointly optimal choice","Each randomizes 50/50 between cooperating and defecting"], "answer": 0 }
       ]
     }
   ]
